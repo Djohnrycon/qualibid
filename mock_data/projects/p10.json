@@ -1,0 +1,2630 @@
+{
+  "bids": {
+    "project": {
+      "name": "Dirksen Federal Courthouse Annex",
+      "location": "Chicago, IL",
+      "size_sf": 120000,
+      "type": "Government / Courthouse",
+      "stories": 4
+    },
+    "trades": [
+      {
+        "trade": "Demolition & Site Clearing",
+        "csi_code": "02 40 00",
+        "bids": [
+          {
+            "sub_id": "02-S1",
+            "company": "Lakefront Interiors",
+            "contact": "Pete Adams",
+            "email": "lakefrontinteriors@contractor.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 250000,
+            "line_items": [
+              {
+                "description": "Demolition & Site Clearing - component 1",
+                "amount": 90000
+              },
+              {
+                "description": "Demolition & Site Clearing - component 2",
+                "amount": 65000
+              },
+              {
+                "description": "Demolition & Site Clearing - component 3",
+                "amount": 95000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Dirksen Federal Courthouse Annex drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "02-S2",
+            "company": "Windy City Plumbing",
+            "contact": "Sam Rivera",
+            "email": "windycityplumbing@contractor.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 145000,
+            "line_items": [
+              {
+                "description": "Demolition & Site Clearing - component 1",
+                "amount": 25000
+              },
+              {
+                "description": "Demolition & Site Clearing - component 2",
+                "amount": 25000
+              },
+              {
+                "description": "Demolition & Site Clearing - component 3",
+                "amount": 25000
+              },
+              {
+                "description": "Demolition & Site Clearing - component 4",
+                "amount": 20000
+              },
+              {
+                "description": "Demolition & Site Clearing - component 5",
+                "amount": 25000
+              },
+              {
+                "description": "Demolition & Site Clearing - component 6",
+                "amount": 25000
+              }
+            ],
+            "exclusions": [
+              "Hazardous material abatement - NOT IN CONTRACT"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Dirksen Federal Courthouse Annex drawings issued 03/15/2024.",
+            "post_bid_updates": [
+              {
+                "update_id": "02-U1",
+                "date": "2024-04-28",
+                "from": "Sam Rivera <windycityplumbing@contractor.com>",
+                "subject": "RE: Dirksen Federal Courthouse Annex - Hazardous material abatement Clarification",
+                "body": "Following up on our call \u2014 we can pick up Hazardous material abatement for $10,000 additional. Revised total $155,000.",
+                "revised_total": 155000,
+                "delta": 10000,
+                "scope_added": "Hazardous material abatement"
+              }
+            ]
+          },
+          {
+            "sub_id": "02-S3",
+            "company": "Great Lakes Framing",
+            "contact": "Walt Burns",
+            "email": "greatlakesframing@contractor.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 365000,
+            "line_items": [
+              {
+                "description": "Demolition & Site Clearing - component 1",
+                "amount": 110000
+              },
+              {
+                "description": "Demolition & Site Clearing - component 2",
+                "amount": 130000
+              },
+              {
+                "description": "Demolition & Site Clearing - component 3",
+                "amount": 125000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Dirksen Federal Courthouse Annex drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
+      },
+      {
+        "trade": "Concrete",
+        "csi_code": "03 00 00",
+        "bids": [
+          {
+            "sub_id": "03-S1",
+            "company": "Lakefront Interiors",
+            "contact": "Lisa Chang",
+            "email": "lakefrontinteriors@contractor.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 865000,
+            "line_items": [
+              {
+                "description": "Concrete - component 1",
+                "amount": 290000
+              },
+              {
+                "description": "Concrete - component 2",
+                "amount": 300000
+              },
+              {
+                "description": "Concrete - component 3",
+                "amount": 275000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Dirksen Federal Courthouse Annex drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "03-S2",
+            "company": "Windy City Plumbing",
+            "contact": "James Brown",
+            "email": "windycityplumbing@contractor.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 575000,
+            "line_items": [
+              {
+                "description": "Concrete - component 1",
+                "amount": 190000
+              },
+              {
+                "description": "Concrete - component 2",
+                "amount": 200000
+              },
+              {
+                "description": "Concrete - component 3",
+                "amount": 185000
+              }
+            ],
+            "exclusions": [
+              "Vapor barrier and underslab insulation - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Dirksen Federal Courthouse Annex drawings issued 03/15/2024.",
+            "post_bid_updates": [
+              {
+                "update_id": "03-U1",
+                "date": "2024-04-28",
+                "from": "James Brown <windycityplumbing@contractor.com>",
+                "subject": "RE: Dirksen Federal Courthouse Annex - Vapor barrier and underslab insulation Add",
+                "body": "We can include Vapor barrier and underslab insulation for an additional $40,000. Revised total would be $615,000.",
+                "revised_total": 615000,
+                "delta": 40000,
+                "scope_added": "Vapor barrier and underslab insulation"
+              }
+            ]
+          },
+          {
+            "sub_id": "03-S3",
+            "company": "Great Lakes Framing",
+            "contact": "Maria Valdez",
+            "email": "greatlakesframing@contractor.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 1110000,
+            "line_items": [
+              {
+                "description": "Concrete - component 1",
+                "amount": 250000
+              },
+              {
+                "description": "Concrete - component 2",
+                "amount": 265000
+              },
+              {
+                "description": "Concrete - component 3",
+                "amount": 210000
+              },
+              {
+                "description": "Concrete - component 4",
+                "amount": 215000
+              },
+              {
+                "description": "Concrete - component 5",
+                "amount": 170000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Dirksen Federal Courthouse Annex drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
+      },
+      {
+        "trade": "Masonry",
+        "csi_code": "04 00 00",
+        "bids": [
+          {
+            "sub_id": "04-S1",
+            "company": "Chicago Roofing",
+            "contact": "Angela Cruz",
+            "email": "chicagoroofing@contractor.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 575000,
+            "line_items": [
+              {
+                "description": "Masonry - component 1",
+                "amount": 90000
+              },
+              {
+                "description": "Masonry - component 2",
+                "amount": 75000
+              },
+              {
+                "description": "Masonry - component 3",
+                "amount": 100000
+              },
+              {
+                "description": "Masonry - component 4",
+                "amount": 110000
+              },
+              {
+                "description": "Masonry - component 5",
+                "amount": 110000
+              },
+              {
+                "description": "Masonry - component 6",
+                "amount": 90000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Dirksen Federal Courthouse Annex drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "04-S2",
+            "company": "Prairie Steel",
+            "contact": "Tom Brady",
+            "email": "prairiesteel@contractor.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 365000,
+            "line_items": [
+              {
+                "description": "Masonry - component 1",
+                "amount": 110000
+              },
+              {
+                "description": "Masonry - component 2",
+                "amount": 100000
+              },
+              {
+                "description": "Masonry - component 3",
+                "amount": 75000
+              },
+              {
+                "description": "Masonry - component 4",
+                "amount": 80000
+              }
+            ],
+            "exclusions": [
+              "CMU backup wall - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Dirksen Federal Courthouse Annex drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "04-S3",
+            "company": "Lakefront Interiors",
+            "contact": "Linda Garza",
+            "email": "lakefrontinteriors@contractor.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 795000,
+            "line_items": [
+              {
+                "description": "Masonry - component 1",
+                "amount": 310000
+              },
+              {
+                "description": "Masonry - component 2",
+                "amount": 280000
+              },
+              {
+                "description": "Masonry - component 3",
+                "amount": 205000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Dirksen Federal Courthouse Annex drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
+      },
+      {
+        "trade": "Structural Steel & Misc Metals",
+        "csi_code": "05 00 00",
+        "bids": [
+          {
+            "sub_id": "05-S1",
+            "company": "Prairie Steel",
+            "contact": "Rick Simmons",
+            "email": "prairiesteel@contractor.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 1165000,
+            "line_items": [
+              {
+                "description": "Structural Steel & Misc Metals - component 1",
+                "amount": 335000
+              },
+              {
+                "description": "Structural Steel & Misc Metals - component 2",
+                "amount": 330000
+              },
+              {
+                "description": "Structural Steel & Misc Metals - component 3",
+                "amount": 275000
+              },
+              {
+                "description": "Structural Steel & Misc Metals - component 4",
+                "amount": 225000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Dirksen Federal Courthouse Annex drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "05-S2",
+            "company": "Lakefront Interiors",
+            "contact": "Ed Turner",
+            "email": "lakefrontinteriors@contractor.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 810000,
+            "line_items": [
+              {
+                "description": "Structural Steel & Misc Metals - component 1",
+                "amount": 225000
+              },
+              {
+                "description": "Structural Steel & Misc Metals - component 2",
+                "amount": 300000
+              },
+              {
+                "description": "Structural Steel & Misc Metals - component 3",
+                "amount": 285000
+              }
+            ],
+            "exclusions": [
+              "Miscellaneous metals and embeds - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Dirksen Federal Courthouse Annex drawings issued 03/15/2024.",
+            "post_bid_updates": [
+              {
+                "update_id": "05-U1",
+                "date": "2024-04-28",
+                "from": "Ed Turner <lakefrontinteriors@contractor.com>",
+                "subject": "RE: Dirksen Federal Courthouse Annex - Miscellaneous metals and embeds Clarification",
+                "body": "Following up on our call \u2014 we can pick up Miscellaneous metals and embeds for $55,000 additional. Revised total $865,000.",
+                "revised_total": 865000,
+                "delta": 55000,
+                "scope_added": "Miscellaneous metals and embeds"
+              }
+            ]
+          },
+          {
+            "sub_id": "05-S3",
+            "company": "Windy City Plumbing",
+            "contact": "Carl Johnson",
+            "email": "windycityplumbing@contractor.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 1405000,
+            "line_items": [
+              {
+                "description": "Structural Steel & Misc Metals - component 1",
+                "amount": 375000
+              },
+              {
+                "description": "Structural Steel & Misc Metals - component 2",
+                "amount": 400000
+              },
+              {
+                "description": "Structural Steel & Misc Metals - component 3",
+                "amount": 630000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Dirksen Federal Courthouse Annex drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
+      },
+      {
+        "trade": "Roofing, Waterproofing & Insulation",
+        "csi_code": "07 00 00",
+        "bids": [
+          {
+            "sub_id": "07-S1",
+            "company": "Great Lakes Concrete",
+            "contact": "Maria Valdez",
+            "email": "greatlakesconcrete@contractor.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 625000,
+            "line_items": [
+              {
+                "description": "Roofing, Waterproofing & Insulation - component 1",
+                "amount": 145000
+              },
+              {
+                "description": "Roofing, Waterproofing & Insulation - component 2",
+                "amount": 105000
+              },
+              {
+                "description": "Roofing, Waterproofing & Insulation - component 3",
+                "amount": 140000
+              },
+              {
+                "description": "Roofing, Waterproofing & Insulation - component 4",
+                "amount": 110000
+              },
+              {
+                "description": "Roofing, Waterproofing & Insulation - component 5",
+                "amount": 125000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Dirksen Federal Courthouse Annex drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "07-S2",
+            "company": "Midwest Mechanical",
+            "contact": "Kevin Walsh",
+            "email": "midwestmechanical@contractor.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 385000,
+            "line_items": [
+              {
+                "description": "Roofing, Waterproofing & Insulation - component 1",
+                "amount": 75000
+              },
+              {
+                "description": "Roofing, Waterproofing & Insulation - component 2",
+                "amount": 60000
+              },
+              {
+                "description": "Roofing, Waterproofing & Insulation - component 3",
+                "amount": 60000
+              },
+              {
+                "description": "Roofing, Waterproofing & Insulation - component 4",
+                "amount": 75000
+              },
+              {
+                "description": "Roofing, Waterproofing & Insulation - component 5",
+                "amount": 70000
+              },
+              {
+                "description": "Roofing, Waterproofing & Insulation - component 6",
+                "amount": 45000
+              }
+            ],
+            "exclusions": [
+              "Below-slab waterproofing - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Dirksen Federal Courthouse Annex drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "07-S3",
+            "company": "Chicago Roofing",
+            "contact": "Beth Adams",
+            "email": "chicagoroofing@contractor.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 835000,
+            "line_items": [
+              {
+                "description": "Roofing, Waterproofing & Insulation - component 1",
+                "amount": 175000
+              },
+              {
+                "description": "Roofing, Waterproofing & Insulation - component 2",
+                "amount": 225000
+              },
+              {
+                "description": "Roofing, Waterproofing & Insulation - component 3",
+                "amount": 170000
+              },
+              {
+                "description": "Roofing, Waterproofing & Insulation - component 4",
+                "amount": 265000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Dirksen Federal Courthouse Annex drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
+      },
+      {
+        "trade": "Doors, Frames, Hardware & Glazing",
+        "csi_code": "08 00 00",
+        "bids": [
+          {
+            "sub_id": "08-S1",
+            "company": "Lakefront Interiors",
+            "contact": "Angela Cruz",
+            "email": "lakefrontinteriors@contractor.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 975000,
+            "line_items": [
+              {
+                "description": "Doors, Frames, Hardware & Glazing - component 1",
+                "amount": 140000
+              },
+              {
+                "description": "Doors, Frames, Hardware & Glazing - component 2",
+                "amount": 155000
+              },
+              {
+                "description": "Doors, Frames, Hardware & Glazing - component 3",
+                "amount": 155000
+              },
+              {
+                "description": "Doors, Frames, Hardware & Glazing - component 4",
+                "amount": 130000
+              },
+              {
+                "description": "Doors, Frames, Hardware & Glazing - component 5",
+                "amount": 175000
+              },
+              {
+                "description": "Doors, Frames, Hardware & Glazing - component 6",
+                "amount": 220000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Dirksen Federal Courthouse Annex drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "08-S2",
+            "company": "Windy City Plumbing",
+            "contact": "Tom Brady",
+            "email": "windycityplumbing@contractor.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 620000,
+            "line_items": [
+              {
+                "description": "Doors, Frames, Hardware & Glazing - component 1",
+                "amount": 120000
+              },
+              {
+                "description": "Doors, Frames, Hardware & Glazing - component 2",
+                "amount": 85000
+              },
+              {
+                "description": "Doors, Frames, Hardware & Glazing - component 3",
+                "amount": 100000
+              },
+              {
+                "description": "Doors, Frames, Hardware & Glazing - component 4",
+                "amount": 85000
+              },
+              {
+                "description": "Doors, Frames, Hardware & Glazing - component 5",
+                "amount": 95000
+              },
+              {
+                "description": "Doors, Frames, Hardware & Glazing - component 6",
+                "amount": 135000
+              }
+            ],
+            "exclusions": [
+              "Storefront glazing system - NOT IN CONTRACT"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Dirksen Federal Courthouse Annex drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "08-S3",
+            "company": "Great Lakes Framing",
+            "contact": "Linda Garza",
+            "email": "greatlakesframing@contractor.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 1225000,
+            "line_items": [
+              {
+                "description": "Doors, Frames, Hardware & Glazing - component 1",
+                "amount": 195000
+              },
+              {
+                "description": "Doors, Frames, Hardware & Glazing - component 2",
+                "amount": 280000
+              },
+              {
+                "description": "Doors, Frames, Hardware & Glazing - component 3",
+                "amount": 245000
+              },
+              {
+                "description": "Doors, Frames, Hardware & Glazing - component 4",
+                "amount": 270000
+              },
+              {
+                "description": "Doors, Frames, Hardware & Glazing - component 5",
+                "amount": 235000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Dirksen Federal Courthouse Annex drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
+      },
+      {
+        "trade": "Drywall & Framing",
+        "csi_code": "09 20 00",
+        "bids": [
+          {
+            "sub_id": "09-S1",
+            "company": "Chicago Roofing",
+            "contact": "Pete Adams",
+            "email": "chicagoroofing@contractor.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 550000,
+            "line_items": [
+              {
+                "description": "Drywall & Framing - component 1",
+                "amount": 180000
+              },
+              {
+                "description": "Drywall & Framing - component 2",
+                "amount": 200000
+              },
+              {
+                "description": "Drywall & Framing - component 3",
+                "amount": 170000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Dirksen Federal Courthouse Annex drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "09-S2",
+            "company": "Prairie Steel",
+            "contact": "Sam Rivera",
+            "email": "prairiesteel@contractor.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 345000,
+            "line_items": [
+              {
+                "description": "Drywall & Framing - component 1",
+                "amount": 75000
+              },
+              {
+                "description": "Drywall & Framing - component 2",
+                "amount": 75000
+              },
+              {
+                "description": "Drywall & Framing - component 3",
+                "amount": 60000
+              },
+              {
+                "description": "Drywall & Framing - component 4",
+                "amount": 80000
+              },
+              {
+                "description": "Drywall & Framing - component 5",
+                "amount": 55000
+              }
+            ],
+            "exclusions": [
+              "Shaft wall assemblies - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Dirksen Federal Courthouse Annex drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "09-S3",
+            "company": "Lakefront Interiors",
+            "contact": "Walt Burns",
+            "email": "lakefrontinteriors@contractor.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 730000,
+            "line_items": [
+              {
+                "description": "Drywall & Framing - component 1",
+                "amount": 195000
+              },
+              {
+                "description": "Drywall & Framing - component 2",
+                "amount": 285000
+              },
+              {
+                "description": "Drywall & Framing - component 3",
+                "amount": 250000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Dirksen Federal Courthouse Annex drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
+      },
+      {
+        "trade": "Flooring",
+        "csi_code": "09 60 00",
+        "bids": [
+          {
+            "sub_id": "09-S1",
+            "company": "Great Lakes Concrete",
+            "contact": "Angela Cruz",
+            "email": "greatlakesconcrete@contractor.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 780000,
+            "line_items": [
+              {
+                "description": "Flooring - component 1",
+                "amount": 120000
+              },
+              {
+                "description": "Flooring - component 2",
+                "amount": 120000
+              },
+              {
+                "description": "Flooring - component 3",
+                "amount": 120000
+              },
+              {
+                "description": "Flooring - component 4",
+                "amount": 130000
+              },
+              {
+                "description": "Flooring - component 5",
+                "amount": 135000
+              },
+              {
+                "description": "Flooring - component 6",
+                "amount": 155000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Dirksen Federal Courthouse Annex drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "09-S2",
+            "company": "Midwest Mechanical",
+            "contact": "Tom Brady",
+            "email": "midwestmechanical@contractor.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 525000,
+            "line_items": [
+              {
+                "description": "Flooring - component 1",
+                "amount": 110000
+              },
+              {
+                "description": "Flooring - component 2",
+                "amount": 130000
+              },
+              {
+                "description": "Flooring - component 3",
+                "amount": 135000
+              },
+              {
+                "description": "Flooring - component 4",
+                "amount": 150000
+              }
+            ],
+            "exclusions": [
+              "Specialty sheet vinyl in procedure rooms - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Dirksen Federal Courthouse Annex drawings issued 03/15/2024.",
+            "post_bid_updates": [
+              {
+                "update_id": "09-U1",
+                "date": "2024-04-28",
+                "from": "Tom Brady <midwestmechanical@contractor.com>",
+                "subject": "RE: Dirksen Federal Courthouse Annex - Specialty sheet vinyl in procedure rooms Clarification",
+                "body": "Following up on our call \u2014 we can pick up Specialty sheet vinyl in procedure rooms for $35,000 additional. Revised total $560,000.",
+                "revised_total": 560000,
+                "delta": 35000,
+                "scope_added": "Specialty sheet vinyl in procedure rooms"
+              }
+            ]
+          },
+          {
+            "sub_id": "09-S3",
+            "company": "Chicago Roofing",
+            "contact": "Linda Garza",
+            "email": "chicagoroofing@contractor.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 1005000,
+            "line_items": [
+              {
+                "description": "Flooring - component 1",
+                "amount": 385000
+              },
+              {
+                "description": "Flooring - component 2",
+                "amount": 330000
+              },
+              {
+                "description": "Flooring - component 3",
+                "amount": 290000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Dirksen Federal Courthouse Annex drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
+      },
+      {
+        "trade": "Painting & Wall Coverings",
+        "csi_code": "09 90 00",
+        "bids": [
+          {
+            "sub_id": "09-S1",
+            "company": "Prairie Steel",
+            "contact": "Sam Rivera",
+            "email": "prairiesteel@contractor.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 305000,
+            "line_items": [
+              {
+                "description": "Painting & Wall Coverings - component 1",
+                "amount": 40000
+              },
+              {
+                "description": "Painting & Wall Coverings - component 2",
+                "amount": 50000
+              },
+              {
+                "description": "Painting & Wall Coverings - component 3",
+                "amount": 55000
+              },
+              {
+                "description": "Painting & Wall Coverings - component 4",
+                "amount": 55000
+              },
+              {
+                "description": "Painting & Wall Coverings - component 5",
+                "amount": 60000
+              },
+              {
+                "description": "Painting & Wall Coverings - component 6",
+                "amount": 45000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Dirksen Federal Courthouse Annex drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "09-S2",
+            "company": "Lakefront Interiors",
+            "contact": "Walt Burns",
+            "email": "lakefrontinteriors@contractor.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 195000,
+            "line_items": [
+              {
+                "description": "Painting & Wall Coverings - component 1",
+                "amount": 50000
+              },
+              {
+                "description": "Painting & Wall Coverings - component 2",
+                "amount": 50000
+              },
+              {
+                "description": "Painting & Wall Coverings - component 3",
+                "amount": 45000
+              },
+              {
+                "description": "Painting & Wall Coverings - component 4",
+                "amount": 50000
+              }
+            ],
+            "exclusions": [
+              "Exterior painting - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Dirksen Federal Courthouse Annex drawings issued 03/15/2024.",
+            "post_bid_updates": [
+              {
+                "update_id": "09-U1",
+                "date": "2024-04-28",
+                "from": "Walt Burns <lakefrontinteriors@contractor.com>",
+                "subject": "RE: Dirksen Federal Courthouse Annex - Exterior painting Scope Add",
+                "body": "Per our conversation this morning: Exterior painting can be added for $15,000. New total is $210,000.",
+                "revised_total": 210000,
+                "delta": 15000,
+                "scope_added": "Exterior painting"
+              }
+            ]
+          },
+          {
+            "sub_id": "09-S3",
+            "company": "Windy City Plumbing",
+            "contact": "Mike Torres",
+            "email": "windycityplumbing@contractor.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 400000,
+            "line_items": [
+              {
+                "description": "Painting & Wall Coverings - component 1",
+                "amount": 150000
+              },
+              {
+                "description": "Painting & Wall Coverings - component 2",
+                "amount": 150000
+              },
+              {
+                "description": "Painting & Wall Coverings - component 3",
+                "amount": 100000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Dirksen Federal Courthouse Annex drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
+      },
+      {
+        "trade": "Acoustical Ceilings (ACT)",
+        "csi_code": "09 51 00",
+        "bids": [
+          {
+            "sub_id": "09-S1",
+            "company": "Midwest Mechanical",
+            "contact": "Tom Brady",
+            "email": "midwestmechanical@contractor.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 400000,
+            "line_items": [
+              {
+                "description": "Acoustical Ceilings (ACT) - component 1",
+                "amount": 85000
+              },
+              {
+                "description": "Acoustical Ceilings (ACT) - component 2",
+                "amount": 70000
+              },
+              {
+                "description": "Acoustical Ceilings (ACT) - component 3",
+                "amount": 90000
+              },
+              {
+                "description": "Acoustical Ceilings (ACT) - component 4",
+                "amount": 70000
+              },
+              {
+                "description": "Acoustical Ceilings (ACT) - component 5",
+                "amount": 85000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Dirksen Federal Courthouse Annex drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "09-S2",
+            "company": "Chicago Roofing",
+            "contact": "Linda Garza",
+            "email": "chicagoroofing@contractor.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 280000,
+            "line_items": [
+              {
+                "description": "Acoustical Ceilings (ACT) - component 1",
+                "amount": 65000
+              },
+              {
+                "description": "Acoustical Ceilings (ACT) - component 2",
+                "amount": 65000
+              },
+              {
+                "description": "Acoustical Ceilings (ACT) - component 3",
+                "amount": 50000
+              },
+              {
+                "description": "Acoustical Ceilings (ACT) - component 4",
+                "amount": 55000
+              },
+              {
+                "description": "Acoustical Ceilings (ACT) - component 5",
+                "amount": 45000
+              }
+            ],
+            "exclusions": [
+              "Gypsum board soffits and clouds - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Dirksen Federal Courthouse Annex drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "09-S3",
+            "company": "Prairie Steel",
+            "contact": "Bill Torres",
+            "email": "prairiesteel@contractor.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 535000,
+            "line_items": [
+              {
+                "description": "Acoustical Ceilings (ACT) - component 1",
+                "amount": 145000
+              },
+              {
+                "description": "Acoustical Ceilings (ACT) - component 2",
+                "amount": 155000
+              },
+              {
+                "description": "Acoustical Ceilings (ACT) - component 3",
+                "amount": 235000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Dirksen Federal Courthouse Annex drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
+      },
+      {
+        "trade": "Specialties",
+        "csi_code": "10 00 00",
+        "bids": [
+          {
+            "sub_id": "10-S1",
+            "company": "Great Lakes Concrete",
+            "contact": "Angela Cruz",
+            "email": "greatlakesconcrete@contractor.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 255000,
+            "line_items": [
+              {
+                "description": "Specialties - component 1",
+                "amount": 55000
+              },
+              {
+                "description": "Specialties - component 2",
+                "amount": 75000
+              },
+              {
+                "description": "Specialties - component 3",
+                "amount": 60000
+              },
+              {
+                "description": "Specialties - component 4",
+                "amount": 65000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Dirksen Federal Courthouse Annex drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "10-S2",
+            "company": "Midwest Mechanical",
+            "contact": "Tom Brady",
+            "email": "midwestmechanical@contractor.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 160000,
+            "line_items": [
+              {
+                "description": "Specialties - component 1",
+                "amount": 25000
+              },
+              {
+                "description": "Specialties - component 2",
+                "amount": 30000
+              },
+              {
+                "description": "Specialties - component 3",
+                "amount": 35000
+              },
+              {
+                "description": "Specialties - component 4",
+                "amount": 35000
+              },
+              {
+                "description": "Specialties - component 5",
+                "amount": 35000
+              }
+            ],
+            "exclusions": [
+              "ADA signage package - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Dirksen Federal Courthouse Annex drawings issued 03/15/2024.",
+            "post_bid_updates": [
+              {
+                "update_id": "10-U1",
+                "date": "2024-04-28",
+                "from": "Tom Brady <midwestmechanical@contractor.com>",
+                "subject": "RE: Dirksen Federal Courthouse Annex - ADA signage package Add",
+                "body": "We can include ADA signage package for an additional $10,000. Revised total would be $170,000.",
+                "revised_total": 170000,
+                "delta": 10000,
+                "scope_added": "ADA signage package"
+              }
+            ]
+          },
+          {
+            "sub_id": "10-S3",
+            "company": "Chicago Roofing",
+            "contact": "Linda Garza",
+            "email": "chicagoroofing@contractor.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 365000,
+            "line_items": [
+              {
+                "description": "Specialties - component 1",
+                "amount": 135000
+              },
+              {
+                "description": "Specialties - component 2",
+                "amount": 120000
+              },
+              {
+                "description": "Specialties - component 3",
+                "amount": 110000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Dirksen Federal Courthouse Annex drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
+      },
+      {
+        "trade": "Fire Suppression (Sprinklers)",
+        "csi_code": "21 00 00",
+        "bids": [
+          {
+            "sub_id": "21-S1",
+            "company": "Windy City Electric",
+            "contact": "Kevin Walsh",
+            "email": "windycityelectric@contractor.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 500000,
+            "line_items": [
+              {
+                "description": "Fire Suppression (Sprinklers) - component 1",
+                "amount": 170000
+              },
+              {
+                "description": "Fire Suppression (Sprinklers) - component 2",
+                "amount": 160000
+              },
+              {
+                "description": "Fire Suppression (Sprinklers) - component 3",
+                "amount": 170000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Dirksen Federal Courthouse Annex drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "21-S2",
+            "company": "Great Lakes Concrete",
+            "contact": "Beth Adams",
+            "email": "greatlakesconcrete@contractor.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 335000,
+            "line_items": [
+              {
+                "description": "Fire Suppression (Sprinklers) - component 1",
+                "amount": 90000
+              },
+              {
+                "description": "Fire Suppression (Sprinklers) - component 2",
+                "amount": 75000
+              },
+              {
+                "description": "Fire Suppression (Sprinklers) - component 3",
+                "amount": 95000
+              },
+              {
+                "description": "Fire Suppression (Sprinklers) - component 4",
+                "amount": 75000
+              }
+            ],
+            "exclusions": [
+              "Kitchen hood fire suppression - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Dirksen Federal Courthouse Annex drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "21-S3",
+            "company": "Midwest Mechanical",
+            "contact": "Rick Simmons",
+            "email": "midwestmechanical@contractor.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 590000,
+            "line_items": [
+              {
+                "description": "Fire Suppression (Sprinklers) - component 1",
+                "amount": 190000
+              },
+              {
+                "description": "Fire Suppression (Sprinklers) - component 2",
+                "amount": 205000
+              },
+              {
+                "description": "Fire Suppression (Sprinklers) - component 3",
+                "amount": 195000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Dirksen Federal Courthouse Annex drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
+      },
+      {
+        "trade": "Plumbing",
+        "csi_code": "22 00 00",
+        "bids": [
+          {
+            "sub_id": "22-S1",
+            "company": "Midwest Mechanical",
+            "contact": "Carl Johnson",
+            "email": "midwestmechanical@contractor.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 925000,
+            "line_items": [
+              {
+                "description": "Plumbing - component 1",
+                "amount": 210000
+              },
+              {
+                "description": "Plumbing - component 2",
+                "amount": 275000
+              },
+              {
+                "description": "Plumbing - component 3",
+                "amount": 275000
+              },
+              {
+                "description": "Plumbing - component 4",
+                "amount": 165000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Dirksen Federal Courthouse Annex drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "22-S2",
+            "company": "Chicago Roofing",
+            "contact": "Pete Adams",
+            "email": "chicagoroofing@contractor.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 620000,
+            "line_items": [
+              {
+                "description": "Plumbing - component 1",
+                "amount": 135000
+              },
+              {
+                "description": "Plumbing - component 2",
+                "amount": 160000
+              },
+              {
+                "description": "Plumbing - component 3",
+                "amount": 180000
+              },
+              {
+                "description": "Plumbing - component 4",
+                "amount": 145000
+              }
+            ],
+            "exclusions": [
+              "Medical gas outlets and zone valves - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Dirksen Federal Courthouse Annex drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "22-S3",
+            "company": "Prairie Steel",
+            "contact": "Sam Rivera",
+            "email": "prairiesteel@contractor.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 1090000,
+            "line_items": [
+              {
+                "description": "Plumbing - component 1",
+                "amount": 250000
+              },
+              {
+                "description": "Plumbing - component 2",
+                "amount": 220000
+              },
+              {
+                "description": "Plumbing - component 3",
+                "amount": 200000
+              },
+              {
+                "description": "Plumbing - component 4",
+                "amount": 240000
+              },
+              {
+                "description": "Plumbing - component 5",
+                "amount": 180000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Dirksen Federal Courthouse Annex drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
+      },
+      {
+        "trade": "Mechanical (HVAC)",
+        "csi_code": "23 00 00",
+        "bids": [
+          {
+            "sub_id": "23-S1",
+            "company": "Midwest Mechanical",
+            "contact": "Bill Torres",
+            "email": "midwestmechanical@contractor.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 1200000,
+            "line_items": [
+              {
+                "description": "Mechanical (HVAC) - component 1",
+                "amount": 280000
+              },
+              {
+                "description": "Mechanical (HVAC) - component 2",
+                "amount": 205000
+              },
+              {
+                "description": "Mechanical (HVAC) - component 3",
+                "amount": 260000
+              },
+              {
+                "description": "Mechanical (HVAC) - component 4",
+                "amount": 285000
+              },
+              {
+                "description": "Mechanical (HVAC) - component 5",
+                "amount": 170000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Dirksen Federal Courthouse Annex drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "23-S2",
+            "company": "Chicago Roofing",
+            "contact": "Priya Nair",
+            "email": "chicagoroofing@contractor.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 785000,
+            "line_items": [
+              {
+                "description": "Mechanical (HVAC) - component 1",
+                "amount": 170000
+              },
+              {
+                "description": "Mechanical (HVAC) - component 2",
+                "amount": 175000
+              },
+              {
+                "description": "Mechanical (HVAC) - component 3",
+                "amount": 160000
+              },
+              {
+                "description": "Mechanical (HVAC) - component 4",
+                "amount": 160000
+              },
+              {
+                "description": "Mechanical (HVAC) - component 5",
+                "amount": 120000
+              }
+            ],
+            "exclusions": [
+              "Medical gas rough-in and kitchen hood exhaust - NOT IN CONTRACT"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Dirksen Federal Courthouse Annex drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "23-S3",
+            "company": "Prairie Steel",
+            "contact": "Rob Flores",
+            "email": "prairiesteel@contractor.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 1420000,
+            "line_items": [
+              {
+                "description": "Mechanical (HVAC) - component 1",
+                "amount": 255000
+              },
+              {
+                "description": "Mechanical (HVAC) - component 2",
+                "amount": 275000
+              },
+              {
+                "description": "Mechanical (HVAC) - component 3",
+                "amount": 240000
+              },
+              {
+                "description": "Mechanical (HVAC) - component 4",
+                "amount": 270000
+              },
+              {
+                "description": "Mechanical (HVAC) - component 5",
+                "amount": 230000
+              },
+              {
+                "description": "Mechanical (HVAC) - component 6",
+                "amount": 150000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Dirksen Federal Courthouse Annex drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
+      },
+      {
+        "trade": "Electrical",
+        "csi_code": "26 00 00",
+        "bids": [
+          {
+            "sub_id": "26-S1",
+            "company": "Lakefront Interiors",
+            "contact": "Lisa Chang",
+            "email": "lakefrontinteriors@contractor.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 950000,
+            "line_items": [
+              {
+                "description": "Electrical - component 1",
+                "amount": 280000
+              },
+              {
+                "description": "Electrical - component 2",
+                "amount": 350000
+              },
+              {
+                "description": "Electrical - component 3",
+                "amount": 320000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Dirksen Federal Courthouse Annex drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "26-S2",
+            "company": "Windy City Plumbing",
+            "contact": "James Brown",
+            "email": "windycityplumbing@contractor.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 660000,
+            "line_items": [
+              {
+                "description": "Electrical - component 1",
+                "amount": 115000
+              },
+              {
+                "description": "Electrical - component 2",
+                "amount": 110000
+              },
+              {
+                "description": "Electrical - component 3",
+                "amount": 145000
+              },
+              {
+                "description": "Electrical - component 4",
+                "amount": 115000
+              },
+              {
+                "description": "Electrical - component 5",
+                "amount": 175000
+              }
+            ],
+            "exclusions": [
+              "Fire alarm system - NOT IN CONTRACT"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Dirksen Federal Courthouse Annex drawings issued 03/15/2024.",
+            "post_bid_updates": [
+              {
+                "update_id": "26-U1",
+                "date": "2024-04-28",
+                "from": "James Brown <windycityplumbing@contractor.com>",
+                "subject": "RE: Dirksen Federal Courthouse Annex - Fire alarm system Clarification",
+                "body": "Following up on our call \u2014 we can pick up Fire alarm system for $45,000 additional. Revised total $705,000.",
+                "revised_total": 705000,
+                "delta": 45000,
+                "scope_added": "Fire alarm system"
+              }
+            ]
+          },
+          {
+            "sub_id": "26-S3",
+            "company": "Great Lakes Framing",
+            "contact": "Maria Valdez",
+            "email": "greatlakesframing@contractor.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 1200000,
+            "line_items": [
+              {
+                "description": "Electrical - component 1",
+                "amount": 375000
+              },
+              {
+                "description": "Electrical - component 2",
+                "amount": 390000
+              },
+              {
+                "description": "Electrical - component 3",
+                "amount": 435000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Dirksen Federal Courthouse Annex drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
+      },
+      {
+        "trade": "Communications (Data, AV, Tel)",
+        "csi_code": "27 00 00",
+        "bids": [
+          {
+            "sub_id": "27-S1",
+            "company": "Great Lakes Concrete",
+            "contact": "Lisa Chang",
+            "email": "greatlakesconcrete@contractor.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 510000,
+            "line_items": [
+              {
+                "description": "Communications (Data, AV, Tel) - component 1",
+                "amount": 75000
+              },
+              {
+                "description": "Communications (Data, AV, Tel) - component 2",
+                "amount": 95000
+              },
+              {
+                "description": "Communications (Data, AV, Tel) - component 3",
+                "amount": 95000
+              },
+              {
+                "description": "Communications (Data, AV, Tel) - component 4",
+                "amount": 80000
+              },
+              {
+                "description": "Communications (Data, AV, Tel) - component 5",
+                "amount": 90000
+              },
+              {
+                "description": "Communications (Data, AV, Tel) - component 6",
+                "amount": 75000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Dirksen Federal Courthouse Annex drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "27-S2",
+            "company": "Midwest Mechanical",
+            "contact": "James Brown",
+            "email": "midwestmechanical@contractor.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 295000,
+            "line_items": [
+              {
+                "description": "Communications (Data, AV, Tel) - component 1",
+                "amount": 60000
+              },
+              {
+                "description": "Communications (Data, AV, Tel) - component 2",
+                "amount": 60000
+              },
+              {
+                "description": "Communications (Data, AV, Tel) - component 3",
+                "amount": 45000
+              },
+              {
+                "description": "Communications (Data, AV, Tel) - component 4",
+                "amount": 50000
+              },
+              {
+                "description": "Communications (Data, AV, Tel) - component 5",
+                "amount": 40000
+              },
+              {
+                "description": "Communications (Data, AV, Tel) - component 6",
+                "amount": 40000
+              }
+            ],
+            "exclusions": [
+              "AV rough-in for conference rooms - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Dirksen Federal Courthouse Annex drawings issued 03/15/2024.",
+            "post_bid_updates": [
+              {
+                "update_id": "27-U1",
+                "date": "2024-04-28",
+                "from": "James Brown <midwestmechanical@contractor.com>",
+                "subject": "RE: Dirksen Federal Courthouse Annex - AV rough-in for conference rooms Clarification",
+                "body": "Following up on our call \u2014 we can pick up AV rough-in for conference rooms for $20,000 additional. Revised total $315,000.",
+                "revised_total": 315000,
+                "delta": 20000,
+                "scope_added": "AV rough-in for conference rooms"
+              }
+            ]
+          },
+          {
+            "sub_id": "27-S3",
+            "company": "Chicago Roofing",
+            "contact": "Maria Valdez",
+            "email": "chicagoroofing@contractor.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 665000,
+            "line_items": [
+              {
+                "description": "Communications (Data, AV, Tel) - component 1",
+                "amount": 115000
+              },
+              {
+                "description": "Communications (Data, AV, Tel) - component 2",
+                "amount": 155000
+              },
+              {
+                "description": "Communications (Data, AV, Tel) - component 3",
+                "amount": 150000
+              },
+              {
+                "description": "Communications (Data, AV, Tel) - component 4",
+                "amount": 130000
+              },
+              {
+                "description": "Communications (Data, AV, Tel) - component 5",
+                "amount": 115000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Dirksen Federal Courthouse Annex drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
+      },
+      {
+        "trade": "Electronic Safety & Security",
+        "csi_code": "28 00 00",
+        "bids": [
+          {
+            "sub_id": "28-S1",
+            "company": "Midwest Mechanical",
+            "contact": "Sam Rivera",
+            "email": "midwestmechanical@contractor.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 565000,
+            "line_items": [
+              {
+                "description": "Electronic Safety & Security - component 1",
+                "amount": 155000
+              },
+              {
+                "description": "Electronic Safety & Security - component 2",
+                "amount": 165000
+              },
+              {
+                "description": "Electronic Safety & Security - component 3",
+                "amount": 130000
+              },
+              {
+                "description": "Electronic Safety & Security - component 4",
+                "amount": 115000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Dirksen Federal Courthouse Annex drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "28-S2",
+            "company": "Chicago Roofing",
+            "contact": "Walt Burns",
+            "email": "chicagoroofing@contractor.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 360000,
+            "line_items": [
+              {
+                "description": "Electronic Safety & Security - component 1",
+                "amount": 105000
+              },
+              {
+                "description": "Electronic Safety & Security - component 2",
+                "amount": 105000
+              },
+              {
+                "description": "Electronic Safety & Security - component 3",
+                "amount": 150000
+              }
+            ],
+            "exclusions": [
+              "Exterior access control and parking - NOT IN CONTRACT"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Dirksen Federal Courthouse Annex drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "28-S3",
+            "company": "Prairie Steel",
+            "contact": "Mike Torres",
+            "email": "prairiesteel@contractor.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 780000,
+            "line_items": [
+              {
+                "description": "Electronic Safety & Security - component 1",
+                "amount": 245000
+              },
+              {
+                "description": "Electronic Safety & Security - component 2",
+                "amount": 255000
+              },
+              {
+                "description": "Electronic Safety & Security - component 3",
+                "amount": 280000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Dirksen Federal Courthouse Annex drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
+      },
+      {
+        "trade": "Earthwork, Grading & Site Preparation",
+        "csi_code": "31 00 00",
+        "bids": [
+          {
+            "sub_id": "31-S1",
+            "company": "Chicago Roofing",
+            "contact": "Lisa Chang",
+            "email": "chicagoroofing@contractor.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 580000,
+            "line_items": [
+              {
+                "description": "Earthwork, Grading & Site Preparation - component 1",
+                "amount": 115000
+              },
+              {
+                "description": "Earthwork, Grading & Site Preparation - component 2",
+                "amount": 135000
+              },
+              {
+                "description": "Earthwork, Grading & Site Preparation - component 3",
+                "amount": 95000
+              },
+              {
+                "description": "Earthwork, Grading & Site Preparation - component 4",
+                "amount": 135000
+              },
+              {
+                "description": "Earthwork, Grading & Site Preparation - component 5",
+                "amount": 100000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Dirksen Federal Courthouse Annex drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "31-S2",
+            "company": "Prairie Steel",
+            "contact": "James Brown",
+            "email": "prairiesteel@contractor.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 345000,
+            "line_items": [
+              {
+                "description": "Earthwork, Grading & Site Preparation - component 1",
+                "amount": 70000
+              },
+              {
+                "description": "Earthwork, Grading & Site Preparation - component 2",
+                "amount": 70000
+              },
+              {
+                "description": "Earthwork, Grading & Site Preparation - component 3",
+                "amount": 65000
+              },
+              {
+                "description": "Earthwork, Grading & Site Preparation - component 4",
+                "amount": 75000
+              },
+              {
+                "description": "Earthwork, Grading & Site Preparation - component 5",
+                "amount": 65000
+              }
+            ],
+            "exclusions": [
+              "Rock excavation allowance - NOT IN CONTRACT"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Dirksen Federal Courthouse Annex drawings issued 03/15/2024.",
+            "post_bid_updates": [
+              {
+                "update_id": "31-U1",
+                "date": "2024-04-28",
+                "from": "James Brown <prairiesteel@contractor.com>",
+                "subject": "RE: Dirksen Federal Courthouse Annex - Rock excavation allowance Scope Add",
+                "body": "Per our conversation this morning: Rock excavation allowance can be added for $25,000. New total is $370,000.",
+                "revised_total": 370000,
+                "delta": 25000,
+                "scope_added": "Rock excavation allowance"
+              }
+            ]
+          },
+          {
+            "sub_id": "31-S3",
+            "company": "Lakefront Interiors",
+            "contact": "Maria Valdez",
+            "email": "lakefrontinteriors@contractor.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 775000,
+            "line_items": [
+              {
+                "description": "Earthwork, Grading & Site Preparation - component 1",
+                "amount": 155000
+              },
+              {
+                "description": "Earthwork, Grading & Site Preparation - component 2",
+                "amount": 185000
+              },
+              {
+                "description": "Earthwork, Grading & Site Preparation - component 3",
+                "amount": 155000
+              },
+              {
+                "description": "Earthwork, Grading & Site Preparation - component 4",
+                "amount": 175000
+              },
+              {
+                "description": "Earthwork, Grading & Site Preparation - component 5",
+                "amount": 105000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Dirksen Federal Courthouse Annex drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
+      },
+      {
+        "trade": "Site Paving, Curbs & Landscaping",
+        "csi_code": "32 00 00",
+        "bids": [
+          {
+            "sub_id": "32-S1",
+            "company": "Great Lakes Concrete",
+            "contact": "Ed Turner",
+            "email": "greatlakesconcrete@contractor.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 790000,
+            "line_items": [
+              {
+                "description": "Site Paving, Curbs & Landscaping - component 1",
+                "amount": 210000
+              },
+              {
+                "description": "Site Paving, Curbs & Landscaping - component 2",
+                "amount": 185000
+              },
+              {
+                "description": "Site Paving, Curbs & Landscaping - component 3",
+                "amount": 180000
+              },
+              {
+                "description": "Site Paving, Curbs & Landscaping - component 4",
+                "amount": 215000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Dirksen Federal Courthouse Annex drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "32-S2",
+            "company": "Midwest Mechanical",
+            "contact": "Carl Johnson",
+            "email": "midwestmechanical@contractor.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 550000,
+            "line_items": [
+              {
+                "description": "Site Paving, Curbs & Landscaping - component 1",
+                "amount": 155000
+              },
+              {
+                "description": "Site Paving, Curbs & Landscaping - component 2",
+                "amount": 170000
+              },
+              {
+                "description": "Site Paving, Curbs & Landscaping - component 3",
+                "amount": 225000
+              }
+            ],
+            "exclusions": [
+              "Landscaping and irrigation - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Dirksen Federal Courthouse Annex drawings issued 03/15/2024.",
+            "post_bid_updates": [
+              {
+                "update_id": "32-U1",
+                "date": "2024-04-28",
+                "from": "Carl Johnson <midwestmechanical@contractor.com>",
+                "subject": "RE: Dirksen Federal Courthouse Annex - Landscaping and irrigation Scope Add",
+                "body": "Per our conversation this morning: Landscaping and irrigation can be added for $40,000. New total is $590,000.",
+                "revised_total": 590000,
+                "delta": 40000,
+                "scope_added": "Landscaping and irrigation"
+              }
+            ]
+          },
+          {
+            "sub_id": "32-S3",
+            "company": "Chicago Roofing",
+            "contact": "Pete Adams",
+            "email": "chicagoroofing@contractor.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 1050000,
+            "line_items": [
+              {
+                "description": "Site Paving, Curbs & Landscaping - component 1",
+                "amount": 305000
+              },
+              {
+                "description": "Site Paving, Curbs & Landscaping - component 2",
+                "amount": 275000
+              },
+              {
+                "description": "Site Paving, Curbs & Landscaping - component 3",
+                "amount": 275000
+              },
+              {
+                "description": "Site Paving, Curbs & Landscaping - component 4",
+                "amount": 195000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Dirksen Federal Courthouse Annex drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
+      },
+      {
+        "trade": "Site Utilities (Water, Sewer, Storm, Gas)",
+        "csi_code": "33 00 00",
+        "bids": [
+          {
+            "sub_id": "33-S1",
+            "company": "Windy City Electric",
+            "contact": "Rob Flores",
+            "email": "windycityelectric@contractor.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 540000,
+            "line_items": [
+              {
+                "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 1",
+                "amount": 170000
+              },
+              {
+                "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 2",
+                "amount": 185000
+              },
+              {
+                "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 3",
+                "amount": 185000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Dirksen Federal Courthouse Annex drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "33-S2",
+            "company": "Great Lakes Concrete",
+            "contact": "Lisa Chang",
+            "email": "greatlakesconcrete@contractor.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 330000,
+            "line_items": [
+              {
+                "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 1",
+                "amount": 130000
+              },
+              {
+                "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 2",
+                "amount": 125000
+              },
+              {
+                "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 3",
+                "amount": 75000
+              }
+            ],
+            "exclusions": [
+              "Underground fire line - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Dirksen Federal Courthouse Annex drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "33-S3",
+            "company": "Midwest Mechanical",
+            "contact": "James Brown",
+            "email": "midwestmechanical@contractor.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 650000,
+            "line_items": [
+              {
+                "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 1",
+                "amount": 130000
+              },
+              {
+                "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 2",
+                "amount": 130000
+              },
+              {
+                "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 3",
+                "amount": 130000
+              },
+              {
+                "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 4",
+                "amount": 120000
+              },
+              {
+                "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 5",
+                "amount": 140000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Dirksen Federal Courthouse Annex drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
+      }
+    ]
+  },
+  "benchmarks": {
+    "source": "RSMeans 2024 (Simulated)",
+    "location": "Chicago, IL",
+    "location_factor": 1.15,
+    "project_type": "Government / Courthouse",
+    "benchmarks": [
+      {
+        "trade": "Demolition & Site Clearing",
+        "csi_code": "02 40 00",
+        "unit": "$/SF",
+        "low": 1.3,
+        "mid": 1.94,
+        "high": 2.91,
+        "notes": "Government / Courthouse benchmark \u2014 Chicago, IL"
+      },
+      {
+        "trade": "Concrete",
+        "csi_code": "03 00 00",
+        "unit": "$/SF",
+        "low": 5.3,
+        "mid": 6.71,
+        "high": 8.83,
+        "notes": "Government / Courthouse benchmark \u2014 Chicago, IL"
+      },
+      {
+        "trade": "Masonry",
+        "csi_code": "04 00 00",
+        "unit": "$/SF",
+        "low": 3.31,
+        "mid": 4.64,
+        "high": 6.18,
+        "notes": "Government / Courthouse benchmark \u2014 Chicago, IL"
+      },
+      {
+        "trade": "Structural Steel & Misc Metals",
+        "csi_code": "05 00 00",
+        "unit": "$/SF",
+        "low": 7.07,
+        "mid": 9.19,
+        "high": 11.48,
+        "notes": "Government / Courthouse benchmark \u2014 Chicago, IL"
+      },
+      {
+        "trade": "Roofing, Waterproofing & Insulation",
+        "csi_code": "07 00 00",
+        "unit": "$/SF",
+        "low": 3.56,
+        "mid": 4.86,
+        "high": 6.48,
+        "notes": "Government / Courthouse benchmark \u2014 Chicago, IL"
+      },
+      {
+        "trade": "Doors, Frames, Hardware & Glazing",
+        "csi_code": "08 00 00",
+        "unit": "$/SF",
+        "low": 5.77,
+        "mid": 7.42,
+        "high": 9.89,
+        "notes": "Government / Courthouse benchmark \u2014 Chicago, IL"
+      },
+      {
+        "trade": "Drywall & Framing",
+        "csi_code": "09 20 00",
+        "unit": "$/SF",
+        "low": 3.18,
+        "mid": 4.24,
+        "high": 5.65,
+        "notes": "Government / Courthouse benchmark \u2014 Chicago, IL"
+      },
+      {
+        "trade": "Flooring",
+        "csi_code": "09 60 00",
+        "unit": "$/SF",
+        "low": 4.78,
+        "mid": 6.12,
+        "high": 8.04,
+        "notes": "Government / Courthouse benchmark \u2014 Chicago, IL"
+      },
+      {
+        "trade": "Painting & Wall Coverings",
+        "csi_code": "09 90 00",
+        "unit": "$/SF",
+        "low": 1.77,
+        "mid": 2.47,
+        "high": 3.18,
+        "notes": "Government / Courthouse benchmark \u2014 Chicago, IL"
+      },
+      {
+        "trade": "Acoustical Ceilings (ACT)",
+        "csi_code": "09 51 00",
+        "unit": "$/SF",
+        "low": 2.47,
+        "mid": 3.18,
+        "high": 4.24,
+        "notes": "Government / Courthouse benchmark \u2014 Chicago, IL"
+      },
+      {
+        "trade": "Specialties",
+        "csi_code": "10 00 00",
+        "unit": "$/SF",
+        "low": 1.44,
+        "mid": 2.06,
+        "high": 2.89,
+        "notes": "Government / Courthouse benchmark \u2014 Chicago, IL"
+      },
+      {
+        "trade": "Fire Suppression (Sprinklers)",
+        "csi_code": "21 00 00",
+        "unit": "$/SF",
+        "low": 2.91,
+        "mid": 3.89,
+        "high": 4.86,
+        "notes": "Government / Courthouse benchmark \u2014 Chicago, IL"
+      },
+      {
+        "trade": "Plumbing",
+        "csi_code": "22 00 00",
+        "unit": "$/SF",
+        "low": 5.59,
+        "mid": 7.07,
+        "high": 8.83,
+        "notes": "Government / Courthouse benchmark \u2014 Chicago, IL"
+      },
+      {
+        "trade": "Mechanical (HVAC)",
+        "csi_code": "23 00 00",
+        "unit": "$/SF",
+        "low": 7.29,
+        "mid": 9.39,
+        "high": 11.66,
+        "notes": "Government / Courthouse benchmark \u2014 Chicago, IL"
+      },
+      {
+        "trade": "Electrical",
+        "csi_code": "26 00 00",
+        "unit": "$/SF",
+        "low": 6.18,
+        "mid": 7.77,
+        "high": 9.72,
+        "notes": "Government / Courthouse benchmark \u2014 Chicago, IL"
+      },
+      {
+        "trade": "Communications (Data, AV, Tel)",
+        "csi_code": "27 00 00",
+        "unit": "$/SF",
+        "low": 2.65,
+        "mid": 3.97,
+        "high": 5.3,
+        "notes": "Government / Courthouse benchmark \u2014 Chicago, IL"
+      },
+      {
+        "trade": "Electronic Safety & Security",
+        "csi_code": "28 00 00",
+        "unit": "$/SF",
+        "low": 3.24,
+        "mid": 4.53,
+        "high": 6.15,
+        "notes": "Government / Courthouse benchmark \u2014 Chicago, IL"
+      },
+      {
+        "trade": "Earthwork, Grading & Site Preparation",
+        "csi_code": "31 00 00",
+        "unit": "$/SF",
+        "low": 3.24,
+        "mid": 4.53,
+        "high": 6.15,
+        "notes": "Government / Courthouse benchmark \u2014 Chicago, IL"
+      },
+      {
+        "trade": "Site Paving, Curbs & Landscaping",
+        "csi_code": "32 00 00",
+        "unit": "$/SF",
+        "low": 4.95,
+        "mid": 6.36,
+        "high": 8.48,
+        "notes": "Government / Courthouse benchmark \u2014 Chicago, IL"
+      },
+      {
+        "trade": "Site Utilities (Water, Sewer, Storm, Gas)",
+        "csi_code": "33 00 00",
+        "unit": "$/SF",
+        "low": 2.94,
+        "mid": 4.12,
+        "high": 5.3,
+        "notes": "Government / Courthouse benchmark \u2014 Chicago, IL"
+      }
+    ]
+  },
+  "general_conditions": {
+    "section": "General Conditions & General Requirements",
+    "csi_code": "01 00 00",
+    "description": "GC overhead for Dirksen Federal Courthouse Annex",
+    "duration_months": 28,
+    "line_items": [
+      {
+        "category": "Project Management",
+        "items": [
+          {
+            "description": "Project Manager (28 months)",
+            "unit": "LS",
+            "monthly_rate": 14950,
+            "months": 28,
+            "total": 418600
+          },
+          {
+            "description": "Project Engineer (28 months)",
+            "unit": "LS",
+            "monthly_rate": 8625,
+            "months": 28,
+            "total": 241500
+          }
+        ]
+      },
+      {
+        "category": "Field Supervision",
+        "items": [
+          {
+            "description": "General Superintendent (28 months)",
+            "unit": "LS",
+            "monthly_rate": 12075,
+            "months": 28,
+            "total": 338100
+          },
+          {
+            "description": "Assistant Superintendent (24 months)",
+            "unit": "LS",
+            "monthly_rate": 9200,
+            "months": 24,
+            "total": 220800
+          }
+        ]
+      },
+      {
+        "category": "Temporary Facilities",
+        "items": [
+          {
+            "description": "Field office, toilets, fencing, temp power",
+            "unit": "LS",
+            "monthly_rate": 4600,
+            "months": 28,
+            "total": 128800
+          }
+        ]
+      },
+      {
+        "category": "Site Operations",
+        "items": [
+          {
+            "description": "Cleanup, dumpsters, safety, vehicles",
+            "unit": "LS",
+            "monthly_rate": 6325,
+            "months": 28,
+            "total": 177100
+          }
+        ]
+      },
+      {
+        "category": "Insurance & Bonding",
+        "items": [
+          {
+            "description": "Builder's Risk, GL, Payment & Performance Bond",
+            "unit": "LS",
+            "monthly_rate": null,
+            "months": null,
+            "total": 690000
+          }
+        ]
+      },
+      {
+        "category": "Permits & Fees",
+        "items": [
+          {
+            "description": "Building permit, special inspections, surveying",
+            "unit": "LS",
+            "monthly_rate": null,
+            "months": null,
+            "total": 248400
+          }
+        ]
+      },
+      {
+        "category": "Technology",
+        "items": [
+          {
+            "description": "BIM, Procore, closeout documentation",
+            "unit": "LS",
+            "monthly_rate": 2070,
+            "months": 28,
+            "total": 57960
+          }
+        ]
+      }
+    ],
+    "subtotal_gc": 2521260,
+    "gc_fee_percent": 4.0,
+    "contingency_percent": 3.5
+  }
+}

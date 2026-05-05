@@ -1,0 +1,2649 @@
+{
+  "bids": {
+    "project": {
+      "name": "One Arts District Tower",
+      "location": "Dallas, TX",
+      "size_sf": 280000,
+      "type": "Mixed-Use High-Rise",
+      "stories": 22
+    },
+    "trades": [
+      {
+        "trade": "Demolition & Site Clearing",
+        "csi_code": "02 40 00",
+        "bids": [
+          {
+            "sub_id": "02-S1",
+            "company": "Texas Interiors",
+            "contact": "Pete Adams",
+            "email": "texasinteriors@contractor.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 525000,
+            "line_items": [
+              {
+                "description": "Demolition & Site Clearing - component 1",
+                "amount": 105000
+              },
+              {
+                "description": "Demolition & Site Clearing - component 2",
+                "amount": 110000
+              },
+              {
+                "description": "Demolition & Site Clearing - component 3",
+                "amount": 100000
+              },
+              {
+                "description": "Demolition & Site Clearing - component 4",
+                "amount": 115000
+              },
+              {
+                "description": "Demolition & Site Clearing - component 5",
+                "amount": 95000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per One Arts District Tower drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "02-S2",
+            "company": "Trinity Plumbing",
+            "contact": "Sam Rivera",
+            "email": "trinityplumbing@contractor.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 305000,
+            "line_items": [
+              {
+                "description": "Demolition & Site Clearing - component 1",
+                "amount": 75000
+              },
+              {
+                "description": "Demolition & Site Clearing - component 2",
+                "amount": 90000
+              },
+              {
+                "description": "Demolition & Site Clearing - component 3",
+                "amount": 80000
+              },
+              {
+                "description": "Demolition & Site Clearing - component 4",
+                "amount": 60000
+              }
+            ],
+            "exclusions": [
+              "Hazardous material abatement - NOT IN CONTRACT"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per One Arts District Tower drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "02-S3",
+            "company": "Metroplex Framing",
+            "contact": "Walt Burns",
+            "email": "metroplexframing@contractor.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 805000,
+            "line_items": [
+              {
+                "description": "Demolition & Site Clearing - component 1",
+                "amount": 210000
+              },
+              {
+                "description": "Demolition & Site Clearing - component 2",
+                "amount": 185000
+              },
+              {
+                "description": "Demolition & Site Clearing - component 3",
+                "amount": 205000
+              },
+              {
+                "description": "Demolition & Site Clearing - component 4",
+                "amount": 205000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per One Arts District Tower drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
+      },
+      {
+        "trade": "Concrete",
+        "csi_code": "03 00 00",
+        "bids": [
+          {
+            "sub_id": "03-S1",
+            "company": "Texas Interiors",
+            "contact": "Lisa Chang",
+            "email": "texasinteriors@contractor.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 1875000,
+            "line_items": [
+              {
+                "description": "Concrete - component 1",
+                "amount": 370000
+              },
+              {
+                "description": "Concrete - component 2",
+                "amount": 365000
+              },
+              {
+                "description": "Concrete - component 3",
+                "amount": 330000
+              },
+              {
+                "description": "Concrete - component 4",
+                "amount": 370000
+              },
+              {
+                "description": "Concrete - component 5",
+                "amount": 440000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per One Arts District Tower drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "03-S2",
+            "company": "Trinity Plumbing",
+            "contact": "James Brown",
+            "email": "trinityplumbing@contractor.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 1310000,
+            "line_items": [
+              {
+                "description": "Concrete - component 1",
+                "amount": 400000
+              },
+              {
+                "description": "Concrete - component 2",
+                "amount": 465000
+              },
+              {
+                "description": "Concrete - component 3",
+                "amount": 445000
+              }
+            ],
+            "exclusions": [
+              "Vapor barrier and underslab insulation - NOT IN CONTRACT"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per One Arts District Tower drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "03-S3",
+            "company": "Metroplex Framing",
+            "contact": "Maria Valdez",
+            "email": "metroplexframing@contractor.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 2500000,
+            "line_items": [
+              {
+                "description": "Concrete - component 1",
+                "amount": 420000
+              },
+              {
+                "description": "Concrete - component 2",
+                "amount": 590000
+              },
+              {
+                "description": "Concrete - component 3",
+                "amount": 445000
+              },
+              {
+                "description": "Concrete - component 4",
+                "amount": 460000
+              },
+              {
+                "description": "Concrete - component 5",
+                "amount": 585000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per One Arts District Tower drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
+      },
+      {
+        "trade": "Masonry",
+        "csi_code": "04 00 00",
+        "bids": [
+          {
+            "sub_id": "04-S1",
+            "company": "Lone Star Roofing",
+            "contact": "Angela Cruz",
+            "email": "lonestarroofing@contractor.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 590000,
+            "line_items": [
+              {
+                "description": "Masonry - component 1",
+                "amount": 195000
+              },
+              {
+                "description": "Masonry - component 2",
+                "amount": 225000
+              },
+              {
+                "description": "Masonry - component 3",
+                "amount": 170000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per One Arts District Tower drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "04-S2",
+            "company": "Pinnacle Steel",
+            "contact": "Tom Brady",
+            "email": "pinnaclesteel@contractor.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 345000,
+            "line_items": [
+              {
+                "description": "Masonry - component 1",
+                "amount": 55000
+              },
+              {
+                "description": "Masonry - component 2",
+                "amount": 50000
+              },
+              {
+                "description": "Masonry - component 3",
+                "amount": 60000
+              },
+              {
+                "description": "Masonry - component 4",
+                "amount": 45000
+              },
+              {
+                "description": "Masonry - component 5",
+                "amount": 65000
+              },
+              {
+                "description": "Masonry - component 6",
+                "amount": 70000
+              }
+            ],
+            "exclusions": [
+              "CMU backup wall - NOT IN CONTRACT"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per One Arts District Tower drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "04-S3",
+            "company": "Texas Interiors",
+            "contact": "Linda Garza",
+            "email": "texasinteriors@contractor.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 725000,
+            "line_items": [
+              {
+                "description": "Masonry - component 1",
+                "amount": 270000
+              },
+              {
+                "description": "Masonry - component 2",
+                "amount": 215000
+              },
+              {
+                "description": "Masonry - component 3",
+                "amount": 240000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per One Arts District Tower drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
+      },
+      {
+        "trade": "Structural Steel & Misc Metals",
+        "csi_code": "05 00 00",
+        "bids": [
+          {
+            "sub_id": "05-S1",
+            "company": "Pinnacle Steel",
+            "contact": "Rick Simmons",
+            "email": "pinnaclesteel@contractor.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 3275000,
+            "line_items": [
+              {
+                "description": "Structural Steel & Misc Metals - component 1",
+                "amount": 1075000
+              },
+              {
+                "description": "Structural Steel & Misc Metals - component 2",
+                "amount": 1225000
+              },
+              {
+                "description": "Structural Steel & Misc Metals - component 3",
+                "amount": 975000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per One Arts District Tower drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "05-S2",
+            "company": "Texas Interiors",
+            "contact": "Ed Turner",
+            "email": "texasinteriors@contractor.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 2175000,
+            "line_items": [
+              {
+                "description": "Structural Steel & Misc Metals - component 1",
+                "amount": 380000
+              },
+              {
+                "description": "Structural Steel & Misc Metals - component 2",
+                "amount": 395000
+              },
+              {
+                "description": "Structural Steel & Misc Metals - component 3",
+                "amount": 365000
+              },
+              {
+                "description": "Structural Steel & Misc Metals - component 4",
+                "amount": 410000
+              },
+              {
+                "description": "Structural Steel & Misc Metals - component 5",
+                "amount": 370000
+              },
+              {
+                "description": "Structural Steel & Misc Metals - component 6",
+                "amount": 255000
+              }
+            ],
+            "exclusions": [
+              "Miscellaneous metals and embeds - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per One Arts District Tower drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "05-S3",
+            "company": "Trinity Plumbing",
+            "contact": "Carl Johnson",
+            "email": "trinityplumbing@contractor.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 3915000,
+            "line_items": [
+              {
+                "description": "Structural Steel & Misc Metals - component 1",
+                "amount": 1075000
+              },
+              {
+                "description": "Structural Steel & Misc Metals - component 2",
+                "amount": 970000
+              },
+              {
+                "description": "Structural Steel & Misc Metals - component 3",
+                "amount": 885000
+              },
+              {
+                "description": "Structural Steel & Misc Metals - component 4",
+                "amount": 985000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per One Arts District Tower drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
+      },
+      {
+        "trade": "Roofing, Waterproofing & Insulation",
+        "csi_code": "07 00 00",
+        "bids": [
+          {
+            "sub_id": "07-S1",
+            "company": "Metroplex Concrete",
+            "contact": "Maria Valdez",
+            "email": "metroplexconcrete@contractor.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 605000,
+            "line_items": [
+              {
+                "description": "Roofing, Waterproofing & Insulation - component 1",
+                "amount": 140000
+              },
+              {
+                "description": "Roofing, Waterproofing & Insulation - component 2",
+                "amount": 125000
+              },
+              {
+                "description": "Roofing, Waterproofing & Insulation - component 3",
+                "amount": 140000
+              },
+              {
+                "description": "Roofing, Waterproofing & Insulation - component 4",
+                "amount": 200000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per One Arts District Tower drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "07-S2",
+            "company": "DFW Mechanical",
+            "contact": "Kevin Walsh",
+            "email": "dfwmechanical@contractor.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 395000,
+            "line_items": [
+              {
+                "description": "Roofing, Waterproofing & Insulation - component 1",
+                "amount": 75000
+              },
+              {
+                "description": "Roofing, Waterproofing & Insulation - component 2",
+                "amount": 80000
+              },
+              {
+                "description": "Roofing, Waterproofing & Insulation - component 3",
+                "amount": 70000
+              },
+              {
+                "description": "Roofing, Waterproofing & Insulation - component 4",
+                "amount": 70000
+              },
+              {
+                "description": "Roofing, Waterproofing & Insulation - component 5",
+                "amount": 100000
+              }
+            ],
+            "exclusions": [
+              "Below-slab waterproofing - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per One Arts District Tower drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "07-S3",
+            "company": "Lone Star Roofing",
+            "contact": "Beth Adams",
+            "email": "lonestarroofing@contractor.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 820000,
+            "line_items": [
+              {
+                "description": "Roofing, Waterproofing & Insulation - component 1",
+                "amount": 220000
+              },
+              {
+                "description": "Roofing, Waterproofing & Insulation - component 2",
+                "amount": 170000
+              },
+              {
+                "description": "Roofing, Waterproofing & Insulation - component 3",
+                "amount": 195000
+              },
+              {
+                "description": "Roofing, Waterproofing & Insulation - component 4",
+                "amount": 235000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per One Arts District Tower drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
+      },
+      {
+        "trade": "Doors, Frames, Hardware & Glazing",
+        "csi_code": "08 00 00",
+        "bids": [
+          {
+            "sub_id": "08-S1",
+            "company": "Texas Interiors",
+            "contact": "Angela Cruz",
+            "email": "texasinteriors@contractor.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 1730000,
+            "line_items": [
+              {
+                "description": "Doors, Frames, Hardware & Glazing - component 1",
+                "amount": 660000
+              },
+              {
+                "description": "Doors, Frames, Hardware & Glazing - component 2",
+                "amount": 640000
+              },
+              {
+                "description": "Doors, Frames, Hardware & Glazing - component 3",
+                "amount": 430000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per One Arts District Tower drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "08-S2",
+            "company": "Trinity Plumbing",
+            "contact": "Tom Brady",
+            "email": "trinityplumbing@contractor.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 1155000,
+            "line_items": [
+              {
+                "description": "Doors, Frames, Hardware & Glazing - component 1",
+                "amount": 155000
+              },
+              {
+                "description": "Doors, Frames, Hardware & Glazing - component 2",
+                "amount": 180000
+              },
+              {
+                "description": "Doors, Frames, Hardware & Glazing - component 3",
+                "amount": 210000
+              },
+              {
+                "description": "Doors, Frames, Hardware & Glazing - component 4",
+                "amount": 220000
+              },
+              {
+                "description": "Doors, Frames, Hardware & Glazing - component 5",
+                "amount": 225000
+              },
+              {
+                "description": "Doors, Frames, Hardware & Glazing - component 6",
+                "amount": 165000
+              }
+            ],
+            "exclusions": [
+              "Storefront glazing system - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per One Arts District Tower drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "08-S3",
+            "company": "Metroplex Framing",
+            "contact": "Linda Garza",
+            "email": "metroplexframing@contractor.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 2205000,
+            "line_items": [
+              {
+                "description": "Doors, Frames, Hardware & Glazing - component 1",
+                "amount": 375000
+              },
+              {
+                "description": "Doors, Frames, Hardware & Glazing - component 2",
+                "amount": 400000
+              },
+              {
+                "description": "Doors, Frames, Hardware & Glazing - component 3",
+                "amount": 410000
+              },
+              {
+                "description": "Doors, Frames, Hardware & Glazing - component 4",
+                "amount": 425000
+              },
+              {
+                "description": "Doors, Frames, Hardware & Glazing - component 5",
+                "amount": 365000
+              },
+              {
+                "description": "Doors, Frames, Hardware & Glazing - component 6",
+                "amount": 230000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per One Arts District Tower drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
+      },
+      {
+        "trade": "Drywall & Framing",
+        "csi_code": "09 20 00",
+        "bids": [
+          {
+            "sub_id": "09-S1",
+            "company": "Lone Star Roofing",
+            "contact": "Pete Adams",
+            "email": "lonestarroofing@contractor.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 970000,
+            "line_items": [
+              {
+                "description": "Drywall & Framing - component 1",
+                "amount": 175000
+              },
+              {
+                "description": "Drywall & Framing - component 2",
+                "amount": 185000
+              },
+              {
+                "description": "Drywall & Framing - component 3",
+                "amount": 190000
+              },
+              {
+                "description": "Drywall & Framing - component 4",
+                "amount": 195000
+              },
+              {
+                "description": "Drywall & Framing - component 5",
+                "amount": 165000
+              },
+              {
+                "description": "Drywall & Framing - component 6",
+                "amount": 60000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per One Arts District Tower drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "09-S2",
+            "company": "Pinnacle Steel",
+            "contact": "Sam Rivera",
+            "email": "pinnaclesteel@contractor.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 640000,
+            "line_items": [
+              {
+                "description": "Drywall & Framing - component 1",
+                "amount": 180000
+              },
+              {
+                "description": "Drywall & Framing - component 2",
+                "amount": 205000
+              },
+              {
+                "description": "Drywall & Framing - component 3",
+                "amount": 255000
+              }
+            ],
+            "exclusions": [
+              "Shaft wall assemblies - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per One Arts District Tower drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "09-S3",
+            "company": "Texas Interiors",
+            "contact": "Walt Burns",
+            "email": "texasinteriors@contractor.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 1275000,
+            "line_items": [
+              {
+                "description": "Drywall & Framing - component 1",
+                "amount": 185000
+              },
+              {
+                "description": "Drywall & Framing - component 2",
+                "amount": 190000
+              },
+              {
+                "description": "Drywall & Framing - component 3",
+                "amount": 200000
+              },
+              {
+                "description": "Drywall & Framing - component 4",
+                "amount": 210000
+              },
+              {
+                "description": "Drywall & Framing - component 5",
+                "amount": 200000
+              },
+              {
+                "description": "Drywall & Framing - component 6",
+                "amount": 290000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per One Arts District Tower drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
+      },
+      {
+        "trade": "Flooring",
+        "csi_code": "09 60 00",
+        "bids": [
+          {
+            "sub_id": "09-S1",
+            "company": "Metroplex Concrete",
+            "contact": "Angela Cruz",
+            "email": "metroplexconcrete@contractor.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 1240000,
+            "line_items": [
+              {
+                "description": "Flooring - component 1",
+                "amount": 410000
+              },
+              {
+                "description": "Flooring - component 2",
+                "amount": 455000
+              },
+              {
+                "description": "Flooring - component 3",
+                "amount": 375000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per One Arts District Tower drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "09-S2",
+            "company": "DFW Mechanical",
+            "contact": "Tom Brady",
+            "email": "dfwmechanical@contractor.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 800000,
+            "line_items": [
+              {
+                "description": "Flooring - component 1",
+                "amount": 140000
+              },
+              {
+                "description": "Flooring - component 2",
+                "amount": 130000
+              },
+              {
+                "description": "Flooring - component 3",
+                "amount": 190000
+              },
+              {
+                "description": "Flooring - component 4",
+                "amount": 130000
+              },
+              {
+                "description": "Flooring - component 5",
+                "amount": 210000
+              }
+            ],
+            "exclusions": [
+              "Specialty sheet vinyl in procedure rooms - NOT IN CONTRACT"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per One Arts District Tower drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "09-S3",
+            "company": "Lone Star Roofing",
+            "contact": "Linda Garza",
+            "email": "lonestarroofing@contractor.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 1605000,
+            "line_items": [
+              {
+                "description": "Flooring - component 1",
+                "amount": 630000
+              },
+              {
+                "description": "Flooring - component 2",
+                "amount": 470000
+              },
+              {
+                "description": "Flooring - component 3",
+                "amount": 505000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per One Arts District Tower drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
+      },
+      {
+        "trade": "Painting & Wall Coverings",
+        "csi_code": "09 90 00",
+        "bids": [
+          {
+            "sub_id": "09-S1",
+            "company": "Pinnacle Steel",
+            "contact": "Sam Rivera",
+            "email": "pinnaclesteel@contractor.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 460000,
+            "line_items": [
+              {
+                "description": "Painting & Wall Coverings - component 1",
+                "amount": 115000
+              },
+              {
+                "description": "Painting & Wall Coverings - component 2",
+                "amount": 105000
+              },
+              {
+                "description": "Painting & Wall Coverings - component 3",
+                "amount": 110000
+              },
+              {
+                "description": "Painting & Wall Coverings - component 4",
+                "amount": 130000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per One Arts District Tower drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "09-S2",
+            "company": "Texas Interiors",
+            "contact": "Walt Burns",
+            "email": "texasinteriors@contractor.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 290000,
+            "line_items": [
+              {
+                "description": "Painting & Wall Coverings - component 1",
+                "amount": 85000
+              },
+              {
+                "description": "Painting & Wall Coverings - component 2",
+                "amount": 60000
+              },
+              {
+                "description": "Painting & Wall Coverings - component 3",
+                "amount": 60000
+              },
+              {
+                "description": "Painting & Wall Coverings - component 4",
+                "amount": 85000
+              }
+            ],
+            "exclusions": [
+              "Exterior painting - NOT IN CONTRACT"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per One Arts District Tower drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "09-S3",
+            "company": "Trinity Plumbing",
+            "contact": "Mike Torres",
+            "email": "trinityplumbing@contractor.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 585000,
+            "line_items": [
+              {
+                "description": "Painting & Wall Coverings - component 1",
+                "amount": 120000
+              },
+              {
+                "description": "Painting & Wall Coverings - component 2",
+                "amount": 135000
+              },
+              {
+                "description": "Painting & Wall Coverings - component 3",
+                "amount": 110000
+              },
+              {
+                "description": "Painting & Wall Coverings - component 4",
+                "amount": 140000
+              },
+              {
+                "description": "Painting & Wall Coverings - component 5",
+                "amount": 80000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per One Arts District Tower drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
+      },
+      {
+        "trade": "Acoustical Ceilings (ACT)",
+        "csi_code": "09 51 00",
+        "bids": [
+          {
+            "sub_id": "09-S1",
+            "company": "DFW Mechanical",
+            "contact": "Tom Brady",
+            "email": "dfwmechanical@contractor.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 660000,
+            "line_items": [
+              {
+                "description": "Acoustical Ceilings (ACT) - component 1",
+                "amount": 150000
+              },
+              {
+                "description": "Acoustical Ceilings (ACT) - component 2",
+                "amount": 135000
+              },
+              {
+                "description": "Acoustical Ceilings (ACT) - component 3",
+                "amount": 110000
+              },
+              {
+                "description": "Acoustical Ceilings (ACT) - component 4",
+                "amount": 160000
+              },
+              {
+                "description": "Acoustical Ceilings (ACT) - component 5",
+                "amount": 105000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per One Arts District Tower drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "09-S2",
+            "company": "Lone Star Roofing",
+            "contact": "Linda Garza",
+            "email": "lonestarroofing@contractor.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 460000,
+            "line_items": [
+              {
+                "description": "Acoustical Ceilings (ACT) - component 1",
+                "amount": 80000
+              },
+              {
+                "description": "Acoustical Ceilings (ACT) - component 2",
+                "amount": 65000
+              },
+              {
+                "description": "Acoustical Ceilings (ACT) - component 3",
+                "amount": 80000
+              },
+              {
+                "description": "Acoustical Ceilings (ACT) - component 4",
+                "amount": 60000
+              },
+              {
+                "description": "Acoustical Ceilings (ACT) - component 5",
+                "amount": 75000
+              },
+              {
+                "description": "Acoustical Ceilings (ACT) - component 6",
+                "amount": 100000
+              }
+            ],
+            "exclusions": [
+              "Gypsum board soffits and clouds - NOT IN CONTRACT"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per One Arts District Tower drawings issued 03/15/2024.",
+            "post_bid_updates": [
+              {
+                "update_id": "09-U1",
+                "date": "2024-04-28",
+                "from": "Linda Garza <lonestarroofing@contractor.com>",
+                "subject": "RE: One Arts District Tower - Gypsum board soffits and clouds Clarification",
+                "body": "Following up on our call \u2014 we can pick up Gypsum board soffits and clouds for $30,000 additional. Revised total $490,000.",
+                "revised_total": 490000,
+                "delta": 30000,
+                "scope_added": "Gypsum board soffits and clouds"
+              }
+            ]
+          },
+          {
+            "sub_id": "09-S3",
+            "company": "Pinnacle Steel",
+            "contact": "Bill Torres",
+            "email": "pinnaclesteel@contractor.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 910000,
+            "line_items": [
+              {
+                "description": "Acoustical Ceilings (ACT) - component 1",
+                "amount": 130000
+              },
+              {
+                "description": "Acoustical Ceilings (ACT) - component 2",
+                "amount": 180000
+              },
+              {
+                "description": "Acoustical Ceilings (ACT) - component 3",
+                "amount": 160000
+              },
+              {
+                "description": "Acoustical Ceilings (ACT) - component 4",
+                "amount": 170000
+              },
+              {
+                "description": "Acoustical Ceilings (ACT) - component 5",
+                "amount": 165000
+              },
+              {
+                "description": "Acoustical Ceilings (ACT) - component 6",
+                "amount": 105000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per One Arts District Tower drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
+      },
+      {
+        "trade": "Specialties",
+        "csi_code": "10 00 00",
+        "bids": [
+          {
+            "sub_id": "10-S1",
+            "company": "Metroplex Concrete",
+            "contact": "Angela Cruz",
+            "email": "metroplexconcrete@contractor.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 340000,
+            "line_items": [
+              {
+                "description": "Specialties - component 1",
+                "amount": 55000
+              },
+              {
+                "description": "Specialties - component 2",
+                "amount": 65000
+              },
+              {
+                "description": "Specialties - component 3",
+                "amount": 60000
+              },
+              {
+                "description": "Specialties - component 4",
+                "amount": 55000
+              },
+              {
+                "description": "Specialties - component 5",
+                "amount": 50000
+              },
+              {
+                "description": "Specialties - component 6",
+                "amount": 55000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per One Arts District Tower drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "10-S2",
+            "company": "DFW Mechanical",
+            "contact": "Tom Brady",
+            "email": "dfwmechanical@contractor.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 210000,
+            "line_items": [
+              {
+                "description": "Specialties - component 1",
+                "amount": 30000
+              },
+              {
+                "description": "Specialties - component 2",
+                "amount": 35000
+              },
+              {
+                "description": "Specialties - component 3",
+                "amount": 35000
+              },
+              {
+                "description": "Specialties - component 4",
+                "amount": 35000
+              },
+              {
+                "description": "Specialties - component 5",
+                "amount": 30000
+              },
+              {
+                "description": "Specialties - component 6",
+                "amount": 45000
+              }
+            ],
+            "exclusions": [
+              "ADA signage package - NOT IN CONTRACT"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per One Arts District Tower drawings issued 03/15/2024.",
+            "post_bid_updates": [
+              {
+                "update_id": "10-U1",
+                "date": "2024-04-28",
+                "from": "Tom Brady <dfwmechanical@contractor.com>",
+                "subject": "RE: One Arts District Tower - ADA signage package Clarification",
+                "body": "Following up on our call \u2014 we can pick up ADA signage package for $15,000 additional. Revised total $225,000.",
+                "revised_total": 225000,
+                "delta": 15000,
+                "scope_added": "ADA signage package"
+              }
+            ]
+          },
+          {
+            "sub_id": "10-S3",
+            "company": "Lone Star Roofing",
+            "contact": "Linda Garza",
+            "email": "lonestarroofing@contractor.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 485000,
+            "line_items": [
+              {
+                "description": "Specialties - component 1",
+                "amount": 85000
+              },
+              {
+                "description": "Specialties - component 2",
+                "amount": 85000
+              },
+              {
+                "description": "Specialties - component 3",
+                "amount": 110000
+              },
+              {
+                "description": "Specialties - component 4",
+                "amount": 90000
+              },
+              {
+                "description": "Specialties - component 5",
+                "amount": 115000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per One Arts District Tower drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
+      },
+      {
+        "trade": "Fire Suppression (Sprinklers)",
+        "csi_code": "21 00 00",
+        "bids": [
+          {
+            "sub_id": "21-S1",
+            "company": "Trinity Electric",
+            "contact": "Kevin Walsh",
+            "email": "trinityelectric@contractor.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 1015000,
+            "line_items": [
+              {
+                "description": "Fire Suppression (Sprinklers) - component 1",
+                "amount": 210000
+              },
+              {
+                "description": "Fire Suppression (Sprinklers) - component 2",
+                "amount": 275000
+              },
+              {
+                "description": "Fire Suppression (Sprinklers) - component 3",
+                "amount": 255000
+              },
+              {
+                "description": "Fire Suppression (Sprinklers) - component 4",
+                "amount": 275000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per One Arts District Tower drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "21-S2",
+            "company": "Metroplex Concrete",
+            "contact": "Beth Adams",
+            "email": "metroplexconcrete@contractor.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 650000,
+            "line_items": [
+              {
+                "description": "Fire Suppression (Sprinklers) - component 1",
+                "amount": 115000
+              },
+              {
+                "description": "Fire Suppression (Sprinklers) - component 2",
+                "amount": 110000
+              },
+              {
+                "description": "Fire Suppression (Sprinklers) - component 3",
+                "amount": 120000
+              },
+              {
+                "description": "Fire Suppression (Sprinklers) - component 4",
+                "amount": 90000
+              },
+              {
+                "description": "Fire Suppression (Sprinklers) - component 5",
+                "amount": 95000
+              },
+              {
+                "description": "Fire Suppression (Sprinklers) - component 6",
+                "amount": 120000
+              }
+            ],
+            "exclusions": [
+              "Kitchen hood fire suppression - NOT IN CONTRACT"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per One Arts District Tower drawings issued 03/15/2024.",
+            "post_bid_updates": [
+              {
+                "update_id": "21-U1",
+                "date": "2024-04-28",
+                "from": "Beth Adams <metroplexconcrete@contractor.com>",
+                "subject": "RE: One Arts District Tower - Kitchen hood fire suppression Scope Add",
+                "body": "Per our conversation this morning: Kitchen hood fire suppression can be added for $45,000. New total is $695,000.",
+                "revised_total": 695000,
+                "delta": 45000,
+                "scope_added": "Kitchen hood fire suppression"
+              }
+            ]
+          },
+          {
+            "sub_id": "21-S3",
+            "company": "DFW Mechanical",
+            "contact": "Rick Simmons",
+            "email": "dfwmechanical@contractor.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 1185000,
+            "line_items": [
+              {
+                "description": "Fire Suppression (Sprinklers) - component 1",
+                "amount": 275000
+              },
+              {
+                "description": "Fire Suppression (Sprinklers) - component 2",
+                "amount": 305000
+              },
+              {
+                "description": "Fire Suppression (Sprinklers) - component 3",
+                "amount": 295000
+              },
+              {
+                "description": "Fire Suppression (Sprinklers) - component 4",
+                "amount": 310000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per One Arts District Tower drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
+      },
+      {
+        "trade": "Plumbing",
+        "csi_code": "22 00 00",
+        "bids": [
+          {
+            "sub_id": "22-S1",
+            "company": "DFW Mechanical",
+            "contact": "Carl Johnson",
+            "email": "dfwmechanical@contractor.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 1975000,
+            "line_items": [
+              {
+                "description": "Plumbing - component 1",
+                "amount": 300000
+              },
+              {
+                "description": "Plumbing - component 2",
+                "amount": 295000
+              },
+              {
+                "description": "Plumbing - component 3",
+                "amount": 280000
+              },
+              {
+                "description": "Plumbing - component 4",
+                "amount": 290000
+              },
+              {
+                "description": "Plumbing - component 5",
+                "amount": 280000
+              },
+              {
+                "description": "Plumbing - component 6",
+                "amount": 530000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per One Arts District Tower drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "22-S2",
+            "company": "Lone Star Roofing",
+            "contact": "Pete Adams",
+            "email": "lonestarroofing@contractor.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 1345000,
+            "line_items": [
+              {
+                "description": "Plumbing - component 1",
+                "amount": 370000
+              },
+              {
+                "description": "Plumbing - component 2",
+                "amount": 305000
+              },
+              {
+                "description": "Plumbing - component 3",
+                "amount": 350000
+              },
+              {
+                "description": "Plumbing - component 4",
+                "amount": 320000
+              }
+            ],
+            "exclusions": [
+              "Medical gas outlets and zone valves - NOT IN CONTRACT"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per One Arts District Tower drawings issued 03/15/2024.",
+            "post_bid_updates": [
+              {
+                "update_id": "22-U1",
+                "date": "2024-04-28",
+                "from": "Pete Adams <lonestarroofing@contractor.com>",
+                "subject": "RE: One Arts District Tower - Medical gas outlets and zone valves Add",
+                "body": "We can include Medical gas outlets and zone valves for an additional $95,000. Revised total would be $1,440,000.",
+                "revised_total": 1440000,
+                "delta": 95000,
+                "scope_added": "Medical gas outlets and zone valves"
+              }
+            ]
+          },
+          {
+            "sub_id": "22-S3",
+            "company": "Pinnacle Steel",
+            "contact": "Sam Rivera",
+            "email": "pinnaclesteel@contractor.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 2460000,
+            "line_items": [
+              {
+                "description": "Plumbing - component 1",
+                "amount": 585000
+              },
+              {
+                "description": "Plumbing - component 2",
+                "amount": 555000
+              },
+              {
+                "description": "Plumbing - component 3",
+                "amount": 450000
+              },
+              {
+                "description": "Plumbing - component 4",
+                "amount": 465000
+              },
+              {
+                "description": "Plumbing - component 5",
+                "amount": 405000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per One Arts District Tower drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
+      },
+      {
+        "trade": "Mechanical (HVAC)",
+        "csi_code": "23 00 00",
+        "bids": [
+          {
+            "sub_id": "23-S1",
+            "company": "DFW Mechanical",
+            "contact": "Bill Torres",
+            "email": "dfwmechanical@contractor.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 2345000,
+            "line_items": [
+              {
+                "description": "Mechanical (HVAC) - component 1",
+                "amount": 800000
+              },
+              {
+                "description": "Mechanical (HVAC) - component 2",
+                "amount": 845000
+              },
+              {
+                "description": "Mechanical (HVAC) - component 3",
+                "amount": 700000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per One Arts District Tower drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "23-S2",
+            "company": "Lone Star Roofing",
+            "contact": "Priya Nair",
+            "email": "lonestarroofing@contractor.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 1630000,
+            "line_items": [
+              {
+                "description": "Mechanical (HVAC) - component 1",
+                "amount": 230000
+              },
+              {
+                "description": "Mechanical (HVAC) - component 2",
+                "amount": 220000
+              },
+              {
+                "description": "Mechanical (HVAC) - component 3",
+                "amount": 250000
+              },
+              {
+                "description": "Mechanical (HVAC) - component 4",
+                "amount": 270000
+              },
+              {
+                "description": "Mechanical (HVAC) - component 5",
+                "amount": 255000
+              },
+              {
+                "description": "Mechanical (HVAC) - component 6",
+                "amount": 405000
+              }
+            ],
+            "exclusions": [
+              "Medical gas rough-in and kitchen hood exhaust - NOT IN CONTRACT"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per One Arts District Tower drawings issued 03/15/2024.",
+            "post_bid_updates": [
+              {
+                "update_id": "23-U1",
+                "date": "2024-04-28",
+                "from": "Priya Nair <lonestarroofing@contractor.com>",
+                "subject": "RE: One Arts District Tower - Medical gas rough-in and kitchen hood exhaust Scope Add",
+                "body": "Per our conversation this morning: Medical gas rough-in and kitchen hood exhaust can be added for $115,000. New total is $1,745,000.",
+                "revised_total": 1745000,
+                "delta": 115000,
+                "scope_added": "Medical gas rough-in and kitchen hood exhaust"
+              }
+            ]
+          },
+          {
+            "sub_id": "23-S3",
+            "company": "Pinnacle Steel",
+            "contact": "Rob Flores",
+            "email": "pinnaclesteel@contractor.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 2815000,
+            "line_items": [
+              {
+                "description": "Mechanical (HVAC) - component 1",
+                "amount": 845000
+              },
+              {
+                "description": "Mechanical (HVAC) - component 2",
+                "amount": 1075000
+              },
+              {
+                "description": "Mechanical (HVAC) - component 3",
+                "amount": 895000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per One Arts District Tower drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
+      },
+      {
+        "trade": "Electrical",
+        "csi_code": "26 00 00",
+        "bids": [
+          {
+            "sub_id": "26-S1",
+            "company": "Texas Interiors",
+            "contact": "Lisa Chang",
+            "email": "texasinteriors@contractor.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 1900000,
+            "line_items": [
+              {
+                "description": "Electrical - component 1",
+                "amount": 545000
+              },
+              {
+                "description": "Electrical - component 2",
+                "amount": 710000
+              },
+              {
+                "description": "Electrical - component 3",
+                "amount": 645000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per One Arts District Tower drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "26-S2",
+            "company": "Trinity Plumbing",
+            "contact": "James Brown",
+            "email": "trinityplumbing@contractor.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 1300000,
+            "line_items": [
+              {
+                "description": "Electrical - component 1",
+                "amount": 520000
+              },
+              {
+                "description": "Electrical - component 2",
+                "amount": 365000
+              },
+              {
+                "description": "Electrical - component 3",
+                "amount": 415000
+              }
+            ],
+            "exclusions": [
+              "Fire alarm system - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per One Arts District Tower drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "26-S3",
+            "company": "Metroplex Framing",
+            "contact": "Maria Valdez",
+            "email": "metroplexframing@contractor.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 2395000,
+            "line_items": [
+              {
+                "description": "Electrical - component 1",
+                "amount": 415000
+              },
+              {
+                "description": "Electrical - component 2",
+                "amount": 445000
+              },
+              {
+                "description": "Electrical - component 3",
+                "amount": 355000
+              },
+              {
+                "description": "Electrical - component 4",
+                "amount": 405000
+              },
+              {
+                "description": "Electrical - component 5",
+                "amount": 390000
+              },
+              {
+                "description": "Electrical - component 6",
+                "amount": 385000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per One Arts District Tower drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
+      },
+      {
+        "trade": "Communications (Data, AV, Tel)",
+        "csi_code": "27 00 00",
+        "bids": [
+          {
+            "sub_id": "27-S1",
+            "company": "Metroplex Concrete",
+            "contact": "Lisa Chang",
+            "email": "metroplexconcrete@contractor.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 675000,
+            "line_items": [
+              {
+                "description": "Communications (Data, AV, Tel) - component 1",
+                "amount": 235000
+              },
+              {
+                "description": "Communications (Data, AV, Tel) - component 2",
+                "amount": 245000
+              },
+              {
+                "description": "Communications (Data, AV, Tel) - component 3",
+                "amount": 195000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per One Arts District Tower drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "27-S2",
+            "company": "DFW Mechanical",
+            "contact": "James Brown",
+            "email": "dfwmechanical@contractor.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 405000,
+            "line_items": [
+              {
+                "description": "Communications (Data, AV, Tel) - component 1",
+                "amount": 90000
+              },
+              {
+                "description": "Communications (Data, AV, Tel) - component 2",
+                "amount": 85000
+              },
+              {
+                "description": "Communications (Data, AV, Tel) - component 3",
+                "amount": 90000
+              },
+              {
+                "description": "Communications (Data, AV, Tel) - component 4",
+                "amount": 140000
+              }
+            ],
+            "exclusions": [
+              "AV rough-in for conference rooms - NOT IN CONTRACT"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per One Arts District Tower drawings issued 03/15/2024.",
+            "post_bid_updates": [
+              {
+                "update_id": "27-U1",
+                "date": "2024-04-28",
+                "from": "James Brown <dfwmechanical@contractor.com>",
+                "subject": "RE: One Arts District Tower - AV rough-in for conference rooms Scope Add",
+                "body": "Per our conversation this morning: AV rough-in for conference rooms can be added for $30,000. New total is $435,000.",
+                "revised_total": 435000,
+                "delta": 30000,
+                "scope_added": "AV rough-in for conference rooms"
+              }
+            ]
+          },
+          {
+            "sub_id": "27-S3",
+            "company": "Lone Star Roofing",
+            "contact": "Maria Valdez",
+            "email": "lonestarroofing@contractor.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 920000,
+            "line_items": [
+              {
+                "description": "Communications (Data, AV, Tel) - component 1",
+                "amount": 265000
+              },
+              {
+                "description": "Communications (Data, AV, Tel) - component 2",
+                "amount": 295000
+              },
+              {
+                "description": "Communications (Data, AV, Tel) - component 3",
+                "amount": 360000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per One Arts District Tower drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
+      },
+      {
+        "trade": "Electronic Safety & Security",
+        "csi_code": "28 00 00",
+        "bids": [
+          {
+            "sub_id": "28-S1",
+            "company": "DFW Mechanical",
+            "contact": "Sam Rivera",
+            "email": "dfwmechanical@contractor.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 585000,
+            "line_items": [
+              {
+                "description": "Electronic Safety & Security - component 1",
+                "amount": 125000
+              },
+              {
+                "description": "Electronic Safety & Security - component 2",
+                "amount": 115000
+              },
+              {
+                "description": "Electronic Safety & Security - component 3",
+                "amount": 125000
+              },
+              {
+                "description": "Electronic Safety & Security - component 4",
+                "amount": 135000
+              },
+              {
+                "description": "Electronic Safety & Security - component 5",
+                "amount": 85000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per One Arts District Tower drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "28-S2",
+            "company": "Lone Star Roofing",
+            "contact": "Walt Burns",
+            "email": "lonestarroofing@contractor.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 355000,
+            "line_items": [
+              {
+                "description": "Electronic Safety & Security - component 1",
+                "amount": 120000
+              },
+              {
+                "description": "Electronic Safety & Security - component 2",
+                "amount": 125000
+              },
+              {
+                "description": "Electronic Safety & Security - component 3",
+                "amount": 110000
+              }
+            ],
+            "exclusions": [
+              "Exterior access control and parking - NOT IN CONTRACT"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per One Arts District Tower drawings issued 03/15/2024.",
+            "post_bid_updates": [
+              {
+                "update_id": "28-U1",
+                "date": "2024-04-28",
+                "from": "Walt Burns <lonestarroofing@contractor.com>",
+                "subject": "RE: One Arts District Tower - Exterior access control and parking Clarification",
+                "body": "Following up on our call \u2014 we can pick up Exterior access control and parking for $25,000 additional. Revised total $380,000.",
+                "revised_total": 380000,
+                "delta": 25000,
+                "scope_added": "Exterior access control and parking"
+              }
+            ]
+          },
+          {
+            "sub_id": "28-S3",
+            "company": "Pinnacle Steel",
+            "contact": "Mike Torres",
+            "email": "pinnaclesteel@contractor.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 735000,
+            "line_items": [
+              {
+                "description": "Electronic Safety & Security - component 1",
+                "amount": 165000
+              },
+              {
+                "description": "Electronic Safety & Security - component 2",
+                "amount": 120000
+              },
+              {
+                "description": "Electronic Safety & Security - component 3",
+                "amount": 125000
+              },
+              {
+                "description": "Electronic Safety & Security - component 4",
+                "amount": 135000
+              },
+              {
+                "description": "Electronic Safety & Security - component 5",
+                "amount": 190000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per One Arts District Tower drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
+      },
+      {
+        "trade": "Earthwork, Grading & Site Preparation",
+        "csi_code": "31 00 00",
+        "bids": [
+          {
+            "sub_id": "31-S1",
+            "company": "Lone Star Roofing",
+            "contact": "Lisa Chang",
+            "email": "lonestarroofing@contractor.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 1465000,
+            "line_items": [
+              {
+                "description": "Earthwork, Grading & Site Preparation - component 1",
+                "amount": 315000
+              },
+              {
+                "description": "Earthwork, Grading & Site Preparation - component 2",
+                "amount": 345000
+              },
+              {
+                "description": "Earthwork, Grading & Site Preparation - component 3",
+                "amount": 295000
+              },
+              {
+                "description": "Earthwork, Grading & Site Preparation - component 4",
+                "amount": 290000
+              },
+              {
+                "description": "Earthwork, Grading & Site Preparation - component 5",
+                "amount": 220000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per One Arts District Tower drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "31-S2",
+            "company": "Pinnacle Steel",
+            "contact": "James Brown",
+            "email": "pinnaclesteel@contractor.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 895000,
+            "line_items": [
+              {
+                "description": "Earthwork, Grading & Site Preparation - component 1",
+                "amount": 345000
+              },
+              {
+                "description": "Earthwork, Grading & Site Preparation - component 2",
+                "amount": 325000
+              },
+              {
+                "description": "Earthwork, Grading & Site Preparation - component 3",
+                "amount": 225000
+              }
+            ],
+            "exclusions": [
+              "Rock excavation allowance - NOT IN CONTRACT"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per One Arts District Tower drawings issued 03/15/2024.",
+            "post_bid_updates": [
+              {
+                "update_id": "31-U1",
+                "date": "2024-04-28",
+                "from": "James Brown <pinnaclesteel@contractor.com>",
+                "subject": "RE: One Arts District Tower - Rock excavation allowance Scope Add",
+                "body": "Per our conversation this morning: Rock excavation allowance can be added for $65,000. New total is $960,000.",
+                "revised_total": 960000,
+                "delta": 65000,
+                "scope_added": "Rock excavation allowance"
+              }
+            ]
+          },
+          {
+            "sub_id": "31-S3",
+            "company": "Texas Interiors",
+            "contact": "Maria Valdez",
+            "email": "texasinteriors@contractor.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 1880000,
+            "line_items": [
+              {
+                "description": "Earthwork, Grading & Site Preparation - component 1",
+                "amount": 305000
+              },
+              {
+                "description": "Earthwork, Grading & Site Preparation - component 2",
+                "amount": 335000
+              },
+              {
+                "description": "Earthwork, Grading & Site Preparation - component 3",
+                "amount": 400000
+              },
+              {
+                "description": "Earthwork, Grading & Site Preparation - component 4",
+                "amount": 430000
+              },
+              {
+                "description": "Earthwork, Grading & Site Preparation - component 5",
+                "amount": 410000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per One Arts District Tower drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
+      },
+      {
+        "trade": "Site Paving, Curbs & Landscaping",
+        "csi_code": "32 00 00",
+        "bids": [
+          {
+            "sub_id": "32-S1",
+            "company": "Metroplex Concrete",
+            "contact": "Ed Turner",
+            "email": "metroplexconcrete@contractor.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 865000,
+            "line_items": [
+              {
+                "description": "Site Paving, Curbs & Landscaping - component 1",
+                "amount": 320000
+              },
+              {
+                "description": "Site Paving, Curbs & Landscaping - component 2",
+                "amount": 250000
+              },
+              {
+                "description": "Site Paving, Curbs & Landscaping - component 3",
+                "amount": 295000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per One Arts District Tower drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "32-S2",
+            "company": "DFW Mechanical",
+            "contact": "Carl Johnson",
+            "email": "dfwmechanical@contractor.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 555000,
+            "line_items": [
+              {
+                "description": "Site Paving, Curbs & Landscaping - component 1",
+                "amount": 95000
+              },
+              {
+                "description": "Site Paving, Curbs & Landscaping - component 2",
+                "amount": 115000
+              },
+              {
+                "description": "Site Paving, Curbs & Landscaping - component 3",
+                "amount": 115000
+              },
+              {
+                "description": "Site Paving, Curbs & Landscaping - component 4",
+                "amount": 110000
+              },
+              {
+                "description": "Site Paving, Curbs & Landscaping - component 5",
+                "amount": 120000
+              }
+            ],
+            "exclusions": [
+              "Landscaping and irrigation - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per One Arts District Tower drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "32-S3",
+            "company": "Lone Star Roofing",
+            "contact": "Pete Adams",
+            "email": "lonestarroofing@contractor.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 1150000,
+            "line_items": [
+              {
+                "description": "Site Paving, Curbs & Landscaping - component 1",
+                "amount": 380000
+              },
+              {
+                "description": "Site Paving, Curbs & Landscaping - component 2",
+                "amount": 370000
+              },
+              {
+                "description": "Site Paving, Curbs & Landscaping - component 3",
+                "amount": 400000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per One Arts District Tower drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
+      },
+      {
+        "trade": "Site Utilities (Water, Sewer, Storm, Gas)",
+        "csi_code": "33 00 00",
+        "bids": [
+          {
+            "sub_id": "33-S1",
+            "company": "Trinity Electric",
+            "contact": "Rob Flores",
+            "email": "trinityelectric@contractor.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 1135000,
+            "line_items": [
+              {
+                "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 1",
+                "amount": 175000
+              },
+              {
+                "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 2",
+                "amount": 225000
+              },
+              {
+                "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 3",
+                "amount": 215000
+              },
+              {
+                "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 4",
+                "amount": 195000
+              },
+              {
+                "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 5",
+                "amount": 185000
+              },
+              {
+                "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 6",
+                "amount": 140000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per One Arts District Tower drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "33-S2",
+            "company": "Metroplex Concrete",
+            "contact": "Lisa Chang",
+            "email": "metroplexconcrete@contractor.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 690000,
+            "line_items": [
+              {
+                "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 1",
+                "amount": 130000
+              },
+              {
+                "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 2",
+                "amount": 165000
+              },
+              {
+                "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 3",
+                "amount": 135000
+              },
+              {
+                "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 4",
+                "amount": 140000
+              },
+              {
+                "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 5",
+                "amount": 120000
+              }
+            ],
+            "exclusions": [
+              "Underground fire line - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per One Arts District Tower drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "33-S3",
+            "company": "DFW Mechanical",
+            "contact": "James Brown",
+            "email": "dfwmechanical@contractor.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 1410000,
+            "line_items": [
+              {
+                "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 1",
+                "amount": 500000
+              },
+              {
+                "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 2",
+                "amount": 480000
+              },
+              {
+                "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 3",
+                "amount": 430000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per One Arts District Tower drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
+      }
+    ]
+  },
+  "benchmarks": {
+    "source": "RSMeans 2024 (Simulated)",
+    "location": "Dallas, TX",
+    "location_factor": 0.96,
+    "project_type": "Mixed-Use High-Rise",
+    "benchmarks": [
+      {
+        "trade": "Demolition & Site Clearing",
+        "csi_code": "02 40 00",
+        "unit": "$/SF",
+        "low": 1.2,
+        "mid": 1.8,
+        "high": 2.7,
+        "notes": "Mixed-Use High-Rise benchmark \u2014 Dallas, TX"
+      },
+      {
+        "trade": "Concrete",
+        "csi_code": "03 00 00",
+        "unit": "$/SF",
+        "low": 5.18,
+        "mid": 6.57,
+        "high": 8.64,
+        "notes": "Mixed-Use High-Rise benchmark \u2014 Dallas, TX"
+      },
+      {
+        "trade": "Masonry",
+        "csi_code": "04 00 00",
+        "unit": "$/SF",
+        "low": 1.38,
+        "mid": 1.94,
+        "high": 2.58,
+        "notes": "Mixed-Use High-Rise benchmark \u2014 Dallas, TX"
+      },
+      {
+        "trade": "Structural Steel & Misc Metals",
+        "csi_code": "05 00 00",
+        "unit": "$/SF",
+        "low": 8.29,
+        "mid": 10.78,
+        "high": 13.48,
+        "notes": "Mixed-Use High-Rise benchmark \u2014 Dallas, TX"
+      },
+      {
+        "trade": "Roofing, Waterproofing & Insulation",
+        "csi_code": "07 00 00",
+        "unit": "$/SF",
+        "low": 1.52,
+        "mid": 2.07,
+        "high": 2.76,
+        "notes": "Mixed-Use High-Rise benchmark \u2014 Dallas, TX"
+      },
+      {
+        "trade": "Doors, Frames, Hardware & Glazing",
+        "csi_code": "08 00 00",
+        "unit": "$/SF",
+        "low": 4.52,
+        "mid": 5.81,
+        "high": 7.74,
+        "notes": "Mixed-Use High-Rise benchmark \u2014 Dallas, TX"
+      },
+      {
+        "trade": "Drywall & Framing",
+        "csi_code": "09 20 00",
+        "unit": "$/SF",
+        "low": 2.49,
+        "mid": 3.32,
+        "high": 4.42,
+        "notes": "Mixed-Use High-Rise benchmark \u2014 Dallas, TX"
+      },
+      {
+        "trade": "Flooring",
+        "csi_code": "09 60 00",
+        "unit": "$/SF",
+        "low": 3.17,
+        "mid": 4.06,
+        "high": 5.32,
+        "notes": "Mixed-Use High-Rise benchmark \u2014 Dallas, TX"
+      },
+      {
+        "trade": "Painting & Wall Coverings",
+        "csi_code": "09 90 00",
+        "unit": "$/SF",
+        "low": 1.15,
+        "mid": 1.61,
+        "high": 2.07,
+        "notes": "Mixed-Use High-Rise benchmark \u2014 Dallas, TX"
+      },
+      {
+        "trade": "Acoustical Ceilings (ACT)",
+        "csi_code": "09 51 00",
+        "unit": "$/SF",
+        "low": 1.77,
+        "mid": 2.28,
+        "high": 3.04,
+        "notes": "Mixed-Use High-Rise benchmark \u2014 Dallas, TX"
+      },
+      {
+        "trade": "Specialties",
+        "csi_code": "10 00 00",
+        "unit": "$/SF",
+        "low": 0.81,
+        "mid": 1.15,
+        "high": 1.61,
+        "notes": "Mixed-Use High-Rise benchmark \u2014 Dallas, TX"
+      },
+      {
+        "trade": "Fire Suppression (Sprinklers)",
+        "csi_code": "21 00 00",
+        "unit": "$/SF",
+        "low": 2.49,
+        "mid": 3.32,
+        "high": 4.15,
+        "notes": "Mixed-Use High-Rise benchmark \u2014 Dallas, TX"
+      },
+      {
+        "trade": "Plumbing",
+        "csi_code": "22 00 00",
+        "unit": "$/SF",
+        "low": 5.25,
+        "mid": 6.64,
+        "high": 8.29,
+        "notes": "Mixed-Use High-Rise benchmark \u2014 Dallas, TX"
+      },
+      {
+        "trade": "Mechanical (HVAC)",
+        "csi_code": "23 00 00",
+        "unit": "$/SF",
+        "low": 6.22,
+        "mid": 8.02,
+        "high": 9.95,
+        "notes": "Mixed-Use High-Rise benchmark \u2014 Dallas, TX"
+      },
+      {
+        "trade": "Electrical",
+        "csi_code": "26 00 00",
+        "unit": "$/SF",
+        "low": 5.24,
+        "mid": 6.59,
+        "high": 8.24,
+        "notes": "Mixed-Use High-Rise benchmark \u2014 Dallas, TX"
+      },
+      {
+        "trade": "Communications (Data, AV, Tel)",
+        "csi_code": "27 00 00",
+        "unit": "$/SF",
+        "low": 1.52,
+        "mid": 2.28,
+        "high": 3.04,
+        "notes": "Mixed-Use High-Rise benchmark \u2014 Dallas, TX"
+      },
+      {
+        "trade": "Electronic Safety & Security",
+        "csi_code": "28 00 00",
+        "unit": "$/SF",
+        "low": 1.38,
+        "mid": 1.94,
+        "high": 2.63,
+        "notes": "Mixed-Use High-Rise benchmark \u2014 Dallas, TX"
+      },
+      {
+        "trade": "Earthwork, Grading & Site Preparation",
+        "csi_code": "31 00 00",
+        "unit": "$/SF",
+        "low": 3.46,
+        "mid": 4.84,
+        "high": 6.57,
+        "notes": "Mixed-Use High-Rise benchmark \u2014 Dallas, TX"
+      },
+      {
+        "trade": "Site Paving, Curbs & Landscaping",
+        "csi_code": "32 00 00",
+        "unit": "$/SF",
+        "low": 2.26,
+        "mid": 2.9,
+        "high": 3.87,
+        "notes": "Mixed-Use High-Rise benchmark \u2014 Dallas, TX"
+      },
+      {
+        "trade": "Site Utilities (Water, Sewer, Storm, Gas)",
+        "csi_code": "33 00 00",
+        "unit": "$/SF",
+        "low": 2.76,
+        "mid": 3.87,
+        "high": 4.98,
+        "notes": "Mixed-Use High-Rise benchmark \u2014 Dallas, TX"
+      }
+    ]
+  },
+  "general_conditions": {
+    "section": "General Conditions & General Requirements",
+    "csi_code": "01 00 00",
+    "description": "GC overhead for One Arts District Tower",
+    "duration_months": 30,
+    "line_items": [
+      {
+        "category": "Project Management",
+        "items": [
+          {
+            "description": "Project Manager (30 months)",
+            "unit": "LS",
+            "monthly_rate": 12480,
+            "months": 30,
+            "total": 374400
+          },
+          {
+            "description": "Project Engineer (30 months)",
+            "unit": "LS",
+            "monthly_rate": 7200,
+            "months": 30,
+            "total": 216000
+          }
+        ]
+      },
+      {
+        "category": "Field Supervision",
+        "items": [
+          {
+            "description": "General Superintendent (30 months)",
+            "unit": "LS",
+            "monthly_rate": 10080,
+            "months": 30,
+            "total": 302400
+          },
+          {
+            "description": "Assistant Superintendent (26 months)",
+            "unit": "LS",
+            "monthly_rate": 7680,
+            "months": 26,
+            "total": 199680
+          }
+        ]
+      },
+      {
+        "category": "Temporary Facilities",
+        "items": [
+          {
+            "description": "Field office, toilets, fencing, temp power",
+            "unit": "LS",
+            "monthly_rate": 3840,
+            "months": 30,
+            "total": 115200
+          }
+        ]
+      },
+      {
+        "category": "Site Operations",
+        "items": [
+          {
+            "description": "Cleanup, dumpsters, safety, vehicles",
+            "unit": "LS",
+            "monthly_rate": 5280,
+            "months": 30,
+            "total": 158400
+          }
+        ]
+      },
+      {
+        "category": "Insurance & Bonding",
+        "items": [
+          {
+            "description": "Builder's Risk, GL, Payment & Performance Bond",
+            "unit": "LS",
+            "monthly_rate": null,
+            "months": null,
+            "total": 1344000
+          }
+        ]
+      },
+      {
+        "category": "Permits & Fees",
+        "items": [
+          {
+            "description": "Building permit, special inspections, surveying",
+            "unit": "LS",
+            "monthly_rate": null,
+            "months": null,
+            "total": 483840
+          }
+        ]
+      },
+      {
+        "category": "Technology",
+        "items": [
+          {
+            "description": "BIM, Procore, closeout documentation",
+            "unit": "LS",
+            "monthly_rate": 1728,
+            "months": 30,
+            "total": 51840
+          }
+        ]
+      }
+    ],
+    "subtotal_gc": 3245760,
+    "gc_fee_percent": 4.0,
+    "contingency_percent": 3.0
+  }
+}

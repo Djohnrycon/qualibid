@@ -1,0 +1,3258 @@
+{
+  "project": {
+    "name": "Riverside Medical Office Campus",
+    "location": "Austin, TX",
+    "size_sf": 142000,
+    "type": "3-Story Medical Office"
+  },
+  "trades": [
+    {
+      "trade": "Demolition & Site Clearing",
+      "csi_code": "02 40 00",
+      "bids": [
+        {
+          "sub_id": "DEM1",
+          "company": "Capitol Demo Co.",
+          "contact": "Frank Ruiz",
+          "email": "fruiz@capitoldemo.com",
+          "source": "PDF",
+          "submitted_date": "2024-04-18",
+          "base_bid": 232000,
+          "line_items": [
+            {
+              "description": "Selective interior demolition",
+              "amount": 74000
+            },
+            {
+              "description": "Hazardous material abatement (asbestos survey + abatement)",
+              "amount": 63000
+            },
+            {
+              "description": "Site clearing & grubbing",
+              "amount": 47000
+            },
+            {
+              "description": "Existing utility abandonment",
+              "amount": 30000
+            },
+            {
+              "description": "Debris hauling & disposal",
+              "amount": 17000
+            }
+          ],
+          "exclusions": [
+            "Structural demolition",
+            "Underground tank removal (if found)"
+          ],
+          "inclusions": [
+            "All permits",
+            "Hazmat survey and abatement",
+            "Dust control"
+          ],
+          "notes": "Includes AHERA-compliant asbestos survey and abatement allowance",
+          "post_bid_updates": []
+        },
+        {
+          "sub_id": "DEM2",
+          "company": "Texas Wrecking & Salvage",
+          "contact": "Joe Barton",
+          "email": "jbarton@txwrecking.com",
+          "source": "Email",
+          "submitted_date": "2024-04-19",
+          "base_bid": 183000,
+          "line_items": [
+            {
+              "description": "Selective interior demolition",
+              "amount": 68000
+            },
+            {
+              "description": "Site clearing & grubbing",
+              "amount": 44000
+            },
+            {
+              "description": "Existing utility abandonment",
+              "amount": 29000
+            },
+            {
+              "description": "Debris hauling & disposal",
+              "amount": 15000
+            },
+            {
+              "description": "Hazardous material abatement",
+              "amount": 0
+            }
+          ],
+          "exclusions": [
+            "Hazardous material abatement - BY OWNER",
+            "Structural demolition",
+            "Underground tank removal"
+          ],
+          "inclusions": [
+            "All permits",
+            "Debris hauling"
+          ],
+          "notes": "Hazmat excluded pending owner's survey results. Confirm before award.",
+          "post_bid_updates": [
+            {
+              "update_id": "DEM2-U1",
+              "date": "2024-04-26",
+              "from": "Joe Barton <jbarton@txwrecking.com>",
+              "subject": "RE: Riverside MOB - Hazmat Scope",
+              "body": "Kevin, per our conversation: if you need us to carry hazmat abatement, add $16,000. Revised total would be $70,000. This is based on the pre-demolition survey report you shared.",
+              "revised_total": 237000,
+              "delta": 54000,
+              "scope_added": "Hazardous material abatement"
+            }
+          ]
+        },
+        {
+          "sub_id": "DEM3",
+          "company": "Lone Star Demo & Abatement",
+          "contact": "Maria Santos",
+          "email": "msantos@lsda.com",
+          "source": "Excel",
+          "submitted_date": "2024-04-20",
+          "base_bid": 264000,
+          "line_items": [
+            {
+              "description": "Selective interior demolition",
+              "amount": 81000
+            },
+            {
+              "description": "Hazardous material abatement",
+              "amount": 68000
+            },
+            {
+              "description": "Site clearing & grubbing",
+              "amount": 51000
+            },
+            {
+              "description": "Existing utility abandonment",
+              "amount": 34000
+            },
+            {
+              "description": "Debris hauling & disposal",
+              "amount": 19000
+            },
+            {
+              "description": "Underground utility locating & protection",
+              "amount": 12000
+            }
+          ],
+          "exclusions": [
+            "Structural demolition",
+            "Underground tank removal"
+          ],
+          "inclusions": [
+            "All permits",
+            "Hazmat survey and abatement",
+            "Dust control",
+            "Underground utility locating"
+          ],
+          "notes": "Full scope bid including all hazmat and utility work",
+          "post_bid_updates": []
+        }
+      ]
+    },
+    {
+      "trade": "Concrete",
+      "csi_code": "03 00 00",
+      "bids": [
+        {
+          "sub_id": "C1",
+          "company": "Austin Concrete Works",
+          "contact": "Tom Brady",
+          "email": "tbrady@austinconcrete.com",
+          "source": "PDF",
+          "submitted_date": "2024-04-17",
+          "base_bid": 568000,
+          "line_items": [
+            {
+              "description": "Spread footings & grade beams",
+              "amount": 142000
+            },
+            {
+              "description": "Slab on grade (4\" with vapor barrier)",
+              "amount": 128000
+            },
+            {
+              "description": "Elevated slabs - Level 2 & 3",
+              "amount": 176000
+            },
+            {
+              "description": "Concrete stairs & landings",
+              "amount": 61000
+            },
+            {
+              "description": "Curbs, equipment pads & misc",
+              "amount": 34000
+            },
+            {
+              "description": "Vapor barrier & underslab insulation",
+              "amount": 27000
+            }
+          ],
+          "exclusions": [
+            "Structural steel (by steel sub)",
+            "Post-tension system (N/A this project)"
+          ],
+          "inclusions": [
+            "All formwork",
+            "Reinforcing steel",
+            "Vapor barrier",
+            "Concrete testing allowance"
+          ],
+          "notes": "Includes 6-mil vapor barrier and underslab insulation per energy code",
+          "post_bid_updates": []
+        },
+        {
+          "sub_id": "C2",
+          "company": "Central Texas Concrete",
+          "contact": "Ray Munoz",
+          "email": "rmunoz@ctconcrete.com",
+          "source": "Excel",
+          "submitted_date": "2024-04-18",
+          "base_bid": 490000,
+          "line_items": [
+            {
+              "description": "Spread footings & grade beams",
+              "amount": 128000
+            },
+            {
+              "description": "Slab on grade",
+              "amount": 115000
+            },
+            {
+              "description": "Elevated slabs - Level 2 & 3",
+              "amount": 156000
+            },
+            {
+              "description": "Concrete stairs & landings",
+              "amount": 54000
+            },
+            {
+              "description": "Curbs, equipment pads & misc",
+              "amount": 29000
+            },
+            {
+              "description": "Vapor barrier & underslab insulation",
+              "amount": 0
+            }
+          ],
+          "exclusions": [
+            "Vapor barrier - NIC",
+            "Underslab insulation - NIC",
+            "Post-tension",
+            "Structural steel"
+          ],
+          "inclusions": [
+            "All formwork",
+            "Reinforcing steel"
+          ],
+          "notes": "Vapor barrier and underslab insulation excluded - confirm with GC",
+          "post_bid_updates": [
+            {
+              "update_id": "C2-U1",
+              "date": "2024-04-25",
+              "from": "Ray Munoz <rmunoz@ctconcrete.com>",
+              "subject": "RE: Riverside MOB - Vapor Barrier Add",
+              "body": "Kevin, we can add vapor barrier and underslab insulation for $9,500. Revised total $154,500.",
+              "revised_total": 522000,
+              "delta": 32000,
+              "scope_added": "Vapor barrier and underslab insulation"
+            }
+          ]
+        },
+        {
+          "sub_id": "C3",
+          "company": "Pedernales Concrete Co.",
+          "contact": "Angela Cruz",
+          "email": "acruz@pedernalesconcrete.com",
+          "source": "PDF",
+          "submitted_date": "2024-04-19",
+          "base_bid": 615000,
+          "line_items": [
+            {
+              "description": "Spread footings & grade beams",
+              "amount": 152000
+            },
+            {
+              "description": "Slab on grade with vapor barrier & insulation",
+              "amount": 142000
+            },
+            {
+              "description": "Elevated slabs - Level 2 & 3",
+              "amount": 189000
+            },
+            {
+              "description": "Concrete stairs & landings",
+              "amount": 68000
+            },
+            {
+              "description": "Curbs, equipment pads & misc",
+              "amount": 37000
+            },
+            {
+              "description": "Concrete testing & special inspections",
+              "amount": 27000
+            }
+          ],
+          "exclusions": [
+            "Structural steel",
+            "Post-tension"
+          ],
+          "inclusions": [
+            "All formwork",
+            "Rebar",
+            "Vapor barrier",
+            "Underslab insulation",
+            "Concrete testing"
+          ],
+          "notes": "Full scope including all testing and special inspections",
+          "post_bid_updates": []
+        }
+      ]
+    },
+    {
+      "trade": "Masonry",
+      "csi_code": "04 00 00",
+      "bids": [
+        {
+          "sub_id": "MAS1",
+          "company": "Lone Star Masonry",
+          "contact": "David Hill",
+          "email": "dhill@lsmason.com",
+          "source": "PDF",
+          "submitted_date": "2024-04-18",
+          "base_bid": 311000,
+          "line_items": [
+            {
+              "description": "Exterior brick veneer",
+              "amount": 128000
+            },
+            {
+              "description": "CMU backup wall at ground floor",
+              "amount": 95000
+            },
+            {
+              "description": "CMU elevator shaft & stair cores",
+              "amount": 61000
+            },
+            {
+              "description": "Lintels, shelf angles & misc steel",
+              "amount": 27000
+            }
+          ],
+          "exclusions": [
+            "Structural steel",
+            "EIFS",
+            "Caulking (by others)"
+          ],
+          "inclusions": [
+            "All scaffolding",
+            "Mortar and ties",
+            "Brick and CMU material"
+          ],
+          "notes": "Brick allowance: $0.85/brick standard modular. Premium brick available at adder.",
+          "post_bid_updates": []
+        },
+        {
+          "sub_id": "MAS2",
+          "company": "Austin Stone & Brick",
+          "contact": "Patricia Lee",
+          "email": "plee@austinstonebrick.com",
+          "source": "Email",
+          "submitted_date": "2024-04-19",
+          "base_bid": 264000,
+          "line_items": [
+            {
+              "description": "Exterior brick veneer",
+              "amount": 115000
+            },
+            {
+              "description": "CMU elevator shaft & stair cores",
+              "amount": 61000
+            },
+            {
+              "description": "Lintels, shelf angles & misc steel",
+              "amount": 24000
+            },
+            {
+              "description": "CMU backup wall",
+              "amount": 0
+            }
+          ],
+          "exclusions": [
+            "CMU backup wall - NIC",
+            "EIFS",
+            "Caulking",
+            "Structural steel"
+          ],
+          "inclusions": [
+            "Scaffolding",
+            "Mortar and ties"
+          ],
+          "notes": "CMU backup excluded - assumed metal stud backup by drywall sub",
+          "post_bid_updates": []
+        },
+        {
+          "sub_id": "MAS3",
+          "company": "Hill Country Masonry",
+          "contact": "Greg Hoffman",
+          "email": "ghoffman@hillcountrymason.com",
+          "source": "Excel",
+          "submitted_date": "2024-04-20",
+          "base_bid": 355000,
+          "line_items": [
+            {
+              "description": "Exterior brick veneer",
+              "amount": 142000
+            },
+            {
+              "description": "CMU backup wall at ground floor",
+              "amount": 101000
+            },
+            {
+              "description": "CMU elevator shaft & stair cores",
+              "amount": 68000
+            },
+            {
+              "description": "Lintels, shelf angles & misc steel",
+              "amount": 30000
+            },
+            {
+              "description": "Caulking at masonry joints",
+              "amount": 14000
+            }
+          ],
+          "exclusions": [
+            "Structural steel",
+            "EIFS"
+          ],
+          "inclusions": [
+            "All scaffolding",
+            "Brick, CMU, mortar",
+            "Caulking at masonry joints"
+          ],
+          "notes": "Premium bid includes masonry caulking scope",
+          "post_bid_updates": []
+        }
+      ]
+    },
+    {
+      "trade": "Structural Steel & Misc Metals",
+      "csi_code": "05 00 00",
+      "bids": [
+        {
+          "sub_id": "STL1",
+          "company": "Texas Steel Fabricators",
+          "contact": "Mike Chen",
+          "email": "mchen@txsteelfab.com",
+          "source": "PDF",
+          "submitted_date": "2024-04-16",
+          "base_bid": 727000,
+          "line_items": [
+            {
+              "description": "Structural steel frame - columns & beams",
+              "amount": 331000
+            },
+            {
+              "description": "Metal deck - composite & form deck",
+              "amount": 142000
+            },
+            {
+              "description": "Joists & joist girders",
+              "amount": 128000
+            },
+            {
+              "description": "Stairs - pan & grate",
+              "amount": 74000
+            },
+            {
+              "description": "Miscellaneous metals, embeds, angles",
+              "amount": 51000
+            }
+          ],
+          "exclusions": [
+            "Concrete on metal deck (by concrete sub)",
+            "Fireproofing (by others)"
+          ],
+          "inclusions": [
+            "Fabrication and erection",
+            "Shear studs",
+            "Metal deck",
+            "Shop drawings"
+          ],
+          "notes": "AISC 360 compliant. 6-week lead time on steel.",
+          "post_bid_updates": []
+        },
+        {
+          "sub_id": "STL2",
+          "company": "Lone Star Steel Erectors",
+          "contact": "Bill Torres",
+          "email": "btorres@lssteelerectors.com",
+          "source": "Email",
+          "submitted_date": "2024-04-17",
+          "base_bid": 669000,
+          "line_items": [
+            {
+              "description": "Structural steel frame - columns & beams",
+              "amount": 311000
+            },
+            {
+              "description": "Metal deck",
+              "amount": 128000
+            },
+            {
+              "description": "Joists & joist girders",
+              "amount": 118000
+            },
+            {
+              "description": "Stairs - pan & grate",
+              "amount": 68000
+            },
+            {
+              "description": "Miscellaneous metals, embeds, angles",
+              "amount": 0
+            }
+          ],
+          "exclusions": [
+            "Misc metals & embeds - BY OTHERS",
+            "Concrete on deck",
+            "Fireproofing",
+            "Handrail (by others)"
+          ],
+          "inclusions": [
+            "Fab and erection",
+            "Metal deck",
+            "Shop drawings"
+          ],
+          "notes": "Misc metals excluded - please coordinate with GC",
+          "post_bid_updates": [
+            {
+              "update_id": "STL2-U1",
+              "date": "2024-04-27",
+              "from": "Bill Torres <btorres@lssteelerectors.com>",
+              "subject": "RE: Riverside MOB - Misc Metals Add",
+              "body": "Kevin - we can pick up misc metals and embeds for $13,500. Revised total $211,500.",
+              "revised_total": 715000,
+              "delta": 46000,
+              "scope_added": "Miscellaneous metals, embeds, and angles"
+            }
+          ]
+        },
+        {
+          "sub_id": "STL3",
+          "company": "Capitol City Steel",
+          "contact": "Susan Park",
+          "email": "spark@capitolcitysteel.com",
+          "source": "Excel",
+          "submitted_date": "2024-04-18",
+          "base_bid": 784000,
+          "line_items": [
+            {
+              "description": "Structural steel frame",
+              "amount": 352000
+            },
+            {
+              "description": "Metal deck",
+              "amount": 149000
+            },
+            {
+              "description": "Joists & joist girders",
+              "amount": 135000
+            },
+            {
+              "description": "Stairs - pan, grate & handrail",
+              "amount": 95000
+            },
+            {
+              "description": "Miscellaneous metals, embeds, angles",
+              "amount": 54000
+            }
+          ],
+          "exclusions": [
+            "Concrete on metal deck",
+            "Fireproofing"
+          ],
+          "inclusions": [
+            "Full scope including handrail",
+            "All shop drawings and submittals"
+          ],
+          "notes": "Includes architectural stair railings per detail 5/A-501",
+          "post_bid_updates": []
+        }
+      ]
+    },
+    {
+      "trade": "Rough Carpentry & Blocking",
+      "csi_code": "06 10 00",
+      "bids": [
+        {
+          "sub_id": "CARP1",
+          "company": "Texas Rough Carpentry",
+          "contact": "Dan Wells",
+          "email": "dwells@txroughcarp.com",
+          "source": "PDF",
+          "submitted_date": "2024-04-19",
+          "base_bid": 162000,
+          "line_items": [
+            {
+              "description": "Wood blocking in walls (grab bars, equipment)",
+              "amount": 61000
+            },
+            {
+              "description": "Roof blocking & nailers",
+              "amount": 41000
+            },
+            {
+              "description": "Miscellaneous wood framing",
+              "amount": 34000
+            },
+            {
+              "description": "Sheathing & underlayment",
+              "amount": 27000
+            }
+          ],
+          "exclusions": [
+            "Finish carpentry (by millwork sub)",
+            "Metal stud framing (by drywall sub)"
+          ],
+          "inclusions": [
+            "All blocking for grab bars, cabinets, handrails, equipment"
+          ],
+          "notes": "Medical-grade blocking layout included per accessibility requirements",
+          "post_bid_updates": []
+        },
+        {
+          "sub_id": "CARP2",
+          "company": "Austin Wood Works",
+          "contact": "Chris Nguyen",
+          "email": "cnguyen@austinwoodworks.com",
+          "source": "Email",
+          "submitted_date": "2024-04-20",
+          "base_bid": 123000,
+          "line_items": [
+            {
+              "description": "Wood blocking in walls",
+              "amount": 47000
+            },
+            {
+              "description": "Miscellaneous wood framing",
+              "amount": 30000
+            },
+            {
+              "description": "Sheathing & underlayment",
+              "amount": 25000
+            },
+            {
+              "description": "Roof blocking & nailers",
+              "amount": 0
+            }
+          ],
+          "exclusions": [
+            "Roof blocking & nailers - NIC",
+            "Finish carpentry",
+            "Metal stud framing"
+          ],
+          "inclusions": [
+            "Wall blocking",
+            "Misc framing"
+          ],
+          "notes": "Roof blocking excluded - assumed by roofing contractor",
+          "post_bid_updates": []
+        },
+        {
+          "sub_id": "CARP3",
+          "company": "Central Texas Carpentry",
+          "contact": "Emily Ross",
+          "email": "eross@ctxcarpentry.com",
+          "source": "Excel",
+          "submitted_date": "2024-04-21",
+          "base_bid": 183000,
+          "line_items": [
+            {
+              "description": "Wood blocking in walls",
+              "amount": 68000
+            },
+            {
+              "description": "Roof blocking & nailers",
+              "amount": 44000
+            },
+            {
+              "description": "Miscellaneous wood framing",
+              "amount": 37000
+            },
+            {
+              "description": "Sheathing & underlayment",
+              "amount": 29000
+            },
+            {
+              "description": "Firestopping at wood penetrations",
+              "amount": 5000
+            }
+          ],
+          "exclusions": [
+            "Finish carpentry",
+            "Metal stud framing"
+          ],
+          "inclusions": [
+            "Full blocking scope",
+            "Firestopping at wood penetrations"
+          ],
+          "notes": "Full scope bid",
+          "post_bid_updates": []
+        }
+      ]
+    },
+    {
+      "trade": "Roofing, Waterproofing & Insulation",
+      "csi_code": "07 00 00",
+      "bids": [
+        {
+          "sub_id": "ROOF1",
+          "company": "Lone Star Roofing",
+          "contact": "Kevin Walsh",
+          "email": "kwalsh@lonestarray.com",
+          "source": "PDF",
+          "submitted_date": "2024-04-17",
+          "base_bid": 490000,
+          "line_items": [
+            {
+              "description": "TPO roofing membrane (60 mil) with insulation",
+              "amount": 210000
+            },
+            {
+              "description": "Below-slab waterproofing",
+              "amount": 95000
+            },
+            {
+              "description": "Exterior wall air & vapor barrier",
+              "amount": 74000
+            },
+            {
+              "description": "Roof drains, scuppers & overflow",
+              "amount": 47000
+            },
+            {
+              "description": "Roof hatches & skylights",
+              "amount": 41000
+            },
+            {
+              "description": "Expansion joints",
+              "amount": 24000
+            }
+          ],
+          "exclusions": [
+            "Metal coping (by sheet metal sub)",
+            "HVAC curbs (by mechanical)"
+          ],
+          "inclusions": [
+            "All roofing, waterproofing, insulation, and drainage"
+          ],
+          "notes": "20-year NDL warranty included. Energy Star compliant TPO.",
+          "post_bid_updates": []
+        },
+        {
+          "sub_id": "ROOF2",
+          "company": "Austin Roof Masters",
+          "contact": "Tom Kelly",
+          "email": "tkelly@austinroofmasters.com",
+          "source": "Excel",
+          "submitted_date": "2024-04-18",
+          "base_bid": 399000,
+          "line_items": [
+            {
+              "description": "TPO roofing membrane with insulation",
+              "amount": 196000
+            },
+            {
+              "description": "Exterior wall air & vapor barrier",
+              "amount": 68000
+            },
+            {
+              "description": "Roof drains, scuppers & overflow",
+              "amount": 44000
+            },
+            {
+              "description": "Roof hatches & skylights",
+              "amount": 34000
+            },
+            {
+              "description": "Below-slab waterproofing",
+              "amount": 0
+            },
+            {
+              "description": "Expansion joints",
+              "amount": 0
+            }
+          ],
+          "exclusions": [
+            "Below-slab waterproofing - NIC",
+            "Expansion joints - NIC",
+            "Metal coping"
+          ],
+          "inclusions": [
+            "TPO roofing",
+            "Air barrier",
+            "Drainage"
+          ],
+          "notes": "Below-slab waterproofing and expansion joints excluded - please advise",
+          "post_bid_updates": [
+            {
+              "update_id": "ROOF2-U1",
+              "date": "2024-04-28",
+              "from": "Tom Kelly <tkelly@austinroofmasters.com>",
+              "subject": "RE: Riverside MOB - Below-Slab Waterproofing",
+              "body": "Kevin, we can add below-slab waterproofing and expansion joints for $34,000. Revised total would be $152,000.",
+              "revised_total": 514000,
+              "delta": 115000,
+              "scope_added": "Below-slab waterproofing and expansion joints"
+            }
+          ]
+        },
+        {
+          "sub_id": "ROOF3",
+          "company": "Texas Roofing & Envelope",
+          "contact": "Linda Garza",
+          "email": "lgarza@txroofenv.com",
+          "source": "PDF",
+          "submitted_date": "2024-04-19",
+          "base_bid": 548000,
+          "line_items": [
+            {
+              "description": "TPO roofing membrane with insulation",
+              "amount": 223000
+            },
+            {
+              "description": "Below-slab waterproofing",
+              "amount": 101000
+            },
+            {
+              "description": "Exterior wall air & vapor barrier",
+              "amount": 81000
+            },
+            {
+              "description": "Roof drains, scuppers & overflow",
+              "amount": 54000
+            },
+            {
+              "description": "Roof hatches & skylights",
+              "amount": 47000
+            },
+            {
+              "description": "Expansion joints",
+              "amount": 27000
+            },
+            {
+              "description": "Metal coping",
+              "amount": 14000
+            }
+          ],
+          "exclusions": [
+            "HVAC curbs"
+          ],
+          "inclusions": [
+            "Full envelope scope including metal coping"
+          ],
+          "notes": "Premium bid includes metal coping and 25-year warranty",
+          "post_bid_updates": []
+        }
+      ]
+    },
+    {
+      "trade": "Doors, Frames, Hardware & Glazing",
+      "csi_code": "08 00 00",
+      "bids": [
+        {
+          "sub_id": "DFH1",
+          "company": "Texas Door & Hardware",
+          "contact": "Steve Martin",
+          "email": "smartin@txdoorhardware.com",
+          "source": "PDF",
+          "submitted_date": "2024-04-18",
+          "base_bid": 568000,
+          "line_items": [
+            {
+              "description": "Hollow metal frames - all openings",
+              "amount": 95000
+            },
+            {
+              "description": "Wood doors - interior",
+              "amount": 115000
+            },
+            {
+              "description": "Hardware - standard & accessible",
+              "amount": 128000
+            },
+            {
+              "description": "Storefront glazing & entrance systems",
+              "amount": 176000
+            },
+            {
+              "description": "Interior borrowed lites & glazing",
+              "amount": 54000
+            }
+          ],
+          "exclusions": [
+            "Curtain wall (by glazing sub)",
+            "Automatic door operators (by EC)"
+          ],
+          "inclusions": [
+            "Complete door/frame/hardware package",
+            "Keying schedule",
+            "Storefront"
+          ],
+          "notes": "Hardware allowance per schedule. Keying by master locksmith included.",
+          "post_bid_updates": []
+        },
+        {
+          "sub_id": "DFH2",
+          "company": "Austin Openings Co.",
+          "contact": "Nancy Kim",
+          "email": "nkim@austinopenings.com",
+          "source": "Excel",
+          "submitted_date": "2024-04-19",
+          "base_bid": 480000,
+          "line_items": [
+            {
+              "description": "Hollow metal frames",
+              "amount": 88000
+            },
+            {
+              "description": "Wood doors - interior",
+              "amount": 101000
+            },
+            {
+              "description": "Hardware - standard",
+              "amount": 115000
+            },
+            {
+              "description": "Interior borrowed lites & glazing",
+              "amount": 47000
+            },
+            {
+              "description": "Storefront glazing & entrance systems",
+              "amount": 0
+            }
+          ],
+          "exclusions": [
+            "Storefront - NIC (separate glazing sub)",
+            "Curtain wall",
+            "Automatic operators"
+          ],
+          "inclusions": [
+            "Doors, frames, hardware, interior glazing"
+          ],
+          "notes": "Storefront excluded - GC to carry separately",
+          "post_bid_updates": []
+        },
+        {
+          "sub_id": "DFH3",
+          "company": "Lone Star Doors & Glass",
+          "contact": "Paul Rivera",
+          "email": "privera@lonestardag.com",
+          "source": "PDF",
+          "submitted_date": "2024-04-20",
+          "base_bid": 625000,
+          "line_items": [
+            {
+              "description": "Hollow metal frames",
+              "amount": 101000
+            },
+            {
+              "description": "Wood doors - interior",
+              "amount": 122000
+            },
+            {
+              "description": "Hardware - full specification",
+              "amount": 149000
+            },
+            {
+              "description": "Storefront glazing & entrance systems",
+              "amount": 189000
+            },
+            {
+              "description": "Interior borrowed lites & glazing",
+              "amount": 64000
+            }
+          ],
+          "exclusions": [
+            "Curtain wall"
+          ],
+          "inclusions": [
+            "Full door/frame/hardware/glazing",
+            "Electric strikes",
+            "Storefront"
+          ],
+          "notes": "Premium hardware spec including electric strikes and access control prep",
+          "post_bid_updates": []
+        }
+      ]
+    },
+    {
+      "trade": "Drywall & Framing",
+      "csi_code": "09 20 00",
+      "bids": [
+        {
+          "sub_id": "D1",
+          "company": "TexFrame Interiors",
+          "contact": "Carlos Mendez",
+          "email": "cmendez@texframe.com",
+          "source": "PDF",
+          "submitted_date": "2024-04-20",
+          "base_bid": 301000,
+          "line_items": [
+            {
+              "description": "Metal stud framing - interior partitions",
+              "amount": 95000
+            },
+            {
+              "description": "Drywall - standard areas",
+              "amount": 81000
+            },
+            {
+              "description": "Drywall - shaft walls & stairwells",
+              "amount": 41000
+            },
+            {
+              "description": "Tape, mud & finish (Level 4)",
+              "amount": 47000
+            },
+            {
+              "description": "Shaft wall assemblies",
+              "amount": 27000
+            },
+            {
+              "description": "Acoustical sealant & backing",
+              "amount": 10000
+            }
+          ],
+          "exclusions": [
+            "Exterior sheathing",
+            "Paint",
+            "Ceiling grid & tile (by others)"
+          ],
+          "inclusions": [
+            "All labor and material",
+            "Level 4 finish",
+            "Fire-rated assemblies per plans"
+          ],
+          "notes": "Bid includes all fire-rated corridor assemblies per code",
+          "post_bid_updates": []
+        },
+        {
+          "sub_id": "D2",
+          "company": "Austin Drywall Pros",
+          "contact": "Tammy Walsh",
+          "email": "twalsh@austindrywall.com",
+          "source": "Excel",
+          "submitted_date": "2024-04-21",
+          "base_bid": 259000,
+          "line_items": [
+            {
+              "description": "Metal stud framing - interior partitions",
+              "amount": 85000
+            },
+            {
+              "description": "Drywall - standard areas",
+              "amount": 71000
+            },
+            {
+              "description": "Drywall - shaft walls & stairwells",
+              "amount": 34000
+            },
+            {
+              "description": "Tape, mud & finish",
+              "amount": 42000
+            },
+            {
+              "description": "Acoustical sealant & backing",
+              "amount": 8000
+            },
+            {
+              "description": "Shaft wall assemblies",
+              "amount": 0
+            }
+          ],
+          "exclusions": [
+            "Exterior sheathing",
+            "Paint",
+            "Ceiling grid & tile",
+            "SHAFT WALL ASSEMBLIES - NOT INCLUDED",
+            "Stair pressurization framing"
+          ],
+          "inclusions": [
+            "All labor and material",
+            "Level 4 finish standard areas"
+          ],
+          "notes": "Shaft walls excluded - please confirm scope with GC",
+          "post_bid_updates": []
+        },
+        {
+          "sub_id": "D3",
+          "company": "Lone Star Interiors",
+          "contact": "Brett Johnson",
+          "email": "bjohnson@lonestarinteriors.com",
+          "source": "Email",
+          "submitted_date": "2024-04-22",
+          "base_bid": 320000,
+          "line_items": [
+            {
+              "description": "Complete drywall & framing scope per plans",
+              "amount": 320000
+            }
+          ],
+          "exclusions": [
+            "Paint",
+            "Ceiling grid & tile"
+          ],
+          "inclusions": [
+            "All framing, drywall, finish, shaft walls, fire-rated assemblies",
+            "Level 5 finish in lobby and reception areas"
+          ],
+          "notes": "Includes Level 5 finish in lobby/reception - premium finish upgrade included",
+          "post_bid_updates": []
+        }
+      ]
+    },
+    {
+      "trade": "Flooring",
+      "csi_code": "09 60 00",
+      "bids": [
+        {
+          "sub_id": "FLR1",
+          "company": "Austin Floor Covering",
+          "contact": "Beth Adams",
+          "email": "badams@austinfloor.com",
+          "source": "PDF",
+          "submitted_date": "2024-04-19",
+          "base_bid": 500000,
+          "line_items": [
+            {
+              "description": "LVT flooring - patient & clinical areas",
+              "amount": 176000
+            },
+            {
+              "description": "Carpet tile - office & waiting areas",
+              "amount": 95000
+            },
+            {
+              "description": "Ceramic tile - restrooms & break rooms",
+              "amount": 115000
+            },
+            {
+              "description": "Specialty sheet vinyl - procedure rooms",
+              "amount": 74000
+            },
+            {
+              "description": "Floor prep, leveling & adhesive",
+              "amount": 41000
+            }
+          ],
+          "exclusions": [
+            "Stair treads/nosings (by drywall sub)",
+            "Concrete sealer (by concrete sub)"
+          ],
+          "inclusions": [
+            "All floor covering per finish schedule",
+            "Floor prep and leveling"
+          ],
+          "notes": "LVT spec: Mannington Commercial Nomi. Sheet vinyl: Tarkett iQ One.",
+          "post_bid_updates": []
+        },
+        {
+          "sub_id": "FLR2",
+          "company": "Lone Star Floors",
+          "contact": "Rick Simmons",
+          "email": "rsimmons@lonestarfloors.com",
+          "source": "Excel",
+          "submitted_date": "2024-04-20",
+          "base_bid": 426000,
+          "line_items": [
+            {
+              "description": "LVT flooring - patient & clinical areas",
+              "amount": 156000
+            },
+            {
+              "description": "Carpet tile - office & waiting areas",
+              "amount": 81000
+            },
+            {
+              "description": "Ceramic tile - restrooms",
+              "amount": 95000
+            },
+            {
+              "description": "Floor prep & adhesive",
+              "amount": 34000
+            },
+            {
+              "description": "Specialty sheet vinyl - procedure rooms",
+              "amount": 0
+            }
+          ],
+          "exclusions": [
+            "Specialty sheet vinyl - NIC",
+            "Stair treads/nosings",
+            "Concrete sealer"
+          ],
+          "inclusions": [
+            "LVT, carpet, ceramic tile, floor prep"
+          ],
+          "notes": "Specialty sheet vinyl in procedure rooms excluded - requires separate quote",
+          "post_bid_updates": [
+            {
+              "update_id": "FLR2-U1",
+              "date": "2024-04-29",
+              "from": "Rick Simmons <rsimmons@lonestarfloors.com>",
+              "subject": "RE: Riverside MOB - Procedure Room Flooring",
+              "body": "Kevin, we can include the specialty sheet vinyl in procedure rooms for $19,500. Revised total $145,500.",
+              "revised_total": 492000,
+              "delta": 66000,
+              "scope_added": "Specialty sheet vinyl in procedure rooms"
+            }
+          ]
+        },
+        {
+          "sub_id": "FLR3",
+          "company": "Texas Commercial Flooring",
+          "contact": "Dana White",
+          "email": "dwhite@txcomfloor.com",
+          "source": "Email",
+          "submitted_date": "2024-04-21",
+          "base_bid": 548000,
+          "line_items": [
+            {
+              "description": "Complete flooring scope per finish schedule",
+              "amount": 548000
+            }
+          ],
+          "exclusions": [
+            "Stair treads/nosings",
+            "Concrete sealer"
+          ],
+          "inclusions": [
+            "All floor covering, specialty sheet vinyl, prep, stair treads"
+          ],
+          "notes": "Lump sum includes all finishes per room schedule including stair treads",
+          "post_bid_updates": []
+        }
+      ]
+    },
+    {
+      "trade": "Painting & Wall Coverings",
+      "csi_code": "09 90 00",
+      "bids": [
+        {
+          "sub_id": "PNT1",
+          "company": "Austin Painting Co.",
+          "contact": "James Brown",
+          "email": "jbrown@austinpainting.com",
+          "source": "PDF",
+          "submitted_date": "2024-04-20",
+          "base_bid": 230000,
+          "line_items": [
+            {
+              "description": "Interior painting - walls & ceilings",
+              "amount": 128000
+            },
+            {
+              "description": "Exterior painting - EIFS, soffits, metal",
+              "amount": 47000
+            },
+            {
+              "description": "Wall coverings (vinyl wallpaper)",
+              "amount": 34000
+            },
+            {
+              "description": "Epoxy paint - mechanical & utility rooms",
+              "amount": 20000
+            }
+          ],
+          "exclusions": [
+            "Staining (no wood exposed)",
+            "Parking striping (by site sub)"
+          ],
+          "inclusions": [
+            "All interior and exterior painting",
+            "Wall coverings",
+            "Epoxy paint"
+          ],
+          "notes": "Two coats throughout. Premium paint in patient areas.",
+          "post_bid_updates": []
+        },
+        {
+          "sub_id": "PNT2",
+          "company": "Lone Star Painting",
+          "contact": "Maria Valdez",
+          "email": "mvaldez@lonestarpainting.com",
+          "source": "Email",
+          "submitted_date": "2024-04-21",
+          "base_bid": 196000,
+          "line_items": [
+            {
+              "description": "Interior painting - walls & ceilings",
+              "amount": 118000
+            },
+            {
+              "description": "Epoxy paint - mechanical rooms",
+              "amount": 17000
+            },
+            {
+              "description": "Wall coverings",
+              "amount": 30000
+            },
+            {
+              "description": "Exterior painting",
+              "amount": 0
+            }
+          ],
+          "exclusions": [
+            "Exterior painting - NIC",
+            "Parking striping"
+          ],
+          "inclusions": [
+            "Interior painting",
+            "Wall coverings",
+            "Epoxy"
+          ],
+          "notes": "Exterior painting excluded - please confirm if required",
+          "post_bid_updates": []
+        },
+        {
+          "sub_id": "PNT3",
+          "company": "Capitol Finishes",
+          "contact": "Robert Davis",
+          "email": "rdavis@capitolfinishes.com",
+          "source": "Excel",
+          "submitted_date": "2024-04-22",
+          "base_bid": 254000,
+          "line_items": [
+            {
+              "description": "Interior painting - walls & ceilings",
+              "amount": 135000
+            },
+            {
+              "description": "Exterior painting",
+              "amount": 54000
+            },
+            {
+              "description": "Wall coverings",
+              "amount": 37000
+            },
+            {
+              "description": "Epoxy paint - mechanical & utility rooms",
+              "amount": 27000
+            }
+          ],
+          "exclusions": [
+            "Parking striping"
+          ],
+          "inclusions": [
+            "Full scope interior and exterior",
+            "Premium paint in clinical areas"
+          ],
+          "notes": "Premium finish spec for medical environment",
+          "post_bid_updates": []
+        }
+      ]
+    },
+    {
+      "trade": "Acoustical Ceilings (ACT)",
+      "csi_code": "09 51 00",
+      "bids": [
+        {
+          "sub_id": "ACT1",
+          "company": "Texas Ceiling Systems",
+          "contact": "George Mason",
+          "email": "gmason@txceilsys.com",
+          "source": "PDF",
+          "submitted_date": "2024-04-19",
+          "base_bid": 277000,
+          "line_items": [
+            {
+              "description": "Standard 2x4 ACT grid & tile",
+              "amount": 128000
+            },
+            {
+              "description": "Specialty 2x2 ACT - patient areas",
+              "amount": 74000
+            },
+            {
+              "description": "Gypsum board soffits & clouds",
+              "amount": 47000
+            },
+            {
+              "description": "Access panels & hatch framing",
+              "amount": 27000
+            }
+          ],
+          "exclusions": [
+            "Drywall ceilings (by drywall sub)",
+            "HVAC diffusers (by mechanical)"
+          ],
+          "inclusions": [
+            "All ACT grid, tile, soffits, and access panels"
+          ],
+          "notes": "Includes Armstrong Cirrus healthcare tile in clinical areas",
+          "post_bid_updates": []
+        },
+        {
+          "sub_id": "ACT2",
+          "company": "Austin Acoustic Ceilings",
+          "contact": "Helen Chu",
+          "email": "hchu@austinaac.com",
+          "source": "Excel",
+          "submitted_date": "2024-04-20",
+          "base_bid": 243000,
+          "line_items": [
+            {
+              "description": "Standard 2x4 ACT grid & tile",
+              "amount": 118000
+            },
+            {
+              "description": "Specialty 2x2 ACT - patient areas",
+              "amount": 68000
+            },
+            {
+              "description": "Access panels",
+              "amount": 24000
+            },
+            {
+              "description": "Gypsum board soffits & clouds",
+              "amount": 0
+            }
+          ],
+          "exclusions": [
+            "Gypsum board soffits & clouds - NIC",
+            "Drywall ceilings",
+            "HVAC diffusers"
+          ],
+          "inclusions": [
+            "ACT grid, tile, access panels"
+          ],
+          "notes": "Soffits excluded - by drywall sub",
+          "post_bid_updates": []
+        },
+        {
+          "sub_id": "ACT3",
+          "company": "Lone Star Ceiling Co.",
+          "contact": "Frank Lopez",
+          "email": "flopez@lonestarceiling.com",
+          "source": "PDF",
+          "submitted_date": "2024-04-21",
+          "base_bid": 321000,
+          "line_items": [
+            {
+              "description": "Standard 2x4 ACT grid & tile",
+              "amount": 135000
+            },
+            {
+              "description": "Specialty 2x2 ACT - patient areas",
+              "amount": 81000
+            },
+            {
+              "description": "Gypsum board soffits & clouds",
+              "amount": 61000
+            },
+            {
+              "description": "Access panels & hatch framing",
+              "amount": 30000
+            },
+            {
+              "description": "Specialty ceiling features - lobby",
+              "amount": 14000
+            }
+          ],
+          "exclusions": [
+            "Drywall ceilings",
+            "HVAC diffusers"
+          ],
+          "inclusions": [
+            "Full ceiling scope including specialty lobby features"
+          ],
+          "notes": "Includes custom ceiling feature in main lobby",
+          "post_bid_updates": []
+        }
+      ]
+    },
+    {
+      "trade": "Specialties (Toilet Accessories, Signage, Extinguishers)",
+      "csi_code": "10 00 00",
+      "bids": [
+        {
+          "sub_id": "SPEC1",
+          "company": "Texas Specialties Group",
+          "contact": "Amy Hart",
+          "email": "ahart@txspecialties.com",
+          "source": "PDF",
+          "submitted_date": "2024-04-21",
+          "base_bid": 162000,
+          "line_items": [
+            {
+              "description": "Toilet accessories - all restrooms",
+              "amount": 47000
+            },
+            {
+              "description": "Signage - ADA, room ID, wayfinding",
+              "amount": 54000
+            },
+            {
+              "description": "Fire extinguisher cabinets & extinguishers",
+              "amount": 27000
+            },
+            {
+              "description": "Corner guards & impact protection",
+              "amount": 20000
+            },
+            {
+              "description": "Grab bars - accessible units",
+              "amount": 14000
+            }
+          ],
+          "exclusions": [
+            "Lockers",
+            "Projection screens (by AV sub)"
+          ],
+          "inclusions": [
+            "Full specialties package",
+            "ADA compliant signage",
+            "Fire extinguishers"
+          ],
+          "notes": "Signage spec: ASI. All ADA/TAS compliant.",
+          "post_bid_updates": []
+        },
+        {
+          "sub_id": "SPEC2",
+          "company": "Austin Supply & Install",
+          "contact": "Ben Carr",
+          "email": "bcarr@austinsupplyinstall.com",
+          "source": "Email",
+          "submitted_date": "2024-04-22",
+          "base_bid": 142000,
+          "line_items": [
+            {
+              "description": "Toilet accessories",
+              "amount": 44000
+            },
+            {
+              "description": "Fire extinguisher cabinets & extinguishers",
+              "amount": 25000
+            },
+            {
+              "description": "Corner guards & impact protection",
+              "amount": 19000
+            },
+            {
+              "description": "Grab bars",
+              "amount": 12000
+            },
+            {
+              "description": "Signage",
+              "amount": 0
+            }
+          ],
+          "exclusions": [
+            "Signage - NIC",
+            "Lockers",
+            "Projection screens"
+          ],
+          "inclusions": [
+            "Toilet accessories, fire extinguishers, corner guards, grab bars"
+          ],
+          "notes": "Signage excluded - recommend owner-direct purchase",
+          "post_bid_updates": []
+        },
+        {
+          "sub_id": "SPEC3",
+          "company": "Lone Star Specialties",
+          "contact": "Tina Patel",
+          "email": "tpatel@lonestarspcl.com",
+          "source": "Excel",
+          "submitted_date": "2024-04-23",
+          "base_bid": 186000,
+          "line_items": [
+            {
+              "description": "Toilet accessories",
+              "amount": 51000
+            },
+            {
+              "description": "Signage",
+              "amount": 61000
+            },
+            {
+              "description": "Fire extinguisher cabinets & extinguishers",
+              "amount": 30000
+            },
+            {
+              "description": "Corner guards & impact protection",
+              "amount": 24000
+            },
+            {
+              "description": "Grab bars",
+              "amount": 15000
+            },
+            {
+              "description": "Specialty medical accessories",
+              "amount": 5000
+            }
+          ],
+          "exclusions": [
+            "Lockers"
+          ],
+          "inclusions": [
+            "Full specialties scope plus specialty medical accessories"
+          ],
+          "notes": "Includes medical-grade accessories in clinical areas",
+          "post_bid_updates": []
+        }
+      ]
+    },
+    {
+      "trade": "Medical Equipment Rough-In",
+      "csi_code": "11 70 00",
+      "bids": [
+        {
+          "sub_id": "MED1",
+          "company": "Healthcare Equipment Solutions",
+          "contact": "Dr. Sam Okon",
+          "email": "sokon@hesinc.com",
+          "source": "PDF",
+          "submitted_date": "2024-04-18",
+          "base_bid": 423000,
+          "line_items": [
+            {
+              "description": "Nurse call system - rough-in & devices",
+              "amount": 142000
+            },
+            {
+              "description": "Medical gas outlets & trim",
+              "amount": 95000
+            },
+            {
+              "description": "Patient bed connections & hooks",
+              "amount": 61000
+            },
+            {
+              "description": "Exam room equipment connections",
+              "amount": 74000
+            },
+            {
+              "description": "Medical waste & sharps station rough-in",
+              "amount": 51000
+            }
+          ],
+          "exclusions": [
+            "Medical equipment (owner furnished)",
+            "Nurse call head-end (by IT)"
+          ],
+          "inclusions": [
+            "All medical rough-in",
+            "Nurse call field devices",
+            "Gas outlets"
+          ],
+          "notes": "Nurse call: Rauland Responder 5 system",
+          "post_bid_updates": []
+        },
+        {
+          "sub_id": "MED2",
+          "company": "MedTech Installations",
+          "contact": "Laura Kim",
+          "email": "lkim@medtechinst.com",
+          "source": "Email",
+          "submitted_date": "2024-04-19",
+          "base_bid": 365000,
+          "line_items": [
+            {
+              "description": "Medical gas outlets & trim",
+              "amount": 88000
+            },
+            {
+              "description": "Patient bed connections & hooks",
+              "amount": 54000
+            },
+            {
+              "description": "Exam room equipment connections",
+              "amount": 68000
+            },
+            {
+              "description": "Medical waste & sharps stations",
+              "amount": 41000
+            },
+            {
+              "description": "Nurse call system",
+              "amount": 0
+            }
+          ],
+          "exclusions": [
+            "Nurse call system - NIC",
+            "Medical equipment OFE"
+          ],
+          "inclusions": [
+            "Medical gas, patient connections, exam rooms, waste stations"
+          ],
+          "notes": "Nurse call excluded - recommend separate specialty contractor",
+          "post_bid_updates": [
+            {
+              "update_id": "MED2-U1",
+              "date": "2024-04-30",
+              "from": "Laura Kim <lkim@medtechinst.com>",
+              "subject": "RE: Riverside MOB - Nurse Call Add",
+              "body": "Kevin, we can include nurse call rough-in and field devices for $40,000. Revised total $148,000. Head-end equipment by IT sub.",
+              "revised_total": 500000,
+              "delta": 135000,
+              "scope_added": "Nurse call system rough-in and field devices"
+            }
+          ]
+        },
+        {
+          "sub_id": "MED3",
+          "company": "Capitol Medical Systems",
+          "contact": "Dr. Paul Singh",
+          "email": "psingh@capitolmedsys.com",
+          "source": "Excel",
+          "submitted_date": "2024-04-20",
+          "base_bid": 480000,
+          "line_items": [
+            {
+              "description": "Nurse call system complete",
+              "amount": 149000
+            },
+            {
+              "description": "Medical gas outlets & trim",
+              "amount": 101000
+            },
+            {
+              "description": "Patient connections & exam rooms",
+              "amount": 142000
+            },
+            {
+              "description": "Medical waste stations",
+              "amount": 54000
+            },
+            {
+              "description": "Emergency call stations - corridor",
+              "amount": 34000
+            }
+          ],
+          "exclusions": [
+            "Medical equipment OFE",
+            "IT head-end"
+          ],
+          "inclusions": [
+            "Full medical rough-in scope including emergency call stations"
+          ],
+          "notes": "Full scope including emergency corridor pull stations",
+          "post_bid_updates": []
+        }
+      ]
+    },
+    {
+      "trade": "Casework & Millwork",
+      "csi_code": "12 30 00",
+      "bids": [
+        {
+          "sub_id": "CAS1",
+          "company": "Austin Casework Co.",
+          "contact": "Scott Miller",
+          "email": "smiller@austincasework.com",
+          "source": "PDF",
+          "submitted_date": "2024-04-19",
+          "base_bid": 331000,
+          "line_items": [
+            {
+              "description": "Nurses station casework & countertops",
+              "amount": 108000
+            },
+            {
+              "description": "Break room & lounge casework",
+              "amount": 61000
+            },
+            {
+              "description": "Reception & lobby millwork",
+              "amount": 74000
+            },
+            {
+              "description": "Exam room casework",
+              "amount": 68000
+            },
+            {
+              "description": "Lab casework",
+              "amount": 20000
+            }
+          ],
+          "exclusions": [
+            "Appliances (OFE)",
+            "Plumbing (by plumbing sub)"
+          ],
+          "inclusions": [
+            "All casework, countertops, hardware"
+          ],
+          "notes": "Solid surface countertops at nurses station. Laminate elsewhere.",
+          "post_bid_updates": []
+        },
+        {
+          "sub_id": "CAS2",
+          "company": "Texas Custom Cabinets",
+          "contact": "Nina Ortiz",
+          "email": "nortiz@txcustomcab.com",
+          "source": "Email",
+          "submitted_date": "2024-04-20",
+          "base_bid": 284000,
+          "line_items": [
+            {
+              "description": "Nurses station casework & countertops",
+              "amount": 95000
+            },
+            {
+              "description": "Break room & lounge casework",
+              "amount": 54000
+            },
+            {
+              "description": "Reception & lobby millwork",
+              "amount": 61000
+            },
+            {
+              "description": "Exam room casework",
+              "amount": 61000
+            },
+            {
+              "description": "Lab casework",
+              "amount": 0
+            }
+          ],
+          "exclusions": [
+            "Lab casework - NIC (specialty)",
+            "Appliances OFE",
+            "Plumbing"
+          ],
+          "inclusions": [
+            "Nurses station, break rooms, reception, exam rooms"
+          ],
+          "notes": "Lab casework excluded - requires specialty medical casework vendor",
+          "post_bid_updates": []
+        },
+        {
+          "sub_id": "CAS3",
+          "company": "Precision Millwork of Austin",
+          "contact": "Gary Stone",
+          "email": "gstone@precisionmillwork.com",
+          "source": "Excel",
+          "submitted_date": "2024-04-21",
+          "base_bid": 379000,
+          "line_items": [
+            {
+              "description": "Nurses station casework",
+              "amount": 122000
+            },
+            {
+              "description": "Break room & lounge casework",
+              "amount": 68000
+            },
+            {
+              "description": "Reception & lobby millwork",
+              "amount": 88000
+            },
+            {
+              "description": "Exam room casework",
+              "amount": 74000
+            },
+            {
+              "description": "Lab casework",
+              "amount": 27000
+            }
+          ],
+          "exclusions": [
+            "Appliances OFE",
+            "Plumbing"
+          ],
+          "inclusions": [
+            "Full casework scope including lab casework and premium finishes"
+          ],
+          "notes": "Premium finish spec. Quartz countertops at all clinical areas.",
+          "post_bid_updates": []
+        }
+      ]
+    },
+    {
+      "trade": "Elevator",
+      "csi_code": "14 20 00",
+      "bids": [
+        {
+          "sub_id": "ELV1",
+          "company": "Otis Elevator Co.",
+          "contact": "Rachel Green",
+          "email": "rgreen@otis.com",
+          "source": "PDF",
+          "submitted_date": "2024-04-17",
+          "base_bid": 490000,
+          "line_items": [
+            {
+              "description": "3-stop hydraulic elevator - 3500lb",
+              "amount": 389000
+            },
+            {
+              "description": "Cab finishes - standard package",
+              "amount": 61000
+            },
+            {
+              "description": "5-year maintenance contract",
+              "amount": 41000
+            }
+          ],
+          "exclusions": [
+            "Hoistway construction (by GC)",
+            "Electrical feeder (by EC)"
+          ],
+          "inclusions": [
+            "Equipment, installation, cab, 5-year maintenance"
+          ],
+          "notes": "12-week lead time. Includes 5-year full maintenance.",
+          "post_bid_updates": []
+        },
+        {
+          "sub_id": "ELV2",
+          "company": "ThyssenKrupp Elevator",
+          "contact": "Mark Evans",
+          "email": "mevans@tk-elevator.com",
+          "source": "Excel",
+          "submitted_date": "2024-04-17",
+          "base_bid": 446000,
+          "line_items": [
+            {
+              "description": "3-stop hydraulic elevator - 3500lb",
+              "amount": 379000
+            },
+            {
+              "description": "Cab finishes - basic package",
+              "amount": 47000
+            },
+            {
+              "description": "1-year warranty maintenance",
+              "amount": 20000
+            }
+          ],
+          "exclusions": [
+            "Hoistway construction",
+            "Electrical feeder",
+            "Extended maintenance (extra)"
+          ],
+          "inclusions": [
+            "Equipment, installation, cab, 1-year warranty"
+          ],
+          "notes": "Base spec only. Extended maintenance available at $8,500/year.",
+          "post_bid_updates": []
+        },
+        {
+          "sub_id": "ELV3",
+          "company": "KONE Elevators",
+          "contact": "Sandra Lee",
+          "email": "slee@kone.com",
+          "source": "PDF",
+          "submitted_date": "2024-04-18",
+          "base_bid": 534000,
+          "line_items": [
+            {
+              "description": "3-stop MRL elevator - 3500lb (machine room-less)",
+              "amount": 433000
+            },
+            {
+              "description": "Premium cab finishes",
+              "amount": 68000
+            },
+            {
+              "description": "10-year maintenance contract",
+              "amount": 34000
+            }
+          ],
+          "exclusions": [
+            "Hoistway construction",
+            "Electrical feeder"
+          ],
+          "inclusions": [
+            "MRL equipment, premium cab, 10-year maintenance"
+          ],
+          "notes": "MRL (machine room-less) unit - saves hoistway space. Premium cab included.",
+          "post_bid_updates": []
+        }
+      ]
+    },
+    {
+      "trade": "Fire Suppression (Sprinklers)",
+      "csi_code": "21 00 00",
+      "bids": [
+        {
+          "sub_id": "FIRE1",
+          "company": "Texas Fire Protection",
+          "contact": "Tom Nguyen",
+          "email": "tnguyen@txfireprot.com",
+          "source": "PDF",
+          "submitted_date": "2024-04-18",
+          "base_bid": 331000,
+          "line_items": [
+            {
+              "description": "Wet pipe sprinkler system - all floors",
+              "amount": 210000
+            },
+            {
+              "description": "Underground fire line to building",
+              "amount": 61000
+            },
+            {
+              "description": "Kitchen hood fire suppression",
+              "amount": 41000
+            },
+            {
+              "description": "Sprinkler heads - concealed in finished areas",
+              "amount": 20000
+            }
+          ],
+          "exclusions": [
+            "Electrical (by EC)",
+            "Fire alarm (by EC)"
+          ],
+          "inclusions": [
+            "Complete wet pipe system",
+            "Underground",
+            "Kitchen suppression"
+          ],
+          "notes": "NFPA 13 compliant. Concealed heads in patient and lobby areas.",
+          "post_bid_updates": []
+        },
+        {
+          "sub_id": "FIRE2",
+          "company": "Capitol Fire Systems",
+          "contact": "Al Roberts",
+          "email": "aroberts@capitolfpd.com",
+          "source": "Email",
+          "submitted_date": "2024-04-19",
+          "base_bid": 291000,
+          "line_items": [
+            {
+              "description": "Wet pipe sprinkler system - all floors",
+              "amount": 196000
+            },
+            {
+              "description": "Underground fire line to building",
+              "amount": 54000
+            },
+            {
+              "description": "Sprinkler heads - concealed in finished areas",
+              "amount": 19000
+            },
+            {
+              "description": "Kitchen hood fire suppression",
+              "amount": 0
+            }
+          ],
+          "exclusions": [
+            "Kitchen hood fire suppression - NIC",
+            "Electrical",
+            "Fire alarm"
+          ],
+          "inclusions": [
+            "Wet pipe system, underground, concealed heads"
+          ],
+          "notes": "Kitchen hood suppression excluded - by kitchen equipment vendor",
+          "post_bid_updates": []
+        },
+        {
+          "sub_id": "FIRE3",
+          "company": "Lone Star Fire Protection",
+          "contact": "Karen Hill",
+          "email": "khill@lonestarfp.com",
+          "source": "Excel",
+          "submitted_date": "2024-04-20",
+          "base_bid": 365000,
+          "line_items": [
+            {
+              "description": "Wet pipe sprinkler system",
+              "amount": 220000
+            },
+            {
+              "description": "Underground fire line",
+              "amount": 68000
+            },
+            {
+              "description": "Kitchen hood fire suppression",
+              "amount": 44000
+            },
+            {
+              "description": "Pre-action system - IT room",
+              "amount": 24000
+            },
+            {
+              "description": "Concealed heads in finished areas",
+              "amount": 10000
+            }
+          ],
+          "exclusions": [
+            "Electrical",
+            "Fire alarm"
+          ],
+          "inclusions": [
+            "Full scope including pre-action system in IT room"
+          ],
+          "notes": "Includes pre-action dry system in server/IT room",
+          "post_bid_updates": []
+        }
+      ]
+    },
+    {
+      "trade": "Plumbing",
+      "csi_code": "22 00 00",
+      "bids": [
+        {
+          "sub_id": "PLM1",
+          "company": "Austin Plumbing Co.",
+          "contact": "Dave Clark",
+          "email": "dclark@austinplumbing.com",
+          "source": "PDF",
+          "submitted_date": "2024-04-18",
+          "base_bid": 669000,
+          "line_items": [
+            {
+              "description": "Sanitary & waste system",
+              "amount": 142000
+            },
+            {
+              "description": "Domestic water - cold & hot",
+              "amount": 128000
+            },
+            {
+              "description": "Fixtures - all restrooms & break rooms",
+              "amount": 176000
+            },
+            {
+              "description": "Medical gas outlets & zone valves",
+              "amount": 95000
+            },
+            {
+              "description": "Natural gas piping",
+              "amount": 61000
+            },
+            {
+              "description": "Roof drains & storm (interior)",
+              "amount": 47000
+            },
+            {
+              "description": "Backflow preventers & water meters",
+              "amount": 20000
+            }
+          ],
+          "exclusions": [
+            "Site utilities (by civil sub)",
+            "Medical gas manifold equipment (owner)"
+          ],
+          "inclusions": [
+            "Complete plumbing system",
+            "Medical gas outlets",
+            "All fixtures"
+          ],
+          "notes": "Includes all plumbing per drawings P-series",
+          "post_bid_updates": []
+        },
+        {
+          "sub_id": "PLM2",
+          "company": "Lone Star Plumbing",
+          "contact": "Jake Morris",
+          "email": "jmorris@lonestarpbg.com",
+          "source": "Excel",
+          "submitted_date": "2024-04-19",
+          "base_bid": 582000,
+          "line_items": [
+            {
+              "description": "Sanitary & waste system",
+              "amount": 128000
+            },
+            {
+              "description": "Domestic water - cold & hot",
+              "amount": 115000
+            },
+            {
+              "description": "Fixtures - restrooms & break rooms",
+              "amount": 156000
+            },
+            {
+              "description": "Natural gas piping",
+              "amount": 54000
+            },
+            {
+              "description": "Roof drains & storm",
+              "amount": 41000
+            },
+            {
+              "description": "Backflow preventers",
+              "amount": 19000
+            },
+            {
+              "description": "Medical gas outlets",
+              "amount": 0
+            }
+          ],
+          "exclusions": [
+            "Medical gas outlets - NIC",
+            "Site utilities",
+            "Medical gas manifold"
+          ],
+          "inclusions": [
+            "Full plumbing minus medical gas"
+          ],
+          "notes": "Medical gas excluded - requires certified medical gas contractor",
+          "post_bid_updates": [
+            {
+              "update_id": "PLM2-U1",
+              "date": "2024-04-29",
+              "from": "Jake Morris <jmorris@lonestarpbg.com>",
+              "subject": "RE: Riverside MOB - Medical Gas Add",
+              "body": "Kevin, we are certified for medical gas. We can add medical gas outlets and zone valves for $26,500. Revised total $198,500.",
+              "revised_total": 671000,
+              "delta": 90000,
+              "scope_added": "Medical gas outlets and zone valves"
+            }
+          ]
+        },
+        {
+          "sub_id": "PLM3",
+          "company": "Capitol Plumbing & Gas",
+          "contact": "Tim Foster",
+          "email": "tfoster@capitolplbg.com",
+          "source": "PDF",
+          "submitted_date": "2024-04-20",
+          "base_bid": 737000,
+          "line_items": [
+            {
+              "description": "Complete plumbing system per plans",
+              "amount": 737000
+            }
+          ],
+          "exclusions": [
+            "Site utilities"
+          ],
+          "inclusions": [
+            "Full plumbing scope, medical gas, all fixtures, gas piping"
+          ],
+          "notes": "Lump sum. ASSE 6000 certified medical gas contractor.",
+          "post_bid_updates": []
+        }
+      ]
+    },
+    {
+      "trade": "Mechanical (HVAC)",
+      "csi_code": "23 00 00",
+      "bids": [
+        {
+          "sub_id": "M1",
+          "company": "AirRight Mechanical",
+          "contact": "Priya Nair",
+          "email": "pnair@airright.com",
+          "source": "PDF",
+          "submitted_date": "2024-04-21",
+          "base_bid": 669000,
+          "line_items": [
+            {
+              "description": "RTUs & split systems",
+              "amount": 243000
+            },
+            {
+              "description": "Ductwork & distribution",
+              "amount": 162000
+            },
+            {
+              "description": "Piping - chilled/hot water",
+              "amount": 95000
+            },
+            {
+              "description": "Controls & BAS integration",
+              "amount": 74000
+            },
+            {
+              "description": "Balancing & commissioning",
+              "amount": 61000
+            },
+            {
+              "description": "Medical gas rough-in",
+              "amount": 34000
+            }
+          ],
+          "exclusions": [
+            "Plumbing work",
+            "Electrical connections (by EC)"
+          ],
+          "inclusions": [
+            "All permits",
+            "TAB report",
+            "Medical gas rough-in",
+            "Controls"
+          ],
+          "notes": "Includes medical gas rough-in per mechanical drawings M-301",
+          "post_bid_updates": []
+        },
+        {
+          "sub_id": "M2",
+          "company": "Central Texas HVAC",
+          "contact": "Rob Flores",
+          "email": "rflores@ctxhvac.com",
+          "source": "Excel",
+          "submitted_date": "2024-04-22",
+          "base_bid": 612000,
+          "line_items": [
+            {
+              "description": "RTUs & split systems",
+              "amount": 230000
+            },
+            {
+              "description": "Ductwork & distribution",
+              "amount": 149000
+            },
+            {
+              "description": "Piping - chilled/hot water",
+              "amount": 88000
+            },
+            {
+              "description": "Controls & BAS integration",
+              "amount": 68000
+            },
+            {
+              "description": "Balancing & commissioning",
+              "amount": 51000
+            },
+            {
+              "description": "Medical gas rough-in",
+              "amount": 0
+            }
+          ],
+          "exclusions": [
+            "Plumbing work",
+            "Electrical connections (by EC)",
+            "Medical gas - NOT IN CONTRACT",
+            "Kitchen hood exhaust"
+          ],
+          "inclusions": [
+            "All permits",
+            "TAB report",
+            "Basic controls"
+          ],
+          "notes": "Medical gas not included - requires separate specialty contractor",
+          "post_bid_updates": [
+            {
+              "update_id": "M2-U1",
+              "date": "2024-04-29",
+              "from": "Rob Flores <rflores@ctxhvac.com>",
+              "subject": "RE: Riverside MOB - Medical Gas Scope",
+              "body": "Kevin, we can include medical gas rough-in for an additional $9,500. Revised total $190,500. Rough-in only.",
+              "revised_total": 644000,
+              "delta": 32000,
+              "scope_added": "Medical gas rough-in (rough-in only)"
+            }
+          ]
+        },
+        {
+          "sub_id": "M3",
+          "company": "Comfort Systems of Austin",
+          "contact": "Lisa Chang",
+          "email": "lchang@comfortsystems.com",
+          "source": "Email",
+          "submitted_date": "2024-04-23",
+          "base_bid": 717000,
+          "line_items": [
+            {
+              "description": "HVAC equipment & installation",
+              "amount": 490000
+            },
+            {
+              "description": "Controls & commissioning",
+              "amount": 118000
+            },
+            {
+              "description": "Medical gas systems",
+              "amount": 61000
+            },
+            {
+              "description": "Kitchen hood exhaust",
+              "amount": 47000
+            }
+          ],
+          "exclusions": [
+            "Plumbing",
+            "Electrical connections"
+          ],
+          "inclusions": [
+            "All permits",
+            "Full commissioning",
+            "Medical gas",
+            "Kitchen hood exhaust",
+            "2-year warranty"
+          ],
+          "notes": "Premium bid includes extended warranty and full BAS commissioning",
+          "post_bid_updates": []
+        }
+      ]
+    },
+    {
+      "trade": "Electrical",
+      "csi_code": "26 00 00",
+      "bids": [
+        {
+          "sub_id": "E1",
+          "company": "Lone Star Electric Co.",
+          "contact": "Mike Torres",
+          "email": "mtorres@lonestarelectric.com",
+          "source": "PDF",
+          "submitted_date": "2024-04-22",
+          "base_bid": 482000,
+          "line_items": [
+            {
+              "description": "Service entrance & main switchgear",
+              "amount": 95000
+            },
+            {
+              "description": "Distribution panels & feeders",
+              "amount": 74000
+            },
+            {
+              "description": "Branch circuit wiring",
+              "amount": 105000
+            },
+            {
+              "description": "Lighting fixtures & controls",
+              "amount": 81000
+            },
+            {
+              "description": "Devices, plates & trim",
+              "amount": 29000
+            },
+            {
+              "description": "Fire alarm rough-in & devices",
+              "amount": 41000
+            },
+            {
+              "description": "Low voltage & data rough-in",
+              "amount": 30000
+            },
+            {
+              "description": "Exterior site lighting",
+              "amount": 27000
+            }
+          ],
+          "exclusions": [
+            "Generator and ATS",
+            "Transformer (utility furnished)"
+          ],
+          "inclusions": [
+            "All permits and inspections",
+            "As-built drawings"
+          ],
+          "notes": "Bid based on 100% CD set dated 03/15/2024",
+          "post_bid_updates": []
+        },
+        {
+          "sub_id": "E2",
+          "company": "Capital City Electrical",
+          "contact": "Sandra Reeves",
+          "email": "sreeves@capitalcityelec.com",
+          "source": "Excel",
+          "submitted_date": "2024-04-23",
+          "base_bid": 433000,
+          "line_items": [
+            {
+              "description": "Service entrance & main switchgear",
+              "amount": 90000
+            },
+            {
+              "description": "Distribution panels & feeders",
+              "amount": 64000
+            },
+            {
+              "description": "Branch circuit wiring",
+              "amount": 98000
+            },
+            {
+              "description": "Lighting fixtures & controls",
+              "amount": 74000
+            },
+            {
+              "description": "Devices, plates & trim",
+              "amount": 25000
+            },
+            {
+              "description": "Fire alarm rough-in & devices",
+              "amount": 0
+            },
+            {
+              "description": "Low voltage & data rough-in",
+              "amount": 27000
+            },
+            {
+              "description": "Exterior site lighting",
+              "amount": 24000
+            },
+            {
+              "description": "Temporary power during construction",
+              "amount": 30000
+            }
+          ],
+          "exclusions": [
+            "Generator and ATS",
+            "Transformer",
+            "FIRE ALARM SYSTEM - BY OTHERS",
+            "Commissioning"
+          ],
+          "inclusions": [
+            "All permits and inspections",
+            "Temporary power"
+          ],
+          "notes": "Fire alarm excluded per standard scope - confirm if required",
+          "post_bid_updates": [
+            {
+              "update_id": "E2-U1",
+              "date": "2024-04-28",
+              "from": "Sandra Reeves <sreeves@capitalcityelec.com>",
+              "subject": "RE: Riverside MOB - Fire Alarm Clarification",
+              "body": "Hi Kevin, per our call - if you need fire alarm, add $11,200. Revised total $139,200.",
+              "revised_total": 471000,
+              "delta": 38000,
+              "scope_added": "Fire alarm rough-in and devices"
+            }
+          ]
+        },
+        {
+          "sub_id": "E3",
+          "company": "Texas Power Solutions",
+          "contact": "Dave Kim",
+          "email": "dkim@txpowersolutions.com",
+          "source": "Email",
+          "submitted_date": "2024-04-24",
+          "base_bid": 527000,
+          "line_items": [
+            {
+              "description": "Complete electrical systems per plans",
+              "amount": 527000
+            }
+          ],
+          "exclusions": [
+            "Generator and ATS",
+            "Transformer (utility furnished)",
+            "Low voltage systems (data/tel) - NIC"
+          ],
+          "inclusions": [
+            "All permits",
+            "Fire alarm",
+            "Site lighting",
+            "Temporary power"
+          ],
+          "notes": "Lump sum bid. Detailed breakdown available upon request.",
+          "post_bid_updates": []
+        }
+      ]
+    },
+    {
+      "trade": "Communications (Data, AV, Tel)",
+      "csi_code": "27 00 00",
+      "bids": [
+        {
+          "sub_id": "COM1",
+          "company": "Texas DataCom Solutions",
+          "contact": "Phil West",
+          "email": "pwest@txdatacom.com",
+          "source": "PDF",
+          "submitted_date": "2024-04-20",
+          "base_bid": 264000,
+          "line_items": [
+            {
+              "description": "Structured cabling - Cat6A horizontal",
+              "amount": 108000
+            },
+            {
+              "description": "Telecommunications rooms fit-out",
+              "amount": 54000
+            },
+            {
+              "description": "AV rough-in - conference & training rooms",
+              "amount": 47000
+            },
+            {
+              "description": "Paging system rough-in",
+              "amount": 27000
+            },
+            {
+              "description": "Cable tray & pathway",
+              "amount": 27000
+            }
+          ],
+          "exclusions": [
+            "Active IT equipment (owner furnished)",
+            "AV equipment (by AV vendor)"
+          ],
+          "inclusions": [
+            "Complete structured cabling, telecom rooms, AV rough-in, paging"
+          ],
+          "notes": "BICSI certified installer. Includes telecom room fit-out.",
+          "post_bid_updates": []
+        },
+        {
+          "sub_id": "COM2",
+          "company": "Austin Tech Cabling",
+          "contact": "Janet Moore",
+          "email": "jmoore@austintechcabling.com",
+          "source": "Email",
+          "submitted_date": "2024-04-21",
+          "base_bid": 216000,
+          "line_items": [
+            {
+              "description": "Structured cabling - Cat6A",
+              "amount": 101000
+            },
+            {
+              "description": "Telecommunications rooms",
+              "amount": 47000
+            },
+            {
+              "description": "Cable tray & pathway",
+              "amount": 24000
+            },
+            {
+              "description": "Paging system rough-in",
+              "amount": 24000
+            },
+            {
+              "description": "AV rough-in",
+              "amount": 0
+            }
+          ],
+          "exclusions": [
+            "AV rough-in - NIC",
+            "Active IT equipment OFE",
+            "AV equipment OFE"
+          ],
+          "inclusions": [
+            "Structured cabling, telecom rooms, paging"
+          ],
+          "notes": "AV rough-in excluded - recommend AV integrator carry this scope",
+          "post_bid_updates": []
+        },
+        {
+          "sub_id": "COM3",
+          "company": "Lone Star Communications",
+          "contact": "Chris Hall",
+          "email": "chall@lonestarcoms.com",
+          "source": "Excel",
+          "submitted_date": "2024-04-22",
+          "base_bid": 298000,
+          "line_items": [
+            {
+              "description": "Structured cabling - Cat6A",
+              "amount": 115000
+            },
+            {
+              "description": "Telecom rooms fit-out",
+              "amount": 61000
+            },
+            {
+              "description": "AV rough-in & blocking",
+              "amount": 54000
+            },
+            {
+              "description": "Paging system complete",
+              "amount": 41000
+            },
+            {
+              "description": "Cable tray & pathway",
+              "amount": 27000
+            }
+          ],
+          "exclusions": [
+            "Active IT equipment OFE",
+            "AV equipment OFE"
+          ],
+          "inclusions": [
+            "Full communications scope including paging system complete"
+          ],
+          "notes": "Includes complete paging system (head-end and field devices)",
+          "post_bid_updates": []
+        }
+      ]
+    },
+    {
+      "trade": "Electronic Safety & Security",
+      "csi_code": "28 00 00",
+      "bids": [
+        {
+          "sub_id": "SEC1",
+          "company": "Texas Security Systems",
+          "contact": "Bob Grant",
+          "email": "bgrant@txsecsys.com",
+          "source": "PDF",
+          "submitted_date": "2024-04-19",
+          "base_bid": 210000,
+          "line_items": [
+            {
+              "description": "Access control - interior doors",
+              "amount": 81000
+            },
+            {
+              "description": "Security cameras (CCTV) - 24 cameras",
+              "amount": 74000
+            },
+            {
+              "description": "Intrusion detection system",
+              "amount": 27000
+            },
+            {
+              "description": "Access control - exterior & parking",
+              "amount": 27000
+            }
+          ],
+          "exclusions": [
+            "Monitoring service (owner contract)",
+            "Door hardware (by DFH sub)"
+          ],
+          "inclusions": [
+            "Complete security system",
+            "Interior and exterior access control"
+          ],
+          "notes": "Lenel OnGuard access control. Axis network cameras.",
+          "post_bid_updates": []
+        },
+        {
+          "sub_id": "SEC2",
+          "company": "Capitol Security Solutions",
+          "contact": "Ann Lewis",
+          "email": "alewis@capitolsecsol.com",
+          "source": "Email",
+          "submitted_date": "2024-04-20",
+          "base_bid": 176000,
+          "line_items": [
+            {
+              "description": "Access control - interior doors",
+              "amount": 74000
+            },
+            {
+              "description": "Security cameras - 24 cameras",
+              "amount": 68000
+            },
+            {
+              "description": "Intrusion detection system",
+              "amount": 25000
+            },
+            {
+              "description": "Access control - exterior",
+              "amount": 0
+            }
+          ],
+          "exclusions": [
+            "Exterior access control & parking - NIC",
+            "Monitoring",
+            "Door hardware"
+          ],
+          "inclusions": [
+            "Interior access control, cameras, intrusion"
+          ],
+          "notes": "Exterior access control excluded - confirm perimeter requirements",
+          "post_bid_updates": []
+        },
+        {
+          "sub_id": "SEC3",
+          "company": "Lone Star Security & Life Safety",
+          "contact": "Victor Cruz",
+          "email": "vcruz@lssecsafety.com",
+          "source": "Excel",
+          "submitted_date": "2024-04-21",
+          "base_bid": 243000,
+          "line_items": [
+            {
+              "description": "Access control - complete",
+              "amount": 108000
+            },
+            {
+              "description": "Security cameras - 32 cameras",
+              "amount": 88000
+            },
+            {
+              "description": "Intrusion detection system",
+              "amount": 30000
+            },
+            {
+              "description": "Intercom & duress systems",
+              "amount": 17000
+            }
+          ],
+          "exclusions": [
+            "Monitoring service"
+          ],
+          "inclusions": [
+            "Full security scope including intercom and duress buttons in exam rooms"
+          ],
+          "notes": "Medical-grade security including patient exam room duress buttons",
+          "post_bid_updates": []
+        }
+      ]
+    },
+    {
+      "trade": "Earthwork, Grading & Site Preparation",
+      "csi_code": "31 00 00",
+      "bids": [
+        {
+          "sub_id": "ERTH1",
+          "company": "Texas Earthworks",
+          "contact": "Ed Turner",
+          "email": "eturner@txearthworks.com",
+          "source": "PDF",
+          "submitted_date": "2024-04-15",
+          "base_bid": 480000,
+          "line_items": [
+            {
+              "description": "Mass grading & cut/fill",
+              "amount": 128000
+            },
+            {
+              "description": "Building excavation",
+              "amount": 95000
+            },
+            {
+              "description": "Foundation drainage & backfill",
+              "amount": 74000
+            },
+            {
+              "description": "Rock excavation allowance",
+              "amount": 61000
+            },
+            {
+              "description": "Erosion control & SWPPP",
+              "amount": 41000
+            },
+            {
+              "description": "Temporary construction entrance",
+              "amount": 20000
+            },
+            {
+              "description": "Dewatering allowance",
+              "amount": 27000
+            },
+            {
+              "description": "Subgrade preparation",
+              "amount": 34000
+            }
+          ],
+          "exclusions": [
+            "Site utilities (by utility sub)",
+            "Paving (by site sub)"
+          ],
+          "inclusions": [
+            "Complete earthwork, rock allowance, erosion control, dewatering"
+          ],
+          "notes": "Rock excavation allowance $18K based on geotech report borings",
+          "post_bid_updates": []
+        },
+        {
+          "sub_id": "ERTH2",
+          "company": "Lone Star Grading",
+          "contact": "Hank Simmons",
+          "email": "hsimmons@lonestgrade.com",
+          "source": "Email",
+          "submitted_date": "2024-04-16",
+          "base_bid": 399000,
+          "line_items": [
+            {
+              "description": "Mass grading & cut/fill",
+              "amount": 118000
+            },
+            {
+              "description": "Building excavation",
+              "amount": 85000
+            },
+            {
+              "description": "Foundation drainage & backfill",
+              "amount": 68000
+            },
+            {
+              "description": "Erosion control & SWPPP",
+              "amount": 34000
+            },
+            {
+              "description": "Temporary construction entrance",
+              "amount": 19000
+            },
+            {
+              "description": "Subgrade preparation",
+              "amount": 30000
+            },
+            {
+              "description": "Rock excavation allowance",
+              "amount": 0
+            },
+            {
+              "description": "Dewatering allowance",
+              "amount": 0
+            }
+          ],
+          "exclusions": [
+            "Rock excavation - UNIT PRICE IF ENCOUNTERED",
+            "Dewatering - T&M if needed",
+            "Site utilities",
+            "Paving"
+          ],
+          "inclusions": [
+            "Mass grading, excavation, backfill, erosion control"
+          ],
+          "notes": "Rock and dewatering excluded as unit price / T&M - significant risk if encountered",
+          "post_bid_updates": [
+            {
+              "update_id": "ERTH2-U1",
+              "date": "2024-04-26",
+              "from": "Hank Simmons <hsimmons@lonestgrade.com>",
+              "subject": "RE: Riverside MOB - Rock & Dewatering",
+              "body": "Kevin, per geotech report we can include a $20,000 rock allowance and $6,000 dewatering allowance. Revised total $144,000. Any rock beyond allowance at $85/CY.",
+              "revised_total": 487000,
+              "delta": 88000,
+              "scope_added": "Rock excavation allowance ($20K) and dewatering allowance ($6K)"
+            }
+          ]
+        },
+        {
+          "sub_id": "ERTH3",
+          "company": "Capitol Excavating",
+          "contact": "Jerry Fox",
+          "email": "jfox@capitolexcavating.com",
+          "source": "Excel",
+          "submitted_date": "2024-04-17",
+          "base_bid": 534000,
+          "line_items": [
+            {
+              "description": "Mass grading & cut/fill",
+              "amount": 135000
+            },
+            {
+              "description": "Building excavation",
+              "amount": 101000
+            },
+            {
+              "description": "Foundation drainage & backfill",
+              "amount": 81000
+            },
+            {
+              "description": "Rock excavation allowance",
+              "amount": 74000
+            },
+            {
+              "description": "Erosion control & SWPPP",
+              "amount": 47000
+            },
+            {
+              "description": "Temporary construction entrance",
+              "amount": 24000
+            },
+            {
+              "description": "Dewatering system",
+              "amount": 41000
+            },
+            {
+              "description": "Subgrade preparation",
+              "amount": 30000
+            }
+          ],
+          "exclusions": [
+            "Site utilities",
+            "Paving"
+          ],
+          "inclusions": [
+            "Full earthwork scope with generous allowances"
+          ],
+          "notes": "Conservative allowances to reduce change order risk",
+          "post_bid_updates": []
+        }
+      ]
+    },
+    {
+      "trade": "Site Paving, Curbs & Landscaping",
+      "csi_code": "32 00 00",
+      "bids": [
+        {
+          "sub_id": "SITE1",
+          "company": "Texas Site Contractors",
+          "contact": "Lisa Green",
+          "email": "lgreen@txsitecont.com",
+          "source": "PDF",
+          "submitted_date": "2024-04-16",
+          "base_bid": 568000,
+          "line_items": [
+            {
+              "description": "Asphalt paving - parking lot & drives",
+              "amount": 210000
+            },
+            {
+              "description": "Concrete curbs, gutters & sidewalks",
+              "amount": 115000
+            },
+            {
+              "description": "Landscaping & irrigation",
+              "amount": 128000
+            },
+            {
+              "description": "Parking lot lighting (conduit & bases)",
+              "amount": 54000
+            },
+            {
+              "description": "Retaining walls",
+              "amount": 41000
+            },
+            {
+              "description": "Parking striping & signage",
+              "amount": 20000
+            }
+          ],
+          "exclusions": [
+            "Site utilities (by utility sub)",
+            "Electrical for site lighting (by EC)"
+          ],
+          "inclusions": [
+            "Complete paving, curbs, landscaping, retaining walls"
+          ],
+          "notes": "Landscaping allowance per architect's planting plan dated 03/15",
+          "post_bid_updates": []
+        },
+        {
+          "sub_id": "SITE2",
+          "company": "Austin Site Development",
+          "contact": "Mark Shaw",
+          "email": "mshaw@austinsitedev.com",
+          "source": "Email",
+          "submitted_date": "2024-04-17",
+          "base_bid": 490000,
+          "line_items": [
+            {
+              "description": "Asphalt paving - parking & drives",
+              "amount": 196000
+            },
+            {
+              "description": "Concrete curbs, gutters & sidewalks",
+              "amount": 101000
+            },
+            {
+              "description": "Retaining walls",
+              "amount": 37000
+            },
+            {
+              "description": "Parking striping & signage",
+              "amount": 19000
+            },
+            {
+              "description": "Parking lot lighting bases & conduit",
+              "amount": 47000
+            },
+            {
+              "description": "Landscaping & irrigation",
+              "amount": 0
+            }
+          ],
+          "exclusions": [
+            "Landscaping & irrigation - NIC",
+            "Site utilities",
+            "EC for site lighting"
+          ],
+          "inclusions": [
+            "Paving, curbs, sidewalks, retaining walls, striping"
+          ],
+          "notes": "Landscaping excluded - recommend landscape architect direct contract",
+          "post_bid_updates": []
+        },
+        {
+          "sub_id": "SITE3",
+          "company": "Lone Star Site Work",
+          "contact": "Carl Johnson",
+          "email": "cjohnson@lonestarsite.com",
+          "source": "Excel",
+          "submitted_date": "2024-04-18",
+          "base_bid": 625000,
+          "line_items": [
+            {
+              "description": "Asphalt paving",
+              "amount": 220000
+            },
+            {
+              "description": "Concrete curbs, gutters & sidewalks",
+              "amount": 122000
+            },
+            {
+              "description": "Landscaping & irrigation",
+              "amount": 142000
+            },
+            {
+              "description": "Retaining walls",
+              "amount": 47000
+            },
+            {
+              "description": "Parking lot lighting bases",
+              "amount": 61000
+            },
+            {
+              "description": "Parking striping & signage",
+              "amount": 24000
+            },
+            {
+              "description": "Decorative entry paving",
+              "amount": 10000
+            }
+          ],
+          "exclusions": [
+            "Site utilities",
+            "Electrical for site lighting"
+          ],
+          "inclusions": [
+            "Full site scope including decorative entry paving"
+          ],
+          "notes": "Premium bid includes decorative entry paving at main entrance",
+          "post_bid_updates": []
+        }
+      ]
+    },
+    {
+      "trade": "Site Utilities (Water, Sewer, Storm, Gas)",
+      "csi_code": "33 00 00",
+      "bids": [
+        {
+          "sub_id": "UTL1",
+          "company": "Texas Utility Contractors",
+          "contact": "Pete Adams",
+          "email": "padams@txutilitycontr.com",
+          "source": "PDF",
+          "submitted_date": "2024-04-16",
+          "base_bid": 433000,
+          "line_items": [
+            {
+              "description": "Domestic water service & meter",
+              "amount": 81000
+            },
+            {
+              "description": "Sanitary sewer lateral",
+              "amount": 74000
+            },
+            {
+              "description": "Storm sewer & detention",
+              "amount": 128000
+            },
+            {
+              "description": "Underground fire line",
+              "amount": 61000
+            },
+            {
+              "description": "Natural gas service",
+              "amount": 47000
+            },
+            {
+              "description": "Utility sleeves under building",
+              "amount": 27000
+            },
+            {
+              "description": "Utility connections & taps",
+              "amount": 14000
+            }
+          ],
+          "exclusions": [
+            "Earthwork (by grading sub)",
+            "Building plumbing (by plumbing sub)"
+          ],
+          "inclusions": [
+            "Complete site utility package",
+            "All utility taps and connections"
+          ],
+          "notes": "Includes all utility tap fees in bid. City connection fees TBD.",
+          "post_bid_updates": []
+        },
+        {
+          "sub_id": "UTL2",
+          "company": "Austin Underground",
+          "contact": "Sam Rivera",
+          "email": "srivera@austinunderground.com",
+          "source": "Email",
+          "submitted_date": "2024-04-17",
+          "base_bid": 365000,
+          "line_items": [
+            {
+              "description": "Domestic water service & meter",
+              "amount": 74000
+            },
+            {
+              "description": "Sanitary sewer lateral",
+              "amount": 68000
+            },
+            {
+              "description": "Storm sewer & detention",
+              "amount": 115000
+            },
+            {
+              "description": "Natural gas service",
+              "amount": 41000
+            },
+            {
+              "description": "Utility sleeves under building",
+              "amount": 24000
+            },
+            {
+              "description": "Underground fire line",
+              "amount": 0
+            }
+          ],
+          "exclusions": [
+            "Underground fire line - BY FIRE PROTECTION SUB",
+            "Earthwork",
+            "Building plumbing"
+          ],
+          "inclusions": [
+            "Water, sewer, storm, gas"
+          ],
+          "notes": "Underground fire line excluded - confirm with fire protection sub",
+          "post_bid_updates": []
+        },
+        {
+          "sub_id": "UTL3",
+          "company": "Lone Star Underground Utilities",
+          "contact": "Walt Burns",
+          "email": "wburns@lsunderground.com",
+          "source": "Excel",
+          "submitted_date": "2024-04-18",
+          "base_bid": 480000,
+          "line_items": [
+            {
+              "description": "Domestic water service & meter",
+              "amount": 88000
+            },
+            {
+              "description": "Sanitary sewer lateral",
+              "amount": 81000
+            },
+            {
+              "description": "Storm sewer & detention",
+              "amount": 142000
+            },
+            {
+              "description": "Underground fire line",
+              "amount": 68000
+            },
+            {
+              "description": "Natural gas service",
+              "amount": 54000
+            },
+            {
+              "description": "Utility sleeves under building",
+              "amount": 30000
+            },
+            {
+              "description": "Utility connections, taps & permits",
+              "amount": 17000
+            }
+          ],
+          "exclusions": [
+            "Earthwork",
+            "Building plumbing"
+          ],
+          "inclusions": [
+            "Full site utility scope including all taps and permits"
+          ],
+          "notes": "Includes city tap permit fees",
+          "post_bid_updates": []
+        }
+      ]
+    }
+  ]
+}

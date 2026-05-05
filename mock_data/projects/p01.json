@@ -1,0 +1,2674 @@
+{
+  "bids": {
+    "project": {
+      "name": "Riverside Medical Office Campus",
+      "location": "Austin, TX",
+      "size_sf": 142000,
+      "type": "Medical Office",
+      "stories": 3
+    },
+    "trades": [
+      {
+        "trade": "Demolition & Site Clearing",
+        "csi_code": "02 40 00",
+        "bids": [
+          {
+            "sub_id": "02-S1",
+            "company": "Barton Interiors",
+            "contact": "Pete Adams",
+            "email": "bartoninteriors@contractor.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 255000,
+            "line_items": [
+              {
+                "description": "Demolition & Site Clearing - component 1",
+                "amount": 90000
+              },
+              {
+                "description": "Demolition & Site Clearing - component 2",
+                "amount": 100000
+              },
+              {
+                "description": "Demolition & Site Clearing - component 3",
+                "amount": 65000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Riverside Medical Office Campus drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "02-S2",
+            "company": "Lone Star Plumbing",
+            "contact": "Sam Rivera",
+            "email": "lonestarplumbing@contractor.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 140000,
+            "line_items": [
+              {
+                "description": "Demolition & Site Clearing - component 1",
+                "amount": 20000
+              },
+              {
+                "description": "Demolition & Site Clearing - component 2",
+                "amount": 20000
+              },
+              {
+                "description": "Demolition & Site Clearing - component 3",
+                "amount": 20000
+              },
+              {
+                "description": "Demolition & Site Clearing - component 4",
+                "amount": 25000
+              },
+              {
+                "description": "Demolition & Site Clearing - component 5",
+                "amount": 25000
+              },
+              {
+                "description": "Demolition & Site Clearing - component 6",
+                "amount": 30000
+              }
+            ],
+            "exclusions": [
+              "Hazardous material abatement - NOT IN CONTRACT"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Riverside Medical Office Campus drawings issued 03/15/2024.",
+            "post_bid_updates": [
+              {
+                "update_id": "02-U1",
+                "date": "2024-04-28",
+                "from": "Sam Rivera <lonestarplumbing@contractor.com>",
+                "subject": "RE: Riverside Medical Office Campus - Hazardous material abatement Scope Add",
+                "body": "Per our conversation this morning: Hazardous material abatement can be added for $10,000. New total is $150,000.",
+                "revised_total": 150000,
+                "delta": 10000,
+                "scope_added": "Hazardous material abatement"
+              }
+            ]
+          },
+          {
+            "sub_id": "02-S3",
+            "company": "Austin Framing",
+            "contact": "Walt Burns",
+            "email": "austinframing@contractor.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 365000,
+            "line_items": [
+              {
+                "description": "Demolition & Site Clearing - component 1",
+                "amount": 55000
+              },
+              {
+                "description": "Demolition & Site Clearing - component 2",
+                "amount": 65000
+              },
+              {
+                "description": "Demolition & Site Clearing - component 3",
+                "amount": 70000
+              },
+              {
+                "description": "Demolition & Site Clearing - component 4",
+                "amount": 50000
+              },
+              {
+                "description": "Demolition & Site Clearing - component 5",
+                "amount": 70000
+              },
+              {
+                "description": "Demolition & Site Clearing - component 6",
+                "amount": 55000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Riverside Medical Office Campus drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
+      },
+      {
+        "trade": "Concrete",
+        "csi_code": "03 00 00",
+        "bids": [
+          {
+            "sub_id": "03-S1",
+            "company": "Barton Interiors",
+            "contact": "Lisa Chang",
+            "email": "bartoninteriors@contractor.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 810000,
+            "line_items": [
+              {
+                "description": "Concrete - component 1",
+                "amount": 135000
+              },
+              {
+                "description": "Concrete - component 2",
+                "amount": 155000
+              },
+              {
+                "description": "Concrete - component 3",
+                "amount": 155000
+              },
+              {
+                "description": "Concrete - component 4",
+                "amount": 150000
+              },
+              {
+                "description": "Concrete - component 5",
+                "amount": 215000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Riverside Medical Office Campus drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "03-S2",
+            "company": "Lone Star Plumbing",
+            "contact": "James Brown",
+            "email": "lonestarplumbing@contractor.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 540000,
+            "line_items": [
+              {
+                "description": "Concrete - component 1",
+                "amount": 195000
+              },
+              {
+                "description": "Concrete - component 2",
+                "amount": 185000
+              },
+              {
+                "description": "Concrete - component 3",
+                "amount": 160000
+              }
+            ],
+            "exclusions": [
+              "Vapor barrier and underslab insulation - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Riverside Medical Office Campus drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "03-S3",
+            "company": "Austin Framing",
+            "contact": "Maria Valdez",
+            "email": "austinframing@contractor.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 1005000,
+            "line_items": [
+              {
+                "description": "Concrete - component 1",
+                "amount": 140000
+              },
+              {
+                "description": "Concrete - component 2",
+                "amount": 155000
+              },
+              {
+                "description": "Concrete - component 3",
+                "amount": 175000
+              },
+              {
+                "description": "Concrete - component 4",
+                "amount": 195000
+              },
+              {
+                "description": "Concrete - component 5",
+                "amount": 160000
+              },
+              {
+                "description": "Concrete - component 6",
+                "amount": 180000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Riverside Medical Office Campus drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
+      },
+      {
+        "trade": "Masonry",
+        "csi_code": "04 00 00",
+        "bids": [
+          {
+            "sub_id": "04-S1",
+            "company": "Texas Roofing",
+            "contact": "Angela Cruz",
+            "email": "texasroofing@contractor.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 430000,
+            "line_items": [
+              {
+                "description": "Masonry - component 1",
+                "amount": 165000
+              },
+              {
+                "description": "Masonry - component 2",
+                "amount": 165000
+              },
+              {
+                "description": "Masonry - component 3",
+                "amount": 100000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Riverside Medical Office Campus drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "04-S2",
+            "company": "Pedernales Steel",
+            "contact": "Tom Brady",
+            "email": "pedernalessteel@contractor.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 265000,
+            "line_items": [
+              {
+                "description": "Masonry - component 1",
+                "amount": 50000
+              },
+              {
+                "description": "Masonry - component 2",
+                "amount": 60000
+              },
+              {
+                "description": "Masonry - component 3",
+                "amount": 45000
+              },
+              {
+                "description": "Masonry - component 4",
+                "amount": 50000
+              },
+              {
+                "description": "Masonry - component 5",
+                "amount": 60000
+              }
+            ],
+            "exclusions": [
+              "CMU backup wall - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Riverside Medical Office Campus drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "04-S3",
+            "company": "Barton Interiors",
+            "contact": "Linda Garza",
+            "email": "bartoninteriors@contractor.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 585000,
+            "line_items": [
+              {
+                "description": "Masonry - component 1",
+                "amount": 125000
+              },
+              {
+                "description": "Masonry - component 2",
+                "amount": 125000
+              },
+              {
+                "description": "Masonry - component 3",
+                "amount": 95000
+              },
+              {
+                "description": "Masonry - component 4",
+                "amount": 125000
+              },
+              {
+                "description": "Masonry - component 5",
+                "amount": 115000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Riverside Medical Office Campus drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
+      },
+      {
+        "trade": "Structural Steel & Misc Metals",
+        "csi_code": "05 00 00",
+        "bids": [
+          {
+            "sub_id": "05-S1",
+            "company": "Pedernales Steel",
+            "contact": "Rick Simmons",
+            "email": "pedernalessteel@contractor.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 1095000,
+            "line_items": [
+              {
+                "description": "Structural Steel & Misc Metals - component 1",
+                "amount": 295000
+              },
+              {
+                "description": "Structural Steel & Misc Metals - component 2",
+                "amount": 310000
+              },
+              {
+                "description": "Structural Steel & Misc Metals - component 3",
+                "amount": 305000
+              },
+              {
+                "description": "Structural Steel & Misc Metals - component 4",
+                "amount": 185000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Riverside Medical Office Campus drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "05-S2",
+            "company": "Barton Interiors",
+            "contact": "Ed Turner",
+            "email": "bartoninteriors@contractor.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 715000,
+            "line_items": [
+              {
+                "description": "Structural Steel & Misc Metals - component 1",
+                "amount": 135000
+              },
+              {
+                "description": "Structural Steel & Misc Metals - component 2",
+                "amount": 120000
+              },
+              {
+                "description": "Structural Steel & Misc Metals - component 3",
+                "amount": 165000
+              },
+              {
+                "description": "Structural Steel & Misc Metals - component 4",
+                "amount": 145000
+              },
+              {
+                "description": "Structural Steel & Misc Metals - component 5",
+                "amount": 150000
+              }
+            ],
+            "exclusions": [
+              "Miscellaneous metals and embeds - NOT IN CONTRACT"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Riverside Medical Office Campus drawings issued 03/15/2024.",
+            "post_bid_updates": [
+              {
+                "update_id": "05-U1",
+                "date": "2024-04-28",
+                "from": "Ed Turner <bartoninteriors@contractor.com>",
+                "subject": "RE: Riverside Medical Office Campus - Miscellaneous metals and embeds Add",
+                "body": "We can include Miscellaneous metals and embeds for an additional $50,000. Revised total would be $765,000.",
+                "revised_total": 765000,
+                "delta": 50000,
+                "scope_added": "Miscellaneous metals and embeds"
+              }
+            ]
+          },
+          {
+            "sub_id": "05-S3",
+            "company": "Lone Star Plumbing",
+            "contact": "Carl Johnson",
+            "email": "lonestarplumbing@contractor.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 1335000,
+            "line_items": [
+              {
+                "description": "Structural Steel & Misc Metals - component 1",
+                "amount": 235000
+              },
+              {
+                "description": "Structural Steel & Misc Metals - component 2",
+                "amount": 265000
+              },
+              {
+                "description": "Structural Steel & Misc Metals - component 3",
+                "amount": 310000
+              },
+              {
+                "description": "Structural Steel & Misc Metals - component 4",
+                "amount": 280000
+              },
+              {
+                "description": "Structural Steel & Misc Metals - component 5",
+                "amount": 245000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Riverside Medical Office Campus drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
+      },
+      {
+        "trade": "Roofing, Waterproofing & Insulation",
+        "csi_code": "07 00 00",
+        "bids": [
+          {
+            "sub_id": "07-S1",
+            "company": "Austin Concrete",
+            "contact": "Maria Valdez",
+            "email": "austinconcrete@contractor.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 615000,
+            "line_items": [
+              {
+                "description": "Roofing, Waterproofing & Insulation - component 1",
+                "amount": 120000
+              },
+              {
+                "description": "Roofing, Waterproofing & Insulation - component 2",
+                "amount": 100000
+              },
+              {
+                "description": "Roofing, Waterproofing & Insulation - component 3",
+                "amount": 90000
+              },
+              {
+                "description": "Roofing, Waterproofing & Insulation - component 4",
+                "amount": 125000
+              },
+              {
+                "description": "Roofing, Waterproofing & Insulation - component 5",
+                "amount": 105000
+              },
+              {
+                "description": "Roofing, Waterproofing & Insulation - component 6",
+                "amount": 75000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Riverside Medical Office Campus drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "07-S2",
+            "company": "Capitol Mechanical",
+            "contact": "Kevin Walsh",
+            "email": "capitolmechanical@contractor.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 390000,
+            "line_items": [
+              {
+                "description": "Roofing, Waterproofing & Insulation - component 1",
+                "amount": 150000
+              },
+              {
+                "description": "Roofing, Waterproofing & Insulation - component 2",
+                "amount": 110000
+              },
+              {
+                "description": "Roofing, Waterproofing & Insulation - component 3",
+                "amount": 130000
+              }
+            ],
+            "exclusions": [
+              "Below-slab waterproofing - NOT IN CONTRACT"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Riverside Medical Office Campus drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "07-S3",
+            "company": "Texas Roofing",
+            "contact": "Beth Adams",
+            "email": "texasroofing@contractor.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 840000,
+            "line_items": [
+              {
+                "description": "Roofing, Waterproofing & Insulation - component 1",
+                "amount": 235000
+              },
+              {
+                "description": "Roofing, Waterproofing & Insulation - component 2",
+                "amount": 205000
+              },
+              {
+                "description": "Roofing, Waterproofing & Insulation - component 3",
+                "amount": 175000
+              },
+              {
+                "description": "Roofing, Waterproofing & Insulation - component 4",
+                "amount": 225000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Riverside Medical Office Campus drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
+      },
+      {
+        "trade": "Doors, Frames, Hardware & Glazing",
+        "csi_code": "08 00 00",
+        "bids": [
+          {
+            "sub_id": "08-S1",
+            "company": "Barton Interiors",
+            "contact": "Angela Cruz",
+            "email": "bartoninteriors@contractor.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 750000,
+            "line_items": [
+              {
+                "description": "Doors, Frames, Hardware & Glazing - component 1",
+                "amount": 270000
+              },
+              {
+                "description": "Doors, Frames, Hardware & Glazing - component 2",
+                "amount": 210000
+              },
+              {
+                "description": "Doors, Frames, Hardware & Glazing - component 3",
+                "amount": 270000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Riverside Medical Office Campus drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "08-S2",
+            "company": "Lone Star Plumbing",
+            "contact": "Tom Brady",
+            "email": "lonestarplumbing@contractor.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 535000,
+            "line_items": [
+              {
+                "description": "Doors, Frames, Hardware & Glazing - component 1",
+                "amount": 90000
+              },
+              {
+                "description": "Doors, Frames, Hardware & Glazing - component 2",
+                "amount": 105000
+              },
+              {
+                "description": "Doors, Frames, Hardware & Glazing - component 3",
+                "amount": 105000
+              },
+              {
+                "description": "Doors, Frames, Hardware & Glazing - component 4",
+                "amount": 125000
+              },
+              {
+                "description": "Doors, Frames, Hardware & Glazing - component 5",
+                "amount": 110000
+              }
+            ],
+            "exclusions": [
+              "Storefront glazing system - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Riverside Medical Office Campus drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "08-S3",
+            "company": "Austin Framing",
+            "contact": "Linda Garza",
+            "email": "austinframing@contractor.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 990000,
+            "line_items": [
+              {
+                "description": "Doors, Frames, Hardware & Glazing - component 1",
+                "amount": 235000
+              },
+              {
+                "description": "Doors, Frames, Hardware & Glazing - component 2",
+                "amount": 220000
+              },
+              {
+                "description": "Doors, Frames, Hardware & Glazing - component 3",
+                "amount": 200000
+              },
+              {
+                "description": "Doors, Frames, Hardware & Glazing - component 4",
+                "amount": 165000
+              },
+              {
+                "description": "Doors, Frames, Hardware & Glazing - component 5",
+                "amount": 170000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Riverside Medical Office Campus drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
+      },
+      {
+        "trade": "Drywall & Framing",
+        "csi_code": "09 20 00",
+        "bids": [
+          {
+            "sub_id": "09-S1",
+            "company": "Texas Roofing",
+            "contact": "Pete Adams",
+            "email": "texasroofing@contractor.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 510000,
+            "line_items": [
+              {
+                "description": "Drywall & Framing - component 1",
+                "amount": 115000
+              },
+              {
+                "description": "Drywall & Framing - component 2",
+                "amount": 105000
+              },
+              {
+                "description": "Drywall & Framing - component 3",
+                "amount": 115000
+              },
+              {
+                "description": "Drywall & Framing - component 4",
+                "amount": 105000
+              },
+              {
+                "description": "Drywall & Framing - component 5",
+                "amount": 70000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Riverside Medical Office Campus drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "09-S2",
+            "company": "Pedernales Steel",
+            "contact": "Sam Rivera",
+            "email": "pedernalessteel@contractor.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 340000,
+            "line_items": [
+              {
+                "description": "Drywall & Framing - component 1",
+                "amount": 70000
+              },
+              {
+                "description": "Drywall & Framing - component 2",
+                "amount": 55000
+              },
+              {
+                "description": "Drywall & Framing - component 3",
+                "amount": 65000
+              },
+              {
+                "description": "Drywall & Framing - component 4",
+                "amount": 80000
+              },
+              {
+                "description": "Drywall & Framing - component 5",
+                "amount": 70000
+              }
+            ],
+            "exclusions": [
+              "Shaft wall assemblies - NOT IN CONTRACT"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Riverside Medical Office Campus drawings issued 03/15/2024.",
+            "post_bid_updates": [
+              {
+                "update_id": "09-U1",
+                "date": "2024-04-28",
+                "from": "Sam Rivera <pedernalessteel@contractor.com>",
+                "subject": "RE: Riverside Medical Office Campus - Shaft wall assemblies Scope Add",
+                "body": "Per our conversation this morning: Shaft wall assemblies can be added for $25,000. New total is $365,000.",
+                "revised_total": 365000,
+                "delta": 25000,
+                "scope_added": "Shaft wall assemblies"
+              }
+            ]
+          },
+          {
+            "sub_id": "09-S3",
+            "company": "Barton Interiors",
+            "contact": "Walt Burns",
+            "email": "bartoninteriors@contractor.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 660000,
+            "line_items": [
+              {
+                "description": "Drywall & Framing - component 1",
+                "amount": 120000
+              },
+              {
+                "description": "Drywall & Framing - component 2",
+                "amount": 120000
+              },
+              {
+                "description": "Drywall & Framing - component 3",
+                "amount": 135000
+              },
+              {
+                "description": "Drywall & Framing - component 4",
+                "amount": 110000
+              },
+              {
+                "description": "Drywall & Framing - component 5",
+                "amount": 175000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Riverside Medical Office Campus drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
+      },
+      {
+        "trade": "Flooring",
+        "csi_code": "09 60 00",
+        "bids": [
+          {
+            "sub_id": "09-S1",
+            "company": "Austin Concrete",
+            "contact": "Angela Cruz",
+            "email": "austinconcrete@contractor.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 745000,
+            "line_items": [
+              {
+                "description": "Flooring - component 1",
+                "amount": 160000
+              },
+              {
+                "description": "Flooring - component 2",
+                "amount": 185000
+              },
+              {
+                "description": "Flooring - component 3",
+                "amount": 190000
+              },
+              {
+                "description": "Flooring - component 4",
+                "amount": 210000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Riverside Medical Office Campus drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "09-S2",
+            "company": "Capitol Mechanical",
+            "contact": "Tom Brady",
+            "email": "capitolmechanical@contractor.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 510000,
+            "line_items": [
+              {
+                "description": "Flooring - component 1",
+                "amount": 100000
+              },
+              {
+                "description": "Flooring - component 2",
+                "amount": 100000
+              },
+              {
+                "description": "Flooring - component 3",
+                "amount": 95000
+              },
+              {
+                "description": "Flooring - component 4",
+                "amount": 90000
+              },
+              {
+                "description": "Flooring - component 5",
+                "amount": 90000
+              },
+              {
+                "description": "Flooring - component 6",
+                "amount": 35000
+              }
+            ],
+            "exclusions": [
+              "Specialty sheet vinyl in procedure rooms - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Riverside Medical Office Campus drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "09-S3",
+            "company": "Texas Roofing",
+            "contact": "Linda Garza",
+            "email": "texasroofing@contractor.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 980000,
+            "line_items": [
+              {
+                "description": "Flooring - component 1",
+                "amount": 195000
+              },
+              {
+                "description": "Flooring - component 2",
+                "amount": 175000
+              },
+              {
+                "description": "Flooring - component 3",
+                "amount": 160000
+              },
+              {
+                "description": "Flooring - component 4",
+                "amount": 165000
+              },
+              {
+                "description": "Flooring - component 5",
+                "amount": 140000
+              },
+              {
+                "description": "Flooring - component 6",
+                "amount": 145000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Riverside Medical Office Campus drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
+      },
+      {
+        "trade": "Painting & Wall Coverings",
+        "csi_code": "09 90 00",
+        "bids": [
+          {
+            "sub_id": "09-S1",
+            "company": "Pedernales Steel",
+            "contact": "Sam Rivera",
+            "email": "pedernalessteel@contractor.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 290000,
+            "line_items": [
+              {
+                "description": "Painting & Wall Coverings - component 1",
+                "amount": 60000
+              },
+              {
+                "description": "Painting & Wall Coverings - component 2",
+                "amount": 80000
+              },
+              {
+                "description": "Painting & Wall Coverings - component 3",
+                "amount": 60000
+              },
+              {
+                "description": "Painting & Wall Coverings - component 4",
+                "amount": 90000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Riverside Medical Office Campus drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "09-S2",
+            "company": "Barton Interiors",
+            "contact": "Walt Burns",
+            "email": "bartoninteriors@contractor.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 180000,
+            "line_items": [
+              {
+                "description": "Painting & Wall Coverings - component 1",
+                "amount": 30000
+              },
+              {
+                "description": "Painting & Wall Coverings - component 2",
+                "amount": 30000
+              },
+              {
+                "description": "Painting & Wall Coverings - component 3",
+                "amount": 40000
+              },
+              {
+                "description": "Painting & Wall Coverings - component 4",
+                "amount": 30000
+              },
+              {
+                "description": "Painting & Wall Coverings - component 5",
+                "amount": 50000
+              }
+            ],
+            "exclusions": [
+              "Exterior painting - NOT IN CONTRACT"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Riverside Medical Office Campus drawings issued 03/15/2024.",
+            "post_bid_updates": [
+              {
+                "update_id": "09-U1",
+                "date": "2024-04-28",
+                "from": "Walt Burns <bartoninteriors@contractor.com>",
+                "subject": "RE: Riverside Medical Office Campus - Exterior painting Add",
+                "body": "We can include Exterior painting for an additional $15,000. Revised total would be $195,000.",
+                "revised_total": 195000,
+                "delta": 15000,
+                "scope_added": "Exterior painting"
+              }
+            ]
+          },
+          {
+            "sub_id": "09-S3",
+            "company": "Lone Star Plumbing",
+            "contact": "Mike Torres",
+            "email": "lonestarplumbing@contractor.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 375000,
+            "line_items": [
+              {
+                "description": "Painting & Wall Coverings - component 1",
+                "amount": 100000
+              },
+              {
+                "description": "Painting & Wall Coverings - component 2",
+                "amount": 110000
+              },
+              {
+                "description": "Painting & Wall Coverings - component 3",
+                "amount": 95000
+              },
+              {
+                "description": "Painting & Wall Coverings - component 4",
+                "amount": 70000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Riverside Medical Office Campus drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
+      },
+      {
+        "trade": "Acoustical Ceilings (ACT)",
+        "csi_code": "09 51 00",
+        "bids": [
+          {
+            "sub_id": "09-S1",
+            "company": "Capitol Mechanical",
+            "contact": "Tom Brady",
+            "email": "capitolmechanical@contractor.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 370000,
+            "line_items": [
+              {
+                "description": "Acoustical Ceilings (ACT) - component 1",
+                "amount": 60000
+              },
+              {
+                "description": "Acoustical Ceilings (ACT) - component 2",
+                "amount": 60000
+              },
+              {
+                "description": "Acoustical Ceilings (ACT) - component 3",
+                "amount": 70000
+              },
+              {
+                "description": "Acoustical Ceilings (ACT) - component 4",
+                "amount": 50000
+              },
+              {
+                "description": "Acoustical Ceilings (ACT) - component 5",
+                "amount": 65000
+              },
+              {
+                "description": "Acoustical Ceilings (ACT) - component 6",
+                "amount": 65000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Riverside Medical Office Campus drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "09-S2",
+            "company": "Texas Roofing",
+            "contact": "Linda Garza",
+            "email": "texasroofing@contractor.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 255000,
+            "line_items": [
+              {
+                "description": "Acoustical Ceilings (ACT) - component 1",
+                "amount": 45000
+              },
+              {
+                "description": "Acoustical Ceilings (ACT) - component 2",
+                "amount": 50000
+              },
+              {
+                "description": "Acoustical Ceilings (ACT) - component 3",
+                "amount": 35000
+              },
+              {
+                "description": "Acoustical Ceilings (ACT) - component 4",
+                "amount": 35000
+              },
+              {
+                "description": "Acoustical Ceilings (ACT) - component 5",
+                "amount": 45000
+              },
+              {
+                "description": "Acoustical Ceilings (ACT) - component 6",
+                "amount": 45000
+              }
+            ],
+            "exclusions": [
+              "Gypsum board soffits and clouds - NOT IN CONTRACT"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Riverside Medical Office Campus drawings issued 03/15/2024.",
+            "post_bid_updates": [
+              {
+                "update_id": "09-U1",
+                "date": "2024-04-28",
+                "from": "Linda Garza <texasroofing@contractor.com>",
+                "subject": "RE: Riverside Medical Office Campus - Gypsum board soffits and clouds Add",
+                "body": "We can include Gypsum board soffits and clouds for an additional $20,000. Revised total would be $275,000.",
+                "revised_total": 275000,
+                "delta": 20000,
+                "scope_added": "Gypsum board soffits and clouds"
+              }
+            ]
+          },
+          {
+            "sub_id": "09-S3",
+            "company": "Pedernales Steel",
+            "contact": "Bill Torres",
+            "email": "pedernalessteel@contractor.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 490000,
+            "line_items": [
+              {
+                "description": "Acoustical Ceilings (ACT) - component 1",
+                "amount": 120000
+              },
+              {
+                "description": "Acoustical Ceilings (ACT) - component 2",
+                "amount": 110000
+              },
+              {
+                "description": "Acoustical Ceilings (ACT) - component 3",
+                "amount": 110000
+              },
+              {
+                "description": "Acoustical Ceilings (ACT) - component 4",
+                "amount": 150000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Riverside Medical Office Campus drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
+      },
+      {
+        "trade": "Specialties",
+        "csi_code": "10 00 00",
+        "bids": [
+          {
+            "sub_id": "10-S1",
+            "company": "Austin Concrete",
+            "contact": "Angela Cruz",
+            "email": "austinconcrete@contractor.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 215000,
+            "line_items": [
+              {
+                "description": "Specialties - component 1",
+                "amount": 75000
+              },
+              {
+                "description": "Specialties - component 2",
+                "amount": 75000
+              },
+              {
+                "description": "Specialties - component 3",
+                "amount": 65000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Riverside Medical Office Campus drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "10-S2",
+            "company": "Capitol Mechanical",
+            "contact": "Tom Brady",
+            "email": "capitolmechanical@contractor.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 125000,
+            "line_items": [
+              {
+                "description": "Specialties - component 1",
+                "amount": 50000
+              },
+              {
+                "description": "Specialties - component 2",
+                "amount": 45000
+              },
+              {
+                "description": "Specialties - component 3",
+                "amount": 30000
+              }
+            ],
+            "exclusions": [
+              "ADA signage package - NOT IN CONTRACT"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Riverside Medical Office Campus drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "10-S3",
+            "company": "Texas Roofing",
+            "contact": "Linda Garza",
+            "email": "texasroofing@contractor.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 295000,
+            "line_items": [
+              {
+                "description": "Specialties - component 1",
+                "amount": 70000
+              },
+              {
+                "description": "Specialties - component 2",
+                "amount": 75000
+              },
+              {
+                "description": "Specialties - component 3",
+                "amount": 85000
+              },
+              {
+                "description": "Specialties - component 4",
+                "amount": 65000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Riverside Medical Office Campus drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
+      },
+      {
+        "trade": "Fire Suppression (Sprinklers)",
+        "csi_code": "21 00 00",
+        "bids": [
+          {
+            "sub_id": "21-S1",
+            "company": "Lone Star Electric",
+            "contact": "Kevin Walsh",
+            "email": "lonestarelectric@contractor.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 520000,
+            "line_items": [
+              {
+                "description": "Fire Suppression (Sprinklers) - component 1",
+                "amount": 80000
+              },
+              {
+                "description": "Fire Suppression (Sprinklers) - component 2",
+                "amount": 95000
+              },
+              {
+                "description": "Fire Suppression (Sprinklers) - component 3",
+                "amount": 95000
+              },
+              {
+                "description": "Fire Suppression (Sprinklers) - component 4",
+                "amount": 95000
+              },
+              {
+                "description": "Fire Suppression (Sprinklers) - component 5",
+                "amount": 90000
+              },
+              {
+                "description": "Fire Suppression (Sprinklers) - component 6",
+                "amount": 65000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Riverside Medical Office Campus drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "21-S2",
+            "company": "Austin Concrete",
+            "contact": "Beth Adams",
+            "email": "austinconcrete@contractor.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 320000,
+            "line_items": [
+              {
+                "description": "Fire Suppression (Sprinklers) - component 1",
+                "amount": 70000
+              },
+              {
+                "description": "Fire Suppression (Sprinklers) - component 2",
+                "amount": 70000
+              },
+              {
+                "description": "Fire Suppression (Sprinklers) - component 3",
+                "amount": 65000
+              },
+              {
+                "description": "Fire Suppression (Sprinklers) - component 4",
+                "amount": 115000
+              }
+            ],
+            "exclusions": [
+              "Kitchen hood fire suppression - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Riverside Medical Office Campus drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "21-S3",
+            "company": "Capitol Mechanical",
+            "contact": "Rick Simmons",
+            "email": "capitolmechanical@contractor.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 595000,
+            "line_items": [
+              {
+                "description": "Fire Suppression (Sprinklers) - component 1",
+                "amount": 220000
+              },
+              {
+                "description": "Fire Suppression (Sprinklers) - component 2",
+                "amount": 165000
+              },
+              {
+                "description": "Fire Suppression (Sprinklers) - component 3",
+                "amount": 210000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Riverside Medical Office Campus drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
+      },
+      {
+        "trade": "Plumbing",
+        "csi_code": "22 00 00",
+        "bids": [
+          {
+            "sub_id": "22-S1",
+            "company": "Capitol Mechanical",
+            "contact": "Carl Johnson",
+            "email": "capitolmechanical@contractor.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 1200000,
+            "line_items": [
+              {
+                "description": "Plumbing - component 1",
+                "amount": 455000
+              },
+              {
+                "description": "Plumbing - component 2",
+                "amount": 330000
+              },
+              {
+                "description": "Plumbing - component 3",
+                "amount": 415000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Riverside Medical Office Campus drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "22-S2",
+            "company": "Texas Roofing",
+            "contact": "Pete Adams",
+            "email": "texasroofing@contractor.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 820000,
+            "line_items": [
+              {
+                "description": "Plumbing - component 1",
+                "amount": 195000
+              },
+              {
+                "description": "Plumbing - component 2",
+                "amount": 240000
+              },
+              {
+                "description": "Plumbing - component 3",
+                "amount": 210000
+              },
+              {
+                "description": "Plumbing - component 4",
+                "amount": 175000
+              }
+            ],
+            "exclusions": [
+              "Medical gas outlets and zone valves - NOT IN CONTRACT"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Riverside Medical Office Campus drawings issued 03/15/2024.",
+            "post_bid_updates": [
+              {
+                "update_id": "22-U1",
+                "date": "2024-04-28",
+                "from": "Pete Adams <texasroofing@contractor.com>",
+                "subject": "RE: Riverside Medical Office Campus - Medical gas outlets and zone valves Scope Add",
+                "body": "Per our conversation this morning: Medical gas outlets and zone valves can be added for $55,000. New total is $875,000.",
+                "revised_total": 875000,
+                "delta": 55000,
+                "scope_added": "Medical gas outlets and zone valves"
+              }
+            ]
+          },
+          {
+            "sub_id": "22-S3",
+            "company": "Pedernales Steel",
+            "contact": "Sam Rivera",
+            "email": "pedernalessteel@contractor.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 1500000,
+            "line_items": [
+              {
+                "description": "Plumbing - component 1",
+                "amount": 525000
+              },
+              {
+                "description": "Plumbing - component 2",
+                "amount": 485000
+              },
+              {
+                "description": "Plumbing - component 3",
+                "amount": 490000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Riverside Medical Office Campus drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
+      },
+      {
+        "trade": "Mechanical (HVAC)",
+        "csi_code": "23 00 00",
+        "bids": [
+          {
+            "sub_id": "23-S1",
+            "company": "Capitol Mechanical",
+            "contact": "Bill Torres",
+            "email": "capitolmechanical@contractor.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 1450000,
+            "line_items": [
+              {
+                "description": "Mechanical (HVAC) - component 1",
+                "amount": 260000
+              },
+              {
+                "description": "Mechanical (HVAC) - component 2",
+                "amount": 280000
+              },
+              {
+                "description": "Mechanical (HVAC) - component 3",
+                "amount": 310000
+              },
+              {
+                "description": "Mechanical (HVAC) - component 4",
+                "amount": 265000
+              },
+              {
+                "description": "Mechanical (HVAC) - component 5",
+                "amount": 335000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Riverside Medical Office Campus drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "23-S2",
+            "company": "Texas Roofing",
+            "contact": "Priya Nair",
+            "email": "texasroofing@contractor.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 970000,
+            "line_items": [
+              {
+                "description": "Mechanical (HVAC) - component 1",
+                "amount": 320000
+              },
+              {
+                "description": "Mechanical (HVAC) - component 2",
+                "amount": 390000
+              },
+              {
+                "description": "Mechanical (HVAC) - component 3",
+                "amount": 260000
+              }
+            ],
+            "exclusions": [
+              "Medical gas rough-in and kitchen hood exhaust - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Riverside Medical Office Campus drawings issued 03/15/2024.",
+            "post_bid_updates": [
+              {
+                "update_id": "23-U1",
+                "date": "2024-04-28",
+                "from": "Priya Nair <texasroofing@contractor.com>",
+                "subject": "RE: Riverside Medical Office Campus - Medical gas rough-in and kitchen hood exhaust Add",
+                "body": "We can include Medical gas rough-in and kitchen hood exhaust for an additional $70,000. Revised total would be $1,040,000.",
+                "revised_total": 1040000,
+                "delta": 70000,
+                "scope_added": "Medical gas rough-in and kitchen hood exhaust"
+              }
+            ]
+          },
+          {
+            "sub_id": "23-S3",
+            "company": "Pedernales Steel",
+            "contact": "Rob Flores",
+            "email": "pedernalessteel@contractor.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 1815000,
+            "line_items": [
+              {
+                "description": "Mechanical (HVAC) - component 1",
+                "amount": 500000
+              },
+              {
+                "description": "Mechanical (HVAC) - component 2",
+                "amount": 535000
+              },
+              {
+                "description": "Mechanical (HVAC) - component 3",
+                "amount": 780000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Riverside Medical Office Campus drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
+      },
+      {
+        "trade": "Electrical",
+        "csi_code": "26 00 00",
+        "bids": [
+          {
+            "sub_id": "26-S1",
+            "company": "Barton Interiors",
+            "contact": "Lisa Chang",
+            "email": "bartoninteriors@contractor.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 1075000,
+            "line_items": [
+              {
+                "description": "Electrical - component 1",
+                "amount": 195000
+              },
+              {
+                "description": "Electrical - component 2",
+                "amount": 210000
+              },
+              {
+                "description": "Electrical - component 3",
+                "amount": 220000
+              },
+              {
+                "description": "Electrical - component 4",
+                "amount": 200000
+              },
+              {
+                "description": "Electrical - component 5",
+                "amount": 250000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Riverside Medical Office Campus drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "26-S2",
+            "company": "Lone Star Plumbing",
+            "contact": "James Brown",
+            "email": "lonestarplumbing@contractor.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 785000,
+            "line_items": [
+              {
+                "description": "Electrical - component 1",
+                "amount": 185000
+              },
+              {
+                "description": "Electrical - component 2",
+                "amount": 130000
+              },
+              {
+                "description": "Electrical - component 3",
+                "amount": 180000
+              },
+              {
+                "description": "Electrical - component 4",
+                "amount": 140000
+              },
+              {
+                "description": "Electrical - component 5",
+                "amount": 150000
+              }
+            ],
+            "exclusions": [
+              "Fire alarm system - NOT IN CONTRACT"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Riverside Medical Office Campus drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "26-S3",
+            "company": "Austin Framing",
+            "contact": "Maria Valdez",
+            "email": "austinframing@contractor.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 1380000,
+            "line_items": [
+              {
+                "description": "Electrical - component 1",
+                "amount": 505000
+              },
+              {
+                "description": "Electrical - component 2",
+                "amount": 395000
+              },
+              {
+                "description": "Electrical - component 3",
+                "amount": 480000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Riverside Medical Office Campus drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
+      },
+      {
+        "trade": "Communications (Data, AV, Tel)",
+        "csi_code": "27 00 00",
+        "bids": [
+          {
+            "sub_id": "27-S1",
+            "company": "Austin Concrete",
+            "contact": "Lisa Chang",
+            "email": "austinconcrete@contractor.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 405000,
+            "line_items": [
+              {
+                "description": "Communications (Data, AV, Tel) - component 1",
+                "amount": 80000
+              },
+              {
+                "description": "Communications (Data, AV, Tel) - component 2",
+                "amount": 75000
+              },
+              {
+                "description": "Communications (Data, AV, Tel) - component 3",
+                "amount": 95000
+              },
+              {
+                "description": "Communications (Data, AV, Tel) - component 4",
+                "amount": 65000
+              },
+              {
+                "description": "Communications (Data, AV, Tel) - component 5",
+                "amount": 90000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Riverside Medical Office Campus drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "27-S2",
+            "company": "Capitol Mechanical",
+            "contact": "James Brown",
+            "email": "capitolmechanical@contractor.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 235000,
+            "line_items": [
+              {
+                "description": "Communications (Data, AV, Tel) - component 1",
+                "amount": 40000
+              },
+              {
+                "description": "Communications (Data, AV, Tel) - component 2",
+                "amount": 45000
+              },
+              {
+                "description": "Communications (Data, AV, Tel) - component 3",
+                "amount": 40000
+              },
+              {
+                "description": "Communications (Data, AV, Tel) - component 4",
+                "amount": 55000
+              },
+              {
+                "description": "Communications (Data, AV, Tel) - component 5",
+                "amount": 55000
+              }
+            ],
+            "exclusions": [
+              "AV rough-in for conference rooms - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Riverside Medical Office Campus drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "27-S3",
+            "company": "Texas Roofing",
+            "contact": "Maria Valdez",
+            "email": "texasroofing@contractor.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 535000,
+            "line_items": [
+              {
+                "description": "Communications (Data, AV, Tel) - component 1",
+                "amount": 145000
+              },
+              {
+                "description": "Communications (Data, AV, Tel) - component 2",
+                "amount": 135000
+              },
+              {
+                "description": "Communications (Data, AV, Tel) - component 3",
+                "amount": 130000
+              },
+              {
+                "description": "Communications (Data, AV, Tel) - component 4",
+                "amount": 125000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Riverside Medical Office Campus drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
+      },
+      {
+        "trade": "Electronic Safety & Security",
+        "csi_code": "28 00 00",
+        "bids": [
+          {
+            "sub_id": "28-S1",
+            "company": "Capitol Mechanical",
+            "contact": "Sam Rivera",
+            "email": "capitolmechanical@contractor.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 310000,
+            "line_items": [
+              {
+                "description": "Electronic Safety & Security - component 1",
+                "amount": 115000
+              },
+              {
+                "description": "Electronic Safety & Security - component 2",
+                "amount": 105000
+              },
+              {
+                "description": "Electronic Safety & Security - component 3",
+                "amount": 90000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Riverside Medical Office Campus drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "28-S2",
+            "company": "Texas Roofing",
+            "contact": "Walt Burns",
+            "email": "texasroofing@contractor.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 190000,
+            "line_items": [
+              {
+                "description": "Electronic Safety & Security - component 1",
+                "amount": 25000
+              },
+              {
+                "description": "Electronic Safety & Security - component 2",
+                "amount": 30000
+              },
+              {
+                "description": "Electronic Safety & Security - component 3",
+                "amount": 35000
+              },
+              {
+                "description": "Electronic Safety & Security - component 4",
+                "amount": 35000
+              },
+              {
+                "description": "Electronic Safety & Security - component 5",
+                "amount": 35000
+              },
+              {
+                "description": "Electronic Safety & Security - component 6",
+                "amount": 30000
+              }
+            ],
+            "exclusions": [
+              "Exterior access control and parking - NOT IN CONTRACT"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Riverside Medical Office Campus drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "28-S3",
+            "company": "Pedernales Steel",
+            "contact": "Mike Torres",
+            "email": "pedernalessteel@contractor.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 440000,
+            "line_items": [
+              {
+                "description": "Electronic Safety & Security - component 1",
+                "amount": 80000
+              },
+              {
+                "description": "Electronic Safety & Security - component 2",
+                "amount": 80000
+              },
+              {
+                "description": "Electronic Safety & Security - component 3",
+                "amount": 75000
+              },
+              {
+                "description": "Electronic Safety & Security - component 4",
+                "amount": 100000
+              },
+              {
+                "description": "Electronic Safety & Security - component 5",
+                "amount": 105000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Riverside Medical Office Campus drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
+      },
+      {
+        "trade": "Earthwork, Grading & Site Preparation",
+        "csi_code": "31 00 00",
+        "bids": [
+          {
+            "sub_id": "31-S1",
+            "company": "Texas Roofing",
+            "contact": "Lisa Chang",
+            "email": "texasroofing@contractor.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 605000,
+            "line_items": [
+              {
+                "description": "Earthwork, Grading & Site Preparation - component 1",
+                "amount": 175000
+              },
+              {
+                "description": "Earthwork, Grading & Site Preparation - component 2",
+                "amount": 180000
+              },
+              {
+                "description": "Earthwork, Grading & Site Preparation - component 3",
+                "amount": 170000
+              },
+              {
+                "description": "Earthwork, Grading & Site Preparation - component 4",
+                "amount": 80000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Riverside Medical Office Campus drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "31-S2",
+            "company": "Pedernales Steel",
+            "contact": "James Brown",
+            "email": "pedernalessteel@contractor.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 360000,
+            "line_items": [
+              {
+                "description": "Earthwork, Grading & Site Preparation - component 1",
+                "amount": 100000
+              },
+              {
+                "description": "Earthwork, Grading & Site Preparation - component 2",
+                "amount": 85000
+              },
+              {
+                "description": "Earthwork, Grading & Site Preparation - component 3",
+                "amount": 105000
+              },
+              {
+                "description": "Earthwork, Grading & Site Preparation - component 4",
+                "amount": 70000
+              }
+            ],
+            "exclusions": [
+              "Rock excavation allowance - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Riverside Medical Office Campus drawings issued 03/15/2024.",
+            "post_bid_updates": [
+              {
+                "update_id": "31-U1",
+                "date": "2024-04-28",
+                "from": "James Brown <pedernalessteel@contractor.com>",
+                "subject": "RE: Riverside Medical Office Campus - Rock excavation allowance Add",
+                "body": "We can include Rock excavation allowance for an additional $25,000. Revised total would be $385,000.",
+                "revised_total": 385000,
+                "delta": 25000,
+                "scope_added": "Rock excavation allowance"
+              }
+            ]
+          },
+          {
+            "sub_id": "31-S3",
+            "company": "Barton Interiors",
+            "contact": "Maria Valdez",
+            "email": "bartoninteriors@contractor.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 790000,
+            "line_items": [
+              {
+                "description": "Earthwork, Grading & Site Preparation - component 1",
+                "amount": 180000
+              },
+              {
+                "description": "Earthwork, Grading & Site Preparation - component 2",
+                "amount": 220000
+              },
+              {
+                "description": "Earthwork, Grading & Site Preparation - component 3",
+                "amount": 165000
+              },
+              {
+                "description": "Earthwork, Grading & Site Preparation - component 4",
+                "amount": 225000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Riverside Medical Office Campus drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
+      },
+      {
+        "trade": "Site Paving, Curbs & Landscaping",
+        "csi_code": "32 00 00",
+        "bids": [
+          {
+            "sub_id": "32-S1",
+            "company": "Austin Concrete",
+            "contact": "Ed Turner",
+            "email": "austinconcrete@contractor.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 780000,
+            "line_items": [
+              {
+                "description": "Site Paving, Curbs & Landscaping - component 1",
+                "amount": 120000
+              },
+              {
+                "description": "Site Paving, Curbs & Landscaping - component 2",
+                "amount": 145000
+              },
+              {
+                "description": "Site Paving, Curbs & Landscaping - component 3",
+                "amount": 150000
+              },
+              {
+                "description": "Site Paving, Curbs & Landscaping - component 4",
+                "amount": 115000
+              },
+              {
+                "description": "Site Paving, Curbs & Landscaping - component 5",
+                "amount": 140000
+              },
+              {
+                "description": "Site Paving, Curbs & Landscaping - component 6",
+                "amount": 110000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Riverside Medical Office Campus drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "32-S2",
+            "company": "Capitol Mechanical",
+            "contact": "Carl Johnson",
+            "email": "capitolmechanical@contractor.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 525000,
+            "line_items": [
+              {
+                "description": "Site Paving, Curbs & Landscaping - component 1",
+                "amount": 95000
+              },
+              {
+                "description": "Site Paving, Curbs & Landscaping - component 2",
+                "amount": 85000
+              },
+              {
+                "description": "Site Paving, Curbs & Landscaping - component 3",
+                "amount": 115000
+              },
+              {
+                "description": "Site Paving, Curbs & Landscaping - component 4",
+                "amount": 100000
+              },
+              {
+                "description": "Site Paving, Curbs & Landscaping - component 5",
+                "amount": 130000
+              }
+            ],
+            "exclusions": [
+              "Landscaping and irrigation - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Riverside Medical Office Campus drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "32-S3",
+            "company": "Texas Roofing",
+            "contact": "Pete Adams",
+            "email": "texasroofing@contractor.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 970000,
+            "line_items": [
+              {
+                "description": "Site Paving, Curbs & Landscaping - component 1",
+                "amount": 175000
+              },
+              {
+                "description": "Site Paving, Curbs & Landscaping - component 2",
+                "amount": 185000
+              },
+              {
+                "description": "Site Paving, Curbs & Landscaping - component 3",
+                "amount": 150000
+              },
+              {
+                "description": "Site Paving, Curbs & Landscaping - component 4",
+                "amount": 130000
+              },
+              {
+                "description": "Site Paving, Curbs & Landscaping - component 5",
+                "amount": 185000
+              },
+              {
+                "description": "Site Paving, Curbs & Landscaping - component 6",
+                "amount": 145000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Riverside Medical Office Campus drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
+      },
+      {
+        "trade": "Site Utilities (Water, Sewer, Storm, Gas)",
+        "csi_code": "33 00 00",
+        "bids": [
+          {
+            "sub_id": "33-S1",
+            "company": "Lone Star Electric",
+            "contact": "Rob Flores",
+            "email": "lonestarelectric@contractor.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 580000,
+            "line_items": [
+              {
+                "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 1",
+                "amount": 90000
+              },
+              {
+                "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 2",
+                "amount": 110000
+              },
+              {
+                "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 3",
+                "amount": 95000
+              },
+              {
+                "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 4",
+                "amount": 115000
+              },
+              {
+                "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 5",
+                "amount": 80000
+              },
+              {
+                "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 6",
+                "amount": 90000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Riverside Medical Office Campus drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "33-S2",
+            "company": "Austin Concrete",
+            "contact": "Lisa Chang",
+            "email": "austinconcrete@contractor.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 365000,
+            "line_items": [
+              {
+                "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 1",
+                "amount": 130000
+              },
+              {
+                "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 2",
+                "amount": 95000
+              },
+              {
+                "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 3",
+                "amount": 140000
+              }
+            ],
+            "exclusions": [
+              "Underground fire line - NOT IN CONTRACT"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Riverside Medical Office Campus drawings issued 03/15/2024.",
+            "post_bid_updates": [
+              {
+                "update_id": "33-U1",
+                "date": "2024-04-28",
+                "from": "Lisa Chang <austinconcrete@contractor.com>",
+                "subject": "RE: Riverside Medical Office Campus - Underground fire line Clarification",
+                "body": "Following up on our call \u2014 we can pick up Underground fire line for $25,000 additional. Revised total $390,000.",
+                "revised_total": 390000,
+                "delta": 25000,
+                "scope_added": "Underground fire line"
+              }
+            ]
+          },
+          {
+            "sub_id": "33-S3",
+            "company": "Capitol Mechanical",
+            "contact": "James Brown",
+            "email": "capitolmechanical@contractor.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 770000,
+            "line_items": [
+              {
+                "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 1",
+                "amount": 180000
+              },
+              {
+                "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 2",
+                "amount": 160000
+              },
+              {
+                "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 3",
+                "amount": 205000
+              },
+              {
+                "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 4",
+                "amount": 225000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Riverside Medical Office Campus drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
+      }
+    ]
+  },
+  "benchmarks": {
+    "source": "RSMeans 2024 (Simulated)",
+    "location": "Austin, TX",
+    "location_factor": 0.94,
+    "project_type": "Medical Office",
+    "benchmarks": [
+      {
+        "trade": "Demolition & Site Clearing",
+        "csi_code": "02 40 00",
+        "unit": "$/SF",
+        "low": 1.12,
+        "mid": 1.68,
+        "high": 2.51,
+        "notes": "Medical Office benchmark \u2014 Austin, TX"
+      },
+      {
+        "trade": "Concrete",
+        "csi_code": "03 00 00",
+        "unit": "$/SF",
+        "low": 4.19,
+        "mid": 5.3,
+        "high": 6.98,
+        "notes": "Medical Office benchmark \u2014 Austin, TX"
+      },
+      {
+        "trade": "Masonry",
+        "csi_code": "04 00 00",
+        "unit": "$/SF",
+        "low": 2.09,
+        "mid": 2.93,
+        "high": 3.91,
+        "notes": "Medical Office benchmark \u2014 Austin, TX"
+      },
+      {
+        "trade": "Structural Steel & Misc Metals",
+        "csi_code": "05 00 00",
+        "unit": "$/SF",
+        "low": 5.58,
+        "mid": 7.26,
+        "high": 9.07,
+        "notes": "Medical Office benchmark \u2014 Austin, TX"
+      },
+      {
+        "trade": "Roofing, Waterproofing & Insulation",
+        "csi_code": "07 00 00",
+        "unit": "$/SF",
+        "low": 3.07,
+        "mid": 4.19,
+        "high": 5.58,
+        "notes": "Medical Office benchmark \u2014 Austin, TX"
+      },
+      {
+        "trade": "Doors, Frames, Hardware & Glazing",
+        "csi_code": "08 00 00",
+        "unit": "$/SF",
+        "low": 3.91,
+        "mid": 5.03,
+        "high": 6.7,
+        "notes": "Medical Office benchmark \u2014 Austin, TX"
+      },
+      {
+        "trade": "Drywall & Framing",
+        "csi_code": "09 20 00",
+        "unit": "$/SF",
+        "low": 2.51,
+        "mid": 3.35,
+        "high": 4.47,
+        "notes": "Medical Office benchmark \u2014 Austin, TX"
+      },
+      {
+        "trade": "Flooring",
+        "csi_code": "09 60 00",
+        "unit": "$/SF",
+        "low": 3.81,
+        "mid": 4.87,
+        "high": 6.4,
+        "notes": "Medical Office benchmark \u2014 Austin, TX"
+      },
+      {
+        "trade": "Painting & Wall Coverings",
+        "csi_code": "09 90 00",
+        "unit": "$/SF",
+        "low": 1.4,
+        "mid": 1.95,
+        "high": 2.51,
+        "notes": "Medical Office benchmark \u2014 Austin, TX"
+      },
+      {
+        "trade": "Acoustical Ceilings (ACT)",
+        "csi_code": "09 51 00",
+        "unit": "$/SF",
+        "low": 1.95,
+        "mid": 2.51,
+        "high": 3.35,
+        "notes": "Medical Office benchmark \u2014 Austin, TX"
+      },
+      {
+        "trade": "Specialties",
+        "csi_code": "10 00 00",
+        "unit": "$/SF",
+        "low": 0.98,
+        "mid": 1.4,
+        "high": 1.95,
+        "notes": "Medical Office benchmark \u2014 Austin, TX"
+      },
+      {
+        "trade": "Fire Suppression (Sprinklers)",
+        "csi_code": "21 00 00",
+        "unit": "$/SF",
+        "low": 2.51,
+        "mid": 3.35,
+        "high": 4.19,
+        "notes": "Medical Office benchmark \u2014 Austin, TX"
+      },
+      {
+        "trade": "Plumbing",
+        "csi_code": "22 00 00",
+        "unit": "$/SF",
+        "low": 6.27,
+        "mid": 7.92,
+        "high": 9.9,
+        "notes": "Medical Office benchmark \u2014 Austin, TX"
+      },
+      {
+        "trade": "Mechanical (HVAC)",
+        "csi_code": "23 00 00",
+        "unit": "$/SF",
+        "low": 7.42,
+        "mid": 9.57,
+        "high": 11.88,
+        "notes": "Medical Office benchmark \u2014 Austin, TX"
+      },
+      {
+        "trade": "Electrical",
+        "csi_code": "26 00 00",
+        "unit": "$/SF",
+        "low": 5.77,
+        "mid": 7.26,
+        "high": 9.07,
+        "notes": "Medical Office benchmark \u2014 Austin, TX"
+      },
+      {
+        "trade": "Communications (Data, AV, Tel)",
+        "csi_code": "27 00 00",
+        "unit": "$/SF",
+        "low": 1.83,
+        "mid": 2.74,
+        "high": 3.65,
+        "notes": "Medical Office benchmark \u2014 Austin, TX"
+      },
+      {
+        "trade": "Electronic Safety & Security",
+        "csi_code": "28 00 00",
+        "unit": "$/SF",
+        "low": 1.52,
+        "mid": 2.13,
+        "high": 2.89,
+        "notes": "Medical Office benchmark \u2014 Austin, TX"
+      },
+      {
+        "trade": "Earthwork, Grading & Site Preparation",
+        "csi_code": "31 00 00",
+        "unit": "$/SF",
+        "low": 2.79,
+        "mid": 3.91,
+        "high": 5.3,
+        "notes": "Medical Office benchmark \u2014 Austin, TX"
+      },
+      {
+        "trade": "Site Paving, Curbs & Landscaping",
+        "csi_code": "32 00 00",
+        "unit": "$/SF",
+        "low": 3.91,
+        "mid": 5.03,
+        "high": 6.7,
+        "notes": "Medical Office benchmark \u2014 Austin, TX"
+      },
+      {
+        "trade": "Site Utilities (Water, Sewer, Storm, Gas)",
+        "csi_code": "33 00 00",
+        "unit": "$/SF",
+        "low": 2.79,
+        "mid": 3.91,
+        "high": 5.03,
+        "notes": "Medical Office benchmark \u2014 Austin, TX"
+      }
+    ]
+  },
+  "general_conditions": {
+    "section": "General Conditions & General Requirements",
+    "csi_code": "01 00 00",
+    "description": "GC overhead for Riverside Medical Office Campus",
+    "duration_months": 24,
+    "line_items": [
+      {
+        "category": "Project Management",
+        "items": [
+          {
+            "description": "Project Manager (24 months)",
+            "unit": "LS",
+            "monthly_rate": 12220,
+            "months": 24,
+            "total": 293280
+          },
+          {
+            "description": "Project Engineer (24 months)",
+            "unit": "LS",
+            "monthly_rate": 7050,
+            "months": 24,
+            "total": 169200
+          }
+        ]
+      },
+      {
+        "category": "Field Supervision",
+        "items": [
+          {
+            "description": "General Superintendent (24 months)",
+            "unit": "LS",
+            "monthly_rate": 9870,
+            "months": 24,
+            "total": 236880
+          },
+          {
+            "description": "Assistant Superintendent (20 months)",
+            "unit": "LS",
+            "monthly_rate": 7520,
+            "months": 20,
+            "total": 150400
+          }
+        ]
+      },
+      {
+        "category": "Temporary Facilities",
+        "items": [
+          {
+            "description": "Field office, toilets, fencing, temp power",
+            "unit": "LS",
+            "monthly_rate": 3760,
+            "months": 24,
+            "total": 90240
+          }
+        ]
+      },
+      {
+        "category": "Site Operations",
+        "items": [
+          {
+            "description": "Cleanup, dumpsters, safety, vehicles",
+            "unit": "LS",
+            "monthly_rate": 5170,
+            "months": 24,
+            "total": 124080
+          }
+        ]
+      },
+      {
+        "category": "Insurance & Bonding",
+        "items": [
+          {
+            "description": "Builder's Risk, GL, Payment & Performance Bond",
+            "unit": "LS",
+            "monthly_rate": null,
+            "months": null,
+            "total": 667400
+          }
+        ]
+      },
+      {
+        "category": "Permits & Fees",
+        "items": [
+          {
+            "description": "Building permit, special inspections, surveying",
+            "unit": "LS",
+            "monthly_rate": null,
+            "months": null,
+            "total": 240264
+          }
+        ]
+      },
+      {
+        "category": "Technology",
+        "items": [
+          {
+            "description": "BIM, Procore, closeout documentation",
+            "unit": "LS",
+            "monthly_rate": 1692,
+            "months": 24,
+            "total": 40608
+          }
+        ]
+      }
+    ],
+    "subtotal_gc": 2012352,
+    "gc_fee_percent": 4.5,
+    "contingency_percent": 3.0
+  }
+}

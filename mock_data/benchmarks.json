@@ -1,0 +1,32 @@
+{
+  "source": "RSMeans Cost Data 2024 (Simulated)",
+  "location": "Austin, TX",
+  "location_factor": 0.94,
+  "project_type": "Medical Office Campus",
+  "benchmarks": [
+    {"trade": "Demolition & Site Clearing",        "csi_code": "02 40 00", "unit": "$/SF", "low": 1.20, "mid": 1.55, "high": 2.00, "notes": "Selective demo with hazmat survey/abatement allowance"},
+    {"trade": "Concrete",                           "csi_code": "03 00 00", "unit": "$/SF", "low": 3.20, "mid": 4.00, "high": 5.20, "notes": "Spread footings, SOG with vapor barrier, elevated slabs, stairs"},
+    {"trade": "Masonry",                            "csi_code": "04 00 00", "unit": "$/SF", "low": 1.80, "mid": 2.40, "high": 3.20, "notes": "Brick veneer, CMU backup walls and shaft walls"},
+    {"trade": "Structural Steel & Misc Metals",     "csi_code": "05 00 00", "unit": "$/SF", "low": 4.50, "mid": 5.80, "high": 7.20, "notes": "Structural steel frame, metal deck, joists, misc metals"},
+    {"trade": "Rough Carpentry & Blocking",         "csi_code": "06 10 00", "unit": "$/SF", "low": 0.80, "mid": 1.10, "high": 1.55, "notes": "Blocking for grab bars and equipment, nailers, sheathing"},
+    {"trade": "Roofing, Waterproofing & Insulation","csi_code": "07 00 00", "unit": "$/SF", "low": 2.60, "mid": 3.40, "high": 4.40, "notes": "TPO roofing, below-slab waterproofing, air barrier, expansion joints"},
+    {"trade": "Doors, Frames, Hardware & Glazing",  "csi_code": "08 00 00", "unit": "$/SF", "low": 3.20, "mid": 4.20, "high": 5.40, "notes": "HM frames, wood doors, hardware schedule, storefront glazing"},
+    {"trade": "Drywall & Framing",                  "csi_code": "09 20 00", "unit": "$/SF", "low": 2.10, "mid": 2.70, "high": 3.50, "notes": "Metal stud framing, drywall, shaft walls, Level 4 finish"},
+    {"trade": "Flooring",                           "csi_code": "09 60 00", "unit": "$/SF", "low": 3.20, "mid": 4.00, "high": 5.10, "notes": "LVT clinical, carpet tile offices, ceramic tile restrooms, sheet vinyl procedure rooms"},
+    {"trade": "Painting & Wall Coverings",          "csi_code": "09 90 00", "unit": "$/SF", "low": 1.30, "mid": 1.70, "high": 2.20, "notes": "Interior/exterior painting, vinyl wall covering, epoxy utility rooms"},
+    {"trade": "Acoustical Ceilings (ACT)",          "csi_code": "09 51 00", "unit": "$/SF", "low": 1.60, "mid": 2.10, "high": 2.80, "notes": "Standard and healthcare-grade ACT, soffits, access panels"},
+    {"trade": "Specialties (Toilet Accessories, Signage, Extinguishers)", "csi_code": "10 00 00", "unit": "$/SF", "low": 0.90, "mid": 1.20, "high": 1.65, "notes": "Toilet accessories, ADA/wayfinding signage, extinguishers, corner guards"},
+    {"trade": "Medical Equipment Rough-In",         "csi_code": "11 70 00", "unit": "$/SF", "low": 2.50, "mid": 3.20, "high": 4.20, "notes": "Nurse call, medical gas outlets/zone valves, patient connections, exam rooms"},
+    {"trade": "Casework & Millwork",                "csi_code": "12 30 00", "unit": "$/SF", "low": 2.00, "mid": 2.80, "high": 3.80, "notes": "Nurses station, exam rooms, reception, break rooms, lab casework"},
+    {"trade": "Elevator",                           "csi_code": "14 20 00", "unit": "$/stop", "low": 48000, "mid": 58000, "high": 72000, "notes": "Hydraulic or MRL elevators; per stop installed including cab"},
+    {"trade": "Fire Suppression (Sprinklers)",      "csi_code": "21 00 00", "unit": "$/SF", "low": 2.10, "mid": 2.70, "high": 3.40, "notes": "Wet pipe NFPA 13, underground fire line, kitchen suppression"},
+    {"trade": "Plumbing",                           "csi_code": "22 00 00", "unit": "$/SF", "low": 4.20, "mid": 5.40, "high": 6.80, "notes": "Complete plumbing, medical gas outlets, all fixtures, natural gas"},
+    {"trade": "Mechanical (HVAC)",                  "csi_code": "23 00 00", "unit": "$/SF", "low": 5.20, "mid": 6.40, "high": 8.00, "notes": "RTUs, ductwork, controls/BAS, medical gas rough-in, TAB, commissioning"},
+    {"trade": "Electrical",                         "csi_code": "26 00 00", "unit": "$/SF", "low": 3.80, "mid": 4.80, "high": 6.00, "notes": "Service, distribution, branch wiring, lighting controls, fire alarm, low voltage"},
+    {"trade": "Communications (Data, AV, Tel)",     "csi_code": "27 00 00", "unit": "$/SF", "low": 1.50, "mid": 2.00, "high": 2.80, "notes": "Cat6A cabling, telecom rooms, AV rough-in, paging system"},
+    {"trade": "Electronic Safety & Security",       "csi_code": "28 00 00", "unit": "$/SF", "low": 1.20, "mid": 1.65, "high": 2.20, "notes": "Access control, CCTV, intrusion detection, medical duress buttons"},
+    {"trade": "Earthwork, Grading & Site Preparation", "csi_code": "31 00 00", "unit": "$/SF", "low": 2.50, "mid": 3.40, "high": 4.60, "notes": "Mass grading, excavation, rock allowance, dewatering, erosion control"},
+    {"trade": "Site Paving, Curbs & Landscaping",   "csi_code": "32 00 00", "unit": "$/SF", "low": 3.20, "mid": 4.20, "high": 5.60, "notes": "Asphalt parking, concrete curbs/walks, landscaping, retaining walls"},
+    {"trade": "Site Utilities (Water, Sewer, Storm, Gas)", "csi_code": "33 00 00", "unit": "$/SF", "low": 2.40, "mid": 3.20, "high": 4.20, "notes": "Water/sewer/storm/fire line/gas service including all utility taps"}
+  ]
+}

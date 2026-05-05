@@ -1,0 +1,2591 @@
+{
+  "bids": {
+    "project": {
+      "name": "Memorial Hospital Patient Tower",
+      "location": "Houston, TX",
+      "size_sf": 350000,
+      "type": "Hospital / Healthcare",
+      "stories": 8
+    },
+    "trades": [
+      {
+        "trade": "Demolition & Site Clearing",
+        "csi_code": "02 40 00",
+        "bids": [
+          {
+            "sub_id": "02-S1",
+            "company": "Texas Interiors",
+            "contact": "Pete Adams",
+            "email": "texasinteriors@contractor.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 930000,
+            "line_items": [
+              {
+                "description": "Demolition & Site Clearing - component 1",
+                "amount": 215000
+              },
+              {
+                "description": "Demolition & Site Clearing - component 2",
+                "amount": 210000
+              },
+              {
+                "description": "Demolition & Site Clearing - component 3",
+                "amount": 260000
+              },
+              {
+                "description": "Demolition & Site Clearing - component 4",
+                "amount": 245000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Memorial Hospital Patient Tower drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "02-S2",
+            "company": "Gulf Coast Plumbing",
+            "contact": "Sam Rivera",
+            "email": "gulfcoastplumbing@contractor.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 535000,
+            "line_items": [
+              {
+                "description": "Demolition & Site Clearing - component 1",
+                "amount": 210000
+              },
+              {
+                "description": "Demolition & Site Clearing - component 2",
+                "amount": 155000
+              },
+              {
+                "description": "Demolition & Site Clearing - component 3",
+                "amount": 170000
+              }
+            ],
+            "exclusions": [
+              "Hazardous material abatement - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Memorial Hospital Patient Tower drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "02-S3",
+            "company": "Bayou City Framing",
+            "contact": "Walt Burns",
+            "email": "bayoucityframing@contractor.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 1405000,
+            "line_items": [
+              {
+                "description": "Demolition & Site Clearing - component 1",
+                "amount": 375000
+              },
+              {
+                "description": "Demolition & Site Clearing - component 2",
+                "amount": 360000
+              },
+              {
+                "description": "Demolition & Site Clearing - component 3",
+                "amount": 415000
+              },
+              {
+                "description": "Demolition & Site Clearing - component 4",
+                "amount": 255000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Memorial Hospital Patient Tower drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
+      },
+      {
+        "trade": "Concrete",
+        "csi_code": "03 00 00",
+        "bids": [
+          {
+            "sub_id": "03-S1",
+            "company": "Texas Interiors",
+            "contact": "Lisa Chang",
+            "email": "texasinteriors@contractor.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 3210000,
+            "line_items": [
+              {
+                "description": "Concrete - component 1",
+                "amount": 1205000
+              },
+              {
+                "description": "Concrete - component 2",
+                "amount": 1195000
+              },
+              {
+                "description": "Concrete - component 3",
+                "amount": 810000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Memorial Hospital Patient Tower drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "03-S2",
+            "company": "Gulf Coast Plumbing",
+            "contact": "James Brown",
+            "email": "gulfcoastplumbing@contractor.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 2245000,
+            "line_items": [
+              {
+                "description": "Concrete - component 1",
+                "amount": 320000
+              },
+              {
+                "description": "Concrete - component 2",
+                "amount": 345000
+              },
+              {
+                "description": "Concrete - component 3",
+                "amount": 335000
+              },
+              {
+                "description": "Concrete - component 4",
+                "amount": 320000
+              },
+              {
+                "description": "Concrete - component 5",
+                "amount": 365000
+              },
+              {
+                "description": "Concrete - component 6",
+                "amount": 560000
+              }
+            ],
+            "exclusions": [
+              "Vapor barrier and underslab insulation - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Memorial Hospital Patient Tower drawings issued 03/15/2024.",
+            "post_bid_updates": [
+              {
+                "update_id": "03-U1",
+                "date": "2024-04-28",
+                "from": "James Brown <gulfcoastplumbing@contractor.com>",
+                "subject": "RE: Memorial Hospital Patient Tower - Vapor barrier and underslab insulation Scope Add",
+                "body": "Per our conversation this morning: Vapor barrier and underslab insulation can be added for $155,000. New total is $2,400,000.",
+                "revised_total": 2400000,
+                "delta": 155000,
+                "scope_added": "Vapor barrier and underslab insulation"
+              }
+            ]
+          },
+          {
+            "sub_id": "03-S3",
+            "company": "Bayou City Framing",
+            "contact": "Maria Valdez",
+            "email": "bayoucityframing@contractor.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 4140000,
+            "line_items": [
+              {
+                "description": "Concrete - component 1",
+                "amount": 570000
+              },
+              {
+                "description": "Concrete - component 2",
+                "amount": 825000
+              },
+              {
+                "description": "Concrete - component 3",
+                "amount": 685000
+              },
+              {
+                "description": "Concrete - component 4",
+                "amount": 665000
+              },
+              {
+                "description": "Concrete - component 5",
+                "amount": 690000
+              },
+              {
+                "description": "Concrete - component 6",
+                "amount": 705000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Memorial Hospital Patient Tower drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
+      },
+      {
+        "trade": "Masonry",
+        "csi_code": "04 00 00",
+        "bids": [
+          {
+            "sub_id": "04-S1",
+            "company": "Lone Star Roofing",
+            "contact": "Angela Cruz",
+            "email": "lonestarroofing@contractor.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 1695000,
+            "line_items": [
+              {
+                "description": "Masonry - component 1",
+                "amount": 365000
+              },
+              {
+                "description": "Masonry - component 2",
+                "amount": 380000
+              },
+              {
+                "description": "Masonry - component 3",
+                "amount": 350000
+              },
+              {
+                "description": "Masonry - component 4",
+                "amount": 395000
+              },
+              {
+                "description": "Masonry - component 5",
+                "amount": 205000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Memorial Hospital Patient Tower drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "04-S2",
+            "company": "Ship Channel Steel",
+            "contact": "Tom Brady",
+            "email": "shipchannelsteel@contractor.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 1035000,
+            "line_items": [
+              {
+                "description": "Masonry - component 1",
+                "amount": 275000
+              },
+              {
+                "description": "Masonry - component 2",
+                "amount": 245000
+              },
+              {
+                "description": "Masonry - component 3",
+                "amount": 275000
+              },
+              {
+                "description": "Masonry - component 4",
+                "amount": 240000
+              }
+            ],
+            "exclusions": [
+              "CMU backup wall - NOT IN CONTRACT"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Memorial Hospital Patient Tower drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "04-S3",
+            "company": "Texas Interiors",
+            "contact": "Linda Garza",
+            "email": "texasinteriors@contractor.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 2155000,
+            "line_items": [
+              {
+                "description": "Masonry - component 1",
+                "amount": 735000
+              },
+              {
+                "description": "Masonry - component 2",
+                "amount": 760000
+              },
+              {
+                "description": "Masonry - component 3",
+                "amount": 660000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Memorial Hospital Patient Tower drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
+      },
+      {
+        "trade": "Structural Steel & Misc Metals",
+        "csi_code": "05 00 00",
+        "bids": [
+          {
+            "sub_id": "05-S1",
+            "company": "Ship Channel Steel",
+            "contact": "Rick Simmons",
+            "email": "shipchannelsteel@contractor.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 4800000,
+            "line_items": [
+              {
+                "description": "Structural Steel & Misc Metals - component 1",
+                "amount": 1285000
+              },
+              {
+                "description": "Structural Steel & Misc Metals - component 2",
+                "amount": 1445000
+              },
+              {
+                "description": "Structural Steel & Misc Metals - component 3",
+                "amount": 2070000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Memorial Hospital Patient Tower drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "05-S2",
+            "company": "Texas Interiors",
+            "contact": "Ed Turner",
+            "email": "texasinteriors@contractor.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 3300000,
+            "line_items": [
+              {
+                "description": "Structural Steel & Misc Metals - component 1",
+                "amount": 520000
+              },
+              {
+                "description": "Structural Steel & Misc Metals - component 2",
+                "amount": 540000
+              },
+              {
+                "description": "Structural Steel & Misc Metals - component 3",
+                "amount": 590000
+              },
+              {
+                "description": "Structural Steel & Misc Metals - component 4",
+                "amount": 590000
+              },
+              {
+                "description": "Structural Steel & Misc Metals - component 5",
+                "amount": 475000
+              },
+              {
+                "description": "Structural Steel & Misc Metals - component 6",
+                "amount": 585000
+              }
+            ],
+            "exclusions": [
+              "Miscellaneous metals and embeds - NOT IN CONTRACT"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Memorial Hospital Patient Tower drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "05-S3",
+            "company": "Gulf Coast Plumbing",
+            "contact": "Carl Johnson",
+            "email": "gulfcoastplumbing@contractor.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 5745000,
+            "line_items": [
+              {
+                "description": "Structural Steel & Misc Metals - component 1",
+                "amount": 1900000
+              },
+              {
+                "description": "Structural Steel & Misc Metals - component 2",
+                "amount": 1760000
+              },
+              {
+                "description": "Structural Steel & Misc Metals - component 3",
+                "amount": 2085000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Memorial Hospital Patient Tower drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
+      },
+      {
+        "trade": "Roofing, Waterproofing & Insulation",
+        "csi_code": "07 00 00",
+        "bids": [
+          {
+            "sub_id": "07-S1",
+            "company": "Bayou City Concrete",
+            "contact": "Maria Valdez",
+            "email": "bayoucityconcrete@contractor.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 2420000,
+            "line_items": [
+              {
+                "description": "Roofing, Waterproofing & Insulation - component 1",
+                "amount": 450000
+              },
+              {
+                "description": "Roofing, Waterproofing & Insulation - component 2",
+                "amount": 475000
+              },
+              {
+                "description": "Roofing, Waterproofing & Insulation - component 3",
+                "amount": 425000
+              },
+              {
+                "description": "Roofing, Waterproofing & Insulation - component 4",
+                "amount": 480000
+              },
+              {
+                "description": "Roofing, Waterproofing & Insulation - component 5",
+                "amount": 590000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Memorial Hospital Patient Tower drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "07-S2",
+            "company": "Houston Mechanical",
+            "contact": "Kevin Walsh",
+            "email": "houstonmechanical@contractor.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 1440000,
+            "line_items": [
+              {
+                "description": "Roofing, Waterproofing & Insulation - component 1",
+                "amount": 470000
+              },
+              {
+                "description": "Roofing, Waterproofing & Insulation - component 2",
+                "amount": 520000
+              },
+              {
+                "description": "Roofing, Waterproofing & Insulation - component 3",
+                "amount": 450000
+              }
+            ],
+            "exclusions": [
+              "Below-slab waterproofing - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Memorial Hospital Patient Tower drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "07-S3",
+            "company": "Lone Star Roofing",
+            "contact": "Beth Adams",
+            "email": "lonestarroofing@contractor.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 3150000,
+            "line_items": [
+              {
+                "description": "Roofing, Waterproofing & Insulation - component 1",
+                "amount": 520000
+              },
+              {
+                "description": "Roofing, Waterproofing & Insulation - component 2",
+                "amount": 515000
+              },
+              {
+                "description": "Roofing, Waterproofing & Insulation - component 3",
+                "amount": 685000
+              },
+              {
+                "description": "Roofing, Waterproofing & Insulation - component 4",
+                "amount": 510000
+              },
+              {
+                "description": "Roofing, Waterproofing & Insulation - component 5",
+                "amount": 920000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Memorial Hospital Patient Tower drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
+      },
+      {
+        "trade": "Doors, Frames, Hardware & Glazing",
+        "csi_code": "08 00 00",
+        "bids": [
+          {
+            "sub_id": "08-S1",
+            "company": "Texas Interiors",
+            "contact": "Angela Cruz",
+            "email": "texasinteriors@contractor.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 3015000,
+            "line_items": [
+              {
+                "description": "Doors, Frames, Hardware & Glazing - component 1",
+                "amount": 760000
+              },
+              {
+                "description": "Doors, Frames, Hardware & Glazing - component 2",
+                "amount": 770000
+              },
+              {
+                "description": "Doors, Frames, Hardware & Glazing - component 3",
+                "amount": 705000
+              },
+              {
+                "description": "Doors, Frames, Hardware & Glazing - component 4",
+                "amount": 780000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Memorial Hospital Patient Tower drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "08-S2",
+            "company": "Gulf Coast Plumbing",
+            "contact": "Tom Brady",
+            "email": "gulfcoastplumbing@contractor.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 1990000,
+            "line_items": [
+              {
+                "description": "Doors, Frames, Hardware & Glazing - component 1",
+                "amount": 295000
+              },
+              {
+                "description": "Doors, Frames, Hardware & Glazing - component 2",
+                "amount": 320000
+              },
+              {
+                "description": "Doors, Frames, Hardware & Glazing - component 3",
+                "amount": 290000
+              },
+              {
+                "description": "Doors, Frames, Hardware & Glazing - component 4",
+                "amount": 350000
+              },
+              {
+                "description": "Doors, Frames, Hardware & Glazing - component 5",
+                "amount": 325000
+              },
+              {
+                "description": "Doors, Frames, Hardware & Glazing - component 6",
+                "amount": 410000
+              }
+            ],
+            "exclusions": [
+              "Storefront glazing system - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Memorial Hospital Patient Tower drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "08-S3",
+            "company": "Bayou City Framing",
+            "contact": "Linda Garza",
+            "email": "bayoucityframing@contractor.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 4085000,
+            "line_items": [
+              {
+                "description": "Doors, Frames, Hardware & Glazing - component 1",
+                "amount": 1490000
+              },
+              {
+                "description": "Doors, Frames, Hardware & Glazing - component 2",
+                "amount": 1570000
+              },
+              {
+                "description": "Doors, Frames, Hardware & Glazing - component 3",
+                "amount": 1025000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Memorial Hospital Patient Tower drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
+      },
+      {
+        "trade": "Drywall & Framing",
+        "csi_code": "09 20 00",
+        "bids": [
+          {
+            "sub_id": "09-S1",
+            "company": "Lone Star Roofing",
+            "contact": "Pete Adams",
+            "email": "lonestarroofing@contractor.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 2025000,
+            "line_items": [
+              {
+                "description": "Drywall & Framing - component 1",
+                "amount": 445000
+              },
+              {
+                "description": "Drywall & Framing - component 2",
+                "amount": 455000
+              },
+              {
+                "description": "Drywall & Framing - component 3",
+                "amount": 335000
+              },
+              {
+                "description": "Drywall & Framing - component 4",
+                "amount": 340000
+              },
+              {
+                "description": "Drywall & Framing - component 5",
+                "amount": 450000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Memorial Hospital Patient Tower drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "09-S2",
+            "company": "Ship Channel Steel",
+            "contact": "Sam Rivera",
+            "email": "shipchannelsteel@contractor.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 1315000,
+            "line_items": [
+              {
+                "description": "Drywall & Framing - component 1",
+                "amount": 230000
+              },
+              {
+                "description": "Drywall & Framing - component 2",
+                "amount": 220000
+              },
+              {
+                "description": "Drywall & Framing - component 3",
+                "amount": 280000
+              },
+              {
+                "description": "Drywall & Framing - component 4",
+                "amount": 260000
+              },
+              {
+                "description": "Drywall & Framing - component 5",
+                "amount": 325000
+              }
+            ],
+            "exclusions": [
+              "Shaft wall assemblies - NOT IN CONTRACT"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Memorial Hospital Patient Tower drawings issued 03/15/2024.",
+            "post_bid_updates": [
+              {
+                "update_id": "09-U1",
+                "date": "2024-04-28",
+                "from": "Sam Rivera <shipchannelsteel@contractor.com>",
+                "subject": "RE: Memorial Hospital Patient Tower - Shaft wall assemblies Clarification",
+                "body": "Following up on our call \u2014 we can pick up Shaft wall assemblies for $90,000 additional. Revised total $1,405,000.",
+                "revised_total": 1405000,
+                "delta": 90000,
+                "scope_added": "Shaft wall assemblies"
+              }
+            ]
+          },
+          {
+            "sub_id": "09-S3",
+            "company": "Texas Interiors",
+            "contact": "Walt Burns",
+            "email": "texasinteriors@contractor.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 2560000,
+            "line_items": [
+              {
+                "description": "Drywall & Framing - component 1",
+                "amount": 530000
+              },
+              {
+                "description": "Drywall & Framing - component 2",
+                "amount": 535000
+              },
+              {
+                "description": "Drywall & Framing - component 3",
+                "amount": 530000
+              },
+              {
+                "description": "Drywall & Framing - component 4",
+                "amount": 480000
+              },
+              {
+                "description": "Drywall & Framing - component 5",
+                "amount": 485000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Memorial Hospital Patient Tower drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
+      },
+      {
+        "trade": "Flooring",
+        "csi_code": "09 60 00",
+        "bids": [
+          {
+            "sub_id": "09-S1",
+            "company": "Bayou City Concrete",
+            "contact": "Angela Cruz",
+            "email": "bayoucityconcrete@contractor.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 2995000,
+            "line_items": [
+              {
+                "description": "Flooring - component 1",
+                "amount": 700000
+              },
+              {
+                "description": "Flooring - component 2",
+                "amount": 620000
+              },
+              {
+                "description": "Flooring - component 3",
+                "amount": 640000
+              },
+              {
+                "description": "Flooring - component 4",
+                "amount": 555000
+              },
+              {
+                "description": "Flooring - component 5",
+                "amount": 480000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Memorial Hospital Patient Tower drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "09-S2",
+            "company": "Houston Mechanical",
+            "contact": "Tom Brady",
+            "email": "houstonmechanical@contractor.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 2000000,
+            "line_items": [
+              {
+                "description": "Flooring - component 1",
+                "amount": 340000
+              },
+              {
+                "description": "Flooring - component 2",
+                "amount": 380000
+              },
+              {
+                "description": "Flooring - component 3",
+                "amount": 345000
+              },
+              {
+                "description": "Flooring - component 4",
+                "amount": 380000
+              },
+              {
+                "description": "Flooring - component 5",
+                "amount": 555000
+              }
+            ],
+            "exclusions": [
+              "Specialty sheet vinyl in procedure rooms - NOT IN CONTRACT"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Memorial Hospital Patient Tower drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "09-S3",
+            "company": "Lone Star Roofing",
+            "contact": "Linda Garza",
+            "email": "lonestarroofing@contractor.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 3850000,
+            "line_items": [
+              {
+                "description": "Flooring - component 1",
+                "amount": 990000
+              },
+              {
+                "description": "Flooring - component 2",
+                "amount": 935000
+              },
+              {
+                "description": "Flooring - component 3",
+                "amount": 955000
+              },
+              {
+                "description": "Flooring - component 4",
+                "amount": 970000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Memorial Hospital Patient Tower drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
+      },
+      {
+        "trade": "Painting & Wall Coverings",
+        "csi_code": "09 90 00",
+        "bids": [
+          {
+            "sub_id": "09-S1",
+            "company": "Ship Channel Steel",
+            "contact": "Sam Rivera",
+            "email": "shipchannelsteel@contractor.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 1100000,
+            "line_items": [
+              {
+                "description": "Painting & Wall Coverings - component 1",
+                "amount": 275000
+              },
+              {
+                "description": "Painting & Wall Coverings - component 2",
+                "amount": 235000
+              },
+              {
+                "description": "Painting & Wall Coverings - component 3",
+                "amount": 255000
+              },
+              {
+                "description": "Painting & Wall Coverings - component 4",
+                "amount": 335000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Memorial Hospital Patient Tower drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "09-S2",
+            "company": "Texas Interiors",
+            "contact": "Walt Burns",
+            "email": "texasinteriors@contractor.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 705000,
+            "line_items": [
+              {
+                "description": "Painting & Wall Coverings - component 1",
+                "amount": 270000
+              },
+              {
+                "description": "Painting & Wall Coverings - component 2",
+                "amount": 275000
+              },
+              {
+                "description": "Painting & Wall Coverings - component 3",
+                "amount": 160000
+              }
+            ],
+            "exclusions": [
+              "Exterior painting - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Memorial Hospital Patient Tower drawings issued 03/15/2024.",
+            "post_bid_updates": [
+              {
+                "update_id": "09-U1",
+                "date": "2024-04-28",
+                "from": "Walt Burns <texasinteriors@contractor.com>",
+                "subject": "RE: Memorial Hospital Patient Tower - Exterior painting Scope Add",
+                "body": "Per our conversation this morning: Exterior painting can be added for $50,000. New total is $755,000.",
+                "revised_total": 755000,
+                "delta": 50000,
+                "scope_added": "Exterior painting"
+              }
+            ]
+          },
+          {
+            "sub_id": "09-S3",
+            "company": "Gulf Coast Plumbing",
+            "contact": "Mike Torres",
+            "email": "gulfcoastplumbing@contractor.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 1430000,
+            "line_items": [
+              {
+                "description": "Painting & Wall Coverings - component 1",
+                "amount": 205000
+              },
+              {
+                "description": "Painting & Wall Coverings - component 2",
+                "amount": 270000
+              },
+              {
+                "description": "Painting & Wall Coverings - component 3",
+                "amount": 285000
+              },
+              {
+                "description": "Painting & Wall Coverings - component 4",
+                "amount": 240000
+              },
+              {
+                "description": "Painting & Wall Coverings - component 5",
+                "amount": 240000
+              },
+              {
+                "description": "Painting & Wall Coverings - component 6",
+                "amount": 190000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Memorial Hospital Patient Tower drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
+      },
+      {
+        "trade": "Acoustical Ceilings (ACT)",
+        "csi_code": "09 51 00",
+        "bids": [
+          {
+            "sub_id": "09-S1",
+            "company": "Houston Mechanical",
+            "contact": "Tom Brady",
+            "email": "houstonmechanical@contractor.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 1430000,
+            "line_items": [
+              {
+                "description": "Acoustical Ceilings (ACT) - component 1",
+                "amount": 490000
+              },
+              {
+                "description": "Acoustical Ceilings (ACT) - component 2",
+                "amount": 535000
+              },
+              {
+                "description": "Acoustical Ceilings (ACT) - component 3",
+                "amount": 405000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Memorial Hospital Patient Tower drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "09-S2",
+            "company": "Lone Star Roofing",
+            "contact": "Linda Garza",
+            "email": "lonestarroofing@contractor.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 945000,
+            "line_items": [
+              {
+                "description": "Acoustical Ceilings (ACT) - component 1",
+                "amount": 155000
+              },
+              {
+                "description": "Acoustical Ceilings (ACT) - component 2",
+                "amount": 170000
+              },
+              {
+                "description": "Acoustical Ceilings (ACT) - component 3",
+                "amount": 175000
+              },
+              {
+                "description": "Acoustical Ceilings (ACT) - component 4",
+                "amount": 210000
+              },
+              {
+                "description": "Acoustical Ceilings (ACT) - component 5",
+                "amount": 235000
+              }
+            ],
+            "exclusions": [
+              "Gypsum board soffits and clouds - NOT IN CONTRACT"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Memorial Hospital Patient Tower drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "09-S3",
+            "company": "Ship Channel Steel",
+            "contact": "Bill Torres",
+            "email": "shipchannelsteel@contractor.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 1890000,
+            "line_items": [
+              {
+                "description": "Acoustical Ceilings (ACT) - component 1",
+                "amount": 320000
+              },
+              {
+                "description": "Acoustical Ceilings (ACT) - component 2",
+                "amount": 265000
+              },
+              {
+                "description": "Acoustical Ceilings (ACT) - component 3",
+                "amount": 265000
+              },
+              {
+                "description": "Acoustical Ceilings (ACT) - component 4",
+                "amount": 350000
+              },
+              {
+                "description": "Acoustical Ceilings (ACT) - component 5",
+                "amount": 355000
+              },
+              {
+                "description": "Acoustical Ceilings (ACT) - component 6",
+                "amount": 335000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Memorial Hospital Patient Tower drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
+      },
+      {
+        "trade": "Specialties",
+        "csi_code": "10 00 00",
+        "bids": [
+          {
+            "sub_id": "10-S1",
+            "company": "Bayou City Concrete",
+            "contact": "Angela Cruz",
+            "email": "bayoucityconcrete@contractor.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 840000,
+            "line_items": [
+              {
+                "description": "Specialties - component 1",
+                "amount": 250000
+              },
+              {
+                "description": "Specialties - component 2",
+                "amount": 175000
+              },
+              {
+                "description": "Specialties - component 3",
+                "amount": 240000
+              },
+              {
+                "description": "Specialties - component 4",
+                "amount": 175000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Memorial Hospital Patient Tower drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "10-S2",
+            "company": "Houston Mechanical",
+            "contact": "Tom Brady",
+            "email": "houstonmechanical@contractor.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 530000,
+            "line_items": [
+              {
+                "description": "Specialties - component 1",
+                "amount": 120000
+              },
+              {
+                "description": "Specialties - component 2",
+                "amount": 85000
+              },
+              {
+                "description": "Specialties - component 3",
+                "amount": 95000
+              },
+              {
+                "description": "Specialties - component 4",
+                "amount": 120000
+              },
+              {
+                "description": "Specialties - component 5",
+                "amount": 110000
+              }
+            ],
+            "exclusions": [
+              "ADA signage package - NOT IN CONTRACT"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Memorial Hospital Patient Tower drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "10-S3",
+            "company": "Lone Star Roofing",
+            "contact": "Linda Garza",
+            "email": "lonestarroofing@contractor.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 1125000,
+            "line_items": [
+              {
+                "description": "Specialties - component 1",
+                "amount": 365000
+              },
+              {
+                "description": "Specialties - component 2",
+                "amount": 450000
+              },
+              {
+                "description": "Specialties - component 3",
+                "amount": 310000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Memorial Hospital Patient Tower drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
+      },
+      {
+        "trade": "Fire Suppression (Sprinklers)",
+        "csi_code": "21 00 00",
+        "bids": [
+          {
+            "sub_id": "21-S1",
+            "company": "Gulf Coast Electric",
+            "contact": "Kevin Walsh",
+            "email": "gulfcoastelectric@contractor.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 2075000,
+            "line_items": [
+              {
+                "description": "Fire Suppression (Sprinklers) - component 1",
+                "amount": 475000
+              },
+              {
+                "description": "Fire Suppression (Sprinklers) - component 2",
+                "amount": 435000
+              },
+              {
+                "description": "Fire Suppression (Sprinklers) - component 3",
+                "amount": 405000
+              },
+              {
+                "description": "Fire Suppression (Sprinklers) - component 4",
+                "amount": 435000
+              },
+              {
+                "description": "Fire Suppression (Sprinklers) - component 5",
+                "amount": 325000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Memorial Hospital Patient Tower drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "21-S2",
+            "company": "Bayou City Concrete",
+            "contact": "Beth Adams",
+            "email": "bayoucityconcrete@contractor.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 1295000,
+            "line_items": [
+              {
+                "description": "Fire Suppression (Sprinklers) - component 1",
+                "amount": 365000
+              },
+              {
+                "description": "Fire Suppression (Sprinklers) - component 2",
+                "amount": 335000
+              },
+              {
+                "description": "Fire Suppression (Sprinklers) - component 3",
+                "amount": 330000
+              },
+              {
+                "description": "Fire Suppression (Sprinklers) - component 4",
+                "amount": 265000
+              }
+            ],
+            "exclusions": [
+              "Kitchen hood fire suppression - NOT IN CONTRACT"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Memorial Hospital Patient Tower drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "21-S3",
+            "company": "Houston Mechanical",
+            "contact": "Rick Simmons",
+            "email": "houstonmechanical@contractor.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 2555000,
+            "line_items": [
+              {
+                "description": "Fire Suppression (Sprinklers) - component 1",
+                "amount": 595000
+              },
+              {
+                "description": "Fire Suppression (Sprinklers) - component 2",
+                "amount": 690000
+              },
+              {
+                "description": "Fire Suppression (Sprinklers) - component 3",
+                "amount": 585000
+              },
+              {
+                "description": "Fire Suppression (Sprinklers) - component 4",
+                "amount": 685000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Memorial Hospital Patient Tower drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
+      },
+      {
+        "trade": "Plumbing",
+        "csi_code": "22 00 00",
+        "bids": [
+          {
+            "sub_id": "22-S1",
+            "company": "Houston Mechanical",
+            "contact": "Carl Johnson",
+            "email": "houstonmechanical@contractor.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 5535000,
+            "line_items": [
+              {
+                "description": "Plumbing - component 1",
+                "amount": 1575000
+              },
+              {
+                "description": "Plumbing - component 2",
+                "amount": 2030000
+              },
+              {
+                "description": "Plumbing - component 3",
+                "amount": 1930000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Memorial Hospital Patient Tower drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "22-S2",
+            "company": "Lone Star Roofing",
+            "contact": "Pete Adams",
+            "email": "lonestarroofing@contractor.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 3990000,
+            "line_items": [
+              {
+                "description": "Plumbing - component 1",
+                "amount": 1590000
+              },
+              {
+                "description": "Plumbing - component 2",
+                "amount": 1525000
+              },
+              {
+                "description": "Plumbing - component 3",
+                "amount": 875000
+              }
+            ],
+            "exclusions": [
+              "Medical gas outlets and zone valves - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Memorial Hospital Patient Tower drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "22-S3",
+            "company": "Ship Channel Steel",
+            "contact": "Sam Rivera",
+            "email": "shipchannelsteel@contractor.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 7165000,
+            "line_items": [
+              {
+                "description": "Plumbing - component 1",
+                "amount": 1935000
+              },
+              {
+                "description": "Plumbing - component 2",
+                "amount": 1530000
+              },
+              {
+                "description": "Plumbing - component 3",
+                "amount": 1540000
+              },
+              {
+                "description": "Plumbing - component 4",
+                "amount": 2160000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Memorial Hospital Patient Tower drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
+      },
+      {
+        "trade": "Mechanical (HVAC)",
+        "csi_code": "23 00 00",
+        "bids": [
+          {
+            "sub_id": "23-S1",
+            "company": "Houston Mechanical",
+            "contact": "Bill Torres",
+            "email": "houstonmechanical@contractor.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 6715000,
+            "line_items": [
+              {
+                "description": "Mechanical (HVAC) - component 1",
+                "amount": 1730000
+              },
+              {
+                "description": "Mechanical (HVAC) - component 2",
+                "amount": 1525000
+              },
+              {
+                "description": "Mechanical (HVAC) - component 3",
+                "amount": 1620000
+              },
+              {
+                "description": "Mechanical (HVAC) - component 4",
+                "amount": 1840000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Memorial Hospital Patient Tower drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "23-S2",
+            "company": "Lone Star Roofing",
+            "contact": "Priya Nair",
+            "email": "lonestarroofing@contractor.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 4485000,
+            "line_items": [
+              {
+                "description": "Mechanical (HVAC) - component 1",
+                "amount": 1575000
+              },
+              {
+                "description": "Mechanical (HVAC) - component 2",
+                "amount": 1720000
+              },
+              {
+                "description": "Mechanical (HVAC) - component 3",
+                "amount": 1190000
+              }
+            ],
+            "exclusions": [
+              "Medical gas rough-in and kitchen hood exhaust - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Memorial Hospital Patient Tower drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "23-S3",
+            "company": "Ship Channel Steel",
+            "contact": "Rob Flores",
+            "email": "shipchannelsteel@contractor.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 8510000,
+            "line_items": [
+              {
+                "description": "Mechanical (HVAC) - component 1",
+                "amount": 2725000
+              },
+              {
+                "description": "Mechanical (HVAC) - component 2",
+                "amount": 3120000
+              },
+              {
+                "description": "Mechanical (HVAC) - component 3",
+                "amount": 2665000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Memorial Hospital Patient Tower drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
+      },
+      {
+        "trade": "Electrical",
+        "csi_code": "26 00 00",
+        "bids": [
+          {
+            "sub_id": "26-S1",
+            "company": "Texas Interiors",
+            "contact": "Lisa Chang",
+            "email": "texasinteriors@contractor.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 5240000,
+            "line_items": [
+              {
+                "description": "Electrical - component 1",
+                "amount": 2005000
+              },
+              {
+                "description": "Electrical - component 2",
+                "amount": 1990000
+              },
+              {
+                "description": "Electrical - component 3",
+                "amount": 1245000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Memorial Hospital Patient Tower drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "26-S2",
+            "company": "Gulf Coast Plumbing",
+            "contact": "James Brown",
+            "email": "gulfcoastplumbing@contractor.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 3680000,
+            "line_items": [
+              {
+                "description": "Electrical - component 1",
+                "amount": 645000
+              },
+              {
+                "description": "Electrical - component 2",
+                "amount": 660000
+              },
+              {
+                "description": "Electrical - component 3",
+                "amount": 700000
+              },
+              {
+                "description": "Electrical - component 4",
+                "amount": 685000
+              },
+              {
+                "description": "Electrical - component 5",
+                "amount": 590000
+              },
+              {
+                "description": "Electrical - component 6",
+                "amount": 400000
+              }
+            ],
+            "exclusions": [
+              "Fire alarm system - NOT IN CONTRACT"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Memorial Hospital Patient Tower drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "26-S3",
+            "company": "Bayou City Framing",
+            "contact": "Maria Valdez",
+            "email": "bayoucityframing@contractor.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 6310000,
+            "line_items": [
+              {
+                "description": "Electrical - component 1",
+                "amount": 1190000
+              },
+              {
+                "description": "Electrical - component 2",
+                "amount": 1050000
+              },
+              {
+                "description": "Electrical - component 3",
+                "amount": 975000
+              },
+              {
+                "description": "Electrical - component 4",
+                "amount": 960000
+              },
+              {
+                "description": "Electrical - component 5",
+                "amount": 1070000
+              },
+              {
+                "description": "Electrical - component 6",
+                "amount": 1065000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Memorial Hospital Patient Tower drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
+      },
+      {
+        "trade": "Communications (Data, AV, Tel)",
+        "csi_code": "27 00 00",
+        "bids": [
+          {
+            "sub_id": "27-S1",
+            "company": "Bayou City Concrete",
+            "contact": "Lisa Chang",
+            "email": "bayoucityconcrete@contractor.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 1595000,
+            "line_items": [
+              {
+                "description": "Communications (Data, AV, Tel) - component 1",
+                "amount": 435000
+              },
+              {
+                "description": "Communications (Data, AV, Tel) - component 2",
+                "amount": 560000
+              },
+              {
+                "description": "Communications (Data, AV, Tel) - component 3",
+                "amount": 600000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Memorial Hospital Patient Tower drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "27-S2",
+            "company": "Houston Mechanical",
+            "contact": "James Brown",
+            "email": "houstonmechanical@contractor.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 980000,
+            "line_items": [
+              {
+                "description": "Communications (Data, AV, Tel) - component 1",
+                "amount": 280000
+              },
+              {
+                "description": "Communications (Data, AV, Tel) - component 2",
+                "amount": 375000
+              },
+              {
+                "description": "Communications (Data, AV, Tel) - component 3",
+                "amount": 325000
+              }
+            ],
+            "exclusions": [
+              "AV rough-in for conference rooms - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Memorial Hospital Patient Tower drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "27-S3",
+            "company": "Lone Star Roofing",
+            "contact": "Maria Valdez",
+            "email": "lonestarroofing@contractor.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 2195000,
+            "line_items": [
+              {
+                "description": "Communications (Data, AV, Tel) - component 1",
+                "amount": 360000
+              },
+              {
+                "description": "Communications (Data, AV, Tel) - component 2",
+                "amount": 440000
+              },
+              {
+                "description": "Communications (Data, AV, Tel) - component 3",
+                "amount": 355000
+              },
+              {
+                "description": "Communications (Data, AV, Tel) - component 4",
+                "amount": 440000
+              },
+              {
+                "description": "Communications (Data, AV, Tel) - component 5",
+                "amount": 425000
+              },
+              {
+                "description": "Communications (Data, AV, Tel) - component 6",
+                "amount": 175000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Memorial Hospital Patient Tower drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
+      },
+      {
+        "trade": "Electronic Safety & Security",
+        "csi_code": "28 00 00",
+        "bids": [
+          {
+            "sub_id": "28-S1",
+            "company": "Houston Mechanical",
+            "contact": "Sam Rivera",
+            "email": "houstonmechanical@contractor.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 1315000,
+            "line_items": [
+              {
+                "description": "Electronic Safety & Security - component 1",
+                "amount": 465000
+              },
+              {
+                "description": "Electronic Safety & Security - component 2",
+                "amount": 395000
+              },
+              {
+                "description": "Electronic Safety & Security - component 3",
+                "amount": 455000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Memorial Hospital Patient Tower drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "28-S2",
+            "company": "Lone Star Roofing",
+            "contact": "Walt Burns",
+            "email": "lonestarroofing@contractor.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 780000,
+            "line_items": [
+              {
+                "description": "Electronic Safety & Security - component 1",
+                "amount": 160000
+              },
+              {
+                "description": "Electronic Safety & Security - component 2",
+                "amount": 205000
+              },
+              {
+                "description": "Electronic Safety & Security - component 3",
+                "amount": 215000
+              },
+              {
+                "description": "Electronic Safety & Security - component 4",
+                "amount": 200000
+              }
+            ],
+            "exclusions": [
+              "Exterior access control and parking - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Memorial Hospital Patient Tower drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "28-S3",
+            "company": "Ship Channel Steel",
+            "contact": "Mike Torres",
+            "email": "shipchannelsteel@contractor.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 1750000,
+            "line_items": [
+              {
+                "description": "Electronic Safety & Security - component 1",
+                "amount": 425000
+              },
+              {
+                "description": "Electronic Safety & Security - component 2",
+                "amount": 365000
+              },
+              {
+                "description": "Electronic Safety & Security - component 3",
+                "amount": 365000
+              },
+              {
+                "description": "Electronic Safety & Security - component 4",
+                "amount": 595000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Memorial Hospital Patient Tower drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
+      },
+      {
+        "trade": "Earthwork, Grading & Site Preparation",
+        "csi_code": "31 00 00",
+        "bids": [
+          {
+            "sub_id": "31-S1",
+            "company": "Lone Star Roofing",
+            "contact": "Lisa Chang",
+            "email": "lonestarroofing@contractor.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 2145000,
+            "line_items": [
+              {
+                "description": "Earthwork, Grading & Site Preparation - component 1",
+                "amount": 285000
+              },
+              {
+                "description": "Earthwork, Grading & Site Preparation - component 2",
+                "amount": 385000
+              },
+              {
+                "description": "Earthwork, Grading & Site Preparation - component 3",
+                "amount": 405000
+              },
+              {
+                "description": "Earthwork, Grading & Site Preparation - component 4",
+                "amount": 425000
+              },
+              {
+                "description": "Earthwork, Grading & Site Preparation - component 5",
+                "amount": 345000
+              },
+              {
+                "description": "Earthwork, Grading & Site Preparation - component 6",
+                "amount": 300000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Memorial Hospital Patient Tower drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "31-S2",
+            "company": "Ship Channel Steel",
+            "contact": "James Brown",
+            "email": "shipchannelsteel@contractor.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 1310000,
+            "line_items": [
+              {
+                "description": "Earthwork, Grading & Site Preparation - component 1",
+                "amount": 180000
+              },
+              {
+                "description": "Earthwork, Grading & Site Preparation - component 2",
+                "amount": 210000
+              },
+              {
+                "description": "Earthwork, Grading & Site Preparation - component 3",
+                "amount": 240000
+              },
+              {
+                "description": "Earthwork, Grading & Site Preparation - component 4",
+                "amount": 185000
+              },
+              {
+                "description": "Earthwork, Grading & Site Preparation - component 5",
+                "amount": 200000
+              },
+              {
+                "description": "Earthwork, Grading & Site Preparation - component 6",
+                "amount": 295000
+              }
+            ],
+            "exclusions": [
+              "Rock excavation allowance - NOT IN CONTRACT"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Memorial Hospital Patient Tower drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "31-S3",
+            "company": "Texas Interiors",
+            "contact": "Maria Valdez",
+            "email": "texasinteriors@contractor.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 2940000,
+            "line_items": [
+              {
+                "description": "Earthwork, Grading & Site Preparation - component 1",
+                "amount": 505000
+              },
+              {
+                "description": "Earthwork, Grading & Site Preparation - component 2",
+                "amount": 650000
+              },
+              {
+                "description": "Earthwork, Grading & Site Preparation - component 3",
+                "amount": 650000
+              },
+              {
+                "description": "Earthwork, Grading & Site Preparation - component 4",
+                "amount": 500000
+              },
+              {
+                "description": "Earthwork, Grading & Site Preparation - component 5",
+                "amount": 635000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Memorial Hospital Patient Tower drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
+      },
+      {
+        "trade": "Site Paving, Curbs & Landscaping",
+        "csi_code": "32 00 00",
+        "bids": [
+          {
+            "sub_id": "32-S1",
+            "company": "Bayou City Concrete",
+            "contact": "Ed Turner",
+            "email": "bayoucityconcrete@contractor.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 2920000,
+            "line_items": [
+              {
+                "description": "Site Paving, Curbs & Landscaping - component 1",
+                "amount": 715000
+              },
+              {
+                "description": "Site Paving, Curbs & Landscaping - component 2",
+                "amount": 795000
+              },
+              {
+                "description": "Site Paving, Curbs & Landscaping - component 3",
+                "amount": 765000
+              },
+              {
+                "description": "Site Paving, Curbs & Landscaping - component 4",
+                "amount": 645000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Memorial Hospital Patient Tower drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "32-S2",
+            "company": "Houston Mechanical",
+            "contact": "Carl Johnson",
+            "email": "houstonmechanical@contractor.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 1840000,
+            "line_items": [
+              {
+                "description": "Site Paving, Curbs & Landscaping - component 1",
+                "amount": 350000
+              },
+              {
+                "description": "Site Paving, Curbs & Landscaping - component 2",
+                "amount": 255000
+              },
+              {
+                "description": "Site Paving, Curbs & Landscaping - component 3",
+                "amount": 260000
+              },
+              {
+                "description": "Site Paving, Curbs & Landscaping - component 4",
+                "amount": 340000
+              },
+              {
+                "description": "Site Paving, Curbs & Landscaping - component 5",
+                "amount": 320000
+              },
+              {
+                "description": "Site Paving, Curbs & Landscaping - component 6",
+                "amount": 315000
+              }
+            ],
+            "exclusions": [
+              "Landscaping and irrigation - NOT IN CONTRACT"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Memorial Hospital Patient Tower drawings issued 03/15/2024.",
+            "post_bid_updates": [
+              {
+                "update_id": "32-U1",
+                "date": "2024-04-28",
+                "from": "Carl Johnson <houstonmechanical@contractor.com>",
+                "subject": "RE: Memorial Hospital Patient Tower - Landscaping and irrigation Clarification",
+                "body": "Following up on our call \u2014 we can pick up Landscaping and irrigation for $130,000 additional. Revised total $1,970,000.",
+                "revised_total": 1970000,
+                "delta": 130000,
+                "scope_added": "Landscaping and irrigation"
+              }
+            ]
+          },
+          {
+            "sub_id": "32-S3",
+            "company": "Lone Star Roofing",
+            "contact": "Pete Adams",
+            "email": "lonestarroofing@contractor.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 3695000,
+            "line_items": [
+              {
+                "description": "Site Paving, Curbs & Landscaping - component 1",
+                "amount": 580000
+              },
+              {
+                "description": "Site Paving, Curbs & Landscaping - component 2",
+                "amount": 600000
+              },
+              {
+                "description": "Site Paving, Curbs & Landscaping - component 3",
+                "amount": 690000
+              },
+              {
+                "description": "Site Paving, Curbs & Landscaping - component 4",
+                "amount": 555000
+              },
+              {
+                "description": "Site Paving, Curbs & Landscaping - component 5",
+                "amount": 650000
+              },
+              {
+                "description": "Site Paving, Curbs & Landscaping - component 6",
+                "amount": 620000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Memorial Hospital Patient Tower drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
+      },
+      {
+        "trade": "Site Utilities (Water, Sewer, Storm, Gas)",
+        "csi_code": "33 00 00",
+        "bids": [
+          {
+            "sub_id": "33-S1",
+            "company": "Gulf Coast Electric",
+            "contact": "Rob Flores",
+            "email": "gulfcoastelectric@contractor.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 2330000,
+            "line_items": [
+              {
+                "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 1",
+                "amount": 885000
+              },
+              {
+                "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 2",
+                "amount": 825000
+              },
+              {
+                "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 3",
+                "amount": 620000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Memorial Hospital Patient Tower drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "33-S2",
+            "company": "Bayou City Concrete",
+            "contact": "Lisa Chang",
+            "email": "bayoucityconcrete@contractor.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 1485000,
+            "line_items": [
+              {
+                "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 1",
+                "amount": 410000
+              },
+              {
+                "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 2",
+                "amount": 340000
+              },
+              {
+                "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 3",
+                "amount": 305000
+              },
+              {
+                "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 4",
+                "amount": 430000
+              }
+            ],
+            "exclusions": [
+              "Underground fire line - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Memorial Hospital Patient Tower drawings issued 03/15/2024.",
+            "post_bid_updates": [
+              {
+                "update_id": "33-U1",
+                "date": "2024-04-28",
+                "from": "Lisa Chang <bayoucityconcrete@contractor.com>",
+                "subject": "RE: Memorial Hospital Patient Tower - Underground fire line Add",
+                "body": "We can include Underground fire line for an additional $105,000. Revised total would be $1,590,000.",
+                "revised_total": 1590000,
+                "delta": 105000,
+                "scope_added": "Underground fire line"
+              }
+            ]
+          },
+          {
+            "sub_id": "33-S3",
+            "company": "Houston Mechanical",
+            "contact": "James Brown",
+            "email": "houstonmechanical@contractor.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 3045000,
+            "line_items": [
+              {
+                "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 1",
+                "amount": 760000
+              },
+              {
+                "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 2",
+                "amount": 645000
+              },
+              {
+                "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 3",
+                "amount": 760000
+              },
+              {
+                "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 4",
+                "amount": 880000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Memorial Hospital Patient Tower drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
+      }
+    ]
+  },
+  "benchmarks": {
+    "source": "RSMeans 2024 (Simulated)",
+    "location": "Houston, TX",
+    "location_factor": 0.95,
+    "project_type": "Hospital / Healthcare",
+    "benchmarks": [
+      {
+        "trade": "Demolition & Site Clearing",
+        "csi_code": "02 40 00",
+        "unit": "$/SF",
+        "low": 1.69,
+        "mid": 2.53,
+        "high": 3.8,
+        "notes": "Hospital / Healthcare benchmark \u2014 Houston, TX"
+      },
+      {
+        "trade": "Concrete",
+        "csi_code": "03 00 00",
+        "unit": "$/SF",
+        "low": 6.85,
+        "mid": 8.68,
+        "high": 11.42,
+        "notes": "Hospital / Healthcare benchmark \u2014 Houston, TX"
+      },
+      {
+        "trade": "Masonry",
+        "csi_code": "04 00 00",
+        "unit": "$/SF",
+        "low": 3.16,
+        "mid": 4.43,
+        "high": 5.91,
+        "notes": "Hospital / Healthcare benchmark \u2014 Houston, TX"
+      },
+      {
+        "trade": "Structural Steel & Misc Metals",
+        "csi_code": "05 00 00",
+        "unit": "$/SF",
+        "low": 9.84,
+        "mid": 12.79,
+        "high": 15.99,
+        "notes": "Hospital / Healthcare benchmark \u2014 Houston, TX"
+      },
+      {
+        "trade": "Roofing, Waterproofing & Insulation",
+        "csi_code": "07 00 00",
+        "unit": "$/SF",
+        "low": 4.64,
+        "mid": 6.33,
+        "high": 8.44,
+        "notes": "Hospital / Healthcare benchmark \u2014 Houston, TX"
+      },
+      {
+        "trade": "Doors, Frames, Hardware & Glazing",
+        "csi_code": "08 00 00",
+        "unit": "$/SF",
+        "low": 6.4,
+        "mid": 8.23,
+        "high": 10.97,
+        "notes": "Hospital / Healthcare benchmark \u2014 Houston, TX"
+      },
+      {
+        "trade": "Drywall & Framing",
+        "csi_code": "09 20 00",
+        "unit": "$/SF",
+        "low": 4.11,
+        "mid": 5.48,
+        "high": 7.31,
+        "notes": "Hospital / Healthcare benchmark \u2014 Houston, TX"
+      },
+      {
+        "trade": "Flooring",
+        "csi_code": "09 60 00",
+        "unit": "$/SF",
+        "low": 6.15,
+        "mid": 7.87,
+        "high": 10.33,
+        "notes": "Hospital / Healthcare benchmark \u2014 Houston, TX"
+      },
+      {
+        "trade": "Painting & Wall Coverings",
+        "csi_code": "09 90 00",
+        "unit": "$/SF",
+        "low": 2.11,
+        "mid": 2.95,
+        "high": 3.8,
+        "notes": "Hospital / Healthcare benchmark \u2014 Houston, TX"
+      },
+      {
+        "trade": "Acoustical Ceilings (ACT)",
+        "csi_code": "09 51 00",
+        "unit": "$/SF",
+        "low": 2.95,
+        "mid": 3.8,
+        "high": 5.06,
+        "notes": "Hospital / Healthcare benchmark \u2014 Houston, TX"
+      },
+      {
+        "trade": "Specialties",
+        "csi_code": "10 00 00",
+        "unit": "$/SF",
+        "low": 1.6,
+        "mid": 2.28,
+        "high": 3.2,
+        "notes": "Hospital / Healthcare benchmark \u2014 Houston, TX"
+      },
+      {
+        "trade": "Fire Suppression (Sprinklers)",
+        "csi_code": "21 00 00",
+        "unit": "$/SF",
+        "low": 4.11,
+        "mid": 5.48,
+        "high": 6.85,
+        "notes": "Hospital / Healthcare benchmark \u2014 Houston, TX"
+      },
+      {
+        "trade": "Plumbing",
+        "csi_code": "22 00 00",
+        "unit": "$/SF",
+        "low": 12.02,
+        "mid": 15.18,
+        "high": 18.98,
+        "notes": "Hospital / Healthcare benchmark \u2014 Houston, TX"
+      },
+      {
+        "trade": "Mechanical (HVAC)",
+        "csi_code": "23 00 00",
+        "unit": "$/SF",
+        "low": 14.24,
+        "mid": 18.35,
+        "high": 22.78,
+        "notes": "Hospital / Healthcare benchmark \u2014 Houston, TX"
+      },
+      {
+        "trade": "Electrical",
+        "csi_code": "26 00 00",
+        "unit": "$/SF",
+        "low": 11.07,
+        "mid": 13.92,
+        "high": 17.4,
+        "notes": "Hospital / Healthcare benchmark \u2014 Houston, TX"
+      },
+      {
+        "trade": "Communications (Data, AV, Tel)",
+        "csi_code": "27 00 00",
+        "unit": "$/SF",
+        "low": 2.95,
+        "mid": 4.43,
+        "high": 5.91,
+        "notes": "Hospital / Healthcare benchmark \u2014 Houston, TX"
+      },
+      {
+        "trade": "Electronic Safety & Security",
+        "csi_code": "28 00 00",
+        "unit": "$/SF",
+        "low": 2.46,
+        "mid": 3.44,
+        "high": 4.67,
+        "notes": "Hospital / Healthcare benchmark \u2014 Houston, TX"
+      },
+      {
+        "trade": "Earthwork, Grading & Site Preparation",
+        "csi_code": "31 00 00",
+        "unit": "$/SF",
+        "low": 4.22,
+        "mid": 5.91,
+        "high": 8.01,
+        "notes": "Hospital / Healthcare benchmark \u2014 Houston, TX"
+      },
+      {
+        "trade": "Site Paving, Curbs & Landscaping",
+        "csi_code": "32 00 00",
+        "unit": "$/SF",
+        "low": 5.91,
+        "mid": 7.59,
+        "high": 10.12,
+        "notes": "Hospital / Healthcare benchmark \u2014 Houston, TX"
+      },
+      {
+        "trade": "Site Utilities (Water, Sewer, Storm, Gas)",
+        "csi_code": "33 00 00",
+        "unit": "$/SF",
+        "low": 4.57,
+        "mid": 6.4,
+        "high": 8.23,
+        "notes": "Hospital / Healthcare benchmark \u2014 Houston, TX"
+      }
+    ]
+  },
+  "general_conditions": {
+    "section": "General Conditions & General Requirements",
+    "csi_code": "01 00 00",
+    "description": "GC overhead for Memorial Hospital Patient Tower",
+    "duration_months": 36,
+    "line_items": [
+      {
+        "category": "Project Management",
+        "items": [
+          {
+            "description": "Project Manager (36 months)",
+            "unit": "LS",
+            "monthly_rate": 12350,
+            "months": 36,
+            "total": 444600
+          },
+          {
+            "description": "Project Engineer (36 months)",
+            "unit": "LS",
+            "monthly_rate": 7125,
+            "months": 36,
+            "total": 256500
+          }
+        ]
+      },
+      {
+        "category": "Field Supervision",
+        "items": [
+          {
+            "description": "General Superintendent (36 months)",
+            "unit": "LS",
+            "monthly_rate": 9975,
+            "months": 36,
+            "total": 359100
+          },
+          {
+            "description": "Assistant Superintendent (32 months)",
+            "unit": "LS",
+            "monthly_rate": 7600,
+            "months": 32,
+            "total": 243200
+          }
+        ]
+      },
+      {
+        "category": "Temporary Facilities",
+        "items": [
+          {
+            "description": "Field office, toilets, fencing, temp power",
+            "unit": "LS",
+            "monthly_rate": 3800,
+            "months": 36,
+            "total": 136800
+          }
+        ]
+      },
+      {
+        "category": "Site Operations",
+        "items": [
+          {
+            "description": "Cleanup, dumpsters, safety, vehicles",
+            "unit": "LS",
+            "monthly_rate": 5225,
+            "months": 36,
+            "total": 188100
+          }
+        ]
+      },
+      {
+        "category": "Insurance & Bonding",
+        "items": [
+          {
+            "description": "Builder's Risk, GL, Payment & Performance Bond",
+            "unit": "LS",
+            "monthly_rate": null,
+            "months": null,
+            "total": 1662500
+          }
+        ]
+      },
+      {
+        "category": "Permits & Fees",
+        "items": [
+          {
+            "description": "Building permit, special inspections, surveying",
+            "unit": "LS",
+            "monthly_rate": null,
+            "months": null,
+            "total": 598500
+          }
+        ]
+      },
+      {
+        "category": "Technology",
+        "items": [
+          {
+            "description": "BIM, Procore, closeout documentation",
+            "unit": "LS",
+            "monthly_rate": 1710,
+            "months": 36,
+            "total": 61560
+          }
+        ]
+      }
+    ],
+    "subtotal_gc": 3950860,
+    "gc_fee_percent": 3.5,
+    "contingency_percent": 3.0
+  }
+}

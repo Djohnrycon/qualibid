@@ -1,0 +1,2603 @@
+{
+  "bids": {
+    "project": {
+      "name": "The Peaks at Stapleton",
+      "location": "Denver, CO",
+      "size_sf": 210000,
+      "type": "Multifamily Residential",
+      "stories": 6
+    },
+    "trades": [
+      {
+        "trade": "Demolition & Site Clearing",
+        "csi_code": "02 40 00",
+        "bids": [
+          {
+            "sub_id": "02-S1",
+            "company": "Alpine Interiors",
+            "contact": "Pete Adams",
+            "email": "alpineinteriors@contractor.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 210000,
+            "line_items": [
+              {
+                "description": "Demolition & Site Clearing - component 1",
+                "amount": 75000
+              },
+              {
+                "description": "Demolition & Site Clearing - component 2",
+                "amount": 60000
+              },
+              {
+                "description": "Demolition & Site Clearing - component 3",
+                "amount": 75000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per The Peaks at Stapleton drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "02-S2",
+            "company": "Rocky Mountain Plumbing",
+            "contact": "Sam Rivera",
+            "email": "rockymountainplumbing@contractor.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 115000,
+            "line_items": [
+              {
+                "description": "Demolition & Site Clearing - component 1",
+                "amount": 20000
+              },
+              {
+                "description": "Demolition & Site Clearing - component 2",
+                "amount": 20000
+              },
+              {
+                "description": "Demolition & Site Clearing - component 3",
+                "amount": 20000
+              },
+              {
+                "description": "Demolition & Site Clearing - component 4",
+                "amount": 20000
+              },
+              {
+                "description": "Demolition & Site Clearing - component 5",
+                "amount": 20000
+              },
+              {
+                "description": "Demolition & Site Clearing - component 6",
+                "amount": 15000
+              }
+            ],
+            "exclusions": [
+              "Hazardous material abatement - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per The Peaks at Stapleton drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "02-S3",
+            "company": "Mile High Framing",
+            "contact": "Walt Burns",
+            "email": "milehighframing@contractor.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 310000,
+            "line_items": [
+              {
+                "description": "Demolition & Site Clearing - component 1",
+                "amount": 120000
+              },
+              {
+                "description": "Demolition & Site Clearing - component 2",
+                "amount": 90000
+              },
+              {
+                "description": "Demolition & Site Clearing - component 3",
+                "amount": 100000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per The Peaks at Stapleton drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
+      },
+      {
+        "trade": "Concrete",
+        "csi_code": "03 00 00",
+        "bids": [
+          {
+            "sub_id": "03-S1",
+            "company": "Alpine Interiors",
+            "contact": "Lisa Chang",
+            "email": "alpineinteriors@contractor.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 890000,
+            "line_items": [
+              {
+                "description": "Concrete - component 1",
+                "amount": 145000
+              },
+              {
+                "description": "Concrete - component 2",
+                "amount": 145000
+              },
+              {
+                "description": "Concrete - component 3",
+                "amount": 135000
+              },
+              {
+                "description": "Concrete - component 4",
+                "amount": 165000
+              },
+              {
+                "description": "Concrete - component 5",
+                "amount": 125000
+              },
+              {
+                "description": "Concrete - component 6",
+                "amount": 175000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per The Peaks at Stapleton drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "03-S2",
+            "company": "Rocky Mountain Plumbing",
+            "contact": "James Brown",
+            "email": "rockymountainplumbing@contractor.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 575000,
+            "line_items": [
+              {
+                "description": "Concrete - component 1",
+                "amount": 175000
+              },
+              {
+                "description": "Concrete - component 2",
+                "amount": 205000
+              },
+              {
+                "description": "Concrete - component 3",
+                "amount": 195000
+              }
+            ],
+            "exclusions": [
+              "Vapor barrier and underslab insulation - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per The Peaks at Stapleton drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "03-S3",
+            "company": "Mile High Framing",
+            "contact": "Maria Valdez",
+            "email": "milehighframing@contractor.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 1095000,
+            "line_items": [
+              {
+                "description": "Concrete - component 1",
+                "amount": 185000
+              },
+              {
+                "description": "Concrete - component 2",
+                "amount": 170000
+              },
+              {
+                "description": "Concrete - component 3",
+                "amount": 160000
+              },
+              {
+                "description": "Concrete - component 4",
+                "amount": 220000
+              },
+              {
+                "description": "Concrete - component 5",
+                "amount": 150000
+              },
+              {
+                "description": "Concrete - component 6",
+                "amount": 210000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per The Peaks at Stapleton drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
+      },
+      {
+        "trade": "Masonry",
+        "csi_code": "04 00 00",
+        "bids": [
+          {
+            "sub_id": "04-S1",
+            "company": "Summit Roofing",
+            "contact": "Angela Cruz",
+            "email": "summitroofing@contractor.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 355000,
+            "line_items": [
+              {
+                "description": "Masonry - component 1",
+                "amount": 65000
+              },
+              {
+                "description": "Masonry - component 2",
+                "amount": 55000
+              },
+              {
+                "description": "Masonry - component 3",
+                "amount": 80000
+              },
+              {
+                "description": "Masonry - component 4",
+                "amount": 60000
+              },
+              {
+                "description": "Masonry - component 5",
+                "amount": 95000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per The Peaks at Stapleton drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "04-S2",
+            "company": "Front Range Steel",
+            "contact": "Tom Brady",
+            "email": "frontrangesteel@contractor.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 235000,
+            "line_items": [
+              {
+                "description": "Masonry - component 1",
+                "amount": 60000
+              },
+              {
+                "description": "Masonry - component 2",
+                "amount": 65000
+              },
+              {
+                "description": "Masonry - component 3",
+                "amount": 65000
+              },
+              {
+                "description": "Masonry - component 4",
+                "amount": 45000
+              }
+            ],
+            "exclusions": [
+              "CMU backup wall - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per The Peaks at Stapleton drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "04-S3",
+            "company": "Alpine Interiors",
+            "contact": "Linda Garza",
+            "email": "alpineinteriors@contractor.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 485000,
+            "line_items": [
+              {
+                "description": "Masonry - component 1",
+                "amount": 155000
+              },
+              {
+                "description": "Masonry - component 2",
+                "amount": 175000
+              },
+              {
+                "description": "Masonry - component 3",
+                "amount": 155000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per The Peaks at Stapleton drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
+      },
+      {
+        "trade": "Structural Steel & Misc Metals",
+        "csi_code": "05 00 00",
+        "bids": [
+          {
+            "sub_id": "05-S1",
+            "company": "Front Range Steel",
+            "contact": "Rick Simmons",
+            "email": "frontrangesteel@contractor.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 1190000,
+            "line_items": [
+              {
+                "description": "Structural Steel & Misc Metals - component 1",
+                "amount": 205000
+              },
+              {
+                "description": "Structural Steel & Misc Metals - component 2",
+                "amount": 215000
+              },
+              {
+                "description": "Structural Steel & Misc Metals - component 3",
+                "amount": 190000
+              },
+              {
+                "description": "Structural Steel & Misc Metals - component 4",
+                "amount": 170000
+              },
+              {
+                "description": "Structural Steel & Misc Metals - component 5",
+                "amount": 160000
+              },
+              {
+                "description": "Structural Steel & Misc Metals - component 6",
+                "amount": 250000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per The Peaks at Stapleton drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "05-S2",
+            "company": "Alpine Interiors",
+            "contact": "Ed Turner",
+            "email": "alpineinteriors@contractor.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 795000,
+            "line_items": [
+              {
+                "description": "Structural Steel & Misc Metals - component 1",
+                "amount": 150000
+              },
+              {
+                "description": "Structural Steel & Misc Metals - component 2",
+                "amount": 155000
+              },
+              {
+                "description": "Structural Steel & Misc Metals - component 3",
+                "amount": 110000
+              },
+              {
+                "description": "Structural Steel & Misc Metals - component 4",
+                "amount": 150000
+              },
+              {
+                "description": "Structural Steel & Misc Metals - component 5",
+                "amount": 120000
+              },
+              {
+                "description": "Structural Steel & Misc Metals - component 6",
+                "amount": 110000
+              }
+            ],
+            "exclusions": [
+              "Miscellaneous metals and embeds - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per The Peaks at Stapleton drawings issued 03/15/2024.",
+            "post_bid_updates": [
+              {
+                "update_id": "05-U1",
+                "date": "2024-04-28",
+                "from": "Ed Turner <alpineinteriors@contractor.com>",
+                "subject": "RE: The Peaks at Stapleton - Miscellaneous metals and embeds Add",
+                "body": "We can include Miscellaneous metals and embeds for an additional $55,000. Revised total would be $850,000.",
+                "revised_total": 850000,
+                "delta": 55000,
+                "scope_added": "Miscellaneous metals and embeds"
+              }
+            ]
+          },
+          {
+            "sub_id": "05-S3",
+            "company": "Rocky Mountain Plumbing",
+            "contact": "Carl Johnson",
+            "email": "rockymountainplumbing@contractor.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 1420000,
+            "line_items": [
+              {
+                "description": "Structural Steel & Misc Metals - component 1",
+                "amount": 240000
+              },
+              {
+                "description": "Structural Steel & Misc Metals - component 2",
+                "amount": 225000
+              },
+              {
+                "description": "Structural Steel & Misc Metals - component 3",
+                "amount": 220000
+              },
+              {
+                "description": "Structural Steel & Misc Metals - component 4",
+                "amount": 220000
+              },
+              {
+                "description": "Structural Steel & Misc Metals - component 5",
+                "amount": 220000
+              },
+              {
+                "description": "Structural Steel & Misc Metals - component 6",
+                "amount": 295000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per The Peaks at Stapleton drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
+      },
+      {
+        "trade": "Roofing, Waterproofing & Insulation",
+        "csi_code": "07 00 00",
+        "bids": [
+          {
+            "sub_id": "07-S1",
+            "company": "Mile High Concrete",
+            "contact": "Maria Valdez",
+            "email": "milehighconcrete@contractor.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 505000,
+            "line_items": [
+              {
+                "description": "Roofing, Waterproofing & Insulation - component 1",
+                "amount": 95000
+              },
+              {
+                "description": "Roofing, Waterproofing & Insulation - component 2",
+                "amount": 120000
+              },
+              {
+                "description": "Roofing, Waterproofing & Insulation - component 3",
+                "amount": 105000
+              },
+              {
+                "description": "Roofing, Waterproofing & Insulation - component 4",
+                "amount": 85000
+              },
+              {
+                "description": "Roofing, Waterproofing & Insulation - component 5",
+                "amount": 100000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per The Peaks at Stapleton drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "07-S2",
+            "company": "Colorado Mechanical",
+            "contact": "Kevin Walsh",
+            "email": "coloradomechanical@contractor.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 330000,
+            "line_items": [
+              {
+                "description": "Roofing, Waterproofing & Insulation - component 1",
+                "amount": 75000
+              },
+              {
+                "description": "Roofing, Waterproofing & Insulation - component 2",
+                "amount": 70000
+              },
+              {
+                "description": "Roofing, Waterproofing & Insulation - component 3",
+                "amount": 70000
+              },
+              {
+                "description": "Roofing, Waterproofing & Insulation - component 4",
+                "amount": 115000
+              }
+            ],
+            "exclusions": [
+              "Below-slab waterproofing - NOT IN CONTRACT"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per The Peaks at Stapleton drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "07-S3",
+            "company": "Summit Roofing",
+            "contact": "Beth Adams",
+            "email": "summitroofing@contractor.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 660000,
+            "line_items": [
+              {
+                "description": "Roofing, Waterproofing & Insulation - component 1",
+                "amount": 190000
+              },
+              {
+                "description": "Roofing, Waterproofing & Insulation - component 2",
+                "amount": 245000
+              },
+              {
+                "description": "Roofing, Waterproofing & Insulation - component 3",
+                "amount": 225000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per The Peaks at Stapleton drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
+      },
+      {
+        "trade": "Doors, Frames, Hardware & Glazing",
+        "csi_code": "08 00 00",
+        "bids": [
+          {
+            "sub_id": "08-S1",
+            "company": "Alpine Interiors",
+            "contact": "Angela Cruz",
+            "email": "alpineinteriors@contractor.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 690000,
+            "line_items": [
+              {
+                "description": "Doors, Frames, Hardware & Glazing - component 1",
+                "amount": 160000
+              },
+              {
+                "description": "Doors, Frames, Hardware & Glazing - component 2",
+                "amount": 145000
+              },
+              {
+                "description": "Doors, Frames, Hardware & Glazing - component 3",
+                "amount": 120000
+              },
+              {
+                "description": "Doors, Frames, Hardware & Glazing - component 4",
+                "amount": 115000
+              },
+              {
+                "description": "Doors, Frames, Hardware & Glazing - component 5",
+                "amount": 150000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per The Peaks at Stapleton drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "08-S2",
+            "company": "Rocky Mountain Plumbing",
+            "contact": "Tom Brady",
+            "email": "rockymountainplumbing@contractor.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 475000,
+            "line_items": [
+              {
+                "description": "Doors, Frames, Hardware & Glazing - component 1",
+                "amount": 105000
+              },
+              {
+                "description": "Doors, Frames, Hardware & Glazing - component 2",
+                "amount": 100000
+              },
+              {
+                "description": "Doors, Frames, Hardware & Glazing - component 3",
+                "amount": 90000
+              },
+              {
+                "description": "Doors, Frames, Hardware & Glazing - component 4",
+                "amount": 80000
+              },
+              {
+                "description": "Doors, Frames, Hardware & Glazing - component 5",
+                "amount": 100000
+              }
+            ],
+            "exclusions": [
+              "Storefront glazing system - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per The Peaks at Stapleton drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "08-S3",
+            "company": "Mile High Framing",
+            "contact": "Linda Garza",
+            "email": "milehighframing@contractor.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 920000,
+            "line_items": [
+              {
+                "description": "Doors, Frames, Hardware & Glazing - component 1",
+                "amount": 150000
+              },
+              {
+                "description": "Doors, Frames, Hardware & Glazing - component 2",
+                "amount": 125000
+              },
+              {
+                "description": "Doors, Frames, Hardware & Glazing - component 3",
+                "amount": 175000
+              },
+              {
+                "description": "Doors, Frames, Hardware & Glazing - component 4",
+                "amount": 125000
+              },
+              {
+                "description": "Doors, Frames, Hardware & Glazing - component 5",
+                "amount": 175000
+              },
+              {
+                "description": "Doors, Frames, Hardware & Glazing - component 6",
+                "amount": 170000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per The Peaks at Stapleton drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
+      },
+      {
+        "trade": "Drywall & Framing",
+        "csi_code": "09 20 00",
+        "bids": [
+          {
+            "sub_id": "09-S1",
+            "company": "Summit Roofing",
+            "contact": "Pete Adams",
+            "email": "summitroofing@contractor.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 615000,
+            "line_items": [
+              {
+                "description": "Drywall & Framing - component 1",
+                "amount": 200000
+              },
+              {
+                "description": "Drywall & Framing - component 2",
+                "amount": 230000
+              },
+              {
+                "description": "Drywall & Framing - component 3",
+                "amount": 185000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per The Peaks at Stapleton drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "09-S2",
+            "company": "Front Range Steel",
+            "contact": "Sam Rivera",
+            "email": "frontrangesteel@contractor.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 395000,
+            "line_items": [
+              {
+                "description": "Drywall & Framing - component 1",
+                "amount": 80000
+              },
+              {
+                "description": "Drywall & Framing - component 2",
+                "amount": 80000
+              },
+              {
+                "description": "Drywall & Framing - component 3",
+                "amount": 95000
+              },
+              {
+                "description": "Drywall & Framing - component 4",
+                "amount": 75000
+              },
+              {
+                "description": "Drywall & Framing - component 5",
+                "amount": 65000
+              }
+            ],
+            "exclusions": [
+              "Shaft wall assemblies - NOT IN CONTRACT"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per The Peaks at Stapleton drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "09-S3",
+            "company": "Alpine Interiors",
+            "contact": "Walt Burns",
+            "email": "alpineinteriors@contractor.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 785000,
+            "line_items": [
+              {
+                "description": "Drywall & Framing - component 1",
+                "amount": 185000
+              },
+              {
+                "description": "Drywall & Framing - component 2",
+                "amount": 130000
+              },
+              {
+                "description": "Drywall & Framing - component 3",
+                "amount": 165000
+              },
+              {
+                "description": "Drywall & Framing - component 4",
+                "amount": 130000
+              },
+              {
+                "description": "Drywall & Framing - component 5",
+                "amount": 175000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per The Peaks at Stapleton drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
+      },
+      {
+        "trade": "Flooring",
+        "csi_code": "09 60 00",
+        "bids": [
+          {
+            "sub_id": "09-S1",
+            "company": "Mile High Concrete",
+            "contact": "Angela Cruz",
+            "email": "milehighconcrete@contractor.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 750000,
+            "line_items": [
+              {
+                "description": "Flooring - component 1",
+                "amount": 140000
+              },
+              {
+                "description": "Flooring - component 2",
+                "amount": 135000
+              },
+              {
+                "description": "Flooring - component 3",
+                "amount": 145000
+              },
+              {
+                "description": "Flooring - component 4",
+                "amount": 140000
+              },
+              {
+                "description": "Flooring - component 5",
+                "amount": 190000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per The Peaks at Stapleton drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "09-S2",
+            "company": "Colorado Mechanical",
+            "contact": "Tom Brady",
+            "email": "coloradomechanical@contractor.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 520000,
+            "line_items": [
+              {
+                "description": "Flooring - component 1",
+                "amount": 85000
+              },
+              {
+                "description": "Flooring - component 2",
+                "amount": 85000
+              },
+              {
+                "description": "Flooring - component 3",
+                "amount": 110000
+              },
+              {
+                "description": "Flooring - component 4",
+                "amount": 95000
+              },
+              {
+                "description": "Flooring - component 5",
+                "amount": 145000
+              }
+            ],
+            "exclusions": [
+              "Specialty sheet vinyl in procedure rooms - NOT IN CONTRACT"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per The Peaks at Stapleton drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "09-S3",
+            "company": "Summit Roofing",
+            "contact": "Linda Garza",
+            "email": "summitroofing@contractor.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 950000,
+            "line_items": [
+              {
+                "description": "Flooring - component 1",
+                "amount": 220000
+              },
+              {
+                "description": "Flooring - component 2",
+                "amount": 245000
+              },
+              {
+                "description": "Flooring - component 3",
+                "amount": 205000
+              },
+              {
+                "description": "Flooring - component 4",
+                "amount": 280000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per The Peaks at Stapleton drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
+      },
+      {
+        "trade": "Painting & Wall Coverings",
+        "csi_code": "09 90 00",
+        "bids": [
+          {
+            "sub_id": "09-S1",
+            "company": "Front Range Steel",
+            "contact": "Sam Rivera",
+            "email": "frontrangesteel@contractor.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 265000,
+            "line_items": [
+              {
+                "description": "Painting & Wall Coverings - component 1",
+                "amount": 80000
+              },
+              {
+                "description": "Painting & Wall Coverings - component 2",
+                "amount": 85000
+              },
+              {
+                "description": "Painting & Wall Coverings - component 3",
+                "amount": 100000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per The Peaks at Stapleton drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "09-S2",
+            "company": "Alpine Interiors",
+            "contact": "Walt Burns",
+            "email": "alpineinteriors@contractor.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 175000,
+            "line_items": [
+              {
+                "description": "Painting & Wall Coverings - component 1",
+                "amount": 45000
+              },
+              {
+                "description": "Painting & Wall Coverings - component 2",
+                "amount": 50000
+              },
+              {
+                "description": "Painting & Wall Coverings - component 3",
+                "amount": 50000
+              },
+              {
+                "description": "Painting & Wall Coverings - component 4",
+                "amount": 30000
+              }
+            ],
+            "exclusions": [
+              "Exterior painting - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per The Peaks at Stapleton drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "09-S3",
+            "company": "Rocky Mountain Plumbing",
+            "contact": "Mike Torres",
+            "email": "rockymountainplumbing@contractor.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 345000,
+            "line_items": [
+              {
+                "description": "Painting & Wall Coverings - component 1",
+                "amount": 120000
+              },
+              {
+                "description": "Painting & Wall Coverings - component 2",
+                "amount": 110000
+              },
+              {
+                "description": "Painting & Wall Coverings - component 3",
+                "amount": 115000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per The Peaks at Stapleton drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
+      },
+      {
+        "trade": "Acoustical Ceilings (ACT)",
+        "csi_code": "09 51 00",
+        "bids": [
+          {
+            "sub_id": "09-S1",
+            "company": "Colorado Mechanical",
+            "contact": "Tom Brady",
+            "email": "coloradomechanical@contractor.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 205000,
+            "line_items": [
+              {
+                "description": "Acoustical Ceilings (ACT) - component 1",
+                "amount": 30000
+              },
+              {
+                "description": "Acoustical Ceilings (ACT) - component 2",
+                "amount": 40000
+              },
+              {
+                "description": "Acoustical Ceilings (ACT) - component 3",
+                "amount": 30000
+              },
+              {
+                "description": "Acoustical Ceilings (ACT) - component 4",
+                "amount": 30000
+              },
+              {
+                "description": "Acoustical Ceilings (ACT) - component 5",
+                "amount": 40000
+              },
+              {
+                "description": "Acoustical Ceilings (ACT) - component 6",
+                "amount": 35000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per The Peaks at Stapleton drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "09-S2",
+            "company": "Summit Roofing",
+            "contact": "Linda Garza",
+            "email": "summitroofing@contractor.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 140000,
+            "line_items": [
+              {
+                "description": "Acoustical Ceilings (ACT) - component 1",
+                "amount": 30000
+              },
+              {
+                "description": "Acoustical Ceilings (ACT) - component 2",
+                "amount": 30000
+              },
+              {
+                "description": "Acoustical Ceilings (ACT) - component 3",
+                "amount": 30000
+              },
+              {
+                "description": "Acoustical Ceilings (ACT) - component 4",
+                "amount": 25000
+              },
+              {
+                "description": "Acoustical Ceilings (ACT) - component 5",
+                "amount": 25000
+              }
+            ],
+            "exclusions": [
+              "Gypsum board soffits and clouds - NOT IN CONTRACT"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per The Peaks at Stapleton drawings issued 03/15/2024.",
+            "post_bid_updates": [
+              {
+                "update_id": "09-U1",
+                "date": "2024-04-28",
+                "from": "Linda Garza <summitroofing@contractor.com>",
+                "subject": "RE: The Peaks at Stapleton - Gypsum board soffits and clouds Scope Add",
+                "body": "Per our conversation this morning: Gypsum board soffits and clouds can be added for $10,000. New total is $150,000.",
+                "revised_total": 150000,
+                "delta": 10000,
+                "scope_added": "Gypsum board soffits and clouds"
+              }
+            ]
+          },
+          {
+            "sub_id": "09-S3",
+            "company": "Front Range Steel",
+            "contact": "Bill Torres",
+            "email": "frontrangesteel@contractor.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 265000,
+            "line_items": [
+              {
+                "description": "Acoustical Ceilings (ACT) - component 1",
+                "amount": 75000
+              },
+              {
+                "description": "Acoustical Ceilings (ACT) - component 2",
+                "amount": 75000
+              },
+              {
+                "description": "Acoustical Ceilings (ACT) - component 3",
+                "amount": 75000
+              },
+              {
+                "description": "Acoustical Ceilings (ACT) - component 4",
+                "amount": 40000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per The Peaks at Stapleton drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
+      },
+      {
+        "trade": "Specialties",
+        "csi_code": "10 00 00",
+        "bids": [
+          {
+            "sub_id": "10-S1",
+            "company": "Mile High Concrete",
+            "contact": "Angela Cruz",
+            "email": "milehighconcrete@contractor.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 150000,
+            "line_items": [
+              {
+                "description": "Specialties - component 1",
+                "amount": 45000
+              },
+              {
+                "description": "Specialties - component 2",
+                "amount": 40000
+              },
+              {
+                "description": "Specialties - component 3",
+                "amount": 40000
+              },
+              {
+                "description": "Specialties - component 4",
+                "amount": 25000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per The Peaks at Stapleton drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "10-S2",
+            "company": "Colorado Mechanical",
+            "contact": "Tom Brady",
+            "email": "coloradomechanical@contractor.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 95000,
+            "line_items": [
+              {
+                "description": "Specialties - component 1",
+                "amount": 25000
+              },
+              {
+                "description": "Specialties - component 2",
+                "amount": 20000
+              },
+              {
+                "description": "Specialties - component 3",
+                "amount": 25000
+              },
+              {
+                "description": "Specialties - component 4",
+                "amount": 25000
+              }
+            ],
+            "exclusions": [
+              "ADA signage package - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per The Peaks at Stapleton drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "10-S3",
+            "company": "Summit Roofing",
+            "contact": "Linda Garza",
+            "email": "summitroofing@contractor.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 210000,
+            "line_items": [
+              {
+                "description": "Specialties - component 1",
+                "amount": 40000
+              },
+              {
+                "description": "Specialties - component 2",
+                "amount": 30000
+              },
+              {
+                "description": "Specialties - component 3",
+                "amount": 35000
+              },
+              {
+                "description": "Specialties - component 4",
+                "amount": 35000
+              },
+              {
+                "description": "Specialties - component 5",
+                "amount": 35000
+              },
+              {
+                "description": "Specialties - component 6",
+                "amount": 35000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per The Peaks at Stapleton drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
+      },
+      {
+        "trade": "Fire Suppression (Sprinklers)",
+        "csi_code": "21 00 00",
+        "bids": [
+          {
+            "sub_id": "21-S1",
+            "company": "Rocky Mountain Electric",
+            "contact": "Kevin Walsh",
+            "email": "rockymountainelectric@contractor.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 470000,
+            "line_items": [
+              {
+                "description": "Fire Suppression (Sprinklers) - component 1",
+                "amount": 130000
+              },
+              {
+                "description": "Fire Suppression (Sprinklers) - component 2",
+                "amount": 130000
+              },
+              {
+                "description": "Fire Suppression (Sprinklers) - component 3",
+                "amount": 100000
+              },
+              {
+                "description": "Fire Suppression (Sprinklers) - component 4",
+                "amount": 110000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per The Peaks at Stapleton drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "21-S2",
+            "company": "Mile High Concrete",
+            "contact": "Beth Adams",
+            "email": "milehighconcrete@contractor.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 305000,
+            "line_items": [
+              {
+                "description": "Fire Suppression (Sprinklers) - component 1",
+                "amount": 105000
+              },
+              {
+                "description": "Fire Suppression (Sprinklers) - component 2",
+                "amount": 115000
+              },
+              {
+                "description": "Fire Suppression (Sprinklers) - component 3",
+                "amount": 85000
+              }
+            ],
+            "exclusions": [
+              "Kitchen hood fire suppression - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per The Peaks at Stapleton drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "21-S3",
+            "company": "Colorado Mechanical",
+            "contact": "Rick Simmons",
+            "email": "coloradomechanical@contractor.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 565000,
+            "line_items": [
+              {
+                "description": "Fire Suppression (Sprinklers) - component 1",
+                "amount": 205000
+              },
+              {
+                "description": "Fire Suppression (Sprinklers) - component 2",
+                "amount": 190000
+              },
+              {
+                "description": "Fire Suppression (Sprinklers) - component 3",
+                "amount": 170000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per The Peaks at Stapleton drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
+      },
+      {
+        "trade": "Plumbing",
+        "csi_code": "22 00 00",
+        "bids": [
+          {
+            "sub_id": "22-S1",
+            "company": "Colorado Mechanical",
+            "contact": "Carl Johnson",
+            "email": "coloradomechanical@contractor.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 1255000,
+            "line_items": [
+              {
+                "description": "Plumbing - component 1",
+                "amount": 355000
+              },
+              {
+                "description": "Plumbing - component 2",
+                "amount": 265000
+              },
+              {
+                "description": "Plumbing - component 3",
+                "amount": 365000
+              },
+              {
+                "description": "Plumbing - component 4",
+                "amount": 270000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per The Peaks at Stapleton drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "22-S2",
+            "company": "Summit Roofing",
+            "contact": "Pete Adams",
+            "email": "summitroofing@contractor.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 855000,
+            "line_items": [
+              {
+                "description": "Plumbing - component 1",
+                "amount": 200000
+              },
+              {
+                "description": "Plumbing - component 2",
+                "amount": 165000
+              },
+              {
+                "description": "Plumbing - component 3",
+                "amount": 165000
+              },
+              {
+                "description": "Plumbing - component 4",
+                "amount": 160000
+              },
+              {
+                "description": "Plumbing - component 5",
+                "amount": 165000
+              }
+            ],
+            "exclusions": [
+              "Medical gas outlets and zone valves - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per The Peaks at Stapleton drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "22-S3",
+            "company": "Front Range Steel",
+            "contact": "Sam Rivera",
+            "email": "frontrangesteel@contractor.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 1540000,
+            "line_items": [
+              {
+                "description": "Plumbing - component 1",
+                "amount": 305000
+              },
+              {
+                "description": "Plumbing - component 2",
+                "amount": 245000
+              },
+              {
+                "description": "Plumbing - component 3",
+                "amount": 210000
+              },
+              {
+                "description": "Plumbing - component 4",
+                "amount": 300000
+              },
+              {
+                "description": "Plumbing - component 5",
+                "amount": 290000
+              },
+              {
+                "description": "Plumbing - component 6",
+                "amount": 190000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per The Peaks at Stapleton drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
+      },
+      {
+        "trade": "Mechanical (HVAC)",
+        "csi_code": "23 00 00",
+        "bids": [
+          {
+            "sub_id": "23-S1",
+            "company": "Colorado Mechanical",
+            "contact": "Bill Torres",
+            "email": "coloradomechanical@contractor.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 1015000,
+            "line_items": [
+              {
+                "description": "Mechanical (HVAC) - component 1",
+                "amount": 180000
+              },
+              {
+                "description": "Mechanical (HVAC) - component 2",
+                "amount": 145000
+              },
+              {
+                "description": "Mechanical (HVAC) - component 3",
+                "amount": 185000
+              },
+              {
+                "description": "Mechanical (HVAC) - component 4",
+                "amount": 165000
+              },
+              {
+                "description": "Mechanical (HVAC) - component 5",
+                "amount": 135000
+              },
+              {
+                "description": "Mechanical (HVAC) - component 6",
+                "amount": 205000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per The Peaks at Stapleton drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "23-S2",
+            "company": "Summit Roofing",
+            "contact": "Priya Nair",
+            "email": "summitroofing@contractor.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 690000,
+            "line_items": [
+              {
+                "description": "Mechanical (HVAC) - component 1",
+                "amount": 120000
+              },
+              {
+                "description": "Mechanical (HVAC) - component 2",
+                "amount": 120000
+              },
+              {
+                "description": "Mechanical (HVAC) - component 3",
+                "amount": 160000
+              },
+              {
+                "description": "Mechanical (HVAC) - component 4",
+                "amount": 145000
+              },
+              {
+                "description": "Mechanical (HVAC) - component 5",
+                "amount": 145000
+              }
+            ],
+            "exclusions": [
+              "Medical gas rough-in and kitchen hood exhaust - NOT IN CONTRACT"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per The Peaks at Stapleton drawings issued 03/15/2024.",
+            "post_bid_updates": [
+              {
+                "update_id": "23-U1",
+                "date": "2024-04-28",
+                "from": "Priya Nair <summitroofing@contractor.com>",
+                "subject": "RE: The Peaks at Stapleton - Medical gas rough-in and kitchen hood exhaust Add",
+                "body": "We can include Medical gas rough-in and kitchen hood exhaust for an additional $50,000. Revised total would be $740,000.",
+                "revised_total": 740000,
+                "delta": 50000,
+                "scope_added": "Medical gas rough-in and kitchen hood exhaust"
+              }
+            ]
+          },
+          {
+            "sub_id": "23-S3",
+            "company": "Front Range Steel",
+            "contact": "Rob Flores",
+            "email": "frontrangesteel@contractor.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 1185000,
+            "line_items": [
+              {
+                "description": "Mechanical (HVAC) - component 1",
+                "amount": 165000
+              },
+              {
+                "description": "Mechanical (HVAC) - component 2",
+                "amount": 180000
+              },
+              {
+                "description": "Mechanical (HVAC) - component 3",
+                "amount": 180000
+              },
+              {
+                "description": "Mechanical (HVAC) - component 4",
+                "amount": 160000
+              },
+              {
+                "description": "Mechanical (HVAC) - component 5",
+                "amount": 190000
+              },
+              {
+                "description": "Mechanical (HVAC) - component 6",
+                "amount": 310000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per The Peaks at Stapleton drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
+      },
+      {
+        "trade": "Electrical",
+        "csi_code": "26 00 00",
+        "bids": [
+          {
+            "sub_id": "26-S1",
+            "company": "Alpine Interiors",
+            "contact": "Lisa Chang",
+            "email": "alpineinteriors@contractor.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 865000,
+            "line_items": [
+              {
+                "description": "Electrical - component 1",
+                "amount": 305000
+              },
+              {
+                "description": "Electrical - component 2",
+                "amount": 295000
+              },
+              {
+                "description": "Electrical - component 3",
+                "amount": 265000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per The Peaks at Stapleton drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "26-S2",
+            "company": "Rocky Mountain Plumbing",
+            "contact": "James Brown",
+            "email": "rockymountainplumbing@contractor.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 580000,
+            "line_items": [
+              {
+                "description": "Electrical - component 1",
+                "amount": 115000
+              },
+              {
+                "description": "Electrical - component 2",
+                "amount": 120000
+              },
+              {
+                "description": "Electrical - component 3",
+                "amount": 105000
+              },
+              {
+                "description": "Electrical - component 4",
+                "amount": 110000
+              },
+              {
+                "description": "Electrical - component 5",
+                "amount": 130000
+              }
+            ],
+            "exclusions": [
+              "Fire alarm system - NOT IN CONTRACT"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per The Peaks at Stapleton drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "26-S3",
+            "company": "Mile High Framing",
+            "contact": "Maria Valdez",
+            "email": "milehighframing@contractor.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 1005000,
+            "line_items": [
+              {
+                "description": "Electrical - component 1",
+                "amount": 340000
+              },
+              {
+                "description": "Electrical - component 2",
+                "amount": 315000
+              },
+              {
+                "description": "Electrical - component 3",
+                "amount": 350000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per The Peaks at Stapleton drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
+      },
+      {
+        "trade": "Communications (Data, AV, Tel)",
+        "csi_code": "27 00 00",
+        "bids": [
+          {
+            "sub_id": "27-S1",
+            "company": "Mile High Concrete",
+            "contact": "Lisa Chang",
+            "email": "milehighconcrete@contractor.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 285000,
+            "line_items": [
+              {
+                "description": "Communications (Data, AV, Tel) - component 1",
+                "amount": 90000
+              },
+              {
+                "description": "Communications (Data, AV, Tel) - component 2",
+                "amount": 95000
+              },
+              {
+                "description": "Communications (Data, AV, Tel) - component 3",
+                "amount": 100000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per The Peaks at Stapleton drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "27-S2",
+            "company": "Colorado Mechanical",
+            "contact": "James Brown",
+            "email": "coloradomechanical@contractor.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 160000,
+            "line_items": [
+              {
+                "description": "Communications (Data, AV, Tel) - component 1",
+                "amount": 30000
+              },
+              {
+                "description": "Communications (Data, AV, Tel) - component 2",
+                "amount": 25000
+              },
+              {
+                "description": "Communications (Data, AV, Tel) - component 3",
+                "amount": 35000
+              },
+              {
+                "description": "Communications (Data, AV, Tel) - component 4",
+                "amount": 30000
+              },
+              {
+                "description": "Communications (Data, AV, Tel) - component 5",
+                "amount": 40000
+              }
+            ],
+            "exclusions": [
+              "AV rough-in for conference rooms - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per The Peaks at Stapleton drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "27-S3",
+            "company": "Summit Roofing",
+            "contact": "Maria Valdez",
+            "email": "summitroofing@contractor.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 370000,
+            "line_items": [
+              {
+                "description": "Communications (Data, AV, Tel) - component 1",
+                "amount": 135000
+              },
+              {
+                "description": "Communications (Data, AV, Tel) - component 2",
+                "amount": 135000
+              },
+              {
+                "description": "Communications (Data, AV, Tel) - component 3",
+                "amount": 100000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per The Peaks at Stapleton drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
+      },
+      {
+        "trade": "Electronic Safety & Security",
+        "csi_code": "28 00 00",
+        "bids": [
+          {
+            "sub_id": "28-S1",
+            "company": "Colorado Mechanical",
+            "contact": "Sam Rivera",
+            "email": "coloradomechanical@contractor.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 240000,
+            "line_items": [
+              {
+                "description": "Electronic Safety & Security - component 1",
+                "amount": 70000
+              },
+              {
+                "description": "Electronic Safety & Security - component 2",
+                "amount": 65000
+              },
+              {
+                "description": "Electronic Safety & Security - component 3",
+                "amount": 70000
+              },
+              {
+                "description": "Electronic Safety & Security - component 4",
+                "amount": 35000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per The Peaks at Stapleton drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "28-S2",
+            "company": "Summit Roofing",
+            "contact": "Walt Burns",
+            "email": "summitroofing@contractor.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 145000,
+            "line_items": [
+              {
+                "description": "Electronic Safety & Security - component 1",
+                "amount": 40000
+              },
+              {
+                "description": "Electronic Safety & Security - component 2",
+                "amount": 30000
+              },
+              {
+                "description": "Electronic Safety & Security - component 3",
+                "amount": 40000
+              },
+              {
+                "description": "Electronic Safety & Security - component 4",
+                "amount": 35000
+              }
+            ],
+            "exclusions": [
+              "Exterior access control and parking - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per The Peaks at Stapleton drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "28-S3",
+            "company": "Front Range Steel",
+            "contact": "Mike Torres",
+            "email": "frontrangesteel@contractor.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 325000,
+            "line_items": [
+              {
+                "description": "Electronic Safety & Security - component 1",
+                "amount": 45000
+              },
+              {
+                "description": "Electronic Safety & Security - component 2",
+                "amount": 50000
+              },
+              {
+                "description": "Electronic Safety & Security - component 3",
+                "amount": 60000
+              },
+              {
+                "description": "Electronic Safety & Security - component 4",
+                "amount": 65000
+              },
+              {
+                "description": "Electronic Safety & Security - component 5",
+                "amount": 50000
+              },
+              {
+                "description": "Electronic Safety & Security - component 6",
+                "amount": 55000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per The Peaks at Stapleton drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
+      },
+      {
+        "trade": "Earthwork, Grading & Site Preparation",
+        "csi_code": "31 00 00",
+        "bids": [
+          {
+            "sub_id": "31-S1",
+            "company": "Summit Roofing",
+            "contact": "Lisa Chang",
+            "email": "summitroofing@contractor.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 530000,
+            "line_items": [
+              {
+                "description": "Earthwork, Grading & Site Preparation - component 1",
+                "amount": 195000
+              },
+              {
+                "description": "Earthwork, Grading & Site Preparation - component 2",
+                "amount": 155000
+              },
+              {
+                "description": "Earthwork, Grading & Site Preparation - component 3",
+                "amount": 180000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per The Peaks at Stapleton drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "31-S2",
+            "company": "Front Range Steel",
+            "contact": "James Brown",
+            "email": "frontrangesteel@contractor.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 330000,
+            "line_items": [
+              {
+                "description": "Earthwork, Grading & Site Preparation - component 1",
+                "amount": 125000
+              },
+              {
+                "description": "Earthwork, Grading & Site Preparation - component 2",
+                "amount": 105000
+              },
+              {
+                "description": "Earthwork, Grading & Site Preparation - component 3",
+                "amount": 100000
+              }
+            ],
+            "exclusions": [
+              "Rock excavation allowance - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per The Peaks at Stapleton drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "31-S3",
+            "company": "Alpine Interiors",
+            "contact": "Maria Valdez",
+            "email": "alpineinteriors@contractor.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 735000,
+            "line_items": [
+              {
+                "description": "Earthwork, Grading & Site Preparation - component 1",
+                "amount": 275000
+              },
+              {
+                "description": "Earthwork, Grading & Site Preparation - component 2",
+                "amount": 240000
+              },
+              {
+                "description": "Earthwork, Grading & Site Preparation - component 3",
+                "amount": 220000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per The Peaks at Stapleton drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
+      },
+      {
+        "trade": "Site Paving, Curbs & Landscaping",
+        "csi_code": "32 00 00",
+        "bids": [
+          {
+            "sub_id": "32-S1",
+            "company": "Mile High Concrete",
+            "contact": "Ed Turner",
+            "email": "milehighconcrete@contractor.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 685000,
+            "line_items": [
+              {
+                "description": "Site Paving, Curbs & Landscaping - component 1",
+                "amount": 170000
+              },
+              {
+                "description": "Site Paving, Curbs & Landscaping - component 2",
+                "amount": 170000
+              },
+              {
+                "description": "Site Paving, Curbs & Landscaping - component 3",
+                "amount": 200000
+              },
+              {
+                "description": "Site Paving, Curbs & Landscaping - component 4",
+                "amount": 145000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per The Peaks at Stapleton drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "32-S2",
+            "company": "Colorado Mechanical",
+            "contact": "Carl Johnson",
+            "email": "coloradomechanical@contractor.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 465000,
+            "line_items": [
+              {
+                "description": "Site Paving, Curbs & Landscaping - component 1",
+                "amount": 65000
+              },
+              {
+                "description": "Site Paving, Curbs & Landscaping - component 2",
+                "amount": 80000
+              },
+              {
+                "description": "Site Paving, Curbs & Landscaping - component 3",
+                "amount": 85000
+              },
+              {
+                "description": "Site Paving, Curbs & Landscaping - component 4",
+                "amount": 80000
+              },
+              {
+                "description": "Site Paving, Curbs & Landscaping - component 5",
+                "amount": 70000
+              },
+              {
+                "description": "Site Paving, Curbs & Landscaping - component 6",
+                "amount": 85000
+              }
+            ],
+            "exclusions": [
+              "Landscaping and irrigation - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per The Peaks at Stapleton drawings issued 03/15/2024.",
+            "post_bid_updates": [
+              {
+                "update_id": "32-U1",
+                "date": "2024-04-28",
+                "from": "Carl Johnson <coloradomechanical@contractor.com>",
+                "subject": "RE: The Peaks at Stapleton - Landscaping and irrigation Add",
+                "body": "We can include Landscaping and irrigation for an additional $35,000. Revised total would be $500,000.",
+                "revised_total": 500000,
+                "delta": 35000,
+                "scope_added": "Landscaping and irrigation"
+              }
+            ]
+          },
+          {
+            "sub_id": "32-S3",
+            "company": "Summit Roofing",
+            "contact": "Pete Adams",
+            "email": "summitroofing@contractor.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 935000,
+            "line_items": [
+              {
+                "description": "Site Paving, Curbs & Landscaping - component 1",
+                "amount": 290000
+              },
+              {
+                "description": "Site Paving, Curbs & Landscaping - component 2",
+                "amount": 285000
+              },
+              {
+                "description": "Site Paving, Curbs & Landscaping - component 3",
+                "amount": 360000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per The Peaks at Stapleton drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
+      },
+      {
+        "trade": "Site Utilities (Water, Sewer, Storm, Gas)",
+        "csi_code": "33 00 00",
+        "bids": [
+          {
+            "sub_id": "33-S1",
+            "company": "Rocky Mountain Electric",
+            "contact": "Rob Flores",
+            "email": "rockymountainelectric@contractor.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 590000,
+            "line_items": [
+              {
+                "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 1",
+                "amount": 80000
+              },
+              {
+                "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 2",
+                "amount": 115000
+              },
+              {
+                "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 3",
+                "amount": 95000
+              },
+              {
+                "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 4",
+                "amount": 120000
+              },
+              {
+                "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 5",
+                "amount": 90000
+              },
+              {
+                "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 6",
+                "amount": 90000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per The Peaks at Stapleton drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "33-S2",
+            "company": "Mile High Concrete",
+            "contact": "Lisa Chang",
+            "email": "milehighconcrete@contractor.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 375000,
+            "line_items": [
+              {
+                "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 1",
+                "amount": 135000
+              },
+              {
+                "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 2",
+                "amount": 120000
+              },
+              {
+                "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 3",
+                "amount": 120000
+              }
+            ],
+            "exclusions": [
+              "Underground fire line - NOT IN CONTRACT"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per The Peaks at Stapleton drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "33-S3",
+            "company": "Colorado Mechanical",
+            "contact": "James Brown",
+            "email": "coloradomechanical@contractor.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 725000,
+            "line_items": [
+              {
+                "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 1",
+                "amount": 215000
+              },
+              {
+                "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 2",
+                "amount": 155000
+              },
+              {
+                "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 3",
+                "amount": 190000
+              },
+              {
+                "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 4",
+                "amount": 165000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per The Peaks at Stapleton drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
+      }
+    ]
+  },
+  "benchmarks": {
+    "source": "RSMeans 2024 (Simulated)",
+    "location": "Denver, CO",
+    "location_factor": 0.98,
+    "project_type": "Multifamily Residential",
+    "benchmarks": [
+      {
+        "trade": "Demolition & Site Clearing",
+        "csi_code": "02 40 00",
+        "unit": "$/SF",
+        "low": 0.62,
+        "mid": 0.93,
+        "high": 1.4,
+        "notes": "Multifamily Residential benchmark \u2014 Denver, CO"
+      },
+      {
+        "trade": "Concrete",
+        "csi_code": "03 00 00",
+        "unit": "$/SF",
+        "low": 3.1,
+        "mid": 3.93,
+        "high": 5.17,
+        "notes": "Multifamily Residential benchmark \u2014 Denver, CO"
+      },
+      {
+        "trade": "Masonry",
+        "csi_code": "04 00 00",
+        "unit": "$/SF",
+        "low": 1.16,
+        "mid": 1.63,
+        "high": 2.17,
+        "notes": "Multifamily Residential benchmark \u2014 Denver, CO"
+      },
+      {
+        "trade": "Structural Steel & Misc Metals",
+        "csi_code": "05 00 00",
+        "unit": "$/SF",
+        "low": 4.14,
+        "mid": 5.38,
+        "high": 6.73,
+        "notes": "Multifamily Residential benchmark \u2014 Denver, CO"
+      },
+      {
+        "trade": "Roofing, Waterproofing & Insulation",
+        "csi_code": "07 00 00",
+        "unit": "$/SF",
+        "low": 1.71,
+        "mid": 2.33,
+        "high": 3.1,
+        "notes": "Multifamily Residential benchmark \u2014 Denver, CO"
+      },
+      {
+        "trade": "Doors, Frames, Hardware & Glazing",
+        "csi_code": "08 00 00",
+        "unit": "$/SF",
+        "low": 2.41,
+        "mid": 3.1,
+        "high": 4.14,
+        "notes": "Multifamily Residential benchmark \u2014 Denver, CO"
+      },
+      {
+        "trade": "Drywall & Framing",
+        "csi_code": "09 20 00",
+        "unit": "$/SF",
+        "low": 2.02,
+        "mid": 2.69,
+        "high": 3.59,
+        "notes": "Multifamily Residential benchmark \u2014 Denver, CO"
+      },
+      {
+        "trade": "Flooring",
+        "csi_code": "09 60 00",
+        "unit": "$/SF",
+        "low": 2.59,
+        "mid": 3.31,
+        "high": 4.35,
+        "notes": "Multifamily Residential benchmark \u2014 Denver, CO"
+      },
+      {
+        "trade": "Painting & Wall Coverings",
+        "csi_code": "09 90 00",
+        "unit": "$/SF",
+        "low": 0.86,
+        "mid": 1.21,
+        "high": 1.55,
+        "notes": "Multifamily Residential benchmark \u2014 Denver, CO"
+      },
+      {
+        "trade": "Acoustical Ceilings (ACT)",
+        "csi_code": "09 51 00",
+        "unit": "$/SF",
+        "low": 0.72,
+        "mid": 0.93,
+        "high": 1.24,
+        "notes": "Multifamily Residential benchmark \u2014 Denver, CO"
+      },
+      {
+        "trade": "Specialties",
+        "csi_code": "10 00 00",
+        "unit": "$/SF",
+        "low": 0.48,
+        "mid": 0.69,
+        "high": 0.97,
+        "notes": "Multifamily Residential benchmark \u2014 Denver, CO"
+      },
+      {
+        "trade": "Fire Suppression (Sprinklers)",
+        "csi_code": "21 00 00",
+        "unit": "$/SF",
+        "low": 1.55,
+        "mid": 2.07,
+        "high": 2.59,
+        "notes": "Multifamily Residential benchmark \u2014 Denver, CO"
+      },
+      {
+        "trade": "Plumbing",
+        "csi_code": "22 00 00",
+        "unit": "$/SF",
+        "low": 4.59,
+        "mid": 5.8,
+        "high": 7.24,
+        "notes": "Multifamily Residential benchmark \u2014 Denver, CO"
+      },
+      {
+        "trade": "Mechanical (HVAC)",
+        "csi_code": "23 00 00",
+        "unit": "$/SF",
+        "low": 3.49,
+        "mid": 4.5,
+        "high": 5.59,
+        "notes": "Multifamily Residential benchmark \u2014 Denver, CO"
+      },
+      {
+        "trade": "Electrical",
+        "csi_code": "26 00 00",
+        "unit": "$/SF",
+        "low": 3.02,
+        "mid": 3.79,
+        "high": 4.74,
+        "notes": "Multifamily Residential benchmark \u2014 Denver, CO"
+      },
+      {
+        "trade": "Communications (Data, AV, Tel)",
+        "csi_code": "27 00 00",
+        "unit": "$/SF",
+        "low": 0.83,
+        "mid": 1.24,
+        "high": 1.66,
+        "notes": "Multifamily Residential benchmark \u2014 Denver, CO"
+      },
+      {
+        "trade": "Electronic Safety & Security",
+        "csi_code": "28 00 00",
+        "unit": "$/SF",
+        "low": 0.78,
+        "mid": 1.09,
+        "high": 1.47,
+        "notes": "Multifamily Residential benchmark \u2014 Denver, CO"
+      },
+      {
+        "trade": "Earthwork, Grading & Site Preparation",
+        "csi_code": "31 00 00",
+        "unit": "$/SF",
+        "low": 1.72,
+        "mid": 2.41,
+        "high": 3.28,
+        "notes": "Multifamily Residential benchmark \u2014 Denver, CO"
+      },
+      {
+        "trade": "Site Paving, Curbs & Landscaping",
+        "csi_code": "32 00 00",
+        "unit": "$/SF",
+        "low": 2.41,
+        "mid": 3.1,
+        "high": 4.14,
+        "notes": "Multifamily Residential benchmark \u2014 Denver, CO"
+      },
+      {
+        "trade": "Site Utilities (Water, Sewer, Storm, Gas)",
+        "csi_code": "33 00 00",
+        "unit": "$/SF",
+        "low": 1.9,
+        "mid": 2.66,
+        "high": 3.42,
+        "notes": "Multifamily Residential benchmark \u2014 Denver, CO"
+      }
+    ]
+  },
+  "general_conditions": {
+    "section": "General Conditions & General Requirements",
+    "csi_code": "01 00 00",
+    "description": "GC overhead for The Peaks at Stapleton",
+    "duration_months": 26,
+    "line_items": [
+      {
+        "category": "Project Management",
+        "items": [
+          {
+            "description": "Project Manager (26 months)",
+            "unit": "LS",
+            "monthly_rate": 12740,
+            "months": 26,
+            "total": 331240
+          },
+          {
+            "description": "Project Engineer (26 months)",
+            "unit": "LS",
+            "monthly_rate": 7350,
+            "months": 26,
+            "total": 191100
+          }
+        ]
+      },
+      {
+        "category": "Field Supervision",
+        "items": [
+          {
+            "description": "General Superintendent (26 months)",
+            "unit": "LS",
+            "monthly_rate": 10290,
+            "months": 26,
+            "total": 267540
+          },
+          {
+            "description": "Assistant Superintendent (22 months)",
+            "unit": "LS",
+            "monthly_rate": 7840,
+            "months": 22,
+            "total": 172480
+          }
+        ]
+      },
+      {
+        "category": "Temporary Facilities",
+        "items": [
+          {
+            "description": "Field office, toilets, fencing, temp power",
+            "unit": "LS",
+            "monthly_rate": 3920,
+            "months": 26,
+            "total": 101920
+          }
+        ]
+      },
+      {
+        "category": "Site Operations",
+        "items": [
+          {
+            "description": "Cleanup, dumpsters, safety, vehicles",
+            "unit": "LS",
+            "monthly_rate": 5390,
+            "months": 26,
+            "total": 140140
+          }
+        ]
+      },
+      {
+        "category": "Insurance & Bonding",
+        "items": [
+          {
+            "description": "Builder's Risk, GL, Payment & Performance Bond",
+            "unit": "LS",
+            "monthly_rate": null,
+            "months": null,
+            "total": 1029000
+          }
+        ]
+      },
+      {
+        "category": "Permits & Fees",
+        "items": [
+          {
+            "description": "Building permit, special inspections, surveying",
+            "unit": "LS",
+            "monthly_rate": null,
+            "months": null,
+            "total": 370440
+          }
+        ]
+      },
+      {
+        "category": "Technology",
+        "items": [
+          {
+            "description": "BIM, Procore, closeout documentation",
+            "unit": "LS",
+            "monthly_rate": 1764,
+            "months": 26,
+            "total": 45864
+          }
+        ]
+      }
+    ],
+    "subtotal_gc": 2649724,
+    "gc_fee_percent": 4.5,
+    "contingency_percent": 3.0
+  }
+}

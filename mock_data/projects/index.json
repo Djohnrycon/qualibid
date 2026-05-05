@@ -1,0 +1,102 @@
+[
+  {
+    "id": "p01",
+    "name": "Riverside Medical Office Campus",
+    "location": "Austin, TX",
+    "size_sf": 142000,
+    "type": "Medical Office",
+    "stories": 3,
+    "est_direct_cost": 8860000,
+    "file": "p01.json"
+  },
+  {
+    "id": "p02",
+    "name": "One Arts District Tower",
+    "location": "Dallas, TX",
+    "size_sf": 280000,
+    "type": "Mixed-Use High-Rise",
+    "stories": 22,
+    "est_direct_cost": 16330000,
+    "file": "p02.json"
+  },
+  {
+    "id": "p03",
+    "name": "Hillsboro Elementary School",
+    "location": "Nashville, TN",
+    "size_sf": 85000,
+    "type": "K-12 Education",
+    "stories": 2,
+    "est_direct_cost": 3140000,
+    "file": "p03.json"
+  },
+  {
+    "id": "p04",
+    "name": "The Peaks at Stapleton",
+    "location": "Denver, CO",
+    "size_sf": 210000,
+    "type": "Multifamily Residential",
+    "stories": 6,
+    "est_direct_cost": 7905000,
+    "file": "p04.json"
+  },
+  {
+    "id": "p05",
+    "name": "SunCore Data Center",
+    "location": "Phoenix, AZ",
+    "size_sf": 60000,
+    "type": "Mission-Critical / Data Center",
+    "stories": 2,
+    "est_direct_cost": 5990000,
+    "file": "p05.json"
+  },
+  {
+    "id": "p06",
+    "name": "Brickell Restaurant & Retail",
+    "location": "Miami, FL",
+    "size_sf": 22000,
+    "type": "Retail / Restaurant",
+    "stories": 1,
+    "est_direct_cost": 740000,
+    "file": "p06.json"
+  },
+  {
+    "id": "p07",
+    "name": "Memorial Hospital Patient Tower",
+    "location": "Houston, TX",
+    "size_sf": 350000,
+    "type": "Hospital / Healthcare",
+    "stories": 8,
+    "est_direct_cost": 36415000,
+    "file": "p07.json"
+  },
+  {
+    "id": "p08",
+    "name": "Pacific HQ Campus",
+    "location": "Seattle, WA",
+    "size_sf": 175000,
+    "type": "Corporate Office",
+    "stories": 5,
+    "est_direct_cost": 10730000,
+    "file": "p08.json"
+  },
+  {
+    "id": "p09",
+    "name": "Hartsfield Distribution Hub",
+    "location": "Atlanta, GA",
+    "size_sf": 400000,
+    "type": "Warehouse / Distribution",
+    "stories": 1,
+    "est_direct_cost": 5850000,
+    "file": "p09.json"
+  },
+  {
+    "id": "p10",
+    "name": "Dirksen Federal Courthouse Annex",
+    "location": "Chicago, IL",
+    "size_sf": 120000,
+    "type": "Government / Courthouse",
+    "stories": 4,
+    "est_direct_cost": 8980000,
+    "file": "p10.json"
+  }
+]

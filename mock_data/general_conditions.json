@@ -1,0 +1,88 @@
+{
+  "section": "General Conditions & General Requirements",
+  "csi_code": "01 00 00",
+  "description": "GC self-performed project management, supervision, and site overhead costs",
+  "duration_months": 24,
+  "line_items": [
+    {
+      "category": "Project Management",
+      "items": [
+        {"description": "Project Manager (1.0 FTE × 24 months)", "unit": "LS", "monthly_rate": 14500, "months": 24, "total": 348000},
+        {"description": "Senior Project Engineer (1.0 FTE × 24 months)", "unit": "LS", "monthly_rate": 8200, "months": 24, "total": 196800},
+        {"description": "Project Engineer (1.0 FTE × 20 months)", "unit": "LS", "monthly_rate": 6800, "months": 20, "total": 136000},
+        {"description": "Project Accountant / Admin (1.0 FTE × 24 months)", "unit": "LS", "monthly_rate": 4200, "months": 24, "total": 100800},
+        {"description": "Scheduler / Planning Engineer (0.5 FTE × 24 months)", "unit": "LS", "monthly_rate": 4000, "months": 24, "total": 96000}
+      ]
+    },
+    {
+      "category": "Field Supervision",
+      "items": [
+        {"description": "General Superintendent (1.0 FTE × 24 months)", "unit": "LS", "monthly_rate": 11500, "months": 24, "total": 276000},
+        {"description": "Assistant Superintendent #1 (1.0 FTE × 22 months)", "unit": "LS", "monthly_rate": 8500, "months": 22, "total": 187000},
+        {"description": "Assistant Superintendent #2 (1.0 FTE × 18 months)", "unit": "LS", "monthly_rate": 8000, "months": 18, "total": 144000},
+        {"description": "MEP Coordinator (1.0 FTE × 18 months)", "unit": "LS", "monthly_rate": 7800, "months": 18, "total": 140400},
+        {"description": "Quality Control Manager (1.0 FTE × 20 months)", "unit": "LS", "monthly_rate": 8500, "months": 20, "total": 170000}
+      ]
+    },
+    {
+      "category": "Temporary Facilities",
+      "items": [
+        {"description": "Field office trailers (3 units × 24 months)", "unit": "LS", "monthly_rate": 4200, "months": 24, "total": 100800},
+        {"description": "Temporary fencing, gates & construction barricades", "unit": "LS", "monthly_rate": null, "months": null, "total": 42000},
+        {"description": "Temporary power (service installation + monthly)", "unit": "LS", "monthly_rate": 2200, "months": 24, "total": 52800},
+        {"description": "Temporary water & plumbing facilities", "unit": "LS", "monthly_rate": null, "months": null, "total": 14000},
+        {"description": "Temporary toilets (8 units × 24 months)", "unit": "LS", "monthly_rate": 1600, "months": 24, "total": 38400},
+        {"description": "Job site internet, phones & IT", "unit": "LS", "monthly_rate": 800, "months": 24, "total": 19200},
+        {"description": "Break room / lunchroom facilities", "unit": "LS", "monthly_rate": 600, "months": 24, "total": 14400}
+      ]
+    },
+    {
+      "category": "Site Operations",
+      "items": [
+        {"description": "Dumpsters & waste removal (ongoing)", "unit": "LS", "monthly_rate": 3200, "months": 24, "total": 76800},
+        {"description": "Cleanup & housekeeping (daily)", "unit": "LS", "monthly_rate": 2800, "months": 24, "total": 67200},
+        {"description": "Final cleaning (pre-turnover) - 142,000 SF", "unit": "LS", "monthly_rate": null, "months": null, "total": 62000},
+        {"description": "Safety program, training & PPE supplies", "unit": "LS", "monthly_rate": 1800, "months": 24, "total": 43200},
+        {"description": "Site signage, flagging & traffic control", "unit": "LS", "monthly_rate": null, "months": null, "total": 18000},
+        {"description": "Small tools & equipment allowance", "unit": "LS", "monthly_rate": 2400, "months": 24, "total": 57600},
+        {"description": "Pickup trucks, fuel & vehicles (4 vehicles)", "unit": "LS", "monthly_rate": 4800, "months": 24, "total": 115200},
+        {"description": "Tower crane rental & operator (12 months)", "unit": "LS", "monthly_rate": 18000, "months": 12, "total": 216000},
+        {"description": "Material hoists & man lifts (18 months)", "unit": "LS", "monthly_rate": 4500, "months": 18, "total": 81000}
+      ]
+    },
+    {
+      "category": "Insurance & Bonding",
+      "items": [
+        {"description": "Builder's Risk Insurance (0.8% of hard cost)", "unit": "LS", "monthly_rate": null, "months": null, "total": 320000},
+        {"description": "General Liability Insurance", "unit": "LS", "monthly_rate": null, "months": null, "total": 185000},
+        {"description": "Payment & Performance Bond (1.5% of contract)", "unit": "LS", "monthly_rate": null, "months": null, "total": 245000},
+        {"description": "Workers Comp (project-specific wrap-up OCIP)", "unit": "LS", "monthly_rate": null, "months": null, "total": 168000}
+      ]
+    },
+    {
+      "category": "Permits, Testing & Fees",
+      "items": [
+        {"description": "Building permit & plan review fees", "unit": "LS", "monthly_rate": null, "months": null, "total": 182000},
+        {"description": "City/utility connection & impact fees", "unit": "LS", "monthly_rate": null, "months": null, "total": 68000},
+        {"description": "Special inspections & third-party testing (IBC Ch. 17)", "unit": "LS", "monthly_rate": null, "months": null, "total": 120000},
+        {"description": "Commissioning agent (Cx) - MEP systems", "unit": "LS", "monthly_rate": null, "months": null, "total": 85000},
+        {"description": "Surveying - layout, monitoring & as-builts", "unit": "LS", "monthly_rate": null, "months": null, "total": 42000},
+        {"description": "SWPPP permit, inspections & compliance", "unit": "LS", "monthly_rate": null, "months": null, "total": 18000},
+        {"description": "Healthcare occupancy inspections (TDH/HHSC)", "unit": "LS", "monthly_rate": null, "months": null, "total": 28000}
+      ]
+    },
+    {
+      "category": "Technology & Documentation",
+      "items": [
+        {"description": "BIM coordination, clash detection & VDC", "unit": "LS", "monthly_rate": null, "months": null, "total": 58000},
+        {"description": "Procore & project management software (24 months)", "unit": "LS", "monthly_rate": 1400, "months": 24, "total": 33600},
+        {"description": "Closeout documentation, O&M manuals & training", "unit": "LS", "monthly_rate": null, "months": null, "total": 38000},
+        {"description": "Weekly drone photography & progress documentation", "unit": "LS", "monthly_rate": 1200, "months": 24, "total": 28800},
+        {"description": "Site security cameras & monitoring (24 months)", "unit": "LS", "monthly_rate": 900, "months": 24, "total": 21600}
+      ]
+    }
+  ],
+  "subtotal_gc": 4370600,
+  "gc_fee_percent": 4.5,
+  "contingency_percent": 3.0
+}

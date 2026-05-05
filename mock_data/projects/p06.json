@@ -1,0 +1,2636 @@
+{
+  "bids": {
+    "project": {
+      "name": "Brickell Restaurant & Retail",
+      "location": "Miami, FL",
+      "size_sf": 22000,
+      "type": "Retail / Restaurant",
+      "stories": 1
+    },
+    "trades": [
+      {
+        "trade": "Demolition & Site Clearing",
+        "csi_code": "02 40 00",
+        "bids": [
+          {
+            "sub_id": "02-S1",
+            "company": "Southeast Interiors",
+            "contact": "Pete Adams",
+            "email": "southeastinteriors@contractor.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 20000,
+            "line_items": [
+              {
+                "description": "Demolition & Site Clearing - component 1",
+                "amount": 5000
+              },
+              {
+                "description": "Demolition & Site Clearing - component 2",
+                "amount": 5000
+              },
+              {
+                "description": "Demolition & Site Clearing - component 3",
+                "amount": 10000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Brickell Restaurant & Retail drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "02-S2",
+            "company": "Atlantic Plumbing",
+            "contact": "Sam Rivera",
+            "email": "atlanticplumbing@contractor.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 10000,
+            "line_items": [
+              {
+                "description": "Demolition & Site Clearing - component 1",
+                "amount": 5000
+              },
+              {
+                "description": "Demolition & Site Clearing - component 2",
+                "amount": 5000
+              }
+            ],
+            "exclusions": [
+              "Hazardous material abatement - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Brickell Restaurant & Retail drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "02-S3",
+            "company": "Coastal Framing",
+            "contact": "Walt Burns",
+            "email": "coastalframing@contractor.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 25000,
+            "line_items": [
+              {
+                "description": "Demolition & Site Clearing - component 1",
+                "amount": 5000
+              },
+              {
+                "description": "Demolition & Site Clearing - component 2",
+                "amount": 5000
+              },
+              {
+                "description": "Demolition & Site Clearing - component 3",
+                "amount": 5000
+              },
+              {
+                "description": "Demolition & Site Clearing - component 4",
+                "amount": 10000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Brickell Restaurant & Retail drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
+      },
+      {
+        "trade": "Concrete",
+        "csi_code": "03 00 00",
+        "bids": [
+          {
+            "sub_id": "03-S1",
+            "company": "Southeast Interiors",
+            "contact": "Lisa Chang",
+            "email": "southeastinteriors@contractor.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 50000,
+            "line_items": [
+              {
+                "description": "Concrete - component 1",
+                "amount": 20000
+              },
+              {
+                "description": "Concrete - component 2",
+                "amount": 15000
+              },
+              {
+                "description": "Concrete - component 3",
+                "amount": 15000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Brickell Restaurant & Retail drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "03-S2",
+            "company": "Atlantic Plumbing",
+            "contact": "James Brown",
+            "email": "atlanticplumbing@contractor.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 35000,
+            "line_items": [
+              {
+                "description": "Concrete - component 1",
+                "amount": 5000
+              },
+              {
+                "description": "Concrete - component 2",
+                "amount": 5000
+              },
+              {
+                "description": "Concrete - component 3",
+                "amount": 5000
+              },
+              {
+                "description": "Concrete - component 4",
+                "amount": 5000
+              },
+              {
+                "description": "Concrete - component 5",
+                "amount": 5000
+              },
+              {
+                "description": "Concrete - component 6",
+                "amount": 10000
+              }
+            ],
+            "exclusions": [
+              "Vapor barrier and underslab insulation - NOT IN CONTRACT"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Brickell Restaurant & Retail drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "03-S3",
+            "company": "Coastal Framing",
+            "contact": "Maria Valdez",
+            "email": "coastalframing@contractor.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 60000,
+            "line_items": [
+              {
+                "description": "Concrete - component 1",
+                "amount": 15000
+              },
+              {
+                "description": "Concrete - component 2",
+                "amount": 10000
+              },
+              {
+                "description": "Concrete - component 3",
+                "amount": 15000
+              },
+              {
+                "description": "Concrete - component 4",
+                "amount": 15000
+              },
+              {
+                "description": "Concrete - component 5",
+                "amount": 5000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Brickell Restaurant & Retail drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
+      },
+      {
+        "trade": "Masonry",
+        "csi_code": "04 00 00",
+        "bids": [
+          {
+            "sub_id": "04-S1",
+            "company": "Brickell Roofing",
+            "contact": "Angela Cruz",
+            "email": "brickellroofing@contractor.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 40000,
+            "line_items": [
+              {
+                "description": "Masonry - component 1",
+                "amount": 15000
+              },
+              {
+                "description": "Masonry - component 2",
+                "amount": 10000
+              },
+              {
+                "description": "Masonry - component 3",
+                "amount": 15000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Brickell Restaurant & Retail drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "04-S2",
+            "company": "Sunstate Steel",
+            "contact": "Tom Brady",
+            "email": "sunstatesteel@contractor.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 25000,
+            "line_items": [
+              {
+                "description": "Masonry - component 1",
+                "amount": 5000
+              },
+              {
+                "description": "Masonry - component 2",
+                "amount": 5000
+              },
+              {
+                "description": "Masonry - component 3",
+                "amount": 5000
+              },
+              {
+                "description": "Masonry - component 4",
+                "amount": 5000
+              },
+              {
+                "description": "Masonry - component 5",
+                "amount": 5000
+              }
+            ],
+            "exclusions": [
+              "CMU backup wall - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Brickell Restaurant & Retail drawings issued 03/15/2024.",
+            "post_bid_updates": [
+              {
+                "update_id": "04-U1",
+                "date": "2024-04-28",
+                "from": "Tom Brady <sunstatesteel@contractor.com>",
+                "subject": "RE: Brickell Restaurant & Retail - CMU backup wall Add",
+                "body": "We can include CMU backup wall for an additional $0. Revised total would be $25,000.",
+                "revised_total": 25000,
+                "delta": 0,
+                "scope_added": "CMU backup wall"
+              }
+            ]
+          },
+          {
+            "sub_id": "04-S3",
+            "company": "Southeast Interiors",
+            "contact": "Linda Garza",
+            "email": "southeastinteriors@contractor.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 50000,
+            "line_items": [
+              {
+                "description": "Masonry - component 1",
+                "amount": 10000
+              },
+              {
+                "description": "Masonry - component 2",
+                "amount": 10000
+              },
+              {
+                "description": "Masonry - component 3",
+                "amount": 10000
+              },
+              {
+                "description": "Masonry - component 4",
+                "amount": 10000
+              },
+              {
+                "description": "Masonry - component 5",
+                "amount": 10000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Brickell Restaurant & Retail drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
+      },
+      {
+        "trade": "Structural Steel & Misc Metals",
+        "csi_code": "05 00 00",
+        "bids": [
+          {
+            "sub_id": "05-S1",
+            "company": "Sunstate Steel",
+            "contact": "Rick Simmons",
+            "email": "sunstatesteel@contractor.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 65000,
+            "line_items": [
+              {
+                "description": "Structural Steel & Misc Metals - component 1",
+                "amount": 10000
+              },
+              {
+                "description": "Structural Steel & Misc Metals - component 2",
+                "amount": 15000
+              },
+              {
+                "description": "Structural Steel & Misc Metals - component 3",
+                "amount": 10000
+              },
+              {
+                "description": "Structural Steel & Misc Metals - component 4",
+                "amount": 10000
+              },
+              {
+                "description": "Structural Steel & Misc Metals - component 5",
+                "amount": 20000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Brickell Restaurant & Retail drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "05-S2",
+            "company": "Southeast Interiors",
+            "contact": "Ed Turner",
+            "email": "southeastinteriors@contractor.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 45000,
+            "line_items": [
+              {
+                "description": "Structural Steel & Misc Metals - component 1",
+                "amount": 20000
+              },
+              {
+                "description": "Structural Steel & Misc Metals - component 2",
+                "amount": 15000
+              },
+              {
+                "description": "Structural Steel & Misc Metals - component 3",
+                "amount": 10000
+              }
+            ],
+            "exclusions": [
+              "Miscellaneous metals and embeds - NOT IN CONTRACT"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Brickell Restaurant & Retail drawings issued 03/15/2024.",
+            "post_bid_updates": [
+              {
+                "update_id": "05-U1",
+                "date": "2024-04-28",
+                "from": "Ed Turner <southeastinteriors@contractor.com>",
+                "subject": "RE: Brickell Restaurant & Retail - Miscellaneous metals and embeds Add",
+                "body": "We can include Miscellaneous metals and embeds for an additional $5,000. Revised total would be $50,000.",
+                "revised_total": 50000,
+                "delta": 5000,
+                "scope_added": "Miscellaneous metals and embeds"
+              }
+            ]
+          },
+          {
+            "sub_id": "05-S3",
+            "company": "Atlantic Plumbing",
+            "contact": "Carl Johnson",
+            "email": "atlanticplumbing@contractor.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 85000,
+            "line_items": [
+              {
+                "description": "Structural Steel & Misc Metals - component 1",
+                "amount": 15000
+              },
+              {
+                "description": "Structural Steel & Misc Metals - component 2",
+                "amount": 15000
+              },
+              {
+                "description": "Structural Steel & Misc Metals - component 3",
+                "amount": 15000
+              },
+              {
+                "description": "Structural Steel & Misc Metals - component 4",
+                "amount": 15000
+              },
+              {
+                "description": "Structural Steel & Misc Metals - component 5",
+                "amount": 15000
+              },
+              {
+                "description": "Structural Steel & Misc Metals - component 6",
+                "amount": 10000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Brickell Restaurant & Retail drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
+      },
+      {
+        "trade": "Roofing, Waterproofing & Insulation",
+        "csi_code": "07 00 00",
+        "bids": [
+          {
+            "sub_id": "07-S1",
+            "company": "Coastal Concrete",
+            "contact": "Maria Valdez",
+            "email": "coastalconcrete@contractor.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 65000,
+            "line_items": [
+              {
+                "description": "Roofing, Waterproofing & Insulation - component 1",
+                "amount": 10000
+              },
+              {
+                "description": "Roofing, Waterproofing & Insulation - component 2",
+                "amount": 15000
+              },
+              {
+                "description": "Roofing, Waterproofing & Insulation - component 3",
+                "amount": 15000
+              },
+              {
+                "description": "Roofing, Waterproofing & Insulation - component 4",
+                "amount": 10000
+              },
+              {
+                "description": "Roofing, Waterproofing & Insulation - component 5",
+                "amount": 10000
+              },
+              {
+                "description": "Roofing, Waterproofing & Insulation - component 6",
+                "amount": 5000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Brickell Restaurant & Retail drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "07-S2",
+            "company": "Florida Mechanical",
+            "contact": "Kevin Walsh",
+            "email": "floridamechanical@contractor.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 40000,
+            "line_items": [
+              {
+                "description": "Roofing, Waterproofing & Insulation - component 1",
+                "amount": 5000
+              },
+              {
+                "description": "Roofing, Waterproofing & Insulation - component 2",
+                "amount": 5000
+              },
+              {
+                "description": "Roofing, Waterproofing & Insulation - component 3",
+                "amount": 5000
+              },
+              {
+                "description": "Roofing, Waterproofing & Insulation - component 4",
+                "amount": 5000
+              },
+              {
+                "description": "Roofing, Waterproofing & Insulation - component 5",
+                "amount": 5000
+              },
+              {
+                "description": "Roofing, Waterproofing & Insulation - component 6",
+                "amount": 15000
+              }
+            ],
+            "exclusions": [
+              "Below-slab waterproofing - NOT IN CONTRACT"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Brickell Restaurant & Retail drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "07-S3",
+            "company": "Brickell Roofing",
+            "contact": "Beth Adams",
+            "email": "brickellroofing@contractor.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 80000,
+            "line_items": [
+              {
+                "description": "Roofing, Waterproofing & Insulation - component 1",
+                "amount": 20000
+              },
+              {
+                "description": "Roofing, Waterproofing & Insulation - component 2",
+                "amount": 20000
+              },
+              {
+                "description": "Roofing, Waterproofing & Insulation - component 3",
+                "amount": 20000
+              },
+              {
+                "description": "Roofing, Waterproofing & Insulation - component 4",
+                "amount": 20000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Brickell Restaurant & Retail drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
+      },
+      {
+        "trade": "Doors, Frames, Hardware & Glazing",
+        "csi_code": "08 00 00",
+        "bids": [
+          {
+            "sub_id": "08-S1",
+            "company": "Southeast Interiors",
+            "contact": "Angela Cruz",
+            "email": "southeastinteriors@contractor.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 95000,
+            "line_items": [
+              {
+                "description": "Doors, Frames, Hardware & Glazing - component 1",
+                "amount": 20000
+              },
+              {
+                "description": "Doors, Frames, Hardware & Glazing - component 2",
+                "amount": 20000
+              },
+              {
+                "description": "Doors, Frames, Hardware & Glazing - component 3",
+                "amount": 20000
+              },
+              {
+                "description": "Doors, Frames, Hardware & Glazing - component 4",
+                "amount": 15000
+              },
+              {
+                "description": "Doors, Frames, Hardware & Glazing - component 5",
+                "amount": 20000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Brickell Restaurant & Retail drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "08-S2",
+            "company": "Atlantic Plumbing",
+            "contact": "Tom Brady",
+            "email": "atlanticplumbing@contractor.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 70000,
+            "line_items": [
+              {
+                "description": "Doors, Frames, Hardware & Glazing - component 1",
+                "amount": 15000
+              },
+              {
+                "description": "Doors, Frames, Hardware & Glazing - component 2",
+                "amount": 15000
+              },
+              {
+                "description": "Doors, Frames, Hardware & Glazing - component 3",
+                "amount": 20000
+              },
+              {
+                "description": "Doors, Frames, Hardware & Glazing - component 4",
+                "amount": 20000
+              }
+            ],
+            "exclusions": [
+              "Storefront glazing system - NOT IN CONTRACT"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Brickell Restaurant & Retail drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "08-S3",
+            "company": "Coastal Framing",
+            "contact": "Linda Garza",
+            "email": "coastalframing@contractor.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 130000,
+            "line_items": [
+              {
+                "description": "Doors, Frames, Hardware & Glazing - component 1",
+                "amount": 35000
+              },
+              {
+                "description": "Doors, Frames, Hardware & Glazing - component 2",
+                "amount": 30000
+              },
+              {
+                "description": "Doors, Frames, Hardware & Glazing - component 3",
+                "amount": 30000
+              },
+              {
+                "description": "Doors, Frames, Hardware & Glazing - component 4",
+                "amount": 35000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Brickell Restaurant & Retail drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
+      },
+      {
+        "trade": "Drywall & Framing",
+        "csi_code": "09 20 00",
+        "bids": [
+          {
+            "sub_id": "09-S1",
+            "company": "Brickell Roofing",
+            "contact": "Pete Adams",
+            "email": "brickellroofing@contractor.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 35000,
+            "line_items": [
+              {
+                "description": "Drywall & Framing - component 1",
+                "amount": 10000
+              },
+              {
+                "description": "Drywall & Framing - component 2",
+                "amount": 5000
+              },
+              {
+                "description": "Drywall & Framing - component 3",
+                "amount": 5000
+              },
+              {
+                "description": "Drywall & Framing - component 4",
+                "amount": 5000
+              },
+              {
+                "description": "Drywall & Framing - component 5",
+                "amount": 10000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Brickell Restaurant & Retail drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "09-S2",
+            "company": "Sunstate Steel",
+            "contact": "Sam Rivera",
+            "email": "sunstatesteel@contractor.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 25000,
+            "line_items": [
+              {
+                "description": "Drywall & Framing - component 1",
+                "amount": 5000
+              },
+              {
+                "description": "Drywall & Framing - component 2",
+                "amount": 5000
+              },
+              {
+                "description": "Drywall & Framing - component 3",
+                "amount": 5000
+              },
+              {
+                "description": "Drywall & Framing - component 4",
+                "amount": 10000
+              }
+            ],
+            "exclusions": [
+              "Shaft wall assemblies - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Brickell Restaurant & Retail drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "09-S3",
+            "company": "Southeast Interiors",
+            "contact": "Walt Burns",
+            "email": "southeastinteriors@contractor.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 45000,
+            "line_items": [
+              {
+                "description": "Drywall & Framing - component 1",
+                "amount": 10000
+              },
+              {
+                "description": "Drywall & Framing - component 2",
+                "amount": 10000
+              },
+              {
+                "description": "Drywall & Framing - component 3",
+                "amount": 10000
+              },
+              {
+                "description": "Drywall & Framing - component 4",
+                "amount": 10000
+              },
+              {
+                "description": "Drywall & Framing - component 5",
+                "amount": 5000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Brickell Restaurant & Retail drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
+      },
+      {
+        "trade": "Flooring",
+        "csi_code": "09 60 00",
+        "bids": [
+          {
+            "sub_id": "09-S1",
+            "company": "Coastal Concrete",
+            "contact": "Angela Cruz",
+            "email": "coastalconcrete@contractor.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 75000,
+            "line_items": [
+              {
+                "description": "Flooring - component 1",
+                "amount": 15000
+              },
+              {
+                "description": "Flooring - component 2",
+                "amount": 15000
+              },
+              {
+                "description": "Flooring - component 3",
+                "amount": 15000
+              },
+              {
+                "description": "Flooring - component 4",
+                "amount": 15000
+              },
+              {
+                "description": "Flooring - component 5",
+                "amount": 15000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Brickell Restaurant & Retail drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "09-S2",
+            "company": "Florida Mechanical",
+            "contact": "Tom Brady",
+            "email": "floridamechanical@contractor.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 50000,
+            "line_items": [
+              {
+                "description": "Flooring - component 1",
+                "amount": 15000
+              },
+              {
+                "description": "Flooring - component 2",
+                "amount": 20000
+              },
+              {
+                "description": "Flooring - component 3",
+                "amount": 15000
+              }
+            ],
+            "exclusions": [
+              "Specialty sheet vinyl in procedure rooms - NOT IN CONTRACT"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Brickell Restaurant & Retail drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "09-S3",
+            "company": "Brickell Roofing",
+            "contact": "Linda Garza",
+            "email": "brickellroofing@contractor.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 100000,
+            "line_items": [
+              {
+                "description": "Flooring - component 1",
+                "amount": 25000
+              },
+              {
+                "description": "Flooring - component 2",
+                "amount": 30000
+              },
+              {
+                "description": "Flooring - component 3",
+                "amount": 25000
+              },
+              {
+                "description": "Flooring - component 4",
+                "amount": 20000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Brickell Restaurant & Retail drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
+      },
+      {
+        "trade": "Painting & Wall Coverings",
+        "csi_code": "09 90 00",
+        "bids": [
+          {
+            "sub_id": "09-S1",
+            "company": "Sunstate Steel",
+            "contact": "Sam Rivera",
+            "email": "sunstatesteel@contractor.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 25000,
+            "line_items": [
+              {
+                "description": "Painting & Wall Coverings - component 1",
+                "amount": 10000
+              },
+              {
+                "description": "Painting & Wall Coverings - component 2",
+                "amount": 10000
+              },
+              {
+                "description": "Painting & Wall Coverings - component 3",
+                "amount": 5000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Brickell Restaurant & Retail drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "09-S2",
+            "company": "Southeast Interiors",
+            "contact": "Walt Burns",
+            "email": "southeastinteriors@contractor.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 15000,
+            "line_items": [
+              {
+                "description": "Painting & Wall Coverings - component 1",
+                "amount": 5000
+              },
+              {
+                "description": "Painting & Wall Coverings - component 2",
+                "amount": 5000
+              },
+              {
+                "description": "Painting & Wall Coverings - component 3",
+                "amount": 5000
+              }
+            ],
+            "exclusions": [
+              "Exterior painting - NOT IN CONTRACT"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Brickell Restaurant & Retail drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "09-S3",
+            "company": "Atlantic Plumbing",
+            "contact": "Mike Torres",
+            "email": "atlanticplumbing@contractor.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 35000,
+            "line_items": [
+              {
+                "description": "Painting & Wall Coverings - component 1",
+                "amount": 5000
+              },
+              {
+                "description": "Painting & Wall Coverings - component 2",
+                "amount": 5000
+              },
+              {
+                "description": "Painting & Wall Coverings - component 3",
+                "amount": 5000
+              },
+              {
+                "description": "Painting & Wall Coverings - component 4",
+                "amount": 5000
+              },
+              {
+                "description": "Painting & Wall Coverings - component 5",
+                "amount": 15000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Brickell Restaurant & Retail drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
+      },
+      {
+        "trade": "Acoustical Ceilings (ACT)",
+        "csi_code": "09 51 00",
+        "bids": [
+          {
+            "sub_id": "09-S1",
+            "company": "Florida Mechanical",
+            "contact": "Tom Brady",
+            "email": "floridamechanical@contractor.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 30000,
+            "line_items": [
+              {
+                "description": "Acoustical Ceilings (ACT) - component 1",
+                "amount": 5000
+              },
+              {
+                "description": "Acoustical Ceilings (ACT) - component 2",
+                "amount": 5000
+              },
+              {
+                "description": "Acoustical Ceilings (ACT) - component 3",
+                "amount": 5000
+              },
+              {
+                "description": "Acoustical Ceilings (ACT) - component 4",
+                "amount": 5000
+              },
+              {
+                "description": "Acoustical Ceilings (ACT) - component 5",
+                "amount": 5000
+              },
+              {
+                "description": "Acoustical Ceilings (ACT) - component 6",
+                "amount": 5000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Brickell Restaurant & Retail drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "09-S2",
+            "company": "Brickell Roofing",
+            "contact": "Linda Garza",
+            "email": "brickellroofing@contractor.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 20000,
+            "line_items": [
+              {
+                "description": "Acoustical Ceilings (ACT) - component 1",
+                "amount": 5000
+              },
+              {
+                "description": "Acoustical Ceilings (ACT) - component 2",
+                "amount": 5000
+              },
+              {
+                "description": "Acoustical Ceilings (ACT) - component 3",
+                "amount": 5000
+              },
+              {
+                "description": "Acoustical Ceilings (ACT) - component 4",
+                "amount": 5000
+              }
+            ],
+            "exclusions": [
+              "Gypsum board soffits and clouds - NOT IN CONTRACT"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Brickell Restaurant & Retail drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "09-S3",
+            "company": "Sunstate Steel",
+            "contact": "Bill Torres",
+            "email": "sunstatesteel@contractor.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 40000,
+            "line_items": [
+              {
+                "description": "Acoustical Ceilings (ACT) - component 1",
+                "amount": 5000
+              },
+              {
+                "description": "Acoustical Ceilings (ACT) - component 2",
+                "amount": 5000
+              },
+              {
+                "description": "Acoustical Ceilings (ACT) - component 3",
+                "amount": 5000
+              },
+              {
+                "description": "Acoustical Ceilings (ACT) - component 4",
+                "amount": 5000
+              },
+              {
+                "description": "Acoustical Ceilings (ACT) - component 5",
+                "amount": 5000
+              },
+              {
+                "description": "Acoustical Ceilings (ACT) - component 6",
+                "amount": 15000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Brickell Restaurant & Retail drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
+      },
+      {
+        "trade": "Specialties",
+        "csi_code": "10 00 00",
+        "bids": [
+          {
+            "sub_id": "10-S1",
+            "company": "Coastal Concrete",
+            "contact": "Angela Cruz",
+            "email": "coastalconcrete@contractor.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 20000,
+            "line_items": [
+              {
+                "description": "Specialties - component 1",
+                "amount": 5000
+              },
+              {
+                "description": "Specialties - component 2",
+                "amount": 5000
+              },
+              {
+                "description": "Specialties - component 3",
+                "amount": 5000
+              },
+              {
+                "description": "Specialties - component 4",
+                "amount": 5000
+              },
+              {
+                "description": "Specialties - component 5",
+                "amount": 5000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Brickell Restaurant & Retail drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "10-S2",
+            "company": "Florida Mechanical",
+            "contact": "Tom Brady",
+            "email": "floridamechanical@contractor.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 10000,
+            "line_items": [
+              {
+                "description": "Specialties - component 1",
+                "amount": 5000
+              },
+              {
+                "description": "Specialties - component 3",
+                "amount": 5000
+              }
+            ],
+            "exclusions": [
+              "ADA signage package - NOT IN CONTRACT"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Brickell Restaurant & Retail drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "10-S3",
+            "company": "Brickell Roofing",
+            "contact": "Linda Garza",
+            "email": "brickellroofing@contractor.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 25000,
+            "line_items": [
+              {
+                "description": "Specialties - component 1",
+                "amount": 10000
+              },
+              {
+                "description": "Specialties - component 2",
+                "amount": 10000
+              },
+              {
+                "description": "Specialties - component 3",
+                "amount": 5000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Brickell Restaurant & Retail drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
+      },
+      {
+        "trade": "Fire Suppression (Sprinklers)",
+        "csi_code": "21 00 00",
+        "bids": [
+          {
+            "sub_id": "21-S1",
+            "company": "Atlantic Electric",
+            "contact": "Kevin Walsh",
+            "email": "atlanticelectric@contractor.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 45000,
+            "line_items": [
+              {
+                "description": "Fire Suppression (Sprinklers) - component 1",
+                "amount": 15000
+              },
+              {
+                "description": "Fire Suppression (Sprinklers) - component 2",
+                "amount": 10000
+              },
+              {
+                "description": "Fire Suppression (Sprinklers) - component 3",
+                "amount": 10000
+              },
+              {
+                "description": "Fire Suppression (Sprinklers) - component 4",
+                "amount": 10000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Brickell Restaurant & Retail drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "21-S2",
+            "company": "Coastal Concrete",
+            "contact": "Beth Adams",
+            "email": "coastalconcrete@contractor.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 30000,
+            "line_items": [
+              {
+                "description": "Fire Suppression (Sprinklers) - component 1",
+                "amount": 5000
+              },
+              {
+                "description": "Fire Suppression (Sprinklers) - component 2",
+                "amount": 5000
+              },
+              {
+                "description": "Fire Suppression (Sprinklers) - component 3",
+                "amount": 5000
+              },
+              {
+                "description": "Fire Suppression (Sprinklers) - component 4",
+                "amount": 5000
+              },
+              {
+                "description": "Fire Suppression (Sprinklers) - component 5",
+                "amount": 5000
+              },
+              {
+                "description": "Fire Suppression (Sprinklers) - component 6",
+                "amount": 5000
+              }
+            ],
+            "exclusions": [
+              "Kitchen hood fire suppression - NOT IN CONTRACT"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Brickell Restaurant & Retail drawings issued 03/15/2024.",
+            "post_bid_updates": [
+              {
+                "update_id": "21-U1",
+                "date": "2024-04-28",
+                "from": "Beth Adams <coastalconcrete@contractor.com>",
+                "subject": "RE: Brickell Restaurant & Retail - Kitchen hood fire suppression Add",
+                "body": "We can include Kitchen hood fire suppression for an additional $0. Revised total would be $30,000.",
+                "revised_total": 30000,
+                "delta": 0,
+                "scope_added": "Kitchen hood fire suppression"
+              }
+            ]
+          },
+          {
+            "sub_id": "21-S3",
+            "company": "Florida Mechanical",
+            "contact": "Rick Simmons",
+            "email": "floridamechanical@contractor.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 55000,
+            "line_items": [
+              {
+                "description": "Fire Suppression (Sprinklers) - component 1",
+                "amount": 5000
+              },
+              {
+                "description": "Fire Suppression (Sprinklers) - component 2",
+                "amount": 10000
+              },
+              {
+                "description": "Fire Suppression (Sprinklers) - component 3",
+                "amount": 10000
+              },
+              {
+                "description": "Fire Suppression (Sprinklers) - component 4",
+                "amount": 5000
+              },
+              {
+                "description": "Fire Suppression (Sprinklers) - component 5",
+                "amount": 10000
+              },
+              {
+                "description": "Fire Suppression (Sprinklers) - component 6",
+                "amount": 15000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Brickell Restaurant & Retail drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
+      },
+      {
+        "trade": "Plumbing",
+        "csi_code": "22 00 00",
+        "bids": [
+          {
+            "sub_id": "22-S1",
+            "company": "Florida Mechanical",
+            "contact": "Carl Johnson",
+            "email": "floridamechanical@contractor.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 135000,
+            "line_items": [
+              {
+                "description": "Plumbing - component 1",
+                "amount": 25000
+              },
+              {
+                "description": "Plumbing - component 2",
+                "amount": 25000
+              },
+              {
+                "description": "Plumbing - component 3",
+                "amount": 20000
+              },
+              {
+                "description": "Plumbing - component 4",
+                "amount": 20000
+              },
+              {
+                "description": "Plumbing - component 5",
+                "amount": 20000
+              },
+              {
+                "description": "Plumbing - component 6",
+                "amount": 25000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Brickell Restaurant & Retail drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "22-S2",
+            "company": "Brickell Roofing",
+            "contact": "Pete Adams",
+            "email": "brickellroofing@contractor.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 90000,
+            "line_items": [
+              {
+                "description": "Plumbing - component 1",
+                "amount": 20000
+              },
+              {
+                "description": "Plumbing - component 2",
+                "amount": 15000
+              },
+              {
+                "description": "Plumbing - component 3",
+                "amount": 15000
+              },
+              {
+                "description": "Plumbing - component 4",
+                "amount": 15000
+              },
+              {
+                "description": "Plumbing - component 5",
+                "amount": 25000
+              }
+            ],
+            "exclusions": [
+              "Medical gas outlets and zone valves - NOT IN CONTRACT"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Brickell Restaurant & Retail drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "22-S3",
+            "company": "Sunstate Steel",
+            "contact": "Sam Rivera",
+            "email": "sunstatesteel@contractor.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 165000,
+            "line_items": [
+              {
+                "description": "Plumbing - component 1",
+                "amount": 25000
+              },
+              {
+                "description": "Plumbing - component 2",
+                "amount": 25000
+              },
+              {
+                "description": "Plumbing - component 3",
+                "amount": 30000
+              },
+              {
+                "description": "Plumbing - component 4",
+                "amount": 25000
+              },
+              {
+                "description": "Plumbing - component 5",
+                "amount": 30000
+              },
+              {
+                "description": "Plumbing - component 6",
+                "amount": 30000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Brickell Restaurant & Retail drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
+      },
+      {
+        "trade": "Mechanical (HVAC)",
+        "csi_code": "23 00 00",
+        "bids": [
+          {
+            "sub_id": "23-S1",
+            "company": "Florida Mechanical",
+            "contact": "Bill Torres",
+            "email": "floridamechanical@contractor.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 105000,
+            "line_items": [
+              {
+                "description": "Mechanical (HVAC) - component 1",
+                "amount": 15000
+              },
+              {
+                "description": "Mechanical (HVAC) - component 2",
+                "amount": 20000
+              },
+              {
+                "description": "Mechanical (HVAC) - component 3",
+                "amount": 15000
+              },
+              {
+                "description": "Mechanical (HVAC) - component 4",
+                "amount": 15000
+              },
+              {
+                "description": "Mechanical (HVAC) - component 5",
+                "amount": 15000
+              },
+              {
+                "description": "Mechanical (HVAC) - component 6",
+                "amount": 25000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Brickell Restaurant & Retail drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "23-S2",
+            "company": "Brickell Roofing",
+            "contact": "Priya Nair",
+            "email": "brickellroofing@contractor.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 75000,
+            "line_items": [
+              {
+                "description": "Mechanical (HVAC) - component 1",
+                "amount": 15000
+              },
+              {
+                "description": "Mechanical (HVAC) - component 2",
+                "amount": 15000
+              },
+              {
+                "description": "Mechanical (HVAC) - component 3",
+                "amount": 15000
+              },
+              {
+                "description": "Mechanical (HVAC) - component 4",
+                "amount": 15000
+              },
+              {
+                "description": "Mechanical (HVAC) - component 5",
+                "amount": 15000
+              }
+            ],
+            "exclusions": [
+              "Medical gas rough-in and kitchen hood exhaust - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Brickell Restaurant & Retail drawings issued 03/15/2024.",
+            "post_bid_updates": [
+              {
+                "update_id": "23-U1",
+                "date": "2024-04-28",
+                "from": "Priya Nair <brickellroofing@contractor.com>",
+                "subject": "RE: Brickell Restaurant & Retail - Medical gas rough-in and kitchen hood exhaust Clarification",
+                "body": "Following up on our call \u2014 we can pick up Medical gas rough-in and kitchen hood exhaust for $5,000 additional. Revised total $80,000.",
+                "revised_total": 80000,
+                "delta": 5000,
+                "scope_added": "Medical gas rough-in and kitchen hood exhaust"
+              }
+            ]
+          },
+          {
+            "sub_id": "23-S3",
+            "company": "Sunstate Steel",
+            "contact": "Rob Flores",
+            "email": "sunstatesteel@contractor.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 135000,
+            "line_items": [
+              {
+                "description": "Mechanical (HVAC) - component 1",
+                "amount": 40000
+              },
+              {
+                "description": "Mechanical (HVAC) - component 2",
+                "amount": 50000
+              },
+              {
+                "description": "Mechanical (HVAC) - component 3",
+                "amount": 45000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Brickell Restaurant & Retail drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
+      },
+      {
+        "trade": "Electrical",
+        "csi_code": "26 00 00",
+        "bids": [
+          {
+            "sub_id": "26-S1",
+            "company": "Southeast Interiors",
+            "contact": "Lisa Chang",
+            "email": "southeastinteriors@contractor.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 85000,
+            "line_items": [
+              {
+                "description": "Electrical - component 1",
+                "amount": 20000
+              },
+              {
+                "description": "Electrical - component 2",
+                "amount": 15000
+              },
+              {
+                "description": "Electrical - component 3",
+                "amount": 15000
+              },
+              {
+                "description": "Electrical - component 4",
+                "amount": 20000
+              },
+              {
+                "description": "Electrical - component 5",
+                "amount": 15000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Brickell Restaurant & Retail drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "26-S2",
+            "company": "Atlantic Plumbing",
+            "contact": "James Brown",
+            "email": "atlanticplumbing@contractor.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 55000,
+            "line_items": [
+              {
+                "description": "Electrical - component 1",
+                "amount": 20000
+              },
+              {
+                "description": "Electrical - component 2",
+                "amount": 20000
+              },
+              {
+                "description": "Electrical - component 3",
+                "amount": 15000
+              }
+            ],
+            "exclusions": [
+              "Fire alarm system - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Brickell Restaurant & Retail drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "26-S3",
+            "company": "Coastal Framing",
+            "contact": "Maria Valdez",
+            "email": "coastalframing@contractor.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 100000,
+            "line_items": [
+              {
+                "description": "Electrical - component 1",
+                "amount": 20000
+              },
+              {
+                "description": "Electrical - component 2",
+                "amount": 15000
+              },
+              {
+                "description": "Electrical - component 3",
+                "amount": 15000
+              },
+              {
+                "description": "Electrical - component 4",
+                "amount": 15000
+              },
+              {
+                "description": "Electrical - component 5",
+                "amount": 20000
+              },
+              {
+                "description": "Electrical - component 6",
+                "amount": 15000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Brickell Restaurant & Retail drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
+      },
+      {
+        "trade": "Communications (Data, AV, Tel)",
+        "csi_code": "27 00 00",
+        "bids": [
+          {
+            "sub_id": "27-S1",
+            "company": "Coastal Concrete",
+            "contact": "Lisa Chang",
+            "email": "coastalconcrete@contractor.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 25000,
+            "line_items": [
+              {
+                "description": "Communications (Data, AV, Tel) - component 1",
+                "amount": 10000
+              },
+              {
+                "description": "Communications (Data, AV, Tel) - component 2",
+                "amount": 10000
+              },
+              {
+                "description": "Communications (Data, AV, Tel) - component 3",
+                "amount": 5000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Brickell Restaurant & Retail drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "27-S2",
+            "company": "Florida Mechanical",
+            "contact": "James Brown",
+            "email": "floridamechanical@contractor.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 15000,
+            "line_items": [
+              {
+                "description": "Communications (Data, AV, Tel) - component 1",
+                "amount": 5000
+              },
+              {
+                "description": "Communications (Data, AV, Tel) - component 2",
+                "amount": 5000
+              },
+              {
+                "description": "Communications (Data, AV, Tel) - component 3",
+                "amount": 5000
+              }
+            ],
+            "exclusions": [
+              "AV rough-in for conference rooms - NOT IN CONTRACT"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Brickell Restaurant & Retail drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "27-S3",
+            "company": "Brickell Roofing",
+            "contact": "Maria Valdez",
+            "email": "brickellroofing@contractor.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 35000,
+            "line_items": [
+              {
+                "description": "Communications (Data, AV, Tel) - component 1",
+                "amount": 5000
+              },
+              {
+                "description": "Communications (Data, AV, Tel) - component 2",
+                "amount": 5000
+              },
+              {
+                "description": "Communications (Data, AV, Tel) - component 3",
+                "amount": 5000
+              },
+              {
+                "description": "Communications (Data, AV, Tel) - component 4",
+                "amount": 10000
+              },
+              {
+                "description": "Communications (Data, AV, Tel) - component 5",
+                "amount": 10000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Brickell Restaurant & Retail drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
+      },
+      {
+        "trade": "Electronic Safety & Security",
+        "csi_code": "28 00 00",
+        "bids": [
+          {
+            "sub_id": "28-S1",
+            "company": "Florida Mechanical",
+            "contact": "Sam Rivera",
+            "email": "floridamechanical@contractor.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 25000,
+            "line_items": [
+              {
+                "description": "Electronic Safety & Security - component 1",
+                "amount": 5000
+              },
+              {
+                "description": "Electronic Safety & Security - component 2",
+                "amount": 5000
+              },
+              {
+                "description": "Electronic Safety & Security - component 3",
+                "amount": 5000
+              },
+              {
+                "description": "Electronic Safety & Security - component 4",
+                "amount": 10000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Brickell Restaurant & Retail drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "28-S2",
+            "company": "Brickell Roofing",
+            "contact": "Walt Burns",
+            "email": "brickellroofing@contractor.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 15000,
+            "line_items": [
+              {
+                "description": "Electronic Safety & Security - component 1",
+                "amount": 5000
+              },
+              {
+                "description": "Electronic Safety & Security - component 2",
+                "amount": 5000
+              },
+              {
+                "description": "Electronic Safety & Security - component 3",
+                "amount": 5000
+              }
+            ],
+            "exclusions": [
+              "Exterior access control and parking - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Brickell Restaurant & Retail drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "28-S3",
+            "company": "Sunstate Steel",
+            "contact": "Mike Torres",
+            "email": "sunstatesteel@contractor.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 35000,
+            "line_items": [
+              {
+                "description": "Electronic Safety & Security - component 1",
+                "amount": 10000
+              },
+              {
+                "description": "Electronic Safety & Security - component 2",
+                "amount": 5000
+              },
+              {
+                "description": "Electronic Safety & Security - component 3",
+                "amount": 10000
+              },
+              {
+                "description": "Electronic Safety & Security - component 4",
+                "amount": 10000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Brickell Restaurant & Retail drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
+      },
+      {
+        "trade": "Earthwork, Grading & Site Preparation",
+        "csi_code": "31 00 00",
+        "bids": [
+          {
+            "sub_id": "31-S1",
+            "company": "Brickell Roofing",
+            "contact": "Lisa Chang",
+            "email": "brickellroofing@contractor.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 40000,
+            "line_items": [
+              {
+                "description": "Earthwork, Grading & Site Preparation - component 1",
+                "amount": 10000
+              },
+              {
+                "description": "Earthwork, Grading & Site Preparation - component 2",
+                "amount": 15000
+              },
+              {
+                "description": "Earthwork, Grading & Site Preparation - component 3",
+                "amount": 15000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Brickell Restaurant & Retail drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "31-S2",
+            "company": "Sunstate Steel",
+            "contact": "James Brown",
+            "email": "sunstatesteel@contractor.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 25000,
+            "line_items": [
+              {
+                "description": "Earthwork, Grading & Site Preparation - component 1",
+                "amount": 5000
+              },
+              {
+                "description": "Earthwork, Grading & Site Preparation - component 2",
+                "amount": 5000
+              },
+              {
+                "description": "Earthwork, Grading & Site Preparation - component 3",
+                "amount": 5000
+              },
+              {
+                "description": "Earthwork, Grading & Site Preparation - component 4",
+                "amount": 5000
+              },
+              {
+                "description": "Earthwork, Grading & Site Preparation - component 5",
+                "amount": 5000
+              }
+            ],
+            "exclusions": [
+              "Rock excavation allowance - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Brickell Restaurant & Retail drawings issued 03/15/2024.",
+            "post_bid_updates": [
+              {
+                "update_id": "31-U1",
+                "date": "2024-04-28",
+                "from": "James Brown <sunstatesteel@contractor.com>",
+                "subject": "RE: Brickell Restaurant & Retail - Rock excavation allowance Clarification",
+                "body": "Following up on our call \u2014 we can pick up Rock excavation allowance for $0 additional. Revised total $25,000.",
+                "revised_total": 25000,
+                "delta": 0,
+                "scope_added": "Rock excavation allowance"
+              }
+            ]
+          },
+          {
+            "sub_id": "31-S3",
+            "company": "Southeast Interiors",
+            "contact": "Maria Valdez",
+            "email": "southeastinteriors@contractor.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 55000,
+            "line_items": [
+              {
+                "description": "Earthwork, Grading & Site Preparation - component 1",
+                "amount": 10000
+              },
+              {
+                "description": "Earthwork, Grading & Site Preparation - component 2",
+                "amount": 10000
+              },
+              {
+                "description": "Earthwork, Grading & Site Preparation - component 3",
+                "amount": 10000
+              },
+              {
+                "description": "Earthwork, Grading & Site Preparation - component 4",
+                "amount": 10000
+              },
+              {
+                "description": "Earthwork, Grading & Site Preparation - component 5",
+                "amount": 10000
+              },
+              {
+                "description": "Earthwork, Grading & Site Preparation - component 6",
+                "amount": 5000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Brickell Restaurant & Retail drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
+      },
+      {
+        "trade": "Site Paving, Curbs & Landscaping",
+        "csi_code": "32 00 00",
+        "bids": [
+          {
+            "sub_id": "32-S1",
+            "company": "Coastal Concrete",
+            "contact": "Ed Turner",
+            "email": "coastalconcrete@contractor.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 80000,
+            "line_items": [
+              {
+                "description": "Site Paving, Curbs & Landscaping - component 1",
+                "amount": 20000
+              },
+              {
+                "description": "Site Paving, Curbs & Landscaping - component 2",
+                "amount": 15000
+              },
+              {
+                "description": "Site Paving, Curbs & Landscaping - component 3",
+                "amount": 20000
+              },
+              {
+                "description": "Site Paving, Curbs & Landscaping - component 4",
+                "amount": 25000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Brickell Restaurant & Retail drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "32-S2",
+            "company": "Florida Mechanical",
+            "contact": "Carl Johnson",
+            "email": "floridamechanical@contractor.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 50000,
+            "line_items": [
+              {
+                "description": "Site Paving, Curbs & Landscaping - component 1",
+                "amount": 10000
+              },
+              {
+                "description": "Site Paving, Curbs & Landscaping - component 2",
+                "amount": 10000
+              },
+              {
+                "description": "Site Paving, Curbs & Landscaping - component 3",
+                "amount": 10000
+              },
+              {
+                "description": "Site Paving, Curbs & Landscaping - component 4",
+                "amount": 10000
+              },
+              {
+                "description": "Site Paving, Curbs & Landscaping - component 5",
+                "amount": 10000
+              }
+            ],
+            "exclusions": [
+              "Landscaping and irrigation - NOT IN CONTRACT"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Brickell Restaurant & Retail drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "32-S3",
+            "company": "Brickell Roofing",
+            "contact": "Pete Adams",
+            "email": "brickellroofing@contractor.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 105000,
+            "line_items": [
+              {
+                "description": "Site Paving, Curbs & Landscaping - component 1",
+                "amount": 15000
+              },
+              {
+                "description": "Site Paving, Curbs & Landscaping - component 2",
+                "amount": 20000
+              },
+              {
+                "description": "Site Paving, Curbs & Landscaping - component 3",
+                "amount": 15000
+              },
+              {
+                "description": "Site Paving, Curbs & Landscaping - component 4",
+                "amount": 20000
+              },
+              {
+                "description": "Site Paving, Curbs & Landscaping - component 5",
+                "amount": 20000
+              },
+              {
+                "description": "Site Paving, Curbs & Landscaping - component 6",
+                "amount": 15000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Brickell Restaurant & Retail drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
+      },
+      {
+        "trade": "Site Utilities (Water, Sewer, Storm, Gas)",
+        "csi_code": "33 00 00",
+        "bids": [
+          {
+            "sub_id": "33-S1",
+            "company": "Atlantic Electric",
+            "contact": "Rob Flores",
+            "email": "atlanticelectric@contractor.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 45000,
+            "line_items": [
+              {
+                "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 1",
+                "amount": 20000
+              },
+              {
+                "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 2",
+                "amount": 15000
+              },
+              {
+                "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 3",
+                "amount": 10000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Brickell Restaurant & Retail drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "33-S2",
+            "company": "Coastal Concrete",
+            "contact": "Lisa Chang",
+            "email": "coastalconcrete@contractor.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 30000,
+            "line_items": [
+              {
+                "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 1",
+                "amount": 5000
+              },
+              {
+                "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 2",
+                "amount": 5000
+              },
+              {
+                "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 3",
+                "amount": 5000
+              },
+              {
+                "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 4",
+                "amount": 5000
+              },
+              {
+                "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 5",
+                "amount": 5000
+              },
+              {
+                "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 6",
+                "amount": 5000
+              }
+            ],
+            "exclusions": [
+              "Underground fire line - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Brickell Restaurant & Retail drawings issued 03/15/2024.",
+            "post_bid_updates": [
+              {
+                "update_id": "33-U1",
+                "date": "2024-04-28",
+                "from": "Lisa Chang <coastalconcrete@contractor.com>",
+                "subject": "RE: Brickell Restaurant & Retail - Underground fire line Clarification",
+                "body": "Following up on our call \u2014 we can pick up Underground fire line for $0 additional. Revised total $30,000.",
+                "revised_total": 30000,
+                "delta": 0,
+                "scope_added": "Underground fire line"
+              }
+            ]
+          },
+          {
+            "sub_id": "33-S3",
+            "company": "Florida Mechanical",
+            "contact": "James Brown",
+            "email": "floridamechanical@contractor.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 60000,
+            "line_items": [
+              {
+                "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 1",
+                "amount": 10000
+              },
+              {
+                "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 2",
+                "amount": 15000
+              },
+              {
+                "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 3",
+                "amount": 10000
+              },
+              {
+                "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 4",
+                "amount": 10000
+              },
+              {
+                "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 5",
+                "amount": 15000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Brickell Restaurant & Retail drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
+      }
+    ]
+  },
+  "benchmarks": {
+    "source": "RSMeans 2024 (Simulated)",
+    "location": "Miami, FL",
+    "location_factor": 1.02,
+    "project_type": "Retail / Restaurant",
+    "benchmarks": [
+      {
+        "trade": "Demolition & Site Clearing",
+        "csi_code": "02 40 00",
+        "unit": "$/SF",
+        "low": 0.51,
+        "mid": 0.76,
+        "high": 1.15,
+        "notes": "Retail / Restaurant benchmark \u2014 Miami, FL"
+      },
+      {
+        "trade": "Concrete",
+        "csi_code": "03 00 00",
+        "unit": "$/SF",
+        "low": 1.67,
+        "mid": 2.12,
+        "high": 2.78,
+        "notes": "Retail / Restaurant benchmark \u2014 Miami, FL"
+      },
+      {
+        "trade": "Masonry",
+        "csi_code": "04 00 00",
+        "unit": "$/SF",
+        "low": 1.19,
+        "mid": 1.67,
+        "high": 2.23,
+        "notes": "Retail / Restaurant benchmark \u2014 Miami, FL"
+      },
+      {
+        "trade": "Structural Steel & Misc Metals",
+        "csi_code": "05 00 00",
+        "unit": "$/SF",
+        "low": 2.23,
+        "mid": 2.9,
+        "high": 3.62,
+        "notes": "Retail / Restaurant benchmark \u2014 Miami, FL"
+      },
+      {
+        "trade": "Roofing, Waterproofing & Insulation",
+        "csi_code": "07 00 00",
+        "unit": "$/SF",
+        "low": 1.93,
+        "mid": 2.63,
+        "high": 3.5,
+        "notes": "Retail / Restaurant benchmark \u2014 Miami, FL"
+      },
+      {
+        "trade": "Doors, Frames, Hardware & Glazing",
+        "csi_code": "08 00 00",
+        "unit": "$/SF",
+        "low": 3.34,
+        "mid": 4.3,
+        "high": 5.73,
+        "notes": "Retail / Restaurant benchmark \u2014 Miami, FL"
+      },
+      {
+        "trade": "Drywall & Framing",
+        "csi_code": "09 20 00",
+        "unit": "$/SF",
+        "low": 1.15,
+        "mid": 1.53,
+        "high": 2.04,
+        "notes": "Retail / Restaurant benchmark \u2014 Miami, FL"
+      },
+      {
+        "trade": "Flooring",
+        "csi_code": "09 60 00",
+        "unit": "$/SF",
+        "low": 2.59,
+        "mid": 3.31,
+        "high": 4.34,
+        "notes": "Retail / Restaurant benchmark \u2014 Miami, FL"
+      },
+      {
+        "trade": "Painting & Wall Coverings",
+        "csi_code": "09 90 00",
+        "unit": "$/SF",
+        "low": 0.8,
+        "mid": 1.11,
+        "high": 1.43,
+        "notes": "Retail / Restaurant benchmark \u2014 Miami, FL"
+      },
+      {
+        "trade": "Acoustical Ceilings (ACT)",
+        "csi_code": "09 51 00",
+        "unit": "$/SF",
+        "low": 1.0,
+        "mid": 1.29,
+        "high": 1.72,
+        "notes": "Retail / Restaurant benchmark \u2014 Miami, FL"
+      },
+      {
+        "trade": "Specialties",
+        "csi_code": "10 00 00",
+        "unit": "$/SF",
+        "low": 0.56,
+        "mid": 0.8,
+        "high": 1.11,
+        "notes": "Retail / Restaurant benchmark \u2014 Miami, FL"
+      },
+      {
+        "trade": "Fire Suppression (Sprinklers)",
+        "csi_code": "21 00 00",
+        "unit": "$/SF",
+        "low": 1.43,
+        "mid": 1.91,
+        "high": 2.39,
+        "notes": "Retail / Restaurant benchmark \u2014 Miami, FL"
+      },
+      {
+        "trade": "Plumbing",
+        "csi_code": "22 00 00",
+        "unit": "$/SF",
+        "low": 4.53,
+        "mid": 5.73,
+        "high": 7.16,
+        "notes": "Retail / Restaurant benchmark \u2014 Miami, FL"
+      },
+      {
+        "trade": "Mechanical (HVAC)",
+        "csi_code": "23 00 00",
+        "unit": "$/SF",
+        "low": 3.58,
+        "mid": 4.61,
+        "high": 5.73,
+        "notes": "Retail / Restaurant benchmark \u2014 Miami, FL"
+      },
+      {
+        "trade": "Electrical",
+        "csi_code": "26 00 00",
+        "unit": "$/SF",
+        "low": 2.78,
+        "mid": 3.5,
+        "high": 4.38,
+        "notes": "Retail / Restaurant benchmark \u2014 Miami, FL"
+      },
+      {
+        "trade": "Communications (Data, AV, Tel)",
+        "csi_code": "27 00 00",
+        "unit": "$/SF",
+        "low": 0.76,
+        "mid": 1.15,
+        "high": 1.53,
+        "notes": "Retail / Restaurant benchmark \u2014 Miami, FL"
+      },
+      {
+        "trade": "Electronic Safety & Security",
+        "csi_code": "28 00 00",
+        "unit": "$/SF",
+        "low": 0.8,
+        "mid": 1.11,
+        "high": 1.51,
+        "notes": "Retail / Restaurant benchmark \u2014 Miami, FL"
+      },
+      {
+        "trade": "Earthwork, Grading & Site Preparation",
+        "csi_code": "31 00 00",
+        "unit": "$/SF",
+        "low": 1.27,
+        "mid": 1.78,
+        "high": 2.42,
+        "notes": "Retail / Restaurant benchmark \u2014 Miami, FL"
+      },
+      {
+        "trade": "Site Paving, Curbs & Landscaping",
+        "csi_code": "32 00 00",
+        "unit": "$/SF",
+        "low": 2.67,
+        "mid": 3.44,
+        "high": 4.58,
+        "notes": "Retail / Restaurant benchmark \u2014 Miami, FL"
+      },
+      {
+        "trade": "Site Utilities (Water, Sewer, Storm, Gas)",
+        "csi_code": "33 00 00",
+        "unit": "$/SF",
+        "low": 1.43,
+        "mid": 2.0,
+        "high": 2.58,
+        "notes": "Retail / Restaurant benchmark \u2014 Miami, FL"
+      }
+    ]
+  },
+  "general_conditions": {
+    "section": "General Conditions & General Requirements",
+    "csi_code": "01 00 00",
+    "description": "GC overhead for Brickell Restaurant & Retail",
+    "duration_months": 10,
+    "line_items": [
+      {
+        "category": "Project Management",
+        "items": [
+          {
+            "description": "Project Manager (10 months)",
+            "unit": "LS",
+            "monthly_rate": 13260,
+            "months": 10,
+            "total": 132600
+          },
+          {
+            "description": "Project Engineer (10 months)",
+            "unit": "LS",
+            "monthly_rate": 7650,
+            "months": 10,
+            "total": 76500
+          }
+        ]
+      },
+      {
+        "category": "Field Supervision",
+        "items": [
+          {
+            "description": "General Superintendent (10 months)",
+            "unit": "LS",
+            "monthly_rate": 10710,
+            "months": 10,
+            "total": 107100
+          },
+          {
+            "description": "Assistant Superintendent (6 months)",
+            "unit": "LS",
+            "monthly_rate": 8160,
+            "months": 6,
+            "total": 48960
+          }
+        ]
+      },
+      {
+        "category": "Temporary Facilities",
+        "items": [
+          {
+            "description": "Field office, toilets, fencing, temp power",
+            "unit": "LS",
+            "monthly_rate": 4080,
+            "months": 10,
+            "total": 40800
+          }
+        ]
+      },
+      {
+        "category": "Site Operations",
+        "items": [
+          {
+            "description": "Cleanup, dumpsters, safety, vehicles",
+            "unit": "LS",
+            "monthly_rate": 5610,
+            "months": 10,
+            "total": 56100
+          }
+        ]
+      },
+      {
+        "category": "Insurance & Bonding",
+        "items": [
+          {
+            "description": "Builder's Risk, GL, Payment & Performance Bond",
+            "unit": "LS",
+            "monthly_rate": null,
+            "months": null,
+            "total": 112200
+          }
+        ]
+      },
+      {
+        "category": "Permits & Fees",
+        "items": [
+          {
+            "description": "Building permit, special inspections, surveying",
+            "unit": "LS",
+            "monthly_rate": null,
+            "months": null,
+            "total": 40392
+          }
+        ]
+      },
+      {
+        "category": "Technology",
+        "items": [
+          {
+            "description": "BIM, Procore, closeout documentation",
+            "unit": "LS",
+            "monthly_rate": 1836,
+            "months": 10,
+            "total": 18360
+          }
+        ]
+      }
+    ],
+    "subtotal_gc": 633012,
+    "gc_fee_percent": 6.0,
+    "contingency_percent": 4.0
+  }
+}
