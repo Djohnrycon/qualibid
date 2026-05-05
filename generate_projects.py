@@ -48,23 +48,46 @@ BASE_TRADES = [
     {"trade":"Site Utilities (Water, Sewer, Storm, Gas)","csi":"33 00 00","low":2.00,"mid":2.80,"high":3.60,"excl_risk":"Underground fire line","type_weights":{"Medical Office":1.1,"Hospital / Healthcare":1.3,"K-12 Education":1.0,"Mixed-Use High-Rise":1.2,"Multifamily Residential":1.1,"Mission-Critical / Data Center":1.3,"Retail / Restaurant":0.9,"Corporate Office":1.0,"Warehouse / Distribution":1.0,"Government / Courthouse":1.0}},
 ]
 
-# ── Regional sub company name pools ──────────────────────────────────────────
-REGIONAL_SUBS = {
-    "Austin, TX":    [("Lone Star","Austin","Capitol","Texas","Pedernales","Barton"),("Electric","Concrete","Mechanical","Roofing","Steel","Interiors","Plumbing","Framing","Systems","Contractors")],
-    "Dallas, TX":    [("Trinity","Metroplex","DFW","Lone Star","Pinnacle","Texas"),("Electric","Concrete","Mechanical","Roofing","Steel","Interiors","Plumbing","Framing","Systems","Contractors")],
-    "Nashville, TN": [("Music City","Cumberland","Tennessee","Volunteer","Predators","Midtown"),("Electric","Concrete","Mechanical","Roofing","Steel","Interiors","Plumbing","Framing","Systems","Contractors")],
-    "Denver, CO":    [("Rocky Mountain","Mile High","Colorado","Summit","Front Range","Alpine"),("Electric","Concrete","Mechanical","Roofing","Steel","Interiors","Plumbing","Framing","Systems","Contractors")],
-    "Phoenix, AZ":   [("Desert","Sun State","Arizona","Cactus","Sonoran","Southwest"),("Electric","Concrete","Mechanical","Roofing","Steel","Interiors","Plumbing","Framing","Systems","Contractors")],
-    "Miami, FL":     [("Atlantic","Coastal","Florida","Brickell","Sunstate","Southeast"),("Electric","Concrete","Mechanical","Roofing","Steel","Interiors","Plumbing","Framing","Systems","Contractors")],
-    "Houston, TX":   [("Gulf Coast","Bayou City","Houston","Lone Star","Ship Channel","Texas"),("Electric","Concrete","Mechanical","Roofing","Steel","Interiors","Plumbing","Framing","Systems","Contractors")],
-    "Seattle, WA":   [("Cascade","Pacific NW","Puget Sound","Emerald City","Olympic","Northwest"),("Electric","Concrete","Mechanical","Roofing","Steel","Interiors","Plumbing","Framing","Systems","Contractors")],
-    "Atlanta, GA":   [("Peachtree","Georgia","Southern","Atlanta","Piedmont","Buckhead"),("Electric","Concrete","Mechanical","Roofing","Steel","Interiors","Plumbing","Framing","Systems","Contractors")],
-    "Chicago, IL":   [("Windy City","Great Lakes","Midwest","Chicago","Prairie","Lakefront"),("Electric","Concrete","Mechanical","Roofing","Steel","Interiors","Plumbing","Framing","Systems","Contractors")],
-}
-
-CONTACTS_FIRST = ["Mike","Sandra","Dave","Angela","Tom","Linda","Bill","Priya","Rob","Lisa","James","Maria","Kevin","Beth","Rick","Ed","Carl","Pete","Sam","Walt"]
-CONTACTS_LAST  = ["Torres","Reeves","Kim","Cruz","Brady","Garza","Torres","Nair","Flores","Chang","Brown","Valdez","Walsh","Adams","Simmons","Turner","Johnson","Adams","Rivera","Burns"]
-SOURCES = ["PDF","Excel","Email"]
+# ── Fixed contractor roster ──────────────────────────────────────────────────
+# Three contractors bid every trade on every project. Tiers drive bid behavior:
+#   strong         → premium pricing, zero exclusions, no post-bid revisions
+#   marginal       → mid-market pricing, 1-2 exclusions, occasional post-bid update
+#   underqualified → low pricing on paper, several exclusions that mask true cost
+CONTRACTORS = [
+    {
+        "slug": "lone_star_healthcare",
+        "name": "Lone Star Healthcare Construction, LLC",
+        "contact": "Reagan Castillo",
+        "email": "rcastillo@lonestarhealthcare.com",
+        "tier": "strong",
+        "bid_modifier": 1.04,
+        "excl_count": 0,
+        "source": "PDF",
+        "submitted_date": "2024-04-18",
+    },
+    {
+        "slug": "capitol_commercial",
+        "name": "Capitol Commercial Builders",
+        "contact": "Jordan Walsh",
+        "email": "jwalsh@capitolcommercial.com",
+        "tier": "marginal",
+        "bid_modifier": 0.96,
+        "excl_count": 2,
+        "source": "Excel",
+        "submitted_date": "2024-04-19",
+    },
+    {
+        "slug": "pedernales_custom",
+        "name": "Pedernales Custom Homes & Renovations, Inc.",
+        "contact": "Wyatt Burnham",
+        "email": "wburnham@pedernalescustom.com",
+        "tier": "underqualified",
+        "bid_modifier": 0.78,
+        "excl_count": 3,
+        "source": "Email",
+        "submitted_date": "2024-04-20",
+    },
+]
 
 POST_BID_TEMPLATES = [
     ("We can include {scope} for an additional ${delta:,}. Revised total would be ${revised:,}.","RE: {proj} - {scope} Add"),
@@ -72,24 +95,13 @@ POST_BID_TEMPLATES = [
     ("Per our conversation this morning: {scope} can be added for ${delta:,}. New total is ${revised:,}.","RE: {proj} - {scope} Scope Add"),
 ]
 
-def sub_name(location, idx):
-    pool = REGIONAL_SUBS.get(location, REGIONAL_SUBS["Austin, TX"])
-    return f"{pool[0][idx % len(pool[0])]} {pool[1][idx % len(pool[1])]}"
-
-def sub_email(name):
-    return name.lower().replace(" ", "") + "@contractor.com"
-
-def contact(idx):
-    return f"{CONTACTS_FIRST[idx % len(CONTACTS_FIRST)]} {CONTACTS_LAST[idx % len(CONTACTS_LAST)]}"
-
 def round_k(val, k=5000):
     return round(val / k) * k
 
-def make_bid(trade_def, proj, sub_idx, total, excl_count, source, has_update=False):
+def make_bid(trade_def, proj, contractor, base_total, has_update=False):
     excl_risk = trade_def["excl_risk"]
-    n = sub_name(proj["location"], sub_idx + hash(trade_def["trade"]) % 6)
-    c = contact(sub_idx + hash(trade_def["trade"]) % 20)
-    base = total
+    excl_count = contractor["excl_count"]
+    total = max(round_k(base_total * contractor["bid_modifier"] * random.uniform(0.97, 1.04)), 0)
     update_delta = round_k(total * 0.07)
 
     exclusions = []
@@ -97,15 +109,17 @@ def make_bid(trade_def, proj, sub_idx, total, excl_count, source, has_update=Fal
         exclusions.append(f"{excl_risk} - NOT IN CONTRACT")
     if excl_count >= 2:
         exclusions.append("Extended warranty (by owner)")
+    if excl_count >= 3:
+        exclusions.append("Specialty subcontractors and engineered systems (separate quote)")
 
     post_bid_updates = []
     if has_update and excl_count >= 1:
-        revised = base + update_delta
+        revised = total + update_delta
         tmpl = random.choice(POST_BID_TEMPLATES)
         post_bid_updates.append({
-            "update_id": f"{trade_def['csi'][:2]}-U1",
+            "update_id": f"{trade_def['csi'][:2]}-{contractor['slug'][:3].upper()}-U1",
             "date": "2024-04-28",
-            "from": f"{c} <{sub_email(n)}>",
+            "from": f"{contractor['contact']} <{contractor['email']}>",
             "subject": tmpl[1].format(proj=proj["name"], scope=excl_risk),
             "body": tmpl[0].format(scope=excl_risk, delta=update_delta, revised=revised),
             "revised_total": revised,
@@ -114,20 +128,20 @@ def make_bid(trade_def, proj, sub_idx, total, excl_count, source, has_update=Fal
         })
 
     num_items = random.randint(3, 6)
-    amounts = [round_k(base / num_items * (0.8 + random.random() * 0.4)) for _ in range(num_items - 1)]
-    amounts.append(max(round_k(base - sum(amounts)), 0))
+    amounts = [round_k(total / num_items * (0.8 + random.random() * 0.4)) for _ in range(num_items - 1)]
+    amounts.append(max(round_k(total - sum(amounts)), 0))
     items = [{"description": f"{trade_def['trade']} - component {i+1}", "amount": a} for i, a in enumerate(amounts) if a > 0]
     if not items:
-        items = [{"description": f"Complete {trade_def['trade']} scope", "amount": base}]
+        items = [{"description": f"Complete {trade_def['trade']} scope", "amount": total}]
 
     return {
-        "sub_id": f"{trade_def['csi'][:2]}-S{sub_idx+1}",
-        "company": n,
-        "contact": c,
-        "email": sub_email(n),
-        "source": source,
-        "submitted_date": f"2024-04-{18 + sub_idx}",
-        "base_bid": base,
+        "sub_id": f"{trade_def['csi'][:2]}-{contractor['slug']}",
+        "company": contractor["name"],
+        "contact": contractor["contact"],
+        "email": contractor["email"],
+        "source": contractor["source"],
+        "submitted_date": contractor["submitted_date"],
+        "base_bid": total,
         "line_items": items,
         "exclusions": exclusions,
         "inclusions": ["All labor, material, and permits per contract documents"],
@@ -138,20 +152,15 @@ def make_bid(trade_def, proj, sub_idx, total, excl_count, source, has_update=Fal
 def make_trade(trade_def, proj):
     tw = trade_def["type_weights"].get(proj["type"], 1.0)
     mid_psf = trade_def["mid"] * tw * proj["loc_factor"] * proj["type_mult"]
-    low_psf  = trade_def["low"]  * tw * proj["loc_factor"] * proj["type_mult"]
-    high_psf = trade_def["high"] * tw * proj["loc_factor"] * proj["type_mult"]
     sf = proj["size_sf"]
+    base_total = round_k(mid_psf * sf)
 
-    t1 = round_k(mid_psf  * sf * random.uniform(1.02, 1.10))
-    t2 = round_k(low_psf  * sf * random.uniform(0.88, 0.96))
-    t3 = round_k(high_psf * sf * random.uniform(1.00, 1.08))
-
+    # Only the marginal contractor (Capitol Commercial) gets occasional post-bid revisions.
     has_update = random.random() < 0.35
-    bids = [
-        make_bid(trade_def, proj, 0, t1, 0, "PDF"),
-        make_bid(trade_def, proj, 1, t2, random.choice([1, 2]), "Excel", has_update=has_update),
-        make_bid(trade_def, proj, 2, t3, 0, "Email"),
-    ]
+    bids = []
+    for contractor in CONTRACTORS:
+        send_update = has_update and contractor["tier"] == "marginal"
+        bids.append(make_bid(trade_def, proj, contractor, base_total, has_update=send_update))
     return {
         "trade": trade_def["trade"],
         "csi_code": trade_def["csi"],

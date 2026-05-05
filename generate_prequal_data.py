@@ -1634,7 +1634,9 @@ def main():
         render_rfp(project, rfp_path)
         total_pdfs += 1
 
-        for c in CONTRACTORS[project["id"]]:
+        # Use the same 3 contractors (Capitol Commercial, Lone Star Healthcare,
+        # Pedernales Custom) for every project so the app shows a single roster end-to-end.
+        for c in CONTRACTORS["p01"]:
             c_dir = proj_dir / c["slug"]
             c_dir.mkdir(parents=True, exist_ok=True)
             print(f"  - {c['slug']} ({c['tier']})")

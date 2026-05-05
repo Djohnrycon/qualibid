@@ -13,25 +13,25 @@
         "csi_code": "02 40 00",
         "bids": [
           {
-            "sub_id": "02-S1",
-            "company": "Texas Interiors",
-            "contact": "Pete Adams",
-            "email": "texasinteriors@contractor.com",
+            "sub_id": "02-lone_star_healthcare",
+            "company": "Lone Star Healthcare Construction, LLC",
+            "contact": "Reagan Castillo",
+            "email": "rcastillo@lonestarhealthcare.com",
             "source": "PDF",
             "submitted_date": "2024-04-18",
-            "base_bid": 525000,
+            "base_bid": 510000,
             "line_items": [
               {
                 "description": "Demolition & Site Clearing - component 1",
-                "amount": 105000
+                "amount": 95000
               },
               {
                 "description": "Demolition & Site Clearing - component 2",
-                "amount": 110000
+                "amount": 100000
               },
               {
                 "description": "Demolition & Site Clearing - component 3",
-                "amount": 100000
+                "amount": 110000
               },
               {
                 "description": "Demolition & Site Clearing - component 4",
@@ -39,7 +39,7 @@
               },
               {
                 "description": "Demolition & Site Clearing - component 5",
-                "amount": 95000
+                "amount": 90000
               }
             ],
             "exclusions": [],
@@ -50,67 +50,83 @@
             "post_bid_updates": []
           },
           {
-            "sub_id": "02-S2",
-            "company": "Trinity Plumbing",
-            "contact": "Sam Rivera",
-            "email": "trinityplumbing@contractor.com",
+            "sub_id": "02-capitol_commercial",
+            "company": "Capitol Commercial Builders",
+            "contact": "Jordan Walsh",
+            "email": "jwalsh@capitolcommercial.com",
             "source": "Excel",
             "submitted_date": "2024-04-19",
-            "base_bid": 305000,
+            "base_bid": 480000,
             "line_items": [
               {
                 "description": "Demolition & Site Clearing - component 1",
-                "amount": 75000
-              },
-              {
-                "description": "Demolition & Site Clearing - component 2",
-                "amount": 90000
-              },
-              {
-                "description": "Demolition & Site Clearing - component 3",
-                "amount": 80000
-              },
-              {
-                "description": "Demolition & Site Clearing - component 4",
-                "amount": 60000
-              }
-            ],
-            "exclusions": [
-              "Hazardous material abatement - NOT IN CONTRACT"
-            ],
-            "inclusions": [
-              "All labor, material, and permits per contract documents"
-            ],
-            "notes": "Bid per One Arts District Tower drawings issued 03/15/2024.",
-            "post_bid_updates": []
-          },
-          {
-            "sub_id": "02-S3",
-            "company": "Metroplex Framing",
-            "contact": "Walt Burns",
-            "email": "metroplexframing@contractor.com",
-            "source": "Email",
-            "submitted_date": "2024-04-20",
-            "base_bid": 805000,
-            "line_items": [
-              {
-                "description": "Demolition & Site Clearing - component 1",
-                "amount": 210000
-              },
-              {
-                "description": "Demolition & Site Clearing - component 2",
                 "amount": 185000
               },
               {
+                "description": "Demolition & Site Clearing - component 2",
+                "amount": 145000
+              },
+              {
                 "description": "Demolition & Site Clearing - component 3",
-                "amount": 205000
+                "amount": 150000
+              }
+            ],
+            "exclusions": [
+              "Hazardous material abatement - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per One Arts District Tower drawings issued 03/15/2024.",
+            "post_bid_updates": [
+              {
+                "update_id": "02-CAP-U1",
+                "date": "2024-04-28",
+                "from": "Jordan Walsh <jwalsh@capitolcommercial.com>",
+                "subject": "RE: One Arts District Tower - Hazardous material abatement Add",
+                "body": "We can include Hazardous material abatement for an additional $35,000. Revised total would be $515,000.",
+                "revised_total": 515000,
+                "delta": 35000,
+                "scope_added": "Hazardous material abatement"
+              }
+            ]
+          },
+          {
+            "sub_id": "02-pedernales_custom",
+            "company": "Pedernales Custom Homes & Renovations, Inc.",
+            "contact": "Wyatt Burnham",
+            "email": "wburnham@pedernalescustom.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 400000,
+            "line_items": [
+              {
+                "description": "Demolition & Site Clearing - component 1",
+                "amount": 65000
+              },
+              {
+                "description": "Demolition & Site Clearing - component 2",
+                "amount": 85000
+              },
+              {
+                "description": "Demolition & Site Clearing - component 3",
+                "amount": 75000
               },
               {
                 "description": "Demolition & Site Clearing - component 4",
-                "amount": 205000
+                "amount": 90000
+              },
+              {
+                "description": "Demolition & Site Clearing - component 5",
+                "amount": 85000
               }
             ],
-            "exclusions": [],
+            "exclusions": [
+              "Hazardous material abatement - NOT IN CONTRACT",
+              "Extended warranty (by owner)",
+              "Specialty subcontractors and engineered systems (separate quote)"
+            ],
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
@@ -124,33 +140,25 @@
         "csi_code": "03 00 00",
         "bids": [
           {
-            "sub_id": "03-S1",
-            "company": "Texas Interiors",
-            "contact": "Lisa Chang",
-            "email": "texasinteriors@contractor.com",
+            "sub_id": "03-lone_star_healthcare",
+            "company": "Lone Star Healthcare Construction, LLC",
+            "contact": "Reagan Castillo",
+            "email": "rcastillo@lonestarhealthcare.com",
             "source": "PDF",
             "submitted_date": "2024-04-18",
-            "base_bid": 1875000,
+            "base_bid": 1990000,
             "line_items": [
               {
                 "description": "Concrete - component 1",
-                "amount": 370000
+                "amount": 635000
               },
               {
                 "description": "Concrete - component 2",
-                "amount": 365000
+                "amount": 685000
               },
               {
                 "description": "Concrete - component 3",
-                "amount": 330000
-              },
-              {
-                "description": "Concrete - component 4",
-                "amount": 370000
-              },
-              {
-                "description": "Concrete - component 5",
-                "amount": 440000
+                "amount": 670000
               }
             ],
             "exclusions": [],
@@ -161,29 +169,42 @@
             "post_bid_updates": []
           },
           {
-            "sub_id": "03-S2",
-            "company": "Trinity Plumbing",
-            "contact": "James Brown",
-            "email": "trinityplumbing@contractor.com",
+            "sub_id": "03-capitol_commercial",
+            "company": "Capitol Commercial Builders",
+            "contact": "Jordan Walsh",
+            "email": "jwalsh@capitolcommercial.com",
             "source": "Excel",
             "submitted_date": "2024-04-19",
-            "base_bid": 1310000,
+            "base_bid": 1745000,
             "line_items": [
               {
                 "description": "Concrete - component 1",
-                "amount": 400000
+                "amount": 235000
               },
               {
                 "description": "Concrete - component 2",
-                "amount": 465000
+                "amount": 340000
               },
               {
                 "description": "Concrete - component 3",
-                "amount": 445000
+                "amount": 295000
+              },
+              {
+                "description": "Concrete - component 4",
+                "amount": 315000
+              },
+              {
+                "description": "Concrete - component 5",
+                "amount": 320000
+              },
+              {
+                "description": "Concrete - component 6",
+                "amount": 240000
               }
             ],
             "exclusions": [
-              "Vapor barrier and underslab insulation - NOT IN CONTRACT"
+              "Vapor barrier and underslab insulation - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
             ],
             "inclusions": [
               "All labor, material, and permits per contract documents"
@@ -192,36 +213,40 @@
             "post_bid_updates": []
           },
           {
-            "sub_id": "03-S3",
-            "company": "Metroplex Framing",
-            "contact": "Maria Valdez",
-            "email": "metroplexframing@contractor.com",
+            "sub_id": "03-pedernales_custom",
+            "company": "Pedernales Custom Homes & Renovations, Inc.",
+            "contact": "Wyatt Burnham",
+            "email": "wburnham@pedernalescustom.com",
             "source": "Email",
             "submitted_date": "2024-04-20",
-            "base_bid": 2500000,
+            "base_bid": 1460000,
             "line_items": [
               {
                 "description": "Concrete - component 1",
-                "amount": 420000
+                "amount": 285000
               },
               {
                 "description": "Concrete - component 2",
-                "amount": 590000
+                "amount": 345000
               },
               {
                 "description": "Concrete - component 3",
-                "amount": 445000
+                "amount": 340000
               },
               {
                 "description": "Concrete - component 4",
-                "amount": 460000
+                "amount": 305000
               },
               {
                 "description": "Concrete - component 5",
-                "amount": 585000
+                "amount": 185000
               }
             ],
-            "exclusions": [],
+            "exclusions": [
+              "Vapor barrier and underslab insulation - NOT IN CONTRACT",
+              "Extended warranty (by owner)",
+              "Specialty subcontractors and engineered systems (separate quote)"
+            ],
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
@@ -235,70 +260,71 @@
         "csi_code": "04 00 00",
         "bids": [
           {
-            "sub_id": "04-S1",
-            "company": "Lone Star Roofing",
-            "contact": "Angela Cruz",
-            "email": "lonestarroofing@contractor.com",
+            "sub_id": "04-lone_star_healthcare",
+            "company": "Lone Star Healthcare Construction, LLC",
+            "contact": "Reagan Castillo",
+            "email": "rcastillo@lonestarhealthcare.com",
             "source": "PDF",
             "submitted_date": "2024-04-18",
-            "base_bid": 590000,
+            "base_bid": 550000,
             "line_items": [
               {
                 "description": "Masonry - component 1",
-                "amount": 195000
+                "amount": 110000
               },
               {
                 "description": "Masonry - component 2",
-                "amount": 225000
+                "amount": 115000
               },
               {
                 "description": "Masonry - component 3",
-                "amount": 170000
-              }
-            ],
-            "exclusions": [],
-            "inclusions": [
-              "All labor, material, and permits per contract documents"
-            ],
-            "notes": "Bid per One Arts District Tower drawings issued 03/15/2024.",
-            "post_bid_updates": []
-          },
-          {
-            "sub_id": "04-S2",
-            "company": "Pinnacle Steel",
-            "contact": "Tom Brady",
-            "email": "pinnaclesteel@contractor.com",
-            "source": "Excel",
-            "submitted_date": "2024-04-19",
-            "base_bid": 345000,
-            "line_items": [
-              {
-                "description": "Masonry - component 1",
-                "amount": 55000
-              },
-              {
-                "description": "Masonry - component 2",
-                "amount": 50000
-              },
-              {
-                "description": "Masonry - component 3",
-                "amount": 60000
+                "amount": 100000
               },
               {
                 "description": "Masonry - component 4",
-                "amount": 45000
+                "amount": 120000
               },
               {
                 "description": "Masonry - component 5",
-                "amount": 65000
+                "amount": 105000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per One Arts District Tower drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "04-capitol_commercial",
+            "company": "Capitol Commercial Builders",
+            "contact": "Jordan Walsh",
+            "email": "jwalsh@capitolcommercial.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 525000,
+            "line_items": [
+              {
+                "description": "Masonry - component 1",
+                "amount": 125000
               },
               {
-                "description": "Masonry - component 6",
-                "amount": 70000
+                "description": "Masonry - component 2",
+                "amount": 155000
+              },
+              {
+                "description": "Masonry - component 3",
+                "amount": 140000
+              },
+              {
+                "description": "Masonry - component 4",
+                "amount": 105000
               }
             ],
             "exclusions": [
-              "CMU backup wall - NOT IN CONTRACT"
+              "CMU backup wall - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
             ],
             "inclusions": [
               "All labor, material, and permits per contract documents"
@@ -307,28 +333,40 @@
             "post_bid_updates": []
           },
           {
-            "sub_id": "04-S3",
-            "company": "Texas Interiors",
-            "contact": "Linda Garza",
-            "email": "texasinteriors@contractor.com",
+            "sub_id": "04-pedernales_custom",
+            "company": "Pedernales Custom Homes & Renovations, Inc.",
+            "contact": "Wyatt Burnham",
+            "email": "wburnham@pedernalescustom.com",
             "source": "Email",
             "submitted_date": "2024-04-20",
-            "base_bid": 725000,
+            "base_bid": 435000,
             "line_items": [
               {
                 "description": "Masonry - component 1",
-                "amount": 270000
+                "amount": 85000
               },
               {
                 "description": "Masonry - component 2",
-                "amount": 215000
+                "amount": 100000
               },
               {
                 "description": "Masonry - component 3",
-                "amount": 240000
+                "amount": 80000
+              },
+              {
+                "description": "Masonry - component 4",
+                "amount": 75000
+              },
+              {
+                "description": "Masonry - component 5",
+                "amount": 95000
               }
             ],
-            "exclusions": [],
+            "exclusions": [
+              "CMU backup wall - NOT IN CONTRACT",
+              "Extended warranty (by owner)",
+              "Specialty subcontractors and engineered systems (separate quote)"
+            ],
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
@@ -342,25 +380,33 @@
         "csi_code": "05 00 00",
         "bids": [
           {
-            "sub_id": "05-S1",
-            "company": "Pinnacle Steel",
-            "contact": "Rick Simmons",
-            "email": "pinnaclesteel@contractor.com",
+            "sub_id": "05-lone_star_healthcare",
+            "company": "Lone Star Healthcare Construction, LLC",
+            "contact": "Reagan Castillo",
+            "email": "rcastillo@lonestarhealthcare.com",
             "source": "PDF",
             "submitted_date": "2024-04-18",
-            "base_bid": 3275000,
+            "base_bid": 3180000,
             "line_items": [
               {
                 "description": "Structural Steel & Misc Metals - component 1",
-                "amount": 1075000
+                "amount": 625000
               },
               {
                 "description": "Structural Steel & Misc Metals - component 2",
-                "amount": 1225000
+                "amount": 620000
               },
               {
                 "description": "Structural Steel & Misc Metals - component 3",
-                "amount": 975000
+                "amount": 565000
+              },
+              {
+                "description": "Structural Steel & Misc Metals - component 4",
+                "amount": 630000
+              },
+              {
+                "description": "Structural Steel & Misc Metals - component 5",
+                "amount": 740000
               }
             ],
             "exclusions": [],
@@ -371,37 +417,29 @@
             "post_bid_updates": []
           },
           {
-            "sub_id": "05-S2",
-            "company": "Texas Interiors",
-            "contact": "Ed Turner",
-            "email": "texasinteriors@contractor.com",
+            "sub_id": "05-capitol_commercial",
+            "company": "Capitol Commercial Builders",
+            "contact": "Jordan Walsh",
+            "email": "jwalsh@capitolcommercial.com",
             "source": "Excel",
             "submitted_date": "2024-04-19",
-            "base_bid": 2175000,
+            "base_bid": 2995000,
             "line_items": [
               {
                 "description": "Structural Steel & Misc Metals - component 1",
-                "amount": 380000
+                "amount": 795000
               },
               {
                 "description": "Structural Steel & Misc Metals - component 2",
-                "amount": 395000
+                "amount": 685000
               },
               {
                 "description": "Structural Steel & Misc Metals - component 3",
-                "amount": 365000
+                "amount": 800000
               },
               {
                 "description": "Structural Steel & Misc Metals - component 4",
-                "amount": 410000
-              },
-              {
-                "description": "Structural Steel & Misc Metals - component 5",
-                "amount": 370000
-              },
-              {
-                "description": "Structural Steel & Misc Metals - component 6",
-                "amount": 255000
+                "amount": 715000
               }
             ],
             "exclusions": [
@@ -415,32 +453,32 @@
             "post_bid_updates": []
           },
           {
-            "sub_id": "05-S3",
-            "company": "Trinity Plumbing",
-            "contact": "Carl Johnson",
-            "email": "trinityplumbing@contractor.com",
+            "sub_id": "05-pedernales_custom",
+            "company": "Pedernales Custom Homes & Renovations, Inc.",
+            "contact": "Wyatt Burnham",
+            "email": "wburnham@pedernalescustom.com",
             "source": "Email",
             "submitted_date": "2024-04-20",
-            "base_bid": 3915000,
+            "base_bid": 2385000,
             "line_items": [
               {
                 "description": "Structural Steel & Misc Metals - component 1",
-                "amount": 1075000
+                "amount": 895000
               },
               {
                 "description": "Structural Steel & Misc Metals - component 2",
-                "amount": 970000
+                "amount": 875000
               },
               {
                 "description": "Structural Steel & Misc Metals - component 3",
-                "amount": 885000
-              },
-              {
-                "description": "Structural Steel & Misc Metals - component 4",
-                "amount": 985000
+                "amount": 615000
               }
             ],
-            "exclusions": [],
+            "exclusions": [
+              "Miscellaneous metals and embeds - NOT IN CONTRACT",
+              "Extended warranty (by owner)",
+              "Specialty subcontractors and engineered systems (separate quote)"
+            ],
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
@@ -454,29 +492,29 @@
         "csi_code": "07 00 00",
         "bids": [
           {
-            "sub_id": "07-S1",
-            "company": "Metroplex Concrete",
-            "contact": "Maria Valdez",
-            "email": "metroplexconcrete@contractor.com",
+            "sub_id": "07-lone_star_healthcare",
+            "company": "Lone Star Healthcare Construction, LLC",
+            "contact": "Reagan Castillo",
+            "email": "rcastillo@lonestarhealthcare.com",
             "source": "PDF",
             "submitted_date": "2024-04-18",
-            "base_bid": 605000,
+            "base_bid": 595000,
             "line_items": [
               {
                 "description": "Roofing, Waterproofing & Insulation - component 1",
-                "amount": 140000
+                "amount": 130000
               },
               {
                 "description": "Roofing, Waterproofing & Insulation - component 2",
-                "amount": 125000
+                "amount": 120000
               },
               {
                 "description": "Roofing, Waterproofing & Insulation - component 3",
-                "amount": 140000
+                "amount": 180000
               },
               {
                 "description": "Roofing, Waterproofing & Insulation - component 4",
-                "amount": 200000
+                "amount": 165000
               }
             ],
             "exclusions": [],
@@ -487,33 +525,25 @@
             "post_bid_updates": []
           },
           {
-            "sub_id": "07-S2",
-            "company": "DFW Mechanical",
-            "contact": "Kevin Walsh",
-            "email": "dfwmechanical@contractor.com",
+            "sub_id": "07-capitol_commercial",
+            "company": "Capitol Commercial Builders",
+            "contact": "Jordan Walsh",
+            "email": "jwalsh@capitolcommercial.com",
             "source": "Excel",
             "submitted_date": "2024-04-19",
-            "base_bid": 395000,
+            "base_bid": 565000,
             "line_items": [
               {
                 "description": "Roofing, Waterproofing & Insulation - component 1",
-                "amount": 75000
+                "amount": 185000
               },
               {
                 "description": "Roofing, Waterproofing & Insulation - component 2",
-                "amount": 80000
+                "amount": 215000
               },
               {
                 "description": "Roofing, Waterproofing & Insulation - component 3",
-                "amount": 70000
-              },
-              {
-                "description": "Roofing, Waterproofing & Insulation - component 4",
-                "amount": 70000
-              },
-              {
-                "description": "Roofing, Waterproofing & Insulation - component 5",
-                "amount": 100000
+                "amount": 165000
               }
             ],
             "exclusions": [
@@ -527,32 +557,44 @@
             "post_bid_updates": []
           },
           {
-            "sub_id": "07-S3",
-            "company": "Lone Star Roofing",
-            "contact": "Beth Adams",
-            "email": "lonestarroofing@contractor.com",
+            "sub_id": "07-pedernales_custom",
+            "company": "Pedernales Custom Homes & Renovations, Inc.",
+            "contact": "Wyatt Burnham",
+            "email": "wburnham@pedernalescustom.com",
             "source": "Email",
             "submitted_date": "2024-04-20",
-            "base_bid": 820000,
+            "base_bid": 455000,
             "line_items": [
               {
                 "description": "Roofing, Waterproofing & Insulation - component 1",
-                "amount": 220000
+                "amount": 75000
               },
               {
                 "description": "Roofing, Waterproofing & Insulation - component 2",
-                "amount": 170000
+                "amount": 70000
               },
               {
                 "description": "Roofing, Waterproofing & Insulation - component 3",
-                "amount": 195000
+                "amount": 80000
               },
               {
                 "description": "Roofing, Waterproofing & Insulation - component 4",
-                "amount": 235000
+                "amount": 60000
+              },
+              {
+                "description": "Roofing, Waterproofing & Insulation - component 5",
+                "amount": 85000
+              },
+              {
+                "description": "Roofing, Waterproofing & Insulation - component 6",
+                "amount": 85000
               }
             ],
-            "exclusions": [],
+            "exclusions": [
+              "Below-slab waterproofing - NOT IN CONTRACT",
+              "Extended warranty (by owner)",
+              "Specialty subcontractors and engineered systems (separate quote)"
+            ],
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
@@ -566,25 +608,37 @@
         "csi_code": "08 00 00",
         "bids": [
           {
-            "sub_id": "08-S1",
-            "company": "Texas Interiors",
-            "contact": "Angela Cruz",
-            "email": "texasinteriors@contractor.com",
+            "sub_id": "08-lone_star_healthcare",
+            "company": "Lone Star Healthcare Construction, LLC",
+            "contact": "Reagan Castillo",
+            "email": "rcastillo@lonestarhealthcare.com",
             "source": "PDF",
             "submitted_date": "2024-04-18",
-            "base_bid": 1730000,
+            "base_bid": 1650000,
             "line_items": [
               {
                 "description": "Doors, Frames, Hardware & Glazing - component 1",
-                "amount": 660000
+                "amount": 245000
               },
               {
                 "description": "Doors, Frames, Hardware & Glazing - component 2",
-                "amount": 640000
+                "amount": 310000
               },
               {
                 "description": "Doors, Frames, Hardware & Glazing - component 3",
-                "amount": 430000
+                "amount": 295000
+              },
+              {
+                "description": "Doors, Frames, Hardware & Glazing - component 4",
+                "amount": 270000
+              },
+              {
+                "description": "Doors, Frames, Hardware & Glazing - component 5",
+                "amount": 280000
+              },
+              {
+                "description": "Doors, Frames, Hardware & Glazing - component 6",
+                "amount": 250000
               }
             ],
             "exclusions": [],
@@ -595,37 +649,25 @@
             "post_bid_updates": []
           },
           {
-            "sub_id": "08-S2",
-            "company": "Trinity Plumbing",
-            "contact": "Tom Brady",
-            "email": "trinityplumbing@contractor.com",
+            "sub_id": "08-capitol_commercial",
+            "company": "Capitol Commercial Builders",
+            "contact": "Jordan Walsh",
+            "email": "jwalsh@capitolcommercial.com",
             "source": "Excel",
             "submitted_date": "2024-04-19",
-            "base_bid": 1155000,
+            "base_bid": 1615000,
             "line_items": [
               {
                 "description": "Doors, Frames, Hardware & Glazing - component 1",
-                "amount": 155000
+                "amount": 530000
               },
               {
                 "description": "Doors, Frames, Hardware & Glazing - component 2",
-                "amount": 180000
+                "amount": 605000
               },
               {
                 "description": "Doors, Frames, Hardware & Glazing - component 3",
-                "amount": 210000
-              },
-              {
-                "description": "Doors, Frames, Hardware & Glazing - component 4",
-                "amount": 220000
-              },
-              {
-                "description": "Doors, Frames, Hardware & Glazing - component 5",
-                "amount": 225000
-              },
-              {
-                "description": "Doors, Frames, Hardware & Glazing - component 6",
-                "amount": 165000
+                "amount": 480000
               }
             ],
             "exclusions": [
@@ -639,40 +681,40 @@
             "post_bid_updates": []
           },
           {
-            "sub_id": "08-S3",
-            "company": "Metroplex Framing",
-            "contact": "Linda Garza",
-            "email": "metroplexframing@contractor.com",
+            "sub_id": "08-pedernales_custom",
+            "company": "Pedernales Custom Homes & Renovations, Inc.",
+            "contact": "Wyatt Burnham",
+            "email": "wburnham@pedernalescustom.com",
             "source": "Email",
             "submitted_date": "2024-04-20",
-            "base_bid": 2205000,
+            "base_bid": 1290000,
             "line_items": [
               {
                 "description": "Doors, Frames, Hardware & Glazing - component 1",
-                "amount": 375000
+                "amount": 305000
               },
               {
                 "description": "Doors, Frames, Hardware & Glazing - component 2",
-                "amount": 400000
+                "amount": 300000
               },
               {
                 "description": "Doors, Frames, Hardware & Glazing - component 3",
-                "amount": 410000
+                "amount": 270000
               },
               {
                 "description": "Doors, Frames, Hardware & Glazing - component 4",
-                "amount": 425000
+                "amount": 280000
               },
               {
                 "description": "Doors, Frames, Hardware & Glazing - component 5",
-                "amount": 365000
-              },
-              {
-                "description": "Doors, Frames, Hardware & Glazing - component 6",
-                "amount": 230000
+                "amount": 135000
               }
             ],
-            "exclusions": [],
+            "exclusions": [
+              "Storefront glazing system - NOT IN CONTRACT",
+              "Extended warranty (by owner)",
+              "Specialty subcontractors and engineered systems (separate quote)"
+            ],
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
@@ -686,37 +728,37 @@
         "csi_code": "09 20 00",
         "bids": [
           {
-            "sub_id": "09-S1",
-            "company": "Lone Star Roofing",
-            "contact": "Pete Adams",
-            "email": "lonestarroofing@contractor.com",
+            "sub_id": "09-lone_star_healthcare",
+            "company": "Lone Star Healthcare Construction, LLC",
+            "contact": "Reagan Castillo",
+            "email": "rcastillo@lonestarhealthcare.com",
             "source": "PDF",
             "submitted_date": "2024-04-18",
-            "base_bid": 970000,
+            "base_bid": 995000,
             "line_items": [
               {
                 "description": "Drywall & Framing - component 1",
-                "amount": 175000
-              },
-              {
-                "description": "Drywall & Framing - component 2",
-                "amount": 185000
-              },
-              {
-                "description": "Drywall & Framing - component 3",
                 "amount": 190000
               },
               {
-                "description": "Drywall & Framing - component 4",
-                "amount": 195000
+                "description": "Drywall & Framing - component 2",
+                "amount": 180000
               },
               {
-                "description": "Drywall & Framing - component 5",
+                "description": "Drywall & Framing - component 3",
                 "amount": 165000
               },
               {
+                "description": "Drywall & Framing - component 4",
+                "amount": 150000
+              },
+              {
+                "description": "Drywall & Framing - component 5",
+                "amount": 150000
+              },
+              {
                 "description": "Drywall & Framing - component 6",
-                "amount": 60000
+                "amount": 160000
               }
             ],
             "exclusions": [],
@@ -727,25 +769,37 @@
             "post_bid_updates": []
           },
           {
-            "sub_id": "09-S2",
-            "company": "Pinnacle Steel",
-            "contact": "Sam Rivera",
-            "email": "pinnaclesteel@contractor.com",
+            "sub_id": "09-capitol_commercial",
+            "company": "Capitol Commercial Builders",
+            "contact": "Jordan Walsh",
+            "email": "jwalsh@capitolcommercial.com",
             "source": "Excel",
             "submitted_date": "2024-04-19",
-            "base_bid": 640000,
+            "base_bid": 905000,
             "line_items": [
               {
                 "description": "Drywall & Framing - component 1",
-                "amount": 180000
+                "amount": 160000
               },
               {
                 "description": "Drywall & Framing - component 2",
-                "amount": 205000
+                "amount": 135000
               },
               {
                 "description": "Drywall & Framing - component 3",
-                "amount": 255000
+                "amount": 125000
+              },
+              {
+                "description": "Drywall & Framing - component 4",
+                "amount": 140000
+              },
+              {
+                "description": "Drywall & Framing - component 5",
+                "amount": 135000
+              },
+              {
+                "description": "Drywall & Framing - component 6",
+                "amount": 210000
               }
             ],
             "exclusions": [
@@ -759,40 +813,32 @@
             "post_bid_updates": []
           },
           {
-            "sub_id": "09-S3",
-            "company": "Texas Interiors",
-            "contact": "Walt Burns",
-            "email": "texasinteriors@contractor.com",
+            "sub_id": "09-pedernales_custom",
+            "company": "Pedernales Custom Homes & Renovations, Inc.",
+            "contact": "Wyatt Burnham",
+            "email": "wburnham@pedernalescustom.com",
             "source": "Email",
             "submitted_date": "2024-04-20",
-            "base_bid": 1275000,
+            "base_bid": 720000,
             "line_items": [
               {
                 "description": "Drywall & Framing - component 1",
-                "amount": 185000
+                "amount": 205000
               },
               {
                 "description": "Drywall & Framing - component 2",
-                "amount": 190000
+                "amount": 215000
               },
               {
                 "description": "Drywall & Framing - component 3",
-                "amount": 200000
-              },
-              {
-                "description": "Drywall & Framing - component 4",
-                "amount": 210000
-              },
-              {
-                "description": "Drywall & Framing - component 5",
-                "amount": 200000
-              },
-              {
-                "description": "Drywall & Framing - component 6",
-                "amount": 290000
+                "amount": 300000
               }
             ],
-            "exclusions": [],
+            "exclusions": [
+              "Shaft wall assemblies - NOT IN CONTRACT",
+              "Extended warranty (by owner)",
+              "Specialty subcontractors and engineered systems (separate quote)"
+            ],
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
@@ -806,25 +852,25 @@
         "csi_code": "09 60 00",
         "bids": [
           {
-            "sub_id": "09-S1",
-            "company": "Metroplex Concrete",
-            "contact": "Angela Cruz",
-            "email": "metroplexconcrete@contractor.com",
+            "sub_id": "09-lone_star_healthcare",
+            "company": "Lone Star Healthcare Construction, LLC",
+            "contact": "Reagan Castillo",
+            "email": "rcastillo@lonestarhealthcare.com",
             "source": "PDF",
             "submitted_date": "2024-04-18",
-            "base_bid": 1240000,
+            "base_bid": 1205000,
             "line_items": [
               {
                 "description": "Flooring - component 1",
-                "amount": 410000
+                "amount": 390000
               },
               {
                 "description": "Flooring - component 2",
-                "amount": 455000
+                "amount": 375000
               },
               {
                 "description": "Flooring - component 3",
-                "amount": 375000
+                "amount": 440000
               }
             ],
             "exclusions": [],
@@ -835,37 +881,30 @@
             "post_bid_updates": []
           },
           {
-            "sub_id": "09-S2",
-            "company": "DFW Mechanical",
-            "contact": "Tom Brady",
-            "email": "dfwmechanical@contractor.com",
+            "sub_id": "09-capitol_commercial",
+            "company": "Capitol Commercial Builders",
+            "contact": "Jordan Walsh",
+            "email": "jwalsh@capitolcommercial.com",
             "source": "Excel",
             "submitted_date": "2024-04-19",
-            "base_bid": 800000,
+            "base_bid": 1090000,
             "line_items": [
               {
                 "description": "Flooring - component 1",
-                "amount": 140000
+                "amount": 320000
               },
               {
                 "description": "Flooring - component 2",
-                "amount": 130000
+                "amount": 350000
               },
               {
                 "description": "Flooring - component 3",
-                "amount": 190000
-              },
-              {
-                "description": "Flooring - component 4",
-                "amount": 130000
-              },
-              {
-                "description": "Flooring - component 5",
-                "amount": 210000
+                "amount": 420000
               }
             ],
             "exclusions": [
-              "Specialty sheet vinyl in procedure rooms - NOT IN CONTRACT"
+              "Specialty sheet vinyl in procedure rooms - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
             ],
             "inclusions": [
               "All labor, material, and permits per contract documents"
@@ -874,28 +913,32 @@
             "post_bid_updates": []
           },
           {
-            "sub_id": "09-S3",
-            "company": "Lone Star Roofing",
-            "contact": "Linda Garza",
-            "email": "lonestarroofing@contractor.com",
+            "sub_id": "09-pedernales_custom",
+            "company": "Pedernales Custom Homes & Renovations, Inc.",
+            "contact": "Wyatt Burnham",
+            "email": "wburnham@pedernalescustom.com",
             "source": "Email",
             "submitted_date": "2024-04-20",
-            "base_bid": 1605000,
+            "base_bid": 915000,
             "line_items": [
               {
                 "description": "Flooring - component 1",
-                "amount": 630000
+                "amount": 350000
               },
               {
                 "description": "Flooring - component 2",
-                "amount": 470000
+                "amount": 335000
               },
               {
                 "description": "Flooring - component 3",
-                "amount": 505000
+                "amount": 230000
               }
             ],
-            "exclusions": [],
+            "exclusions": [
+              "Specialty sheet vinyl in procedure rooms - NOT IN CONTRACT",
+              "Extended warranty (by owner)",
+              "Specialty subcontractors and engineered systems (separate quote)"
+            ],
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
@@ -909,104 +952,117 @@
         "csi_code": "09 90 00",
         "bids": [
           {
-            "sub_id": "09-S1",
-            "company": "Pinnacle Steel",
-            "contact": "Sam Rivera",
-            "email": "pinnaclesteel@contractor.com",
+            "sub_id": "09-lone_star_healthcare",
+            "company": "Lone Star Healthcare Construction, LLC",
+            "contact": "Reagan Castillo",
+            "email": "rcastillo@lonestarhealthcare.com",
             "source": "PDF",
             "submitted_date": "2024-04-18",
-            "base_bid": 460000,
+            "base_bid": 455000,
             "line_items": [
               {
                 "description": "Painting & Wall Coverings - component 1",
-                "amount": 115000
+                "amount": 85000
               },
               {
                 "description": "Painting & Wall Coverings - component 2",
+                "amount": 85000
+              },
+              {
+                "description": "Painting & Wall Coverings - component 3",
                 "amount": 105000
               },
               {
-                "description": "Painting & Wall Coverings - component 3",
-                "amount": 110000
-              },
-              {
                 "description": "Painting & Wall Coverings - component 4",
-                "amount": 130000
-              }
-            ],
-            "exclusions": [],
-            "inclusions": [
-              "All labor, material, and permits per contract documents"
-            ],
-            "notes": "Bid per One Arts District Tower drawings issued 03/15/2024.",
-            "post_bid_updates": []
-          },
-          {
-            "sub_id": "09-S2",
-            "company": "Texas Interiors",
-            "contact": "Walt Burns",
-            "email": "texasinteriors@contractor.com",
-            "source": "Excel",
-            "submitted_date": "2024-04-19",
-            "base_bid": 290000,
-            "line_items": [
-              {
-                "description": "Painting & Wall Coverings - component 1",
-                "amount": 85000
-              },
-              {
-                "description": "Painting & Wall Coverings - component 2",
-                "amount": 60000
-              },
-              {
-                "description": "Painting & Wall Coverings - component 3",
-                "amount": 60000
-              },
-              {
-                "description": "Painting & Wall Coverings - component 4",
-                "amount": 85000
-              }
-            ],
-            "exclusions": [
-              "Exterior painting - NOT IN CONTRACT"
-            ],
-            "inclusions": [
-              "All labor, material, and permits per contract documents"
-            ],
-            "notes": "Bid per One Arts District Tower drawings issued 03/15/2024.",
-            "post_bid_updates": []
-          },
-          {
-            "sub_id": "09-S3",
-            "company": "Trinity Plumbing",
-            "contact": "Mike Torres",
-            "email": "trinityplumbing@contractor.com",
-            "source": "Email",
-            "submitted_date": "2024-04-20",
-            "base_bid": 585000,
-            "line_items": [
-              {
-                "description": "Painting & Wall Coverings - component 1",
-                "amount": 120000
-              },
-              {
-                "description": "Painting & Wall Coverings - component 2",
-                "amount": 135000
-              },
-              {
-                "description": "Painting & Wall Coverings - component 3",
-                "amount": 110000
-              },
-              {
-                "description": "Painting & Wall Coverings - component 4",
-                "amount": 140000
+                "amount": 105000
               },
               {
                 "description": "Painting & Wall Coverings - component 5",
-                "amount": 80000
+                "amount": 75000
               }
             ],
             "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per One Arts District Tower drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "09-capitol_commercial",
+            "company": "Capitol Commercial Builders",
+            "contact": "Jordan Walsh",
+            "email": "jwalsh@capitolcommercial.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 435000,
+            "line_items": [
+              {
+                "description": "Painting & Wall Coverings - component 1",
+                "amount": 110000
+              },
+              {
+                "description": "Painting & Wall Coverings - component 2",
+                "amount": 100000
+              },
+              {
+                "description": "Painting & Wall Coverings - component 3",
+                "amount": 110000
+              },
+              {
+                "description": "Painting & Wall Coverings - component 4",
+                "amount": 115000
+              }
+            ],
+            "exclusions": [
+              "Exterior painting - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per One Arts District Tower drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "09-pedernales_custom",
+            "company": "Pedernales Custom Homes & Renovations, Inc.",
+            "contact": "Wyatt Burnham",
+            "email": "wburnham@pedernalescustom.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 350000,
+            "line_items": [
+              {
+                "description": "Painting & Wall Coverings - component 1",
+                "amount": 65000
+              },
+              {
+                "description": "Painting & Wall Coverings - component 2",
+                "amount": 65000
+              },
+              {
+                "description": "Painting & Wall Coverings - component 3",
+                "amount": 70000
+              },
+              {
+                "description": "Painting & Wall Coverings - component 4",
+                "amount": 70000
+              },
+              {
+                "description": "Painting & Wall Coverings - component 5",
+                "amount": 60000
+              },
+              {
+                "description": "Painting & Wall Coverings - component 6",
+                "amount": 20000
+              }
+            ],
+            "exclusions": [
+              "Exterior painting - NOT IN CONTRACT",
+              "Extended warranty (by owner)",
+              "Specialty subcontractors and engineered systems (separate quote)"
+            ],
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
@@ -1020,33 +1076,25 @@
         "csi_code": "09 51 00",
         "bids": [
           {
-            "sub_id": "09-S1",
-            "company": "DFW Mechanical",
-            "contact": "Tom Brady",
-            "email": "dfwmechanical@contractor.com",
+            "sub_id": "09-lone_star_healthcare",
+            "company": "Lone Star Healthcare Construction, LLC",
+            "contact": "Reagan Castillo",
+            "email": "rcastillo@lonestarhealthcare.com",
             "source": "PDF",
             "submitted_date": "2024-04-18",
-            "base_bid": 660000,
+            "base_bid": 675000,
             "line_items": [
               {
                 "description": "Acoustical Ceilings (ACT) - component 1",
-                "amount": 150000
+                "amount": 190000
               },
               {
                 "description": "Acoustical Ceilings (ACT) - component 2",
-                "amount": 135000
+                "amount": 220000
               },
               {
                 "description": "Acoustical Ceilings (ACT) - component 3",
-                "amount": 110000
-              },
-              {
-                "description": "Acoustical Ceilings (ACT) - component 4",
-                "amount": 160000
-              },
-              {
-                "description": "Acoustical Ceilings (ACT) - component 5",
-                "amount": 105000
+                "amount": 265000
               }
             ],
             "exclusions": [],
@@ -1057,67 +1105,13 @@
             "post_bid_updates": []
           },
           {
-            "sub_id": "09-S2",
-            "company": "Lone Star Roofing",
-            "contact": "Linda Garza",
-            "email": "lonestarroofing@contractor.com",
+            "sub_id": "09-capitol_commercial",
+            "company": "Capitol Commercial Builders",
+            "contact": "Jordan Walsh",
+            "email": "jwalsh@capitolcommercial.com",
             "source": "Excel",
             "submitted_date": "2024-04-19",
-            "base_bid": 460000,
-            "line_items": [
-              {
-                "description": "Acoustical Ceilings (ACT) - component 1",
-                "amount": 80000
-              },
-              {
-                "description": "Acoustical Ceilings (ACT) - component 2",
-                "amount": 65000
-              },
-              {
-                "description": "Acoustical Ceilings (ACT) - component 3",
-                "amount": 80000
-              },
-              {
-                "description": "Acoustical Ceilings (ACT) - component 4",
-                "amount": 60000
-              },
-              {
-                "description": "Acoustical Ceilings (ACT) - component 5",
-                "amount": 75000
-              },
-              {
-                "description": "Acoustical Ceilings (ACT) - component 6",
-                "amount": 100000
-              }
-            ],
-            "exclusions": [
-              "Gypsum board soffits and clouds - NOT IN CONTRACT"
-            ],
-            "inclusions": [
-              "All labor, material, and permits per contract documents"
-            ],
-            "notes": "Bid per One Arts District Tower drawings issued 03/15/2024.",
-            "post_bid_updates": [
-              {
-                "update_id": "09-U1",
-                "date": "2024-04-28",
-                "from": "Linda Garza <lonestarroofing@contractor.com>",
-                "subject": "RE: One Arts District Tower - Gypsum board soffits and clouds Clarification",
-                "body": "Following up on our call \u2014 we can pick up Gypsum board soffits and clouds for $30,000 additional. Revised total $490,000.",
-                "revised_total": 490000,
-                "delta": 30000,
-                "scope_added": "Gypsum board soffits and clouds"
-              }
-            ]
-          },
-          {
-            "sub_id": "09-S3",
-            "company": "Pinnacle Steel",
-            "contact": "Bill Torres",
-            "email": "pinnaclesteel@contractor.com",
-            "source": "Email",
-            "submitted_date": "2024-04-20",
-            "base_bid": 910000,
+            "base_bid": 635000,
             "line_items": [
               {
                 "description": "Acoustical Ceilings (ACT) - component 1",
@@ -1125,26 +1119,66 @@
               },
               {
                 "description": "Acoustical Ceilings (ACT) - component 2",
-                "amount": 180000
+                "amount": 150000
               },
               {
                 "description": "Acoustical Ceilings (ACT) - component 3",
-                "amount": 160000
+                "amount": 140000
               },
               {
                 "description": "Acoustical Ceilings (ACT) - component 4",
-                "amount": 170000
+                "amount": 215000
+              }
+            ],
+            "exclusions": [
+              "Gypsum board soffits and clouds - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per One Arts District Tower drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "09-pedernales_custom",
+            "company": "Pedernales Custom Homes & Renovations, Inc.",
+            "contact": "Wyatt Burnham",
+            "email": "wburnham@pedernalescustom.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 495000,
+            "line_items": [
+              {
+                "description": "Acoustical Ceilings (ACT) - component 1",
+                "amount": 75000
+              },
+              {
+                "description": "Acoustical Ceilings (ACT) - component 2",
+                "amount": 95000
+              },
+              {
+                "description": "Acoustical Ceilings (ACT) - component 3",
+                "amount": 80000
+              },
+              {
+                "description": "Acoustical Ceilings (ACT) - component 4",
+                "amount": 95000
               },
               {
                 "description": "Acoustical Ceilings (ACT) - component 5",
-                "amount": 165000
+                "amount": 80000
               },
               {
                 "description": "Acoustical Ceilings (ACT) - component 6",
-                "amount": 105000
+                "amount": 70000
               }
             ],
-            "exclusions": [],
+            "exclusions": [
+              "Gypsum board soffits and clouds - NOT IN CONTRACT",
+              "Extended warranty (by owner)",
+              "Specialty subcontractors and engineered systems (separate quote)"
+            ],
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
@@ -1158,25 +1192,25 @@
         "csi_code": "10 00 00",
         "bids": [
           {
-            "sub_id": "10-S1",
-            "company": "Metroplex Concrete",
-            "contact": "Angela Cruz",
-            "email": "metroplexconcrete@contractor.com",
+            "sub_id": "10-lone_star_healthcare",
+            "company": "Lone Star Healthcare Construction, LLC",
+            "contact": "Reagan Castillo",
+            "email": "rcastillo@lonestarhealthcare.com",
             "source": "PDF",
             "submitted_date": "2024-04-18",
-            "base_bid": 340000,
+            "base_bid": 330000,
             "line_items": [
               {
                 "description": "Specialties - component 1",
-                "amount": 55000
+                "amount": 60000
               },
               {
                 "description": "Specialties - component 2",
-                "amount": 65000
+                "amount": 55000
               },
               {
                 "description": "Specialties - component 3",
-                "amount": 60000
+                "amount": 80000
               },
               {
                 "description": "Specialties - component 4",
@@ -1184,11 +1218,7 @@
               },
               {
                 "description": "Specialties - component 5",
-                "amount": 50000
-              },
-              {
-                "description": "Specialties - component 6",
-                "amount": 55000
+                "amount": 80000
               }
             ],
             "exclusions": [],
@@ -1199,67 +1229,49 @@
             "post_bid_updates": []
           },
           {
-            "sub_id": "10-S2",
-            "company": "DFW Mechanical",
-            "contact": "Tom Brady",
-            "email": "dfwmechanical@contractor.com",
+            "sub_id": "10-capitol_commercial",
+            "company": "Capitol Commercial Builders",
+            "contact": "Jordan Walsh",
+            "email": "jwalsh@capitolcommercial.com",
             "source": "Excel",
             "submitted_date": "2024-04-19",
-            "base_bid": 210000,
+            "base_bid": 305000,
             "line_items": [
               {
                 "description": "Specialties - component 1",
-                "amount": 30000
+                "amount": 65000
               },
               {
                 "description": "Specialties - component 2",
-                "amount": 35000
+                "amount": 60000
               },
               {
                 "description": "Specialties - component 3",
-                "amount": 35000
+                "amount": 65000
               },
               {
                 "description": "Specialties - component 4",
-                "amount": 35000
-              },
-              {
-                "description": "Specialties - component 5",
-                "amount": 30000
-              },
-              {
-                "description": "Specialties - component 6",
-                "amount": 45000
+                "amount": 115000
               }
             ],
             "exclusions": [
-              "ADA signage package - NOT IN CONTRACT"
+              "ADA signage package - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
             ],
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
             "notes": "Bid per One Arts District Tower drawings issued 03/15/2024.",
-            "post_bid_updates": [
-              {
-                "update_id": "10-U1",
-                "date": "2024-04-28",
-                "from": "Tom Brady <dfwmechanical@contractor.com>",
-                "subject": "RE: One Arts District Tower - ADA signage package Clarification",
-                "body": "Following up on our call \u2014 we can pick up ADA signage package for $15,000 additional. Revised total $225,000.",
-                "revised_total": 225000,
-                "delta": 15000,
-                "scope_added": "ADA signage package"
-              }
-            ]
+            "post_bid_updates": []
           },
           {
-            "sub_id": "10-S3",
-            "company": "Lone Star Roofing",
-            "contact": "Linda Garza",
-            "email": "lonestarroofing@contractor.com",
+            "sub_id": "10-pedernales_custom",
+            "company": "Pedernales Custom Homes & Renovations, Inc.",
+            "contact": "Wyatt Burnham",
+            "email": "wburnham@pedernalescustom.com",
             "source": "Email",
             "submitted_date": "2024-04-20",
-            "base_bid": 485000,
+            "base_bid": 250000,
             "line_items": [
               {
                 "description": "Specialties - component 1",
@@ -1267,22 +1279,18 @@
               },
               {
                 "description": "Specialties - component 2",
-                "amount": 85000
+                "amount": 75000
               },
               {
                 "description": "Specialties - component 3",
-                "amount": 110000
-              },
-              {
-                "description": "Specialties - component 4",
                 "amount": 90000
-              },
-              {
-                "description": "Specialties - component 5",
-                "amount": 115000
               }
             ],
-            "exclusions": [],
+            "exclusions": [
+              "ADA signage package - NOT IN CONTRACT",
+              "Extended warranty (by owner)",
+              "Specialty subcontractors and engineered systems (separate quote)"
+            ],
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
@@ -1296,29 +1304,29 @@
         "csi_code": "21 00 00",
         "bids": [
           {
-            "sub_id": "21-S1",
-            "company": "Trinity Electric",
-            "contact": "Kevin Walsh",
-            "email": "trinityelectric@contractor.com",
+            "sub_id": "21-lone_star_healthcare",
+            "company": "Lone Star Healthcare Construction, LLC",
+            "contact": "Reagan Castillo",
+            "email": "rcastillo@lonestarhealthcare.com",
             "source": "PDF",
             "submitted_date": "2024-04-18",
-            "base_bid": 1015000,
+            "base_bid": 990000,
             "line_items": [
               {
                 "description": "Fire Suppression (Sprinklers) - component 1",
-                "amount": 210000
+                "amount": 260000
               },
               {
                 "description": "Fire Suppression (Sprinklers) - component 2",
-                "amount": 275000
+                "amount": 295000
               },
               {
                 "description": "Fire Suppression (Sprinklers) - component 3",
-                "amount": 255000
+                "amount": 270000
               },
               {
                 "description": "Fire Suppression (Sprinklers) - component 4",
-                "amount": 275000
+                "amount": 165000
               }
             ],
             "exclusions": [],
@@ -1329,13 +1337,49 @@
             "post_bid_updates": []
           },
           {
-            "sub_id": "21-S2",
-            "company": "Metroplex Concrete",
-            "contact": "Beth Adams",
-            "email": "metroplexconcrete@contractor.com",
+            "sub_id": "21-capitol_commercial",
+            "company": "Capitol Commercial Builders",
+            "contact": "Jordan Walsh",
+            "email": "jwalsh@capitolcommercial.com",
             "source": "Excel",
             "submitted_date": "2024-04-19",
-            "base_bid": 650000,
+            "base_bid": 915000,
+            "line_items": [
+              {
+                "description": "Fire Suppression (Sprinklers) - component 1",
+                "amount": 270000
+              },
+              {
+                "description": "Fire Suppression (Sprinklers) - component 2",
+                "amount": 195000
+              },
+              {
+                "description": "Fire Suppression (Sprinklers) - component 3",
+                "amount": 185000
+              },
+              {
+                "description": "Fire Suppression (Sprinklers) - component 4",
+                "amount": 265000
+              }
+            ],
+            "exclusions": [
+              "Kitchen hood fire suppression - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per One Arts District Tower drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "21-pedernales_custom",
+            "company": "Pedernales Custom Homes & Renovations, Inc.",
+            "contact": "Wyatt Burnham",
+            "email": "wburnham@pedernalescustom.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 720000,
             "line_items": [
               {
                 "description": "Fire Suppression (Sprinklers) - component 1",
@@ -1343,19 +1387,19 @@
               },
               {
                 "description": "Fire Suppression (Sprinklers) - component 2",
-                "amount": 110000
+                "amount": 130000
               },
               {
                 "description": "Fire Suppression (Sprinklers) - component 3",
-                "amount": 120000
+                "amount": 100000
               },
               {
                 "description": "Fire Suppression (Sprinklers) - component 4",
-                "amount": 90000
+                "amount": 130000
               },
               {
                 "description": "Fire Suppression (Sprinklers) - component 5",
-                "amount": 95000
+                "amount": 125000
               },
               {
                 "description": "Fire Suppression (Sprinklers) - component 6",
@@ -1363,52 +1407,10 @@
               }
             ],
             "exclusions": [
-              "Kitchen hood fire suppression - NOT IN CONTRACT"
+              "Kitchen hood fire suppression - NOT IN CONTRACT",
+              "Extended warranty (by owner)",
+              "Specialty subcontractors and engineered systems (separate quote)"
             ],
-            "inclusions": [
-              "All labor, material, and permits per contract documents"
-            ],
-            "notes": "Bid per One Arts District Tower drawings issued 03/15/2024.",
-            "post_bid_updates": [
-              {
-                "update_id": "21-U1",
-                "date": "2024-04-28",
-                "from": "Beth Adams <metroplexconcrete@contractor.com>",
-                "subject": "RE: One Arts District Tower - Kitchen hood fire suppression Scope Add",
-                "body": "Per our conversation this morning: Kitchen hood fire suppression can be added for $45,000. New total is $695,000.",
-                "revised_total": 695000,
-                "delta": 45000,
-                "scope_added": "Kitchen hood fire suppression"
-              }
-            ]
-          },
-          {
-            "sub_id": "21-S3",
-            "company": "DFW Mechanical",
-            "contact": "Rick Simmons",
-            "email": "dfwmechanical@contractor.com",
-            "source": "Email",
-            "submitted_date": "2024-04-20",
-            "base_bid": 1185000,
-            "line_items": [
-              {
-                "description": "Fire Suppression (Sprinklers) - component 1",
-                "amount": 275000
-              },
-              {
-                "description": "Fire Suppression (Sprinklers) - component 2",
-                "amount": 305000
-              },
-              {
-                "description": "Fire Suppression (Sprinklers) - component 3",
-                "amount": 295000
-              },
-              {
-                "description": "Fire Suppression (Sprinklers) - component 4",
-                "amount": 310000
-              }
-            ],
-            "exclusions": [],
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
@@ -1422,37 +1424,25 @@
         "csi_code": "22 00 00",
         "bids": [
           {
-            "sub_id": "22-S1",
-            "company": "DFW Mechanical",
-            "contact": "Carl Johnson",
-            "email": "dfwmechanical@contractor.com",
+            "sub_id": "22-lone_star_healthcare",
+            "company": "Lone Star Healthcare Construction, LLC",
+            "contact": "Reagan Castillo",
+            "email": "rcastillo@lonestarhealthcare.com",
             "source": "PDF",
             "submitted_date": "2024-04-18",
-            "base_bid": 1975000,
+            "base_bid": 1980000,
             "line_items": [
               {
                 "description": "Plumbing - component 1",
-                "amount": 300000
+                "amount": 740000
               },
               {
                 "description": "Plumbing - component 2",
-                "amount": 295000
+                "amount": 675000
               },
               {
                 "description": "Plumbing - component 3",
-                "amount": 280000
-              },
-              {
-                "description": "Plumbing - component 4",
-                "amount": 290000
-              },
-              {
-                "description": "Plumbing - component 5",
-                "amount": 280000
-              },
-              {
-                "description": "Plumbing - component 6",
-                "amount": 530000
+                "amount": 565000
               }
             ],
             "exclusions": [],
@@ -1463,33 +1453,42 @@
             "post_bid_updates": []
           },
           {
-            "sub_id": "22-S2",
-            "company": "Lone Star Roofing",
-            "contact": "Pete Adams",
-            "email": "lonestarroofing@contractor.com",
+            "sub_id": "22-capitol_commercial",
+            "company": "Capitol Commercial Builders",
+            "contact": "Jordan Walsh",
+            "email": "jwalsh@capitolcommercial.com",
             "source": "Excel",
             "submitted_date": "2024-04-19",
-            "base_bid": 1345000,
+            "base_bid": 1735000,
             "line_items": [
               {
                 "description": "Plumbing - component 1",
-                "amount": 370000
+                "amount": 310000
               },
               {
                 "description": "Plumbing - component 2",
-                "amount": 305000
+                "amount": 240000
               },
               {
                 "description": "Plumbing - component 3",
-                "amount": 350000
+                "amount": 305000
               },
               {
                 "description": "Plumbing - component 4",
-                "amount": 320000
+                "amount": 235000
+              },
+              {
+                "description": "Plumbing - component 5",
+                "amount": 280000
+              },
+              {
+                "description": "Plumbing - component 6",
+                "amount": 365000
               }
             ],
             "exclusions": [
-              "Medical gas outlets and zone valves - NOT IN CONTRACT"
+              "Medical gas outlets and zone valves - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
             ],
             "inclusions": [
               "All labor, material, and permits per contract documents"
@@ -1497,48 +1496,56 @@
             "notes": "Bid per One Arts District Tower drawings issued 03/15/2024.",
             "post_bid_updates": [
               {
-                "update_id": "22-U1",
+                "update_id": "22-CAP-U1",
                 "date": "2024-04-28",
-                "from": "Pete Adams <lonestarroofing@contractor.com>",
-                "subject": "RE: One Arts District Tower - Medical gas outlets and zone valves Add",
-                "body": "We can include Medical gas outlets and zone valves for an additional $95,000. Revised total would be $1,440,000.",
-                "revised_total": 1440000,
-                "delta": 95000,
+                "from": "Jordan Walsh <jwalsh@capitolcommercial.com>",
+                "subject": "RE: One Arts District Tower - Medical gas outlets and zone valves Scope Add",
+                "body": "Per our conversation this morning: Medical gas outlets and zone valves can be added for $120,000. New total is $1,855,000.",
+                "revised_total": 1855000,
+                "delta": 120000,
                 "scope_added": "Medical gas outlets and zone valves"
               }
             ]
           },
           {
-            "sub_id": "22-S3",
-            "company": "Pinnacle Steel",
-            "contact": "Sam Rivera",
-            "email": "pinnaclesteel@contractor.com",
+            "sub_id": "22-pedernales_custom",
+            "company": "Pedernales Custom Homes & Renovations, Inc.",
+            "contact": "Wyatt Burnham",
+            "email": "wburnham@pedernalescustom.com",
             "source": "Email",
             "submitted_date": "2024-04-20",
-            "base_bid": 2460000,
+            "base_bid": 1455000,
             "line_items": [
               {
                 "description": "Plumbing - component 1",
-                "amount": 585000
+                "amount": 285000
               },
               {
                 "description": "Plumbing - component 2",
-                "amount": 555000
+                "amount": 255000
               },
               {
                 "description": "Plumbing - component 3",
-                "amount": 450000
+                "amount": 275000
               },
               {
                 "description": "Plumbing - component 4",
-                "amount": 465000
+                "amount": 265000
               },
               {
                 "description": "Plumbing - component 5",
-                "amount": 405000
+                "amount": 235000
+              },
+              {
+                "description": "Plumbing - component 6",
+                "amount": 140000
               }
             ],
-            "exclusions": [],
+            "exclusions": [
+              "Medical gas outlets and zone valves - NOT IN CONTRACT",
+              "Extended warranty (by owner)",
+              "Specialty subcontractors and engineered systems (separate quote)"
+            ],
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
@@ -1552,25 +1559,33 @@
         "csi_code": "23 00 00",
         "bids": [
           {
-            "sub_id": "23-S1",
-            "company": "DFW Mechanical",
-            "contact": "Bill Torres",
-            "email": "dfwmechanical@contractor.com",
+            "sub_id": "23-lone_star_healthcare",
+            "company": "Lone Star Healthcare Construction, LLC",
+            "contact": "Reagan Castillo",
+            "email": "rcastillo@lonestarhealthcare.com",
             "source": "PDF",
             "submitted_date": "2024-04-18",
-            "base_bid": 2345000,
+            "base_bid": 2425000,
             "line_items": [
               {
                 "description": "Mechanical (HVAC) - component 1",
-                "amount": 800000
+                "amount": 505000
               },
               {
                 "description": "Mechanical (HVAC) - component 2",
-                "amount": 845000
+                "amount": 565000
               },
               {
                 "description": "Mechanical (HVAC) - component 3",
-                "amount": 700000
+                "amount": 540000
+              },
+              {
+                "description": "Mechanical (HVAC) - component 4",
+                "amount": 480000
+              },
+              {
+                "description": "Mechanical (HVAC) - component 5",
+                "amount": 335000
               }
             ],
             "exclusions": [],
@@ -1581,82 +1596,84 @@
             "post_bid_updates": []
           },
           {
-            "sub_id": "23-S2",
-            "company": "Lone Star Roofing",
-            "contact": "Priya Nair",
-            "email": "lonestarroofing@contractor.com",
+            "sub_id": "23-capitol_commercial",
+            "company": "Capitol Commercial Builders",
+            "contact": "Jordan Walsh",
+            "email": "jwalsh@capitolcommercial.com",
             "source": "Excel",
             "submitted_date": "2024-04-19",
-            "base_bid": 1630000,
+            "base_bid": 2215000,
             "line_items": [
               {
                 "description": "Mechanical (HVAC) - component 1",
-                "amount": 230000
+                "amount": 410000
               },
               {
                 "description": "Mechanical (HVAC) - component 2",
-                "amount": 220000
+                "amount": 400000
               },
               {
                 "description": "Mechanical (HVAC) - component 3",
-                "amount": 250000
+                "amount": 520000
               },
               {
                 "description": "Mechanical (HVAC) - component 4",
-                "amount": 270000
+                "amount": 405000
               },
               {
                 "description": "Mechanical (HVAC) - component 5",
-                "amount": 255000
-              },
-              {
-                "description": "Mechanical (HVAC) - component 6",
-                "amount": 405000
+                "amount": 480000
               }
             ],
             "exclusions": [
-              "Medical gas rough-in and kitchen hood exhaust - NOT IN CONTRACT"
+              "Medical gas rough-in and kitchen hood exhaust - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
             ],
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
             "notes": "Bid per One Arts District Tower drawings issued 03/15/2024.",
-            "post_bid_updates": [
-              {
-                "update_id": "23-U1",
-                "date": "2024-04-28",
-                "from": "Priya Nair <lonestarroofing@contractor.com>",
-                "subject": "RE: One Arts District Tower - Medical gas rough-in and kitchen hood exhaust Scope Add",
-                "body": "Per our conversation this morning: Medical gas rough-in and kitchen hood exhaust can be added for $115,000. New total is $1,745,000.",
-                "revised_total": 1745000,
-                "delta": 115000,
-                "scope_added": "Medical gas rough-in and kitchen hood exhaust"
-              }
-            ]
+            "post_bid_updates": []
           },
           {
-            "sub_id": "23-S3",
-            "company": "Pinnacle Steel",
-            "contact": "Rob Flores",
-            "email": "pinnaclesteel@contractor.com",
+            "sub_id": "23-pedernales_custom",
+            "company": "Pedernales Custom Homes & Renovations, Inc.",
+            "contact": "Wyatt Burnham",
+            "email": "wburnham@pedernalescustom.com",
             "source": "Email",
             "submitted_date": "2024-04-20",
-            "base_bid": 2815000,
+            "base_bid": 1755000,
             "line_items": [
               {
                 "description": "Mechanical (HVAC) - component 1",
-                "amount": 845000
+                "amount": 300000
               },
               {
                 "description": "Mechanical (HVAC) - component 2",
-                "amount": 1075000
+                "amount": 310000
               },
               {
                 "description": "Mechanical (HVAC) - component 3",
-                "amount": 895000
+                "amount": 275000
+              },
+              {
+                "description": "Mechanical (HVAC) - component 4",
+                "amount": 290000
+              },
+              {
+                "description": "Mechanical (HVAC) - component 5",
+                "amount": 270000
+              },
+              {
+                "description": "Mechanical (HVAC) - component 6",
+                "amount": 310000
               }
             ],
-            "exclusions": [],
+            "exclusions": [
+              "Medical gas rough-in and kitchen hood exhaust - NOT IN CONTRACT",
+              "Extended warranty (by owner)",
+              "Specialty subcontractors and engineered systems (separate quote)"
+            ],
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
@@ -1670,25 +1687,33 @@
         "csi_code": "26 00 00",
         "bids": [
           {
-            "sub_id": "26-S1",
-            "company": "Texas Interiors",
-            "contact": "Lisa Chang",
-            "email": "texasinteriors@contractor.com",
+            "sub_id": "26-lone_star_healthcare",
+            "company": "Lone Star Healthcare Construction, LLC",
+            "contact": "Reagan Castillo",
+            "email": "rcastillo@lonestarhealthcare.com",
             "source": "PDF",
             "submitted_date": "2024-04-18",
-            "base_bid": 1900000,
+            "base_bid": 1910000,
             "line_items": [
               {
                 "description": "Electrical - component 1",
-                "amount": 545000
+                "amount": 360000
               },
               {
                 "description": "Electrical - component 2",
-                "amount": 710000
+                "amount": 440000
               },
               {
                 "description": "Electrical - component 3",
-                "amount": 645000
+                "amount": 415000
+              },
+              {
+                "description": "Electrical - component 4",
+                "amount": 350000
+              },
+              {
+                "description": "Electrical - component 5",
+                "amount": 345000
               }
             ],
             "exclusions": [],
@@ -1699,25 +1724,29 @@
             "post_bid_updates": []
           },
           {
-            "sub_id": "26-S2",
-            "company": "Trinity Plumbing",
-            "contact": "James Brown",
-            "email": "trinityplumbing@contractor.com",
+            "sub_id": "26-capitol_commercial",
+            "company": "Capitol Commercial Builders",
+            "contact": "Jordan Walsh",
+            "email": "jwalsh@capitolcommercial.com",
             "source": "Excel",
             "submitted_date": "2024-04-19",
-            "base_bid": 1300000,
+            "base_bid": 1720000,
             "line_items": [
               {
                 "description": "Electrical - component 1",
-                "amount": 520000
+                "amount": 360000
               },
               {
                 "description": "Electrical - component 2",
-                "amount": 365000
+                "amount": 470000
               },
               {
                 "description": "Electrical - component 3",
-                "amount": 415000
+                "amount": 430000
+              },
+              {
+                "description": "Electrical - component 4",
+                "amount": 460000
               }
             ],
             "exclusions": [
@@ -1731,40 +1760,44 @@
             "post_bid_updates": []
           },
           {
-            "sub_id": "26-S3",
-            "company": "Metroplex Framing",
-            "contact": "Maria Valdez",
-            "email": "metroplexframing@contractor.com",
+            "sub_id": "26-pedernales_custom",
+            "company": "Pedernales Custom Homes & Renovations, Inc.",
+            "contact": "Wyatt Burnham",
+            "email": "wburnham@pedernalescustom.com",
             "source": "Email",
             "submitted_date": "2024-04-20",
-            "base_bid": 2395000,
+            "base_bid": 1470000,
             "line_items": [
               {
                 "description": "Electrical - component 1",
-                "amount": 415000
+                "amount": 260000
               },
               {
                 "description": "Electrical - component 2",
-                "amount": 445000
+                "amount": 245000
               },
               {
                 "description": "Electrical - component 3",
-                "amount": 355000
+                "amount": 275000
               },
               {
                 "description": "Electrical - component 4",
-                "amount": 405000
+                "amount": 205000
               },
               {
                 "description": "Electrical - component 5",
-                "amount": 390000
+                "amount": 220000
               },
               {
                 "description": "Electrical - component 6",
-                "amount": 385000
+                "amount": 265000
               }
             ],
-            "exclusions": [],
+            "exclusions": [
+              "Fire alarm system - NOT IN CONTRACT",
+              "Extended warranty (by owner)",
+              "Specialty subcontractors and engineered systems (separate quote)"
+            ],
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
@@ -1778,25 +1811,33 @@
         "csi_code": "27 00 00",
         "bids": [
           {
-            "sub_id": "27-S1",
-            "company": "Metroplex Concrete",
-            "contact": "Lisa Chang",
-            "email": "metroplexconcrete@contractor.com",
+            "sub_id": "27-lone_star_healthcare",
+            "company": "Lone Star Healthcare Construction, LLC",
+            "contact": "Reagan Castillo",
+            "email": "rcastillo@lonestarhealthcare.com",
             "source": "PDF",
             "submitted_date": "2024-04-18",
-            "base_bid": 675000,
+            "base_bid": 660000,
             "line_items": [
               {
                 "description": "Communications (Data, AV, Tel) - component 1",
-                "amount": 235000
+                "amount": 130000
               },
               {
                 "description": "Communications (Data, AV, Tel) - component 2",
-                "amount": 245000
+                "amount": 135000
               },
               {
                 "description": "Communications (Data, AV, Tel) - component 3",
-                "amount": 195000
+                "amount": 130000
+              },
+              {
+                "description": "Communications (Data, AV, Tel) - component 4",
+                "amount": 145000
+              },
+              {
+                "description": "Communications (Data, AV, Tel) - component 5",
+                "amount": 120000
               }
             ],
             "exclusions": [],
@@ -1807,13 +1848,13 @@
             "post_bid_updates": []
           },
           {
-            "sub_id": "27-S2",
-            "company": "DFW Mechanical",
-            "contact": "James Brown",
-            "email": "dfwmechanical@contractor.com",
+            "sub_id": "27-capitol_commercial",
+            "company": "Capitol Commercial Builders",
+            "contact": "Jordan Walsh",
+            "email": "jwalsh@capitolcommercial.com",
             "source": "Excel",
             "submitted_date": "2024-04-19",
-            "base_bid": 405000,
+            "base_bid": 610000,
             "line_items": [
               {
                 "description": "Communications (Data, AV, Tel) - component 1",
@@ -1821,11 +1862,55 @@
               },
               {
                 "description": "Communications (Data, AV, Tel) - component 2",
-                "amount": 85000
+                "amount": 90000
               },
               {
                 "description": "Communications (Data, AV, Tel) - component 3",
+                "amount": 85000
+              },
+              {
+                "description": "Communications (Data, AV, Tel) - component 4",
                 "amount": 90000
+              },
+              {
+                "description": "Communications (Data, AV, Tel) - component 5",
+                "amount": 85000
+              },
+              {
+                "description": "Communications (Data, AV, Tel) - component 6",
+                "amount": 170000
+              }
+            ],
+            "exclusions": [
+              "AV rough-in for conference rooms - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per One Arts District Tower drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "27-pedernales_custom",
+            "company": "Pedernales Custom Homes & Renovations, Inc.",
+            "contact": "Wyatt Burnham",
+            "email": "wburnham@pedernalescustom.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 505000,
+            "line_items": [
+              {
+                "description": "Communications (Data, AV, Tel) - component 1",
+                "amount": 110000
+              },
+              {
+                "description": "Communications (Data, AV, Tel) - component 2",
+                "amount": 140000
+              },
+              {
+                "description": "Communications (Data, AV, Tel) - component 3",
+                "amount": 115000
               },
               {
                 "description": "Communications (Data, AV, Tel) - component 4",
@@ -1833,48 +1918,10 @@
               }
             ],
             "exclusions": [
-              "AV rough-in for conference rooms - NOT IN CONTRACT"
+              "AV rough-in for conference rooms - NOT IN CONTRACT",
+              "Extended warranty (by owner)",
+              "Specialty subcontractors and engineered systems (separate quote)"
             ],
-            "inclusions": [
-              "All labor, material, and permits per contract documents"
-            ],
-            "notes": "Bid per One Arts District Tower drawings issued 03/15/2024.",
-            "post_bid_updates": [
-              {
-                "update_id": "27-U1",
-                "date": "2024-04-28",
-                "from": "James Brown <dfwmechanical@contractor.com>",
-                "subject": "RE: One Arts District Tower - AV rough-in for conference rooms Scope Add",
-                "body": "Per our conversation this morning: AV rough-in for conference rooms can be added for $30,000. New total is $435,000.",
-                "revised_total": 435000,
-                "delta": 30000,
-                "scope_added": "AV rough-in for conference rooms"
-              }
-            ]
-          },
-          {
-            "sub_id": "27-S3",
-            "company": "Lone Star Roofing",
-            "contact": "Maria Valdez",
-            "email": "lonestarroofing@contractor.com",
-            "source": "Email",
-            "submitted_date": "2024-04-20",
-            "base_bid": 920000,
-            "line_items": [
-              {
-                "description": "Communications (Data, AV, Tel) - component 1",
-                "amount": 265000
-              },
-              {
-                "description": "Communications (Data, AV, Tel) - component 2",
-                "amount": 295000
-              },
-              {
-                "description": "Communications (Data, AV, Tel) - component 3",
-                "amount": 360000
-              }
-            ],
-            "exclusions": [],
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
@@ -1888,33 +1935,33 @@
         "csi_code": "28 00 00",
         "bids": [
           {
-            "sub_id": "28-S1",
-            "company": "DFW Mechanical",
-            "contact": "Sam Rivera",
-            "email": "dfwmechanical@contractor.com",
+            "sub_id": "28-lone_star_healthcare",
+            "company": "Lone Star Healthcare Construction, LLC",
+            "contact": "Reagan Castillo",
+            "email": "rcastillo@lonestarhealthcare.com",
             "source": "PDF",
             "submitted_date": "2024-04-18",
-            "base_bid": 585000,
+            "base_bid": 575000,
             "line_items": [
               {
                 "description": "Electronic Safety & Security - component 1",
-                "amount": 125000
-              },
-              {
-                "description": "Electronic Safety & Security - component 2",
-                "amount": 115000
-              },
-              {
-                "description": "Electronic Safety & Security - component 3",
-                "amount": 125000
-              },
-              {
-                "description": "Electronic Safety & Security - component 4",
                 "amount": 135000
               },
               {
+                "description": "Electronic Safety & Security - component 2",
+                "amount": 130000
+              },
+              {
+                "description": "Electronic Safety & Security - component 3",
+                "amount": 105000
+              },
+              {
+                "description": "Electronic Safety & Security - component 4",
+                "amount": 110000
+              },
+              {
                 "description": "Electronic Safety & Security - component 5",
-                "amount": 85000
+                "amount": 95000
               }
             ],
             "exclusions": [],
@@ -1925,59 +1972,53 @@
             "post_bid_updates": []
           },
           {
-            "sub_id": "28-S2",
-            "company": "Lone Star Roofing",
-            "contact": "Walt Burns",
-            "email": "lonestarroofing@contractor.com",
+            "sub_id": "28-capitol_commercial",
+            "company": "Capitol Commercial Builders",
+            "contact": "Jordan Walsh",
+            "email": "jwalsh@capitolcommercial.com",
             "source": "Excel",
             "submitted_date": "2024-04-19",
-            "base_bid": 355000,
+            "base_bid": 515000,
             "line_items": [
               {
                 "description": "Electronic Safety & Security - component 1",
-                "amount": 120000
+                "amount": 115000
               },
               {
                 "description": "Electronic Safety & Security - component 2",
-                "amount": 125000
+                "amount": 155000
               },
               {
                 "description": "Electronic Safety & Security - component 3",
-                "amount": 110000
+                "amount": 130000
+              },
+              {
+                "description": "Electronic Safety & Security - component 4",
+                "amount": 115000
               }
             ],
             "exclusions": [
-              "Exterior access control and parking - NOT IN CONTRACT"
+              "Exterior access control and parking - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
             ],
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
             "notes": "Bid per One Arts District Tower drawings issued 03/15/2024.",
-            "post_bid_updates": [
-              {
-                "update_id": "28-U1",
-                "date": "2024-04-28",
-                "from": "Walt Burns <lonestarroofing@contractor.com>",
-                "subject": "RE: One Arts District Tower - Exterior access control and parking Clarification",
-                "body": "Following up on our call \u2014 we can pick up Exterior access control and parking for $25,000 additional. Revised total $380,000.",
-                "revised_total": 380000,
-                "delta": 25000,
-                "scope_added": "Exterior access control and parking"
-              }
-            ]
+            "post_bid_updates": []
           },
           {
-            "sub_id": "28-S3",
-            "company": "Pinnacle Steel",
-            "contact": "Mike Torres",
-            "email": "pinnaclesteel@contractor.com",
+            "sub_id": "28-pedernales_custom",
+            "company": "Pedernales Custom Homes & Renovations, Inc.",
+            "contact": "Wyatt Burnham",
+            "email": "wburnham@pedernalescustom.com",
             "source": "Email",
             "submitted_date": "2024-04-20",
-            "base_bid": 735000,
+            "base_bid": 430000,
             "line_items": [
               {
                 "description": "Electronic Safety & Security - component 1",
-                "amount": 165000
+                "amount": 115000
               },
               {
                 "description": "Electronic Safety & Security - component 2",
@@ -1985,18 +2026,18 @@
               },
               {
                 "description": "Electronic Safety & Security - component 3",
-                "amount": 125000
+                "amount": 90000
               },
               {
                 "description": "Electronic Safety & Security - component 4",
-                "amount": 135000
-              },
-              {
-                "description": "Electronic Safety & Security - component 5",
-                "amount": 190000
+                "amount": 105000
               }
             ],
-            "exclusions": [],
+            "exclusions": [
+              "Exterior access control and parking - NOT IN CONTRACT",
+              "Extended warranty (by owner)",
+              "Specialty subcontractors and engineered systems (separate quote)"
+            ],
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
@@ -2010,33 +2051,37 @@
         "csi_code": "31 00 00",
         "bids": [
           {
-            "sub_id": "31-S1",
-            "company": "Lone Star Roofing",
-            "contact": "Lisa Chang",
-            "email": "lonestarroofing@contractor.com",
+            "sub_id": "31-lone_star_healthcare",
+            "company": "Lone Star Healthcare Construction, LLC",
+            "contact": "Reagan Castillo",
+            "email": "rcastillo@lonestarhealthcare.com",
             "source": "PDF",
             "submitted_date": "2024-04-18",
-            "base_bid": 1465000,
+            "base_bid": 1395000,
             "line_items": [
               {
                 "description": "Earthwork, Grading & Site Preparation - component 1",
-                "amount": 315000
+                "amount": 225000
               },
               {
                 "description": "Earthwork, Grading & Site Preparation - component 2",
-                "amount": 345000
+                "amount": 205000
               },
               {
                 "description": "Earthwork, Grading & Site Preparation - component 3",
-                "amount": 295000
+                "amount": 190000
               },
               {
                 "description": "Earthwork, Grading & Site Preparation - component 4",
-                "amount": 290000
+                "amount": 275000
               },
               {
                 "description": "Earthwork, Grading & Site Preparation - component 5",
-                "amount": 220000
+                "amount": 230000
+              },
+              {
+                "description": "Earthwork, Grading & Site Preparation - component 6",
+                "amount": 270000
               }
             ],
             "exclusions": [],
@@ -2047,29 +2092,42 @@
             "post_bid_updates": []
           },
           {
-            "sub_id": "31-S2",
-            "company": "Pinnacle Steel",
-            "contact": "James Brown",
-            "email": "pinnaclesteel@contractor.com",
+            "sub_id": "31-capitol_commercial",
+            "company": "Capitol Commercial Builders",
+            "contact": "Jordan Walsh",
+            "email": "jwalsh@capitolcommercial.com",
             "source": "Excel",
             "submitted_date": "2024-04-19",
-            "base_bid": 895000,
+            "base_bid": 1335000,
             "line_items": [
               {
                 "description": "Earthwork, Grading & Site Preparation - component 1",
-                "amount": 345000
+                "amount": 185000
               },
               {
                 "description": "Earthwork, Grading & Site Preparation - component 2",
-                "amount": 325000
+                "amount": 235000
               },
               {
                 "description": "Earthwork, Grading & Site Preparation - component 3",
-                "amount": 225000
+                "amount": 185000
+              },
+              {
+                "description": "Earthwork, Grading & Site Preparation - component 4",
+                "amount": 190000
+              },
+              {
+                "description": "Earthwork, Grading & Site Preparation - component 5",
+                "amount": 230000
+              },
+              {
+                "description": "Earthwork, Grading & Site Preparation - component 6",
+                "amount": 310000
               }
             ],
             "exclusions": [
-              "Rock excavation allowance - NOT IN CONTRACT"
+              "Rock excavation allowance - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
             ],
             "inclusions": [
               "All labor, material, and permits per contract documents"
@@ -2077,48 +2135,48 @@
             "notes": "Bid per One Arts District Tower drawings issued 03/15/2024.",
             "post_bid_updates": [
               {
-                "update_id": "31-U1",
+                "update_id": "31-CAP-U1",
                 "date": "2024-04-28",
-                "from": "James Brown <pinnaclesteel@contractor.com>",
-                "subject": "RE: One Arts District Tower - Rock excavation allowance Scope Add",
-                "body": "Per our conversation this morning: Rock excavation allowance can be added for $65,000. New total is $960,000.",
-                "revised_total": 960000,
-                "delta": 65000,
+                "from": "Jordan Walsh <jwalsh@capitolcommercial.com>",
+                "subject": "RE: One Arts District Tower - Rock excavation allowance Clarification",
+                "body": "Following up on our call \u2014 we can pick up Rock excavation allowance for $95,000 additional. Revised total $1,430,000.",
+                "revised_total": 1430000,
+                "delta": 95000,
                 "scope_added": "Rock excavation allowance"
               }
             ]
           },
           {
-            "sub_id": "31-S3",
-            "company": "Texas Interiors",
-            "contact": "Maria Valdez",
-            "email": "texasinteriors@contractor.com",
+            "sub_id": "31-pedernales_custom",
+            "company": "Pedernales Custom Homes & Renovations, Inc.",
+            "contact": "Wyatt Burnham",
+            "email": "wburnham@pedernalescustom.com",
             "source": "Email",
             "submitted_date": "2024-04-20",
-            "base_bid": 1880000,
+            "base_bid": 1050000,
             "line_items": [
               {
                 "description": "Earthwork, Grading & Site Preparation - component 1",
-                "amount": 305000
+                "amount": 220000
               },
               {
                 "description": "Earthwork, Grading & Site Preparation - component 2",
-                "amount": 335000
+                "amount": 290000
               },
               {
                 "description": "Earthwork, Grading & Site Preparation - component 3",
-                "amount": 400000
+                "amount": 275000
               },
               {
                 "description": "Earthwork, Grading & Site Preparation - component 4",
-                "amount": 430000
-              },
-              {
-                "description": "Earthwork, Grading & Site Preparation - component 5",
-                "amount": 410000
+                "amount": 265000
               }
             ],
-            "exclusions": [],
+            "exclusions": [
+              "Rock excavation allowance - NOT IN CONTRACT",
+              "Extended warranty (by owner)",
+              "Specialty subcontractors and engineered systems (separate quote)"
+            ],
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
@@ -2132,25 +2190,37 @@
         "csi_code": "32 00 00",
         "bids": [
           {
-            "sub_id": "32-S1",
-            "company": "Metroplex Concrete",
-            "contact": "Ed Turner",
-            "email": "metroplexconcrete@contractor.com",
+            "sub_id": "32-lone_star_healthcare",
+            "company": "Lone Star Healthcare Construction, LLC",
+            "contact": "Reagan Castillo",
+            "email": "rcastillo@lonestarhealthcare.com",
             "source": "PDF",
             "submitted_date": "2024-04-18",
-            "base_bid": 865000,
+            "base_bid": 835000,
             "line_items": [
               {
                 "description": "Site Paving, Curbs & Landscaping - component 1",
-                "amount": 320000
+                "amount": 135000
               },
               {
                 "description": "Site Paving, Curbs & Landscaping - component 2",
-                "amount": 250000
+                "amount": 135000
               },
               {
                 "description": "Site Paving, Curbs & Landscaping - component 3",
-                "amount": 295000
+                "amount": 160000
+              },
+              {
+                "description": "Site Paving, Curbs & Landscaping - component 4",
+                "amount": 165000
+              },
+              {
+                "description": "Site Paving, Curbs & Landscaping - component 5",
+                "amount": 130000
+              },
+              {
+                "description": "Site Paving, Curbs & Landscaping - component 6",
+                "amount": 110000
               }
             ],
             "exclusions": [],
@@ -2161,33 +2231,25 @@
             "post_bid_updates": []
           },
           {
-            "sub_id": "32-S2",
-            "company": "DFW Mechanical",
-            "contact": "Carl Johnson",
-            "email": "dfwmechanical@contractor.com",
+            "sub_id": "32-capitol_commercial",
+            "company": "Capitol Commercial Builders",
+            "contact": "Jordan Walsh",
+            "email": "jwalsh@capitolcommercial.com",
             "source": "Excel",
             "submitted_date": "2024-04-19",
-            "base_bid": 555000,
+            "base_bid": 795000,
             "line_items": [
               {
                 "description": "Site Paving, Curbs & Landscaping - component 1",
-                "amount": 95000
+                "amount": 310000
               },
               {
                 "description": "Site Paving, Curbs & Landscaping - component 2",
-                "amount": 115000
+                "amount": 235000
               },
               {
                 "description": "Site Paving, Curbs & Landscaping - component 3",
-                "amount": 115000
-              },
-              {
-                "description": "Site Paving, Curbs & Landscaping - component 4",
-                "amount": 110000
-              },
-              {
-                "description": "Site Paving, Curbs & Landscaping - component 5",
-                "amount": 120000
+                "amount": 250000
               }
             ],
             "exclusions": [
@@ -2201,28 +2263,32 @@
             "post_bid_updates": []
           },
           {
-            "sub_id": "32-S3",
-            "company": "Lone Star Roofing",
-            "contact": "Pete Adams",
-            "email": "lonestarroofing@contractor.com",
+            "sub_id": "32-pedernales_custom",
+            "company": "Pedernales Custom Homes & Renovations, Inc.",
+            "contact": "Wyatt Burnham",
+            "email": "wburnham@pedernalescustom.com",
             "source": "Email",
             "submitted_date": "2024-04-20",
-            "base_bid": 1150000,
+            "base_bid": 625000,
             "line_items": [
               {
                 "description": "Site Paving, Curbs & Landscaping - component 1",
-                "amount": 380000
+                "amount": 180000
               },
               {
                 "description": "Site Paving, Curbs & Landscaping - component 2",
-                "amount": 370000
+                "amount": 180000
               },
               {
                 "description": "Site Paving, Curbs & Landscaping - component 3",
-                "amount": 400000
+                "amount": 265000
               }
             ],
-            "exclusions": [],
+            "exclusions": [
+              "Landscaping and irrigation - NOT IN CONTRACT",
+              "Extended warranty (by owner)",
+              "Specialty subcontractors and engineered systems (separate quote)"
+            ],
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
@@ -2236,37 +2302,37 @@
         "csi_code": "33 00 00",
         "bids": [
           {
-            "sub_id": "33-S1",
-            "company": "Trinity Electric",
-            "contact": "Rob Flores",
-            "email": "trinityelectric@contractor.com",
+            "sub_id": "33-lone_star_healthcare",
+            "company": "Lone Star Healthcare Construction, LLC",
+            "contact": "Reagan Castillo",
+            "email": "rcastillo@lonestarhealthcare.com",
             "source": "PDF",
             "submitted_date": "2024-04-18",
-            "base_bid": 1135000,
+            "base_bid": 1095000,
             "line_items": [
               {
                 "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 1",
-                "amount": 175000
-              },
-              {
-                "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 2",
-                "amount": 225000
-              },
-              {
-                "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 3",
-                "amount": 215000
-              },
-              {
-                "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 4",
                 "amount": 195000
               },
               {
+                "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 2",
+                "amount": 180000
+              },
+              {
+                "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 3",
+                "amount": 150000
+              },
+              {
+                "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 4",
+                "amount": 165000
+              },
+              {
                 "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 5",
-                "amount": 185000
+                "amount": 165000
               },
               {
                 "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 6",
-                "amount": 140000
+                "amount": 240000
               }
             ],
             "exclusions": [],
@@ -2277,33 +2343,29 @@
             "post_bid_updates": []
           },
           {
-            "sub_id": "33-S2",
-            "company": "Metroplex Concrete",
-            "contact": "Lisa Chang",
-            "email": "metroplexconcrete@contractor.com",
+            "sub_id": "33-capitol_commercial",
+            "company": "Capitol Commercial Builders",
+            "contact": "Jordan Walsh",
+            "email": "jwalsh@capitolcommercial.com",
             "source": "Excel",
             "submitted_date": "2024-04-19",
-            "base_bid": 690000,
+            "base_bid": 1075000,
             "line_items": [
               {
                 "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 1",
-                "amount": 130000
+                "amount": 315000
               },
               {
                 "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 2",
-                "amount": 165000
+                "amount": 300000
               },
               {
                 "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 3",
-                "amount": 135000
+                "amount": 280000
               },
               {
                 "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 4",
-                "amount": 140000
-              },
-              {
-                "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 5",
-                "amount": 120000
+                "amount": 180000
               }
             ],
             "exclusions": [
@@ -2314,31 +2376,50 @@
               "All labor, material, and permits per contract documents"
             ],
             "notes": "Bid per One Arts District Tower drawings issued 03/15/2024.",
-            "post_bid_updates": []
+            "post_bid_updates": [
+              {
+                "update_id": "33-CAP-U1",
+                "date": "2024-04-28",
+                "from": "Jordan Walsh <jwalsh@capitolcommercial.com>",
+                "subject": "RE: One Arts District Tower - Underground fire line Add",
+                "body": "We can include Underground fire line for an additional $75,000. Revised total would be $1,150,000.",
+                "revised_total": 1150000,
+                "delta": 75000,
+                "scope_added": "Underground fire line"
+              }
+            ]
           },
           {
-            "sub_id": "33-S3",
-            "company": "DFW Mechanical",
-            "contact": "James Brown",
-            "email": "dfwmechanical@contractor.com",
+            "sub_id": "33-pedernales_custom",
+            "company": "Pedernales Custom Homes & Renovations, Inc.",
+            "contact": "Wyatt Burnham",
+            "email": "wburnham@pedernalescustom.com",
             "source": "Email",
             "submitted_date": "2024-04-20",
-            "base_bid": 1410000,
+            "base_bid": 860000,
             "line_items": [
               {
                 "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 1",
-                "amount": 500000
+                "amount": 210000
               },
               {
                 "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 2",
-                "amount": 480000
+                "amount": 220000
               },
               {
                 "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 3",
-                "amount": 430000
+                "amount": 230000
+              },
+              {
+                "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 4",
+                "amount": 200000
               }
             ],
-            "exclusions": [],
+            "exclusions": [
+              "Underground fire line - NOT IN CONTRACT",
+              "Extended warranty (by owner)",
+              "Specialty subcontractors and engineered systems (separate quote)"
+            ],
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],

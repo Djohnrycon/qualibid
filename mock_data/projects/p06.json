@@ -13,70 +13,13 @@
         "csi_code": "02 40 00",
         "bids": [
           {
-            "sub_id": "02-S1",
-            "company": "Southeast Interiors",
-            "contact": "Pete Adams",
-            "email": "southeastinteriors@contractor.com",
+            "sub_id": "02-lone_star_healthcare",
+            "company": "Lone Star Healthcare Construction, LLC",
+            "contact": "Reagan Castillo",
+            "email": "rcastillo@lonestarhealthcare.com",
             "source": "PDF",
             "submitted_date": "2024-04-18",
-            "base_bid": 20000,
-            "line_items": [
-              {
-                "description": "Demolition & Site Clearing - component 1",
-                "amount": 5000
-              },
-              {
-                "description": "Demolition & Site Clearing - component 2",
-                "amount": 5000
-              },
-              {
-                "description": "Demolition & Site Clearing - component 3",
-                "amount": 10000
-              }
-            ],
-            "exclusions": [],
-            "inclusions": [
-              "All labor, material, and permits per contract documents"
-            ],
-            "notes": "Bid per Brickell Restaurant & Retail drawings issued 03/15/2024.",
-            "post_bid_updates": []
-          },
-          {
-            "sub_id": "02-S2",
-            "company": "Atlantic Plumbing",
-            "contact": "Sam Rivera",
-            "email": "atlanticplumbing@contractor.com",
-            "source": "Excel",
-            "submitted_date": "2024-04-19",
-            "base_bid": 10000,
-            "line_items": [
-              {
-                "description": "Demolition & Site Clearing - component 1",
-                "amount": 5000
-              },
-              {
-                "description": "Demolition & Site Clearing - component 2",
-                "amount": 5000
-              }
-            ],
-            "exclusions": [
-              "Hazardous material abatement - NOT IN CONTRACT",
-              "Extended warranty (by owner)"
-            ],
-            "inclusions": [
-              "All labor, material, and permits per contract documents"
-            ],
-            "notes": "Bid per Brickell Restaurant & Retail drawings issued 03/15/2024.",
-            "post_bid_updates": []
-          },
-          {
-            "sub_id": "02-S3",
-            "company": "Coastal Framing",
-            "contact": "Walt Burns",
-            "email": "coastalframing@contractor.com",
-            "source": "Email",
-            "submitted_date": "2024-04-20",
-            "base_bid": 25000,
+            "base_bid": 15000,
             "line_items": [
               {
                 "description": "Demolition & Site Clearing - component 1",
@@ -92,10 +35,82 @@
               },
               {
                 "description": "Demolition & Site Clearing - component 4",
-                "amount": 10000
+                "amount": 5000
               }
             ],
             "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Brickell Restaurant & Retail drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "02-capitol_commercial",
+            "company": "Capitol Commercial Builders",
+            "contact": "Jordan Walsh",
+            "email": "jwalsh@capitolcommercial.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 15000,
+            "line_items": [
+              {
+                "description": "Demolition & Site Clearing - component 1",
+                "amount": 5000
+              },
+              {
+                "description": "Demolition & Site Clearing - component 2",
+                "amount": 5000
+              },
+              {
+                "description": "Demolition & Site Clearing - component 3",
+                "amount": 5000
+              },
+              {
+                "description": "Demolition & Site Clearing - component 4",
+                "amount": 5000
+              }
+            ],
+            "exclusions": [
+              "Hazardous material abatement - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Brickell Restaurant & Retail drawings issued 03/15/2024.",
+            "post_bid_updates": [
+              {
+                "update_id": "02-CAP-U1",
+                "date": "2024-04-28",
+                "from": "Jordan Walsh <jwalsh@capitolcommercial.com>",
+                "subject": "RE: Brickell Restaurant & Retail - Hazardous material abatement Scope Add",
+                "body": "Per our conversation this morning: Hazardous material abatement can be added for $0. New total is $15,000.",
+                "revised_total": 15000,
+                "delta": 0,
+                "scope_added": "Hazardous material abatement"
+              }
+            ]
+          },
+          {
+            "sub_id": "02-pedernales_custom",
+            "company": "Pedernales Custom Homes & Renovations, Inc.",
+            "contact": "Wyatt Burnham",
+            "email": "wburnham@pedernalescustom.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 10000,
+            "line_items": [
+              {
+                "description": "Demolition & Site Clearing - component 5",
+                "amount": 10000
+              }
+            ],
+            "exclusions": [
+              "Hazardous material abatement - NOT IN CONTRACT",
+              "Extended warranty (by owner)",
+              "Specialty subcontractors and engineered systems (separate quote)"
+            ],
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
@@ -109,50 +124,21 @@
         "csi_code": "03 00 00",
         "bids": [
           {
-            "sub_id": "03-S1",
-            "company": "Southeast Interiors",
-            "contact": "Lisa Chang",
-            "email": "southeastinteriors@contractor.com",
+            "sub_id": "03-lone_star_healthcare",
+            "company": "Lone Star Healthcare Construction, LLC",
+            "contact": "Reagan Castillo",
+            "email": "rcastillo@lonestarhealthcare.com",
             "source": "PDF",
             "submitted_date": "2024-04-18",
-            "base_bid": 50000,
+            "base_bid": 45000,
             "line_items": [
               {
                 "description": "Concrete - component 1",
-                "amount": 20000
+                "amount": 10000
               },
               {
                 "description": "Concrete - component 2",
-                "amount": 15000
-              },
-              {
-                "description": "Concrete - component 3",
-                "amount": 15000
-              }
-            ],
-            "exclusions": [],
-            "inclusions": [
-              "All labor, material, and permits per contract documents"
-            ],
-            "notes": "Bid per Brickell Restaurant & Retail drawings issued 03/15/2024.",
-            "post_bid_updates": []
-          },
-          {
-            "sub_id": "03-S2",
-            "company": "Atlantic Plumbing",
-            "contact": "James Brown",
-            "email": "atlanticplumbing@contractor.com",
-            "source": "Excel",
-            "submitted_date": "2024-04-19",
-            "base_bid": 35000,
-            "line_items": [
-              {
-                "description": "Concrete - component 1",
-                "amount": 5000
-              },
-              {
-                "description": "Concrete - component 2",
-                "amount": 5000
+                "amount": 10000
               },
               {
                 "description": "Concrete - component 3",
@@ -160,7 +146,7 @@
               },
               {
                 "description": "Concrete - component 4",
-                "amount": 5000
+                "amount": 10000
               },
               {
                 "description": "Concrete - component 5",
@@ -168,11 +154,49 @@
               },
               {
                 "description": "Concrete - component 6",
+                "amount": 5000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Brickell Restaurant & Retail drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "03-capitol_commercial",
+            "company": "Capitol Commercial Builders",
+            "contact": "Jordan Walsh",
+            "email": "jwalsh@capitolcommercial.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 45000,
+            "line_items": [
+              {
+                "description": "Concrete - component 1",
                 "amount": 10000
+              },
+              {
+                "description": "Concrete - component 2",
+                "amount": 10000
+              },
+              {
+                "description": "Concrete - component 3",
+                "amount": 10000
+              },
+              {
+                "description": "Concrete - component 4",
+                "amount": 10000
+              },
+              {
+                "description": "Concrete - component 5",
+                "amount": 5000
               }
             ],
             "exclusions": [
-              "Vapor barrier and underslab insulation - NOT IN CONTRACT"
+              "Vapor barrier and underslab insulation - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
             ],
             "inclusions": [
               "All labor, material, and permits per contract documents"
@@ -181,36 +205,36 @@
             "post_bid_updates": []
           },
           {
-            "sub_id": "03-S3",
-            "company": "Coastal Framing",
-            "contact": "Maria Valdez",
-            "email": "coastalframing@contractor.com",
+            "sub_id": "03-pedernales_custom",
+            "company": "Pedernales Custom Homes & Renovations, Inc.",
+            "contact": "Wyatt Burnham",
+            "email": "wburnham@pedernalescustom.com",
             "source": "Email",
             "submitted_date": "2024-04-20",
-            "base_bid": 60000,
+            "base_bid": 35000,
             "line_items": [
               {
                 "description": "Concrete - component 1",
-                "amount": 15000
-              },
-              {
-                "description": "Concrete - component 2",
                 "amount": 10000
               },
               {
+                "description": "Concrete - component 2",
+                "amount": 5000
+              },
+              {
                 "description": "Concrete - component 3",
-                "amount": 15000
+                "amount": 10000
               },
               {
                 "description": "Concrete - component 4",
-                "amount": 15000
-              },
-              {
-                "description": "Concrete - component 5",
-                "amount": 5000
+                "amount": 10000
               }
             ],
-            "exclusions": [],
+            "exclusions": [
+              "Vapor barrier and underslab insulation - NOT IN CONTRACT",
+              "Extended warranty (by owner)",
+              "Specialty subcontractors and engineered systems (separate quote)"
+            ],
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
@@ -224,17 +248,17 @@
         "csi_code": "04 00 00",
         "bids": [
           {
-            "sub_id": "04-S1",
-            "company": "Brickell Roofing",
-            "contact": "Angela Cruz",
-            "email": "brickellroofing@contractor.com",
+            "sub_id": "04-lone_star_healthcare",
+            "company": "Lone Star Healthcare Construction, LLC",
+            "contact": "Reagan Castillo",
+            "email": "rcastillo@lonestarhealthcare.com",
             "source": "PDF",
             "submitted_date": "2024-04-18",
-            "base_bid": 40000,
+            "base_bid": 35000,
             "line_items": [
               {
                 "description": "Masonry - component 1",
-                "amount": 15000
+                "amount": 5000
               },
               {
                 "description": "Masonry - component 2",
@@ -242,7 +266,11 @@
               },
               {
                 "description": "Masonry - component 3",
-                "amount": 15000
+                "amount": 10000
+              },
+              {
+                "description": "Masonry - component 4",
+                "amount": 10000
               }
             ],
             "exclusions": [],
@@ -253,13 +281,13 @@
             "post_bid_updates": []
           },
           {
-            "sub_id": "04-S2",
-            "company": "Sunstate Steel",
-            "contact": "Tom Brady",
-            "email": "sunstatesteel@contractor.com",
+            "sub_id": "04-capitol_commercial",
+            "company": "Capitol Commercial Builders",
+            "contact": "Jordan Walsh",
+            "email": "jwalsh@capitolcommercial.com",
             "source": "Excel",
             "submitted_date": "2024-04-19",
-            "base_bid": 25000,
+            "base_bid": 35000,
             "line_items": [
               {
                 "description": "Masonry - component 1",
@@ -280,6 +308,10 @@
               {
                 "description": "Masonry - component 5",
                 "amount": 5000
+              },
+              {
+                "description": "Masonry - component 6",
+                "amount": 10000
               }
             ],
             "exclusions": [
@@ -290,27 +322,16 @@
               "All labor, material, and permits per contract documents"
             ],
             "notes": "Bid per Brickell Restaurant & Retail drawings issued 03/15/2024.",
-            "post_bid_updates": [
-              {
-                "update_id": "04-U1",
-                "date": "2024-04-28",
-                "from": "Tom Brady <sunstatesteel@contractor.com>",
-                "subject": "RE: Brickell Restaurant & Retail - CMU backup wall Add",
-                "body": "We can include CMU backup wall for an additional $0. Revised total would be $25,000.",
-                "revised_total": 25000,
-                "delta": 0,
-                "scope_added": "CMU backup wall"
-              }
-            ]
+            "post_bid_updates": []
           },
           {
-            "sub_id": "04-S3",
-            "company": "Southeast Interiors",
-            "contact": "Linda Garza",
-            "email": "southeastinteriors@contractor.com",
+            "sub_id": "04-pedernales_custom",
+            "company": "Pedernales Custom Homes & Renovations, Inc.",
+            "contact": "Wyatt Burnham",
+            "email": "wburnham@pedernalescustom.com",
             "source": "Email",
             "submitted_date": "2024-04-20",
-            "base_bid": 50000,
+            "base_bid": 30000,
             "line_items": [
               {
                 "description": "Masonry - component 1",
@@ -323,17 +344,13 @@
               {
                 "description": "Masonry - component 3",
                 "amount": 10000
-              },
-              {
-                "description": "Masonry - component 4",
-                "amount": 10000
-              },
-              {
-                "description": "Masonry - component 5",
-                "amount": 10000
               }
             ],
-            "exclusions": [],
+            "exclusions": [
+              "CMU backup wall - NOT IN CONTRACT",
+              "Extended warranty (by owner)",
+              "Specialty subcontractors and engineered systems (separate quote)"
+            ],
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
@@ -347,33 +364,25 @@
         "csi_code": "05 00 00",
         "bids": [
           {
-            "sub_id": "05-S1",
-            "company": "Sunstate Steel",
-            "contact": "Rick Simmons",
-            "email": "sunstatesteel@contractor.com",
+            "sub_id": "05-lone_star_healthcare",
+            "company": "Lone Star Healthcare Construction, LLC",
+            "contact": "Reagan Castillo",
+            "email": "rcastillo@lonestarhealthcare.com",
             "source": "PDF",
             "submitted_date": "2024-04-18",
-            "base_bid": 65000,
+            "base_bid": 70000,
             "line_items": [
               {
                 "description": "Structural Steel & Misc Metals - component 1",
-                "amount": 10000
+                "amount": 25000
               },
               {
                 "description": "Structural Steel & Misc Metals - component 2",
-                "amount": 15000
+                "amount": 20000
               },
               {
                 "description": "Structural Steel & Misc Metals - component 3",
-                "amount": 10000
-              },
-              {
-                "description": "Structural Steel & Misc Metals - component 4",
-                "amount": 10000
-              },
-              {
-                "description": "Structural Steel & Misc Metals - component 5",
-                "amount": 20000
+                "amount": 25000
               }
             ],
             "exclusions": [],
@@ -384,13 +393,13 @@
             "post_bid_updates": []
           },
           {
-            "sub_id": "05-S2",
-            "company": "Southeast Interiors",
-            "contact": "Ed Turner",
-            "email": "southeastinteriors@contractor.com",
+            "sub_id": "05-capitol_commercial",
+            "company": "Capitol Commercial Builders",
+            "contact": "Jordan Walsh",
+            "email": "jwalsh@capitolcommercial.com",
             "source": "Excel",
             "submitted_date": "2024-04-19",
-            "base_bid": 45000,
+            "base_bid": 65000,
             "line_items": [
               {
                 "description": "Structural Steel & Misc Metals - component 1",
@@ -402,37 +411,31 @@
               },
               {
                 "description": "Structural Steel & Misc Metals - component 3",
+                "amount": 20000
+              },
+              {
+                "description": "Structural Steel & Misc Metals - component 4",
                 "amount": 10000
               }
             ],
             "exclusions": [
-              "Miscellaneous metals and embeds - NOT IN CONTRACT"
+              "Miscellaneous metals and embeds - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
             ],
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
             "notes": "Bid per Brickell Restaurant & Retail drawings issued 03/15/2024.",
-            "post_bid_updates": [
-              {
-                "update_id": "05-U1",
-                "date": "2024-04-28",
-                "from": "Ed Turner <southeastinteriors@contractor.com>",
-                "subject": "RE: Brickell Restaurant & Retail - Miscellaneous metals and embeds Add",
-                "body": "We can include Miscellaneous metals and embeds for an additional $5,000. Revised total would be $50,000.",
-                "revised_total": 50000,
-                "delta": 5000,
-                "scope_added": "Miscellaneous metals and embeds"
-              }
-            ]
+            "post_bid_updates": []
           },
           {
-            "sub_id": "05-S3",
-            "company": "Atlantic Plumbing",
-            "contact": "Carl Johnson",
-            "email": "atlanticplumbing@contractor.com",
+            "sub_id": "05-pedernales_custom",
+            "company": "Pedernales Custom Homes & Renovations, Inc.",
+            "contact": "Wyatt Burnham",
+            "email": "wburnham@pedernalescustom.com",
             "source": "Email",
             "submitted_date": "2024-04-20",
-            "base_bid": 85000,
+            "base_bid": 50000,
             "line_items": [
               {
                 "description": "Structural Steel & Misc Metals - component 1",
@@ -448,18 +451,14 @@
               },
               {
                 "description": "Structural Steel & Misc Metals - component 4",
-                "amount": 15000
-              },
-              {
-                "description": "Structural Steel & Misc Metals - component 5",
-                "amount": 15000
-              },
-              {
-                "description": "Structural Steel & Misc Metals - component 6",
-                "amount": 10000
+                "amount": 5000
               }
             ],
-            "exclusions": [],
+            "exclusions": [
+              "Miscellaneous metals and embeds - NOT IN CONTRACT",
+              "Extended warranty (by owner)",
+              "Specialty subcontractors and engineered systems (separate quote)"
+            ],
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
@@ -473,37 +472,25 @@
         "csi_code": "07 00 00",
         "bids": [
           {
-            "sub_id": "07-S1",
-            "company": "Coastal Concrete",
-            "contact": "Maria Valdez",
-            "email": "coastalconcrete@contractor.com",
+            "sub_id": "07-lone_star_healthcare",
+            "company": "Lone Star Healthcare Construction, LLC",
+            "contact": "Reagan Castillo",
+            "email": "rcastillo@lonestarhealthcare.com",
             "source": "PDF",
             "submitted_date": "2024-04-18",
-            "base_bid": 65000,
+            "base_bid": 60000,
             "line_items": [
               {
                 "description": "Roofing, Waterproofing & Insulation - component 1",
-                "amount": 10000
+                "amount": 25000
               },
               {
                 "description": "Roofing, Waterproofing & Insulation - component 2",
-                "amount": 15000
+                "amount": 20000
               },
               {
                 "description": "Roofing, Waterproofing & Insulation - component 3",
                 "amount": 15000
-              },
-              {
-                "description": "Roofing, Waterproofing & Insulation - component 4",
-                "amount": 10000
-              },
-              {
-                "description": "Roofing, Waterproofing & Insulation - component 5",
-                "amount": 10000
-              },
-              {
-                "description": "Roofing, Waterproofing & Insulation - component 6",
-                "amount": 5000
               }
             ],
             "exclusions": [],
@@ -514,41 +501,42 @@
             "post_bid_updates": []
           },
           {
-            "sub_id": "07-S2",
-            "company": "Florida Mechanical",
-            "contact": "Kevin Walsh",
-            "email": "floridamechanical@contractor.com",
+            "sub_id": "07-capitol_commercial",
+            "company": "Capitol Commercial Builders",
+            "contact": "Jordan Walsh",
+            "email": "jwalsh@capitolcommercial.com",
             "source": "Excel",
             "submitted_date": "2024-04-19",
-            "base_bid": 40000,
+            "base_bid": 60000,
             "line_items": [
               {
                 "description": "Roofing, Waterproofing & Insulation - component 1",
-                "amount": 5000
+                "amount": 10000
               },
               {
                 "description": "Roofing, Waterproofing & Insulation - component 2",
-                "amount": 5000
+                "amount": 10000
               },
               {
                 "description": "Roofing, Waterproofing & Insulation - component 3",
-                "amount": 5000
+                "amount": 10000
               },
               {
                 "description": "Roofing, Waterproofing & Insulation - component 4",
-                "amount": 5000
+                "amount": 10000
               },
               {
                 "description": "Roofing, Waterproofing & Insulation - component 5",
-                "amount": 5000
+                "amount": 10000
               },
               {
                 "description": "Roofing, Waterproofing & Insulation - component 6",
-                "amount": 15000
+                "amount": 10000
               }
             ],
             "exclusions": [
-              "Below-slab waterproofing - NOT IN CONTRACT"
+              "Below-slab waterproofing - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
             ],
             "inclusions": [
               "All labor, material, and permits per contract documents"
@@ -557,32 +545,44 @@
             "post_bid_updates": []
           },
           {
-            "sub_id": "07-S3",
-            "company": "Brickell Roofing",
-            "contact": "Beth Adams",
-            "email": "brickellroofing@contractor.com",
+            "sub_id": "07-pedernales_custom",
+            "company": "Pedernales Custom Homes & Renovations, Inc.",
+            "contact": "Wyatt Burnham",
+            "email": "wburnham@pedernalescustom.com",
             "source": "Email",
             "submitted_date": "2024-04-20",
-            "base_bid": 80000,
+            "base_bid": 45000,
             "line_items": [
               {
                 "description": "Roofing, Waterproofing & Insulation - component 1",
-                "amount": 20000
+                "amount": 10000
               },
               {
                 "description": "Roofing, Waterproofing & Insulation - component 2",
-                "amount": 20000
+                "amount": 10000
               },
               {
                 "description": "Roofing, Waterproofing & Insulation - component 3",
-                "amount": 20000
+                "amount": 5000
               },
               {
                 "description": "Roofing, Waterproofing & Insulation - component 4",
-                "amount": 20000
+                "amount": 5000
+              },
+              {
+                "description": "Roofing, Waterproofing & Insulation - component 5",
+                "amount": 5000
+              },
+              {
+                "description": "Roofing, Waterproofing & Insulation - component 6",
+                "amount": 10000
               }
             ],
-            "exclusions": [],
+            "exclusions": [
+              "Below-slab waterproofing - NOT IN CONTRACT",
+              "Extended warranty (by owner)",
+              "Specialty subcontractors and engineered systems (separate quote)"
+            ],
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
@@ -596,10 +596,10 @@
         "csi_code": "08 00 00",
         "bids": [
           {
-            "sub_id": "08-S1",
-            "company": "Southeast Interiors",
-            "contact": "Angela Cruz",
-            "email": "southeastinteriors@contractor.com",
+            "sub_id": "08-lone_star_healthcare",
+            "company": "Lone Star Healthcare Construction, LLC",
+            "contact": "Reagan Castillo",
+            "email": "rcastillo@lonestarhealthcare.com",
             "source": "PDF",
             "submitted_date": "2024-04-18",
             "base_bid": 95000,
@@ -610,11 +610,92 @@
               },
               {
                 "description": "Doors, Frames, Hardware & Glazing - component 2",
-                "amount": 20000
+                "amount": 15000
               },
               {
                 "description": "Doors, Frames, Hardware & Glazing - component 3",
+                "amount": 15000
+              },
+              {
+                "description": "Doors, Frames, Hardware & Glazing - component 4",
+                "amount": 15000
+              },
+              {
+                "description": "Doors, Frames, Hardware & Glazing - component 5",
+                "amount": 15000
+              },
+              {
+                "description": "Doors, Frames, Hardware & Glazing - component 6",
+                "amount": 15000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Brickell Restaurant & Retail drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "08-capitol_commercial",
+            "company": "Capitol Commercial Builders",
+            "contact": "Jordan Walsh",
+            "email": "jwalsh@capitolcommercial.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 90000,
+            "line_items": [
+              {
+                "description": "Doors, Frames, Hardware & Glazing - component 1",
                 "amount": 20000
+              },
+              {
+                "description": "Doors, Frames, Hardware & Glazing - component 2",
+                "amount": 15000
+              },
+              {
+                "description": "Doors, Frames, Hardware & Glazing - component 3",
+                "amount": 15000
+              },
+              {
+                "description": "Doors, Frames, Hardware & Glazing - component 4",
+                "amount": 20000
+              },
+              {
+                "description": "Doors, Frames, Hardware & Glazing - component 5",
+                "amount": 20000
+              }
+            ],
+            "exclusions": [
+              "Storefront glazing system - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Brickell Restaurant & Retail drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "08-pedernales_custom",
+            "company": "Pedernales Custom Homes & Renovations, Inc.",
+            "contact": "Wyatt Burnham",
+            "email": "wburnham@pedernalescustom.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 75000,
+            "line_items": [
+              {
+                "description": "Doors, Frames, Hardware & Glazing - component 1",
+                "amount": 15000
+              },
+              {
+                "description": "Doors, Frames, Hardware & Glazing - component 2",
+                "amount": 15000
+              },
+              {
+                "description": "Doors, Frames, Hardware & Glazing - component 3",
+                "amount": 10000
               },
               {
                 "description": "Doors, Frames, Hardware & Glazing - component 4",
@@ -625,75 +706,11 @@
                 "amount": 20000
               }
             ],
-            "exclusions": [],
-            "inclusions": [
-              "All labor, material, and permits per contract documents"
-            ],
-            "notes": "Bid per Brickell Restaurant & Retail drawings issued 03/15/2024.",
-            "post_bid_updates": []
-          },
-          {
-            "sub_id": "08-S2",
-            "company": "Atlantic Plumbing",
-            "contact": "Tom Brady",
-            "email": "atlanticplumbing@contractor.com",
-            "source": "Excel",
-            "submitted_date": "2024-04-19",
-            "base_bid": 70000,
-            "line_items": [
-              {
-                "description": "Doors, Frames, Hardware & Glazing - component 1",
-                "amount": 15000
-              },
-              {
-                "description": "Doors, Frames, Hardware & Glazing - component 2",
-                "amount": 15000
-              },
-              {
-                "description": "Doors, Frames, Hardware & Glazing - component 3",
-                "amount": 20000
-              },
-              {
-                "description": "Doors, Frames, Hardware & Glazing - component 4",
-                "amount": 20000
-              }
-            ],
             "exclusions": [
-              "Storefront glazing system - NOT IN CONTRACT"
+              "Storefront glazing system - NOT IN CONTRACT",
+              "Extended warranty (by owner)",
+              "Specialty subcontractors and engineered systems (separate quote)"
             ],
-            "inclusions": [
-              "All labor, material, and permits per contract documents"
-            ],
-            "notes": "Bid per Brickell Restaurant & Retail drawings issued 03/15/2024.",
-            "post_bid_updates": []
-          },
-          {
-            "sub_id": "08-S3",
-            "company": "Coastal Framing",
-            "contact": "Linda Garza",
-            "email": "coastalframing@contractor.com",
-            "source": "Email",
-            "submitted_date": "2024-04-20",
-            "base_bid": 130000,
-            "line_items": [
-              {
-                "description": "Doors, Frames, Hardware & Glazing - component 1",
-                "amount": 35000
-              },
-              {
-                "description": "Doors, Frames, Hardware & Glazing - component 2",
-                "amount": 30000
-              },
-              {
-                "description": "Doors, Frames, Hardware & Glazing - component 3",
-                "amount": 30000
-              },
-              {
-                "description": "Doors, Frames, Hardware & Glazing - component 4",
-                "amount": 35000
-              }
-            ],
-            "exclusions": [],
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
@@ -707,12 +724,41 @@
         "csi_code": "09 20 00",
         "bids": [
           {
-            "sub_id": "09-S1",
-            "company": "Brickell Roofing",
-            "contact": "Pete Adams",
-            "email": "brickellroofing@contractor.com",
+            "sub_id": "09-lone_star_healthcare",
+            "company": "Lone Star Healthcare Construction, LLC",
+            "contact": "Reagan Castillo",
+            "email": "rcastillo@lonestarhealthcare.com",
             "source": "PDF",
             "submitted_date": "2024-04-18",
+            "base_bid": 35000,
+            "line_items": [
+              {
+                "description": "Drywall & Framing - component 1",
+                "amount": 10000
+              },
+              {
+                "description": "Drywall & Framing - component 2",
+                "amount": 10000
+              },
+              {
+                "description": "Drywall & Framing - component 3",
+                "amount": 15000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Brickell Restaurant & Retail drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "09-capitol_commercial",
+            "company": "Capitol Commercial Builders",
+            "contact": "Jordan Walsh",
+            "email": "jwalsh@capitolcommercial.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
             "base_bid": 35000,
             "line_items": [
               {
@@ -725,7 +771,7 @@
               },
               {
                 "description": "Drywall & Framing - component 3",
-                "amount": 5000
+                "amount": 10000
               },
               {
                 "description": "Drywall & Framing - component 4",
@@ -733,10 +779,13 @@
               },
               {
                 "description": "Drywall & Framing - component 5",
-                "amount": 10000
+                "amount": 5000
               }
             ],
-            "exclusions": [],
+            "exclusions": [
+              "Shaft wall assemblies - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
+            ],
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
@@ -744,12 +793,12 @@
             "post_bid_updates": []
           },
           {
-            "sub_id": "09-S2",
-            "company": "Sunstate Steel",
-            "contact": "Sam Rivera",
-            "email": "sunstatesteel@contractor.com",
-            "source": "Excel",
-            "submitted_date": "2024-04-19",
+            "sub_id": "09-pedernales_custom",
+            "company": "Pedernales Custom Homes & Renovations, Inc.",
+            "contact": "Wyatt Burnham",
+            "email": "wburnham@pedernalescustom.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
             "base_bid": 25000,
             "line_items": [
               {
@@ -771,45 +820,9 @@
             ],
             "exclusions": [
               "Shaft wall assemblies - NOT IN CONTRACT",
-              "Extended warranty (by owner)"
+              "Extended warranty (by owner)",
+              "Specialty subcontractors and engineered systems (separate quote)"
             ],
-            "inclusions": [
-              "All labor, material, and permits per contract documents"
-            ],
-            "notes": "Bid per Brickell Restaurant & Retail drawings issued 03/15/2024.",
-            "post_bid_updates": []
-          },
-          {
-            "sub_id": "09-S3",
-            "company": "Southeast Interiors",
-            "contact": "Walt Burns",
-            "email": "southeastinteriors@contractor.com",
-            "source": "Email",
-            "submitted_date": "2024-04-20",
-            "base_bid": 45000,
-            "line_items": [
-              {
-                "description": "Drywall & Framing - component 1",
-                "amount": 10000
-              },
-              {
-                "description": "Drywall & Framing - component 2",
-                "amount": 10000
-              },
-              {
-                "description": "Drywall & Framing - component 3",
-                "amount": 10000
-              },
-              {
-                "description": "Drywall & Framing - component 4",
-                "amount": 10000
-              },
-              {
-                "description": "Drywall & Framing - component 5",
-                "amount": 5000
-              }
-            ],
-            "exclusions": [],
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
@@ -823,13 +836,13 @@
         "csi_code": "09 60 00",
         "bids": [
           {
-            "sub_id": "09-S1",
-            "company": "Coastal Concrete",
-            "contact": "Angela Cruz",
-            "email": "coastalconcrete@contractor.com",
+            "sub_id": "09-lone_star_healthcare",
+            "company": "Lone Star Healthcare Construction, LLC",
+            "contact": "Reagan Castillo",
+            "email": "rcastillo@lonestarhealthcare.com",
             "source": "PDF",
             "submitted_date": "2024-04-18",
-            "base_bid": 75000,
+            "base_bid": 80000,
             "line_items": [
               {
                 "description": "Flooring - component 1",
@@ -850,6 +863,10 @@
               {
                 "description": "Flooring - component 5",
                 "amount": 15000
+              },
+              {
+                "description": "Flooring - component 6",
+                "amount": 5000
               }
             ],
             "exclusions": [],
@@ -860,29 +877,30 @@
             "post_bid_updates": []
           },
           {
-            "sub_id": "09-S2",
-            "company": "Florida Mechanical",
-            "contact": "Tom Brady",
-            "email": "floridamechanical@contractor.com",
+            "sub_id": "09-capitol_commercial",
+            "company": "Capitol Commercial Builders",
+            "contact": "Jordan Walsh",
+            "email": "jwalsh@capitolcommercial.com",
             "source": "Excel",
             "submitted_date": "2024-04-19",
-            "base_bid": 50000,
+            "base_bid": 75000,
             "line_items": [
               {
                 "description": "Flooring - component 1",
-                "amount": 15000
+                "amount": 25000
               },
               {
                 "description": "Flooring - component 2",
-                "amount": 20000
+                "amount": 25000
               },
               {
                 "description": "Flooring - component 3",
-                "amount": 15000
+                "amount": 25000
               }
             ],
             "exclusions": [
-              "Specialty sheet vinyl in procedure rooms - NOT IN CONTRACT"
+              "Specialty sheet vinyl in procedure rooms - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
             ],
             "inclusions": [
               "All labor, material, and permits per contract documents"
@@ -891,32 +909,32 @@
             "post_bid_updates": []
           },
           {
-            "sub_id": "09-S3",
-            "company": "Brickell Roofing",
-            "contact": "Linda Garza",
-            "email": "brickellroofing@contractor.com",
+            "sub_id": "09-pedernales_custom",
+            "company": "Pedernales Custom Homes & Renovations, Inc.",
+            "contact": "Wyatt Burnham",
+            "email": "wburnham@pedernalescustom.com",
             "source": "Email",
             "submitted_date": "2024-04-20",
-            "base_bid": 100000,
+            "base_bid": 60000,
             "line_items": [
               {
                 "description": "Flooring - component 1",
-                "amount": 25000
+                "amount": 15000
               },
               {
                 "description": "Flooring - component 2",
-                "amount": 30000
+                "amount": 20000
               },
               {
                 "description": "Flooring - component 3",
                 "amount": 25000
-              },
-              {
-                "description": "Flooring - component 4",
-                "amount": 20000
               }
             ],
-            "exclusions": [],
+            "exclusions": [
+              "Specialty sheet vinyl in procedure rooms - NOT IN CONTRACT",
+              "Extended warranty (by owner)",
+              "Specialty subcontractors and engineered systems (separate quote)"
+            ],
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
@@ -930,25 +948,29 @@
         "csi_code": "09 90 00",
         "bids": [
           {
-            "sub_id": "09-S1",
-            "company": "Sunstate Steel",
-            "contact": "Sam Rivera",
-            "email": "sunstatesteel@contractor.com",
+            "sub_id": "09-lone_star_healthcare",
+            "company": "Lone Star Healthcare Construction, LLC",
+            "contact": "Reagan Castillo",
+            "email": "rcastillo@lonestarhealthcare.com",
             "source": "PDF",
             "submitted_date": "2024-04-18",
             "base_bid": 25000,
             "line_items": [
               {
                 "description": "Painting & Wall Coverings - component 1",
-                "amount": 10000
+                "amount": 5000
               },
               {
                 "description": "Painting & Wall Coverings - component 2",
-                "amount": 10000
+                "amount": 5000
               },
               {
                 "description": "Painting & Wall Coverings - component 3",
                 "amount": 5000
+              },
+              {
+                "description": "Painting & Wall Coverings - component 4",
+                "amount": 10000
               }
             ],
             "exclusions": [],
@@ -959,44 +981,13 @@
             "post_bid_updates": []
           },
           {
-            "sub_id": "09-S2",
-            "company": "Southeast Interiors",
-            "contact": "Walt Burns",
-            "email": "southeastinteriors@contractor.com",
+            "sub_id": "09-capitol_commercial",
+            "company": "Capitol Commercial Builders",
+            "contact": "Jordan Walsh",
+            "email": "jwalsh@capitolcommercial.com",
             "source": "Excel",
             "submitted_date": "2024-04-19",
-            "base_bid": 15000,
-            "line_items": [
-              {
-                "description": "Painting & Wall Coverings - component 1",
-                "amount": 5000
-              },
-              {
-                "description": "Painting & Wall Coverings - component 2",
-                "amount": 5000
-              },
-              {
-                "description": "Painting & Wall Coverings - component 3",
-                "amount": 5000
-              }
-            ],
-            "exclusions": [
-              "Exterior painting - NOT IN CONTRACT"
-            ],
-            "inclusions": [
-              "All labor, material, and permits per contract documents"
-            ],
-            "notes": "Bid per Brickell Restaurant & Retail drawings issued 03/15/2024.",
-            "post_bid_updates": []
-          },
-          {
-            "sub_id": "09-S3",
-            "company": "Atlantic Plumbing",
-            "contact": "Mike Torres",
-            "email": "atlanticplumbing@contractor.com",
-            "source": "Email",
-            "submitted_date": "2024-04-20",
-            "base_bid": 35000,
+            "base_bid": 25000,
             "line_items": [
               {
                 "description": "Painting & Wall Coverings - component 1",
@@ -1016,10 +1007,46 @@
               },
               {
                 "description": "Painting & Wall Coverings - component 5",
-                "amount": 15000
+                "amount": 5000
               }
             ],
-            "exclusions": [],
+            "exclusions": [
+              "Exterior painting - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Brickell Restaurant & Retail drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "09-pedernales_custom",
+            "company": "Pedernales Custom Homes & Renovations, Inc.",
+            "contact": "Wyatt Burnham",
+            "email": "wburnham@pedernalescustom.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 20000,
+            "line_items": [
+              {
+                "description": "Painting & Wall Coverings - component 1",
+                "amount": 5000
+              },
+              {
+                "description": "Painting & Wall Coverings - component 2",
+                "amount": 5000
+              },
+              {
+                "description": "Painting & Wall Coverings - component 3",
+                "amount": 10000
+              }
+            ],
+            "exclusions": [
+              "Exterior painting - NOT IN CONTRACT",
+              "Extended warranty (by owner)",
+              "Specialty subcontractors and engineered systems (separate quote)"
+            ],
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
@@ -1033,10 +1060,10 @@
         "csi_code": "09 51 00",
         "bids": [
           {
-            "sub_id": "09-S1",
-            "company": "Florida Mechanical",
-            "contact": "Tom Brady",
-            "email": "floridamechanical@contractor.com",
+            "sub_id": "09-lone_star_healthcare",
+            "company": "Lone Star Healthcare Construction, LLC",
+            "contact": "Reagan Castillo",
+            "email": "rcastillo@lonestarhealthcare.com",
             "source": "PDF",
             "submitted_date": "2024-04-18",
             "base_bid": 30000,
@@ -1059,11 +1086,7 @@
               },
               {
                 "description": "Acoustical Ceilings (ACT) - component 5",
-                "amount": 5000
-              },
-              {
-                "description": "Acoustical Ceilings (ACT) - component 6",
-                "amount": 5000
+                "amount": 10000
               }
             ],
             "exclusions": [],
@@ -1074,52 +1097,60 @@
             "post_bid_updates": []
           },
           {
-            "sub_id": "09-S2",
-            "company": "Brickell Roofing",
-            "contact": "Linda Garza",
-            "email": "brickellroofing@contractor.com",
+            "sub_id": "09-capitol_commercial",
+            "company": "Capitol Commercial Builders",
+            "contact": "Jordan Walsh",
+            "email": "jwalsh@capitolcommercial.com",
             "source": "Excel",
             "submitted_date": "2024-04-19",
-            "base_bid": 20000,
+            "base_bid": 30000,
             "line_items": [
               {
                 "description": "Acoustical Ceilings (ACT) - component 1",
-                "amount": 5000
+                "amount": 10000
               },
               {
                 "description": "Acoustical Ceilings (ACT) - component 2",
-                "amount": 5000
+                "amount": 10000
               },
               {
                 "description": "Acoustical Ceilings (ACT) - component 3",
-                "amount": 5000
-              },
-              {
-                "description": "Acoustical Ceilings (ACT) - component 4",
-                "amount": 5000
+                "amount": 10000
               }
             ],
             "exclusions": [
-              "Gypsum board soffits and clouds - NOT IN CONTRACT"
+              "Gypsum board soffits and clouds - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
             ],
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
             "notes": "Bid per Brickell Restaurant & Retail drawings issued 03/15/2024.",
-            "post_bid_updates": []
+            "post_bid_updates": [
+              {
+                "update_id": "09-CAP-U1",
+                "date": "2024-04-28",
+                "from": "Jordan Walsh <jwalsh@capitolcommercial.com>",
+                "subject": "RE: Brickell Restaurant & Retail - Gypsum board soffits and clouds Add",
+                "body": "We can include Gypsum board soffits and clouds for an additional $0. Revised total would be $30,000.",
+                "revised_total": 30000,
+                "delta": 0,
+                "scope_added": "Gypsum board soffits and clouds"
+              }
+            ]
           },
           {
-            "sub_id": "09-S3",
-            "company": "Sunstate Steel",
-            "contact": "Bill Torres",
-            "email": "sunstatesteel@contractor.com",
+            "sub_id": "09-pedernales_custom",
+            "company": "Pedernales Custom Homes & Renovations, Inc.",
+            "contact": "Wyatt Burnham",
+            "email": "wburnham@pedernalescustom.com",
             "source": "Email",
             "submitted_date": "2024-04-20",
-            "base_bid": 40000,
+            "base_bid": 25000,
             "line_items": [
               {
                 "description": "Acoustical Ceilings (ACT) - component 1",
-                "amount": 5000
+                "amount": 10000
               },
               {
                 "description": "Acoustical Ceilings (ACT) - component 2",
@@ -1127,22 +1158,14 @@
               },
               {
                 "description": "Acoustical Ceilings (ACT) - component 3",
-                "amount": 5000
-              },
-              {
-                "description": "Acoustical Ceilings (ACT) - component 4",
-                "amount": 5000
-              },
-              {
-                "description": "Acoustical Ceilings (ACT) - component 5",
-                "amount": 5000
-              },
-              {
-                "description": "Acoustical Ceilings (ACT) - component 6",
-                "amount": 15000
+                "amount": 10000
               }
             ],
-            "exclusions": [],
+            "exclusions": [
+              "Gypsum board soffits and clouds - NOT IN CONTRACT",
+              "Extended warranty (by owner)",
+              "Specialty subcontractors and engineered systems (separate quote)"
+            ],
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
@@ -1156,10 +1179,10 @@
         "csi_code": "10 00 00",
         "bids": [
           {
-            "sub_id": "10-S1",
-            "company": "Coastal Concrete",
-            "contact": "Angela Cruz",
-            "email": "coastalconcrete@contractor.com",
+            "sub_id": "10-lone_star_healthcare",
+            "company": "Lone Star Healthcare Construction, LLC",
+            "contact": "Reagan Castillo",
+            "email": "rcastillo@lonestarhealthcare.com",
             "source": "PDF",
             "submitted_date": "2024-04-18",
             "base_bid": 20000,
@@ -1193,16 +1216,67 @@
             "post_bid_updates": []
           },
           {
-            "sub_id": "10-S2",
-            "company": "Florida Mechanical",
-            "contact": "Tom Brady",
-            "email": "floridamechanical@contractor.com",
+            "sub_id": "10-capitol_commercial",
+            "company": "Capitol Commercial Builders",
+            "contact": "Jordan Walsh",
+            "email": "jwalsh@capitolcommercial.com",
             "source": "Excel",
             "submitted_date": "2024-04-19",
-            "base_bid": 10000,
+            "base_bid": 20000,
             "line_items": [
               {
                 "description": "Specialties - component 1",
+                "amount": 5000
+              },
+              {
+                "description": "Specialties - component 2",
+                "amount": 5000
+              },
+              {
+                "description": "Specialties - component 3",
+                "amount": 5000
+              },
+              {
+                "description": "Specialties - component 4",
+                "amount": 5000
+              }
+            ],
+            "exclusions": [
+              "ADA signage package - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Brickell Restaurant & Retail drawings issued 03/15/2024.",
+            "post_bid_updates": [
+              {
+                "update_id": "10-CAP-U1",
+                "date": "2024-04-28",
+                "from": "Jordan Walsh <jwalsh@capitolcommercial.com>",
+                "subject": "RE: Brickell Restaurant & Retail - ADA signage package Scope Add",
+                "body": "Per our conversation this morning: ADA signage package can be added for $0. New total is $20,000.",
+                "revised_total": 20000,
+                "delta": 0,
+                "scope_added": "ADA signage package"
+              }
+            ]
+          },
+          {
+            "sub_id": "10-pedernales_custom",
+            "company": "Pedernales Custom Homes & Renovations, Inc.",
+            "contact": "Wyatt Burnham",
+            "email": "wburnham@pedernalescustom.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 15000,
+            "line_items": [
+              {
+                "description": "Specialties - component 1",
+                "amount": 5000
+              },
+              {
+                "description": "Specialties - component 2",
                 "amount": 5000
               },
               {
@@ -1211,37 +1285,10 @@
               }
             ],
             "exclusions": [
-              "ADA signage package - NOT IN CONTRACT"
+              "ADA signage package - NOT IN CONTRACT",
+              "Extended warranty (by owner)",
+              "Specialty subcontractors and engineered systems (separate quote)"
             ],
-            "inclusions": [
-              "All labor, material, and permits per contract documents"
-            ],
-            "notes": "Bid per Brickell Restaurant & Retail drawings issued 03/15/2024.",
-            "post_bid_updates": []
-          },
-          {
-            "sub_id": "10-S3",
-            "company": "Brickell Roofing",
-            "contact": "Linda Garza",
-            "email": "brickellroofing@contractor.com",
-            "source": "Email",
-            "submitted_date": "2024-04-20",
-            "base_bid": 25000,
-            "line_items": [
-              {
-                "description": "Specialties - component 1",
-                "amount": 10000
-              },
-              {
-                "description": "Specialties - component 2",
-                "amount": 10000
-              },
-              {
-                "description": "Specialties - component 3",
-                "amount": 5000
-              }
-            ],
-            "exclusions": [],
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
@@ -1255,17 +1302,17 @@
         "csi_code": "21 00 00",
         "bids": [
           {
-            "sub_id": "21-S1",
-            "company": "Atlantic Electric",
-            "contact": "Kevin Walsh",
-            "email": "atlanticelectric@contractor.com",
+            "sub_id": "21-lone_star_healthcare",
+            "company": "Lone Star Healthcare Construction, LLC",
+            "contact": "Reagan Castillo",
+            "email": "rcastillo@lonestarhealthcare.com",
             "source": "PDF",
             "submitted_date": "2024-04-18",
-            "base_bid": 45000,
+            "base_bid": 40000,
             "line_items": [
               {
                 "description": "Fire Suppression (Sprinklers) - component 1",
-                "amount": 15000
+                "amount": 5000
               },
               {
                 "description": "Fire Suppression (Sprinklers) - component 2",
@@ -1273,10 +1320,18 @@
               },
               {
                 "description": "Fire Suppression (Sprinklers) - component 3",
-                "amount": 10000
+                "amount": 5000
               },
               {
                 "description": "Fire Suppression (Sprinklers) - component 4",
+                "amount": 5000
+              },
+              {
+                "description": "Fire Suppression (Sprinklers) - component 5",
+                "amount": 5000
+              },
+              {
+                "description": "Fire Suppression (Sprinklers) - component 6",
                 "amount": 10000
               }
             ],
@@ -1288,41 +1343,30 @@
             "post_bid_updates": []
           },
           {
-            "sub_id": "21-S2",
-            "company": "Coastal Concrete",
-            "contact": "Beth Adams",
-            "email": "coastalconcrete@contractor.com",
+            "sub_id": "21-capitol_commercial",
+            "company": "Capitol Commercial Builders",
+            "contact": "Jordan Walsh",
+            "email": "jwalsh@capitolcommercial.com",
             "source": "Excel",
             "submitted_date": "2024-04-19",
-            "base_bid": 30000,
+            "base_bid": 40000,
             "line_items": [
               {
                 "description": "Fire Suppression (Sprinklers) - component 1",
-                "amount": 5000
+                "amount": 10000
               },
               {
                 "description": "Fire Suppression (Sprinklers) - component 2",
-                "amount": 5000
+                "amount": 15000
               },
               {
                 "description": "Fire Suppression (Sprinklers) - component 3",
-                "amount": 5000
-              },
-              {
-                "description": "Fire Suppression (Sprinklers) - component 4",
-                "amount": 5000
-              },
-              {
-                "description": "Fire Suppression (Sprinklers) - component 5",
-                "amount": 5000
-              },
-              {
-                "description": "Fire Suppression (Sprinklers) - component 6",
-                "amount": 5000
+                "amount": 15000
               }
             ],
             "exclusions": [
-              "Kitchen hood fire suppression - NOT IN CONTRACT"
+              "Kitchen hood fire suppression - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
             ],
             "inclusions": [
               "All labor, material, and permits per contract documents"
@@ -1330,29 +1374,29 @@
             "notes": "Bid per Brickell Restaurant & Retail drawings issued 03/15/2024.",
             "post_bid_updates": [
               {
-                "update_id": "21-U1",
+                "update_id": "21-CAP-U1",
                 "date": "2024-04-28",
-                "from": "Beth Adams <coastalconcrete@contractor.com>",
-                "subject": "RE: Brickell Restaurant & Retail - Kitchen hood fire suppression Add",
-                "body": "We can include Kitchen hood fire suppression for an additional $0. Revised total would be $30,000.",
-                "revised_total": 30000,
-                "delta": 0,
+                "from": "Jordan Walsh <jwalsh@capitolcommercial.com>",
+                "subject": "RE: Brickell Restaurant & Retail - Kitchen hood fire suppression Scope Add",
+                "body": "Per our conversation this morning: Kitchen hood fire suppression can be added for $5,000. New total is $45,000.",
+                "revised_total": 45000,
+                "delta": 5000,
                 "scope_added": "Kitchen hood fire suppression"
               }
             ]
           },
           {
-            "sub_id": "21-S3",
-            "company": "Florida Mechanical",
-            "contact": "Rick Simmons",
-            "email": "floridamechanical@contractor.com",
+            "sub_id": "21-pedernales_custom",
+            "company": "Pedernales Custom Homes & Renovations, Inc.",
+            "contact": "Wyatt Burnham",
+            "email": "wburnham@pedernalescustom.com",
             "source": "Email",
             "submitted_date": "2024-04-20",
-            "base_bid": 55000,
+            "base_bid": 30000,
             "line_items": [
               {
                 "description": "Fire Suppression (Sprinklers) - component 1",
-                "amount": 5000
+                "amount": 10000
               },
               {
                 "description": "Fire Suppression (Sprinklers) - component 2",
@@ -1361,21 +1405,13 @@
               {
                 "description": "Fire Suppression (Sprinklers) - component 3",
                 "amount": 10000
-              },
-              {
-                "description": "Fire Suppression (Sprinklers) - component 4",
-                "amount": 5000
-              },
-              {
-                "description": "Fire Suppression (Sprinklers) - component 5",
-                "amount": 10000
-              },
-              {
-                "description": "Fire Suppression (Sprinklers) - component 6",
-                "amount": 15000
               }
             ],
-            "exclusions": [],
+            "exclusions": [
+              "Kitchen hood fire suppression - NOT IN CONTRACT",
+              "Extended warranty (by owner)",
+              "Specialty subcontractors and engineered systems (separate quote)"
+            ],
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
@@ -1389,37 +1425,25 @@
         "csi_code": "22 00 00",
         "bids": [
           {
-            "sub_id": "22-S1",
-            "company": "Florida Mechanical",
-            "contact": "Carl Johnson",
-            "email": "floridamechanical@contractor.com",
+            "sub_id": "22-lone_star_healthcare",
+            "company": "Lone Star Healthcare Construction, LLC",
+            "contact": "Reagan Castillo",
+            "email": "rcastillo@lonestarhealthcare.com",
             "source": "PDF",
             "submitted_date": "2024-04-18",
-            "base_bid": 135000,
+            "base_bid": 130000,
             "line_items": [
               {
                 "description": "Plumbing - component 1",
-                "amount": 25000
+                "amount": 40000
               },
               {
                 "description": "Plumbing - component 2",
-                "amount": 25000
+                "amount": 35000
               },
               {
                 "description": "Plumbing - component 3",
-                "amount": 20000
-              },
-              {
-                "description": "Plumbing - component 4",
-                "amount": 20000
-              },
-              {
-                "description": "Plumbing - component 5",
-                "amount": 20000
-              },
-              {
-                "description": "Plumbing - component 6",
-                "amount": 25000
+                "amount": 55000
               }
             ],
             "exclusions": [],
@@ -1430,37 +1454,34 @@
             "post_bid_updates": []
           },
           {
-            "sub_id": "22-S2",
-            "company": "Brickell Roofing",
-            "contact": "Pete Adams",
-            "email": "brickellroofing@contractor.com",
+            "sub_id": "22-capitol_commercial",
+            "company": "Capitol Commercial Builders",
+            "contact": "Jordan Walsh",
+            "email": "jwalsh@capitolcommercial.com",
             "source": "Excel",
             "submitted_date": "2024-04-19",
-            "base_bid": 90000,
+            "base_bid": 120000,
             "line_items": [
               {
                 "description": "Plumbing - component 1",
-                "amount": 20000
+                "amount": 35000
               },
               {
                 "description": "Plumbing - component 2",
-                "amount": 15000
+                "amount": 35000
               },
               {
                 "description": "Plumbing - component 3",
-                "amount": 15000
+                "amount": 25000
               },
               {
                 "description": "Plumbing - component 4",
-                "amount": 15000
-              },
-              {
-                "description": "Plumbing - component 5",
                 "amount": 25000
               }
             ],
             "exclusions": [
-              "Medical gas outlets and zone valves - NOT IN CONTRACT"
+              "Medical gas outlets and zone valves - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
             ],
             "inclusions": [
               "All labor, material, and permits per contract documents"
@@ -1469,17 +1490,17 @@
             "post_bid_updates": []
           },
           {
-            "sub_id": "22-S3",
-            "company": "Sunstate Steel",
-            "contact": "Sam Rivera",
-            "email": "sunstatesteel@contractor.com",
+            "sub_id": "22-pedernales_custom",
+            "company": "Pedernales Custom Homes & Renovations, Inc.",
+            "contact": "Wyatt Burnham",
+            "email": "wburnham@pedernalescustom.com",
             "source": "Email",
             "submitted_date": "2024-04-20",
-            "base_bid": 165000,
+            "base_bid": 100000,
             "line_items": [
               {
                 "description": "Plumbing - component 1",
-                "amount": 25000
+                "amount": 30000
               },
               {
                 "description": "Plumbing - component 2",
@@ -1487,22 +1508,18 @@
               },
               {
                 "description": "Plumbing - component 3",
-                "amount": 30000
-              },
-              {
-                "description": "Plumbing - component 4",
                 "amount": 25000
               },
               {
-                "description": "Plumbing - component 5",
-                "amount": 30000
-              },
-              {
-                "description": "Plumbing - component 6",
-                "amount": 30000
+                "description": "Plumbing - component 4",
+                "amount": 20000
               }
             ],
-            "exclusions": [],
+            "exclusions": [
+              "Medical gas outlets and zone valves - NOT IN CONTRACT",
+              "Extended warranty (by owner)",
+              "Specialty subcontractors and engineered systems (separate quote)"
+            ],
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
@@ -1516,13 +1533,50 @@
         "csi_code": "23 00 00",
         "bids": [
           {
-            "sub_id": "23-S1",
-            "company": "Florida Mechanical",
-            "contact": "Bill Torres",
-            "email": "floridamechanical@contractor.com",
+            "sub_id": "23-lone_star_healthcare",
+            "company": "Lone Star Healthcare Construction, LLC",
+            "contact": "Reagan Castillo",
+            "email": "rcastillo@lonestarhealthcare.com",
             "source": "PDF",
             "submitted_date": "2024-04-18",
             "base_bid": 105000,
+            "line_items": [
+              {
+                "description": "Mechanical (HVAC) - component 1",
+                "amount": 20000
+              },
+              {
+                "description": "Mechanical (HVAC) - component 2",
+                "amount": 25000
+              },
+              {
+                "description": "Mechanical (HVAC) - component 3",
+                "amount": 25000
+              },
+              {
+                "description": "Mechanical (HVAC) - component 4",
+                "amount": 20000
+              },
+              {
+                "description": "Mechanical (HVAC) - component 5",
+                "amount": 15000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Brickell Restaurant & Retail drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "23-capitol_commercial",
+            "company": "Capitol Commercial Builders",
+            "contact": "Jordan Walsh",
+            "email": "jwalsh@capitolcommercial.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 95000,
             "line_items": [
               {
                 "description": "Mechanical (HVAC) - component 1",
@@ -1531,6 +1585,46 @@
               {
                 "description": "Mechanical (HVAC) - component 2",
                 "amount": 20000
+              },
+              {
+                "description": "Mechanical (HVAC) - component 3",
+                "amount": 20000
+              },
+              {
+                "description": "Mechanical (HVAC) - component 4",
+                "amount": 20000
+              },
+              {
+                "description": "Mechanical (HVAC) - component 5",
+                "amount": 20000
+              }
+            ],
+            "exclusions": [
+              "Medical gas rough-in and kitchen hood exhaust - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Brickell Restaurant & Retail drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "23-pedernales_custom",
+            "company": "Pedernales Custom Homes & Renovations, Inc.",
+            "contact": "Wyatt Burnham",
+            "email": "wburnham@pedernalescustom.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 80000,
+            "line_items": [
+              {
+                "description": "Mechanical (HVAC) - component 1",
+                "amount": 15000
+              },
+              {
+                "description": "Mechanical (HVAC) - component 2",
+                "amount": 10000
               },
               {
                 "description": "Mechanical (HVAC) - component 3",
@@ -1546,90 +1640,14 @@
               },
               {
                 "description": "Mechanical (HVAC) - component 6",
-                "amount": 25000
-              }
-            ],
-            "exclusions": [],
-            "inclusions": [
-              "All labor, material, and permits per contract documents"
-            ],
-            "notes": "Bid per Brickell Restaurant & Retail drawings issued 03/15/2024.",
-            "post_bid_updates": []
-          },
-          {
-            "sub_id": "23-S2",
-            "company": "Brickell Roofing",
-            "contact": "Priya Nair",
-            "email": "brickellroofing@contractor.com",
-            "source": "Excel",
-            "submitted_date": "2024-04-19",
-            "base_bid": 75000,
-            "line_items": [
-              {
-                "description": "Mechanical (HVAC) - component 1",
-                "amount": 15000
-              },
-              {
-                "description": "Mechanical (HVAC) - component 2",
-                "amount": 15000
-              },
-              {
-                "description": "Mechanical (HVAC) - component 3",
-                "amount": 15000
-              },
-              {
-                "description": "Mechanical (HVAC) - component 4",
-                "amount": 15000
-              },
-              {
-                "description": "Mechanical (HVAC) - component 5",
-                "amount": 15000
+                "amount": 10000
               }
             ],
             "exclusions": [
               "Medical gas rough-in and kitchen hood exhaust - NOT IN CONTRACT",
-              "Extended warranty (by owner)"
+              "Extended warranty (by owner)",
+              "Specialty subcontractors and engineered systems (separate quote)"
             ],
-            "inclusions": [
-              "All labor, material, and permits per contract documents"
-            ],
-            "notes": "Bid per Brickell Restaurant & Retail drawings issued 03/15/2024.",
-            "post_bid_updates": [
-              {
-                "update_id": "23-U1",
-                "date": "2024-04-28",
-                "from": "Priya Nair <brickellroofing@contractor.com>",
-                "subject": "RE: Brickell Restaurant & Retail - Medical gas rough-in and kitchen hood exhaust Clarification",
-                "body": "Following up on our call \u2014 we can pick up Medical gas rough-in and kitchen hood exhaust for $5,000 additional. Revised total $80,000.",
-                "revised_total": 80000,
-                "delta": 5000,
-                "scope_added": "Medical gas rough-in and kitchen hood exhaust"
-              }
-            ]
-          },
-          {
-            "sub_id": "23-S3",
-            "company": "Sunstate Steel",
-            "contact": "Rob Flores",
-            "email": "sunstatesteel@contractor.com",
-            "source": "Email",
-            "submitted_date": "2024-04-20",
-            "base_bid": 135000,
-            "line_items": [
-              {
-                "description": "Mechanical (HVAC) - component 1",
-                "amount": 40000
-              },
-              {
-                "description": "Mechanical (HVAC) - component 2",
-                "amount": 50000
-              },
-              {
-                "description": "Mechanical (HVAC) - component 3",
-                "amount": 45000
-              }
-            ],
-            "exclusions": [],
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
@@ -1643,17 +1661,17 @@
         "csi_code": "26 00 00",
         "bids": [
           {
-            "sub_id": "26-S1",
-            "company": "Southeast Interiors",
-            "contact": "Lisa Chang",
-            "email": "southeastinteriors@contractor.com",
+            "sub_id": "26-lone_star_healthcare",
+            "company": "Lone Star Healthcare Construction, LLC",
+            "contact": "Reagan Castillo",
+            "email": "rcastillo@lonestarhealthcare.com",
             "source": "PDF",
             "submitted_date": "2024-04-18",
-            "base_bid": 85000,
+            "base_bid": 80000,
             "line_items": [
               {
                 "description": "Electrical - component 1",
-                "amount": 20000
+                "amount": 10000
               },
               {
                 "description": "Electrical - component 2",
@@ -1665,11 +1683,15 @@
               },
               {
                 "description": "Electrical - component 4",
-                "amount": 20000
+                "amount": 15000
               },
               {
                 "description": "Electrical - component 5",
                 "amount": 15000
+              },
+              {
+                "description": "Electrical - component 6",
+                "amount": 10000
               }
             ],
             "exclusions": [],
@@ -1680,13 +1702,13 @@
             "post_bid_updates": []
           },
           {
-            "sub_id": "26-S2",
-            "company": "Atlantic Plumbing",
-            "contact": "James Brown",
-            "email": "atlanticplumbing@contractor.com",
+            "sub_id": "26-capitol_commercial",
+            "company": "Capitol Commercial Builders",
+            "contact": "Jordan Walsh",
+            "email": "jwalsh@capitolcommercial.com",
             "source": "Excel",
             "submitted_date": "2024-04-19",
-            "base_bid": 55000,
+            "base_bid": 70000,
             "line_items": [
               {
                 "description": "Electrical - component 1",
@@ -1698,7 +1720,11 @@
               },
               {
                 "description": "Electrical - component 3",
-                "amount": 15000
+                "amount": 20000
+              },
+              {
+                "description": "Electrical - component 4",
+                "amount": 10000
               }
             ],
             "exclusions": [
@@ -1712,17 +1738,17 @@
             "post_bid_updates": []
           },
           {
-            "sub_id": "26-S3",
-            "company": "Coastal Framing",
-            "contact": "Maria Valdez",
-            "email": "coastalframing@contractor.com",
+            "sub_id": "26-pedernales_custom",
+            "company": "Pedernales Custom Homes & Renovations, Inc.",
+            "contact": "Wyatt Burnham",
+            "email": "wburnham@pedernalescustom.com",
             "source": "Email",
             "submitted_date": "2024-04-20",
-            "base_bid": 100000,
+            "base_bid": 60000,
             "line_items": [
               {
                 "description": "Electrical - component 1",
-                "amount": 20000
+                "amount": 15000
               },
               {
                 "description": "Electrical - component 2",
@@ -1735,17 +1761,13 @@
               {
                 "description": "Electrical - component 4",
                 "amount": 15000
-              },
-              {
-                "description": "Electrical - component 5",
-                "amount": 20000
-              },
-              {
-                "description": "Electrical - component 6",
-                "amount": 15000
               }
             ],
-            "exclusions": [],
+            "exclusions": [
+              "Fire alarm system - NOT IN CONTRACT",
+              "Extended warranty (by owner)",
+              "Specialty subcontractors and engineered systems (separate quote)"
+            ],
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
@@ -1759,73 +1781,13 @@
         "csi_code": "27 00 00",
         "bids": [
           {
-            "sub_id": "27-S1",
-            "company": "Coastal Concrete",
-            "contact": "Lisa Chang",
-            "email": "coastalconcrete@contractor.com",
+            "sub_id": "27-lone_star_healthcare",
+            "company": "Lone Star Healthcare Construction, LLC",
+            "contact": "Reagan Castillo",
+            "email": "rcastillo@lonestarhealthcare.com",
             "source": "PDF",
             "submitted_date": "2024-04-18",
             "base_bid": 25000,
-            "line_items": [
-              {
-                "description": "Communications (Data, AV, Tel) - component 1",
-                "amount": 10000
-              },
-              {
-                "description": "Communications (Data, AV, Tel) - component 2",
-                "amount": 10000
-              },
-              {
-                "description": "Communications (Data, AV, Tel) - component 3",
-                "amount": 5000
-              }
-            ],
-            "exclusions": [],
-            "inclusions": [
-              "All labor, material, and permits per contract documents"
-            ],
-            "notes": "Bid per Brickell Restaurant & Retail drawings issued 03/15/2024.",
-            "post_bid_updates": []
-          },
-          {
-            "sub_id": "27-S2",
-            "company": "Florida Mechanical",
-            "contact": "James Brown",
-            "email": "floridamechanical@contractor.com",
-            "source": "Excel",
-            "submitted_date": "2024-04-19",
-            "base_bid": 15000,
-            "line_items": [
-              {
-                "description": "Communications (Data, AV, Tel) - component 1",
-                "amount": 5000
-              },
-              {
-                "description": "Communications (Data, AV, Tel) - component 2",
-                "amount": 5000
-              },
-              {
-                "description": "Communications (Data, AV, Tel) - component 3",
-                "amount": 5000
-              }
-            ],
-            "exclusions": [
-              "AV rough-in for conference rooms - NOT IN CONTRACT"
-            ],
-            "inclusions": [
-              "All labor, material, and permits per contract documents"
-            ],
-            "notes": "Bid per Brickell Restaurant & Retail drawings issued 03/15/2024.",
-            "post_bid_updates": []
-          },
-          {
-            "sub_id": "27-S3",
-            "company": "Brickell Roofing",
-            "contact": "Maria Valdez",
-            "email": "brickellroofing@contractor.com",
-            "source": "Email",
-            "submitted_date": "2024-04-20",
-            "base_bid": 35000,
             "line_items": [
               {
                 "description": "Communications (Data, AV, Tel) - component 1",
@@ -1841,14 +1803,94 @@
               },
               {
                 "description": "Communications (Data, AV, Tel) - component 4",
-                "amount": 10000
+                "amount": 5000
               },
               {
                 "description": "Communications (Data, AV, Tel) - component 5",
-                "amount": 10000
+                "amount": 5000
               }
             ],
             "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Brickell Restaurant & Retail drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "27-capitol_commercial",
+            "company": "Capitol Commercial Builders",
+            "contact": "Jordan Walsh",
+            "email": "jwalsh@capitolcommercial.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 25000,
+            "line_items": [
+              {
+                "description": "Communications (Data, AV, Tel) - component 1",
+                "amount": 10000
+              },
+              {
+                "description": "Communications (Data, AV, Tel) - component 2",
+                "amount": 5000
+              },
+              {
+                "description": "Communications (Data, AV, Tel) - component 3",
+                "amount": 10000
+              }
+            ],
+            "exclusions": [
+              "AV rough-in for conference rooms - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Brickell Restaurant & Retail drawings issued 03/15/2024.",
+            "post_bid_updates": [
+              {
+                "update_id": "27-CAP-U1",
+                "date": "2024-04-28",
+                "from": "Jordan Walsh <jwalsh@capitolcommercial.com>",
+                "subject": "RE: Brickell Restaurant & Retail - AV rough-in for conference rooms Scope Add",
+                "body": "Per our conversation this morning: AV rough-in for conference rooms can be added for $0. New total is $25,000.",
+                "revised_total": 25000,
+                "delta": 0,
+                "scope_added": "AV rough-in for conference rooms"
+              }
+            ]
+          },
+          {
+            "sub_id": "27-pedernales_custom",
+            "company": "Pedernales Custom Homes & Renovations, Inc.",
+            "contact": "Wyatt Burnham",
+            "email": "wburnham@pedernalescustom.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 20000,
+            "line_items": [
+              {
+                "description": "Communications (Data, AV, Tel) - component 1",
+                "amount": 5000
+              },
+              {
+                "description": "Communications (Data, AV, Tel) - component 2",
+                "amount": 5000
+              },
+              {
+                "description": "Communications (Data, AV, Tel) - component 3",
+                "amount": 5000
+              },
+              {
+                "description": "Communications (Data, AV, Tel) - component 4",
+                "amount": 5000
+              }
+            ],
+            "exclusions": [
+              "AV rough-in for conference rooms - NOT IN CONTRACT",
+              "Extended warranty (by owner)",
+              "Specialty subcontractors and engineered systems (separate quote)"
+            ],
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
@@ -1862,10 +1904,10 @@
         "csi_code": "28 00 00",
         "bids": [
           {
-            "sub_id": "28-S1",
-            "company": "Florida Mechanical",
-            "contact": "Sam Rivera",
-            "email": "floridamechanical@contractor.com",
+            "sub_id": "28-lone_star_healthcare",
+            "company": "Lone Star Healthcare Construction, LLC",
+            "contact": "Reagan Castillo",
+            "email": "rcastillo@lonestarhealthcare.com",
             "source": "PDF",
             "submitted_date": "2024-04-18",
             "base_bid": 25000,
@@ -1895,13 +1937,13 @@
             "post_bid_updates": []
           },
           {
-            "sub_id": "28-S2",
-            "company": "Brickell Roofing",
-            "contact": "Walt Burns",
-            "email": "brickellroofing@contractor.com",
+            "sub_id": "28-capitol_commercial",
+            "company": "Capitol Commercial Builders",
+            "contact": "Jordan Walsh",
+            "email": "jwalsh@capitolcommercial.com",
             "source": "Excel",
             "submitted_date": "2024-04-19",
-            "base_bid": 15000,
+            "base_bid": 25000,
             "line_items": [
               {
                 "description": "Electronic Safety & Security - component 1",
@@ -1914,6 +1956,10 @@
               {
                 "description": "Electronic Safety & Security - component 3",
                 "amount": 5000
+              },
+              {
+                "description": "Electronic Safety & Security - component 4",
+                "amount": 10000
               }
             ],
             "exclusions": [
@@ -1927,17 +1973,17 @@
             "post_bid_updates": []
           },
           {
-            "sub_id": "28-S3",
-            "company": "Sunstate Steel",
-            "contact": "Mike Torres",
-            "email": "sunstatesteel@contractor.com",
+            "sub_id": "28-pedernales_custom",
+            "company": "Pedernales Custom Homes & Renovations, Inc.",
+            "contact": "Wyatt Burnham",
+            "email": "wburnham@pedernalescustom.com",
             "source": "Email",
             "submitted_date": "2024-04-20",
-            "base_bid": 35000,
+            "base_bid": 20000,
             "line_items": [
               {
                 "description": "Electronic Safety & Security - component 1",
-                "amount": 10000
+                "amount": 5000
               },
               {
                 "description": "Electronic Safety & Security - component 2",
@@ -1945,14 +1991,18 @@
               },
               {
                 "description": "Electronic Safety & Security - component 3",
-                "amount": 10000
+                "amount": 5000
               },
               {
                 "description": "Electronic Safety & Security - component 4",
-                "amount": 10000
+                "amount": 5000
               }
             ],
-            "exclusions": [],
+            "exclusions": [
+              "Exterior access control and parking - NOT IN CONTRACT",
+              "Extended warranty (by owner)",
+              "Specialty subcontractors and engineered systems (separate quote)"
+            ],
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
@@ -1966,42 +2016,13 @@
         "csi_code": "31 00 00",
         "bids": [
           {
-            "sub_id": "31-S1",
-            "company": "Brickell Roofing",
-            "contact": "Lisa Chang",
-            "email": "brickellroofing@contractor.com",
+            "sub_id": "31-lone_star_healthcare",
+            "company": "Lone Star Healthcare Construction, LLC",
+            "contact": "Reagan Castillo",
+            "email": "rcastillo@lonestarhealthcare.com",
             "source": "PDF",
             "submitted_date": "2024-04-18",
             "base_bid": 40000,
-            "line_items": [
-              {
-                "description": "Earthwork, Grading & Site Preparation - component 1",
-                "amount": 10000
-              },
-              {
-                "description": "Earthwork, Grading & Site Preparation - component 2",
-                "amount": 15000
-              },
-              {
-                "description": "Earthwork, Grading & Site Preparation - component 3",
-                "amount": 15000
-              }
-            ],
-            "exclusions": [],
-            "inclusions": [
-              "All labor, material, and permits per contract documents"
-            ],
-            "notes": "Bid per Brickell Restaurant & Retail drawings issued 03/15/2024.",
-            "post_bid_updates": []
-          },
-          {
-            "sub_id": "31-S2",
-            "company": "Sunstate Steel",
-            "contact": "James Brown",
-            "email": "sunstatesteel@contractor.com",
-            "source": "Excel",
-            "submitted_date": "2024-04-19",
-            "base_bid": 25000,
             "line_items": [
               {
                 "description": "Earthwork, Grading & Site Preparation - component 1",
@@ -2022,6 +2043,51 @@
               {
                 "description": "Earthwork, Grading & Site Preparation - component 5",
                 "amount": 5000
+              },
+              {
+                "description": "Earthwork, Grading & Site Preparation - component 6",
+                "amount": 15000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Brickell Restaurant & Retail drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "31-capitol_commercial",
+            "company": "Capitol Commercial Builders",
+            "contact": "Jordan Walsh",
+            "email": "jwalsh@capitolcommercial.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 40000,
+            "line_items": [
+              {
+                "description": "Earthwork, Grading & Site Preparation - component 1",
+                "amount": 5000
+              },
+              {
+                "description": "Earthwork, Grading & Site Preparation - component 2",
+                "amount": 10000
+              },
+              {
+                "description": "Earthwork, Grading & Site Preparation - component 3",
+                "amount": 5000
+              },
+              {
+                "description": "Earthwork, Grading & Site Preparation - component 4",
+                "amount": 5000
+              },
+              {
+                "description": "Earthwork, Grading & Site Preparation - component 5",
+                "amount": 5000
+              },
+              {
+                "description": "Earthwork, Grading & Site Preparation - component 6",
+                "amount": 10000
               }
             ],
             "exclusions": [
@@ -2034,52 +2100,56 @@
             "notes": "Bid per Brickell Restaurant & Retail drawings issued 03/15/2024.",
             "post_bid_updates": [
               {
-                "update_id": "31-U1",
+                "update_id": "31-CAP-U1",
                 "date": "2024-04-28",
-                "from": "James Brown <sunstatesteel@contractor.com>",
+                "from": "Jordan Walsh <jwalsh@capitolcommercial.com>",
                 "subject": "RE: Brickell Restaurant & Retail - Rock excavation allowance Clarification",
-                "body": "Following up on our call \u2014 we can pick up Rock excavation allowance for $0 additional. Revised total $25,000.",
-                "revised_total": 25000,
-                "delta": 0,
+                "body": "Following up on our call \u2014 we can pick up Rock excavation allowance for $5,000 additional. Revised total $45,000.",
+                "revised_total": 45000,
+                "delta": 5000,
                 "scope_added": "Rock excavation allowance"
               }
             ]
           },
           {
-            "sub_id": "31-S3",
-            "company": "Southeast Interiors",
-            "contact": "Maria Valdez",
-            "email": "southeastinteriors@contractor.com",
+            "sub_id": "31-pedernales_custom",
+            "company": "Pedernales Custom Homes & Renovations, Inc.",
+            "contact": "Wyatt Burnham",
+            "email": "wburnham@pedernalescustom.com",
             "source": "Email",
             "submitted_date": "2024-04-20",
-            "base_bid": 55000,
+            "base_bid": 30000,
             "line_items": [
               {
                 "description": "Earthwork, Grading & Site Preparation - component 1",
-                "amount": 10000
+                "amount": 5000
               },
               {
                 "description": "Earthwork, Grading & Site Preparation - component 2",
-                "amount": 10000
+                "amount": 5000
               },
               {
                 "description": "Earthwork, Grading & Site Preparation - component 3",
-                "amount": 10000
+                "amount": 5000
               },
               {
                 "description": "Earthwork, Grading & Site Preparation - component 4",
-                "amount": 10000
+                "amount": 5000
               },
               {
                 "description": "Earthwork, Grading & Site Preparation - component 5",
-                "amount": 10000
+                "amount": 5000
               },
               {
                 "description": "Earthwork, Grading & Site Preparation - component 6",
                 "amount": 5000
               }
             ],
-            "exclusions": [],
+            "exclusions": [
+              "Rock excavation allowance - NOT IN CONTRACT",
+              "Extended warranty (by owner)",
+              "Specialty subcontractors and engineered systems (separate quote)"
+            ],
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
@@ -2093,21 +2163,21 @@
         "csi_code": "32 00 00",
         "bids": [
           {
-            "sub_id": "32-S1",
-            "company": "Coastal Concrete",
-            "contact": "Ed Turner",
-            "email": "coastalconcrete@contractor.com",
+            "sub_id": "32-lone_star_healthcare",
+            "company": "Lone Star Healthcare Construction, LLC",
+            "contact": "Reagan Castillo",
+            "email": "rcastillo@lonestarhealthcare.com",
             "source": "PDF",
             "submitted_date": "2024-04-18",
             "base_bid": 80000,
             "line_items": [
               {
                 "description": "Site Paving, Curbs & Landscaping - component 1",
-                "amount": 20000
+                "amount": 15000
               },
               {
                 "description": "Site Paving, Curbs & Landscaping - component 2",
-                "amount": 15000
+                "amount": 20000
               },
               {
                 "description": "Site Paving, Curbs & Landscaping - component 3",
@@ -2115,7 +2185,11 @@
               },
               {
                 "description": "Site Paving, Curbs & Landscaping - component 4",
-                "amount": 25000
+                "amount": 15000
+              },
+              {
+                "description": "Site Paving, Curbs & Landscaping - component 5",
+                "amount": 10000
               }
             ],
             "exclusions": [],
@@ -2126,79 +2200,72 @@
             "post_bid_updates": []
           },
           {
-            "sub_id": "32-S2",
-            "company": "Florida Mechanical",
-            "contact": "Carl Johnson",
-            "email": "floridamechanical@contractor.com",
+            "sub_id": "32-capitol_commercial",
+            "company": "Capitol Commercial Builders",
+            "contact": "Jordan Walsh",
+            "email": "jwalsh@capitolcommercial.com",
             "source": "Excel",
             "submitted_date": "2024-04-19",
-            "base_bid": 50000,
+            "base_bid": 70000,
             "line_items": [
               {
                 "description": "Site Paving, Curbs & Landscaping - component 1",
-                "amount": 10000
+                "amount": 20000
               },
               {
                 "description": "Site Paving, Curbs & Landscaping - component 2",
-                "amount": 10000
+                "amount": 15000
               },
               {
                 "description": "Site Paving, Curbs & Landscaping - component 3",
-                "amount": 10000
+                "amount": 15000
               },
               {
                 "description": "Site Paving, Curbs & Landscaping - component 4",
-                "amount": 10000
+                "amount": 20000
+              }
+            ],
+            "exclusions": [
+              "Landscaping and irrigation - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Brickell Restaurant & Retail drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "32-pedernales_custom",
+            "company": "Pedernales Custom Homes & Renovations, Inc.",
+            "contact": "Wyatt Burnham",
+            "email": "wburnham@pedernalescustom.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 60000,
+            "line_items": [
+              {
+                "description": "Site Paving, Curbs & Landscaping - component 1",
+                "amount": 20000
               },
               {
-                "description": "Site Paving, Curbs & Landscaping - component 5",
+                "description": "Site Paving, Curbs & Landscaping - component 2",
+                "amount": 15000
+              },
+              {
+                "description": "Site Paving, Curbs & Landscaping - component 3",
+                "amount": 15000
+              },
+              {
+                "description": "Site Paving, Curbs & Landscaping - component 4",
                 "amount": 10000
               }
             ],
             "exclusions": [
-              "Landscaping and irrigation - NOT IN CONTRACT"
+              "Landscaping and irrigation - NOT IN CONTRACT",
+              "Extended warranty (by owner)",
+              "Specialty subcontractors and engineered systems (separate quote)"
             ],
-            "inclusions": [
-              "All labor, material, and permits per contract documents"
-            ],
-            "notes": "Bid per Brickell Restaurant & Retail drawings issued 03/15/2024.",
-            "post_bid_updates": []
-          },
-          {
-            "sub_id": "32-S3",
-            "company": "Brickell Roofing",
-            "contact": "Pete Adams",
-            "email": "brickellroofing@contractor.com",
-            "source": "Email",
-            "submitted_date": "2024-04-20",
-            "base_bid": 105000,
-            "line_items": [
-              {
-                "description": "Site Paving, Curbs & Landscaping - component 1",
-                "amount": 15000
-              },
-              {
-                "description": "Site Paving, Curbs & Landscaping - component 2",
-                "amount": 20000
-              },
-              {
-                "description": "Site Paving, Curbs & Landscaping - component 3",
-                "amount": 15000
-              },
-              {
-                "description": "Site Paving, Curbs & Landscaping - component 4",
-                "amount": 20000
-              },
-              {
-                "description": "Site Paving, Curbs & Landscaping - component 5",
-                "amount": 20000
-              },
-              {
-                "description": "Site Paving, Curbs & Landscaping - component 6",
-                "amount": 15000
-              }
-            ],
-            "exclusions": [],
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
@@ -2212,10 +2279,10 @@
         "csi_code": "33 00 00",
         "bids": [
           {
-            "sub_id": "33-S1",
-            "company": "Atlantic Electric",
-            "contact": "Rob Flores",
-            "email": "atlanticelectric@contractor.com",
+            "sub_id": "33-lone_star_healthcare",
+            "company": "Lone Star Healthcare Construction, LLC",
+            "contact": "Reagan Castillo",
+            "email": "rcastillo@lonestarhealthcare.com",
             "source": "PDF",
             "submitted_date": "2024-04-18",
             "base_bid": 45000,
@@ -2241,13 +2308,60 @@
             "post_bid_updates": []
           },
           {
-            "sub_id": "33-S2",
-            "company": "Coastal Concrete",
-            "contact": "Lisa Chang",
-            "email": "coastalconcrete@contractor.com",
+            "sub_id": "33-capitol_commercial",
+            "company": "Capitol Commercial Builders",
+            "contact": "Jordan Walsh",
+            "email": "jwalsh@capitolcommercial.com",
             "source": "Excel",
             "submitted_date": "2024-04-19",
-            "base_bid": 30000,
+            "base_bid": 45000,
+            "line_items": [
+              {
+                "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 1",
+                "amount": 15000
+              },
+              {
+                "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 2",
+                "amount": 10000
+              },
+              {
+                "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 3",
+                "amount": 10000
+              },
+              {
+                "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 4",
+                "amount": 10000
+              }
+            ],
+            "exclusions": [
+              "Underground fire line - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Brickell Restaurant & Retail drawings issued 03/15/2024.",
+            "post_bid_updates": [
+              {
+                "update_id": "33-CAP-U1",
+                "date": "2024-04-28",
+                "from": "Jordan Walsh <jwalsh@capitolcommercial.com>",
+                "subject": "RE: Brickell Restaurant & Retail - Underground fire line Clarification",
+                "body": "Following up on our call \u2014 we can pick up Underground fire line for $5,000 additional. Revised total $50,000.",
+                "revised_total": 50000,
+                "delta": 5000,
+                "scope_added": "Underground fire line"
+              }
+            ]
+          },
+          {
+            "sub_id": "33-pedernales_custom",
+            "company": "Pedernales Custom Homes & Renovations, Inc.",
+            "contact": "Wyatt Burnham",
+            "email": "wburnham@pedernalescustom.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 35000,
             "line_items": [
               {
                 "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 1",
@@ -2271,61 +2385,14 @@
               },
               {
                 "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 6",
-                "amount": 5000
+                "amount": 10000
               }
             ],
             "exclusions": [
               "Underground fire line - NOT IN CONTRACT",
-              "Extended warranty (by owner)"
+              "Extended warranty (by owner)",
+              "Specialty subcontractors and engineered systems (separate quote)"
             ],
-            "inclusions": [
-              "All labor, material, and permits per contract documents"
-            ],
-            "notes": "Bid per Brickell Restaurant & Retail drawings issued 03/15/2024.",
-            "post_bid_updates": [
-              {
-                "update_id": "33-U1",
-                "date": "2024-04-28",
-                "from": "Lisa Chang <coastalconcrete@contractor.com>",
-                "subject": "RE: Brickell Restaurant & Retail - Underground fire line Clarification",
-                "body": "Following up on our call \u2014 we can pick up Underground fire line for $0 additional. Revised total $30,000.",
-                "revised_total": 30000,
-                "delta": 0,
-                "scope_added": "Underground fire line"
-              }
-            ]
-          },
-          {
-            "sub_id": "33-S3",
-            "company": "Florida Mechanical",
-            "contact": "James Brown",
-            "email": "floridamechanical@contractor.com",
-            "source": "Email",
-            "submitted_date": "2024-04-20",
-            "base_bid": 60000,
-            "line_items": [
-              {
-                "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 1",
-                "amount": 10000
-              },
-              {
-                "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 2",
-                "amount": 15000
-              },
-              {
-                "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 3",
-                "amount": 10000
-              },
-              {
-                "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 4",
-                "amount": 10000
-              },
-              {
-                "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 5",
-                "amount": 15000
-              }
-            ],
-            "exclusions": [],
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],

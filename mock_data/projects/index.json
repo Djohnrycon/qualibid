@@ -6,7 +6,7 @@
     "size_sf": 142000,
     "type": "Medical Office",
     "stories": 3,
-    "est_direct_cost": 8860000,
+    "est_direct_cost": 9585000,
     "file": "p01.json"
   },
   {
@@ -16,7 +16,7 @@
     "size_sf": 280000,
     "type": "Mixed-Use High-Rise",
     "stories": 22,
-    "est_direct_cost": 16330000,
+    "est_direct_cost": 18025000,
     "file": "p02.json"
   },
   {
@@ -26,7 +26,7 @@
     "size_sf": 85000,
     "type": "K-12 Education",
     "stories": 2,
-    "est_direct_cost": 3140000,
+    "est_direct_cost": 3465000,
     "file": "p03.json"
   },
   {
@@ -36,7 +36,7 @@
     "size_sf": 210000,
     "type": "Multifamily Residential",
     "stories": 6,
-    "est_direct_cost": 7905000,
+    "est_direct_cost": 8670000,
     "file": "p04.json"
   },
   {
@@ -46,7 +46,7 @@
     "size_sf": 60000,
     "type": "Mission-Critical / Data Center",
     "stories": 2,
-    "est_direct_cost": 5990000,
+    "est_direct_cost": 6590000,
     "file": "p05.json"
   },
   {
@@ -56,7 +56,7 @@
     "size_sf": 22000,
     "type": "Retail / Restaurant",
     "stories": 1,
-    "est_direct_cost": 740000,
+    "est_direct_cost": 825000,
     "file": "p06.json"
   },
   {
@@ -66,7 +66,7 @@
     "size_sf": 350000,
     "type": "Hospital / Healthcare",
     "stories": 8,
-    "est_direct_cost": 36415000,
+    "est_direct_cost": 39870000,
     "file": "p07.json"
   },
   {
@@ -76,7 +76,7 @@
     "size_sf": 175000,
     "type": "Corporate Office",
     "stories": 5,
-    "est_direct_cost": 10730000,
+    "est_direct_cost": 11950000,
     "file": "p08.json"
   },
   {
@@ -86,7 +86,7 @@
     "size_sf": 400000,
     "type": "Warehouse / Distribution",
     "stories": 1,
-    "est_direct_cost": 5850000,
+    "est_direct_cost": 6480000,
     "file": "p09.json"
   },
   {
@@ -96,7 +96,7 @@
     "size_sf": 120000,
     "type": "Government / Courthouse",
     "stories": 4,
-    "est_direct_cost": 8980000,
+    "est_direct_cost": 9845000,
     "file": "p10.json"
   }
 ]

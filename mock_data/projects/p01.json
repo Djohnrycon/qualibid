@@ -11,102 +11,2418 @@
       {
         "trade": "Demolition & Site Clearing",
         "csi_code": "02 40 00",
-        "bids": []
+        "bids": [
+          {
+            "sub_id": "02-lone_star_healthcare",
+            "company": "Lone Star Healthcare Construction, LLC",
+            "contact": "Reagan Castillo",
+            "email": "rcastillo@lonestarhealthcare.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 245000,
+            "line_items": [
+              {
+                "description": "Demolition & Site Clearing - component 1",
+                "amount": 45000
+              },
+              {
+                "description": "Demolition & Site Clearing - component 2",
+                "amount": 40000
+              },
+              {
+                "description": "Demolition & Site Clearing - component 3",
+                "amount": 40000
+              },
+              {
+                "description": "Demolition & Site Clearing - component 4",
+                "amount": 55000
+              },
+              {
+                "description": "Demolition & Site Clearing - component 5",
+                "amount": 65000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Riverside Medical Office Campus drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "02-capitol_commercial",
+            "company": "Capitol Commercial Builders",
+            "contact": "Jordan Walsh",
+            "email": "jwalsh@capitolcommercial.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 230000,
+            "line_items": [
+              {
+                "description": "Demolition & Site Clearing - component 1",
+                "amount": 30000
+              },
+              {
+                "description": "Demolition & Site Clearing - component 2",
+                "amount": 30000
+              },
+              {
+                "description": "Demolition & Site Clearing - component 3",
+                "amount": 35000
+              },
+              {
+                "description": "Demolition & Site Clearing - component 4",
+                "amount": 40000
+              },
+              {
+                "description": "Demolition & Site Clearing - component 5",
+                "amount": 40000
+              },
+              {
+                "description": "Demolition & Site Clearing - component 6",
+                "amount": 55000
+              }
+            ],
+            "exclusions": [
+              "Hazardous material abatement - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Riverside Medical Office Campus drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "02-pedernales_custom",
+            "company": "Pedernales Custom Homes & Renovations, Inc.",
+            "contact": "Wyatt Burnham",
+            "email": "wburnham@pedernalescustom.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 190000,
+            "line_items": [
+              {
+                "description": "Demolition & Site Clearing - component 1",
+                "amount": 30000
+              },
+              {
+                "description": "Demolition & Site Clearing - component 2",
+                "amount": 35000
+              },
+              {
+                "description": "Demolition & Site Clearing - component 3",
+                "amount": 35000
+              },
+              {
+                "description": "Demolition & Site Clearing - component 4",
+                "amount": 25000
+              },
+              {
+                "description": "Demolition & Site Clearing - component 5",
+                "amount": 35000
+              },
+              {
+                "description": "Demolition & Site Clearing - component 6",
+                "amount": 30000
+              }
+            ],
+            "exclusions": [
+              "Hazardous material abatement - NOT IN CONTRACT",
+              "Extended warranty (by owner)",
+              "Specialty subcontractors and engineered systems (separate quote)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Riverside Medical Office Campus drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
       },
       {
         "trade": "Concrete",
         "csi_code": "03 00 00",
-        "bids": []
+        "bids": [
+          {
+            "sub_id": "03-lone_star_healthcare",
+            "company": "Lone Star Healthcare Construction, LLC",
+            "contact": "Reagan Castillo",
+            "email": "rcastillo@lonestarhealthcare.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 780000,
+            "line_items": [
+              {
+                "description": "Concrete - component 1",
+                "amount": 175000
+              },
+              {
+                "description": "Concrete - component 2",
+                "amount": 215000
+              },
+              {
+                "description": "Concrete - component 3",
+                "amount": 165000
+              },
+              {
+                "description": "Concrete - component 4",
+                "amount": 225000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Riverside Medical Office Campus drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "03-capitol_commercial",
+            "company": "Capitol Commercial Builders",
+            "contact": "Jordan Walsh",
+            "email": "jwalsh@capitolcommercial.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 720000,
+            "line_items": [
+              {
+                "description": "Concrete - component 1",
+                "amount": 165000
+              },
+              {
+                "description": "Concrete - component 2",
+                "amount": 150000
+              },
+              {
+                "description": "Concrete - component 3",
+                "amount": 160000
+              },
+              {
+                "description": "Concrete - component 4",
+                "amount": 155000
+              },
+              {
+                "description": "Concrete - component 5",
+                "amount": 90000
+              }
+            ],
+            "exclusions": [
+              "Vapor barrier and underslab insulation - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Riverside Medical Office Campus drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "03-pedernales_custom",
+            "company": "Pedernales Custom Homes & Renovations, Inc.",
+            "contact": "Wyatt Burnham",
+            "email": "wburnham@pedernalescustom.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 595000,
+            "line_items": [
+              {
+                "description": "Concrete - component 1",
+                "amount": 80000
+              },
+              {
+                "description": "Concrete - component 2",
+                "amount": 90000
+              },
+              {
+                "description": "Concrete - component 3",
+                "amount": 105000
+              },
+              {
+                "description": "Concrete - component 4",
+                "amount": 115000
+              },
+              {
+                "description": "Concrete - component 5",
+                "amount": 95000
+              },
+              {
+                "description": "Concrete - component 6",
+                "amount": 110000
+              }
+            ],
+            "exclusions": [
+              "Vapor barrier and underslab insulation - NOT IN CONTRACT",
+              "Extended warranty (by owner)",
+              "Specialty subcontractors and engineered systems (separate quote)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Riverside Medical Office Campus drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
       },
       {
         "trade": "Masonry",
         "csi_code": "04 00 00",
-        "bids": []
+        "bids": [
+          {
+            "sub_id": "04-lone_star_healthcare",
+            "company": "Lone Star Healthcare Construction, LLC",
+            "contact": "Reagan Castillo",
+            "email": "rcastillo@lonestarhealthcare.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 420000,
+            "line_items": [
+              {
+                "description": "Masonry - component 1",
+                "amount": 115000
+              },
+              {
+                "description": "Masonry - component 2",
+                "amount": 125000
+              },
+              {
+                "description": "Masonry - component 3",
+                "amount": 120000
+              },
+              {
+                "description": "Masonry - component 4",
+                "amount": 60000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Riverside Medical Office Campus drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "04-capitol_commercial",
+            "company": "Capitol Commercial Builders",
+            "contact": "Jordan Walsh",
+            "email": "jwalsh@capitolcommercial.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 410000,
+            "line_items": [
+              {
+                "description": "Masonry - component 1",
+                "amount": 80000
+              },
+              {
+                "description": "Masonry - component 2",
+                "amount": 95000
+              },
+              {
+                "description": "Masonry - component 3",
+                "amount": 70000
+              },
+              {
+                "description": "Masonry - component 4",
+                "amount": 75000
+              },
+              {
+                "description": "Masonry - component 5",
+                "amount": 90000
+              }
+            ],
+            "exclusions": [
+              "CMU backup wall - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Riverside Medical Office Campus drawings issued 03/15/2024.",
+            "post_bid_updates": [
+              {
+                "update_id": "04-CAP-U1",
+                "date": "2024-04-28",
+                "from": "Jordan Walsh <jwalsh@capitolcommercial.com>",
+                "subject": "RE: Riverside Medical Office Campus - CMU backup wall Clarification",
+                "body": "Following up on our call \u2014 we can pick up CMU backup wall for $30,000 additional. Revised total $440,000.",
+                "revised_total": 440000,
+                "delta": 30000,
+                "scope_added": "CMU backup wall"
+              }
+            ]
+          },
+          {
+            "sub_id": "04-pedernales_custom",
+            "company": "Pedernales Custom Homes & Renovations, Inc.",
+            "contact": "Wyatt Burnham",
+            "email": "wburnham@pedernalescustom.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 330000,
+            "line_items": [
+              {
+                "description": "Masonry - component 1",
+                "amount": 115000
+              },
+              {
+                "description": "Masonry - component 2",
+                "amount": 95000
+              },
+              {
+                "description": "Masonry - component 3",
+                "amount": 120000
+              }
+            ],
+            "exclusions": [
+              "CMU backup wall - NOT IN CONTRACT",
+              "Extended warranty (by owner)",
+              "Specialty subcontractors and engineered systems (separate quote)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Riverside Medical Office Campus drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
       },
       {
         "trade": "Structural Steel & Misc Metals",
         "csi_code": "05 00 00",
-        "bids": []
+        "bids": [
+          {
+            "sub_id": "05-lone_star_healthcare",
+            "company": "Lone Star Healthcare Construction, LLC",
+            "contact": "Reagan Castillo",
+            "email": "rcastillo@lonestarhealthcare.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 1050000,
+            "line_items": [
+              {
+                "description": "Structural Steel & Misc Metals - component 1",
+                "amount": 160000
+              },
+              {
+                "description": "Structural Steel & Misc Metals - component 2",
+                "amount": 205000
+              },
+              {
+                "description": "Structural Steel & Misc Metals - component 3",
+                "amount": 190000
+              },
+              {
+                "description": "Structural Steel & Misc Metals - component 4",
+                "amount": 155000
+              },
+              {
+                "description": "Structural Steel & Misc Metals - component 5",
+                "amount": 165000
+              },
+              {
+                "description": "Structural Steel & Misc Metals - component 6",
+                "amount": 175000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Riverside Medical Office Campus drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "05-capitol_commercial",
+            "company": "Capitol Commercial Builders",
+            "contact": "Jordan Walsh",
+            "email": "jwalsh@capitolcommercial.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 1010000,
+            "line_items": [
+              {
+                "description": "Structural Steel & Misc Metals - component 1",
+                "amount": 300000
+              },
+              {
+                "description": "Structural Steel & Misc Metals - component 2",
+                "amount": 275000
+              },
+              {
+                "description": "Structural Steel & Misc Metals - component 3",
+                "amount": 435000
+              }
+            ],
+            "exclusions": [
+              "Miscellaneous metals and embeds - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Riverside Medical Office Campus drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "05-pedernales_custom",
+            "company": "Pedernales Custom Homes & Renovations, Inc.",
+            "contact": "Wyatt Burnham",
+            "email": "wburnham@pedernalescustom.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 795000,
+            "line_items": [
+              {
+                "description": "Structural Steel & Misc Metals - component 1",
+                "amount": 130000
+              },
+              {
+                "description": "Structural Steel & Misc Metals - component 2",
+                "amount": 185000
+              },
+              {
+                "description": "Structural Steel & Misc Metals - component 3",
+                "amount": 165000
+              },
+              {
+                "description": "Structural Steel & Misc Metals - component 4",
+                "amount": 175000
+              },
+              {
+                "description": "Structural Steel & Misc Metals - component 5",
+                "amount": 140000
+              }
+            ],
+            "exclusions": [
+              "Miscellaneous metals and embeds - NOT IN CONTRACT",
+              "Extended warranty (by owner)",
+              "Specialty subcontractors and engineered systems (separate quote)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Riverside Medical Office Campus drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
       },
       {
         "trade": "Roofing, Waterproofing & Insulation",
         "csi_code": "07 00 00",
-        "bids": []
+        "bids": [
+          {
+            "sub_id": "07-lone_star_healthcare",
+            "company": "Lone Star Healthcare Construction, LLC",
+            "contact": "Reagan Castillo",
+            "email": "rcastillo@lonestarhealthcare.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 620000,
+            "line_items": [
+              {
+                "description": "Roofing, Waterproofing & Insulation - component 1",
+                "amount": 90000
+              },
+              {
+                "description": "Roofing, Waterproofing & Insulation - component 2",
+                "amount": 90000
+              },
+              {
+                "description": "Roofing, Waterproofing & Insulation - component 3",
+                "amount": 115000
+              },
+              {
+                "description": "Roofing, Waterproofing & Insulation - component 4",
+                "amount": 105000
+              },
+              {
+                "description": "Roofing, Waterproofing & Insulation - component 5",
+                "amount": 115000
+              },
+              {
+                "description": "Roofing, Waterproofing & Insulation - component 6",
+                "amount": 105000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Riverside Medical Office Campus drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "07-capitol_commercial",
+            "company": "Capitol Commercial Builders",
+            "contact": "Jordan Walsh",
+            "email": "jwalsh@capitolcommercial.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 570000,
+            "line_items": [
+              {
+                "description": "Roofing, Waterproofing & Insulation - component 1",
+                "amount": 90000
+              },
+              {
+                "description": "Roofing, Waterproofing & Insulation - component 2",
+                "amount": 115000
+              },
+              {
+                "description": "Roofing, Waterproofing & Insulation - component 3",
+                "amount": 80000
+              },
+              {
+                "description": "Roofing, Waterproofing & Insulation - component 4",
+                "amount": 95000
+              },
+              {
+                "description": "Roofing, Waterproofing & Insulation - component 5",
+                "amount": 105000
+              },
+              {
+                "description": "Roofing, Waterproofing & Insulation - component 6",
+                "amount": 85000
+              }
+            ],
+            "exclusions": [
+              "Below-slab waterproofing - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Riverside Medical Office Campus drawings issued 03/15/2024.",
+            "post_bid_updates": [
+              {
+                "update_id": "07-CAP-U1",
+                "date": "2024-04-28",
+                "from": "Jordan Walsh <jwalsh@capitolcommercial.com>",
+                "subject": "RE: Riverside Medical Office Campus - Below-slab waterproofing Scope Add",
+                "body": "Per our conversation this morning: Below-slab waterproofing can be added for $40,000. New total is $610,000.",
+                "revised_total": 610000,
+                "delta": 40000,
+                "scope_added": "Below-slab waterproofing"
+              }
+            ]
+          },
+          {
+            "sub_id": "07-pedernales_custom",
+            "company": "Pedernales Custom Homes & Renovations, Inc.",
+            "contact": "Wyatt Burnham",
+            "email": "wburnham@pedernalescustom.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 480000,
+            "line_items": [
+              {
+                "description": "Roofing, Waterproofing & Insulation - component 1",
+                "amount": 125000
+              },
+              {
+                "description": "Roofing, Waterproofing & Insulation - component 2",
+                "amount": 135000
+              },
+              {
+                "description": "Roofing, Waterproofing & Insulation - component 3",
+                "amount": 115000
+              },
+              {
+                "description": "Roofing, Waterproofing & Insulation - component 4",
+                "amount": 105000
+              }
+            ],
+            "exclusions": [
+              "Below-slab waterproofing - NOT IN CONTRACT",
+              "Extended warranty (by owner)",
+              "Specialty subcontractors and engineered systems (separate quote)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Riverside Medical Office Campus drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
       },
       {
         "trade": "Doors, Frames, Hardware & Glazing",
         "csi_code": "08 00 00",
-        "bids": []
+        "bids": [
+          {
+            "sub_id": "08-lone_star_healthcare",
+            "company": "Lone Star Healthcare Construction, LLC",
+            "contact": "Reagan Castillo",
+            "email": "rcastillo@lonestarhealthcare.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 740000,
+            "line_items": [
+              {
+                "description": "Doors, Frames, Hardware & Glazing - component 1",
+                "amount": 125000
+              },
+              {
+                "description": "Doors, Frames, Hardware & Glazing - component 2",
+                "amount": 145000
+              },
+              {
+                "description": "Doors, Frames, Hardware & Glazing - component 3",
+                "amount": 140000
+              },
+              {
+                "description": "Doors, Frames, Hardware & Glazing - component 4",
+                "amount": 100000
+              },
+              {
+                "description": "Doors, Frames, Hardware & Glazing - component 5",
+                "amount": 135000
+              },
+              {
+                "description": "Doors, Frames, Hardware & Glazing - component 6",
+                "amount": 95000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Riverside Medical Office Campus drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "08-capitol_commercial",
+            "company": "Capitol Commercial Builders",
+            "contact": "Jordan Walsh",
+            "email": "jwalsh@capitolcommercial.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 700000,
+            "line_items": [
+              {
+                "description": "Doors, Frames, Hardware & Glazing - component 1",
+                "amount": 155000
+              },
+              {
+                "description": "Doors, Frames, Hardware & Glazing - component 2",
+                "amount": 130000
+              },
+              {
+                "description": "Doors, Frames, Hardware & Glazing - component 3",
+                "amount": 130000
+              },
+              {
+                "description": "Doors, Frames, Hardware & Glazing - component 4",
+                "amount": 120000
+              },
+              {
+                "description": "Doors, Frames, Hardware & Glazing - component 5",
+                "amount": 165000
+              }
+            ],
+            "exclusions": [
+              "Storefront glazing system - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Riverside Medical Office Campus drawings issued 03/15/2024.",
+            "post_bid_updates": [
+              {
+                "update_id": "08-CAP-U1",
+                "date": "2024-04-28",
+                "from": "Jordan Walsh <jwalsh@capitolcommercial.com>",
+                "subject": "RE: Riverside Medical Office Campus - Storefront glazing system Scope Add",
+                "body": "Per our conversation this morning: Storefront glazing system can be added for $50,000. New total is $750,000.",
+                "revised_total": 750000,
+                "delta": 50000,
+                "scope_added": "Storefront glazing system"
+              }
+            ]
+          },
+          {
+            "sub_id": "08-pedernales_custom",
+            "company": "Pedernales Custom Homes & Renovations, Inc.",
+            "contact": "Wyatt Burnham",
+            "email": "wburnham@pedernalescustom.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 540000,
+            "line_items": [
+              {
+                "description": "Doors, Frames, Hardware & Glazing - component 1",
+                "amount": 130000
+              },
+              {
+                "description": "Doors, Frames, Hardware & Glazing - component 2",
+                "amount": 120000
+              },
+              {
+                "description": "Doors, Frames, Hardware & Glazing - component 3",
+                "amount": 110000
+              },
+              {
+                "description": "Doors, Frames, Hardware & Glazing - component 4",
+                "amount": 90000
+              },
+              {
+                "description": "Doors, Frames, Hardware & Glazing - component 5",
+                "amount": 90000
+              }
+            ],
+            "exclusions": [
+              "Storefront glazing system - NOT IN CONTRACT",
+              "Extended warranty (by owner)",
+              "Specialty subcontractors and engineered systems (separate quote)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Riverside Medical Office Campus drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
       },
       {
         "trade": "Drywall & Framing",
         "csi_code": "09 20 00",
-        "bids": []
+        "bids": [
+          {
+            "sub_id": "09-lone_star_healthcare",
+            "company": "Lone Star Healthcare Construction, LLC",
+            "contact": "Reagan Castillo",
+            "email": "rcastillo@lonestarhealthcare.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 510000,
+            "line_items": [
+              {
+                "description": "Drywall & Framing - component 1",
+                "amount": 110000
+              },
+              {
+                "description": "Drywall & Framing - component 2",
+                "amount": 140000
+              },
+              {
+                "description": "Drywall & Framing - component 3",
+                "amount": 130000
+              },
+              {
+                "description": "Drywall & Framing - component 4",
+                "amount": 130000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Riverside Medical Office Campus drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "09-capitol_commercial",
+            "company": "Capitol Commercial Builders",
+            "contact": "Jordan Walsh",
+            "email": "jwalsh@capitolcommercial.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 465000,
+            "line_items": [
+              {
+                "description": "Drywall & Framing - component 1",
+                "amount": 160000
+              },
+              {
+                "description": "Drywall & Framing - component 2",
+                "amount": 155000
+              },
+              {
+                "description": "Drywall & Framing - component 3",
+                "amount": 150000
+              }
+            ],
+            "exclusions": [
+              "Shaft wall assemblies - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Riverside Medical Office Campus drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "09-pedernales_custom",
+            "company": "Pedernales Custom Homes & Renovations, Inc.",
+            "contact": "Wyatt Burnham",
+            "email": "wburnham@pedernalescustom.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 360000,
+            "line_items": [
+              {
+                "description": "Drywall & Framing - component 1",
+                "amount": 85000
+              },
+              {
+                "description": "Drywall & Framing - component 2",
+                "amount": 80000
+              },
+              {
+                "description": "Drywall & Framing - component 3",
+                "amount": 65000
+              },
+              {
+                "description": "Drywall & Framing - component 4",
+                "amount": 60000
+              },
+              {
+                "description": "Drywall & Framing - component 5",
+                "amount": 70000
+              }
+            ],
+            "exclusions": [
+              "Shaft wall assemblies - NOT IN CONTRACT",
+              "Extended warranty (by owner)",
+              "Specialty subcontractors and engineered systems (separate quote)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Riverside Medical Office Campus drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
       },
       {
         "trade": "Flooring",
         "csi_code": "09 60 00",
-        "bids": []
+        "bids": [
+          {
+            "sub_id": "09-lone_star_healthcare",
+            "company": "Lone Star Healthcare Construction, LLC",
+            "contact": "Reagan Castillo",
+            "email": "rcastillo@lonestarhealthcare.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 745000,
+            "line_items": [
+              {
+                "description": "Flooring - component 1",
+                "amount": 270000
+              },
+              {
+                "description": "Flooring - component 2",
+                "amount": 280000
+              },
+              {
+                "description": "Flooring - component 3",
+                "amount": 195000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Riverside Medical Office Campus drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "09-capitol_commercial",
+            "company": "Capitol Commercial Builders",
+            "contact": "Jordan Walsh",
+            "email": "jwalsh@capitolcommercial.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 690000,
+            "line_items": [
+              {
+                "description": "Flooring - component 1",
+                "amount": 145000
+              },
+              {
+                "description": "Flooring - component 2",
+                "amount": 170000
+              },
+              {
+                "description": "Flooring - component 3",
+                "amount": 175000
+              },
+              {
+                "description": "Flooring - component 4",
+                "amount": 200000
+              }
+            ],
+            "exclusions": [
+              "Specialty sheet vinyl in procedure rooms - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Riverside Medical Office Campus drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "09-pedernales_custom",
+            "company": "Pedernales Custom Homes & Renovations, Inc.",
+            "contact": "Wyatt Burnham",
+            "email": "wburnham@pedernalescustom.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 530000,
+            "line_items": [
+              {
+                "description": "Flooring - component 1",
+                "amount": 105000
+              },
+              {
+                "description": "Flooring - component 2",
+                "amount": 105000
+              },
+              {
+                "description": "Flooring - component 3",
+                "amount": 95000
+              },
+              {
+                "description": "Flooring - component 4",
+                "amount": 95000
+              },
+              {
+                "description": "Flooring - component 5",
+                "amount": 95000
+              },
+              {
+                "description": "Flooring - component 6",
+                "amount": 35000
+              }
+            ],
+            "exclusions": [
+              "Specialty sheet vinyl in procedure rooms - NOT IN CONTRACT",
+              "Extended warranty (by owner)",
+              "Specialty subcontractors and engineered systems (separate quote)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Riverside Medical Office Campus drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
       },
       {
         "trade": "Painting & Wall Coverings",
         "csi_code": "09 90 00",
-        "bids": []
+        "bids": [
+          {
+            "sub_id": "09-lone_star_healthcare",
+            "company": "Lone Star Healthcare Construction, LLC",
+            "contact": "Reagan Castillo",
+            "email": "rcastillo@lonestarhealthcare.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 295000,
+            "line_items": [
+              {
+                "description": "Painting & Wall Coverings - component 1",
+                "amount": 60000
+              },
+              {
+                "description": "Painting & Wall Coverings - component 2",
+                "amount": 60000
+              },
+              {
+                "description": "Painting & Wall Coverings - component 3",
+                "amount": 50000
+              },
+              {
+                "description": "Painting & Wall Coverings - component 4",
+                "amount": 55000
+              },
+              {
+                "description": "Painting & Wall Coverings - component 5",
+                "amount": 70000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Riverside Medical Office Campus drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "09-capitol_commercial",
+            "company": "Capitol Commercial Builders",
+            "contact": "Jordan Walsh",
+            "email": "jwalsh@capitolcommercial.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 265000,
+            "line_items": [
+              {
+                "description": "Painting & Wall Coverings - component 1",
+                "amount": 70000
+              },
+              {
+                "description": "Painting & Wall Coverings - component 2",
+                "amount": 55000
+              },
+              {
+                "description": "Painting & Wall Coverings - component 3",
+                "amount": 70000
+              },
+              {
+                "description": "Painting & Wall Coverings - component 4",
+                "amount": 70000
+              }
+            ],
+            "exclusions": [
+              "Exterior painting - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Riverside Medical Office Campus drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "09-pedernales_custom",
+            "company": "Pedernales Custom Homes & Renovations, Inc.",
+            "contact": "Wyatt Burnham",
+            "email": "wburnham@pedernalescustom.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 215000,
+            "line_items": [
+              {
+                "description": "Painting & Wall Coverings - component 1",
+                "amount": 85000
+              },
+              {
+                "description": "Painting & Wall Coverings - component 2",
+                "amount": 80000
+              },
+              {
+                "description": "Painting & Wall Coverings - component 3",
+                "amount": 50000
+              }
+            ],
+            "exclusions": [
+              "Exterior painting - NOT IN CONTRACT",
+              "Extended warranty (by owner)",
+              "Specialty subcontractors and engineered systems (separate quote)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Riverside Medical Office Campus drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
       },
       {
         "trade": "Acoustical Ceilings (ACT)",
         "csi_code": "09 51 00",
-        "bids": []
+        "bids": [
+          {
+            "sub_id": "09-lone_star_healthcare",
+            "company": "Lone Star Healthcare Construction, LLC",
+            "contact": "Reagan Castillo",
+            "email": "rcastillo@lonestarhealthcare.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 365000,
+            "line_items": [
+              {
+                "description": "Acoustical Ceilings (ACT) - component 1",
+                "amount": 55000
+              },
+              {
+                "description": "Acoustical Ceilings (ACT) - component 2",
+                "amount": 50000
+              },
+              {
+                "description": "Acoustical Ceilings (ACT) - component 3",
+                "amount": 70000
+              },
+              {
+                "description": "Acoustical Ceilings (ACT) - component 4",
+                "amount": 65000
+              },
+              {
+                "description": "Acoustical Ceilings (ACT) - component 5",
+                "amount": 60000
+              },
+              {
+                "description": "Acoustical Ceilings (ACT) - component 6",
+                "amount": 65000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Riverside Medical Office Campus drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "09-capitol_commercial",
+            "company": "Capitol Commercial Builders",
+            "contact": "Jordan Walsh",
+            "email": "jwalsh@capitolcommercial.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 350000,
+            "line_items": [
+              {
+                "description": "Acoustical Ceilings (ACT) - component 1",
+                "amount": 75000
+              },
+              {
+                "description": "Acoustical Ceilings (ACT) - component 2",
+                "amount": 95000
+              },
+              {
+                "description": "Acoustical Ceilings (ACT) - component 3",
+                "amount": 80000
+              },
+              {
+                "description": "Acoustical Ceilings (ACT) - component 4",
+                "amount": 100000
+              }
+            ],
+            "exclusions": [
+              "Gypsum board soffits and clouds - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Riverside Medical Office Campus drawings issued 03/15/2024.",
+            "post_bid_updates": [
+              {
+                "update_id": "09-CAP-U1",
+                "date": "2024-04-28",
+                "from": "Jordan Walsh <jwalsh@capitolcommercial.com>",
+                "subject": "RE: Riverside Medical Office Campus - Gypsum board soffits and clouds Clarification",
+                "body": "Following up on our call \u2014 we can pick up Gypsum board soffits and clouds for $25,000 additional. Revised total $375,000.",
+                "revised_total": 375000,
+                "delta": 25000,
+                "scope_added": "Gypsum board soffits and clouds"
+              }
+            ]
+          },
+          {
+            "sub_id": "09-pedernales_custom",
+            "company": "Pedernales Custom Homes & Renovations, Inc.",
+            "contact": "Wyatt Burnham",
+            "email": "wburnham@pedernalescustom.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 275000,
+            "line_items": [
+              {
+                "description": "Acoustical Ceilings (ACT) - component 1",
+                "amount": 100000
+              },
+              {
+                "description": "Acoustical Ceilings (ACT) - component 2",
+                "amount": 110000
+              },
+              {
+                "description": "Acoustical Ceilings (ACT) - component 3",
+                "amount": 65000
+              }
+            ],
+            "exclusions": [
+              "Gypsum board soffits and clouds - NOT IN CONTRACT",
+              "Extended warranty (by owner)",
+              "Specialty subcontractors and engineered systems (separate quote)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Riverside Medical Office Campus drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
       },
       {
         "trade": "Specialties",
         "csi_code": "10 00 00",
-        "bids": []
+        "bids": [
+          {
+            "sub_id": "10-lone_star_healthcare",
+            "company": "Lone Star Healthcare Construction, LLC",
+            "contact": "Reagan Castillo",
+            "email": "rcastillo@lonestarhealthcare.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 210000,
+            "line_items": [
+              {
+                "description": "Specialties - component 1",
+                "amount": 45000
+              },
+              {
+                "description": "Specialties - component 2",
+                "amount": 35000
+              },
+              {
+                "description": "Specialties - component 3",
+                "amount": 35000
+              },
+              {
+                "description": "Specialties - component 4",
+                "amount": 45000
+              },
+              {
+                "description": "Specialties - component 5",
+                "amount": 50000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Riverside Medical Office Campus drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "10-capitol_commercial",
+            "company": "Capitol Commercial Builders",
+            "contact": "Jordan Walsh",
+            "email": "jwalsh@capitolcommercial.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 190000,
+            "line_items": [
+              {
+                "description": "Specialties - component 1",
+                "amount": 35000
+              },
+              {
+                "description": "Specialties - component 2",
+                "amount": 45000
+              },
+              {
+                "description": "Specialties - component 3",
+                "amount": 30000
+              },
+              {
+                "description": "Specialties - component 4",
+                "amount": 45000
+              },
+              {
+                "description": "Specialties - component 5",
+                "amount": 35000
+              }
+            ],
+            "exclusions": [
+              "ADA signage package - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Riverside Medical Office Campus drawings issued 03/15/2024.",
+            "post_bid_updates": [
+              {
+                "update_id": "10-CAP-U1",
+                "date": "2024-04-28",
+                "from": "Jordan Walsh <jwalsh@capitolcommercial.com>",
+                "subject": "RE: Riverside Medical Office Campus - ADA signage package Add",
+                "body": "We can include ADA signage package for an additional $15,000. Revised total would be $205,000.",
+                "revised_total": 205000,
+                "delta": 15000,
+                "scope_added": "ADA signage package"
+              }
+            ]
+          },
+          {
+            "sub_id": "10-pedernales_custom",
+            "company": "Pedernales Custom Homes & Renovations, Inc.",
+            "contact": "Wyatt Burnham",
+            "email": "wburnham@pedernalescustom.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 160000,
+            "line_items": [
+              {
+                "description": "Specialties - component 1",
+                "amount": 45000
+              },
+              {
+                "description": "Specialties - component 2",
+                "amount": 65000
+              },
+              {
+                "description": "Specialties - component 3",
+                "amount": 50000
+              }
+            ],
+            "exclusions": [
+              "ADA signage package - NOT IN CONTRACT",
+              "Extended warranty (by owner)",
+              "Specialty subcontractors and engineered systems (separate quote)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Riverside Medical Office Campus drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
       },
       {
         "trade": "Fire Suppression (Sprinklers)",
         "csi_code": "21 00 00",
-        "bids": []
+        "bids": [
+          {
+            "sub_id": "21-lone_star_healthcare",
+            "company": "Lone Star Healthcare Construction, LLC",
+            "contact": "Reagan Castillo",
+            "email": "rcastillo@lonestarhealthcare.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 515000,
+            "line_items": [
+              {
+                "description": "Fire Suppression (Sprinklers) - component 1",
+                "amount": 110000
+              },
+              {
+                "description": "Fire Suppression (Sprinklers) - component 2",
+                "amount": 130000
+              },
+              {
+                "description": "Fire Suppression (Sprinklers) - component 3",
+                "amount": 115000
+              },
+              {
+                "description": "Fire Suppression (Sprinklers) - component 4",
+                "amount": 160000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Riverside Medical Office Campus drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "21-capitol_commercial",
+            "company": "Capitol Commercial Builders",
+            "contact": "Jordan Walsh",
+            "email": "jwalsh@capitolcommercial.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 455000,
+            "line_items": [
+              {
+                "description": "Fire Suppression (Sprinklers) - component 1",
+                "amount": 130000
+              },
+              {
+                "description": "Fire Suppression (Sprinklers) - component 2",
+                "amount": 120000
+              },
+              {
+                "description": "Fire Suppression (Sprinklers) - component 3",
+                "amount": 205000
+              }
+            ],
+            "exclusions": [
+              "Kitchen hood fire suppression - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Riverside Medical Office Campus drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "21-pedernales_custom",
+            "company": "Pedernales Custom Homes & Renovations, Inc.",
+            "contact": "Wyatt Burnham",
+            "email": "wburnham@pedernalescustom.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 370000,
+            "line_items": [
+              {
+                "description": "Fire Suppression (Sprinklers) - component 1",
+                "amount": 55000
+              },
+              {
+                "description": "Fire Suppression (Sprinklers) - component 2",
+                "amount": 65000
+              },
+              {
+                "description": "Fire Suppression (Sprinklers) - component 3",
+                "amount": 65000
+              },
+              {
+                "description": "Fire Suppression (Sprinklers) - component 4",
+                "amount": 70000
+              },
+              {
+                "description": "Fire Suppression (Sprinklers) - component 5",
+                "amount": 65000
+              },
+              {
+                "description": "Fire Suppression (Sprinklers) - component 6",
+                "amount": 50000
+              }
+            ],
+            "exclusions": [
+              "Kitchen hood fire suppression - NOT IN CONTRACT",
+              "Extended warranty (by owner)",
+              "Specialty subcontractors and engineered systems (separate quote)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Riverside Medical Office Campus drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
       },
       {
         "trade": "Plumbing",
         "csi_code": "22 00 00",
-        "bids": []
+        "bids": [
+          {
+            "sub_id": "22-lone_star_healthcare",
+            "company": "Lone Star Healthcare Construction, LLC",
+            "contact": "Reagan Castillo",
+            "email": "rcastillo@lonestarhealthcare.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 1150000,
+            "line_items": [
+              {
+                "description": "Plumbing - component 1",
+                "amount": 340000
+              },
+              {
+                "description": "Plumbing - component 2",
+                "amount": 295000
+              },
+              {
+                "description": "Plumbing - component 3",
+                "amount": 290000
+              },
+              {
+                "description": "Plumbing - component 4",
+                "amount": 225000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Riverside Medical Office Campus drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "22-capitol_commercial",
+            "company": "Capitol Commercial Builders",
+            "contact": "Jordan Walsh",
+            "email": "jwalsh@capitolcommercial.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 1105000,
+            "line_items": [
+              {
+                "description": "Plumbing - component 1",
+                "amount": 300000
+              },
+              {
+                "description": "Plumbing - component 2",
+                "amount": 365000
+              },
+              {
+                "description": "Plumbing - component 3",
+                "amount": 440000
+              }
+            ],
+            "exclusions": [
+              "Medical gas outlets and zone valves - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Riverside Medical Office Campus drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "22-pedernales_custom",
+            "company": "Pedernales Custom Homes & Renovations, Inc.",
+            "contact": "Wyatt Burnham",
+            "email": "wburnham@pedernalescustom.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 910000,
+            "line_items": [
+              {
+                "description": "Plumbing - component 1",
+                "amount": 185000
+              },
+              {
+                "description": "Plumbing - component 2",
+                "amount": 230000
+              },
+              {
+                "description": "Plumbing - component 3",
+                "amount": 260000
+              },
+              {
+                "description": "Plumbing - component 4",
+                "amount": 235000
+              }
+            ],
+            "exclusions": [
+              "Medical gas outlets and zone valves - NOT IN CONTRACT",
+              "Extended warranty (by owner)",
+              "Specialty subcontractors and engineered systems (separate quote)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Riverside Medical Office Campus drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
       },
       {
         "trade": "Mechanical (HVAC)",
         "csi_code": "23 00 00",
-        "bids": []
+        "bids": [
+          {
+            "sub_id": "23-lone_star_healthcare",
+            "company": "Lone Star Healthcare Construction, LLC",
+            "contact": "Reagan Castillo",
+            "email": "rcastillo@lonestarhealthcare.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 1380000,
+            "line_items": [
+              {
+                "description": "Mechanical (HVAC) - component 1",
+                "amount": 330000
+              },
+              {
+                "description": "Mechanical (HVAC) - component 2",
+                "amount": 405000
+              },
+              {
+                "description": "Mechanical (HVAC) - component 3",
+                "amount": 355000
+              },
+              {
+                "description": "Mechanical (HVAC) - component 4",
+                "amount": 290000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Riverside Medical Office Campus drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "23-capitol_commercial",
+            "company": "Capitol Commercial Builders",
+            "contact": "Jordan Walsh",
+            "email": "jwalsh@capitolcommercial.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 1320000,
+            "line_items": [
+              {
+                "description": "Mechanical (HVAC) - component 1",
+                "amount": 425000
+              },
+              {
+                "description": "Mechanical (HVAC) - component 2",
+                "amount": 455000
+              },
+              {
+                "description": "Mechanical (HVAC) - component 3",
+                "amount": 440000
+              }
+            ],
+            "exclusions": [
+              "Medical gas rough-in and kitchen hood exhaust - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Riverside Medical Office Campus drawings issued 03/15/2024.",
+            "post_bid_updates": [
+              {
+                "update_id": "23-CAP-U1",
+                "date": "2024-04-28",
+                "from": "Jordan Walsh <jwalsh@capitolcommercial.com>",
+                "subject": "RE: Riverside Medical Office Campus - Medical gas rough-in and kitchen hood exhaust Add",
+                "body": "We can include Medical gas rough-in and kitchen hood exhaust for an additional $90,000. Revised total would be $1,410,000.",
+                "revised_total": 1410000,
+                "delta": 90000,
+                "scope_added": "Medical gas rough-in and kitchen hood exhaust"
+              }
+            ]
+          },
+          {
+            "sub_id": "23-pedernales_custom",
+            "company": "Pedernales Custom Homes & Renovations, Inc.",
+            "contact": "Wyatt Burnham",
+            "email": "wburnham@pedernalescustom.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 1070000,
+            "line_items": [
+              {
+                "description": "Mechanical (HVAC) - component 1",
+                "amount": 190000
+              },
+              {
+                "description": "Mechanical (HVAC) - component 2",
+                "amount": 235000
+              },
+              {
+                "description": "Mechanical (HVAC) - component 3",
+                "amount": 190000
+              },
+              {
+                "description": "Mechanical (HVAC) - component 4",
+                "amount": 205000
+              },
+              {
+                "description": "Mechanical (HVAC) - component 5",
+                "amount": 250000
+              }
+            ],
+            "exclusions": [
+              "Medical gas rough-in and kitchen hood exhaust - NOT IN CONTRACT",
+              "Extended warranty (by owner)",
+              "Specialty subcontractors and engineered systems (separate quote)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Riverside Medical Office Campus drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
       },
       {
         "trade": "Electrical",
         "csi_code": "26 00 00",
-        "bids": []
+        "bids": [
+          {
+            "sub_id": "26-lone_star_healthcare",
+            "company": "Lone Star Healthcare Construction, LLC",
+            "contact": "Reagan Castillo",
+            "email": "rcastillo@lonestarhealthcare.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 1060000,
+            "line_items": [
+              {
+                "description": "Electrical - component 1",
+                "amount": 250000
+              },
+              {
+                "description": "Electrical - component 2",
+                "amount": 250000
+              },
+              {
+                "description": "Electrical - component 3",
+                "amount": 170000
+              },
+              {
+                "description": "Electrical - component 4",
+                "amount": 220000
+              },
+              {
+                "description": "Electrical - component 5",
+                "amount": 170000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Riverside Medical Office Campus drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "26-capitol_commercial",
+            "company": "Capitol Commercial Builders",
+            "contact": "Jordan Walsh",
+            "email": "jwalsh@capitolcommercial.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 1000000,
+            "line_items": [
+              {
+                "description": "Electrical - component 1",
+                "amount": 275000
+              },
+              {
+                "description": "Electrical - component 2",
+                "amount": 295000
+              },
+              {
+                "description": "Electrical - component 3",
+                "amount": 430000
+              }
+            ],
+            "exclusions": [
+              "Fire alarm system - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Riverside Medical Office Campus drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "26-pedernales_custom",
+            "company": "Pedernales Custom Homes & Renovations, Inc.",
+            "contact": "Wyatt Burnham",
+            "email": "wburnham@pedernalescustom.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 795000,
+            "line_items": [
+              {
+                "description": "Electrical - component 1",
+                "amount": 185000
+              },
+              {
+                "description": "Electrical - component 2",
+                "amount": 185000
+              },
+              {
+                "description": "Electrical - component 3",
+                "amount": 150000
+              },
+              {
+                "description": "Electrical - component 4",
+                "amount": 135000
+              },
+              {
+                "description": "Electrical - component 5",
+                "amount": 140000
+              }
+            ],
+            "exclusions": [
+              "Fire alarm system - NOT IN CONTRACT",
+              "Extended warranty (by owner)",
+              "Specialty subcontractors and engineered systems (separate quote)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Riverside Medical Office Campus drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
       },
       {
         "trade": "Communications (Data, AV, Tel)",
         "csi_code": "27 00 00",
-        "bids": []
+        "bids": [
+          {
+            "sub_id": "27-lone_star_healthcare",
+            "company": "Lone Star Healthcare Construction, LLC",
+            "contact": "Reagan Castillo",
+            "email": "rcastillo@lonestarhealthcare.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 415000,
+            "line_items": [
+              {
+                "description": "Communications (Data, AV, Tel) - component 1",
+                "amount": 150000
+              },
+              {
+                "description": "Communications (Data, AV, Tel) - component 2",
+                "amount": 140000
+              },
+              {
+                "description": "Communications (Data, AV, Tel) - component 3",
+                "amount": 125000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Riverside Medical Office Campus drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "27-capitol_commercial",
+            "company": "Capitol Commercial Builders",
+            "contact": "Jordan Walsh",
+            "email": "jwalsh@capitolcommercial.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 390000,
+            "line_items": [
+              {
+                "description": "Communications (Data, AV, Tel) - component 1",
+                "amount": 155000
+              },
+              {
+                "description": "Communications (Data, AV, Tel) - component 2",
+                "amount": 110000
+              },
+              {
+                "description": "Communications (Data, AV, Tel) - component 3",
+                "amount": 125000
+              }
+            ],
+            "exclusions": [
+              "AV rough-in for conference rooms - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Riverside Medical Office Campus drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "27-pedernales_custom",
+            "company": "Pedernales Custom Homes & Renovations, Inc.",
+            "contact": "Wyatt Burnham",
+            "email": "wburnham@pedernalescustom.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 300000,
+            "line_items": [
+              {
+                "description": "Communications (Data, AV, Tel) - component 1",
+                "amount": 110000
+              },
+              {
+                "description": "Communications (Data, AV, Tel) - component 2",
+                "amount": 85000
+              },
+              {
+                "description": "Communications (Data, AV, Tel) - component 3",
+                "amount": 105000
+              }
+            ],
+            "exclusions": [
+              "AV rough-in for conference rooms - NOT IN CONTRACT",
+              "Extended warranty (by owner)",
+              "Specialty subcontractors and engineered systems (separate quote)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Riverside Medical Office Campus drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
       },
       {
         "trade": "Electronic Safety & Security",
         "csi_code": "28 00 00",
-        "bids": []
+        "bids": [
+          {
+            "sub_id": "28-lone_star_healthcare",
+            "company": "Lone Star Healthcare Construction, LLC",
+            "contact": "Reagan Castillo",
+            "email": "rcastillo@lonestarhealthcare.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 310000,
+            "line_items": [
+              {
+                "description": "Electronic Safety & Security - component 1",
+                "amount": 55000
+              },
+              {
+                "description": "Electronic Safety & Security - component 2",
+                "amount": 65000
+              },
+              {
+                "description": "Electronic Safety & Security - component 3",
+                "amount": 55000
+              },
+              {
+                "description": "Electronic Safety & Security - component 4",
+                "amount": 60000
+              },
+              {
+                "description": "Electronic Safety & Security - component 5",
+                "amount": 75000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Riverside Medical Office Campus drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "28-capitol_commercial",
+            "company": "Capitol Commercial Builders",
+            "contact": "Jordan Walsh",
+            "email": "jwalsh@capitolcommercial.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 305000,
+            "line_items": [
+              {
+                "description": "Electronic Safety & Security - component 1",
+                "amount": 105000
+              },
+              {
+                "description": "Electronic Safety & Security - component 2",
+                "amount": 115000
+              },
+              {
+                "description": "Electronic Safety & Security - component 3",
+                "amount": 85000
+              }
+            ],
+            "exclusions": [
+              "Exterior access control and parking - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Riverside Medical Office Campus drawings issued 03/15/2024.",
+            "post_bid_updates": [
+              {
+                "update_id": "28-CAP-U1",
+                "date": "2024-04-28",
+                "from": "Jordan Walsh <jwalsh@capitolcommercial.com>",
+                "subject": "RE: Riverside Medical Office Campus - Exterior access control and parking Add",
+                "body": "We can include Exterior access control and parking for an additional $20,000. Revised total would be $325,000.",
+                "revised_total": 325000,
+                "delta": 20000,
+                "scope_added": "Exterior access control and parking"
+              }
+            ]
+          },
+          {
+            "sub_id": "28-pedernales_custom",
+            "company": "Pedernales Custom Homes & Renovations, Inc.",
+            "contact": "Wyatt Burnham",
+            "email": "wburnham@pedernalescustom.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 230000,
+            "line_items": [
+              {
+                "description": "Electronic Safety & Security - component 1",
+                "amount": 50000
+              },
+              {
+                "description": "Electronic Safety & Security - component 2",
+                "amount": 50000
+              },
+              {
+                "description": "Electronic Safety & Security - component 3",
+                "amount": 40000
+              },
+              {
+                "description": "Electronic Safety & Security - component 4",
+                "amount": 50000
+              },
+              {
+                "description": "Electronic Safety & Security - component 5",
+                "amount": 40000
+              }
+            ],
+            "exclusions": [
+              "Exterior access control and parking - NOT IN CONTRACT",
+              "Extended warranty (by owner)",
+              "Specialty subcontractors and engineered systems (separate quote)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Riverside Medical Office Campus drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
       },
       {
         "trade": "Earthwork, Grading & Site Preparation",
         "csi_code": "31 00 00",
-        "bids": []
+        "bids": [
+          {
+            "sub_id": "31-lone_star_healthcare",
+            "company": "Lone Star Healthcare Construction, LLC",
+            "contact": "Reagan Castillo",
+            "email": "rcastillo@lonestarhealthcare.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 575000,
+            "line_items": [
+              {
+                "description": "Earthwork, Grading & Site Preparation - component 1",
+                "amount": 160000
+              },
+              {
+                "description": "Earthwork, Grading & Site Preparation - component 2",
+                "amount": 225000
+              },
+              {
+                "description": "Earthwork, Grading & Site Preparation - component 3",
+                "amount": 190000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Riverside Medical Office Campus drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "31-capitol_commercial",
+            "company": "Capitol Commercial Builders",
+            "contact": "Jordan Walsh",
+            "email": "jwalsh@capitolcommercial.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 545000,
+            "line_items": [
+              {
+                "description": "Earthwork, Grading & Site Preparation - component 1",
+                "amount": 140000
+              },
+              {
+                "description": "Earthwork, Grading & Site Preparation - component 2",
+                "amount": 155000
+              },
+              {
+                "description": "Earthwork, Grading & Site Preparation - component 3",
+                "amount": 140000
+              },
+              {
+                "description": "Earthwork, Grading & Site Preparation - component 4",
+                "amount": 110000
+              }
+            ],
+            "exclusions": [
+              "Rock excavation allowance - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Riverside Medical Office Campus drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "31-pedernales_custom",
+            "company": "Pedernales Custom Homes & Renovations, Inc.",
+            "contact": "Wyatt Burnham",
+            "email": "wburnham@pedernalescustom.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 425000,
+            "line_items": [
+              {
+                "description": "Earthwork, Grading & Site Preparation - component 1",
+                "amount": 85000
+              },
+              {
+                "description": "Earthwork, Grading & Site Preparation - component 2",
+                "amount": 100000
+              },
+              {
+                "description": "Earthwork, Grading & Site Preparation - component 3",
+                "amount": 125000
+              },
+              {
+                "description": "Earthwork, Grading & Site Preparation - component 4",
+                "amount": 115000
+              }
+            ],
+            "exclusions": [
+              "Rock excavation allowance - NOT IN CONTRACT",
+              "Extended warranty (by owner)",
+              "Specialty subcontractors and engineered systems (separate quote)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Riverside Medical Office Campus drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
       },
       {
         "trade": "Site Paving, Curbs & Landscaping",
         "csi_code": "32 00 00",
-        "bids": []
+        "bids": [
+          {
+            "sub_id": "32-lone_star_healthcare",
+            "company": "Lone Star Healthcare Construction, LLC",
+            "contact": "Reagan Castillo",
+            "email": "rcastillo@lonestarhealthcare.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 725000,
+            "line_items": [
+              {
+                "description": "Site Paving, Curbs & Landscaping - component 1",
+                "amount": 130000
+              },
+              {
+                "description": "Site Paving, Curbs & Landscaping - component 2",
+                "amount": 130000
+              },
+              {
+                "description": "Site Paving, Curbs & Landscaping - component 3",
+                "amount": 120000
+              },
+              {
+                "description": "Site Paving, Curbs & Landscaping - component 4",
+                "amount": 160000
+              },
+              {
+                "description": "Site Paving, Curbs & Landscaping - component 5",
+                "amount": 185000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Riverside Medical Office Campus drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "32-capitol_commercial",
+            "company": "Capitol Commercial Builders",
+            "contact": "Jordan Walsh",
+            "email": "jwalsh@capitolcommercial.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 710000,
+            "line_items": [
+              {
+                "description": "Site Paving, Curbs & Landscaping - component 1",
+                "amount": 140000
+              },
+              {
+                "description": "Site Paving, Curbs & Landscaping - component 2",
+                "amount": 130000
+              },
+              {
+                "description": "Site Paving, Curbs & Landscaping - component 3",
+                "amount": 140000
+              },
+              {
+                "description": "Site Paving, Curbs & Landscaping - component 4",
+                "amount": 105000
+              },
+              {
+                "description": "Site Paving, Curbs & Landscaping - component 5",
+                "amount": 100000
+              },
+              {
+                "description": "Site Paving, Curbs & Landscaping - component 6",
+                "amount": 95000
+              }
+            ],
+            "exclusions": [
+              "Landscaping and irrigation - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Riverside Medical Office Campus drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "32-pedernales_custom",
+            "company": "Pedernales Custom Homes & Renovations, Inc.",
+            "contact": "Wyatt Burnham",
+            "email": "wburnham@pedernalescustom.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 570000,
+            "line_items": [
+              {
+                "description": "Site Paving, Curbs & Landscaping - component 1",
+                "amount": 165000
+              },
+              {
+                "description": "Site Paving, Curbs & Landscaping - component 2",
+                "amount": 115000
+              },
+              {
+                "description": "Site Paving, Curbs & Landscaping - component 3",
+                "amount": 155000
+              },
+              {
+                "description": "Site Paving, Curbs & Landscaping - component 4",
+                "amount": 135000
+              }
+            ],
+            "exclusions": [
+              "Landscaping and irrigation - NOT IN CONTRACT",
+              "Extended warranty (by owner)",
+              "Specialty subcontractors and engineered systems (separate quote)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Riverside Medical Office Campus drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
       },
       {
         "trade": "Site Utilities (Water, Sewer, Storm, Gas)",
         "csi_code": "33 00 00",
-        "bids": []
+        "bids": [
+          {
+            "sub_id": "33-lone_star_healthcare",
+            "company": "Lone Star Healthcare Construction, LLC",
+            "contact": "Reagan Castillo",
+            "email": "rcastillo@lonestarhealthcare.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 595000,
+            "line_items": [
+              {
+                "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 1",
+                "amount": 135000
+              },
+              {
+                "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 2",
+                "amount": 165000
+              },
+              {
+                "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 3",
+                "amount": 125000
+              },
+              {
+                "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 4",
+                "amount": 170000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Riverside Medical Office Campus drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "33-capitol_commercial",
+            "company": "Capitol Commercial Builders",
+            "contact": "Jordan Walsh",
+            "email": "jwalsh@capitolcommercial.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 550000,
+            "line_items": [
+              {
+                "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 1",
+                "amount": 120000
+              },
+              {
+                "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 2",
+                "amount": 160000
+              },
+              {
+                "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 3",
+                "amount": 130000
+              },
+              {
+                "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 4",
+                "amount": 140000
+              }
+            ],
+            "exclusions": [
+              "Underground fire line - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Riverside Medical Office Campus drawings issued 03/15/2024.",
+            "post_bid_updates": [
+              {
+                "update_id": "33-CAP-U1",
+                "date": "2024-04-28",
+                "from": "Jordan Walsh <jwalsh@capitolcommercial.com>",
+                "subject": "RE: Riverside Medical Office Campus - Underground fire line Clarification",
+                "body": "Following up on our call \u2014 we can pick up Underground fire line for $40,000 additional. Revised total $590,000.",
+                "revised_total": 590000,
+                "delta": 40000,
+                "scope_added": "Underground fire line"
+              }
+            ]
+          },
+          {
+            "sub_id": "33-pedernales_custom",
+            "company": "Pedernales Custom Homes & Renovations, Inc.",
+            "contact": "Wyatt Burnham",
+            "email": "wburnham@pedernalescustom.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 445000,
+            "line_items": [
+              {
+                "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 1",
+                "amount": 100000
+              },
+              {
+                "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 2",
+                "amount": 120000
+              },
+              {
+                "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 3",
+                "amount": 105000
+              },
+              {
+                "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 4",
+                "amount": 120000
+              }
+            ],
+            "exclusions": [
+              "Underground fire line - NOT IN CONTRACT",
+              "Extended warranty (by owner)",
+              "Specialty subcontractors and engineered systems (separate quote)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Riverside Medical Office Campus drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
       }
     ]
   },

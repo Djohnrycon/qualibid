@@ -13,13 +13,42 @@
         "csi_code": "02 40 00",
         "bids": [
           {
-            "sub_id": "02-S1",
-            "company": "Midtown Interiors",
-            "contact": "Pete Adams",
-            "email": "midtowninteriors@contractor.com",
+            "sub_id": "02-lone_star_healthcare",
+            "company": "Lone Star Healthcare Construction, LLC",
+            "contact": "Reagan Castillo",
+            "email": "rcastillo@lonestarhealthcare.com",
             "source": "PDF",
             "submitted_date": "2024-04-18",
             "base_bid": 90000,
+            "line_items": [
+              {
+                "description": "Demolition & Site Clearing - component 1",
+                "amount": 25000
+              },
+              {
+                "description": "Demolition & Site Clearing - component 2",
+                "amount": 35000
+              },
+              {
+                "description": "Demolition & Site Clearing - component 3",
+                "amount": 30000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Hillsboro Elementary School drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "02-capitol_commercial",
+            "company": "Capitol Commercial Builders",
+            "contact": "Jordan Walsh",
+            "email": "jwalsh@capitolcommercial.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 85000,
             "line_items": [
               {
                 "description": "Demolition & Site Clearing - component 1",
@@ -35,44 +64,11 @@
               },
               {
                 "description": "Demolition & Site Clearing - component 4",
-                "amount": 20000
+                "amount": 15000
               },
               {
                 "description": "Demolition & Site Clearing - component 5",
-                "amount": 15000
-              },
-              {
-                "description": "Demolition & Site Clearing - component 6",
-                "amount": 10000
-              }
-            ],
-            "exclusions": [],
-            "inclusions": [
-              "All labor, material, and permits per contract documents"
-            ],
-            "notes": "Bid per Hillsboro Elementary School drawings issued 03/15/2024.",
-            "post_bid_updates": []
-          },
-          {
-            "sub_id": "02-S2",
-            "company": "Music City Plumbing",
-            "contact": "Sam Rivera",
-            "email": "musiccityplumbing@contractor.com",
-            "source": "Excel",
-            "submitted_date": "2024-04-19",
-            "base_bid": 50000,
-            "line_items": [
-              {
-                "description": "Demolition & Site Clearing - component 1",
-                "amount": 15000
-              },
-              {
-                "description": "Demolition & Site Clearing - component 2",
-                "amount": 20000
-              },
-              {
-                "description": "Demolition & Site Clearing - component 3",
-                "amount": 15000
+                "amount": 25000
               }
             ],
             "exclusions": [
@@ -86,32 +82,44 @@
             "post_bid_updates": []
           },
           {
-            "sub_id": "02-S3",
-            "company": "Cumberland Framing",
-            "contact": "Walt Burns",
-            "email": "cumberlandframing@contractor.com",
+            "sub_id": "02-pedernales_custom",
+            "company": "Pedernales Custom Homes & Renovations, Inc.",
+            "contact": "Wyatt Burnham",
+            "email": "wburnham@pedernalescustom.com",
             "source": "Email",
             "submitted_date": "2024-04-20",
-            "base_bid": 130000,
+            "base_bid": 65000,
             "line_items": [
               {
                 "description": "Demolition & Site Clearing - component 1",
-                "amount": 35000
+                "amount": 10000
               },
               {
                 "description": "Demolition & Site Clearing - component 2",
-                "amount": 30000
+                "amount": 10000
               },
               {
                 "description": "Demolition & Site Clearing - component 3",
-                "amount": 25000
+                "amount": 15000
               },
               {
                 "description": "Demolition & Site Clearing - component 4",
-                "amount": 40000
+                "amount": 10000
+              },
+              {
+                "description": "Demolition & Site Clearing - component 5",
+                "amount": 10000
+              },
+              {
+                "description": "Demolition & Site Clearing - component 6",
+                "amount": 10000
               }
             ],
-            "exclusions": [],
+            "exclusions": [
+              "Hazardous material abatement - NOT IN CONTRACT",
+              "Extended warranty (by owner)",
+              "Specialty subcontractors and engineered systems (separate quote)"
+            ],
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
@@ -125,25 +133,25 @@
         "csi_code": "03 00 00",
         "bids": [
           {
-            "sub_id": "03-S1",
-            "company": "Midtown Interiors",
-            "contact": "Lisa Chang",
-            "email": "midtowninteriors@contractor.com",
+            "sub_id": "03-lone_star_healthcare",
+            "company": "Lone Star Healthcare Construction, LLC",
+            "contact": "Reagan Castillo",
+            "email": "rcastillo@lonestarhealthcare.com",
             "source": "PDF",
             "submitted_date": "2024-04-18",
-            "base_bid": 285000,
+            "base_bid": 275000,
             "line_items": [
               {
                 "description": "Concrete - component 1",
-                "amount": 100000
+                "amount": 110000
               },
               {
                 "description": "Concrete - component 2",
-                "amount": 80000
+                "amount": 100000
               },
               {
                 "description": "Concrete - component 3",
-                "amount": 105000
+                "amount": 65000
               }
             ],
             "exclusions": [],
@@ -154,33 +162,29 @@
             "post_bid_updates": []
           },
           {
-            "sub_id": "03-S2",
-            "company": "Music City Plumbing",
-            "contact": "James Brown",
-            "email": "musiccityplumbing@contractor.com",
+            "sub_id": "03-capitol_commercial",
+            "company": "Capitol Commercial Builders",
+            "contact": "Jordan Walsh",
+            "email": "jwalsh@capitolcommercial.com",
             "source": "Excel",
             "submitted_date": "2024-04-19",
-            "base_bid": 190000,
+            "base_bid": 255000,
             "line_items": [
               {
                 "description": "Concrete - component 1",
-                "amount": 35000
+                "amount": 65000
               },
               {
                 "description": "Concrete - component 2",
-                "amount": 40000
+                "amount": 70000
               },
               {
                 "description": "Concrete - component 3",
-                "amount": 40000
+                "amount": 75000
               },
               {
                 "description": "Concrete - component 4",
-                "amount": 35000
-              },
-              {
-                "description": "Concrete - component 5",
-                "amount": 40000
+                "amount": 45000
               }
             ],
             "exclusions": [
@@ -193,44 +197,56 @@
             "notes": "Bid per Hillsboro Elementary School drawings issued 03/15/2024.",
             "post_bid_updates": [
               {
-                "update_id": "03-U1",
+                "update_id": "03-CAP-U1",
                 "date": "2024-04-28",
-                "from": "James Brown <musiccityplumbing@contractor.com>",
-                "subject": "RE: Hillsboro Elementary School - Vapor barrier and underslab insulation Scope Add",
-                "body": "Per our conversation this morning: Vapor barrier and underslab insulation can be added for $15,000. New total is $205,000.",
-                "revised_total": 205000,
-                "delta": 15000,
+                "from": "Jordan Walsh <jwalsh@capitolcommercial.com>",
+                "subject": "RE: Hillsboro Elementary School - Vapor barrier and underslab insulation Add",
+                "body": "We can include Vapor barrier and underslab insulation for an additional $20,000. Revised total would be $275,000.",
+                "revised_total": 275000,
+                "delta": 20000,
                 "scope_added": "Vapor barrier and underslab insulation"
               }
             ]
           },
           {
-            "sub_id": "03-S3",
-            "company": "Cumberland Framing",
-            "contact": "Maria Valdez",
-            "email": "cumberlandframing@contractor.com",
+            "sub_id": "03-pedernales_custom",
+            "company": "Pedernales Custom Homes & Renovations, Inc.",
+            "contact": "Wyatt Burnham",
+            "email": "wburnham@pedernalescustom.com",
             "source": "Email",
             "submitted_date": "2024-04-20",
-            "base_bid": 380000,
+            "base_bid": 205000,
             "line_items": [
               {
                 "description": "Concrete - component 1",
-                "amount": 90000
+                "amount": 35000
               },
               {
                 "description": "Concrete - component 2",
-                "amount": 110000
+                "amount": 35000
               },
               {
                 "description": "Concrete - component 3",
-                "amount": 95000
+                "amount": 30000
               },
               {
                 "description": "Concrete - component 4",
-                "amount": 85000
+                "amount": 30000
+              },
+              {
+                "description": "Concrete - component 5",
+                "amount": 30000
+              },
+              {
+                "description": "Concrete - component 6",
+                "amount": 45000
               }
             ],
-            "exclusions": [],
+            "exclusions": [
+              "Vapor barrier and underslab insulation - NOT IN CONTRACT",
+              "Extended warranty (by owner)",
+              "Specialty subcontractors and engineered systems (separate quote)"
+            ],
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
@@ -244,17 +260,17 @@
         "csi_code": "04 00 00",
         "bids": [
           {
-            "sub_id": "04-S1",
-            "company": "Volunteer Roofing",
-            "contact": "Angela Cruz",
-            "email": "volunteerroofing@contractor.com",
+            "sub_id": "04-lone_star_healthcare",
+            "company": "Lone Star Healthcare Construction, LLC",
+            "contact": "Reagan Castillo",
+            "email": "rcastillo@lonestarhealthcare.com",
             "source": "PDF",
             "submitted_date": "2024-04-18",
             "base_bid": 210000,
             "line_items": [
               {
                 "description": "Masonry - component 1",
-                "amount": 35000
+                "amount": 40000
               },
               {
                 "description": "Masonry - component 2",
@@ -262,19 +278,15 @@
               },
               {
                 "description": "Masonry - component 3",
-                "amount": 30000
+                "amount": 45000
               },
               {
                 "description": "Masonry - component 4",
-                "amount": 30000
-              },
-              {
-                "description": "Masonry - component 5",
                 "amount": 40000
               },
               {
-                "description": "Masonry - component 6",
-                "amount": 35000
+                "description": "Masonry - component 5",
+                "amount": 45000
               }
             ],
             "exclusions": [],
@@ -285,29 +297,25 @@
             "post_bid_updates": []
           },
           {
-            "sub_id": "04-S2",
-            "company": "Predators Steel",
-            "contact": "Tom Brady",
-            "email": "predatorssteel@contractor.com",
+            "sub_id": "04-capitol_commercial",
+            "company": "Capitol Commercial Builders",
+            "contact": "Jordan Walsh",
+            "email": "jwalsh@capitolcommercial.com",
             "source": "Excel",
             "submitted_date": "2024-04-19",
-            "base_bid": 130000,
+            "base_bid": 190000,
             "line_items": [
               {
                 "description": "Masonry - component 1",
-                "amount": 30000
+                "amount": 60000
               },
               {
                 "description": "Masonry - component 2",
-                "amount": 30000
+                "amount": 60000
               },
               {
                 "description": "Masonry - component 3",
-                "amount": 30000
-              },
-              {
-                "description": "Masonry - component 4",
-                "amount": 40000
+                "amount": 70000
               }
             ],
             "exclusions": [
@@ -321,40 +329,44 @@
             "post_bid_updates": []
           },
           {
-            "sub_id": "04-S3",
-            "company": "Midtown Interiors",
-            "contact": "Linda Garza",
-            "email": "midtowninteriors@contractor.com",
+            "sub_id": "04-pedernales_custom",
+            "company": "Pedernales Custom Homes & Renovations, Inc.",
+            "contact": "Wyatt Burnham",
+            "email": "wburnham@pedernalescustom.com",
             "source": "Email",
             "submitted_date": "2024-04-20",
-            "base_bid": 265000,
+            "base_bid": 150000,
             "line_items": [
               {
                 "description": "Masonry - component 1",
-                "amount": 45000
+                "amount": 30000
               },
               {
                 "description": "Masonry - component 2",
-                "amount": 40000
+                "amount": 30000
               },
               {
                 "description": "Masonry - component 3",
-                "amount": 40000
+                "amount": 20000
               },
               {
                 "description": "Masonry - component 4",
-                "amount": 50000
+                "amount": 30000
               },
               {
                 "description": "Masonry - component 5",
-                "amount": 45000
+                "amount": 25000
               },
               {
                 "description": "Masonry - component 6",
-                "amount": 45000
+                "amount": 15000
               }
             ],
-            "exclusions": [],
+            "exclusions": [
+              "CMU backup wall - NOT IN CONTRACT",
+              "Extended warranty (by owner)",
+              "Specialty subcontractors and engineered systems (separate quote)"
+            ],
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
@@ -368,17 +380,17 @@
         "csi_code": "05 00 00",
         "bids": [
           {
-            "sub_id": "05-S1",
-            "company": "Predators Steel",
-            "contact": "Rick Simmons",
-            "email": "predatorssteel@contractor.com",
+            "sub_id": "05-lone_star_healthcare",
+            "company": "Lone Star Healthcare Construction, LLC",
+            "contact": "Reagan Castillo",
+            "email": "rcastillo@lonestarhealthcare.com",
             "source": "PDF",
             "submitted_date": "2024-04-18",
             "base_bid": 385000,
             "line_items": [
               {
                 "description": "Structural Steel & Misc Metals - component 1",
-                "amount": 60000
+                "amount": 65000
               },
               {
                 "description": "Structural Steel & Misc Metals - component 2",
@@ -386,98 +398,122 @@
               },
               {
                 "description": "Structural Steel & Misc Metals - component 3",
-                "amount": 70000
+                "amount": 55000
               },
               {
                 "description": "Structural Steel & Misc Metals - component 4",
-                "amount": 75000
+                "amount": 65000
               },
               {
                 "description": "Structural Steel & Misc Metals - component 5",
-                "amount": 65000
+                "amount": 75000
+              },
+              {
+                "description": "Structural Steel & Misc Metals - component 6",
+                "amount": 55000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Hillsboro Elementary School drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "05-capitol_commercial",
+            "company": "Capitol Commercial Builders",
+            "contact": "Jordan Walsh",
+            "email": "jwalsh@capitolcommercial.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 355000,
+            "line_items": [
+              {
+                "description": "Structural Steel & Misc Metals - component 1",
+                "amount": 50000
+              },
+              {
+                "description": "Structural Steel & Misc Metals - component 2",
+                "amount": 70000
+              },
+              {
+                "description": "Structural Steel & Misc Metals - component 3",
+                "amount": 60000
+              },
+              {
+                "description": "Structural Steel & Misc Metals - component 4",
+                "amount": 55000
+              },
+              {
+                "description": "Structural Steel & Misc Metals - component 5",
+                "amount": 50000
+              },
+              {
+                "description": "Structural Steel & Misc Metals - component 6",
+                "amount": 70000
+              }
+            ],
+            "exclusions": [
+              "Miscellaneous metals and embeds - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Hillsboro Elementary School drawings issued 03/15/2024.",
+            "post_bid_updates": [
+              {
+                "update_id": "05-CAP-U1",
+                "date": "2024-04-28",
+                "from": "Jordan Walsh <jwalsh@capitolcommercial.com>",
+                "subject": "RE: Hillsboro Elementary School - Miscellaneous metals and embeds Scope Add",
+                "body": "Per our conversation this morning: Miscellaneous metals and embeds can be added for $25,000. New total is $380,000.",
+                "revised_total": 380000,
+                "delta": 25000,
+                "scope_added": "Miscellaneous metals and embeds"
+              }
+            ]
+          },
+          {
+            "sub_id": "05-pedernales_custom",
+            "company": "Pedernales Custom Homes & Renovations, Inc.",
+            "contact": "Wyatt Burnham",
+            "email": "wburnham@pedernalescustom.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 290000,
+            "line_items": [
+              {
+                "description": "Structural Steel & Misc Metals - component 1",
+                "amount": 40000
+              },
+              {
+                "description": "Structural Steel & Misc Metals - component 2",
+                "amount": 60000
+              },
+              {
+                "description": "Structural Steel & Misc Metals - component 3",
+                "amount": 55000
+              },
+              {
+                "description": "Structural Steel & Misc Metals - component 4",
+                "amount": 50000
+              },
+              {
+                "description": "Structural Steel & Misc Metals - component 5",
+                "amount": 40000
               },
               {
                 "description": "Structural Steel & Misc Metals - component 6",
                 "amount": 45000
               }
             ],
-            "exclusions": [],
-            "inclusions": [
-              "All labor, material, and permits per contract documents"
-            ],
-            "notes": "Bid per Hillsboro Elementary School drawings issued 03/15/2024.",
-            "post_bid_updates": []
-          },
-          {
-            "sub_id": "05-S2",
-            "company": "Midtown Interiors",
-            "contact": "Ed Turner",
-            "email": "midtowninteriors@contractor.com",
-            "source": "Excel",
-            "submitted_date": "2024-04-19",
-            "base_bid": 270000,
-            "line_items": [
-              {
-                "description": "Structural Steel & Misc Metals - component 1",
-                "amount": 70000
-              },
-              {
-                "description": "Structural Steel & Misc Metals - component 2",
-                "amount": 70000
-              },
-              {
-                "description": "Structural Steel & Misc Metals - component 3",
-                "amount": 75000
-              },
-              {
-                "description": "Structural Steel & Misc Metals - component 4",
-                "amount": 55000
-              }
-            ],
             "exclusions": [
-              "Miscellaneous metals and embeds - NOT IN CONTRACT"
+              "Miscellaneous metals and embeds - NOT IN CONTRACT",
+              "Extended warranty (by owner)",
+              "Specialty subcontractors and engineered systems (separate quote)"
             ],
-            "inclusions": [
-              "All labor, material, and permits per contract documents"
-            ],
-            "notes": "Bid per Hillsboro Elementary School drawings issued 03/15/2024.",
-            "post_bid_updates": []
-          },
-          {
-            "sub_id": "05-S3",
-            "company": "Music City Plumbing",
-            "contact": "Carl Johnson",
-            "email": "musiccityplumbing@contractor.com",
-            "source": "Email",
-            "submitted_date": "2024-04-20",
-            "base_bid": 465000,
-            "line_items": [
-              {
-                "description": "Structural Steel & Misc Metals - component 1",
-                "amount": 65000
-              },
-              {
-                "description": "Structural Steel & Misc Metals - component 2",
-                "amount": 90000
-              },
-              {
-                "description": "Structural Steel & Misc Metals - component 3",
-                "amount": 60000
-              },
-              {
-                "description": "Structural Steel & Misc Metals - component 4",
-                "amount": 65000
-              },
-              {
-                "description": "Structural Steel & Misc Metals - component 5",
-                "amount": 90000
-              },
-              {
-                "description": "Structural Steel & Misc Metals - component 6",
-                "amount": 95000
-              }
-            ],
-            "exclusions": [],
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
@@ -491,37 +527,33 @@
         "csi_code": "07 00 00",
         "bids": [
           {
-            "sub_id": "07-S1",
-            "company": "Cumberland Concrete",
-            "contact": "Maria Valdez",
-            "email": "cumberlandconcrete@contractor.com",
+            "sub_id": "07-lone_star_healthcare",
+            "company": "Lone Star Healthcare Construction, LLC",
+            "contact": "Reagan Castillo",
+            "email": "rcastillo@lonestarhealthcare.com",
             "source": "PDF",
             "submitted_date": "2024-04-18",
-            "base_bid": 235000,
+            "base_bid": 225000,
             "line_items": [
               {
                 "description": "Roofing, Waterproofing & Insulation - component 1",
-                "amount": 40000
+                "amount": 45000
               },
               {
                 "description": "Roofing, Waterproofing & Insulation - component 2",
-                "amount": 45000
+                "amount": 40000
               },
               {
                 "description": "Roofing, Waterproofing & Insulation - component 3",
-                "amount": 45000
+                "amount": 50000
               },
               {
                 "description": "Roofing, Waterproofing & Insulation - component 4",
-                "amount": 45000
+                "amount": 55000
               },
               {
                 "description": "Roofing, Waterproofing & Insulation - component 5",
                 "amount": 35000
-              },
-              {
-                "description": "Roofing, Waterproofing & Insulation - component 6",
-                "amount": 25000
               }
             ],
             "exclusions": [],
@@ -532,37 +564,29 @@
             "post_bid_updates": []
           },
           {
-            "sub_id": "07-S2",
-            "company": "Tennessee Mechanical",
-            "contact": "Kevin Walsh",
-            "email": "tennesseemechanical@contractor.com",
+            "sub_id": "07-capitol_commercial",
+            "company": "Capitol Commercial Builders",
+            "contact": "Jordan Walsh",
+            "email": "jwalsh@capitolcommercial.com",
             "source": "Excel",
             "submitted_date": "2024-04-19",
-            "base_bid": 140000,
+            "base_bid": 205000,
             "line_items": [
               {
                 "description": "Roofing, Waterproofing & Insulation - component 1",
-                "amount": 25000
+                "amount": 50000
               },
               {
                 "description": "Roofing, Waterproofing & Insulation - component 2",
-                "amount": 20000
+                "amount": 60000
               },
               {
                 "description": "Roofing, Waterproofing & Insulation - component 3",
-                "amount": 20000
+                "amount": 50000
               },
               {
                 "description": "Roofing, Waterproofing & Insulation - component 4",
-                "amount": 25000
-              },
-              {
-                "description": "Roofing, Waterproofing & Insulation - component 5",
-                "amount": 25000
-              },
-              {
-                "description": "Roofing, Waterproofing & Insulation - component 6",
-                "amount": 25000
+                "amount": 45000
               }
             ],
             "exclusions": [
@@ -573,46 +597,35 @@
               "All labor, material, and permits per contract documents"
             ],
             "notes": "Bid per Hillsboro Elementary School drawings issued 03/15/2024.",
-            "post_bid_updates": [
-              {
-                "update_id": "07-U1",
-                "date": "2024-04-28",
-                "from": "Kevin Walsh <tennesseemechanical@contractor.com>",
-                "subject": "RE: Hillsboro Elementary School - Below-slab waterproofing Scope Add",
-                "body": "Per our conversation this morning: Below-slab waterproofing can be added for $10,000. New total is $150,000.",
-                "revised_total": 150000,
-                "delta": 10000,
-                "scope_added": "Below-slab waterproofing"
-              }
-            ]
+            "post_bid_updates": []
           },
           {
-            "sub_id": "07-S3",
-            "company": "Volunteer Roofing",
-            "contact": "Beth Adams",
-            "email": "volunteerroofing@contractor.com",
+            "sub_id": "07-pedernales_custom",
+            "company": "Pedernales Custom Homes & Renovations, Inc.",
+            "contact": "Wyatt Burnham",
+            "email": "wburnham@pedernalescustom.com",
             "source": "Email",
             "submitted_date": "2024-04-20",
-            "base_bid": 300000,
+            "base_bid": 175000,
             "line_items": [
               {
                 "description": "Roofing, Waterproofing & Insulation - component 1",
-                "amount": 80000
+                "amount": 55000
               },
               {
                 "description": "Roofing, Waterproofing & Insulation - component 2",
-                "amount": 75000
-              },
-              {
-                "description": "Roofing, Waterproofing & Insulation - component 3",
                 "amount": 65000
               },
               {
-                "description": "Roofing, Waterproofing & Insulation - component 4",
-                "amount": 80000
+                "description": "Roofing, Waterproofing & Insulation - component 3",
+                "amount": 55000
               }
             ],
-            "exclusions": [],
+            "exclusions": [
+              "Below-slab waterproofing - NOT IN CONTRACT",
+              "Extended warranty (by owner)",
+              "Specialty subcontractors and engineered systems (separate quote)"
+            ],
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
@@ -626,25 +639,33 @@
         "csi_code": "08 00 00",
         "bids": [
           {
-            "sub_id": "08-S1",
-            "company": "Midtown Interiors",
-            "contact": "Angela Cruz",
-            "email": "midtowninteriors@contractor.com",
+            "sub_id": "08-lone_star_healthcare",
+            "company": "Lone Star Healthcare Construction, LLC",
+            "contact": "Reagan Castillo",
+            "email": "rcastillo@lonestarhealthcare.com",
             "source": "PDF",
             "submitted_date": "2024-04-18",
             "base_bid": 275000,
             "line_items": [
               {
                 "description": "Doors, Frames, Hardware & Glazing - component 1",
-                "amount": 75000
+                "amount": 60000
               },
               {
                 "description": "Doors, Frames, Hardware & Glazing - component 2",
-                "amount": 105000
+                "amount": 50000
               },
               {
                 "description": "Doors, Frames, Hardware & Glazing - component 3",
-                "amount": 95000
+                "amount": 50000
+              },
+              {
+                "description": "Doors, Frames, Hardware & Glazing - component 4",
+                "amount": 55000
+              },
+              {
+                "description": "Doors, Frames, Hardware & Glazing - component 5",
+                "amount": 60000
               }
             ],
             "exclusions": [],
@@ -655,21 +676,21 @@
             "post_bid_updates": []
           },
           {
-            "sub_id": "08-S2",
-            "company": "Music City Plumbing",
-            "contact": "Tom Brady",
-            "email": "musiccityplumbing@contractor.com",
+            "sub_id": "08-capitol_commercial",
+            "company": "Capitol Commercial Builders",
+            "contact": "Jordan Walsh",
+            "email": "jwalsh@capitolcommercial.com",
             "source": "Excel",
             "submitted_date": "2024-04-19",
-            "base_bid": 190000,
+            "base_bid": 255000,
             "line_items": [
               {
                 "description": "Doors, Frames, Hardware & Glazing - component 1",
-                "amount": 35000
+                "amount": 50000
               },
               {
                 "description": "Doors, Frames, Hardware & Glazing - component 2",
-                "amount": 35000
+                "amount": 40000
               },
               {
                 "description": "Doors, Frames, Hardware & Glazing - component 3",
@@ -681,6 +702,10 @@
               },
               {
                 "description": "Doors, Frames, Hardware & Glazing - component 5",
+                "amount": 45000
+              },
+              {
+                "description": "Doors, Frames, Hardware & Glazing - component 6",
                 "amount": 40000
               }
             ],
@@ -695,32 +720,40 @@
             "post_bid_updates": []
           },
           {
-            "sub_id": "08-S3",
-            "company": "Cumberland Framing",
-            "contact": "Linda Garza",
-            "email": "cumberlandframing@contractor.com",
+            "sub_id": "08-pedernales_custom",
+            "company": "Pedernales Custom Homes & Renovations, Inc.",
+            "contact": "Wyatt Burnham",
+            "email": "wburnham@pedernalescustom.com",
             "source": "Email",
             "submitted_date": "2024-04-20",
-            "base_bid": 355000,
+            "base_bid": 200000,
             "line_items": [
               {
                 "description": "Doors, Frames, Hardware & Glazing - component 1",
-                "amount": 75000
+                "amount": 45000
               },
               {
                 "description": "Doors, Frames, Hardware & Glazing - component 2",
-                "amount": 75000
+                "amount": 50000
               },
               {
                 "description": "Doors, Frames, Hardware & Glazing - component 3",
-                "amount": 100000
+                "amount": 35000
               },
               {
                 "description": "Doors, Frames, Hardware & Glazing - component 4",
-                "amount": 105000
+                "amount": 40000
+              },
+              {
+                "description": "Doors, Frames, Hardware & Glazing - component 5",
+                "amount": 30000
               }
             ],
-            "exclusions": [],
+            "exclusions": [
+              "Storefront glazing system - NOT IN CONTRACT",
+              "Extended warranty (by owner)",
+              "Specialty subcontractors and engineered systems (separate quote)"
+            ],
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
@@ -734,25 +767,25 @@
         "csi_code": "09 20 00",
         "bids": [
           {
-            "sub_id": "09-S1",
-            "company": "Volunteer Roofing",
-            "contact": "Pete Adams",
-            "email": "volunteerroofing@contractor.com",
+            "sub_id": "09-lone_star_healthcare",
+            "company": "Lone Star Healthcare Construction, LLC",
+            "contact": "Reagan Castillo",
+            "email": "rcastillo@lonestarhealthcare.com",
             "source": "PDF",
             "submitted_date": "2024-04-18",
-            "base_bid": 180000,
+            "base_bid": 175000,
             "line_items": [
               {
                 "description": "Drywall & Framing - component 1",
-                "amount": 30000
+                "amount": 40000
               },
               {
                 "description": "Drywall & Framing - component 2",
-                "amount": 30000
+                "amount": 40000
               },
               {
                 "description": "Drywall & Framing - component 3",
-                "amount": 30000
+                "amount": 40000
               },
               {
                 "description": "Drywall & Framing - component 4",
@@ -760,11 +793,7 @@
               },
               {
                 "description": "Drywall & Framing - component 5",
-                "amount": 30000
-              },
-              {
-                "description": "Drywall & Framing - component 6",
-                "amount": 25000
+                "amount": 20000
               }
             ],
             "exclusions": [],
@@ -775,17 +804,17 @@
             "post_bid_updates": []
           },
           {
-            "sub_id": "09-S2",
-            "company": "Predators Steel",
-            "contact": "Sam Rivera",
-            "email": "predatorssteel@contractor.com",
+            "sub_id": "09-capitol_commercial",
+            "company": "Capitol Commercial Builders",
+            "contact": "Jordan Walsh",
+            "email": "jwalsh@capitolcommercial.com",
             "source": "Excel",
             "submitted_date": "2024-04-19",
-            "base_bid": 115000,
+            "base_bid": 165000,
             "line_items": [
               {
                 "description": "Drywall & Framing - component 1",
-                "amount": 25000
+                "amount": 40000
               },
               {
                 "description": "Drywall & Framing - component 2",
@@ -793,11 +822,11 @@
               },
               {
                 "description": "Drywall & Framing - component 3",
-                "amount": 35000
+                "amount": 40000
               },
               {
                 "description": "Drywall & Framing - component 4",
-                "amount": 20000
+                "amount": 50000
               }
             ],
             "exclusions": [
@@ -808,27 +837,16 @@
               "All labor, material, and permits per contract documents"
             ],
             "notes": "Bid per Hillsboro Elementary School drawings issued 03/15/2024.",
-            "post_bid_updates": [
-              {
-                "update_id": "09-U1",
-                "date": "2024-04-28",
-                "from": "Sam Rivera <predatorssteel@contractor.com>",
-                "subject": "RE: Hillsboro Elementary School - Shaft wall assemblies Scope Add",
-                "body": "Per our conversation this morning: Shaft wall assemblies can be added for $10,000. New total is $125,000.",
-                "revised_total": 125000,
-                "delta": 10000,
-                "scope_added": "Shaft wall assemblies"
-              }
-            ]
+            "post_bid_updates": []
           },
           {
-            "sub_id": "09-S3",
-            "company": "Midtown Interiors",
-            "contact": "Walt Burns",
-            "email": "midtowninteriors@contractor.com",
+            "sub_id": "09-pedernales_custom",
+            "company": "Pedernales Custom Homes & Renovations, Inc.",
+            "contact": "Wyatt Burnham",
+            "email": "wburnham@pedernalescustom.com",
             "source": "Email",
             "submitted_date": "2024-04-20",
-            "base_bid": 245000,
+            "base_bid": 135000,
             "line_items": [
               {
                 "description": "Drywall & Framing - component 1",
@@ -836,22 +854,18 @@
               },
               {
                 "description": "Drywall & Framing - component 2",
-                "amount": 50000
+                "amount": 45000
               },
               {
                 "description": "Drywall & Framing - component 3",
-                "amount": 45000
-              },
-              {
-                "description": "Drywall & Framing - component 4",
-                "amount": 55000
-              },
-              {
-                "description": "Drywall & Framing - component 5",
-                "amount": 45000
+                "amount": 40000
               }
             ],
-            "exclusions": [],
+            "exclusions": [
+              "Shaft wall assemblies - NOT IN CONTRACT",
+              "Extended warranty (by owner)",
+              "Specialty subcontractors and engineered systems (separate quote)"
+            ],
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
@@ -865,33 +879,29 @@
         "csi_code": "09 60 00",
         "bids": [
           {
-            "sub_id": "09-S1",
-            "company": "Cumberland Concrete",
-            "contact": "Angela Cruz",
-            "email": "cumberlandconcrete@contractor.com",
+            "sub_id": "09-lone_star_healthcare",
+            "company": "Lone Star Healthcare Construction, LLC",
+            "contact": "Reagan Castillo",
+            "email": "rcastillo@lonestarhealthcare.com",
             "source": "PDF",
             "submitted_date": "2024-04-18",
-            "base_bid": 210000,
+            "base_bid": 215000,
             "line_items": [
               {
                 "description": "Flooring - component 1",
-                "amount": 45000
+                "amount": 50000
               },
               {
                 "description": "Flooring - component 2",
-                "amount": 50000
+                "amount": 55000
               },
               {
                 "description": "Flooring - component 3",
-                "amount": 40000
+                "amount": 45000
               },
               {
                 "description": "Flooring - component 4",
-                "amount": 50000
-              },
-              {
-                "description": "Flooring - component 5",
-                "amount": 25000
+                "amount": 65000
               }
             ],
             "exclusions": [],
@@ -902,25 +912,33 @@
             "post_bid_updates": []
           },
           {
-            "sub_id": "09-S2",
-            "company": "Tennessee Mechanical",
-            "contact": "Tom Brady",
-            "email": "tennesseemechanical@contractor.com",
+            "sub_id": "09-capitol_commercial",
+            "company": "Capitol Commercial Builders",
+            "contact": "Jordan Walsh",
+            "email": "jwalsh@capitolcommercial.com",
             "source": "Excel",
             "submitted_date": "2024-04-19",
-            "base_bid": 145000,
+            "base_bid": 195000,
             "line_items": [
               {
                 "description": "Flooring - component 1",
-                "amount": 50000
+                "amount": 35000
               },
               {
                 "description": "Flooring - component 2",
-                "amount": 50000
+                "amount": 40000
               },
               {
                 "description": "Flooring - component 3",
+                "amount": 40000
+              },
+              {
+                "description": "Flooring - component 4",
                 "amount": 45000
+              },
+              {
+                "description": "Flooring - component 5",
+                "amount": 35000
               }
             ],
             "exclusions": [
@@ -931,42 +949,47 @@
               "All labor, material, and permits per contract documents"
             ],
             "notes": "Bid per Hillsboro Elementary School drawings issued 03/15/2024.",
-            "post_bid_updates": [
-              {
-                "update_id": "09-U1",
-                "date": "2024-04-28",
-                "from": "Tom Brady <tennesseemechanical@contractor.com>",
-                "subject": "RE: Hillsboro Elementary School - Specialty sheet vinyl in procedure rooms Clarification",
-                "body": "Following up on our call \u2014 we can pick up Specialty sheet vinyl in procedure rooms for $10,000 additional. Revised total $155,000.",
-                "revised_total": 155000,
-                "delta": 10000,
-                "scope_added": "Specialty sheet vinyl in procedure rooms"
-              }
-            ]
+            "post_bid_updates": []
           },
           {
-            "sub_id": "09-S3",
-            "company": "Volunteer Roofing",
-            "contact": "Linda Garza",
-            "email": "volunteerroofing@contractor.com",
+            "sub_id": "09-pedernales_custom",
+            "company": "Pedernales Custom Homes & Renovations, Inc.",
+            "contact": "Wyatt Burnham",
+            "email": "wburnham@pedernalescustom.com",
             "source": "Email",
             "submitted_date": "2024-04-20",
-            "base_bid": 280000,
+            "base_bid": 165000,
             "line_items": [
               {
                 "description": "Flooring - component 1",
-                "amount": 110000
+                "amount": 30000
               },
               {
                 "description": "Flooring - component 2",
-                "amount": 100000
+                "amount": 30000
               },
               {
                 "description": "Flooring - component 3",
-                "amount": 70000
+                "amount": 30000
+              },
+              {
+                "description": "Flooring - component 4",
+                "amount": 25000
+              },
+              {
+                "description": "Flooring - component 5",
+                "amount": 30000
+              },
+              {
+                "description": "Flooring - component 6",
+                "amount": 20000
               }
             ],
-            "exclusions": [],
+            "exclusions": [
+              "Specialty sheet vinyl in procedure rooms - NOT IN CONTRACT",
+              "Extended warranty (by owner)",
+              "Specialty subcontractors and engineered systems (separate quote)"
+            ],
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
@@ -980,21 +1003,21 @@
         "csi_code": "09 90 00",
         "bids": [
           {
-            "sub_id": "09-S1",
-            "company": "Predators Steel",
-            "contact": "Sam Rivera",
-            "email": "predatorssteel@contractor.com",
+            "sub_id": "09-lone_star_healthcare",
+            "company": "Lone Star Healthcare Construction, LLC",
+            "contact": "Reagan Castillo",
+            "email": "rcastillo@lonestarhealthcare.com",
             "source": "PDF",
             "submitted_date": "2024-04-18",
-            "base_bid": 110000,
+            "base_bid": 105000,
             "line_items": [
               {
                 "description": "Painting & Wall Coverings - component 1",
-                "amount": 20000
+                "amount": 25000
               },
               {
                 "description": "Painting & Wall Coverings - component 2",
-                "amount": 20000
+                "amount": 25000
               },
               {
                 "description": "Painting & Wall Coverings - component 3",
@@ -1002,11 +1025,11 @@
               },
               {
                 "description": "Painting & Wall Coverings - component 4",
-                "amount": 25000
+                "amount": 20000
               },
               {
                 "description": "Painting & Wall Coverings - component 5",
-                "amount": 25000
+                "amount": 15000
               }
             ],
             "exclusions": [],
@@ -1017,55 +1040,13 @@
             "post_bid_updates": []
           },
           {
-            "sub_id": "09-S2",
-            "company": "Midtown Interiors",
-            "contact": "Walt Burns",
-            "email": "midtowninteriors@contractor.com",
+            "sub_id": "09-capitol_commercial",
+            "company": "Capitol Commercial Builders",
+            "contact": "Jordan Walsh",
+            "email": "jwalsh@capitolcommercial.com",
             "source": "Excel",
             "submitted_date": "2024-04-19",
-            "base_bid": 70000,
-            "line_items": [
-              {
-                "description": "Painting & Wall Coverings - component 1",
-                "amount": 25000
-              },
-              {
-                "description": "Painting & Wall Coverings - component 2",
-                "amount": 25000
-              },
-              {
-                "description": "Painting & Wall Coverings - component 3",
-                "amount": 20000
-              }
-            ],
-            "exclusions": [
-              "Exterior painting - NOT IN CONTRACT"
-            ],
-            "inclusions": [
-              "All labor, material, and permits per contract documents"
-            ],
-            "notes": "Bid per Hillsboro Elementary School drawings issued 03/15/2024.",
-            "post_bid_updates": [
-              {
-                "update_id": "09-U1",
-                "date": "2024-04-28",
-                "from": "Walt Burns <midtowninteriors@contractor.com>",
-                "subject": "RE: Hillsboro Elementary School - Exterior painting Scope Add",
-                "body": "Per our conversation this morning: Exterior painting can be added for $5,000. New total is $75,000.",
-                "revised_total": 75000,
-                "delta": 5000,
-                "scope_added": "Exterior painting"
-              }
-            ]
-          },
-          {
-            "sub_id": "09-S3",
-            "company": "Music City Plumbing",
-            "contact": "Mike Torres",
-            "email": "musiccityplumbing@contractor.com",
-            "source": "Email",
-            "submitted_date": "2024-04-20",
-            "base_bid": 135000,
+            "base_bid": 95000,
             "line_items": [
               {
                 "description": "Painting & Wall Coverings - component 1",
@@ -1073,22 +1054,50 @@
               },
               {
                 "description": "Painting & Wall Coverings - component 2",
+                "amount": 35000
+              },
+              {
+                "description": "Painting & Wall Coverings - component 3",
+                "amount": 30000
+              }
+            ],
+            "exclusions": [
+              "Exterior painting - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Hillsboro Elementary School drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "09-pedernales_custom",
+            "company": "Pedernales Custom Homes & Renovations, Inc.",
+            "contact": "Wyatt Burnham",
+            "email": "wburnham@pedernalescustom.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 80000,
+            "line_items": [
+              {
+                "description": "Painting & Wall Coverings - component 1",
+                "amount": 25000
+              },
+              {
+                "description": "Painting & Wall Coverings - component 2",
                 "amount": 20000
               },
               {
                 "description": "Painting & Wall Coverings - component 3",
-                "amount": 25000
-              },
-              {
-                "description": "Painting & Wall Coverings - component 4",
-                "amount": 25000
-              },
-              {
-                "description": "Painting & Wall Coverings - component 5",
                 "amount": 35000
               }
             ],
-            "exclusions": [],
+            "exclusions": [
+              "Exterior painting - NOT IN CONTRACT",
+              "Extended warranty (by owner)",
+              "Specialty subcontractors and engineered systems (separate quote)"
+            ],
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
@@ -1102,17 +1111,17 @@
         "csi_code": "09 51 00",
         "bids": [
           {
-            "sub_id": "09-S1",
-            "company": "Tennessee Mechanical",
-            "contact": "Tom Brady",
-            "email": "tennesseemechanical@contractor.com",
+            "sub_id": "09-lone_star_healthcare",
+            "company": "Lone Star Healthcare Construction, LLC",
+            "contact": "Reagan Castillo",
+            "email": "rcastillo@lonestarhealthcare.com",
             "source": "PDF",
             "submitted_date": "2024-04-18",
-            "base_bid": 140000,
+            "base_bid": 135000,
             "line_items": [
               {
                 "description": "Acoustical Ceilings (ACT) - component 1",
-                "amount": 30000
+                "amount": 35000
               },
               {
                 "description": "Acoustical Ceilings (ACT) - component 2",
@@ -1120,15 +1129,11 @@
               },
               {
                 "description": "Acoustical Ceilings (ACT) - component 3",
-                "amount": 30000
+                "amount": 40000
               },
               {
                 "description": "Acoustical Ceilings (ACT) - component 4",
                 "amount": 25000
-              },
-              {
-                "description": "Acoustical Ceilings (ACT) - component 5",
-                "amount": 20000
               }
             ],
             "exclusions": [],
@@ -1139,33 +1144,25 @@
             "post_bid_updates": []
           },
           {
-            "sub_id": "09-S2",
-            "company": "Volunteer Roofing",
-            "contact": "Linda Garza",
-            "email": "volunteerroofing@contractor.com",
+            "sub_id": "09-capitol_commercial",
+            "company": "Capitol Commercial Builders",
+            "contact": "Jordan Walsh",
+            "email": "jwalsh@capitolcommercial.com",
             "source": "Excel",
             "submitted_date": "2024-04-19",
-            "base_bid": 90000,
+            "base_bid": 125000,
             "line_items": [
               {
                 "description": "Acoustical Ceilings (ACT) - component 1",
-                "amount": 20000
+                "amount": 45000
               },
               {
                 "description": "Acoustical Ceilings (ACT) - component 2",
-                "amount": 20000
+                "amount": 40000
               },
               {
                 "description": "Acoustical Ceilings (ACT) - component 3",
-                "amount": 15000
-              },
-              {
-                "description": "Acoustical Ceilings (ACT) - component 4",
-                "amount": 20000
-              },
-              {
-                "description": "Acoustical Ceilings (ACT) - component 5",
-                "amount": 15000
+                "amount": 40000
               }
             ],
             "exclusions": [
@@ -1176,46 +1173,47 @@
               "All labor, material, and permits per contract documents"
             ],
             "notes": "Bid per Hillsboro Elementary School drawings issued 03/15/2024.",
-            "post_bid_updates": [
-              {
-                "update_id": "09-U1",
-                "date": "2024-04-28",
-                "from": "Linda Garza <volunteerroofing@contractor.com>",
-                "subject": "RE: Hillsboro Elementary School - Gypsum board soffits and clouds Clarification",
-                "body": "Following up on our call \u2014 we can pick up Gypsum board soffits and clouds for $5,000 additional. Revised total $95,000.",
-                "revised_total": 95000,
-                "delta": 5000,
-                "scope_added": "Gypsum board soffits and clouds"
-              }
-            ]
+            "post_bid_updates": []
           },
           {
-            "sub_id": "09-S3",
-            "company": "Predators Steel",
-            "contact": "Bill Torres",
-            "email": "predatorssteel@contractor.com",
+            "sub_id": "09-pedernales_custom",
+            "company": "Pedernales Custom Homes & Renovations, Inc.",
+            "contact": "Wyatt Burnham",
+            "email": "wburnham@pedernalescustom.com",
             "source": "Email",
             "submitted_date": "2024-04-20",
-            "base_bid": 175000,
+            "base_bid": 105000,
             "line_items": [
               {
                 "description": "Acoustical Ceilings (ACT) - component 1",
-                "amount": 50000
+                "amount": 20000
               },
               {
                 "description": "Acoustical Ceilings (ACT) - component 2",
-                "amount": 50000
+                "amount": 15000
               },
               {
                 "description": "Acoustical Ceilings (ACT) - component 3",
-                "amount": 50000
+                "amount": 15000
               },
               {
                 "description": "Acoustical Ceilings (ACT) - component 4",
+                "amount": 15000
+              },
+              {
+                "description": "Acoustical Ceilings (ACT) - component 5",
+                "amount": 15000
+              },
+              {
+                "description": "Acoustical Ceilings (ACT) - component 6",
                 "amount": 25000
               }
             ],
-            "exclusions": [],
+            "exclusions": [
+              "Gypsum board soffits and clouds - NOT IN CONTRACT",
+              "Extended warranty (by owner)",
+              "Specialty subcontractors and engineered systems (separate quote)"
+            ],
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
@@ -1229,25 +1227,33 @@
         "csi_code": "10 00 00",
         "bids": [
           {
-            "sub_id": "10-S1",
-            "company": "Cumberland Concrete",
-            "contact": "Angela Cruz",
-            "email": "cumberlandconcrete@contractor.com",
+            "sub_id": "10-lone_star_healthcare",
+            "company": "Lone Star Healthcare Construction, LLC",
+            "contact": "Reagan Castillo",
+            "email": "rcastillo@lonestarhealthcare.com",
             "source": "PDF",
             "submitted_date": "2024-04-18",
-            "base_bid": 95000,
+            "base_bid": 90000,
             "line_items": [
               {
                 "description": "Specialties - component 1",
-                "amount": 30000
+                "amount": 20000
               },
               {
                 "description": "Specialties - component 2",
-                "amount": 25000
+                "amount": 15000
               },
               {
                 "description": "Specialties - component 3",
-                "amount": 40000
+                "amount": 20000
+              },
+              {
+                "description": "Specialties - component 4",
+                "amount": 15000
+              },
+              {
+                "description": "Specialties - component 5",
+                "amount": 20000
               }
             ],
             "exclusions": [],
@@ -1258,13 +1264,68 @@
             "post_bid_updates": []
           },
           {
-            "sub_id": "10-S2",
-            "company": "Tennessee Mechanical",
-            "contact": "Tom Brady",
-            "email": "tennesseemechanical@contractor.com",
+            "sub_id": "10-capitol_commercial",
+            "company": "Capitol Commercial Builders",
+            "contact": "Jordan Walsh",
+            "email": "jwalsh@capitolcommercial.com",
             "source": "Excel",
             "submitted_date": "2024-04-19",
-            "base_bid": 55000,
+            "base_bid": 85000,
+            "line_items": [
+              {
+                "description": "Specialties - component 1",
+                "amount": 15000
+              },
+              {
+                "description": "Specialties - component 2",
+                "amount": 15000
+              },
+              {
+                "description": "Specialties - component 3",
+                "amount": 15000
+              },
+              {
+                "description": "Specialties - component 4",
+                "amount": 15000
+              },
+              {
+                "description": "Specialties - component 5",
+                "amount": 15000
+              },
+              {
+                "description": "Specialties - component 6",
+                "amount": 10000
+              }
+            ],
+            "exclusions": [
+              "ADA signage package - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Hillsboro Elementary School drawings issued 03/15/2024.",
+            "post_bid_updates": [
+              {
+                "update_id": "10-CAP-U1",
+                "date": "2024-04-28",
+                "from": "Jordan Walsh <jwalsh@capitolcommercial.com>",
+                "subject": "RE: Hillsboro Elementary School - ADA signage package Scope Add",
+                "body": "Per our conversation this morning: ADA signage package can be added for $5,000. New total is $90,000.",
+                "revised_total": 90000,
+                "delta": 5000,
+                "scope_added": "ADA signage package"
+              }
+            ]
+          },
+          {
+            "sub_id": "10-pedernales_custom",
+            "company": "Pedernales Custom Homes & Renovations, Inc.",
+            "contact": "Wyatt Burnham",
+            "email": "wburnham@pedernalescustom.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 65000,
             "line_items": [
               {
                 "description": "Specialties - component 1",
@@ -1284,46 +1345,18 @@
               },
               {
                 "description": "Specialties - component 5",
-                "amount": 10000
+                "amount": 15000
+              },
+              {
+                "description": "Specialties - component 6",
+                "amount": 5000
               }
             ],
             "exclusions": [
               "ADA signage package - NOT IN CONTRACT",
-              "Extended warranty (by owner)"
+              "Extended warranty (by owner)",
+              "Specialty subcontractors and engineered systems (separate quote)"
             ],
-            "inclusions": [
-              "All labor, material, and permits per contract documents"
-            ],
-            "notes": "Bid per Hillsboro Elementary School drawings issued 03/15/2024.",
-            "post_bid_updates": []
-          },
-          {
-            "sub_id": "10-S3",
-            "company": "Volunteer Roofing",
-            "contact": "Linda Garza",
-            "email": "volunteerroofing@contractor.com",
-            "source": "Email",
-            "submitted_date": "2024-04-20",
-            "base_bid": 125000,
-            "line_items": [
-              {
-                "description": "Specialties - component 1",
-                "amount": 30000
-              },
-              {
-                "description": "Specialties - component 2",
-                "amount": 35000
-              },
-              {
-                "description": "Specialties - component 3",
-                "amount": 35000
-              },
-              {
-                "description": "Specialties - component 4",
-                "amount": 25000
-              }
-            ],
-            "exclusions": [],
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
@@ -1337,37 +1370,25 @@
         "csi_code": "21 00 00",
         "bids": [
           {
-            "sub_id": "21-S1",
-            "company": "Music City Electric",
-            "contact": "Kevin Walsh",
-            "email": "musiccityelectric@contractor.com",
+            "sub_id": "21-lone_star_healthcare",
+            "company": "Lone Star Healthcare Construction, LLC",
+            "contact": "Reagan Castillo",
+            "email": "rcastillo@lonestarhealthcare.com",
             "source": "PDF",
             "submitted_date": "2024-04-18",
             "base_bid": 195000,
             "line_items": [
               {
                 "description": "Fire Suppression (Sprinklers) - component 1",
-                "amount": 40000
+                "amount": 75000
               },
               {
                 "description": "Fire Suppression (Sprinklers) - component 2",
-                "amount": 30000
+                "amount": 70000
               },
               {
                 "description": "Fire Suppression (Sprinklers) - component 3",
-                "amount": 30000
-              },
-              {
-                "description": "Fire Suppression (Sprinklers) - component 4",
-                "amount": 30000
-              },
-              {
-                "description": "Fire Suppression (Sprinklers) - component 5",
-                "amount": 40000
-              },
-              {
-                "description": "Fire Suppression (Sprinklers) - component 6",
-                "amount": 25000
+                "amount": 50000
               }
             ],
             "exclusions": [],
@@ -1378,37 +1399,33 @@
             "post_bid_updates": []
           },
           {
-            "sub_id": "21-S2",
-            "company": "Cumberland Concrete",
-            "contact": "Beth Adams",
-            "email": "cumberlandconcrete@contractor.com",
+            "sub_id": "21-capitol_commercial",
+            "company": "Capitol Commercial Builders",
+            "contact": "Jordan Walsh",
+            "email": "jwalsh@capitolcommercial.com",
             "source": "Excel",
             "submitted_date": "2024-04-19",
-            "base_bid": 130000,
+            "base_bid": 190000,
             "line_items": [
               {
                 "description": "Fire Suppression (Sprinklers) - component 1",
-                "amount": 20000
+                "amount": 40000
               },
               {
                 "description": "Fire Suppression (Sprinklers) - component 2",
-                "amount": 20000
+                "amount": 35000
               },
               {
                 "description": "Fire Suppression (Sprinklers) - component 3",
-                "amount": 20000
+                "amount": 45000
               },
               {
                 "description": "Fire Suppression (Sprinklers) - component 4",
-                "amount": 20000
+                "amount": 35000
               },
               {
                 "description": "Fire Suppression (Sprinklers) - component 5",
-                "amount": 20000
-              },
-              {
-                "description": "Fire Suppression (Sprinklers) - component 6",
-                "amount": 30000
+                "amount": 35000
               }
             ],
             "exclusions": [
@@ -1422,40 +1439,40 @@
             "post_bid_updates": []
           },
           {
-            "sub_id": "21-S3",
-            "company": "Tennessee Mechanical",
-            "contact": "Rick Simmons",
-            "email": "tennesseemechanical@contractor.com",
+            "sub_id": "21-pedernales_custom",
+            "company": "Pedernales Custom Homes & Renovations, Inc.",
+            "contact": "Wyatt Burnham",
+            "email": "wburnham@pedernalescustom.com",
             "source": "Email",
             "submitted_date": "2024-04-20",
-            "base_bid": 245000,
+            "base_bid": 145000,
             "line_items": [
               {
                 "description": "Fire Suppression (Sprinklers) - component 1",
-                "amount": 40000
+                "amount": 30000
               },
               {
                 "description": "Fire Suppression (Sprinklers) - component 2",
-                "amount": 45000
+                "amount": 30000
               },
               {
                 "description": "Fire Suppression (Sprinklers) - component 3",
-                "amount": 45000
+                "amount": 30000
               },
               {
                 "description": "Fire Suppression (Sprinklers) - component 4",
-                "amount": 45000
+                "amount": 35000
               },
               {
                 "description": "Fire Suppression (Sprinklers) - component 5",
-                "amount": 45000
-              },
-              {
-                "description": "Fire Suppression (Sprinklers) - component 6",
-                "amount": 25000
+                "amount": 20000
               }
             ],
-            "exclusions": [],
+            "exclusions": [
+              "Kitchen hood fire suppression - NOT IN CONTRACT",
+              "Extended warranty (by owner)",
+              "Specialty subcontractors and engineered systems (separate quote)"
+            ],
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
@@ -1469,29 +1486,25 @@
         "csi_code": "22 00 00",
         "bids": [
           {
-            "sub_id": "22-S1",
-            "company": "Tennessee Mechanical",
-            "contact": "Carl Johnson",
-            "email": "tennesseemechanical@contractor.com",
+            "sub_id": "22-lone_star_healthcare",
+            "company": "Lone Star Healthcare Construction, LLC",
+            "contact": "Reagan Castillo",
+            "email": "rcastillo@lonestarhealthcare.com",
             "source": "PDF",
             "submitted_date": "2024-04-18",
             "base_bid": 365000,
             "line_items": [
               {
                 "description": "Plumbing - component 1",
-                "amount": 90000
-              },
-              {
-                "description": "Plumbing - component 2",
                 "amount": 110000
               },
               {
-                "description": "Plumbing - component 3",
-                "amount": 105000
+                "description": "Plumbing - component 2",
+                "amount": 120000
               },
               {
-                "description": "Plumbing - component 4",
-                "amount": 60000
+                "description": "Plumbing - component 3",
+                "amount": 135000
               }
             ],
             "exclusions": [],
@@ -1502,71 +1515,72 @@
             "post_bid_updates": []
           },
           {
-            "sub_id": "22-S2",
-            "company": "Volunteer Roofing",
-            "contact": "Pete Adams",
-            "email": "volunteerroofing@contractor.com",
+            "sub_id": "22-capitol_commercial",
+            "company": "Capitol Commercial Builders",
+            "contact": "Jordan Walsh",
+            "email": "jwalsh@capitolcommercial.com",
             "source": "Excel",
             "submitted_date": "2024-04-19",
+            "base_bid": 330000,
+            "line_items": [
+              {
+                "description": "Plumbing - component 1",
+                "amount": 70000
+              },
+              {
+                "description": "Plumbing - component 2",
+                "amount": 75000
+              },
+              {
+                "description": "Plumbing - component 3",
+                "amount": 90000
+              },
+              {
+                "description": "Plumbing - component 4",
+                "amount": 95000
+              }
+            ],
+            "exclusions": [
+              "Medical gas outlets and zone valves - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Hillsboro Elementary School drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "22-pedernales_custom",
+            "company": "Pedernales Custom Homes & Renovations, Inc.",
+            "contact": "Wyatt Burnham",
+            "email": "wburnham@pedernalescustom.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
             "base_bid": 260000,
             "line_items": [
               {
                 "description": "Plumbing - component 1",
-                "amount": 55000
+                "amount": 70000
               },
               {
                 "description": "Plumbing - component 2",
+                "amount": 75000
+              },
+              {
+                "description": "Plumbing - component 3",
                 "amount": 60000
               },
               {
-                "description": "Plumbing - component 3",
-                "amount": 50000
-              },
-              {
                 "description": "Plumbing - component 4",
-                "amount": 50000
-              },
-              {
-                "description": "Plumbing - component 5",
-                "amount": 45000
+                "amount": 55000
               }
             ],
             "exclusions": [
-              "Medical gas outlets and zone valves - NOT IN CONTRACT"
+              "Medical gas outlets and zone valves - NOT IN CONTRACT",
+              "Extended warranty (by owner)",
+              "Specialty subcontractors and engineered systems (separate quote)"
             ],
-            "inclusions": [
-              "All labor, material, and permits per contract documents"
-            ],
-            "notes": "Bid per Hillsboro Elementary School drawings issued 03/15/2024.",
-            "post_bid_updates": []
-          },
-          {
-            "sub_id": "22-S3",
-            "company": "Predators Steel",
-            "contact": "Sam Rivera",
-            "email": "predatorssteel@contractor.com",
-            "source": "Email",
-            "submitted_date": "2024-04-20",
-            "base_bid": 435000,
-            "line_items": [
-              {
-                "description": "Plumbing - component 1",
-                "amount": 130000
-              },
-              {
-                "description": "Plumbing - component 2",
-                "amount": 130000
-              },
-              {
-                "description": "Plumbing - component 3",
-                "amount": 125000
-              },
-              {
-                "description": "Plumbing - component 4",
-                "amount": 50000
-              }
-            ],
-            "exclusions": [],
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
@@ -1580,25 +1594,29 @@
         "csi_code": "23 00 00",
         "bids": [
           {
-            "sub_id": "23-S1",
-            "company": "Tennessee Mechanical",
-            "contact": "Bill Torres",
-            "email": "tennesseemechanical@contractor.com",
+            "sub_id": "23-lone_star_healthcare",
+            "company": "Lone Star Healthcare Construction, LLC",
+            "contact": "Reagan Castillo",
+            "email": "rcastillo@lonestarhealthcare.com",
             "source": "PDF",
             "submitted_date": "2024-04-18",
-            "base_bid": 465000,
+            "base_bid": 470000,
             "line_items": [
               {
                 "description": "Mechanical (HVAC) - component 1",
-                "amount": 175000
+                "amount": 105000
               },
               {
                 "description": "Mechanical (HVAC) - component 2",
-                "amount": 140000
+                "amount": 135000
               },
               {
                 "description": "Mechanical (HVAC) - component 3",
-                "amount": 150000
+                "amount": 115000
+              },
+              {
+                "description": "Mechanical (HVAC) - component 4",
+                "amount": 115000
               }
             ],
             "exclusions": [],
@@ -1609,33 +1627,38 @@
             "post_bid_updates": []
           },
           {
-            "sub_id": "23-S2",
-            "company": "Volunteer Roofing",
-            "contact": "Priya Nair",
-            "email": "volunteerroofing@contractor.com",
+            "sub_id": "23-capitol_commercial",
+            "company": "Capitol Commercial Builders",
+            "contact": "Jordan Walsh",
+            "email": "jwalsh@capitolcommercial.com",
             "source": "Excel",
             "submitted_date": "2024-04-19",
-            "base_bid": 315000,
+            "base_bid": 450000,
             "line_items": [
               {
                 "description": "Mechanical (HVAC) - component 1",
-                "amount": 65000
+                "amount": 100000
               },
               {
                 "description": "Mechanical (HVAC) - component 2",
-                "amount": 85000
+                "amount": 90000
               },
               {
                 "description": "Mechanical (HVAC) - component 3",
-                "amount": 70000
+                "amount": 75000
               },
               {
                 "description": "Mechanical (HVAC) - component 4",
-                "amount": 95000
+                "amount": 100000
+              },
+              {
+                "description": "Mechanical (HVAC) - component 5",
+                "amount": 85000
               }
             ],
             "exclusions": [
-              "Medical gas rough-in and kitchen hood exhaust - NOT IN CONTRACT"
+              "Medical gas rough-in and kitchen hood exhaust - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
             ],
             "inclusions": [
               "All labor, material, and permits per contract documents"
@@ -1644,32 +1667,44 @@
             "post_bid_updates": []
           },
           {
-            "sub_id": "23-S3",
-            "company": "Predators Steel",
-            "contact": "Rob Flores",
-            "email": "predatorssteel@contractor.com",
+            "sub_id": "23-pedernales_custom",
+            "company": "Pedernales Custom Homes & Renovations, Inc.",
+            "contact": "Wyatt Burnham",
+            "email": "wburnham@pedernalescustom.com",
             "source": "Email",
             "submitted_date": "2024-04-20",
-            "base_bid": 590000,
+            "base_bid": 350000,
             "line_items": [
               {
                 "description": "Mechanical (HVAC) - component 1",
-                "amount": 165000
+                "amount": 70000
               },
               {
                 "description": "Mechanical (HVAC) - component 2",
-                "amount": 130000
+                "amount": 65000
               },
               {
                 "description": "Mechanical (HVAC) - component 3",
-                "amount": 165000
+                "amount": 55000
               },
               {
                 "description": "Mechanical (HVAC) - component 4",
-                "amount": 130000
+                "amount": 65000
+              },
+              {
+                "description": "Mechanical (HVAC) - component 5",
+                "amount": 45000
+              },
+              {
+                "description": "Mechanical (HVAC) - component 6",
+                "amount": 50000
               }
             ],
-            "exclusions": [],
+            "exclusions": [
+              "Medical gas rough-in and kitchen hood exhaust - NOT IN CONTRACT",
+              "Extended warranty (by owner)",
+              "Specialty subcontractors and engineered systems (separate quote)"
+            ],
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
@@ -1683,29 +1718,33 @@
         "csi_code": "26 00 00",
         "bids": [
           {
-            "sub_id": "26-S1",
-            "company": "Midtown Interiors",
-            "contact": "Lisa Chang",
-            "email": "midtowninteriors@contractor.com",
+            "sub_id": "26-lone_star_healthcare",
+            "company": "Lone Star Healthcare Construction, LLC",
+            "contact": "Reagan Castillo",
+            "email": "rcastillo@lonestarhealthcare.com",
             "source": "PDF",
             "submitted_date": "2024-04-18",
-            "base_bid": 375000,
+            "base_bid": 360000,
             "line_items": [
               {
                 "description": "Electrical - component 1",
-                "amount": 95000
+                "amount": 75000
               },
               {
                 "description": "Electrical - component 2",
-                "amount": 105000
-              },
-              {
-                "description": "Electrical - component 3",
                 "amount": 80000
               },
               {
+                "description": "Electrical - component 3",
+                "amount": 85000
+              },
+              {
                 "description": "Electrical - component 4",
-                "amount": 95000
+                "amount": 60000
+              },
+              {
+                "description": "Electrical - component 5",
+                "amount": 60000
               }
             ],
             "exclusions": [],
@@ -1716,33 +1755,30 @@
             "post_bid_updates": []
           },
           {
-            "sub_id": "26-S2",
-            "company": "Music City Plumbing",
-            "contact": "James Brown",
-            "email": "musiccityplumbing@contractor.com",
+            "sub_id": "26-capitol_commercial",
+            "company": "Capitol Commercial Builders",
+            "contact": "Jordan Walsh",
+            "email": "jwalsh@capitolcommercial.com",
             "source": "Excel",
             "submitted_date": "2024-04-19",
-            "base_bid": 255000,
+            "base_bid": 325000,
             "line_items": [
               {
                 "description": "Electrical - component 1",
-                "amount": 50000
+                "amount": 115000
               },
               {
                 "description": "Electrical - component 2",
-                "amount": 70000
+                "amount": 130000
               },
               {
                 "description": "Electrical - component 3",
-                "amount": 55000
-              },
-              {
-                "description": "Electrical - component 4",
                 "amount": 80000
               }
             ],
             "exclusions": [
-              "Fire alarm system - NOT IN CONTRACT"
+              "Fire alarm system - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
             ],
             "inclusions": [
               "All labor, material, and permits per contract documents"
@@ -1751,13 +1787,13 @@
             "post_bid_updates": []
           },
           {
-            "sub_id": "26-S3",
-            "company": "Cumberland Framing",
-            "contact": "Maria Valdez",
-            "email": "cumberlandframing@contractor.com",
+            "sub_id": "26-pedernales_custom",
+            "company": "Pedernales Custom Homes & Renovations, Inc.",
+            "contact": "Wyatt Burnham",
+            "email": "wburnham@pedernalescustom.com",
             "source": "Email",
             "submitted_date": "2024-04-20",
-            "base_bid": 440000,
+            "base_bid": 265000,
             "line_items": [
               {
                 "description": "Electrical - component 1",
@@ -1765,22 +1801,22 @@
               },
               {
                 "description": "Electrical - component 2",
-                "amount": 80000
+                "amount": 70000
               },
               {
                 "description": "Electrical - component 3",
-                "amount": 75000
+                "amount": 65000
               },
               {
                 "description": "Electrical - component 4",
-                "amount": 85000
-              },
-              {
-                "description": "Electrical - component 5",
-                "amount": 130000
+                "amount": 60000
               }
             ],
-            "exclusions": [],
+            "exclusions": [
+              "Fire alarm system - NOT IN CONTRACT",
+              "Extended warranty (by owner)",
+              "Specialty subcontractors and engineered systems (separate quote)"
+            ],
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
@@ -1794,25 +1830,25 @@
         "csi_code": "27 00 00",
         "bids": [
           {
-            "sub_id": "27-S1",
-            "company": "Cumberland Concrete",
-            "contact": "Lisa Chang",
-            "email": "cumberlandconcrete@contractor.com",
+            "sub_id": "27-lone_star_healthcare",
+            "company": "Lone Star Healthcare Construction, LLC",
+            "contact": "Reagan Castillo",
+            "email": "rcastillo@lonestarhealthcare.com",
             "source": "PDF",
             "submitted_date": "2024-04-18",
-            "base_bid": 170000,
+            "base_bid": 175000,
             "line_items": [
               {
                 "description": "Communications (Data, AV, Tel) - component 1",
-                "amount": 55000
-              },
-              {
-                "description": "Communications (Data, AV, Tel) - component 2",
                 "amount": 50000
               },
               {
+                "description": "Communications (Data, AV, Tel) - component 2",
+                "amount": 70000
+              },
+              {
                 "description": "Communications (Data, AV, Tel) - component 3",
-                "amount": 65000
+                "amount": 55000
               }
             ],
             "exclusions": [],
@@ -1823,13 +1859,13 @@
             "post_bid_updates": []
           },
           {
-            "sub_id": "27-S2",
-            "company": "Tennessee Mechanical",
-            "contact": "James Brown",
-            "email": "tennesseemechanical@contractor.com",
+            "sub_id": "27-capitol_commercial",
+            "company": "Capitol Commercial Builders",
+            "contact": "Jordan Walsh",
+            "email": "jwalsh@capitolcommercial.com",
             "source": "Excel",
             "submitted_date": "2024-04-19",
-            "base_bid": 100000,
+            "base_bid": 155000,
             "line_items": [
               {
                 "description": "Communications (Data, AV, Tel) - component 1",
@@ -1841,19 +1877,24 @@
               },
               {
                 "description": "Communications (Data, AV, Tel) - component 3",
-                "amount": 15000
+                "amount": 25000
               },
               {
                 "description": "Communications (Data, AV, Tel) - component 4",
-                "amount": 20000
+                "amount": 25000
               },
               {
                 "description": "Communications (Data, AV, Tel) - component 5",
-                "amount": 20000
+                "amount": 25000
+              },
+              {
+                "description": "Communications (Data, AV, Tel) - component 6",
+                "amount": 35000
               }
             ],
             "exclusions": [
-              "AV rough-in for conference rooms - NOT IN CONTRACT"
+              "AV rough-in for conference rooms - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
             ],
             "inclusions": [
               "All labor, material, and permits per contract documents"
@@ -1862,40 +1903,44 @@
             "post_bid_updates": []
           },
           {
-            "sub_id": "27-S3",
-            "company": "Volunteer Roofing",
-            "contact": "Maria Valdez",
-            "email": "volunteerroofing@contractor.com",
+            "sub_id": "27-pedernales_custom",
+            "company": "Pedernales Custom Homes & Renovations, Inc.",
+            "contact": "Wyatt Burnham",
+            "email": "wburnham@pedernalescustom.com",
             "source": "Email",
             "submitted_date": "2024-04-20",
-            "base_bid": 230000,
+            "base_bid": 135000,
             "line_items": [
               {
                 "description": "Communications (Data, AV, Tel) - component 1",
-                "amount": 35000
+                "amount": 25000
               },
               {
                 "description": "Communications (Data, AV, Tel) - component 2",
-                "amount": 30000
+                "amount": 25000
               },
               {
                 "description": "Communications (Data, AV, Tel) - component 3",
-                "amount": 40000
+                "amount": 25000
               },
               {
                 "description": "Communications (Data, AV, Tel) - component 4",
-                "amount": 35000
+                "amount": 25000
               },
               {
                 "description": "Communications (Data, AV, Tel) - component 5",
-                "amount": 45000
+                "amount": 25000
               },
               {
                 "description": "Communications (Data, AV, Tel) - component 6",
-                "amount": 45000
+                "amount": 10000
               }
             ],
-            "exclusions": [],
+            "exclusions": [
+              "AV rough-in for conference rooms - NOT IN CONTRACT",
+              "Extended warranty (by owner)",
+              "Specialty subcontractors and engineered systems (separate quote)"
+            ],
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
@@ -1909,17 +1954,17 @@
         "csi_code": "28 00 00",
         "bids": [
           {
-            "sub_id": "28-S1",
-            "company": "Tennessee Mechanical",
-            "contact": "Sam Rivera",
-            "email": "tennesseemechanical@contractor.com",
+            "sub_id": "28-lone_star_healthcare",
+            "company": "Lone Star Healthcare Construction, LLC",
+            "contact": "Reagan Castillo",
+            "email": "rcastillo@lonestarhealthcare.com",
             "source": "PDF",
             "submitted_date": "2024-04-18",
-            "base_bid": 155000,
+            "base_bid": 160000,
             "line_items": [
               {
                 "description": "Electronic Safety & Security - component 1",
-                "amount": 30000
+                "amount": 25000
               },
               {
                 "description": "Electronic Safety & Security - component 2",
@@ -1931,7 +1976,7 @@
               },
               {
                 "description": "Electronic Safety & Security - component 4",
-                "amount": 30000
+                "amount": 40000
               },
               {
                 "description": "Electronic Safety & Security - component 5",
@@ -1946,25 +1991,25 @@
             "post_bid_updates": []
           },
           {
-            "sub_id": "28-S2",
-            "company": "Volunteer Roofing",
-            "contact": "Walt Burns",
-            "email": "volunteerroofing@contractor.com",
+            "sub_id": "28-capitol_commercial",
+            "company": "Capitol Commercial Builders",
+            "contact": "Jordan Walsh",
+            "email": "jwalsh@capitolcommercial.com",
             "source": "Excel",
             "submitted_date": "2024-04-19",
-            "base_bid": 95000,
+            "base_bid": 150000,
             "line_items": [
               {
                 "description": "Electronic Safety & Security - component 1",
-                "amount": 35000
+                "amount": 60000
               },
               {
                 "description": "Electronic Safety & Security - component 2",
-                "amount": 25000
+                "amount": 45000
               },
               {
                 "description": "Electronic Safety & Security - component 3",
-                "amount": 35000
+                "amount": 45000
               }
             ],
             "exclusions": [
@@ -1978,32 +2023,40 @@
             "post_bid_updates": []
           },
           {
-            "sub_id": "28-S3",
-            "company": "Predators Steel",
-            "contact": "Mike Torres",
-            "email": "predatorssteel@contractor.com",
+            "sub_id": "28-pedernales_custom",
+            "company": "Pedernales Custom Homes & Renovations, Inc.",
+            "contact": "Wyatt Burnham",
+            "email": "wburnham@pedernalescustom.com",
             "source": "Email",
             "submitted_date": "2024-04-20",
-            "base_bid": 205000,
+            "base_bid": 120000,
             "line_items": [
               {
                 "description": "Electronic Safety & Security - component 1",
-                "amount": 50000
+                "amount": 20000
               },
               {
                 "description": "Electronic Safety & Security - component 2",
-                "amount": 60000
+                "amount": 20000
               },
               {
                 "description": "Electronic Safety & Security - component 3",
-                "amount": 50000
+                "amount": 30000
               },
               {
                 "description": "Electronic Safety & Security - component 4",
-                "amount": 45000
+                "amount": 30000
+              },
+              {
+                "description": "Electronic Safety & Security - component 5",
+                "amount": 20000
               }
             ],
-            "exclusions": [],
+            "exclusions": [
+              "Exterior access control and parking - NOT IN CONTRACT",
+              "Extended warranty (by owner)",
+              "Specialty subcontractors and engineered systems (separate quote)"
+            ],
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
@@ -2017,33 +2070,29 @@
         "csi_code": "31 00 00",
         "bids": [
           {
-            "sub_id": "31-S1",
-            "company": "Volunteer Roofing",
-            "contact": "Lisa Chang",
-            "email": "volunteerroofing@contractor.com",
+            "sub_id": "31-lone_star_healthcare",
+            "company": "Lone Star Healthcare Construction, LLC",
+            "contact": "Reagan Castillo",
+            "email": "rcastillo@lonestarhealthcare.com",
             "source": "PDF",
             "submitted_date": "2024-04-18",
-            "base_bid": 215000,
+            "base_bid": 205000,
             "line_items": [
               {
                 "description": "Earthwork, Grading & Site Preparation - component 1",
-                "amount": 45000
+                "amount": 55000
               },
               {
                 "description": "Earthwork, Grading & Site Preparation - component 2",
-                "amount": 40000
+                "amount": 55000
               },
               {
                 "description": "Earthwork, Grading & Site Preparation - component 3",
-                "amount": 35000
+                "amount": 40000
               },
               {
                 "description": "Earthwork, Grading & Site Preparation - component 4",
-                "amount": 50000
-              },
-              {
-                "description": "Earthwork, Grading & Site Preparation - component 5",
-                "amount": 45000
+                "amount": 55000
               }
             ],
             "exclusions": [],
@@ -2054,78 +2103,72 @@
             "post_bid_updates": []
           },
           {
-            "sub_id": "31-S2",
-            "company": "Predators Steel",
-            "contact": "James Brown",
-            "email": "predatorssteel@contractor.com",
+            "sub_id": "31-capitol_commercial",
+            "company": "Capitol Commercial Builders",
+            "contact": "Jordan Walsh",
+            "email": "jwalsh@capitolcommercial.com",
             "source": "Excel",
             "submitted_date": "2024-04-19",
-            "base_bid": 130000,
+            "base_bid": 195000,
             "line_items": [
               {
                 "description": "Earthwork, Grading & Site Preparation - component 1",
-                "amount": 35000
+                "amount": 60000
               },
               {
                 "description": "Earthwork, Grading & Site Preparation - component 2",
-                "amount": 35000
+                "amount": 55000
               },
               {
                 "description": "Earthwork, Grading & Site Preparation - component 3",
-                "amount": 60000
+                "amount": 45000
+              },
+              {
+                "description": "Earthwork, Grading & Site Preparation - component 4",
+                "amount": 35000
               }
             ],
             "exclusions": [
-              "Rock excavation allowance - NOT IN CONTRACT"
+              "Rock excavation allowance - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
             ],
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
             "notes": "Bid per Hillsboro Elementary School drawings issued 03/15/2024.",
-            "post_bid_updates": [
-              {
-                "update_id": "31-U1",
-                "date": "2024-04-28",
-                "from": "James Brown <predatorssteel@contractor.com>",
-                "subject": "RE: Hillsboro Elementary School - Rock excavation allowance Add",
-                "body": "We can include Rock excavation allowance for an additional $10,000. Revised total would be $140,000.",
-                "revised_total": 140000,
-                "delta": 10000,
-                "scope_added": "Rock excavation allowance"
-              }
-            ]
+            "post_bid_updates": []
           },
           {
-            "sub_id": "31-S3",
-            "company": "Midtown Interiors",
-            "contact": "Maria Valdez",
-            "email": "midtowninteriors@contractor.com",
+            "sub_id": "31-pedernales_custom",
+            "company": "Pedernales Custom Homes & Renovations, Inc.",
+            "contact": "Wyatt Burnham",
+            "email": "wburnham@pedernalescustom.com",
             "source": "Email",
             "submitted_date": "2024-04-20",
-            "base_bid": 285000,
+            "base_bid": 160000,
             "line_items": [
               {
                 "description": "Earthwork, Grading & Site Preparation - component 1",
-                "amount": 65000
+                "amount": 40000
               },
               {
                 "description": "Earthwork, Grading & Site Preparation - component 2",
-                "amount": 60000
+                "amount": 45000
               },
               {
                 "description": "Earthwork, Grading & Site Preparation - component 3",
-                "amount": 60000
+                "amount": 35000
               },
               {
                 "description": "Earthwork, Grading & Site Preparation - component 4",
-                "amount": 60000
-              },
-              {
-                "description": "Earthwork, Grading & Site Preparation - component 5",
                 "amount": 40000
               }
             ],
-            "exclusions": [],
+            "exclusions": [
+              "Rock excavation allowance - NOT IN CONTRACT",
+              "Extended warranty (by owner)",
+              "Specialty subcontractors and engineered systems (separate quote)"
+            ],
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
@@ -2139,37 +2182,25 @@
         "csi_code": "32 00 00",
         "bids": [
           {
-            "sub_id": "32-S1",
-            "company": "Cumberland Concrete",
-            "contact": "Ed Turner",
-            "email": "cumberlandconcrete@contractor.com",
+            "sub_id": "32-lone_star_healthcare",
+            "company": "Lone Star Healthcare Construction, LLC",
+            "contact": "Reagan Castillo",
+            "email": "rcastillo@lonestarhealthcare.com",
             "source": "PDF",
             "submitted_date": "2024-04-18",
-            "base_bid": 320000,
+            "base_bid": 325000,
             "line_items": [
               {
                 "description": "Site Paving, Curbs & Landscaping - component 1",
-                "amount": 60000
+                "amount": 100000
               },
               {
                 "description": "Site Paving, Curbs & Landscaping - component 2",
-                "amount": 60000
+                "amount": 130000
               },
               {
                 "description": "Site Paving, Curbs & Landscaping - component 3",
-                "amount": 65000
-              },
-              {
-                "description": "Site Paving, Curbs & Landscaping - component 4",
-                "amount": 55000
-              },
-              {
-                "description": "Site Paving, Curbs & Landscaping - component 5",
-                "amount": 50000
-              },
-              {
-                "description": "Site Paving, Curbs & Landscaping - component 6",
-                "amount": 30000
+                "amount": 95000
               }
             ],
             "exclusions": [],
@@ -2180,48 +2211,13 @@
             "post_bid_updates": []
           },
           {
-            "sub_id": "32-S2",
-            "company": "Tennessee Mechanical",
-            "contact": "Carl Johnson",
-            "email": "tennesseemechanical@contractor.com",
+            "sub_id": "32-capitol_commercial",
+            "company": "Capitol Commercial Builders",
+            "contact": "Jordan Walsh",
+            "email": "jwalsh@capitolcommercial.com",
             "source": "Excel",
             "submitted_date": "2024-04-19",
-            "base_bid": 210000,
-            "line_items": [
-              {
-                "description": "Site Paving, Curbs & Landscaping - component 1",
-                "amount": 55000
-              },
-              {
-                "description": "Site Paving, Curbs & Landscaping - component 2",
-                "amount": 45000
-              },
-              {
-                "description": "Site Paving, Curbs & Landscaping - component 3",
-                "amount": 45000
-              },
-              {
-                "description": "Site Paving, Curbs & Landscaping - component 4",
-                "amount": 65000
-              }
-            ],
-            "exclusions": [
-              "Landscaping and irrigation - NOT IN CONTRACT"
-            ],
-            "inclusions": [
-              "All labor, material, and permits per contract documents"
-            ],
-            "notes": "Bid per Hillsboro Elementary School drawings issued 03/15/2024.",
-            "post_bid_updates": []
-          },
-          {
-            "sub_id": "32-S3",
-            "company": "Volunteer Roofing",
-            "contact": "Pete Adams",
-            "email": "volunteerroofing@contractor.com",
-            "source": "Email",
-            "submitted_date": "2024-04-20",
-            "base_bid": 420000,
+            "base_bid": 305000,
             "line_items": [
               {
                 "description": "Site Paving, Curbs & Landscaping - component 1",
@@ -2229,22 +2225,62 @@
               },
               {
                 "description": "Site Paving, Curbs & Landscaping - component 2",
-                "amount": 75000
+                "amount": 50000
               },
               {
                 "description": "Site Paving, Curbs & Landscaping - component 3",
-                "amount": 75000
+                "amount": 70000
               },
               {
                 "description": "Site Paving, Curbs & Landscaping - component 4",
-                "amount": 80000
+                "amount": 50000
               },
               {
                 "description": "Site Paving, Curbs & Landscaping - component 5",
-                "amount": 120000
+                "amount": 65000
               }
             ],
-            "exclusions": [],
+            "exclusions": [
+              "Landscaping and irrigation - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Hillsboro Elementary School drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "32-pedernales_custom",
+            "company": "Pedernales Custom Homes & Renovations, Inc.",
+            "contact": "Wyatt Burnham",
+            "email": "wburnham@pedernalescustom.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 235000,
+            "line_items": [
+              {
+                "description": "Site Paving, Curbs & Landscaping - component 1",
+                "amount": 60000
+              },
+              {
+                "description": "Site Paving, Curbs & Landscaping - component 2",
+                "amount": 45000
+              },
+              {
+                "description": "Site Paving, Curbs & Landscaping - component 3",
+                "amount": 55000
+              },
+              {
+                "description": "Site Paving, Curbs & Landscaping - component 4",
+                "amount": 75000
+              }
+            ],
+            "exclusions": [
+              "Landscaping and irrigation - NOT IN CONTRACT",
+              "Extended warranty (by owner)",
+              "Specialty subcontractors and engineered systems (separate quote)"
+            ],
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
@@ -2258,10 +2294,10 @@
         "csi_code": "33 00 00",
         "bids": [
           {
-            "sub_id": "33-S1",
-            "company": "Music City Electric",
-            "contact": "Rob Flores",
-            "email": "musiccityelectric@contractor.com",
+            "sub_id": "33-lone_star_healthcare",
+            "company": "Lone Star Healthcare Construction, LLC",
+            "contact": "Reagan Castillo",
+            "email": "rcastillo@lonestarhealthcare.com",
             "source": "PDF",
             "submitted_date": "2024-04-18",
             "base_bid": 210000,
@@ -2272,11 +2308,11 @@
               },
               {
                 "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 2",
-                "amount": 75000
+                "amount": 70000
               },
               {
                 "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 3",
-                "amount": 60000
+                "amount": 65000
               }
             ],
             "exclusions": [],
@@ -2287,25 +2323,25 @@
             "post_bid_updates": []
           },
           {
-            "sub_id": "33-S2",
-            "company": "Cumberland Concrete",
-            "contact": "Lisa Chang",
-            "email": "cumberlandconcrete@contractor.com",
+            "sub_id": "33-capitol_commercial",
+            "company": "Capitol Commercial Builders",
+            "contact": "Jordan Walsh",
+            "email": "jwalsh@capitolcommercial.com",
             "source": "Excel",
             "submitted_date": "2024-04-19",
-            "base_bid": 135000,
+            "base_bid": 195000,
             "line_items": [
               {
                 "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 1",
-                "amount": 40000
+                "amount": 65000
               },
               {
                 "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 2",
-                "amount": 50000
+                "amount": 60000
               },
               {
                 "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 3",
-                "amount": 45000
+                "amount": 70000
               }
             ],
             "exclusions": [
@@ -2316,39 +2352,54 @@
               "All labor, material, and permits per contract documents"
             ],
             "notes": "Bid per Hillsboro Elementary School drawings issued 03/15/2024.",
-            "post_bid_updates": []
+            "post_bid_updates": [
+              {
+                "update_id": "33-CAP-U1",
+                "date": "2024-04-28",
+                "from": "Jordan Walsh <jwalsh@capitolcommercial.com>",
+                "subject": "RE: Hillsboro Elementary School - Underground fire line Scope Add",
+                "body": "Per our conversation this morning: Underground fire line can be added for $15,000. New total is $210,000.",
+                "revised_total": 210000,
+                "delta": 15000,
+                "scope_added": "Underground fire line"
+              }
+            ]
           },
           {
-            "sub_id": "33-S3",
-            "company": "Tennessee Mechanical",
-            "contact": "James Brown",
-            "email": "tennesseemechanical@contractor.com",
+            "sub_id": "33-pedernales_custom",
+            "company": "Pedernales Custom Homes & Renovations, Inc.",
+            "contact": "Wyatt Burnham",
+            "email": "wburnham@pedernalescustom.com",
             "source": "Email",
             "submitted_date": "2024-04-20",
-            "base_bid": 270000,
+            "base_bid": 160000,
             "line_items": [
               {
                 "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 1",
-                "amount": 65000
+                "amount": 30000
               },
               {
                 "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 2",
-                "amount": 50000
+                "amount": 40000
               },
               {
                 "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 3",
-                "amount": 45000
+                "amount": 25000
               },
               {
                 "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 4",
-                "amount": 45000
+                "amount": 30000
               },
               {
                 "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 5",
-                "amount": 65000
+                "amount": 35000
               }
             ],
-            "exclusions": [],
+            "exclusions": [
+              "Underground fire line - NOT IN CONTRACT",
+              "Extended warranty (by owner)",
+              "Specialty subcontractors and engineered systems (separate quote)"
+            ],
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],

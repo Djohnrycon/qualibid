@@ -11,102 +11,2479 @@
       {
         "trade": "Demolition & Site Clearing",
         "csi_code": "02 40 00",
-        "bids": []
+        "bids": [
+          {
+            "sub_id": "02-lone_star_healthcare",
+            "company": "Lone Star Healthcare Construction, LLC",
+            "contact": "Reagan Castillo",
+            "email": "rcastillo@lonestarhealthcare.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 180000,
+            "line_items": [
+              {
+                "description": "Demolition & Site Clearing - component 1",
+                "amount": 50000
+              },
+              {
+                "description": "Demolition & Site Clearing - component 2",
+                "amount": 60000
+              },
+              {
+                "description": "Demolition & Site Clearing - component 3",
+                "amount": 70000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Hartsfield Distribution Hub drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "02-capitol_commercial",
+            "company": "Capitol Commercial Builders",
+            "contact": "Jordan Walsh",
+            "email": "jwalsh@capitolcommercial.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 165000,
+            "line_items": [
+              {
+                "description": "Demolition & Site Clearing - component 1",
+                "amount": 20000
+              },
+              {
+                "description": "Demolition & Site Clearing - component 2",
+                "amount": 30000
+              },
+              {
+                "description": "Demolition & Site Clearing - component 3",
+                "amount": 25000
+              },
+              {
+                "description": "Demolition & Site Clearing - component 4",
+                "amount": 25000
+              },
+              {
+                "description": "Demolition & Site Clearing - component 5",
+                "amount": 25000
+              },
+              {
+                "description": "Demolition & Site Clearing - component 6",
+                "amount": 40000
+              }
+            ],
+            "exclusions": [
+              "Hazardous material abatement - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Hartsfield Distribution Hub drawings issued 03/15/2024.",
+            "post_bid_updates": [
+              {
+                "update_id": "02-CAP-U1",
+                "date": "2024-04-28",
+                "from": "Jordan Walsh <jwalsh@capitolcommercial.com>",
+                "subject": "RE: Hartsfield Distribution Hub - Hazardous material abatement Clarification",
+                "body": "Following up on our call \u2014 we can pick up Hazardous material abatement for $10,000 additional. Revised total $175,000.",
+                "revised_total": 175000,
+                "delta": 10000,
+                "scope_added": "Hazardous material abatement"
+              }
+            ]
+          },
+          {
+            "sub_id": "02-pedernales_custom",
+            "company": "Pedernales Custom Homes & Renovations, Inc.",
+            "contact": "Wyatt Burnham",
+            "email": "wburnham@pedernalescustom.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 125000,
+            "line_items": [
+              {
+                "description": "Demolition & Site Clearing - component 1",
+                "amount": 25000
+              },
+              {
+                "description": "Demolition & Site Clearing - component 2",
+                "amount": 35000
+              },
+              {
+                "description": "Demolition & Site Clearing - component 3",
+                "amount": 30000
+              },
+              {
+                "description": "Demolition & Site Clearing - component 4",
+                "amount": 35000
+              }
+            ],
+            "exclusions": [
+              "Hazardous material abatement - NOT IN CONTRACT",
+              "Extended warranty (by owner)",
+              "Specialty subcontractors and engineered systems (separate quote)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Hartsfield Distribution Hub drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
       },
       {
         "trade": "Concrete",
         "csi_code": "03 00 00",
-        "bids": []
+        "bids": [
+          {
+            "sub_id": "03-lone_star_healthcare",
+            "company": "Lone Star Healthcare Construction, LLC",
+            "contact": "Reagan Castillo",
+            "email": "rcastillo@lonestarhealthcare.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 685000,
+            "line_items": [
+              {
+                "description": "Concrete - component 1",
+                "amount": 95000
+              },
+              {
+                "description": "Concrete - component 2",
+                "amount": 105000
+              },
+              {
+                "description": "Concrete - component 3",
+                "amount": 100000
+              },
+              {
+                "description": "Concrete - component 4",
+                "amount": 100000
+              },
+              {
+                "description": "Concrete - component 5",
+                "amount": 130000
+              },
+              {
+                "description": "Concrete - component 6",
+                "amount": 155000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Hartsfield Distribution Hub drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "03-capitol_commercial",
+            "company": "Capitol Commercial Builders",
+            "contact": "Jordan Walsh",
+            "email": "jwalsh@capitolcommercial.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 640000,
+            "line_items": [
+              {
+                "description": "Concrete - component 1",
+                "amount": 255000
+              },
+              {
+                "description": "Concrete - component 2",
+                "amount": 235000
+              },
+              {
+                "description": "Concrete - component 3",
+                "amount": 150000
+              }
+            ],
+            "exclusions": [
+              "Vapor barrier and underslab insulation - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Hartsfield Distribution Hub drawings issued 03/15/2024.",
+            "post_bid_updates": [
+              {
+                "update_id": "03-CAP-U1",
+                "date": "2024-04-28",
+                "from": "Jordan Walsh <jwalsh@capitolcommercial.com>",
+                "subject": "RE: Hartsfield Distribution Hub - Vapor barrier and underslab insulation Scope Add",
+                "body": "Per our conversation this morning: Vapor barrier and underslab insulation can be added for $45,000. New total is $685,000.",
+                "revised_total": 685000,
+                "delta": 45000,
+                "scope_added": "Vapor barrier and underslab insulation"
+              }
+            ]
+          },
+          {
+            "sub_id": "03-pedernales_custom",
+            "company": "Pedernales Custom Homes & Renovations, Inc.",
+            "contact": "Wyatt Burnham",
+            "email": "wburnham@pedernalescustom.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 510000,
+            "line_items": [
+              {
+                "description": "Concrete - component 1",
+                "amount": 80000
+              },
+              {
+                "description": "Concrete - component 2",
+                "amount": 85000
+              },
+              {
+                "description": "Concrete - component 3",
+                "amount": 80000
+              },
+              {
+                "description": "Concrete - component 4",
+                "amount": 75000
+              },
+              {
+                "description": "Concrete - component 5",
+                "amount": 70000
+              },
+              {
+                "description": "Concrete - component 6",
+                "amount": 120000
+              }
+            ],
+            "exclusions": [
+              "Vapor barrier and underslab insulation - NOT IN CONTRACT",
+              "Extended warranty (by owner)",
+              "Specialty subcontractors and engineered systems (separate quote)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Hartsfield Distribution Hub drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
       },
       {
         "trade": "Masonry",
         "csi_code": "04 00 00",
-        "bids": []
+        "bids": [
+          {
+            "sub_id": "04-lone_star_healthcare",
+            "company": "Lone Star Healthcare Construction, LLC",
+            "contact": "Reagan Castillo",
+            "email": "rcastillo@lonestarhealthcare.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 250000,
+            "line_items": [
+              {
+                "description": "Masonry - component 1",
+                "amount": 40000
+              },
+              {
+                "description": "Masonry - component 2",
+                "amount": 60000
+              },
+              {
+                "description": "Masonry - component 3",
+                "amount": 50000
+              },
+              {
+                "description": "Masonry - component 4",
+                "amount": 55000
+              },
+              {
+                "description": "Masonry - component 5",
+                "amount": 45000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Hartsfield Distribution Hub drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "04-capitol_commercial",
+            "company": "Capitol Commercial Builders",
+            "contact": "Jordan Walsh",
+            "email": "jwalsh@capitolcommercial.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 245000,
+            "line_items": [
+              {
+                "description": "Masonry - component 1",
+                "amount": 50000
+              },
+              {
+                "description": "Masonry - component 2",
+                "amount": 65000
+              },
+              {
+                "description": "Masonry - component 3",
+                "amount": 55000
+              },
+              {
+                "description": "Masonry - component 4",
+                "amount": 75000
+              }
+            ],
+            "exclusions": [
+              "CMU backup wall - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Hartsfield Distribution Hub drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "04-pedernales_custom",
+            "company": "Pedernales Custom Homes & Renovations, Inc.",
+            "contact": "Wyatt Burnham",
+            "email": "wburnham@pedernalescustom.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 195000,
+            "line_items": [
+              {
+                "description": "Masonry - component 1",
+                "amount": 70000
+              },
+              {
+                "description": "Masonry - component 2",
+                "amount": 75000
+              },
+              {
+                "description": "Masonry - component 3",
+                "amount": 50000
+              }
+            ],
+            "exclusions": [
+              "CMU backup wall - NOT IN CONTRACT",
+              "Extended warranty (by owner)",
+              "Specialty subcontractors and engineered systems (separate quote)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Hartsfield Distribution Hub drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
       },
       {
         "trade": "Structural Steel & Misc Metals",
         "csi_code": "05 00 00",
-        "bids": []
+        "bids": [
+          {
+            "sub_id": "05-lone_star_healthcare",
+            "company": "Lone Star Healthcare Construction, LLC",
+            "contact": "Reagan Castillo",
+            "email": "rcastillo@lonestarhealthcare.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 1525000,
+            "line_items": [
+              {
+                "description": "Structural Steel & Misc Metals - component 1",
+                "amount": 240000
+              },
+              {
+                "description": "Structural Steel & Misc Metals - component 2",
+                "amount": 290000
+              },
+              {
+                "description": "Structural Steel & Misc Metals - component 3",
+                "amount": 290000
+              },
+              {
+                "description": "Structural Steel & Misc Metals - component 4",
+                "amount": 220000
+              },
+              {
+                "description": "Structural Steel & Misc Metals - component 5",
+                "amount": 265000
+              },
+              {
+                "description": "Structural Steel & Misc Metals - component 6",
+                "amount": 220000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Hartsfield Distribution Hub drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "05-capitol_commercial",
+            "company": "Capitol Commercial Builders",
+            "contact": "Jordan Walsh",
+            "email": "jwalsh@capitolcommercial.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 1390000,
+            "line_items": [
+              {
+                "description": "Structural Steel & Misc Metals - component 1",
+                "amount": 325000
+              },
+              {
+                "description": "Structural Steel & Misc Metals - component 2",
+                "amount": 225000
+              },
+              {
+                "description": "Structural Steel & Misc Metals - component 3",
+                "amount": 300000
+              },
+              {
+                "description": "Structural Steel & Misc Metals - component 4",
+                "amount": 330000
+              },
+              {
+                "description": "Structural Steel & Misc Metals - component 5",
+                "amount": 210000
+              }
+            ],
+            "exclusions": [
+              "Miscellaneous metals and embeds - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Hartsfield Distribution Hub drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "05-pedernales_custom",
+            "company": "Pedernales Custom Homes & Renovations, Inc.",
+            "contact": "Wyatt Burnham",
+            "email": "wburnham@pedernalescustom.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 1110000,
+            "line_items": [
+              {
+                "description": "Structural Steel & Misc Metals - component 1",
+                "amount": 315000
+              },
+              {
+                "description": "Structural Steel & Misc Metals - component 2",
+                "amount": 310000
+              },
+              {
+                "description": "Structural Steel & Misc Metals - component 3",
+                "amount": 330000
+              },
+              {
+                "description": "Structural Steel & Misc Metals - component 4",
+                "amount": 155000
+              }
+            ],
+            "exclusions": [
+              "Miscellaneous metals and embeds - NOT IN CONTRACT",
+              "Extended warranty (by owner)",
+              "Specialty subcontractors and engineered systems (separate quote)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Hartsfield Distribution Hub drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
       },
       {
         "trade": "Roofing, Waterproofing & Insulation",
         "csi_code": "07 00 00",
-        "bids": []
+        "bids": [
+          {
+            "sub_id": "07-lone_star_healthcare",
+            "company": "Lone Star Healthcare Construction, LLC",
+            "contact": "Reagan Castillo",
+            "email": "rcastillo@lonestarhealthcare.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 595000,
+            "line_items": [
+              {
+                "description": "Roofing, Waterproofing & Insulation - component 1",
+                "amount": 165000
+              },
+              {
+                "description": "Roofing, Waterproofing & Insulation - component 2",
+                "amount": 175000
+              },
+              {
+                "description": "Roofing, Waterproofing & Insulation - component 3",
+                "amount": 255000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Hartsfield Distribution Hub drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "07-capitol_commercial",
+            "company": "Capitol Commercial Builders",
+            "contact": "Jordan Walsh",
+            "email": "jwalsh@capitolcommercial.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 550000,
+            "line_items": [
+              {
+                "description": "Roofing, Waterproofing & Insulation - component 1",
+                "amount": 75000
+              },
+              {
+                "description": "Roofing, Waterproofing & Insulation - component 2",
+                "amount": 105000
+              },
+              {
+                "description": "Roofing, Waterproofing & Insulation - component 3",
+                "amount": 80000
+              },
+              {
+                "description": "Roofing, Waterproofing & Insulation - component 4",
+                "amount": 80000
+              },
+              {
+                "description": "Roofing, Waterproofing & Insulation - component 5",
+                "amount": 100000
+              },
+              {
+                "description": "Roofing, Waterproofing & Insulation - component 6",
+                "amount": 110000
+              }
+            ],
+            "exclusions": [
+              "Below-slab waterproofing - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Hartsfield Distribution Hub drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "07-pedernales_custom",
+            "company": "Pedernales Custom Homes & Renovations, Inc.",
+            "contact": "Wyatt Burnham",
+            "email": "wburnham@pedernalescustom.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 470000,
+            "line_items": [
+              {
+                "description": "Roofing, Waterproofing & Insulation - component 1",
+                "amount": 75000
+              },
+              {
+                "description": "Roofing, Waterproofing & Insulation - component 2",
+                "amount": 80000
+              },
+              {
+                "description": "Roofing, Waterproofing & Insulation - component 3",
+                "amount": 100000
+              },
+              {
+                "description": "Roofing, Waterproofing & Insulation - component 4",
+                "amount": 80000
+              },
+              {
+                "description": "Roofing, Waterproofing & Insulation - component 5",
+                "amount": 135000
+              }
+            ],
+            "exclusions": [
+              "Below-slab waterproofing - NOT IN CONTRACT",
+              "Extended warranty (by owner)",
+              "Specialty subcontractors and engineered systems (separate quote)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Hartsfield Distribution Hub drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
       },
       {
         "trade": "Doors, Frames, Hardware & Glazing",
         "csi_code": "08 00 00",
-        "bids": []
+        "bids": [
+          {
+            "sub_id": "08-lone_star_healthcare",
+            "company": "Lone Star Healthcare Construction, LLC",
+            "contact": "Reagan Castillo",
+            "email": "rcastillo@lonestarhealthcare.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 365000,
+            "line_items": [
+              {
+                "description": "Doors, Frames, Hardware & Glazing - component 1",
+                "amount": 85000
+              },
+              {
+                "description": "Doors, Frames, Hardware & Glazing - component 2",
+                "amount": 70000
+              },
+              {
+                "description": "Doors, Frames, Hardware & Glazing - component 3",
+                "amount": 85000
+              },
+              {
+                "description": "Doors, Frames, Hardware & Glazing - component 4",
+                "amount": 70000
+              },
+              {
+                "description": "Doors, Frames, Hardware & Glazing - component 5",
+                "amount": 55000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Hartsfield Distribution Hub drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "08-capitol_commercial",
+            "company": "Capitol Commercial Builders",
+            "contact": "Jordan Walsh",
+            "email": "jwalsh@capitolcommercial.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 330000,
+            "line_items": [
+              {
+                "description": "Doors, Frames, Hardware & Glazing - component 1",
+                "amount": 55000
+              },
+              {
+                "description": "Doors, Frames, Hardware & Glazing - component 2",
+                "amount": 55000
+              },
+              {
+                "description": "Doors, Frames, Hardware & Glazing - component 3",
+                "amount": 80000
+              },
+              {
+                "description": "Doors, Frames, Hardware & Glazing - component 4",
+                "amount": 75000
+              },
+              {
+                "description": "Doors, Frames, Hardware & Glazing - component 5",
+                "amount": 65000
+              }
+            ],
+            "exclusions": [
+              "Storefront glazing system - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Hartsfield Distribution Hub drawings issued 03/15/2024.",
+            "post_bid_updates": [
+              {
+                "update_id": "08-CAP-U1",
+                "date": "2024-04-28",
+                "from": "Jordan Walsh <jwalsh@capitolcommercial.com>",
+                "subject": "RE: Hartsfield Distribution Hub - Storefront glazing system Clarification",
+                "body": "Following up on our call \u2014 we can pick up Storefront glazing system for $25,000 additional. Revised total $355,000.",
+                "revised_total": 355000,
+                "delta": 25000,
+                "scope_added": "Storefront glazing system"
+              }
+            ]
+          },
+          {
+            "sub_id": "08-pedernales_custom",
+            "company": "Pedernales Custom Homes & Renovations, Inc.",
+            "contact": "Wyatt Burnham",
+            "email": "wburnham@pedernalescustom.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 285000,
+            "line_items": [
+              {
+                "description": "Doors, Frames, Hardware & Glazing - component 1",
+                "amount": 50000
+              },
+              {
+                "description": "Doors, Frames, Hardware & Glazing - component 2",
+                "amount": 70000
+              },
+              {
+                "description": "Doors, Frames, Hardware & Glazing - component 3",
+                "amount": 60000
+              },
+              {
+                "description": "Doors, Frames, Hardware & Glazing - component 4",
+                "amount": 65000
+              },
+              {
+                "description": "Doors, Frames, Hardware & Glazing - component 5",
+                "amount": 40000
+              }
+            ],
+            "exclusions": [
+              "Storefront glazing system - NOT IN CONTRACT",
+              "Extended warranty (by owner)",
+              "Specialty subcontractors and engineered systems (separate quote)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Hartsfield Distribution Hub drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
       },
       {
         "trade": "Drywall & Framing",
         "csi_code": "09 20 00",
-        "bids": []
+        "bids": [
+          {
+            "sub_id": "09-lone_star_healthcare",
+            "company": "Lone Star Healthcare Construction, LLC",
+            "contact": "Reagan Castillo",
+            "email": "rcastillo@lonestarhealthcare.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 145000,
+            "line_items": [
+              {
+                "description": "Drywall & Framing - component 1",
+                "amount": 35000
+              },
+              {
+                "description": "Drywall & Framing - component 2",
+                "amount": 40000
+              },
+              {
+                "description": "Drywall & Framing - component 3",
+                "amount": 35000
+              },
+              {
+                "description": "Drywall & Framing - component 4",
+                "amount": 35000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Hartsfield Distribution Hub drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "09-capitol_commercial",
+            "company": "Capitol Commercial Builders",
+            "contact": "Jordan Walsh",
+            "email": "jwalsh@capitolcommercial.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 130000,
+            "line_items": [
+              {
+                "description": "Drywall & Framing - component 1",
+                "amount": 50000
+              },
+              {
+                "description": "Drywall & Framing - component 2",
+                "amount": 50000
+              },
+              {
+                "description": "Drywall & Framing - component 3",
+                "amount": 30000
+              }
+            ],
+            "exclusions": [
+              "Shaft wall assemblies - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Hartsfield Distribution Hub drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "09-pedernales_custom",
+            "company": "Pedernales Custom Homes & Renovations, Inc.",
+            "contact": "Wyatt Burnham",
+            "email": "wburnham@pedernalescustom.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 110000,
+            "line_items": [
+              {
+                "description": "Drywall & Framing - component 1",
+                "amount": 30000
+              },
+              {
+                "description": "Drywall & Framing - component 2",
+                "amount": 35000
+              },
+              {
+                "description": "Drywall & Framing - component 3",
+                "amount": 45000
+              }
+            ],
+            "exclusions": [
+              "Shaft wall assemblies - NOT IN CONTRACT",
+              "Extended warranty (by owner)",
+              "Specialty subcontractors and engineered systems (separate quote)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Hartsfield Distribution Hub drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
       },
       {
         "trade": "Flooring",
         "csi_code": "09 60 00",
-        "bids": []
+        "bids": [
+          {
+            "sub_id": "09-lone_star_healthcare",
+            "company": "Lone Star Healthcare Construction, LLC",
+            "contact": "Reagan Castillo",
+            "email": "rcastillo@lonestarhealthcare.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 265000,
+            "line_items": [
+              {
+                "description": "Flooring - component 1",
+                "amount": 105000
+              },
+              {
+                "description": "Flooring - component 2",
+                "amount": 75000
+              },
+              {
+                "description": "Flooring - component 3",
+                "amount": 85000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Hartsfield Distribution Hub drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "09-capitol_commercial",
+            "company": "Capitol Commercial Builders",
+            "contact": "Jordan Walsh",
+            "email": "jwalsh@capitolcommercial.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 245000,
+            "line_items": [
+              {
+                "description": "Flooring - component 1",
+                "amount": 55000
+              },
+              {
+                "description": "Flooring - component 2",
+                "amount": 55000
+              },
+              {
+                "description": "Flooring - component 3",
+                "amount": 65000
+              },
+              {
+                "description": "Flooring - component 4",
+                "amount": 70000
+              }
+            ],
+            "exclusions": [
+              "Specialty sheet vinyl in procedure rooms - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Hartsfield Distribution Hub drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "09-pedernales_custom",
+            "company": "Pedernales Custom Homes & Renovations, Inc.",
+            "contact": "Wyatt Burnham",
+            "email": "wburnham@pedernalescustom.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 200000,
+            "line_items": [
+              {
+                "description": "Flooring - component 1",
+                "amount": 40000
+              },
+              {
+                "description": "Flooring - component 2",
+                "amount": 35000
+              },
+              {
+                "description": "Flooring - component 3",
+                "amount": 35000
+              },
+              {
+                "description": "Flooring - component 4",
+                "amount": 35000
+              },
+              {
+                "description": "Flooring - component 5",
+                "amount": 55000
+              }
+            ],
+            "exclusions": [
+              "Specialty sheet vinyl in procedure rooms - NOT IN CONTRACT",
+              "Extended warranty (by owner)",
+              "Specialty subcontractors and engineered systems (separate quote)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Hartsfield Distribution Hub drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
       },
       {
         "trade": "Painting & Wall Coverings",
         "csi_code": "09 90 00",
-        "bids": []
+        "bids": [
+          {
+            "sub_id": "09-lone_star_healthcare",
+            "company": "Lone Star Healthcare Construction, LLC",
+            "contact": "Reagan Castillo",
+            "email": "rcastillo@lonestarhealthcare.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 80000,
+            "line_items": [
+              {
+                "description": "Painting & Wall Coverings - component 1",
+                "amount": 20000
+              },
+              {
+                "description": "Painting & Wall Coverings - component 2",
+                "amount": 25000
+              },
+              {
+                "description": "Painting & Wall Coverings - component 3",
+                "amount": 35000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Hartsfield Distribution Hub drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "09-capitol_commercial",
+            "company": "Capitol Commercial Builders",
+            "contact": "Jordan Walsh",
+            "email": "jwalsh@capitolcommercial.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 75000,
+            "line_items": [
+              {
+                "description": "Painting & Wall Coverings - component 1",
+                "amount": 10000
+              },
+              {
+                "description": "Painting & Wall Coverings - component 2",
+                "amount": 10000
+              },
+              {
+                "description": "Painting & Wall Coverings - component 3",
+                "amount": 15000
+              },
+              {
+                "description": "Painting & Wall Coverings - component 4",
+                "amount": 10000
+              },
+              {
+                "description": "Painting & Wall Coverings - component 5",
+                "amount": 10000
+              },
+              {
+                "description": "Painting & Wall Coverings - component 6",
+                "amount": 20000
+              }
+            ],
+            "exclusions": [
+              "Exterior painting - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Hartsfield Distribution Hub drawings issued 03/15/2024.",
+            "post_bid_updates": [
+              {
+                "update_id": "09-CAP-U1",
+                "date": "2024-04-28",
+                "from": "Jordan Walsh <jwalsh@capitolcommercial.com>",
+                "subject": "RE: Hartsfield Distribution Hub - Exterior painting Add",
+                "body": "We can include Exterior painting for an additional $5,000. Revised total would be $80,000.",
+                "revised_total": 80000,
+                "delta": 5000,
+                "scope_added": "Exterior painting"
+              }
+            ]
+          },
+          {
+            "sub_id": "09-pedernales_custom",
+            "company": "Pedernales Custom Homes & Renovations, Inc.",
+            "contact": "Wyatt Burnham",
+            "email": "wburnham@pedernalescustom.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 65000,
+            "line_items": [
+              {
+                "description": "Painting & Wall Coverings - component 1",
+                "amount": 15000
+              },
+              {
+                "description": "Painting & Wall Coverings - component 2",
+                "amount": 15000
+              },
+              {
+                "description": "Painting & Wall Coverings - component 3",
+                "amount": 20000
+              },
+              {
+                "description": "Painting & Wall Coverings - component 4",
+                "amount": 15000
+              }
+            ],
+            "exclusions": [
+              "Exterior painting - NOT IN CONTRACT",
+              "Extended warranty (by owner)",
+              "Specialty subcontractors and engineered systems (separate quote)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Hartsfield Distribution Hub drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
       },
       {
         "trade": "Acoustical Ceilings (ACT)",
         "csi_code": "09 51 00",
-        "bids": []
+        "bids": [
+          {
+            "sub_id": "09-lone_star_healthcare",
+            "company": "Lone Star Healthcare Construction, LLC",
+            "contact": "Reagan Castillo",
+            "email": "rcastillo@lonestarhealthcare.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 70000,
+            "line_items": [
+              {
+                "description": "Acoustical Ceilings (ACT) - component 1",
+                "amount": 20000
+              },
+              {
+                "description": "Acoustical Ceilings (ACT) - component 2",
+                "amount": 20000
+              },
+              {
+                "description": "Acoustical Ceilings (ACT) - component 3",
+                "amount": 30000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Hartsfield Distribution Hub drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "09-capitol_commercial",
+            "company": "Capitol Commercial Builders",
+            "contact": "Jordan Walsh",
+            "email": "jwalsh@capitolcommercial.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 65000,
+            "line_items": [
+              {
+                "description": "Acoustical Ceilings (ACT) - component 1",
+                "amount": 20000
+              },
+              {
+                "description": "Acoustical Ceilings (ACT) - component 2",
+                "amount": 25000
+              },
+              {
+                "description": "Acoustical Ceilings (ACT) - component 3",
+                "amount": 20000
+              }
+            ],
+            "exclusions": [
+              "Gypsum board soffits and clouds - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Hartsfield Distribution Hub drawings issued 03/15/2024.",
+            "post_bid_updates": [
+              {
+                "update_id": "09-CAP-U1",
+                "date": "2024-04-28",
+                "from": "Jordan Walsh <jwalsh@capitolcommercial.com>",
+                "subject": "RE: Hartsfield Distribution Hub - Gypsum board soffits and clouds Scope Add",
+                "body": "Per our conversation this morning: Gypsum board soffits and clouds can be added for $5,000. New total is $70,000.",
+                "revised_total": 70000,
+                "delta": 5000,
+                "scope_added": "Gypsum board soffits and clouds"
+              }
+            ]
+          },
+          {
+            "sub_id": "09-pedernales_custom",
+            "company": "Pedernales Custom Homes & Renovations, Inc.",
+            "contact": "Wyatt Burnham",
+            "email": "wburnham@pedernalescustom.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 55000,
+            "line_items": [
+              {
+                "description": "Acoustical Ceilings (ACT) - component 1",
+                "amount": 10000
+              },
+              {
+                "description": "Acoustical Ceilings (ACT) - component 2",
+                "amount": 10000
+              },
+              {
+                "description": "Acoustical Ceilings (ACT) - component 3",
+                "amount": 10000
+              },
+              {
+                "description": "Acoustical Ceilings (ACT) - component 4",
+                "amount": 10000
+              },
+              {
+                "description": "Acoustical Ceilings (ACT) - component 5",
+                "amount": 10000
+              },
+              {
+                "description": "Acoustical Ceilings (ACT) - component 6",
+                "amount": 5000
+              }
+            ],
+            "exclusions": [
+              "Gypsum board soffits and clouds - NOT IN CONTRACT",
+              "Extended warranty (by owner)",
+              "Specialty subcontractors and engineered systems (separate quote)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Hartsfield Distribution Hub drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
       },
       {
         "trade": "Specialties",
         "csi_code": "10 00 00",
-        "bids": []
+        "bids": [
+          {
+            "sub_id": "10-lone_star_healthcare",
+            "company": "Lone Star Healthcare Construction, LLC",
+            "contact": "Reagan Castillo",
+            "email": "rcastillo@lonestarhealthcare.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 75000,
+            "line_items": [
+              {
+                "description": "Specialties - component 1",
+                "amount": 20000
+              },
+              {
+                "description": "Specialties - component 2",
+                "amount": 20000
+              },
+              {
+                "description": "Specialties - component 3",
+                "amount": 20000
+              },
+              {
+                "description": "Specialties - component 4",
+                "amount": 15000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Hartsfield Distribution Hub drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "10-capitol_commercial",
+            "company": "Capitol Commercial Builders",
+            "contact": "Jordan Walsh",
+            "email": "jwalsh@capitolcommercial.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 75000,
+            "line_items": [
+              {
+                "description": "Specialties - component 1",
+                "amount": 15000
+              },
+              {
+                "description": "Specialties - component 2",
+                "amount": 15000
+              },
+              {
+                "description": "Specialties - component 3",
+                "amount": 15000
+              },
+              {
+                "description": "Specialties - component 4",
+                "amount": 15000
+              },
+              {
+                "description": "Specialties - component 5",
+                "amount": 15000
+              }
+            ],
+            "exclusions": [
+              "ADA signage package - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Hartsfield Distribution Hub drawings issued 03/15/2024.",
+            "post_bid_updates": [
+              {
+                "update_id": "10-CAP-U1",
+                "date": "2024-04-28",
+                "from": "Jordan Walsh <jwalsh@capitolcommercial.com>",
+                "subject": "RE: Hartsfield Distribution Hub - ADA signage package Scope Add",
+                "body": "Per our conversation this morning: ADA signage package can be added for $5,000. New total is $80,000.",
+                "revised_total": 80000,
+                "delta": 5000,
+                "scope_added": "ADA signage package"
+              }
+            ]
+          },
+          {
+            "sub_id": "10-pedernales_custom",
+            "company": "Pedernales Custom Homes & Renovations, Inc.",
+            "contact": "Wyatt Burnham",
+            "email": "wburnham@pedernalescustom.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 60000,
+            "line_items": [
+              {
+                "description": "Specialties - component 1",
+                "amount": 20000
+              },
+              {
+                "description": "Specialties - component 2",
+                "amount": 20000
+              },
+              {
+                "description": "Specialties - component 3",
+                "amount": 20000
+              }
+            ],
+            "exclusions": [
+              "ADA signage package - NOT IN CONTRACT",
+              "Extended warranty (by owner)",
+              "Specialty subcontractors and engineered systems (separate quote)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Hartsfield Distribution Hub drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
       },
       {
         "trade": "Fire Suppression (Sprinklers)",
         "csi_code": "21 00 00",
-        "bids": []
+        "bids": [
+          {
+            "sub_id": "21-lone_star_healthcare",
+            "company": "Lone Star Healthcare Construction, LLC",
+            "contact": "Reagan Castillo",
+            "email": "rcastillo@lonestarhealthcare.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 390000,
+            "line_items": [
+              {
+                "description": "Fire Suppression (Sprinklers) - component 1",
+                "amount": 55000
+              },
+              {
+                "description": "Fire Suppression (Sprinklers) - component 2",
+                "amount": 55000
+              },
+              {
+                "description": "Fire Suppression (Sprinklers) - component 3",
+                "amount": 55000
+              },
+              {
+                "description": "Fire Suppression (Sprinklers) - component 4",
+                "amount": 60000
+              },
+              {
+                "description": "Fire Suppression (Sprinklers) - component 5",
+                "amount": 55000
+              },
+              {
+                "description": "Fire Suppression (Sprinklers) - component 6",
+                "amount": 110000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Hartsfield Distribution Hub drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "21-capitol_commercial",
+            "company": "Capitol Commercial Builders",
+            "contact": "Jordan Walsh",
+            "email": "jwalsh@capitolcommercial.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 365000,
+            "line_items": [
+              {
+                "description": "Fire Suppression (Sprinklers) - component 1",
+                "amount": 60000
+              },
+              {
+                "description": "Fire Suppression (Sprinklers) - component 2",
+                "amount": 70000
+              },
+              {
+                "description": "Fire Suppression (Sprinklers) - component 3",
+                "amount": 55000
+              },
+              {
+                "description": "Fire Suppression (Sprinklers) - component 4",
+                "amount": 65000
+              },
+              {
+                "description": "Fire Suppression (Sprinklers) - component 5",
+                "amount": 60000
+              },
+              {
+                "description": "Fire Suppression (Sprinklers) - component 6",
+                "amount": 55000
+              }
+            ],
+            "exclusions": [
+              "Kitchen hood fire suppression - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Hartsfield Distribution Hub drawings issued 03/15/2024.",
+            "post_bid_updates": [
+              {
+                "update_id": "21-CAP-U1",
+                "date": "2024-04-28",
+                "from": "Jordan Walsh <jwalsh@capitolcommercial.com>",
+                "subject": "RE: Hartsfield Distribution Hub - Kitchen hood fire suppression Clarification",
+                "body": "Following up on our call \u2014 we can pick up Kitchen hood fire suppression for $25,000 additional. Revised total $390,000.",
+                "revised_total": 390000,
+                "delta": 25000,
+                "scope_added": "Kitchen hood fire suppression"
+              }
+            ]
+          },
+          {
+            "sub_id": "21-pedernales_custom",
+            "company": "Pedernales Custom Homes & Renovations, Inc.",
+            "contact": "Wyatt Burnham",
+            "email": "wburnham@pedernalescustom.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 285000,
+            "line_items": [
+              {
+                "description": "Fire Suppression (Sprinklers) - component 1",
+                "amount": 45000
+              },
+              {
+                "description": "Fire Suppression (Sprinklers) - component 2",
+                "amount": 45000
+              },
+              {
+                "description": "Fire Suppression (Sprinklers) - component 3",
+                "amount": 45000
+              },
+              {
+                "description": "Fire Suppression (Sprinklers) - component 4",
+                "amount": 45000
+              },
+              {
+                "description": "Fire Suppression (Sprinklers) - component 5",
+                "amount": 40000
+              },
+              {
+                "description": "Fire Suppression (Sprinklers) - component 6",
+                "amount": 65000
+              }
+            ],
+            "exclusions": [
+              "Kitchen hood fire suppression - NOT IN CONTRACT",
+              "Extended warranty (by owner)",
+              "Specialty subcontractors and engineered systems (separate quote)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Hartsfield Distribution Hub drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
       },
       {
         "trade": "Plumbing",
         "csi_code": "22 00 00",
-        "bids": []
+        "bids": [
+          {
+            "sub_id": "22-lone_star_healthcare",
+            "company": "Lone Star Healthcare Construction, LLC",
+            "contact": "Reagan Castillo",
+            "email": "rcastillo@lonestarhealthcare.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 375000,
+            "line_items": [
+              {
+                "description": "Plumbing - component 1",
+                "amount": 105000
+              },
+              {
+                "description": "Plumbing - component 2",
+                "amount": 115000
+              },
+              {
+                "description": "Plumbing - component 3",
+                "amount": 155000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Hartsfield Distribution Hub drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "22-capitol_commercial",
+            "company": "Capitol Commercial Builders",
+            "contact": "Jordan Walsh",
+            "email": "jwalsh@capitolcommercial.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 360000,
+            "line_items": [
+              {
+                "description": "Plumbing - component 1",
+                "amount": 90000
+              },
+              {
+                "description": "Plumbing - component 2",
+                "amount": 100000
+              },
+              {
+                "description": "Plumbing - component 3",
+                "amount": 100000
+              },
+              {
+                "description": "Plumbing - component 4",
+                "amount": 70000
+              }
+            ],
+            "exclusions": [
+              "Medical gas outlets and zone valves - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Hartsfield Distribution Hub drawings issued 03/15/2024.",
+            "post_bid_updates": [
+              {
+                "update_id": "22-CAP-U1",
+                "date": "2024-04-28",
+                "from": "Jordan Walsh <jwalsh@capitolcommercial.com>",
+                "subject": "RE: Hartsfield Distribution Hub - Medical gas outlets and zone valves Scope Add",
+                "body": "Per our conversation this morning: Medical gas outlets and zone valves can be added for $25,000. New total is $385,000.",
+                "revised_total": 385000,
+                "delta": 25000,
+                "scope_added": "Medical gas outlets and zone valves"
+              }
+            ]
+          },
+          {
+            "sub_id": "22-pedernales_custom",
+            "company": "Pedernales Custom Homes & Renovations, Inc.",
+            "contact": "Wyatt Burnham",
+            "email": "wburnham@pedernalescustom.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 290000,
+            "line_items": [
+              {
+                "description": "Plumbing - component 1",
+                "amount": 50000
+              },
+              {
+                "description": "Plumbing - component 2",
+                "amount": 45000
+              },
+              {
+                "description": "Plumbing - component 3",
+                "amount": 45000
+              },
+              {
+                "description": "Plumbing - component 4",
+                "amount": 45000
+              },
+              {
+                "description": "Plumbing - component 5",
+                "amount": 55000
+              },
+              {
+                "description": "Plumbing - component 6",
+                "amount": 50000
+              }
+            ],
+            "exclusions": [
+              "Medical gas outlets and zone valves - NOT IN CONTRACT",
+              "Extended warranty (by owner)",
+              "Specialty subcontractors and engineered systems (separate quote)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Hartsfield Distribution Hub drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
       },
       {
         "trade": "Mechanical (HVAC)",
         "csi_code": "23 00 00",
-        "bids": []
+        "bids": [
+          {
+            "sub_id": "23-lone_star_healthcare",
+            "company": "Lone Star Healthcare Construction, LLC",
+            "contact": "Reagan Castillo",
+            "email": "rcastillo@lonestarhealthcare.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 475000,
+            "line_items": [
+              {
+                "description": "Mechanical (HVAC) - component 1",
+                "amount": 100000
+              },
+              {
+                "description": "Mechanical (HVAC) - component 2",
+                "amount": 130000
+              },
+              {
+                "description": "Mechanical (HVAC) - component 3",
+                "amount": 105000
+              },
+              {
+                "description": "Mechanical (HVAC) - component 4",
+                "amount": 140000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Hartsfield Distribution Hub drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "23-capitol_commercial",
+            "company": "Capitol Commercial Builders",
+            "contact": "Jordan Walsh",
+            "email": "jwalsh@capitolcommercial.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 450000,
+            "line_items": [
+              {
+                "description": "Mechanical (HVAC) - component 1",
+                "amount": 95000
+              },
+              {
+                "description": "Mechanical (HVAC) - component 2",
+                "amount": 110000
+              },
+              {
+                "description": "Mechanical (HVAC) - component 3",
+                "amount": 135000
+              },
+              {
+                "description": "Mechanical (HVAC) - component 4",
+                "amount": 110000
+              }
+            ],
+            "exclusions": [
+              "Medical gas rough-in and kitchen hood exhaust - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Hartsfield Distribution Hub drawings issued 03/15/2024.",
+            "post_bid_updates": [
+              {
+                "update_id": "23-CAP-U1",
+                "date": "2024-04-28",
+                "from": "Jordan Walsh <jwalsh@capitolcommercial.com>",
+                "subject": "RE: Hartsfield Distribution Hub - Medical gas rough-in and kitchen hood exhaust Add",
+                "body": "We can include Medical gas rough-in and kitchen hood exhaust for an additional $30,000. Revised total would be $480,000.",
+                "revised_total": 480000,
+                "delta": 30000,
+                "scope_added": "Medical gas rough-in and kitchen hood exhaust"
+              }
+            ]
+          },
+          {
+            "sub_id": "23-pedernales_custom",
+            "company": "Pedernales Custom Homes & Renovations, Inc.",
+            "contact": "Wyatt Burnham",
+            "email": "wburnham@pedernalescustom.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 350000,
+            "line_items": [
+              {
+                "description": "Mechanical (HVAC) - component 1",
+                "amount": 100000
+              },
+              {
+                "description": "Mechanical (HVAC) - component 2",
+                "amount": 80000
+              },
+              {
+                "description": "Mechanical (HVAC) - component 3",
+                "amount": 100000
+              },
+              {
+                "description": "Mechanical (HVAC) - component 4",
+                "amount": 70000
+              }
+            ],
+            "exclusions": [
+              "Medical gas rough-in and kitchen hood exhaust - NOT IN CONTRACT",
+              "Extended warranty (by owner)",
+              "Specialty subcontractors and engineered systems (separate quote)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Hartsfield Distribution Hub drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
       },
       {
         "trade": "Electrical",
         "csi_code": "26 00 00",
-        "bids": []
+        "bids": [
+          {
+            "sub_id": "26-lone_star_healthcare",
+            "company": "Lone Star Healthcare Construction, LLC",
+            "contact": "Reagan Castillo",
+            "email": "rcastillo@lonestarhealthcare.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 515000,
+            "line_items": [
+              {
+                "description": "Electrical - component 1",
+                "amount": 90000
+              },
+              {
+                "description": "Electrical - component 2",
+                "amount": 90000
+              },
+              {
+                "description": "Electrical - component 3",
+                "amount": 100000
+              },
+              {
+                "description": "Electrical - component 4",
+                "amount": 85000
+              },
+              {
+                "description": "Electrical - component 5",
+                "amount": 100000
+              },
+              {
+                "description": "Electrical - component 6",
+                "amount": 50000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Hartsfield Distribution Hub drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "26-capitol_commercial",
+            "company": "Capitol Commercial Builders",
+            "contact": "Jordan Walsh",
+            "email": "jwalsh@capitolcommercial.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 475000,
+            "line_items": [
+              {
+                "description": "Electrical - component 1",
+                "amount": 65000
+              },
+              {
+                "description": "Electrical - component 2",
+                "amount": 70000
+              },
+              {
+                "description": "Electrical - component 3",
+                "amount": 80000
+              },
+              {
+                "description": "Electrical - component 4",
+                "amount": 80000
+              },
+              {
+                "description": "Electrical - component 5",
+                "amount": 95000
+              },
+              {
+                "description": "Electrical - component 6",
+                "amount": 85000
+              }
+            ],
+            "exclusions": [
+              "Fire alarm system - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Hartsfield Distribution Hub drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "26-pedernales_custom",
+            "company": "Pedernales Custom Homes & Renovations, Inc.",
+            "contact": "Wyatt Burnham",
+            "email": "wburnham@pedernalescustom.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 390000,
+            "line_items": [
+              {
+                "description": "Electrical - component 1",
+                "amount": 135000
+              },
+              {
+                "description": "Electrical - component 2",
+                "amount": 110000
+              },
+              {
+                "description": "Electrical - component 3",
+                "amount": 145000
+              }
+            ],
+            "exclusions": [
+              "Fire alarm system - NOT IN CONTRACT",
+              "Extended warranty (by owner)",
+              "Specialty subcontractors and engineered systems (separate quote)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Hartsfield Distribution Hub drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
       },
       {
         "trade": "Communications (Data, AV, Tel)",
         "csi_code": "27 00 00",
-        "bids": []
+        "bids": [
+          {
+            "sub_id": "27-lone_star_healthcare",
+            "company": "Lone Star Healthcare Construction, LLC",
+            "contact": "Reagan Castillo",
+            "email": "rcastillo@lonestarhealthcare.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 185000,
+            "line_items": [
+              {
+                "description": "Communications (Data, AV, Tel) - component 1",
+                "amount": 45000
+              },
+              {
+                "description": "Communications (Data, AV, Tel) - component 2",
+                "amount": 35000
+              },
+              {
+                "description": "Communications (Data, AV, Tel) - component 3",
+                "amount": 40000
+              },
+              {
+                "description": "Communications (Data, AV, Tel) - component 4",
+                "amount": 40000
+              },
+              {
+                "description": "Communications (Data, AV, Tel) - component 5",
+                "amount": 25000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Hartsfield Distribution Hub drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "27-capitol_commercial",
+            "company": "Capitol Commercial Builders",
+            "contact": "Jordan Walsh",
+            "email": "jwalsh@capitolcommercial.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 170000,
+            "line_items": [
+              {
+                "description": "Communications (Data, AV, Tel) - component 1",
+                "amount": 35000
+              },
+              {
+                "description": "Communications (Data, AV, Tel) - component 2",
+                "amount": 35000
+              },
+              {
+                "description": "Communications (Data, AV, Tel) - component 3",
+                "amount": 35000
+              },
+              {
+                "description": "Communications (Data, AV, Tel) - component 4",
+                "amount": 35000
+              },
+              {
+                "description": "Communications (Data, AV, Tel) - component 5",
+                "amount": 30000
+              }
+            ],
+            "exclusions": [
+              "AV rough-in for conference rooms - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Hartsfield Distribution Hub drawings issued 03/15/2024.",
+            "post_bid_updates": [
+              {
+                "update_id": "27-CAP-U1",
+                "date": "2024-04-28",
+                "from": "Jordan Walsh <jwalsh@capitolcommercial.com>",
+                "subject": "RE: Hartsfield Distribution Hub - AV rough-in for conference rooms Add",
+                "body": "We can include AV rough-in for conference rooms for an additional $10,000. Revised total would be $180,000.",
+                "revised_total": 180000,
+                "delta": 10000,
+                "scope_added": "AV rough-in for conference rooms"
+              }
+            ]
+          },
+          {
+            "sub_id": "27-pedernales_custom",
+            "company": "Pedernales Custom Homes & Renovations, Inc.",
+            "contact": "Wyatt Burnham",
+            "email": "wburnham@pedernalescustom.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 135000,
+            "line_items": [
+              {
+                "description": "Communications (Data, AV, Tel) - component 1",
+                "amount": 30000
+              },
+              {
+                "description": "Communications (Data, AV, Tel) - component 2",
+                "amount": 20000
+              },
+              {
+                "description": "Communications (Data, AV, Tel) - component 3",
+                "amount": 25000
+              },
+              {
+                "description": "Communications (Data, AV, Tel) - component 4",
+                "amount": 25000
+              },
+              {
+                "description": "Communications (Data, AV, Tel) - component 5",
+                "amount": 35000
+              }
+            ],
+            "exclusions": [
+              "AV rough-in for conference rooms - NOT IN CONTRACT",
+              "Extended warranty (by owner)",
+              "Specialty subcontractors and engineered systems (separate quote)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Hartsfield Distribution Hub drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
       },
       {
         "trade": "Electronic Safety & Security",
         "csi_code": "28 00 00",
-        "bids": []
+        "bids": [
+          {
+            "sub_id": "28-lone_star_healthcare",
+            "company": "Lone Star Healthcare Construction, LLC",
+            "contact": "Reagan Castillo",
+            "email": "rcastillo@lonestarhealthcare.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 170000,
+            "line_items": [
+              {
+                "description": "Electronic Safety & Security - component 1",
+                "amount": 30000
+              },
+              {
+                "description": "Electronic Safety & Security - component 2",
+                "amount": 40000
+              },
+              {
+                "description": "Electronic Safety & Security - component 3",
+                "amount": 40000
+              },
+              {
+                "description": "Electronic Safety & Security - component 4",
+                "amount": 35000
+              },
+              {
+                "description": "Electronic Safety & Security - component 5",
+                "amount": 25000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Hartsfield Distribution Hub drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "28-capitol_commercial",
+            "company": "Capitol Commercial Builders",
+            "contact": "Jordan Walsh",
+            "email": "jwalsh@capitolcommercial.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 165000,
+            "line_items": [
+              {
+                "description": "Electronic Safety & Security - component 1",
+                "amount": 35000
+              },
+              {
+                "description": "Electronic Safety & Security - component 2",
+                "amount": 50000
+              },
+              {
+                "description": "Electronic Safety & Security - component 3",
+                "amount": 40000
+              },
+              {
+                "description": "Electronic Safety & Security - component 4",
+                "amount": 40000
+              }
+            ],
+            "exclusions": [
+              "Exterior access control and parking - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Hartsfield Distribution Hub drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "28-pedernales_custom",
+            "company": "Pedernales Custom Homes & Renovations, Inc.",
+            "contact": "Wyatt Burnham",
+            "email": "wburnham@pedernalescustom.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 130000,
+            "line_items": [
+              {
+                "description": "Electronic Safety & Security - component 1",
+                "amount": 30000
+              },
+              {
+                "description": "Electronic Safety & Security - component 2",
+                "amount": 25000
+              },
+              {
+                "description": "Electronic Safety & Security - component 3",
+                "amount": 20000
+              },
+              {
+                "description": "Electronic Safety & Security - component 4",
+                "amount": 25000
+              },
+              {
+                "description": "Electronic Safety & Security - component 5",
+                "amount": 30000
+              }
+            ],
+            "exclusions": [
+              "Exterior access control and parking - NOT IN CONTRACT",
+              "Extended warranty (by owner)",
+              "Specialty subcontractors and engineered systems (separate quote)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Hartsfield Distribution Hub drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
       },
       {
         "trade": "Earthwork, Grading & Site Preparation",
         "csi_code": "31 00 00",
-        "bids": []
+        "bids": [
+          {
+            "sub_id": "31-lone_star_healthcare",
+            "company": "Lone Star Healthcare Construction, LLC",
+            "contact": "Reagan Castillo",
+            "email": "rcastillo@lonestarhealthcare.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 675000,
+            "line_items": [
+              {
+                "description": "Earthwork, Grading & Site Preparation - component 1",
+                "amount": 125000
+              },
+              {
+                "description": "Earthwork, Grading & Site Preparation - component 2",
+                "amount": 130000
+              },
+              {
+                "description": "Earthwork, Grading & Site Preparation - component 3",
+                "amount": 125000
+              },
+              {
+                "description": "Earthwork, Grading & Site Preparation - component 4",
+                "amount": 115000
+              },
+              {
+                "description": "Earthwork, Grading & Site Preparation - component 5",
+                "amount": 95000
+              },
+              {
+                "description": "Earthwork, Grading & Site Preparation - component 6",
+                "amount": 85000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Hartsfield Distribution Hub drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "31-capitol_commercial",
+            "company": "Capitol Commercial Builders",
+            "contact": "Jordan Walsh",
+            "email": "jwalsh@capitolcommercial.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 620000,
+            "line_items": [
+              {
+                "description": "Earthwork, Grading & Site Preparation - component 1",
+                "amount": 90000
+              },
+              {
+                "description": "Earthwork, Grading & Site Preparation - component 2",
+                "amount": 120000
+              },
+              {
+                "description": "Earthwork, Grading & Site Preparation - component 3",
+                "amount": 120000
+              },
+              {
+                "description": "Earthwork, Grading & Site Preparation - component 4",
+                "amount": 85000
+              },
+              {
+                "description": "Earthwork, Grading & Site Preparation - component 5",
+                "amount": 90000
+              },
+              {
+                "description": "Earthwork, Grading & Site Preparation - component 6",
+                "amount": 115000
+              }
+            ],
+            "exclusions": [
+              "Rock excavation allowance - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Hartsfield Distribution Hub drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "31-pedernales_custom",
+            "company": "Pedernales Custom Homes & Renovations, Inc.",
+            "contact": "Wyatt Burnham",
+            "email": "wburnham@pedernalescustom.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 520000,
+            "line_items": [
+              {
+                "description": "Earthwork, Grading & Site Preparation - component 1",
+                "amount": 155000
+              },
+              {
+                "description": "Earthwork, Grading & Site Preparation - component 2",
+                "amount": 170000
+              },
+              {
+                "description": "Earthwork, Grading & Site Preparation - component 3",
+                "amount": 195000
+              }
+            ],
+            "exclusions": [
+              "Rock excavation allowance - NOT IN CONTRACT",
+              "Extended warranty (by owner)",
+              "Specialty subcontractors and engineered systems (separate quote)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Hartsfield Distribution Hub drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
       },
       {
         "trade": "Site Paving, Curbs & Landscaping",
         "csi_code": "32 00 00",
-        "bids": []
+        "bids": [
+          {
+            "sub_id": "32-lone_star_healthcare",
+            "company": "Lone Star Healthcare Construction, LLC",
+            "contact": "Reagan Castillo",
+            "email": "rcastillo@lonestarhealthcare.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 1035000,
+            "line_items": [
+              {
+                "description": "Site Paving, Curbs & Landscaping - component 1",
+                "amount": 195000
+              },
+              {
+                "description": "Site Paving, Curbs & Landscaping - component 2",
+                "amount": 205000
+              },
+              {
+                "description": "Site Paving, Curbs & Landscaping - component 3",
+                "amount": 200000
+              },
+              {
+                "description": "Site Paving, Curbs & Landscaping - component 4",
+                "amount": 240000
+              },
+              {
+                "description": "Site Paving, Curbs & Landscaping - component 5",
+                "amount": 195000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Hartsfield Distribution Hub drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "32-capitol_commercial",
+            "company": "Capitol Commercial Builders",
+            "contact": "Jordan Walsh",
+            "email": "jwalsh@capitolcommercial.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 955000,
+            "line_items": [
+              {
+                "description": "Site Paving, Curbs & Landscaping - component 1",
+                "amount": 225000
+              },
+              {
+                "description": "Site Paving, Curbs & Landscaping - component 2",
+                "amount": 250000
+              },
+              {
+                "description": "Site Paving, Curbs & Landscaping - component 3",
+                "amount": 210000
+              },
+              {
+                "description": "Site Paving, Curbs & Landscaping - component 4",
+                "amount": 270000
+              }
+            ],
+            "exclusions": [
+              "Landscaping and irrigation - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Hartsfield Distribution Hub drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "32-pedernales_custom",
+            "company": "Pedernales Custom Homes & Renovations, Inc.",
+            "contact": "Wyatt Burnham",
+            "email": "wburnham@pedernalescustom.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 785000,
+            "line_items": [
+              {
+                "description": "Site Paving, Curbs & Landscaping - component 1",
+                "amount": 145000
+              },
+              {
+                "description": "Site Paving, Curbs & Landscaping - component 2",
+                "amount": 180000
+              },
+              {
+                "description": "Site Paving, Curbs & Landscaping - component 3",
+                "amount": 140000
+              },
+              {
+                "description": "Site Paving, Curbs & Landscaping - component 4",
+                "amount": 180000
+              },
+              {
+                "description": "Site Paving, Curbs & Landscaping - component 5",
+                "amount": 140000
+              }
+            ],
+            "exclusions": [
+              "Landscaping and irrigation - NOT IN CONTRACT",
+              "Extended warranty (by owner)",
+              "Specialty subcontractors and engineered systems (separate quote)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Hartsfield Distribution Hub drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
       },
       {
         "trade": "Site Utilities (Water, Sewer, Storm, Gas)",
         "csi_code": "33 00 00",
-        "bids": []
+        "bids": [
+          {
+            "sub_id": "33-lone_star_healthcare",
+            "company": "Lone Star Healthcare Construction, LLC",
+            "contact": "Reagan Castillo",
+            "email": "rcastillo@lonestarhealthcare.com",
+            "source": "PDF",
+            "submitted_date": "2024-04-18",
+            "base_bid": 545000,
+            "line_items": [
+              {
+                "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 1",
+                "amount": 155000
+              },
+              {
+                "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 2",
+                "amount": 185000
+              },
+              {
+                "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 3",
+                "amount": 205000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Hartsfield Distribution Hub drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "33-capitol_commercial",
+            "company": "Capitol Commercial Builders",
+            "contact": "Jordan Walsh",
+            "email": "jwalsh@capitolcommercial.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 540000,
+            "line_items": [
+              {
+                "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 1",
+                "amount": 145000
+              },
+              {
+                "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 2",
+                "amount": 125000
+              },
+              {
+                "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 3",
+                "amount": 130000
+              },
+              {
+                "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 4",
+                "amount": 140000
+              }
+            ],
+            "exclusions": [
+              "Underground fire line - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Hartsfield Distribution Hub drawings issued 03/15/2024.",
+            "post_bid_updates": [
+              {
+                "update_id": "33-CAP-U1",
+                "date": "2024-04-28",
+                "from": "Jordan Walsh <jwalsh@capitolcommercial.com>",
+                "subject": "RE: Hartsfield Distribution Hub - Underground fire line Add",
+                "body": "We can include Underground fire line for an additional $40,000. Revised total would be $580,000.",
+                "revised_total": 580000,
+                "delta": 40000,
+                "scope_added": "Underground fire line"
+              }
+            ]
+          },
+          {
+            "sub_id": "33-pedernales_custom",
+            "company": "Pedernales Custom Homes & Renovations, Inc.",
+            "contact": "Wyatt Burnham",
+            "email": "wburnham@pedernalescustom.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 410000,
+            "line_items": [
+              {
+                "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 1",
+                "amount": 135000
+              },
+              {
+                "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 2",
+                "amount": 115000
+              },
+              {
+                "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 3",
+                "amount": 160000
+              }
+            ],
+            "exclusions": [
+              "Underground fire line - NOT IN CONTRACT",
+              "Extended warranty (by owner)",
+              "Specialty subcontractors and engineered systems (separate quote)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Hartsfield Distribution Hub drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          }
+        ]
       }
     ]
   },
@@ -120,181 +2497,181 @@
         "trade": "Demolition & Site Clearing",
         "csi_code": "02 40 00",
         "unit": "$/SF",
-        "low": 0.49,
-        "mid": 0.74,
-        "high": 1.11,
-        "notes": "Warehouse/Distribution benchmark \u2014 Atlanta, GA"
+        "low": 0.27,
+        "mid": 0.41,
+        "high": 0.61,
+        "notes": "Warehouse / Distribution benchmark \u2014 Atlanta, GA"
       },
       {
         "trade": "Concrete",
         "csi_code": "03 00 00",
         "unit": "$/SF",
-        "low": 3.17,
-        "mid": 4.01,
-        "high": 5.28,
-        "notes": "Warehouse/Distribution benchmark \u2014 Atlanta, GA"
+        "low": 1.31,
+        "mid": 1.66,
+        "high": 2.18,
+        "notes": "Warehouse / Distribution benchmark \u2014 Atlanta, GA"
       },
       {
         "trade": "Masonry",
         "csi_code": "04 00 00",
         "unit": "$/SF",
-        "low": 0.4,
-        "mid": 0.55,
-        "high": 0.74,
-        "notes": "Warehouse/Distribution benchmark \u2014 Atlanta, GA"
+        "low": 0.44,
+        "mid": 0.61,
+        "high": 0.81,
+        "notes": "Warehouse / Distribution benchmark \u2014 Atlanta, GA"
       },
       {
         "trade": "Structural Steel & Misc Metals",
         "csi_code": "05 00 00",
         "unit": "$/SF",
-        "low": 7.74,
-        "mid": 10.07,
-        "high": 12.58,
-        "notes": "Warehouse/Distribution benchmark \u2014 Atlanta, GA"
+        "low": 2.71,
+        "mid": 3.52,
+        "high": 4.4,
+        "notes": "Warehouse / Distribution benchmark \u2014 Atlanta, GA"
       },
       {
         "trade": "Roofing, Waterproofing & Insulation",
         "csi_code": "07 00 00",
         "unit": "$/SF",
-        "low": 2.13,
-        "mid": 2.9,
-        "high": 3.87,
-        "notes": "Warehouse/Distribution benchmark \u2014 Atlanta, GA"
+        "low": 1.06,
+        "mid": 1.45,
+        "high": 1.94,
+        "notes": "Warehouse / Distribution benchmark \u2014 Atlanta, GA"
       },
       {
         "trade": "Doors, Frames, Hardware & Glazing",
         "csi_code": "08 00 00",
         "unit": "$/SF",
-        "low": 0.74,
-        "mid": 0.95,
-        "high": 1.27,
-        "notes": "Warehouse/Distribution benchmark \u2014 Atlanta, GA"
+        "low": 0.68,
+        "mid": 0.87,
+        "high": 1.16,
+        "notes": "Warehouse / Distribution benchmark \u2014 Atlanta, GA"
       },
       {
         "trade": "Drywall & Framing",
         "csi_code": "09 20 00",
         "unit": "$/SF",
-        "low": 0.32,
-        "mid": 0.42,
-        "high": 0.56,
-        "notes": "Warehouse/Distribution benchmark \u2014 Atlanta, GA"
+        "low": 0.26,
+        "mid": 0.35,
+        "high": 0.46,
+        "notes": "Warehouse / Distribution benchmark \u2014 Atlanta, GA"
       },
       {
         "trade": "Flooring",
         "csi_code": "09 60 00",
         "unit": "$/SF",
-        "low": 0.66,
-        "mid": 0.84,
-        "high": 1.11,
-        "notes": "Warehouse/Distribution benchmark \u2014 Atlanta, GA"
+        "low": 0.48,
+        "mid": 0.62,
+        "high": 0.81,
+        "notes": "Warehouse / Distribution benchmark \u2014 Atlanta, GA"
       },
       {
         "trade": "Painting & Wall Coverings",
         "csi_code": "09 90 00",
         "unit": "$/SF",
-        "low": 0.18,
-        "mid": 0.25,
-        "high": 0.32,
-        "notes": "Warehouse/Distribution benchmark \u2014 Atlanta, GA"
+        "low": 0.15,
+        "mid": 0.2,
+        "high": 0.26,
+        "notes": "Warehouse / Distribution benchmark \u2014 Atlanta, GA"
       },
       {
         "trade": "Acoustical Ceilings (ACT)",
         "csi_code": "09 51 00",
         "unit": "$/SF",
-        "low": 0.12,
-        "mid": 0.16,
-        "high": 0.21,
-        "notes": "Warehouse/Distribution benchmark \u2014 Atlanta, GA"
+        "low": 0.14,
+        "mid": 0.17,
+        "high": 0.23,
+        "notes": "Warehouse / Distribution benchmark \u2014 Atlanta, GA"
       },
       {
         "trade": "Specialties",
         "csi_code": "10 00 00",
         "unit": "$/SF",
-        "low": 0.12,
-        "mid": 0.18,
-        "high": 0.25,
-        "notes": "Warehouse/Distribution benchmark \u2014 Atlanta, GA"
+        "low": 0.14,
+        "mid": 0.19,
+        "high": 0.27,
+        "notes": "Warehouse / Distribution benchmark \u2014 Atlanta, GA"
       },
       {
         "trade": "Fire Suppression (Sprinklers)",
         "csi_code": "21 00 00",
         "unit": "$/SF",
-        "low": 1.58,
-        "mid": 2.11,
-        "high": 2.64,
-        "notes": "Warehouse/Distribution benchmark \u2014 Atlanta, GA"
+        "low": 0.7,
+        "mid": 0.93,
+        "high": 1.16,
+        "notes": "Warehouse / Distribution benchmark \u2014 Atlanta, GA"
       },
       {
         "trade": "Plumbing",
         "csi_code": "22 00 00",
         "unit": "$/SF",
-        "low": 1.0,
-        "mid": 1.27,
-        "high": 1.58,
-        "notes": "Warehouse/Distribution benchmark \u2014 Atlanta, GA"
+        "low": 0.74,
+        "mid": 0.93,
+        "high": 1.16,
+        "notes": "Warehouse / Distribution benchmark \u2014 Atlanta, GA"
       },
       {
         "trade": "Mechanical (HVAC)",
         "csi_code": "23 00 00",
         "unit": "$/SF",
-        "low": 1.98,
-        "mid": 2.55,
-        "high": 3.17,
-        "notes": "Warehouse/Distribution benchmark \u2014 Atlanta, GA"
+        "low": 0.87,
+        "mid": 1.12,
+        "high": 1.39,
+        "notes": "Warehouse / Distribution benchmark \u2014 Atlanta, GA"
       },
       {
         "trade": "Electrical",
         "csi_code": "26 00 00",
         "unit": "$/SF",
-        "low": 2.46,
-        "mid": 3.1,
-        "high": 3.87,
-        "notes": "Warehouse/Distribution benchmark \u2014 Atlanta, GA"
+        "low": 1.02,
+        "mid": 1.28,
+        "high": 1.6,
+        "notes": "Warehouse / Distribution benchmark \u2014 Atlanta, GA"
       },
       {
         "trade": "Communications (Data, AV, Tel)",
         "csi_code": "27 00 00",
         "unit": "$/SF",
-        "low": 0.42,
-        "mid": 0.63,
-        "high": 0.84,
-        "notes": "Warehouse/Distribution benchmark \u2014 Atlanta, GA"
+        "low": 0.29,
+        "mid": 0.44,
+        "high": 0.58,
+        "notes": "Warehouse / Distribution benchmark \u2014 Atlanta, GA"
       },
       {
         "trade": "Electronic Safety & Security",
         "csi_code": "28 00 00",
         "unit": "$/SF",
-        "low": 0.44,
-        "mid": 0.62,
-        "high": 0.84,
-        "notes": "Warehouse/Distribution benchmark \u2014 Atlanta, GA"
+        "low": 0.29,
+        "mid": 0.41,
+        "high": 0.55,
+        "notes": "Warehouse / Distribution benchmark \u2014 Atlanta, GA"
       },
       {
         "trade": "Earthwork, Grading & Site Preparation",
         "csi_code": "31 00 00",
         "unit": "$/SF",
-        "low": 2.46,
-        "mid": 3.45,
-        "high": 4.68,
-        "notes": "Warehouse/Distribution benchmark \u2014 Atlanta, GA"
+        "low": 1.16,
+        "mid": 1.63,
+        "high": 2.21,
+        "notes": "Warehouse / Distribution benchmark \u2014 Atlanta, GA"
       },
       {
         "trade": "Site Paving, Curbs & Landscaping",
         "csi_code": "32 00 00",
         "unit": "$/SF",
-        "low": 3.94,
-        "mid": 5.07,
-        "high": 6.76,
-        "notes": "Warehouse/Distribution benchmark \u2014 Atlanta, GA"
+        "low": 1.9,
+        "mid": 2.44,
+        "high": 3.25,
+        "notes": "Warehouse / Distribution benchmark \u2014 Atlanta, GA"
       },
       {
         "trade": "Site Utilities (Water, Sewer, Storm, Gas)",
         "csi_code": "33 00 00",
         "unit": "$/SF",
-        "low": 1.94,
-        "mid": 2.71,
-        "high": 3.48,
-        "notes": "Warehouse/Distribution benchmark \u2014 Atlanta, GA"
+        "low": 0.97,
+        "mid": 1.36,
+        "high": 1.74,
+        "notes": "Warehouse / Distribution benchmark \u2014 Atlanta, GA"
       }
     ]
   },
@@ -310,16 +2687,16 @@
           {
             "description": "Project Manager (14 months)",
             "unit": "LS",
-            "monthly_rate": 10560,
+            "monthly_rate": 11440,
             "months": 14,
-            "total": 147840
+            "total": 160160
           },
           {
             "description": "Project Engineer (14 months)",
             "unit": "LS",
-            "monthly_rate": 5720,
+            "monthly_rate": 6600,
             "months": 14,
-            "total": 80080
+            "total": 92400
           }
         ]
       },
@@ -329,35 +2706,40 @@
           {
             "description": "General Superintendent (14 months)",
             "unit": "LS",
-            "monthly_rate": 8360,
+            "monthly_rate": 9240,
             "months": 14,
-            "total": 117040
+            "total": 129360
           },
           {
-            "description": "Assistant Superintendent (12 months)",
+            "description": "Assistant Superintendent (10 months)",
             "unit": "LS",
-            "monthly_rate": 6600,
-            "months": 12,
-            "total": 79200
+            "monthly_rate": 7040,
+            "months": 10,
+            "total": 70400
           }
         ]
       },
       {
-        "category": "Temporary Facilities & Operations",
+        "category": "Temporary Facilities",
         "items": [
           {
             "description": "Field office, toilets, fencing, temp power",
             "unit": "LS",
-            "monthly_rate": 2816,
+            "monthly_rate": 3520,
             "months": 14,
-            "total": 39424
-          },
+            "total": 49280
+          }
+        ]
+      },
+      {
+        "category": "Site Operations",
+        "items": [
           {
             "description": "Cleanup, dumpsters, safety, vehicles",
             "unit": "LS",
-            "monthly_rate": 4400,
+            "monthly_rate": 4840,
             "months": 14,
-            "total": 61600
+            "total": 67760
           }
         ]
       },
@@ -369,7 +2751,7 @@
             "unit": "LS",
             "monthly_rate": null,
             "months": null,
-            "total": 1126400
+            "total": 1760000
           }
         ]
       },
@@ -381,12 +2763,24 @@
             "unit": "LS",
             "monthly_rate": null,
             "months": null,
-            "total": 281600
+            "total": 633600
+          }
+        ]
+      },
+      {
+        "category": "Technology",
+        "items": [
+          {
+            "description": "BIM, Procore, closeout documentation",
+            "unit": "LS",
+            "monthly_rate": 1584,
+            "months": 14,
+            "total": 22176
           }
         ]
       }
     ],
-    "subtotal_gc": 1933184,
+    "subtotal_gc": 2985136,
     "gc_fee_percent": 5.0,
     "contingency_percent": 2.5
   }

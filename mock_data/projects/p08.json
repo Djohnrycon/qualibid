@@ -13,17 +13,17 @@
         "csi_code": "02 40 00",
         "bids": [
           {
-            "sub_id": "02-S1",
-            "company": "Northwest Interiors",
-            "contact": "Pete Adams",
-            "email": "northwestinteriors@contractor.com",
+            "sub_id": "02-lone_star_healthcare",
+            "company": "Lone Star Healthcare Construction, LLC",
+            "contact": "Reagan Castillo",
+            "email": "rcastillo@lonestarhealthcare.com",
             "source": "PDF",
             "submitted_date": "2024-04-18",
             "base_bid": 305000,
             "line_items": [
               {
                 "description": "Demolition & Site Clearing - component 1",
-                "amount": 50000
+                "amount": 65000
               },
               {
                 "description": "Demolition & Site Clearing - component 2",
@@ -31,90 +31,102 @@
               },
               {
                 "description": "Demolition & Site Clearing - component 3",
-                "amount": 65000
+                "amount": 70000
               },
               {
                 "description": "Demolition & Site Clearing - component 4",
-                "amount": 60000
-              },
-              {
-                "description": "Demolition & Site Clearing - component 5",
-                "amount": 60000
-              }
-            ],
-            "exclusions": [],
-            "inclusions": [
-              "All labor, material, and permits per contract documents"
-            ],
-            "notes": "Bid per Pacific HQ Campus drawings issued 03/15/2024.",
-            "post_bid_updates": []
-          },
-          {
-            "sub_id": "02-S2",
-            "company": "Cascade Plumbing",
-            "contact": "Sam Rivera",
-            "email": "cascadeplumbing@contractor.com",
-            "source": "Excel",
-            "submitted_date": "2024-04-19",
-            "base_bid": 175000,
-            "line_items": [
-              {
-                "description": "Demolition & Site Clearing - component 1",
-                "amount": 35000
-              },
-              {
-                "description": "Demolition & Site Clearing - component 2",
-                "amount": 30000
-              },
-              {
-                "description": "Demolition & Site Clearing - component 3",
-                "amount": 25000
-              },
-              {
-                "description": "Demolition & Site Clearing - component 4",
-                "amount": 25000
-              },
-              {
-                "description": "Demolition & Site Clearing - component 5",
-                "amount": 25000
-              },
-              {
-                "description": "Demolition & Site Clearing - component 6",
-                "amount": 35000
-              }
-            ],
-            "exclusions": [
-              "Hazardous material abatement - NOT IN CONTRACT"
-            ],
-            "inclusions": [
-              "All labor, material, and permits per contract documents"
-            ],
-            "notes": "Bid per Pacific HQ Campus drawings issued 03/15/2024.",
-            "post_bid_updates": []
-          },
-          {
-            "sub_id": "02-S3",
-            "company": "Pacific NW Framing",
-            "contact": "Walt Burns",
-            "email": "pacificnwframing@contractor.com",
-            "source": "Email",
-            "submitted_date": "2024-04-20",
-            "base_bid": 460000,
-            "line_items": [
-              {
-                "description": "Demolition & Site Clearing - component 1",
-                "amount": 180000
-              },
-              {
-                "description": "Demolition & Site Clearing - component 2",
-                "amount": 180000
-              },
-              {
-                "description": "Demolition & Site Clearing - component 3",
                 "amount": 100000
               }
             ],
             "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Pacific HQ Campus drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "02-capitol_commercial",
+            "company": "Capitol Commercial Builders",
+            "contact": "Jordan Walsh",
+            "email": "jwalsh@capitolcommercial.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 280000,
+            "line_items": [
+              {
+                "description": "Demolition & Site Clearing - component 1",
+                "amount": 40000
+              },
+              {
+                "description": "Demolition & Site Clearing - component 2",
+                "amount": 50000
+              },
+              {
+                "description": "Demolition & Site Clearing - component 3",
+                "amount": 50000
+              },
+              {
+                "description": "Demolition & Site Clearing - component 4",
+                "amount": 45000
+              },
+              {
+                "description": "Demolition & Site Clearing - component 5",
+                "amount": 40000
+              },
+              {
+                "description": "Demolition & Site Clearing - component 6",
+                "amount": 55000
+              }
+            ],
+            "exclusions": [
+              "Hazardous material abatement - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Pacific HQ Campus drawings issued 03/15/2024.",
+            "post_bid_updates": [
+              {
+                "update_id": "02-CAP-U1",
+                "date": "2024-04-28",
+                "from": "Jordan Walsh <jwalsh@capitolcommercial.com>",
+                "subject": "RE: Pacific HQ Campus - Hazardous material abatement Clarification",
+                "body": "Following up on our call \u2014 we can pick up Hazardous material abatement for $20,000 additional. Revised total $300,000.",
+                "revised_total": 300000,
+                "delta": 20000,
+                "scope_added": "Hazardous material abatement"
+              }
+            ]
+          },
+          {
+            "sub_id": "02-pedernales_custom",
+            "company": "Pedernales Custom Homes & Renovations, Inc.",
+            "contact": "Wyatt Burnham",
+            "email": "wburnham@pedernalescustom.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 230000,
+            "line_items": [
+              {
+                "description": "Demolition & Site Clearing - component 1",
+                "amount": 75000
+              },
+              {
+                "description": "Demolition & Site Clearing - component 2",
+                "amount": 85000
+              },
+              {
+                "description": "Demolition & Site Clearing - component 3",
+                "amount": 70000
+              }
+            ],
+            "exclusions": [
+              "Hazardous material abatement - NOT IN CONTRACT",
+              "Extended warranty (by owner)",
+              "Specialty subcontractors and engineered systems (separate quote)"
+            ],
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
@@ -128,37 +140,37 @@
         "csi_code": "03 00 00",
         "bids": [
           {
-            "sub_id": "03-S1",
-            "company": "Northwest Interiors",
-            "contact": "Lisa Chang",
-            "email": "northwestinteriors@contractor.com",
+            "sub_id": "03-lone_star_healthcare",
+            "company": "Lone Star Healthcare Construction, LLC",
+            "contact": "Reagan Castillo",
+            "email": "rcastillo@lonestarhealthcare.com",
             "source": "PDF",
             "submitted_date": "2024-04-18",
-            "base_bid": 1045000,
+            "base_bid": 1065000,
             "line_items": [
               {
                 "description": "Concrete - component 1",
-                "amount": 190000
+                "amount": 210000
               },
               {
                 "description": "Concrete - component 2",
-                "amount": 145000
+                "amount": 165000
               },
               {
                 "description": "Concrete - component 3",
-                "amount": 175000
+                "amount": 140000
               },
               {
                 "description": "Concrete - component 4",
-                "amount": 180000
+                "amount": 195000
               },
               {
                 "description": "Concrete - component 5",
-                "amount": 160000
+                "amount": 195000
               },
               {
                 "description": "Concrete - component 6",
-                "amount": 195000
+                "amount": 160000
               }
             ],
             "exclusions": [],
@@ -169,25 +181,37 @@
             "post_bid_updates": []
           },
           {
-            "sub_id": "03-S2",
-            "company": "Cascade Plumbing",
-            "contact": "James Brown",
-            "email": "cascadeplumbing@contractor.com",
+            "sub_id": "03-capitol_commercial",
+            "company": "Capitol Commercial Builders",
+            "contact": "Jordan Walsh",
+            "email": "jwalsh@capitolcommercial.com",
             "source": "Excel",
             "submitted_date": "2024-04-19",
-            "base_bid": 710000,
+            "base_bid": 975000,
             "line_items": [
               {
                 "description": "Concrete - component 1",
-                "amount": 240000
+                "amount": 170000
               },
               {
                 "description": "Concrete - component 2",
-                "amount": 210000
+                "amount": 175000
               },
               {
                 "description": "Concrete - component 3",
-                "amount": 260000
+                "amount": 185000
+              },
+              {
+                "description": "Concrete - component 4",
+                "amount": 180000
+              },
+              {
+                "description": "Concrete - component 5",
+                "amount": 155000
+              },
+              {
+                "description": "Concrete - component 6",
+                "amount": 110000
               }
             ],
             "exclusions": [
@@ -201,32 +225,36 @@
             "post_bid_updates": []
           },
           {
-            "sub_id": "03-S3",
-            "company": "Pacific NW Framing",
-            "contact": "Maria Valdez",
-            "email": "pacificnwframing@contractor.com",
+            "sub_id": "03-pedernales_custom",
+            "company": "Pedernales Custom Homes & Renovations, Inc.",
+            "contact": "Wyatt Burnham",
+            "email": "wburnham@pedernalescustom.com",
             "source": "Email",
             "submitted_date": "2024-04-20",
-            "base_bid": 1380000,
+            "base_bid": 805000,
             "line_items": [
               {
                 "description": "Concrete - component 1",
-                "amount": 350000
+                "amount": 200000
               },
               {
                 "description": "Concrete - component 2",
-                "amount": 330000
+                "amount": 185000
               },
               {
                 "description": "Concrete - component 3",
-                "amount": 365000
+                "amount": 185000
               },
               {
                 "description": "Concrete - component 4",
-                "amount": 335000
+                "amount": 235000
               }
             ],
-            "exclusions": [],
+            "exclusions": [
+              "Vapor barrier and underslab insulation - NOT IN CONTRACT",
+              "Extended warranty (by owner)",
+              "Specialty subcontractors and engineered systems (separate quote)"
+            ],
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
@@ -240,29 +268,37 @@
         "csi_code": "04 00 00",
         "bids": [
           {
-            "sub_id": "04-S1",
-            "company": "Emerald City Roofing",
-            "contact": "Angela Cruz",
-            "email": "emeraldcityroofing@contractor.com",
+            "sub_id": "04-lone_star_healthcare",
+            "company": "Lone Star Healthcare Construction, LLC",
+            "contact": "Reagan Castillo",
+            "email": "rcastillo@lonestarhealthcare.com",
             "source": "PDF",
             "submitted_date": "2024-04-18",
-            "base_bid": 540000,
+            "base_bid": 510000,
             "line_items": [
               {
                 "description": "Masonry - component 1",
-                "amount": 110000
+                "amount": 95000
               },
               {
                 "description": "Masonry - component 2",
-                "amount": 115000
+                "amount": 100000
               },
               {
                 "description": "Masonry - component 3",
-                "amount": 130000
+                "amount": 95000
               },
               {
                 "description": "Masonry - component 4",
-                "amount": 185000
+                "amount": 70000
+              },
+              {
+                "description": "Masonry - component 5",
+                "amount": 90000
+              },
+              {
+                "description": "Masonry - component 6",
+                "amount": 60000
               }
             ],
             "exclusions": [],
@@ -273,25 +309,25 @@
             "post_bid_updates": []
           },
           {
-            "sub_id": "04-S2",
-            "company": "Olympic Steel",
-            "contact": "Tom Brady",
-            "email": "olympicsteel@contractor.com",
+            "sub_id": "04-capitol_commercial",
+            "company": "Capitol Commercial Builders",
+            "contact": "Jordan Walsh",
+            "email": "jwalsh@capitolcommercial.com",
             "source": "Excel",
             "submitted_date": "2024-04-19",
-            "base_bid": 335000,
+            "base_bid": 495000,
             "line_items": [
               {
                 "description": "Masonry - component 1",
-                "amount": 105000
+                "amount": 140000
               },
               {
                 "description": "Masonry - component 2",
-                "amount": 120000
+                "amount": 190000
               },
               {
                 "description": "Masonry - component 3",
-                "amount": 110000
+                "amount": 165000
               }
             ],
             "exclusions": [
@@ -305,32 +341,32 @@
             "post_bid_updates": []
           },
           {
-            "sub_id": "04-S3",
-            "company": "Northwest Interiors",
-            "contact": "Linda Garza",
-            "email": "northwestinteriors@contractor.com",
+            "sub_id": "04-pedernales_custom",
+            "company": "Pedernales Custom Homes & Renovations, Inc.",
+            "contact": "Wyatt Burnham",
+            "email": "wburnham@pedernalescustom.com",
             "source": "Email",
             "submitted_date": "2024-04-20",
-            "base_bid": 670000,
+            "base_bid": 390000,
             "line_items": [
               {
                 "description": "Masonry - component 1",
-                "amount": 140000
+                "amount": 155000
               },
               {
                 "description": "Masonry - component 2",
-                "amount": 180000
+                "amount": 125000
               },
               {
                 "description": "Masonry - component 3",
-                "amount": 180000
-              },
-              {
-                "description": "Masonry - component 4",
-                "amount": 170000
+                "amount": 110000
               }
             ],
-            "exclusions": [],
+            "exclusions": [
+              "CMU backup wall - NOT IN CONTRACT",
+              "Extended warranty (by owner)",
+              "Specialty subcontractors and engineered systems (separate quote)"
+            ],
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
@@ -344,66 +380,75 @@
         "csi_code": "05 00 00",
         "bids": [
           {
-            "sub_id": "05-S1",
-            "company": "Olympic Steel",
-            "contact": "Rick Simmons",
-            "email": "olympicsteel@contractor.com",
+            "sub_id": "05-lone_star_healthcare",
+            "company": "Lone Star Healthcare Construction, LLC",
+            "contact": "Reagan Castillo",
+            "email": "rcastillo@lonestarhealthcare.com",
             "source": "PDF",
             "submitted_date": "2024-04-18",
-            "base_bid": 1405000,
+            "base_bid": 1460000,
             "line_items": [
               {
                 "description": "Structural Steel & Misc Metals - component 1",
-                "amount": 245000
+                "amount": 250000
               },
               {
                 "description": "Structural Steel & Misc Metals - component 2",
-                "amount": 240000
+                "amount": 345000
               },
               {
                 "description": "Structural Steel & Misc Metals - component 3",
-                "amount": 315000
+                "amount": 265000
               },
               {
                 "description": "Structural Steel & Misc Metals - component 4",
-                "amount": 255000
-              },
-              {
-                "description": "Structural Steel & Misc Metals - component 5",
-                "amount": 350000
-              }
-            ],
-            "exclusions": [],
-            "inclusions": [
-              "All labor, material, and permits per contract documents"
-            ],
-            "notes": "Bid per Pacific HQ Campus drawings issued 03/15/2024.",
-            "post_bid_updates": []
-          },
-          {
-            "sub_id": "05-S2",
-            "company": "Northwest Interiors",
-            "contact": "Ed Turner",
-            "email": "northwestinteriors@contractor.com",
-            "source": "Excel",
-            "submitted_date": "2024-04-19",
-            "base_bid": 1000000,
-            "line_items": [
-              {
-                "description": "Structural Steel & Misc Metals - component 1",
                 "amount": 310000
               },
               {
+                "description": "Structural Steel & Misc Metals - component 5",
+                "amount": 290000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Pacific HQ Campus drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "05-capitol_commercial",
+            "company": "Capitol Commercial Builders",
+            "contact": "Jordan Walsh",
+            "email": "jwalsh@capitolcommercial.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 1290000,
+            "line_items": [
+              {
+                "description": "Structural Steel & Misc Metals - component 1",
+                "amount": 275000
+              },
+              {
                 "description": "Structural Steel & Misc Metals - component 2",
-                "amount": 325000
+                "amount": 275000
               },
               {
                 "description": "Structural Steel & Misc Metals - component 3",
-                "amount": 365000
+                "amount": 210000
+              },
+              {
+                "description": "Structural Steel & Misc Metals - component 4",
+                "amount": 270000
+              },
+              {
+                "description": "Structural Steel & Misc Metals - component 5",
+                "amount": 260000
               }
             ],
             "exclusions": [
-              "Miscellaneous metals and embeds - NOT IN CONTRACT"
+              "Miscellaneous metals and embeds - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
             ],
             "inclusions": [
               "All labor, material, and permits per contract documents"
@@ -412,28 +457,36 @@
             "post_bid_updates": []
           },
           {
-            "sub_id": "05-S3",
-            "company": "Cascade Plumbing",
-            "contact": "Carl Johnson",
-            "email": "cascadeplumbing@contractor.com",
+            "sub_id": "05-pedernales_custom",
+            "company": "Pedernales Custom Homes & Renovations, Inc.",
+            "contact": "Wyatt Burnham",
+            "email": "wburnham@pedernalescustom.com",
             "source": "Email",
             "submitted_date": "2024-04-20",
-            "base_bid": 1770000,
+            "base_bid": 1085000,
             "line_items": [
               {
                 "description": "Structural Steel & Misc Metals - component 1",
-                "amount": 535000
+                "amount": 265000
               },
               {
                 "description": "Structural Steel & Misc Metals - component 2",
-                "amount": 700000
+                "amount": 225000
               },
               {
                 "description": "Structural Steel & Misc Metals - component 3",
-                "amount": 535000
+                "amount": 225000
+              },
+              {
+                "description": "Structural Steel & Misc Metals - component 4",
+                "amount": 370000
               }
             ],
-            "exclusions": [],
+            "exclusions": [
+              "Miscellaneous metals and embeds - NOT IN CONTRACT",
+              "Extended warranty (by owner)",
+              "Specialty subcontractors and engineered systems (separate quote)"
+            ],
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
@@ -447,13 +500,13 @@
         "csi_code": "07 00 00",
         "bids": [
           {
-            "sub_id": "07-S1",
-            "company": "Pacific NW Concrete",
-            "contact": "Maria Valdez",
-            "email": "pacificnwconcrete@contractor.com",
+            "sub_id": "07-lone_star_healthcare",
+            "company": "Lone Star Healthcare Construction, LLC",
+            "contact": "Reagan Castillo",
+            "email": "rcastillo@lonestarhealthcare.com",
             "source": "PDF",
             "submitted_date": "2024-04-18",
-            "base_bid": 760000,
+            "base_bid": 720000,
             "line_items": [
               {
                 "description": "Roofing, Waterproofing & Insulation - component 1",
@@ -461,15 +514,15 @@
               },
               {
                 "description": "Roofing, Waterproofing & Insulation - component 2",
-                "amount": 170000
+                "amount": 175000
               },
               {
                 "description": "Roofing, Waterproofing & Insulation - component 3",
-                "amount": 160000
+                "amount": 145000
               },
               {
                 "description": "Roofing, Waterproofing & Insulation - component 4",
-                "amount": 250000
+                "amount": 220000
               }
             ],
             "exclusions": [],
@@ -480,29 +533,42 @@
             "post_bid_updates": []
           },
           {
-            "sub_id": "07-S2",
-            "company": "Puget Sound Mechanical",
-            "contact": "Kevin Walsh",
-            "email": "pugetsoundmechanical@contractor.com",
+            "sub_id": "07-capitol_commercial",
+            "company": "Capitol Commercial Builders",
+            "contact": "Jordan Walsh",
+            "email": "jwalsh@capitolcommercial.com",
             "source": "Excel",
             "submitted_date": "2024-04-19",
-            "base_bid": 480000,
+            "base_bid": 680000,
             "line_items": [
               {
                 "description": "Roofing, Waterproofing & Insulation - component 1",
-                "amount": 130000
+                "amount": 120000
               },
               {
                 "description": "Roofing, Waterproofing & Insulation - component 2",
-                "amount": 185000
+                "amount": 110000
               },
               {
                 "description": "Roofing, Waterproofing & Insulation - component 3",
-                "amount": 165000
+                "amount": 100000
+              },
+              {
+                "description": "Roofing, Waterproofing & Insulation - component 4",
+                "amount": 95000
+              },
+              {
+                "description": "Roofing, Waterproofing & Insulation - component 5",
+                "amount": 125000
+              },
+              {
+                "description": "Roofing, Waterproofing & Insulation - component 6",
+                "amount": 130000
               }
             ],
             "exclusions": [
-              "Below-slab waterproofing - NOT IN CONTRACT"
+              "Below-slab waterproofing - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
             ],
             "inclusions": [
               "All labor, material, and permits per contract documents"
@@ -510,44 +576,52 @@
             "notes": "Bid per Pacific HQ Campus drawings issued 03/15/2024.",
             "post_bid_updates": [
               {
-                "update_id": "07-U1",
+                "update_id": "07-CAP-U1",
                 "date": "2024-04-28",
-                "from": "Kevin Walsh <pugetsoundmechanical@contractor.com>",
+                "from": "Jordan Walsh <jwalsh@capitolcommercial.com>",
                 "subject": "RE: Pacific HQ Campus - Below-slab waterproofing Add",
-                "body": "We can include Below-slab waterproofing for an additional $35,000. Revised total would be $515,000.",
-                "revised_total": 515000,
-                "delta": 35000,
+                "body": "We can include Below-slab waterproofing for an additional $50,000. Revised total would be $730,000.",
+                "revised_total": 730000,
+                "delta": 50000,
                 "scope_added": "Below-slab waterproofing"
               }
             ]
           },
           {
-            "sub_id": "07-S3",
-            "company": "Emerald City Roofing",
-            "contact": "Beth Adams",
-            "email": "emeraldcityroofing@contractor.com",
+            "sub_id": "07-pedernales_custom",
+            "company": "Pedernales Custom Homes & Renovations, Inc.",
+            "contact": "Wyatt Burnham",
+            "email": "wburnham@pedernalescustom.com",
             "source": "Email",
             "submitted_date": "2024-04-20",
-            "base_bid": 990000,
+            "base_bid": 540000,
             "line_items": [
               {
                 "description": "Roofing, Waterproofing & Insulation - component 1",
-                "amount": 205000
+                "amount": 125000
               },
               {
                 "description": "Roofing, Waterproofing & Insulation - component 2",
-                "amount": 235000
+                "amount": 90000
               },
               {
                 "description": "Roofing, Waterproofing & Insulation - component 3",
-                "amount": 290000
+                "amount": 120000
               },
               {
                 "description": "Roofing, Waterproofing & Insulation - component 4",
-                "amount": 260000
+                "amount": 120000
+              },
+              {
+                "description": "Roofing, Waterproofing & Insulation - component 5",
+                "amount": 85000
               }
             ],
-            "exclusions": [],
+            "exclusions": [
+              "Below-slab waterproofing - NOT IN CONTRACT",
+              "Extended warranty (by owner)",
+              "Specialty subcontractors and engineered systems (separate quote)"
+            ],
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
@@ -561,37 +635,29 @@
         "csi_code": "08 00 00",
         "bids": [
           {
-            "sub_id": "08-S1",
-            "company": "Northwest Interiors",
-            "contact": "Angela Cruz",
-            "email": "northwestinteriors@contractor.com",
+            "sub_id": "08-lone_star_healthcare",
+            "company": "Lone Star Healthcare Construction, LLC",
+            "contact": "Reagan Castillo",
+            "email": "rcastillo@lonestarhealthcare.com",
             "source": "PDF",
             "submitted_date": "2024-04-18",
-            "base_bid": 1060000,
+            "base_bid": 1110000,
             "line_items": [
               {
                 "description": "Doors, Frames, Hardware & Glazing - component 1",
-                "amount": 155000
+                "amount": 230000
               },
               {
                 "description": "Doors, Frames, Hardware & Glazing - component 2",
-                "amount": 160000
+                "amount": 285000
               },
               {
                 "description": "Doors, Frames, Hardware & Glazing - component 3",
-                "amount": 205000
+                "amount": 290000
               },
               {
                 "description": "Doors, Frames, Hardware & Glazing - component 4",
-                "amount": 165000
-              },
-              {
-                "description": "Doors, Frames, Hardware & Glazing - component 5",
-                "amount": 200000
-              },
-              {
-                "description": "Doors, Frames, Hardware & Glazing - component 6",
-                "amount": 175000
+                "amount": 305000
               }
             ],
             "exclusions": [],
@@ -602,13 +668,13 @@
             "post_bid_updates": []
           },
           {
-            "sub_id": "08-S2",
-            "company": "Cascade Plumbing",
-            "contact": "Tom Brady",
-            "email": "cascadeplumbing@contractor.com",
+            "sub_id": "08-capitol_commercial",
+            "company": "Capitol Commercial Builders",
+            "contact": "Jordan Walsh",
+            "email": "jwalsh@capitolcommercial.com",
             "source": "Excel",
             "submitted_date": "2024-04-19",
-            "base_bid": 765000,
+            "base_bid": 965000,
             "line_items": [
               {
                 "description": "Doors, Frames, Hardware & Glazing - component 1",
@@ -616,11 +682,15 @@
               },
               {
                 "description": "Doors, Frames, Hardware & Glazing - component 2",
-                "amount": 295000
+                "amount": 210000
               },
               {
                 "description": "Doors, Frames, Hardware & Glazing - component 3",
-                "amount": 215000
+                "amount": 235000
+              },
+              {
+                "description": "Doors, Frames, Hardware & Glazing - component 4",
+                "amount": 265000
               }
             ],
             "exclusions": [
@@ -631,35 +701,50 @@
               "All labor, material, and permits per contract documents"
             ],
             "notes": "Bid per Pacific HQ Campus drawings issued 03/15/2024.",
-            "post_bid_updates": []
+            "post_bid_updates": [
+              {
+                "update_id": "08-CAP-U1",
+                "date": "2024-04-28",
+                "from": "Jordan Walsh <jwalsh@capitolcommercial.com>",
+                "subject": "RE: Pacific HQ Campus - Storefront glazing system Clarification",
+                "body": "Following up on our call \u2014 we can pick up Storefront glazing system for $70,000 additional. Revised total $1,035,000.",
+                "revised_total": 1035000,
+                "delta": 70000,
+                "scope_added": "Storefront glazing system"
+              }
+            ]
           },
           {
-            "sub_id": "08-S3",
-            "company": "Pacific NW Framing",
-            "contact": "Linda Garza",
-            "email": "pacificnwframing@contractor.com",
+            "sub_id": "08-pedernales_custom",
+            "company": "Pedernales Custom Homes & Renovations, Inc.",
+            "contact": "Wyatt Burnham",
+            "email": "wburnham@pedernalescustom.com",
             "source": "Email",
             "submitted_date": "2024-04-20",
-            "base_bid": 1370000,
+            "base_bid": 815000,
             "line_items": [
               {
                 "description": "Doors, Frames, Hardware & Glazing - component 1",
-                "amount": 305000
+                "amount": 170000
               },
               {
                 "description": "Doors, Frames, Hardware & Glazing - component 2",
-                "amount": 345000
+                "amount": 170000
               },
               {
                 "description": "Doors, Frames, Hardware & Glazing - component 3",
-                "amount": 280000
+                "amount": 225000
               },
               {
                 "description": "Doors, Frames, Hardware & Glazing - component 4",
-                "amount": 440000
+                "amount": 250000
               }
             ],
-            "exclusions": [],
+            "exclusions": [
+              "Storefront glazing system - NOT IN CONTRACT",
+              "Extended warranty (by owner)",
+              "Specialty subcontractors and engineered systems (separate quote)"
+            ],
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
@@ -673,33 +758,37 @@
         "csi_code": "09 20 00",
         "bids": [
           {
-            "sub_id": "09-S1",
-            "company": "Emerald City Roofing",
-            "contact": "Pete Adams",
-            "email": "emeraldcityroofing@contractor.com",
+            "sub_id": "09-lone_star_healthcare",
+            "company": "Lone Star Healthcare Construction, LLC",
+            "contact": "Reagan Castillo",
+            "email": "rcastillo@lonestarhealthcare.com",
             "source": "PDF",
             "submitted_date": "2024-04-18",
-            "base_bid": 660000,
+            "base_bid": 650000,
             "line_items": [
               {
                 "description": "Drywall & Framing - component 1",
-                "amount": 125000
+                "amount": 100000
               },
               {
                 "description": "Drywall & Framing - component 2",
-                "amount": 135000
+                "amount": 95000
               },
               {
                 "description": "Drywall & Framing - component 3",
-                "amount": 105000
+                "amount": 100000
               },
               {
                 "description": "Drywall & Framing - component 4",
-                "amount": 115000
+                "amount": 90000
               },
               {
                 "description": "Drywall & Framing - component 5",
-                "amount": 180000
+                "amount": 110000
+              },
+              {
+                "description": "Drywall & Framing - component 6",
+                "amount": 155000
               }
             ],
             "exclusions": [],
@@ -710,29 +799,33 @@
             "post_bid_updates": []
           },
           {
-            "sub_id": "09-S2",
-            "company": "Olympic Steel",
-            "contact": "Sam Rivera",
-            "email": "olympicsteel@contractor.com",
+            "sub_id": "09-capitol_commercial",
+            "company": "Capitol Commercial Builders",
+            "contact": "Jordan Walsh",
+            "email": "jwalsh@capitolcommercial.com",
             "source": "Excel",
             "submitted_date": "2024-04-19",
-            "base_bid": 445000,
+            "base_bid": 605000,
             "line_items": [
               {
                 "description": "Drywall & Framing - component 1",
-                "amount": 110000
+                "amount": 135000
               },
               {
                 "description": "Drywall & Framing - component 2",
-                "amount": 115000
+                "amount": 130000
               },
               {
                 "description": "Drywall & Framing - component 3",
-                "amount": 110000
+                "amount": 140000
               },
               {
                 "description": "Drywall & Framing - component 4",
-                "amount": 110000
+                "amount": 130000
+              },
+              {
+                "description": "Drywall & Framing - component 5",
+                "amount": 70000
               }
             ],
             "exclusions": [
@@ -746,32 +839,36 @@
             "post_bid_updates": []
           },
           {
-            "sub_id": "09-S3",
-            "company": "Northwest Interiors",
-            "contact": "Walt Burns",
-            "email": "northwestinteriors@contractor.com",
+            "sub_id": "09-pedernales_custom",
+            "company": "Pedernales Custom Homes & Renovations, Inc.",
+            "contact": "Wyatt Burnham",
+            "email": "wburnham@pedernalescustom.com",
             "source": "Email",
             "submitted_date": "2024-04-20",
-            "base_bid": 895000,
+            "base_bid": 485000,
             "line_items": [
               {
                 "description": "Drywall & Framing - component 1",
-                "amount": 245000
+                "amount": 135000
               },
               {
                 "description": "Drywall & Framing - component 2",
-                "amount": 230000
+                "amount": 110000
               },
               {
                 "description": "Drywall & Framing - component 3",
-                "amount": 250000
+                "amount": 100000
               },
               {
                 "description": "Drywall & Framing - component 4",
-                "amount": 170000
+                "amount": 140000
               }
             ],
-            "exclusions": [],
+            "exclusions": [
+              "Shaft wall assemblies - NOT IN CONTRACT",
+              "Extended warranty (by owner)",
+              "Specialty subcontractors and engineered systems (separate quote)"
+            ],
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
@@ -785,25 +882,37 @@
         "csi_code": "09 60 00",
         "bids": [
           {
-            "sub_id": "09-S1",
-            "company": "Pacific NW Concrete",
-            "contact": "Angela Cruz",
-            "email": "pacificnwconcrete@contractor.com",
+            "sub_id": "09-lone_star_healthcare",
+            "company": "Lone Star Healthcare Construction, LLC",
+            "contact": "Reagan Castillo",
+            "email": "rcastillo@lonestarhealthcare.com",
             "source": "PDF",
             "submitted_date": "2024-04-18",
-            "base_bid": 940000,
+            "base_bid": 980000,
             "line_items": [
               {
                 "description": "Flooring - component 1",
-                "amount": 370000
+                "amount": 155000
               },
               {
                 "description": "Flooring - component 2",
-                "amount": 250000
+                "amount": 145000
               },
               {
                 "description": "Flooring - component 3",
-                "amount": 320000
+                "amount": 170000
+              },
+              {
+                "description": "Flooring - component 4",
+                "amount": 135000
+              },
+              {
+                "description": "Flooring - component 5",
+                "amount": 190000
+              },
+              {
+                "description": "Flooring - component 6",
+                "amount": 185000
               }
             ],
             "exclusions": [],
@@ -814,33 +923,33 @@
             "post_bid_updates": []
           },
           {
-            "sub_id": "09-S2",
-            "company": "Puget Sound Mechanical",
-            "contact": "Tom Brady",
-            "email": "pugetsoundmechanical@contractor.com",
+            "sub_id": "09-capitol_commercial",
+            "company": "Capitol Commercial Builders",
+            "contact": "Jordan Walsh",
+            "email": "jwalsh@capitolcommercial.com",
             "source": "Excel",
             "submitted_date": "2024-04-19",
-            "base_bid": 680000,
+            "base_bid": 850000,
             "line_items": [
               {
                 "description": "Flooring - component 1",
-                "amount": 115000
+                "amount": 200000
               },
               {
                 "description": "Flooring - component 2",
-                "amount": 140000
+                "amount": 145000
               },
               {
                 "description": "Flooring - component 3",
-                "amount": 120000
+                "amount": 195000
               },
               {
                 "description": "Flooring - component 4",
-                "amount": 135000
+                "amount": 175000
               },
               {
                 "description": "Flooring - component 5",
-                "amount": 170000
+                "amount": 135000
               }
             ],
             "exclusions": [
@@ -854,28 +963,36 @@
             "post_bid_updates": []
           },
           {
-            "sub_id": "09-S3",
-            "company": "Emerald City Roofing",
-            "contact": "Linda Garza",
-            "email": "emeraldcityroofing@contractor.com",
+            "sub_id": "09-pedernales_custom",
+            "company": "Pedernales Custom Homes & Renovations, Inc.",
+            "contact": "Wyatt Burnham",
+            "email": "wburnham@pedernalescustom.com",
             "source": "Email",
             "submitted_date": "2024-04-20",
-            "base_bid": 1200000,
+            "base_bid": 705000,
             "line_items": [
               {
                 "description": "Flooring - component 1",
-                "amount": 475000
+                "amount": 195000
               },
               {
                 "description": "Flooring - component 2",
-                "amount": 345000
+                "amount": 210000
               },
               {
                 "description": "Flooring - component 3",
-                "amount": 380000
+                "amount": 195000
+              },
+              {
+                "description": "Flooring - component 4",
+                "amount": 105000
               }
             ],
-            "exclusions": [],
+            "exclusions": [
+              "Specialty sheet vinyl in procedure rooms - NOT IN CONTRACT",
+              "Extended warranty (by owner)",
+              "Specialty subcontractors and engineered systems (separate quote)"
+            ],
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
@@ -889,36 +1006,32 @@
         "csi_code": "09 90 00",
         "bids": [
           {
-            "sub_id": "09-S1",
-            "company": "Olympic Steel",
-            "contact": "Sam Rivera",
-            "email": "olympicsteel@contractor.com",
+            "sub_id": "09-lone_star_healthcare",
+            "company": "Lone Star Healthcare Construction, LLC",
+            "contact": "Reagan Castillo",
+            "email": "rcastillo@lonestarhealthcare.com",
             "source": "PDF",
             "submitted_date": "2024-04-18",
-            "base_bid": 380000,
+            "base_bid": 370000,
             "line_items": [
               {
                 "description": "Painting & Wall Coverings - component 1",
-                "amount": 70000
+                "amount": 65000
               },
               {
                 "description": "Painting & Wall Coverings - component 2",
-                "amount": 60000
+                "amount": 85000
               },
               {
                 "description": "Painting & Wall Coverings - component 3",
-                "amount": 75000
+                "amount": 85000
               },
               {
                 "description": "Painting & Wall Coverings - component 4",
-                "amount": 55000
+                "amount": 70000
               },
               {
                 "description": "Painting & Wall Coverings - component 5",
-                "amount": 55000
-              },
-              {
-                "description": "Painting & Wall Coverings - component 6",
                 "amount": 65000
               }
             ],
@@ -930,79 +1043,87 @@
             "post_bid_updates": []
           },
           {
-            "sub_id": "09-S2",
-            "company": "Northwest Interiors",
-            "contact": "Walt Burns",
-            "email": "northwestinteriors@contractor.com",
+            "sub_id": "09-capitol_commercial",
+            "company": "Capitol Commercial Builders",
+            "contact": "Jordan Walsh",
+            "email": "jwalsh@capitolcommercial.com",
             "source": "Excel",
             "submitted_date": "2024-04-19",
-            "base_bid": 230000,
+            "base_bid": 345000,
             "line_items": [
               {
                 "description": "Painting & Wall Coverings - component 1",
-                "amount": 30000
+                "amount": 55000
               },
               {
                 "description": "Painting & Wall Coverings - component 2",
-                "amount": 40000
+                "amount": 55000
               },
               {
                 "description": "Painting & Wall Coverings - component 3",
-                "amount": 35000
+                "amount": 60000
               },
               {
                 "description": "Painting & Wall Coverings - component 4",
-                "amount": 45000
+                "amount": 60000
               },
               {
                 "description": "Painting & Wall Coverings - component 5",
-                "amount": 35000
+                "amount": 50000
               },
               {
                 "description": "Painting & Wall Coverings - component 6",
-                "amount": 45000
+                "amount": 65000
               }
             ],
             "exclusions": [
-              "Exterior painting - NOT IN CONTRACT"
+              "Exterior painting - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
             ],
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
             "notes": "Bid per Pacific HQ Campus drawings issued 03/15/2024.",
-            "post_bid_updates": []
+            "post_bid_updates": [
+              {
+                "update_id": "09-CAP-U1",
+                "date": "2024-04-28",
+                "from": "Jordan Walsh <jwalsh@capitolcommercial.com>",
+                "subject": "RE: Pacific HQ Campus - Exterior painting Scope Add",
+                "body": "Per our conversation this morning: Exterior painting can be added for $25,000. New total is $370,000.",
+                "revised_total": 370000,
+                "delta": 25000,
+                "scope_added": "Exterior painting"
+              }
+            ]
           },
           {
-            "sub_id": "09-S3",
-            "company": "Cascade Plumbing",
-            "contact": "Mike Torres",
-            "email": "cascadeplumbing@contractor.com",
+            "sub_id": "09-pedernales_custom",
+            "company": "Pedernales Custom Homes & Renovations, Inc.",
+            "contact": "Wyatt Burnham",
+            "email": "wburnham@pedernalescustom.com",
             "source": "Email",
             "submitted_date": "2024-04-20",
-            "base_bid": 480000,
+            "base_bid": 280000,
             "line_items": [
               {
                 "description": "Painting & Wall Coverings - component 1",
-                "amount": 110000
+                "amount": 95000
               },
               {
                 "description": "Painting & Wall Coverings - component 2",
-                "amount": 110000
+                "amount": 80000
               },
               {
                 "description": "Painting & Wall Coverings - component 3",
-                "amount": 90000
-              },
-              {
-                "description": "Painting & Wall Coverings - component 4",
-                "amount": 110000
-              },
-              {
-                "description": "Painting & Wall Coverings - component 5",
-                "amount": 60000
+                "amount": 105000
               }
             ],
-            "exclusions": [],
+            "exclusions": [
+              "Exterior painting - NOT IN CONTRACT",
+              "Extended warranty (by owner)",
+              "Specialty subcontractors and engineered systems (separate quote)"
+            ],
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
@@ -1016,74 +1137,75 @@
         "csi_code": "09 51 00",
         "bids": [
           {
-            "sub_id": "09-S1",
-            "company": "Puget Sound Mechanical",
-            "contact": "Tom Brady",
-            "email": "pugetsoundmechanical@contractor.com",
+            "sub_id": "09-lone_star_healthcare",
+            "company": "Lone Star Healthcare Construction, LLC",
+            "contact": "Reagan Castillo",
+            "email": "rcastillo@lonestarhealthcare.com",
             "source": "PDF",
             "submitted_date": "2024-04-18",
             "base_bid": 490000,
             "line_items": [
               {
                 "description": "Acoustical Ceilings (ACT) - component 1",
-                "amount": 135000
+                "amount": 85000
               },
               {
                 "description": "Acoustical Ceilings (ACT) - component 2",
-                "amount": 125000
+                "amount": 90000
               },
               {
                 "description": "Acoustical Ceilings (ACT) - component 3",
-                "amount": 105000
+                "amount": 85000
               },
               {
                 "description": "Acoustical Ceilings (ACT) - component 4",
-                "amount": 125000
-              }
-            ],
-            "exclusions": [],
-            "inclusions": [
-              "All labor, material, and permits per contract documents"
-            ],
-            "notes": "Bid per Pacific HQ Campus drawings issued 03/15/2024.",
-            "post_bid_updates": []
-          },
-          {
-            "sub_id": "09-S2",
-            "company": "Emerald City Roofing",
-            "contact": "Linda Garza",
-            "email": "emeraldcityroofing@contractor.com",
-            "source": "Excel",
-            "submitted_date": "2024-04-19",
-            "base_bid": 335000,
-            "line_items": [
-              {
-                "description": "Acoustical Ceilings (ACT) - component 1",
-                "amount": 55000
-              },
-              {
-                "description": "Acoustical Ceilings (ACT) - component 2",
-                "amount": 55000
-              },
-              {
-                "description": "Acoustical Ceilings (ACT) - component 3",
-                "amount": 55000
-              },
-              {
-                "description": "Acoustical Ceilings (ACT) - component 4",
-                "amount": 65000
+                "amount": 85000
               },
               {
                 "description": "Acoustical Ceilings (ACT) - component 5",
-                "amount": 50000
+                "amount": 75000
               },
               {
                 "description": "Acoustical Ceilings (ACT) - component 6",
-                "amount": 55000
+                "amount": 70000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Pacific HQ Campus drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "09-capitol_commercial",
+            "company": "Capitol Commercial Builders",
+            "contact": "Jordan Walsh",
+            "email": "jwalsh@capitolcommercial.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 450000,
+            "line_items": [
+              {
+                "description": "Acoustical Ceilings (ACT) - component 1",
+                "amount": 95000
+              },
+              {
+                "description": "Acoustical Ceilings (ACT) - component 2",
+                "amount": 95000
+              },
+              {
+                "description": "Acoustical Ceilings (ACT) - component 3",
+                "amount": 110000
+              },
+              {
+                "description": "Acoustical Ceilings (ACT) - component 4",
+                "amount": 150000
               }
             ],
             "exclusions": [
-              "Gypsum board soffits and clouds - NOT IN CONTRACT"
+              "Gypsum board soffits and clouds - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
             ],
             "inclusions": [
               "All labor, material, and permits per contract documents"
@@ -1092,36 +1214,32 @@
             "post_bid_updates": []
           },
           {
-            "sub_id": "09-S3",
-            "company": "Olympic Steel",
-            "contact": "Bill Torres",
-            "email": "olympicsteel@contractor.com",
+            "sub_id": "09-pedernales_custom",
+            "company": "Pedernales Custom Homes & Renovations, Inc.",
+            "contact": "Wyatt Burnham",
+            "email": "wburnham@pedernalescustom.com",
             "source": "Email",
             "submitted_date": "2024-04-20",
-            "base_bid": 640000,
+            "base_bid": 365000,
             "line_items": [
               {
                 "description": "Acoustical Ceilings (ACT) - component 1",
-                "amount": 125000
+                "amount": 110000
               },
               {
                 "description": "Acoustical Ceilings (ACT) - component 2",
-                "amount": 145000
+                "amount": 135000
               },
               {
                 "description": "Acoustical Ceilings (ACT) - component 3",
-                "amount": 105000
-              },
-              {
-                "description": "Acoustical Ceilings (ACT) - component 4",
-                "amount": 145000
-              },
-              {
-                "description": "Acoustical Ceilings (ACT) - component 5",
                 "amount": 120000
               }
             ],
-            "exclusions": [],
+            "exclusions": [
+              "Gypsum board soffits and clouds - NOT IN CONTRACT",
+              "Extended warranty (by owner)",
+              "Specialty subcontractors and engineered systems (separate quote)"
+            ],
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
@@ -1135,33 +1253,29 @@
         "csi_code": "10 00 00",
         "bids": [
           {
-            "sub_id": "10-S1",
-            "company": "Pacific NW Concrete",
-            "contact": "Angela Cruz",
-            "email": "pacificnwconcrete@contractor.com",
+            "sub_id": "10-lone_star_healthcare",
+            "company": "Lone Star Healthcare Construction, LLC",
+            "contact": "Reagan Castillo",
+            "email": "rcastillo@lonestarhealthcare.com",
             "source": "PDF",
             "submitted_date": "2024-04-18",
-            "base_bid": 250000,
+            "base_bid": 240000,
             "line_items": [
               {
                 "description": "Specialties - component 1",
-                "amount": 45000
+                "amount": 65000
               },
               {
                 "description": "Specialties - component 2",
-                "amount": 55000
-              },
-              {
-                "description": "Specialties - component 3",
-                "amount": 60000
-              },
-              {
-                "description": "Specialties - component 4",
                 "amount": 50000
               },
               {
-                "description": "Specialties - component 5",
-                "amount": 40000
+                "description": "Specialties - component 3",
+                "amount": 70000
+              },
+              {
+                "description": "Specialties - component 4",
+                "amount": 55000
               }
             ],
             "exclusions": [],
@@ -1172,63 +1286,53 @@
             "post_bid_updates": []
           },
           {
-            "sub_id": "10-S2",
-            "company": "Puget Sound Mechanical",
-            "contact": "Tom Brady",
-            "email": "pugetsoundmechanical@contractor.com",
+            "sub_id": "10-capitol_commercial",
+            "company": "Capitol Commercial Builders",
+            "contact": "Jordan Walsh",
+            "email": "jwalsh@capitolcommercial.com",
             "source": "Excel",
             "submitted_date": "2024-04-19",
-            "base_bid": 155000,
+            "base_bid": 225000,
             "line_items": [
               {
                 "description": "Specialties - component 1",
-                "amount": 30000
+                "amount": 40000
               },
               {
                 "description": "Specialties - component 2",
-                "amount": 35000
+                "amount": 40000
               },
               {
                 "description": "Specialties - component 3",
-                "amount": 25000
+                "amount": 50000
               },
               {
                 "description": "Specialties - component 4",
-                "amount": 30000
+                "amount": 40000
               },
               {
                 "description": "Specialties - component 5",
-                "amount": 35000
+                "amount": 55000
               }
             ],
             "exclusions": [
-              "ADA signage package - NOT IN CONTRACT"
+              "ADA signage package - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
             ],
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
             "notes": "Bid per Pacific HQ Campus drawings issued 03/15/2024.",
-            "post_bid_updates": [
-              {
-                "update_id": "10-U1",
-                "date": "2024-04-28",
-                "from": "Tom Brady <pugetsoundmechanical@contractor.com>",
-                "subject": "RE: Pacific HQ Campus - ADA signage package Scope Add",
-                "body": "Per our conversation this morning: ADA signage package can be added for $10,000. New total is $165,000.",
-                "revised_total": 165000,
-                "delta": 10000,
-                "scope_added": "ADA signage package"
-              }
-            ]
+            "post_bid_updates": []
           },
           {
-            "sub_id": "10-S3",
-            "company": "Emerald City Roofing",
-            "contact": "Linda Garza",
-            "email": "emeraldcityroofing@contractor.com",
+            "sub_id": "10-pedernales_custom",
+            "company": "Pedernales Custom Homes & Renovations, Inc.",
+            "contact": "Wyatt Burnham",
+            "email": "wburnham@pedernalescustom.com",
             "source": "Email",
             "submitted_date": "2024-04-20",
-            "base_bid": 350000,
+            "base_bid": 190000,
             "line_items": [
               {
                 "description": "Specialties - component 1",
@@ -1240,22 +1344,14 @@
               },
               {
                 "description": "Specialties - component 3",
-                "amount": 50000
-              },
-              {
-                "description": "Specialties - component 4",
-                "amount": 50000
-              },
-              {
-                "description": "Specialties - component 5",
-                "amount": 65000
-              },
-              {
-                "description": "Specialties - component 6",
-                "amount": 65000
+                "amount": 70000
               }
             ],
-            "exclusions": [],
+            "exclusions": [
+              "ADA signage package - NOT IN CONTRACT",
+              "Extended warranty (by owner)",
+              "Specialty subcontractors and engineered systems (separate quote)"
+            ],
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
@@ -1269,29 +1365,25 @@
         "csi_code": "21 00 00",
         "bids": [
           {
-            "sub_id": "21-S1",
-            "company": "Cascade Electric",
-            "contact": "Kevin Walsh",
-            "email": "cascadeelectric@contractor.com",
+            "sub_id": "21-lone_star_healthcare",
+            "company": "Lone Star Healthcare Construction, LLC",
+            "contact": "Reagan Castillo",
+            "email": "rcastillo@lonestarhealthcare.com",
             "source": "PDF",
             "submitted_date": "2024-04-18",
             "base_bid": 585000,
             "line_items": [
               {
                 "description": "Fire Suppression (Sprinklers) - component 1",
-                "amount": 165000
+                "amount": 195000
               },
               {
                 "description": "Fire Suppression (Sprinklers) - component 2",
-                "amount": 140000
+                "amount": 195000
               },
               {
                 "description": "Fire Suppression (Sprinklers) - component 3",
-                "amount": 155000
-              },
-              {
-                "description": "Fire Suppression (Sprinklers) - component 4",
-                "amount": 125000
+                "amount": 195000
               }
             ],
             "exclusions": [],
@@ -1302,90 +1394,68 @@
             "post_bid_updates": []
           },
           {
-            "sub_id": "21-S2",
-            "company": "Pacific NW Concrete",
-            "contact": "Beth Adams",
-            "email": "pacificnwconcrete@contractor.com",
+            "sub_id": "21-capitol_commercial",
+            "company": "Capitol Commercial Builders",
+            "contact": "Jordan Walsh",
+            "email": "jwalsh@capitolcommercial.com",
             "source": "Excel",
             "submitted_date": "2024-04-19",
-            "base_bid": 380000,
+            "base_bid": 535000,
             "line_items": [
               {
                 "description": "Fire Suppression (Sprinklers) - component 1",
-                "amount": 90000
+                "amount": 125000
               },
               {
                 "description": "Fire Suppression (Sprinklers) - component 2",
-                "amount": 65000
+                "amount": 120000
               },
               {
                 "description": "Fire Suppression (Sprinklers) - component 3",
-                "amount": 90000
+                "amount": 115000
               },
               {
                 "description": "Fire Suppression (Sprinklers) - component 4",
-                "amount": 65000
-              },
-              {
-                "description": "Fire Suppression (Sprinklers) - component 5",
-                "amount": 70000
+                "amount": 175000
               }
             ],
             "exclusions": [
-              "Kitchen hood fire suppression - NOT IN CONTRACT"
+              "Kitchen hood fire suppression - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
             ],
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
             "notes": "Bid per Pacific HQ Campus drawings issued 03/15/2024.",
-            "post_bid_updates": [
-              {
-                "update_id": "21-U1",
-                "date": "2024-04-28",
-                "from": "Beth Adams <pacificnwconcrete@contractor.com>",
-                "subject": "RE: Pacific HQ Campus - Kitchen hood fire suppression Scope Add",
-                "body": "Per our conversation this morning: Kitchen hood fire suppression can be added for $25,000. New total is $405,000.",
-                "revised_total": 405000,
-                "delta": 25000,
-                "scope_added": "Kitchen hood fire suppression"
-              }
-            ]
+            "post_bid_updates": []
           },
           {
-            "sub_id": "21-S3",
-            "company": "Puget Sound Mechanical",
-            "contact": "Rick Simmons",
-            "email": "pugetsoundmechanical@contractor.com",
+            "sub_id": "21-pedernales_custom",
+            "company": "Pedernales Custom Homes & Renovations, Inc.",
+            "contact": "Wyatt Burnham",
+            "email": "wburnham@pedernalescustom.com",
             "source": "Email",
             "submitted_date": "2024-04-20",
-            "base_bid": 755000,
+            "base_bid": 450000,
             "line_items": [
               {
                 "description": "Fire Suppression (Sprinklers) - component 1",
-                "amount": 140000
+                "amount": 135000
               },
               {
                 "description": "Fire Suppression (Sprinklers) - component 2",
-                "amount": 105000
+                "amount": 150000
               },
               {
                 "description": "Fire Suppression (Sprinklers) - component 3",
-                "amount": 145000
-              },
-              {
-                "description": "Fire Suppression (Sprinklers) - component 4",
-                "amount": 140000
-              },
-              {
-                "description": "Fire Suppression (Sprinklers) - component 5",
-                "amount": 105000
-              },
-              {
-                "description": "Fire Suppression (Sprinklers) - component 6",
-                "amount": 120000
+                "amount": 165000
               }
             ],
-            "exclusions": [],
+            "exclusions": [
+              "Kitchen hood fire suppression - NOT IN CONTRACT",
+              "Extended warranty (by owner)",
+              "Specialty subcontractors and engineered systems (separate quote)"
+            ],
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
@@ -1399,37 +1469,29 @@
         "csi_code": "22 00 00",
         "bids": [
           {
-            "sub_id": "22-S1",
-            "company": "Puget Sound Mechanical",
-            "contact": "Carl Johnson",
-            "email": "pugetsoundmechanical@contractor.com",
+            "sub_id": "22-lone_star_healthcare",
+            "company": "Lone Star Healthcare Construction, LLC",
+            "contact": "Reagan Castillo",
+            "email": "rcastillo@lonestarhealthcare.com",
             "source": "PDF",
             "submitted_date": "2024-04-18",
-            "base_bid": 1125000,
+            "base_bid": 1100000,
             "line_items": [
               {
                 "description": "Plumbing - component 1",
-                "amount": 185000
+                "amount": 225000
               },
               {
                 "description": "Plumbing - component 2",
-                "amount": 180000
+                "amount": 260000
               },
               {
                 "description": "Plumbing - component 3",
-                "amount": 180000
+                "amount": 320000
               },
               {
                 "description": "Plumbing - component 4",
-                "amount": 175000
-              },
-              {
-                "description": "Plumbing - component 5",
-                "amount": 220000
-              },
-              {
-                "description": "Plumbing - component 6",
-                "amount": 185000
+                "amount": 295000
               }
             ],
             "exclusions": [],
@@ -1440,25 +1502,25 @@
             "post_bid_updates": []
           },
           {
-            "sub_id": "22-S2",
-            "company": "Emerald City Roofing",
-            "contact": "Pete Adams",
-            "email": "emeraldcityroofing@contractor.com",
+            "sub_id": "22-capitol_commercial",
+            "company": "Capitol Commercial Builders",
+            "contact": "Jordan Walsh",
+            "email": "jwalsh@capitolcommercial.com",
             "source": "Excel",
             "submitted_date": "2024-04-19",
-            "base_bid": 720000,
+            "base_bid": 965000,
             "line_items": [
               {
                 "description": "Plumbing - component 1",
-                "amount": 140000
+                "amount": 145000
               },
               {
                 "description": "Plumbing - component 2",
-                "amount": 125000
+                "amount": 145000
               },
               {
                 "description": "Plumbing - component 3",
-                "amount": 150000
+                "amount": 190000
               },
               {
                 "description": "Plumbing - component 4",
@@ -1466,6 +1528,10 @@
               },
               {
                 "description": "Plumbing - component 5",
+                "amount": 180000
+              },
+              {
+                "description": "Plumbing - component 6",
                 "amount": 155000
               }
             ],
@@ -1477,20 +1543,31 @@
               "All labor, material, and permits per contract documents"
             ],
             "notes": "Bid per Pacific HQ Campus drawings issued 03/15/2024.",
-            "post_bid_updates": []
+            "post_bid_updates": [
+              {
+                "update_id": "22-CAP-U1",
+                "date": "2024-04-28",
+                "from": "Jordan Walsh <jwalsh@capitolcommercial.com>",
+                "subject": "RE: Pacific HQ Campus - Medical gas outlets and zone valves Add",
+                "body": "We can include Medical gas outlets and zone valves for an additional $70,000. Revised total would be $1,035,000.",
+                "revised_total": 1035000,
+                "delta": 70000,
+                "scope_added": "Medical gas outlets and zone valves"
+              }
+            ]
           },
           {
-            "sub_id": "22-S3",
-            "company": "Olympic Steel",
-            "contact": "Sam Rivera",
-            "email": "olympicsteel@contractor.com",
+            "sub_id": "22-pedernales_custom",
+            "company": "Pedernales Custom Homes & Renovations, Inc.",
+            "contact": "Wyatt Burnham",
+            "email": "wburnham@pedernalescustom.com",
             "source": "Email",
             "submitted_date": "2024-04-20",
-            "base_bid": 1375000,
+            "base_bid": 810000,
             "line_items": [
               {
                 "description": "Plumbing - component 1",
-                "amount": 275000
+                "amount": 270000
               },
               {
                 "description": "Plumbing - component 2",
@@ -1498,18 +1575,14 @@
               },
               {
                 "description": "Plumbing - component 3",
-                "amount": 275000
-              },
-              {
-                "description": "Plumbing - component 4",
-                "amount": 230000
-              },
-              {
-                "description": "Plumbing - component 5",
-                "amount": 280000
+                "amount": 225000
               }
             ],
-            "exclusions": [],
+            "exclusions": [
+              "Medical gas outlets and zone valves - NOT IN CONTRACT",
+              "Extended warranty (by owner)",
+              "Specialty subcontractors and engineered systems (separate quote)"
+            ],
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
@@ -1523,17 +1596,17 @@
         "csi_code": "23 00 00",
         "bids": [
           {
-            "sub_id": "23-S1",
-            "company": "Puget Sound Mechanical",
-            "contact": "Bill Torres",
-            "email": "pugetsoundmechanical@contractor.com",
+            "sub_id": "23-lone_star_healthcare",
+            "company": "Lone Star Healthcare Construction, LLC",
+            "contact": "Reagan Castillo",
+            "email": "rcastillo@lonestarhealthcare.com",
             "source": "PDF",
             "submitted_date": "2024-04-18",
-            "base_bid": 1590000,
+            "base_bid": 1615000,
             "line_items": [
               {
                 "description": "Mechanical (HVAC) - component 1",
-                "amount": 420000
+                "amount": 635000
               },
               {
                 "description": "Mechanical (HVAC) - component 2",
@@ -1541,11 +1614,7 @@
               },
               {
                 "description": "Mechanical (HVAC) - component 3",
-                "amount": 445000
-              },
-              {
-                "description": "Mechanical (HVAC) - component 4",
-                "amount": 280000
+                "amount": 535000
               }
             ],
             "exclusions": [],
@@ -1556,33 +1625,33 @@
             "post_bid_updates": []
           },
           {
-            "sub_id": "23-S2",
-            "company": "Emerald City Roofing",
-            "contact": "Priya Nair",
-            "email": "emeraldcityroofing@contractor.com",
+            "sub_id": "23-capitol_commercial",
+            "company": "Capitol Commercial Builders",
+            "contact": "Jordan Walsh",
+            "email": "jwalsh@capitolcommercial.com",
             "source": "Excel",
             "submitted_date": "2024-04-19",
-            "base_bid": 1075000,
+            "base_bid": 1460000,
             "line_items": [
               {
                 "description": "Mechanical (HVAC) - component 1",
-                "amount": 215000
+                "amount": 270000
               },
               {
                 "description": "Mechanical (HVAC) - component 2",
-                "amount": 240000
+                "amount": 300000
               },
               {
                 "description": "Mechanical (HVAC) - component 3",
-                "amount": 200000
+                "amount": 235000
               },
               {
                 "description": "Mechanical (HVAC) - component 4",
-                "amount": 220000
+                "amount": 255000
               },
               {
                 "description": "Mechanical (HVAC) - component 5",
-                "amount": 200000
+                "amount": 400000
               }
             ],
             "exclusions": [
@@ -1593,39 +1662,54 @@
               "All labor, material, and permits per contract documents"
             ],
             "notes": "Bid per Pacific HQ Campus drawings issued 03/15/2024.",
-            "post_bid_updates": []
+            "post_bid_updates": [
+              {
+                "update_id": "23-CAP-U1",
+                "date": "2024-04-28",
+                "from": "Jordan Walsh <jwalsh@capitolcommercial.com>",
+                "subject": "RE: Pacific HQ Campus - Medical gas rough-in and kitchen hood exhaust Clarification",
+                "body": "Following up on our call \u2014 we can pick up Medical gas rough-in and kitchen hood exhaust for $100,000 additional. Revised total $1,560,000.",
+                "revised_total": 1560000,
+                "delta": 100000,
+                "scope_added": "Medical gas rough-in and kitchen hood exhaust"
+              }
+            ]
           },
           {
-            "sub_id": "23-S3",
-            "company": "Olympic Steel",
-            "contact": "Rob Flores",
-            "email": "olympicsteel@contractor.com",
+            "sub_id": "23-pedernales_custom",
+            "company": "Pedernales Custom Homes & Renovations, Inc.",
+            "contact": "Wyatt Burnham",
+            "email": "wburnham@pedernalescustom.com",
             "source": "Email",
             "submitted_date": "2024-04-20",
-            "base_bid": 1975000,
+            "base_bid": 1195000,
             "line_items": [
               {
                 "description": "Mechanical (HVAC) - component 1",
-                "amount": 375000
+                "amount": 260000
               },
               {
                 "description": "Mechanical (HVAC) - component 2",
-                "amount": 345000
+                "amount": 215000
               },
               {
                 "description": "Mechanical (HVAC) - component 3",
-                "amount": 365000
+                "amount": 225000
               },
               {
                 "description": "Mechanical (HVAC) - component 4",
-                "amount": 350000
+                "amount": 285000
               },
               {
                 "description": "Mechanical (HVAC) - component 5",
-                "amount": 540000
+                "amount": 210000
               }
             ],
-            "exclusions": [],
+            "exclusions": [
+              "Medical gas rough-in and kitchen hood exhaust - NOT IN CONTRACT",
+              "Extended warranty (by owner)",
+              "Specialty subcontractors and engineered systems (separate quote)"
+            ],
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
@@ -1639,33 +1723,29 @@
         "csi_code": "26 00 00",
         "bids": [
           {
-            "sub_id": "26-S1",
-            "company": "Northwest Interiors",
-            "contact": "Lisa Chang",
-            "email": "northwestinteriors@contractor.com",
+            "sub_id": "26-lone_star_healthcare",
+            "company": "Lone Star Healthcare Construction, LLC",
+            "contact": "Reagan Castillo",
+            "email": "rcastillo@lonestarhealthcare.com",
             "source": "PDF",
             "submitted_date": "2024-04-18",
-            "base_bid": 1370000,
+            "base_bid": 1335000,
             "line_items": [
               {
                 "description": "Electrical - component 1",
-                "amount": 305000
+                "amount": 285000
               },
               {
                 "description": "Electrical - component 2",
-                "amount": 330000
+                "amount": 390000
               },
               {
                 "description": "Electrical - component 3",
-                "amount": 325000
+                "amount": 270000
               },
               {
                 "description": "Electrical - component 4",
-                "amount": 230000
-              },
-              {
-                "description": "Electrical - component 5",
-                "amount": 180000
+                "amount": 390000
               }
             ],
             "exclusions": [],
@@ -1676,37 +1756,30 @@
             "post_bid_updates": []
           },
           {
-            "sub_id": "26-S2",
-            "company": "Cascade Plumbing",
-            "contact": "James Brown",
-            "email": "cascadeplumbing@contractor.com",
+            "sub_id": "26-capitol_commercial",
+            "company": "Capitol Commercial Builders",
+            "contact": "Jordan Walsh",
+            "email": "jwalsh@capitolcommercial.com",
             "source": "Excel",
             "submitted_date": "2024-04-19",
-            "base_bid": 940000,
+            "base_bid": 1215000,
             "line_items": [
               {
                 "description": "Electrical - component 1",
-                "amount": 190000
+                "amount": 480000
               },
               {
                 "description": "Electrical - component 2",
-                "amount": 210000
+                "amount": 325000
               },
               {
                 "description": "Electrical - component 3",
-                "amount": 205000
-              },
-              {
-                "description": "Electrical - component 4",
-                "amount": 210000
-              },
-              {
-                "description": "Electrical - component 5",
-                "amount": 125000
+                "amount": 410000
               }
             ],
             "exclusions": [
-              "Fire alarm system - NOT IN CONTRACT"
+              "Fire alarm system - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
             ],
             "inclusions": [
               "All labor, material, and permits per contract documents"
@@ -1715,32 +1788,40 @@
             "post_bid_updates": []
           },
           {
-            "sub_id": "26-S3",
-            "company": "Pacific NW Framing",
-            "contact": "Maria Valdez",
-            "email": "pacificnwframing@contractor.com",
+            "sub_id": "26-pedernales_custom",
+            "company": "Pedernales Custom Homes & Renovations, Inc.",
+            "contact": "Wyatt Burnham",
+            "email": "wburnham@pedernalescustom.com",
             "source": "Email",
             "submitted_date": "2024-04-20",
-            "base_bid": 1575000,
+            "base_bid": 995000,
             "line_items": [
               {
                 "description": "Electrical - component 1",
-                "amount": 405000
+                "amount": 165000
               },
               {
                 "description": "Electrical - component 2",
-                "amount": 470000
+                "amount": 200000
               },
               {
                 "description": "Electrical - component 3",
-                "amount": 375000
+                "amount": 180000
               },
               {
                 "description": "Electrical - component 4",
-                "amount": 325000
+                "amount": 200000
+              },
+              {
+                "description": "Electrical - component 5",
+                "amount": 250000
               }
             ],
-            "exclusions": [],
+            "exclusions": [
+              "Fire alarm system - NOT IN CONTRACT",
+              "Extended warranty (by owner)",
+              "Specialty subcontractors and engineered systems (separate quote)"
+            ],
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
@@ -1754,33 +1835,33 @@
         "csi_code": "27 00 00",
         "bids": [
           {
-            "sub_id": "27-S1",
-            "company": "Pacific NW Concrete",
-            "contact": "Lisa Chang",
-            "email": "pacificnwconcrete@contractor.com",
+            "sub_id": "27-lone_star_healthcare",
+            "company": "Lone Star Healthcare Construction, LLC",
+            "contact": "Reagan Castillo",
+            "email": "rcastillo@lonestarhealthcare.com",
             "source": "PDF",
             "submitted_date": "2024-04-18",
-            "base_bid": 750000,
+            "base_bid": 740000,
             "line_items": [
               {
                 "description": "Communications (Data, AV, Tel) - component 1",
-                "amount": 170000
+                "amount": 125000
               },
               {
                 "description": "Communications (Data, AV, Tel) - component 2",
-                "amount": 160000
-              },
-              {
-                "description": "Communications (Data, AV, Tel) - component 3",
                 "amount": 175000
               },
               {
+                "description": "Communications (Data, AV, Tel) - component 3",
+                "amount": 170000
+              },
+              {
                 "description": "Communications (Data, AV, Tel) - component 4",
-                "amount": 120000
+                "amount": 150000
               },
               {
                 "description": "Communications (Data, AV, Tel) - component 5",
-                "amount": 125000
+                "amount": 120000
               }
             ],
             "exclusions": [],
@@ -1791,17 +1872,17 @@
             "post_bid_updates": []
           },
           {
-            "sub_id": "27-S2",
-            "company": "Puget Sound Mechanical",
-            "contact": "James Brown",
-            "email": "pugetsoundmechanical@contractor.com",
+            "sub_id": "27-capitol_commercial",
+            "company": "Capitol Commercial Builders",
+            "contact": "Jordan Walsh",
+            "email": "jwalsh@capitolcommercial.com",
             "source": "Excel",
             "submitted_date": "2024-04-19",
-            "base_bid": 435000,
+            "base_bid": 670000,
             "line_items": [
               {
                 "description": "Communications (Data, AV, Tel) - component 1",
-                "amount": 110000
+                "amount": 135000
               },
               {
                 "description": "Communications (Data, AV, Tel) - component 2",
@@ -1809,11 +1890,19 @@
               },
               {
                 "description": "Communications (Data, AV, Tel) - component 3",
-                "amount": 130000
+                "amount": 95000
               },
               {
                 "description": "Communications (Data, AV, Tel) - component 4",
-                "amount": 100000
+                "amount": 95000
+              },
+              {
+                "description": "Communications (Data, AV, Tel) - component 5",
+                "amount": 125000
+              },
+              {
+                "description": "Communications (Data, AV, Tel) - component 6",
+                "amount": 125000
               }
             ],
             "exclusions": [
@@ -1826,52 +1915,44 @@
             "notes": "Bid per Pacific HQ Campus drawings issued 03/15/2024.",
             "post_bid_updates": [
               {
-                "update_id": "27-U1",
+                "update_id": "27-CAP-U1",
                 "date": "2024-04-28",
-                "from": "James Brown <pugetsoundmechanical@contractor.com>",
-                "subject": "RE: Pacific HQ Campus - AV rough-in for conference rooms Scope Add",
-                "body": "Per our conversation this morning: AV rough-in for conference rooms can be added for $30,000. New total is $465,000.",
-                "revised_total": 465000,
-                "delta": 30000,
+                "from": "Jordan Walsh <jwalsh@capitolcommercial.com>",
+                "subject": "RE: Pacific HQ Campus - AV rough-in for conference rooms Clarification",
+                "body": "Following up on our call \u2014 we can pick up AV rough-in for conference rooms for $45,000 additional. Revised total $715,000.",
+                "revised_total": 715000,
+                "delta": 45000,
                 "scope_added": "AV rough-in for conference rooms"
               }
             ]
           },
           {
-            "sub_id": "27-S3",
-            "company": "Emerald City Roofing",
-            "contact": "Maria Valdez",
-            "email": "emeraldcityroofing@contractor.com",
+            "sub_id": "27-pedernales_custom",
+            "company": "Pedernales Custom Homes & Renovations, Inc.",
+            "contact": "Wyatt Burnham",
+            "email": "wburnham@pedernalescustom.com",
             "source": "Email",
             "submitted_date": "2024-04-20",
-            "base_bid": 925000,
+            "base_bid": 520000,
             "line_items": [
               {
                 "description": "Communications (Data, AV, Tel) - component 1",
-                "amount": 155000
+                "amount": 170000
               },
               {
                 "description": "Communications (Data, AV, Tel) - component 2",
-                "amount": 135000
+                "amount": 205000
               },
               {
                 "description": "Communications (Data, AV, Tel) - component 3",
-                "amount": 125000
-              },
-              {
-                "description": "Communications (Data, AV, Tel) - component 4",
-                "amount": 125000
-              },
-              {
-                "description": "Communications (Data, AV, Tel) - component 5",
-                "amount": 160000
-              },
-              {
-                "description": "Communications (Data, AV, Tel) - component 6",
-                "amount": 225000
+                "amount": 145000
               }
             ],
-            "exclusions": [],
+            "exclusions": [
+              "AV rough-in for conference rooms - NOT IN CONTRACT",
+              "Extended warranty (by owner)",
+              "Specialty subcontractors and engineered systems (separate quote)"
+            ],
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
@@ -1885,10 +1966,10 @@
         "csi_code": "28 00 00",
         "bids": [
           {
-            "sub_id": "28-S1",
-            "company": "Puget Sound Mechanical",
-            "contact": "Sam Rivera",
-            "email": "pugetsoundmechanical@contractor.com",
+            "sub_id": "28-lone_star_healthcare",
+            "company": "Lone Star Healthcare Construction, LLC",
+            "contact": "Reagan Castillo",
+            "email": "rcastillo@lonestarhealthcare.com",
             "source": "PDF",
             "submitted_date": "2024-04-18",
             "base_bid": 375000,
@@ -1899,15 +1980,19 @@
               },
               {
                 "description": "Electronic Safety & Security - component 2",
-                "amount": 80000
+                "amount": 70000
               },
               {
                 "description": "Electronic Safety & Security - component 3",
-                "amount": 105000
+                "amount": 85000
               },
               {
                 "description": "Electronic Safety & Security - component 4",
-                "amount": 100000
+                "amount": 70000
+              },
+              {
+                "description": "Electronic Safety & Security - component 5",
+                "amount": 60000
               }
             ],
             "exclusions": [],
@@ -1918,25 +2003,25 @@
             "post_bid_updates": []
           },
           {
-            "sub_id": "28-S2",
-            "company": "Emerald City Roofing",
-            "contact": "Walt Burns",
-            "email": "emeraldcityroofing@contractor.com",
+            "sub_id": "28-capitol_commercial",
+            "company": "Capitol Commercial Builders",
+            "contact": "Jordan Walsh",
+            "email": "jwalsh@capitolcommercial.com",
             "source": "Excel",
             "submitted_date": "2024-04-19",
-            "base_bid": 240000,
+            "base_bid": 350000,
             "line_items": [
               {
                 "description": "Electronic Safety & Security - component 1",
-                "amount": 65000
+                "amount": 135000
               },
               {
                 "description": "Electronic Safety & Security - component 2",
-                "amount": 85000
+                "amount": 100000
               },
               {
                 "description": "Electronic Safety & Security - component 3",
-                "amount": 90000
+                "amount": 115000
               }
             ],
             "exclusions": [
@@ -1947,35 +2032,46 @@
               "All labor, material, and permits per contract documents"
             ],
             "notes": "Bid per Pacific HQ Campus drawings issued 03/15/2024.",
-            "post_bid_updates": []
+            "post_bid_updates": [
+              {
+                "update_id": "28-CAP-U1",
+                "date": "2024-04-28",
+                "from": "Jordan Walsh <jwalsh@capitolcommercial.com>",
+                "subject": "RE: Pacific HQ Campus - Exterior access control and parking Add",
+                "body": "We can include Exterior access control and parking for an additional $25,000. Revised total would be $375,000.",
+                "revised_total": 375000,
+                "delta": 25000,
+                "scope_added": "Exterior access control and parking"
+              }
+            ]
           },
           {
-            "sub_id": "28-S3",
-            "company": "Olympic Steel",
-            "contact": "Mike Torres",
-            "email": "olympicsteel@contractor.com",
+            "sub_id": "28-pedernales_custom",
+            "company": "Pedernales Custom Homes & Renovations, Inc.",
+            "contact": "Wyatt Burnham",
+            "email": "wburnham@pedernalescustom.com",
             "source": "Email",
             "submitted_date": "2024-04-20",
-            "base_bid": 510000,
+            "base_bid": 290000,
             "line_items": [
               {
                 "description": "Electronic Safety & Security - component 1",
-                "amount": 140000
+                "amount": 85000
               },
               {
                 "description": "Electronic Safety & Security - component 2",
-                "amount": 145000
+                "amount": 85000
               },
               {
                 "description": "Electronic Safety & Security - component 3",
-                "amount": 145000
-              },
-              {
-                "description": "Electronic Safety & Security - component 4",
-                "amount": 80000
+                "amount": 120000
               }
             ],
-            "exclusions": [],
+            "exclusions": [
+              "Exterior access control and parking - NOT IN CONTRACT",
+              "Extended warranty (by owner)",
+              "Specialty subcontractors and engineered systems (separate quote)"
+            ],
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
@@ -1989,25 +2085,33 @@
         "csi_code": "31 00 00",
         "bids": [
           {
-            "sub_id": "31-S1",
-            "company": "Emerald City Roofing",
-            "contact": "Lisa Chang",
-            "email": "emeraldcityroofing@contractor.com",
+            "sub_id": "31-lone_star_healthcare",
+            "company": "Lone Star Healthcare Construction, LLC",
+            "contact": "Reagan Castillo",
+            "email": "rcastillo@lonestarhealthcare.com",
             "source": "PDF",
             "submitted_date": "2024-04-18",
-            "base_bid": 730000,
+            "base_bid": 690000,
             "line_items": [
               {
                 "description": "Earthwork, Grading & Site Preparation - component 1",
-                "amount": 225000
+                "amount": 165000
               },
               {
                 "description": "Earthwork, Grading & Site Preparation - component 2",
-                "amount": 225000
+                "amount": 120000
               },
               {
                 "description": "Earthwork, Grading & Site Preparation - component 3",
-                "amount": 280000
+                "amount": 125000
+              },
+              {
+                "description": "Earthwork, Grading & Site Preparation - component 4",
+                "amount": 125000
+              },
+              {
+                "description": "Earthwork, Grading & Site Preparation - component 5",
+                "amount": 155000
               }
             ],
             "exclusions": [],
@@ -2018,56 +2122,13 @@
             "post_bid_updates": []
           },
           {
-            "sub_id": "31-S2",
-            "company": "Olympic Steel",
-            "contact": "James Brown",
-            "email": "olympicsteel@contractor.com",
+            "sub_id": "31-capitol_commercial",
+            "company": "Capitol Commercial Builders",
+            "contact": "Jordan Walsh",
+            "email": "jwalsh@capitolcommercial.com",
             "source": "Excel",
             "submitted_date": "2024-04-19",
-            "base_bid": 430000,
-            "line_items": [
-              {
-                "description": "Earthwork, Grading & Site Preparation - component 1",
-                "amount": 80000
-              },
-              {
-                "description": "Earthwork, Grading & Site Preparation - component 2",
-                "amount": 85000
-              },
-              {
-                "description": "Earthwork, Grading & Site Preparation - component 3",
-                "amount": 75000
-              },
-              {
-                "description": "Earthwork, Grading & Site Preparation - component 4",
-                "amount": 60000
-              },
-              {
-                "description": "Earthwork, Grading & Site Preparation - component 5",
-                "amount": 85000
-              },
-              {
-                "description": "Earthwork, Grading & Site Preparation - component 6",
-                "amount": 45000
-              }
-            ],
-            "exclusions": [
-              "Rock excavation allowance - NOT IN CONTRACT"
-            ],
-            "inclusions": [
-              "All labor, material, and permits per contract documents"
-            ],
-            "notes": "Bid per Pacific HQ Campus drawings issued 03/15/2024.",
-            "post_bid_updates": []
-          },
-          {
-            "sub_id": "31-S3",
-            "company": "Northwest Interiors",
-            "contact": "Maria Valdez",
-            "email": "northwestinteriors@contractor.com",
-            "source": "Email",
-            "submitted_date": "2024-04-20",
-            "base_bid": 970000,
+            "base_bid": 625000,
             "line_items": [
               {
                 "description": "Earthwork, Grading & Site Preparation - component 1",
@@ -2075,7 +2136,7 @@
               },
               {
                 "description": "Earthwork, Grading & Site Preparation - component 2",
-                "amount": 200000
+                "amount": 145000
               },
               {
                 "description": "Earthwork, Grading & Site Preparation - component 3",
@@ -2083,14 +2144,50 @@
               },
               {
                 "description": "Earthwork, Grading & Site Preparation - component 4",
-                "amount": 180000
-              },
-              {
-                "description": "Earthwork, Grading & Site Preparation - component 5",
-                "amount": 245000
+                "amount": 135000
               }
             ],
-            "exclusions": [],
+            "exclusions": [
+              "Rock excavation allowance - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Pacific HQ Campus drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "31-pedernales_custom",
+            "company": "Pedernales Custom Homes & Renovations, Inc.",
+            "contact": "Wyatt Burnham",
+            "email": "wburnham@pedernalescustom.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 525000,
+            "line_items": [
+              {
+                "description": "Earthwork, Grading & Site Preparation - component 1",
+                "amount": 150000
+              },
+              {
+                "description": "Earthwork, Grading & Site Preparation - component 2",
+                "amount": 120000
+              },
+              {
+                "description": "Earthwork, Grading & Site Preparation - component 3",
+                "amount": 110000
+              },
+              {
+                "description": "Earthwork, Grading & Site Preparation - component 4",
+                "amount": 145000
+              }
+            ],
+            "exclusions": [
+              "Rock excavation allowance - NOT IN CONTRACT",
+              "Extended warranty (by owner)",
+              "Specialty subcontractors and engineered systems (separate quote)"
+            ],
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
@@ -2104,100 +2201,116 @@
         "csi_code": "32 00 00",
         "bids": [
           {
-            "sub_id": "32-S1",
-            "company": "Pacific NW Concrete",
-            "contact": "Ed Turner",
-            "email": "pacificnwconcrete@contractor.com",
+            "sub_id": "32-lone_star_healthcare",
+            "company": "Lone Star Healthcare Construction, LLC",
+            "contact": "Reagan Castillo",
+            "email": "rcastillo@lonestarhealthcare.com",
             "source": "PDF",
             "submitted_date": "2024-04-18",
-            "base_bid": 1010000,
+            "base_bid": 975000,
             "line_items": [
               {
                 "description": "Site Paving, Curbs & Landscaping - component 1",
-                "amount": 190000
+                "amount": 350000
               },
               {
                 "description": "Site Paving, Curbs & Landscaping - component 2",
-                "amount": 185000
+                "amount": 295000
               },
               {
                 "description": "Site Paving, Curbs & Landscaping - component 3",
-                "amount": 175000
+                "amount": 330000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Pacific HQ Campus drawings issued 03/15/2024.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "32-capitol_commercial",
+            "company": "Capitol Commercial Builders",
+            "contact": "Jordan Walsh",
+            "email": "jwalsh@capitolcommercial.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 940000,
+            "line_items": [
+              {
+                "description": "Site Paving, Curbs & Landscaping - component 1",
+                "amount": 180000
+              },
+              {
+                "description": "Site Paving, Curbs & Landscaping - component 2",
+                "amount": 160000
+              },
+              {
+                "description": "Site Paving, Curbs & Landscaping - component 3",
+                "amount": 160000
               },
               {
                 "description": "Site Paving, Curbs & Landscaping - component 4",
-                "amount": 145000
+                "amount": 130000
               },
               {
                 "description": "Site Paving, Curbs & Landscaping - component 5",
-                "amount": 155000
+                "amount": 130000
               },
               {
                 "description": "Site Paving, Curbs & Landscaping - component 6",
-                "amount": 160000
-              }
-            ],
-            "exclusions": [],
-            "inclusions": [
-              "All labor, material, and permits per contract documents"
-            ],
-            "notes": "Bid per Pacific HQ Campus drawings issued 03/15/2024.",
-            "post_bid_updates": []
-          },
-          {
-            "sub_id": "32-S2",
-            "company": "Puget Sound Mechanical",
-            "contact": "Carl Johnson",
-            "email": "pugetsoundmechanical@contractor.com",
-            "source": "Excel",
-            "submitted_date": "2024-04-19",
-            "base_bid": 650000,
-            "line_items": [
-              {
-                "description": "Site Paving, Curbs & Landscaping - component 1",
-                "amount": 255000
-              },
-              {
-                "description": "Site Paving, Curbs & Landscaping - component 2",
-                "amount": 185000
-              },
-              {
-                "description": "Site Paving, Curbs & Landscaping - component 3",
-                "amount": 210000
+                "amount": 180000
               }
             ],
             "exclusions": [
-              "Landscaping and irrigation - NOT IN CONTRACT"
+              "Landscaping and irrigation - NOT IN CONTRACT",
+              "Extended warranty (by owner)"
             ],
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
             "notes": "Bid per Pacific HQ Campus drawings issued 03/15/2024.",
-            "post_bid_updates": []
+            "post_bid_updates": [
+              {
+                "update_id": "32-CAP-U1",
+                "date": "2024-04-28",
+                "from": "Jordan Walsh <jwalsh@capitolcommercial.com>",
+                "subject": "RE: Pacific HQ Campus - Landscaping and irrigation Add",
+                "body": "We can include Landscaping and irrigation for an additional $65,000. Revised total would be $1,005,000.",
+                "revised_total": 1005000,
+                "delta": 65000,
+                "scope_added": "Landscaping and irrigation"
+              }
+            ]
           },
           {
-            "sub_id": "32-S3",
-            "company": "Emerald City Roofing",
-            "contact": "Pete Adams",
-            "email": "emeraldcityroofing@contractor.com",
+            "sub_id": "32-pedernales_custom",
+            "company": "Pedernales Custom Homes & Renovations, Inc.",
+            "contact": "Wyatt Burnham",
+            "email": "wburnham@pedernalescustom.com",
             "source": "Email",
             "submitted_date": "2024-04-20",
-            "base_bid": 1325000,
+            "base_bid": 750000,
             "line_items": [
               {
                 "description": "Site Paving, Curbs & Landscaping - component 1",
-                "amount": 395000
+                "amount": 200000
               },
               {
                 "description": "Site Paving, Curbs & Landscaping - component 2",
-                "amount": 525000
+                "amount": 285000
               },
               {
                 "description": "Site Paving, Curbs & Landscaping - component 3",
-                "amount": 405000
+                "amount": 265000
               }
             ],
-            "exclusions": [],
+            "exclusions": [
+              "Landscaping and irrigation - NOT IN CONTRACT",
+              "Extended warranty (by owner)",
+              "Specialty subcontractors and engineered systems (separate quote)"
+            ],
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
@@ -2211,25 +2324,25 @@
         "csi_code": "33 00 00",
         "bids": [
           {
-            "sub_id": "33-S1",
-            "company": "Cascade Electric",
-            "contact": "Rob Flores",
-            "email": "cascadeelectric@contractor.com",
+            "sub_id": "33-lone_star_healthcare",
+            "company": "Lone Star Healthcare Construction, LLC",
+            "contact": "Reagan Castillo",
+            "email": "rcastillo@lonestarhealthcare.com",
             "source": "PDF",
             "submitted_date": "2024-04-18",
-            "base_bid": 685000,
+            "base_bid": 675000,
             "line_items": [
               {
                 "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 1",
-                "amount": 135000
+                "amount": 105000
               },
               {
                 "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 2",
-                "amount": 125000
+                "amount": 120000
               },
               {
                 "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 3",
-                "amount": 125000
+                "amount": 120000
               },
               {
                 "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 4",
@@ -2237,7 +2350,11 @@
               },
               {
                 "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 5",
-                "amount": 185000
+                "amount": 100000
+              },
+              {
+                "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 6",
+                "amount": 115000
               }
             ],
             "exclusions": [],
@@ -2248,25 +2365,25 @@
             "post_bid_updates": []
           },
           {
-            "sub_id": "33-S2",
-            "company": "Pacific NW Concrete",
-            "contact": "Lisa Chang",
-            "email": "pacificnwconcrete@contractor.com",
+            "sub_id": "33-capitol_commercial",
+            "company": "Capitol Commercial Builders",
+            "contact": "Jordan Walsh",
+            "email": "jwalsh@capitolcommercial.com",
             "source": "Excel",
             "submitted_date": "2024-04-19",
-            "base_bid": 450000,
+            "base_bid": 655000,
             "line_items": [
               {
                 "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 1",
-                "amount": 165000
+                "amount": 260000
               },
               {
                 "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 2",
-                "amount": 125000
+                "amount": 190000
               },
               {
                 "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 3",
-                "amount": 160000
+                "amount": 205000
               }
             ],
             "exclusions": [
@@ -2280,40 +2397,36 @@
             "post_bid_updates": []
           },
           {
-            "sub_id": "33-S3",
-            "company": "Puget Sound Mechanical",
-            "contact": "James Brown",
-            "email": "pugetsoundmechanical@contractor.com",
+            "sub_id": "33-pedernales_custom",
+            "company": "Pedernales Custom Homes & Renovations, Inc.",
+            "contact": "Wyatt Burnham",
+            "email": "wburnham@pedernalescustom.com",
             "source": "Email",
             "submitted_date": "2024-04-20",
-            "base_bid": 860000,
+            "base_bid": 525000,
             "line_items": [
               {
                 "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 1",
-                "amount": 155000
+                "amount": 110000
               },
               {
                 "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 2",
-                "amount": 170000
+                "amount": 150000
               },
               {
                 "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 3",
-                "amount": 165000
-              },
-              {
-                "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 4",
                 "amount": 145000
               },
               {
-                "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 5",
-                "amount": 135000
-              },
-              {
-                "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 6",
-                "amount": 90000
+                "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 4",
+                "amount": 120000
               }
             ],
-            "exclusions": [],
+            "exclusions": [
+              "Underground fire line - NOT IN CONTRACT",
+              "Extended warranty (by owner)",
+              "Specialty subcontractors and engineered systems (separate quote)"
+            ],
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
