@@ -194,7 +194,70 @@ def init_prequal_state(project_id):
             ],
             "contractors": [],
             "cat_hash": None,
+            "demo_loaded": False,
         }
+
+
+def auto_load_demo_pdfs(project_id, project_trades):
+    """Auto-populate prequal state from mock_data/projects/{project_id}/.
+    Each subfolder is treated as one contractor; PDFs in it are read into text
+    and bid data is extracted via Claude so the Bid Intake / Leveling /
+    Benchmarking / Risk / Proposal tabs are populated from the same uploaded
+    PDFs that drive Pre-Qualification.
+
+    Idempotent — once loaded for a project, contractors are not reloaded on
+    subsequent reruns. Use the 'Reload demo PDFs' button to force a refresh.
+    """
+    pq = st.session_state.prequal[project_id]
+    if pq.get("demo_loaded"):
+        return
+
+    base = Path("mock_data/projects") / project_id
+    if not base.is_dir():
+        pq["demo_loaded"] = True
+        return
+
+    candidates = []
+    for sub in sorted(base.iterdir()):
+        if not sub.is_dir():
+            continue
+        pdfs = sorted(sub.glob("*.pdf"))
+        if pdfs:
+            candidates.append((sub.name, pdfs))
+
+    if not candidates:
+        pq["demo_loaded"] = True
+        return
+
+    with st.spinner(f"Loading {len(candidates)} contractor packet(s) from demo data…"):
+        for slug, pdfs in candidates:
+            files = []
+            for p in pdfs:
+                files.append({
+                    "name": p.name,
+                    "text": read_file(str(p)),
+                    "added_at": datetime.now().strftime("%Y-%m-%d %H:%M"),
+                })
+            joined = "\n\n".join(
+                f"=== FILE: {f['name']} ===\n\n{f['text']}" for f in files
+            )
+            try:
+                bid_data = extract_bid_data(joined, project_trades)
+            except Exception as e:
+                bid_data = None
+                st.warning(f"Bid extraction failed for {slug}: {e}")
+            display_name = (bid_data.get("company") if bid_data else None) or guess_contractor_name(joined)
+            pq["contractors"].append({
+                "id": str(uuid.uuid4()),
+                "demo_slug": slug,
+                "name": display_name,
+                "files": files,
+                "result": None,
+                "bid_data": bid_data,
+                "status": "pending",
+                "upload_counter": 0,
+            })
+    pq["demo_loaded"] = True
 
 
 def auto_extract_bid_data(contractor, project_trades):
@@ -226,6 +289,7 @@ def merge_trades_with_uploads(mock_trades, contractors):
             if not target:
                 continue
             target["bids"].append({
+                "sub_id": f"upload_{c['id']}",
                 "company": company,
                 "contact": bid_data.get("contact") or "—",
                 "email": bid_data.get("email") or "—",
@@ -297,6 +361,7 @@ def render_prequal_card(rank_label, name, composite, result):
 # ── Initialize prequal state and build merged trades ────────────────────────
 # Helpers above must be defined first; merged `trades` is what tabs 1–5 render.
 init_prequal_state(selected_id)
+auto_load_demo_pdfs(selected_id, mock_trades)
 trades = merge_trades_with_uploads(
     mock_trades,
     st.session_state.prequal[selected_id]["contractors"],
@@ -336,20 +401,23 @@ with tab_prequal:
         "Files accumulate per contractor — drop SOQs and financials now, add bid tabs and revisions later."
     )
 
-    if "prequal" not in st.session_state:
-        st.session_state.prequal = {}
-    if selected_id not in st.session_state.prequal:
-        st.session_state.prequal[selected_id] = {
-            "rfp_extra_text": "",
-            "rfp_extra_filename": "",
-            "categories": [
-                {**c, "weight": round(100 / len(DEFAULT_PREQUAL_CATEGORIES), 1)}
-                for c in DEFAULT_PREQUAL_CATEGORIES
-            ],
-            "contractors": [],
-            "cat_hash": None,
-        }
+    init_prequal_state(selected_id)
     pq = st.session_state.prequal[selected_id]
+
+    demo_dir = Path("mock_data/projects") / selected_id
+    if demo_dir.is_dir() and any(demo_dir.iterdir()):
+        loaded_slugs = {c.get("demo_slug") for c in pq["contractors"] if c.get("demo_slug")}
+        st.info(
+            f"📁 Demo PDFs auto-loaded for **{project['name']}** "
+            f"({len(loaded_slugs)} contractor packet(s)). "
+            "These same PDFs drive Bid Intake, Leveling, Benchmarking, Risk Report, and Proposal Summary."
+        )
+        rl_col1, rl_col2 = st.columns([1, 5])
+        with rl_col1:
+            if st.button("🔄 Reload demo PDFs", key=f"pq_reload_{selected_id}"):
+                pq["contractors"] = [c for c in pq["contractors"] if not c.get("demo_slug")]
+                pq["demo_loaded"] = False
+                st.rerun()
 
     # ---- Project context ----
     with st.container(border=True):
@@ -639,14 +707,17 @@ with tab1:
 
     for trade in trades:
         st.markdown(f"### {trade['trade']}  `{trade['csi_code']}`")
-        cols = st.columns(3)
+        # Wrap to rows of 3 so uploaded bidders beyond the original mock 3 still render.
+        cols = None
         for i, bid in enumerate(trade["bids"]):
+            if i % 3 == 0:
+                cols = st.columns(3)
             has_update = len(bid["post_bid_updates"]) > 0
             current_total = bid["post_bid_updates"][-1]["revised_total"] if has_update else bid["base_bid"]
             delta = bid["post_bid_updates"][-1]["delta"] if has_update else None
             src = bid["source"]
 
-            with cols[i]:
+            with cols[i % 3]:
                 src_color = {"PDF": "blue", "Excel": "green", "Email": "orange", "Upload": "violet"}.get(src, "gray")
                 badge = f":{src_color}[{SOURCE_ICONS.get(src, '📄')} {src}]"
                 update_badge = " · 🔄 **Updated**" if has_update else ""
