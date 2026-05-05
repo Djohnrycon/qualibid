@@ -318,7 +318,7 @@ col3.metric("Size", f"{SF:,} SF")
 col4.metric("Type", project["type"])
 st.divider()
 
-tab_prequal, tab1, tab2, tab3, tab4, tab5, tab6, tab7 = st.tabs([
+tab_prequal, tab1, tab2, tab3, tab4, tab5, tab6 = st.tabs([
     "✅  Pre-Qualification",
     "📥  Bid Intake",
     "⚖️  Bid Leveling",
@@ -326,7 +326,6 @@ tab_prequal, tab1, tab2, tab3, tab4, tab5, tab6, tab7 = st.tabs([
     "🚨  Risk Report",
     "📋  Proposal Summary",
     "📁  Documents & Uploads",
-    "🏆  Sub Pre-Qual"
 ])
 
 # ── Tab 0: Pre-Qualification ─────────────────────────────────────────────────
@@ -1106,95 +1105,3 @@ Provide a structured extraction with these sections:
             "Trade":doc_trade,"Uploaded By":"Kevin (GC Estimator)","Status":"✅ Extracted"
         })
     st.dataframe(pd.DataFrame(st.session_state.doc_log), use_container_width=True, hide_index=True)
-
-# ── Tab 7: Sub Pre-Qual ───────────────────────────────────────────────────────
-with tab7:
-    st.markdown("## Subcontractor Pre-Qualification")
-
-    # Module status banner
-    st.info("🔧  **Module in Active Development** — This section is being built by a team member and will integrate directly with the bid leveling and proposal workflow. The framework, data interfaces, and navigation structure below represent the planned scope.", icon="🏗️")
-
-    st.markdown("---")
-
-    # High-level module description
-    st.markdown("""
-### What This Module Does
-Before a subcontractor's bid enters the leveling process, QualiBid will verify they meet the project's minimum qualification standards. Pre-qualification data flows directly into bid scoring — an unqualified sub's low price does not automatically win.
-
-> **Integration point:** Pre-qual scores will appear as a column in the Bid Leveling tab and as a risk factor in the AI Risk Report.
-""")
-
-    st.markdown("---")
-    pq1, pq2, pq3 = st.columns(3)
-    with pq1:
-        st.markdown("#### 📋 Subcontractor Database")
-        st.caption("Central registry of all subs and suppliers the GC has worked with or is evaluating.")
-        st.markdown("""
-- Company profile & contact directory
-- Trade categories and geographic coverage
-- Historical bid and award history
-- Notes and internal ratings from past projects
-""")
-        st.button("Browse Sub Database", disabled=True, key="pq_browse", help="Coming soon — module in development.")
-
-    with pq2:
-        st.markdown("#### ✅ Qualification Checklist")
-        st.caption("Standardized verification of insurance, bonding, licensing, and financial capacity.")
-        st.markdown("""
-- General liability & workers' comp insurance (COI verification)
-- Payment & performance bond capacity
-- State and local contractor licensing
-- Financial references and banking capacity
-- Safety record (EMR / OSHA incident rate)
-- Active litigation or lien history check
-""")
-        st.button("Run Pre-Qual Check", disabled=True, key="pq_check", help="Coming soon — module in development.")
-
-    with pq3:
-        st.markdown("#### ⭐ Performance Scoring")
-        st.caption("Post-project ratings that feed back into future bid evaluations.")
-        st.markdown("""
-- Schedule adherence (% on-time milestone completion)
-- Quality score (punchlist volume, rework rate)
-- Communication & responsiveness rating
-- Safety compliance score
-- Overall GC relationship rating (1–5 stars)
-""")
-        st.button("View Scorecards", disabled=True, key="pq_score", help="Coming soon — module in development.")
-
-    st.markdown("---")
-    st.markdown("#### 📊 Pre-Qualification Status — Current Project Subs")
-    st.caption("Once the module is live, this table will show real-time qualification status for every sub who submitted a bid on this project.")
-
-    mock_prequal = []
-    for trade in trades[:6]:
-        for bid in trade["bids"]:
-            import random as _r
-            _r.seed(hash(bid["company"]))
-            score = _r.randint(62, 98)
-            ins = _r.choice(["✅ Verified","✅ Verified","⚠️ Expiring Soon","🔴 Not on File"])
-            bond = _r.choice(["✅ Adequate","✅ Adequate","⚠️ Borderline"])
-            mock_prequal.append({
-                "Subcontractor": bid["company"],
-                "Trade": trade["trade"],
-                "Pre-Qual Score": f"{score}/100",
-                "Insurance": ins,
-                "Bond Capacity": bond,
-                "Status": "✅ Qualified" if score >= 75 and "✅" in ins else ("⚠️ Conditional" if score >= 60 else "🔴 Not Qualified")
-            })
-    st.dataframe(pd.DataFrame(mock_prequal), use_container_width=True, hide_index=True, height=320)
-    st.caption("⚠️ Data shown above is simulated for demonstration purposes. Live module will pull from verified sources.")
-
-    st.markdown("---")
-    st.markdown("#### 🗺️ Development Roadmap")
-    roadmap = [
-        {"Phase":"1 — Foundation","Feature":"Subcontractor database and company profiles","Status":"🔧 In Development"},
-        {"Phase":"1 — Foundation","Feature":"Manual COI and bond capacity entry","Status":"🔧 In Development"},
-        {"Phase":"2 — Automation","Feature":"Insurance verification API integration","Status":"📋 Planned"},
-        {"Phase":"2 — Automation","Feature":"License lookup by state and trade","Status":"📋 Planned"},
-        {"Phase":"3 — Scoring","Feature":"Pre-qual score algorithm and bid weighting","Status":"📋 Planned"},
-        {"Phase":"3 — Scoring","Feature":"Score integration with Bid Leveling tab","Status":"📋 Planned"},
-        {"Phase":"4 — Intelligence","Feature":"AI-powered risk flags from public records","Status":"💡 Future"},
-        {"Phase":"4 — Intelligence","Feature":"Automatic re-qualification reminders","Status":"💡 Future"},
-    ]
-    st.dataframe(pd.DataFrame(roadmap), use_container_width=True, hide_index=True)
