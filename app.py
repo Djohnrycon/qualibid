@@ -1,10 +1,17 @@
+import copy
 import json
 import os
+import tempfile
+import uuid
+from datetime import datetime
+from pathlib import Path
 import streamlit as st
 import pandas as pd
 import plotly.graph_objects as go
 from dotenv import load_dotenv
 import anthropic
+from ingestor import read_file
+from scorer import score_contractor, extract_bid_data, DEFAULT_PREQUAL_CATEGORIES
 
 load_dotenv()
 client = anthropic.Anthropic(api_key=os.getenv("ANTHROPIC_API_KEY"))
@@ -38,16 +45,203 @@ with st.sidebar:
     st.caption("QualiBid v0.1 · Hackathon Demo")
 
 proj_file = load_project(selected_id)
-data       = proj_file["bids"]
-bench_data = proj_file["benchmarks"]
-gc_data    = proj_file["general_conditions"]
-project    = data["project"]
-trades     = data["trades"]
-benchmarks = {b["trade"]: b for b in bench_data["benchmarks"]}
-SF         = project["size_sf"]
+data        = proj_file["bids"]
+bench_data  = proj_file["benchmarks"]
+gc_data     = proj_file["general_conditions"]
+project     = data["project"]
+mock_trades = data["trades"]
+benchmarks  = {b["trade"]: b for b in bench_data["benchmarks"]}
+SF          = project["size_sf"]
 
-SOURCE_COLORS = {"PDF": "#2563eb", "Excel": "#16a34a", "Email": "#d97706"}
-SOURCE_ICONS  = {"PDF": "📄", "Excel": "📊", "Email": "📧"}
+SOURCE_COLORS = {"PDF": "#2563eb", "Excel": "#16a34a", "Email": "#d97706", "Upload": "#7c3aed"}
+SOURCE_ICONS  = {"PDF": "📄", "Excel": "📊", "Email": "📧", "Upload": "📤"}
+
+# ── Pre-Qualification helpers ───────────────────────────────────────────────
+QUALIFIED_THRESHOLD = 70
+
+
+def category_signature(categories):
+    return hash(tuple((c["name"], c["description"]) for c in categories))
+
+
+def ingest_one(uploaded_file):
+    suffix = Path(uploaded_file.name).suffix
+    with tempfile.NamedTemporaryFile(delete=False, suffix=suffix) as tmp:
+        tmp.write(uploaded_file.getbuffer())
+        tmp_path = tmp.name
+    try:
+        return read_file(tmp_path)
+    finally:
+        Path(tmp_path).unlink(missing_ok=True)
+
+
+def combined_text(contractor):
+    return "\n\n".join(
+        f"=== FILE: {f['name']} ===\n\n{f['text']}"
+        for f in contractor.get("files", [])
+    )
+
+
+def guess_contractor_name(text):
+    for line in text.split("\n"):
+        line = line.strip()
+        if line and not line.startswith("==="):
+            return line[:80]
+    return "Unknown Contractor"
+
+
+def composite_score(result, categories):
+    weights = {c["name"]: c["weight"] for c in categories}
+    total_w = sum(weights.values()) or 1.0
+    weighted = sum(
+        cs["score"] * weights.get(cs["category_name"], 0)
+        for cs in result.get("category_scores", [])
+    )
+    return round(weighted / total_w, 1)
+
+
+def score_color(score):
+    if score >= 85: return "#16a34a"
+    if score >= 70: return "#2563eb"
+    if score >= 55: return "#d97706"
+    return "#dc2626"
+
+
+def build_rfp_context(project_data, meta, size_sf, extra_text):
+    base = (
+        f"Project: {project_data['name']}\n"
+        f"Location: {project_data['location']}\n"
+        f"Project Type: {project_data['type']}\n"
+        f"Size: {size_sf:,} SF\n"
+        f"Stories: {meta['stories']}"
+    )
+    if extra_text:
+        return f"{base}\n\n# SUPPLEMENTAL SCOPE\n\n{extra_text}"
+    return base
+
+
+def init_prequal_state(project_id):
+    """Idempotent. Ensures session_state.prequal[project_id] is initialized."""
+    if "prequal" not in st.session_state:
+        st.session_state.prequal = {}
+    if project_id not in st.session_state.prequal:
+        st.session_state.prequal[project_id] = {
+            "rfp_extra_text": "",
+            "rfp_extra_filename": "",
+            "categories": [
+                {**c, "weight": round(100 / len(DEFAULT_PREQUAL_CATEGORIES), 1)}
+                for c in DEFAULT_PREQUAL_CATEGORIES
+            ],
+            "contractors": [],
+            "cat_hash": None,
+        }
+
+
+def auto_extract_bid_data(contractor, project_trades):
+    """Run Claude bid extraction for a contractor's current files. Stores result on the contractor.
+    Shows a spinner; warns on failure but does not raise."""
+    if not contractor.get("files"):
+        contractor["bid_data"] = None
+        return
+    try:
+        with st.spinner(f"Extracting bid data for {contractor.get('name') or 'contractor'}…"):
+            contractor["bid_data"] = extract_bid_data(combined_text(contractor), project_trades)
+    except Exception as e:
+        contractor["bid_data"] = None
+        st.warning(f"Bid extraction failed: {e}")
+
+
+def merge_trades_with_uploads(mock_trades, contractors):
+    """Return a copy of mock_trades with extracted bids from uploaded contractors appended."""
+    merged = copy.deepcopy(mock_trades)
+    trade_idx = {t["trade"]: t for t in merged}
+
+    for c in contractors:
+        bid_data = c.get("bid_data")
+        if not bid_data:
+            continue
+        company = bid_data.get("company") or c.get("name") or "Uploaded Bidder"
+        for tb in bid_data.get("trades", []):
+            target = trade_idx.get(tb.get("trade_name"))
+            if not target:
+                continue
+            target["bids"].append({
+                "company": company,
+                "contact": bid_data.get("contact") or "—",
+                "email": bid_data.get("email") or "—",
+                "submitted_date": bid_data.get("submitted_date") or "—",
+                "source": bid_data.get("source") or "Upload",
+                "base_bid": tb.get("base_bid", 0),
+                "exclusions": tb.get("exclusions", []),
+                "line_items": tb.get("line_items", []),
+                "post_bid_updates": [],
+            })
+
+    return merged
+
+
+def render_prequal_card(rank_label, name, composite, result):
+    color = score_color(composite)
+    with st.container(border=True):
+        h1, h2 = st.columns([3, 1])
+        with h1:
+            st.markdown(
+                f"<div style='color:#666; font-size:11px; font-weight:700; letter-spacing:0.5px;'>{rank_label}</div>"
+                f"<div style='font-size:22px; font-weight:700; color:#111;'>{name}</div>",
+                unsafe_allow_html=True,
+            )
+        with h2:
+            st.markdown(
+                f"<div style='font-size:42px; font-weight:800; color:{color}; "
+                f"text-align:right; line-height:1;'>{composite}</div>"
+                f"<div style='text-align:right; color:#666; font-size:12px;'>composite</div>",
+                unsafe_allow_html=True,
+            )
+
+        for cs in result["category_scores"]:
+            cat_color = score_color(cs["score"])
+            st.markdown(
+                f"<div style='margin:8px 0;'>"
+                f"<div style='display:flex; justify-content:space-between; margin-bottom:3px;'>"
+                f"<span style='font-size:13px; color:#444;'>{cs['category_name']}</span>"
+                f"<span style='font-size:13px; font-weight:600; color:{cat_color};'>{cs['score']}/100</span>"
+                f"</div>"
+                f"<div style='background:#e5e7eb; height:8px; border-radius:4px; overflow:hidden;'>"
+                f"<div style='background:{cat_color}; height:100%; width:{cs['score']}%;'></div>"
+                f"</div></div>",
+                unsafe_allow_html=True,
+            )
+
+        st.markdown("**Executive Summary**")
+        st.write(result["overall_summary"])
+
+        sc, cn = st.columns(2)
+        with sc:
+            st.markdown("**Strengths**")
+            for s in result["strengths"]:
+                st.markdown(f"- {s}")
+        with cn:
+            st.markdown("**Concerns**")
+            for cc in result["concerns"]:
+                st.markdown(f"- {cc}")
+
+        with st.expander("📋 Audit trail — evidence per category"):
+            for cs in result["category_scores"]:
+                st.markdown(f"**{cs['category_name']}** — {cs['score']}/100")
+                st.markdown(f"*{cs['reasoning']}*")
+                for ev in cs["evidence"]:
+                    st.markdown(f"> {ev}")
+                st.markdown("")
+
+
+# ── Initialize prequal state and build merged trades ────────────────────────
+# Helpers above must be defined first; merged `trades` is what tabs 1–5 render.
+init_prequal_state(selected_id)
+trades = merge_trades_with_uploads(
+    mock_trades,
+    st.session_state.prequal[selected_id]["contractors"],
+)
+
 
 # ── Header ──────────────────────────────────────────────────────────────────
 logo_col, title_col = st.columns([1, 5])
@@ -64,13 +258,318 @@ col3.metric("Size", f"{SF:,} SF")
 col4.metric("Type", project["type"])
 st.divider()
 
-tab1, tab2, tab3, tab4, tab5 = st.tabs([
+tab_prequal, tab1, tab2, tab3, tab4, tab5 = st.tabs([
+    "✅  Pre-Qualification",
     "📥  Bid Intake",
     "⚖️  Bid Leveling",
     "📊  Cost Benchmarking",
     "🚨  Risk Report",
     "📋  Proposal Summary"
 ])
+
+# ── Tab 0: Pre-Qualification ─────────────────────────────────────────────────
+with tab_prequal:
+    st.markdown("## Pre-Qualification")
+    st.caption(
+        f"Score and qualify bidders for **{project['name']}** before they enter the bid evaluation flow. "
+        "Files accumulate per contractor — drop SOQs and financials now, add bid tabs and revisions later."
+    )
+
+    if "prequal" not in st.session_state:
+        st.session_state.prequal = {}
+    if selected_id not in st.session_state.prequal:
+        st.session_state.prequal[selected_id] = {
+            "rfp_extra_text": "",
+            "rfp_extra_filename": "",
+            "categories": [
+                {**c, "weight": round(100 / len(DEFAULT_PREQUAL_CATEGORIES), 1)}
+                for c in DEFAULT_PREQUAL_CATEGORIES
+            ],
+            "contractors": [],
+            "cat_hash": None,
+        }
+    pq = st.session_state.prequal[selected_id]
+
+    # ---- Project context ----
+    with st.container(border=True):
+        st.markdown("### Project Context")
+        st.caption("Project metadata feeds the scoring. Optionally add a fuller scope document.")
+        ctx_l, ctx_r = st.columns([2, 1])
+        with ctx_l:
+            st.markdown(
+                f"**Project:** {project['name']}  \n"
+                f"**Location:** {project['location']}  \n"
+                f"**Type:** {project['type']}  \n"
+                f"**Size:** {SF:,} SF  \n"
+                f"**Stories:** {selected_meta['stories']}"
+            )
+        with ctx_r:
+            rfp_file = st.file_uploader(
+                "Supplemental scope doc (optional)",
+                type=["pdf", "docx", "xlsx"],
+                key=f"pq_rfp_{selected_id}",
+            )
+            if rfp_file and pq.get("rfp_extra_filename") != rfp_file.name:
+                with tempfile.NamedTemporaryFile(delete=False, suffix=Path(rfp_file.name).suffix) as tmp:
+                    tmp.write(rfp_file.getbuffer())
+                    tmp_path = tmp.name
+                try:
+                    pq["rfp_extra_text"] = read_file(tmp_path)
+                    pq["rfp_extra_filename"] = rfp_file.name
+                finally:
+                    Path(tmp_path).unlink(missing_ok=True)
+                st.rerun()
+            if pq.get("rfp_extra_filename"):
+                st.success(f"Loaded: {pq['rfp_extra_filename']} ({len(pq['rfp_extra_text']):,} chars)")
+
+    # ---- Categories ----
+    with st.container(border=True):
+        st.markdown("### Pre-Qualification Categories")
+        st.caption(
+            "Edit names, descriptions, and weights. Composite is normalized — weights don't need to sum to 100. "
+            "Changing names or descriptions invalidates prior scores and triggers re-scoring on next run."
+        )
+
+        remove_idx = None
+        for i, cat in enumerate(pq["categories"]):
+            cols = st.columns([3, 5, 3, 1])
+            with cols[0]:
+                pq["categories"][i]["name"] = st.text_input(
+                    "Name", cat["name"],
+                    key=f"pq_catname_{selected_id}_{i}", label_visibility="collapsed",
+                )
+            with cols[1]:
+                pq["categories"][i]["description"] = st.text_area(
+                    "Description", cat["description"],
+                    key=f"pq_catdesc_{selected_id}_{i}",
+                    label_visibility="collapsed", height=68,
+                )
+            with cols[2]:
+                pq["categories"][i]["weight"] = st.slider(
+                    "Weight", 0, 100, int(cat["weight"]), step=1,
+                    key=f"pq_catwt_{selected_id}_{i}", label_visibility="collapsed",
+                )
+            with cols[3]:
+                if st.button("✕", key=f"pq_catdel_{selected_id}_{i}", help="Remove category"):
+                    remove_idx = i
+        if remove_idx is not None:
+            pq["categories"].pop(remove_idx)
+            st.rerun()
+        if st.button("+ Add Category", key=f"pq_addcat_{selected_id}"):
+            pq["categories"].append({
+                "name": "New Category",
+                "description": "Describe what to evaluate.",
+                "weight": 0.0,
+            })
+            st.rerun()
+        total_w = sum(c["weight"] for c in pq["categories"])
+        st.caption(f"Total weight: {total_w:.0f}% (composite is normalized)")
+
+    # ---- Contractor submissions (holistic upload) ----
+    with st.container(border=True):
+        st.markdown("### Contractor Submissions")
+        st.caption(
+            "Add each bidder. Drop their qualification documents — files accumulate over time. "
+            "Add revisions or bid tabs later; the holistic file pile feeds every re-scoring."
+        )
+
+        remove_c_idx = None
+        for i, c in enumerate(pq["contractors"]):
+            label = c.get("name") or "(unnamed)"
+            file_count = len(c.get("files", []))
+            status = c.get("status", "pending")
+            status_tag = {
+                "qualified": "✅ Qualified",
+                "rejected": "❌ Not Qualified",
+                "pending": "⏳ Pending",
+            }[status]
+            header = f"Contractor {i+1}: {label} · {file_count} file(s) · {status_tag}"
+
+            with st.expander(header, expanded=(file_count == 0)):
+                if c.get("files"):
+                    st.markdown("**Files in scope**")
+                    file_to_remove = None
+                    for fi, f in enumerate(c["files"]):
+                        fc1, fc2, fc3 = st.columns([6, 3, 1])
+                        with fc1:
+                            st.markdown(f"- {f['name']}  *({len(f['text']):,} chars)*")
+                        with fc2:
+                            st.caption(f"added {f['added_at']}")
+                        with fc3:
+                            if st.button("Remove", key=f"pq_filedel_{selected_id}_{c['id']}_{fi}"):
+                                file_to_remove = fi
+                    if file_to_remove is not None:
+                        c["files"].pop(file_to_remove)
+                        auto_extract_bid_data(c, mock_trades)
+                        st.rerun()
+                else:
+                    st.info("No files yet. Drop documents below.")
+
+                counter = c.get("upload_counter", 0)
+                upload_key = f"pq_upload_{selected_id}_{c['id']}_{counter}"
+                files = st.file_uploader(
+                    f"Add files for {label}",
+                    type=["pdf", "docx", "xlsx"],
+                    accept_multiple_files=True,
+                    key=upload_key,
+                )
+                if files:
+                    existing = {f["name"] for f in c["files"]}
+                    added = False
+                    with st.spinner("Reading files..."):
+                        for uf in files:
+                            if uf.name in existing:
+                                continue
+                            text = ingest_one(uf)
+                            c["files"].append({
+                                "name": uf.name,
+                                "text": text,
+                                "added_at": datetime.now().strftime("%Y-%m-%d %H:%M"),
+                            })
+                            added = True
+                    if added:
+                        if not c.get("name"):
+                            c["name"] = guess_contractor_name(combined_text(c))
+                        c["upload_counter"] = counter + 1
+                        auto_extract_bid_data(c, mock_trades)
+                        st.rerun()
+
+                # ---- Bid flow-through indicator ----
+                if c.get("bid_data") and c["bid_data"].get("trades"):
+                    summary = " · ".join(
+                        f"{tb['trade_name']} (${tb.get('base_bid', 0):,.0f})"
+                        for tb in c["bid_data"]["trades"]
+                    )
+                    st.success(f"📤 Bid data flowing to other tabs — {summary}")
+                elif c.get("files"):
+                    st.caption(
+                        "📤 No priced bid detected in current files. Add a bid document "
+                        "to populate the other tabs for this contractor."
+                    )
+                    if st.button("Re-extract bid data", key=f"pq_reextract_{selected_id}_{c['id']}"):
+                        auto_extract_bid_data(c, mock_trades)
+                        st.rerun()
+
+                ncol1, ncol2, ncol3 = st.columns([4, 3, 1])
+                with ncol1:
+                    new_name = st.text_input(
+                        "Contractor name",
+                        value=c.get("name", ""),
+                        key=f"pq_name_{selected_id}_{c['id']}",
+                    )
+                    c["name"] = new_name
+                with ncol2:
+                    options = ["pending", "qualified", "rejected"]
+                    cur = c.get("status", "pending")
+                    new_status = st.selectbox(
+                        "Status (manual override)",
+                        options,
+                        index=options.index(cur),
+                        key=f"pq_status_{selected_id}_{c['id']}",
+                    )
+                    c["status"] = new_status
+                with ncol3:
+                    st.write("")
+                    st.write("")
+                    if st.button("Delete", key=f"pq_cdel_{selected_id}_{c['id']}"):
+                        remove_c_idx = i
+        if remove_c_idx is not None:
+            pq["contractors"].pop(remove_c_idx)
+            st.rerun()
+
+        if st.button("+ Add Contractor", key=f"pq_addc_{selected_id}"):
+            pq["contractors"].append({
+                "id": str(uuid.uuid4()),
+                "name": "",
+                "files": [],
+                "result": None,
+                "status": "pending",
+                "upload_counter": 0,
+            })
+            st.rerun()
+
+    # ---- Run scoring ----
+    with st.container(border=True):
+        st.markdown("### Run Pre-Qualification Scoring")
+        ready = bool(
+            pq["contractors"]
+            and all(c.get("files") for c in pq["contractors"])
+            and pq["categories"]
+        )
+        if not ready:
+            st.warning("Add at least one contractor with files and one category before scoring.")
+
+        if st.button("▶  Run Pre-Qualification", disabled=not ready, type="primary",
+                     use_container_width=True, key=f"pq_run_{selected_id}"):
+            cur_sig = category_signature(pq["categories"])
+            if cur_sig != pq.get("cat_hash"):
+                for c in pq["contractors"]:
+                    c["result"] = None
+                pq["cat_hash"] = cur_sig
+
+            rfp_text = build_rfp_context(project, selected_meta, SF, pq.get("rfp_extra_text", ""))
+
+            progress = st.progress(0.0)
+            status_box = st.empty()
+            n = len(pq["contractors"])
+            for idx, c in enumerate(pq["contractors"]):
+                cid = c.get("name") or f"Contractor {idx+1}"
+                if c.get("result"):
+                    progress.progress((idx + 1) / n)
+                    continue
+                status_box.write(f"Scoring **{cid}**…")
+                result = score_contractor(rfp_text, combined_text(c), pq["categories"])
+                c["result"] = result
+                if c.get("status", "pending") == "pending":
+                    comp = composite_score(result, pq["categories"])
+                    c["status"] = "qualified" if comp >= QUALIFIED_THRESHOLD else "rejected"
+                progress.progress((idx + 1) / n)
+            status_box.write("Pre-qualification complete.")
+            st.rerun()
+
+    # ---- Results ----
+    scored = [c for c in pq["contractors"] if c.get("result")]
+    if scored:
+        st.markdown("---")
+        st.markdown("## Results")
+
+        q_count = sum(1 for c in pq["contractors"] if c.get("status") == "qualified")
+        r_count = sum(1 for c in pq["contractors"] if c.get("status") == "rejected")
+        p_count = sum(1 for c in pq["contractors"] if c.get("status") == "pending")
+
+        st.caption(
+            f"Auto-qualification threshold: composite ≥ {QUALIFIED_THRESHOLD}/100. "
+            "Override any contractor's status manually above."
+        )
+
+        if q_count:
+            qualified_names = ", ".join(
+                c.get("name") or "(unnamed)"
+                for c in pq["contractors"] if c.get("status") == "qualified"
+            )
+            st.success(
+                f"**{q_count} contractor(s) qualified for {project['name']}:** {qualified_names}\n\n"
+                f"These bidders carry over to the **Bid Intake**, **Leveling**, **Benchmarking**, "
+                f"**Risk Report**, and **Proposal Summary** tabs."
+            )
+        if r_count:
+            st.warning(f"{r_count} contractor(s) marked **Not Qualified** — excluded from bid evaluation.")
+        if p_count:
+            st.info(f"{p_count} contractor(s) still **Pending** review.")
+
+        rankings = []
+        for c in scored:
+            comp = composite_score(c["result"], pq["categories"])
+            rankings.append((c, comp))
+        rankings.sort(key=lambda x: x[1], reverse=True)
+
+        for rank, (c, comp) in enumerate(rankings, 1):
+            tag = {
+                "qualified": "QUALIFIED",
+                "rejected": "NOT QUALIFIED",
+                "pending": "PENDING REVIEW",
+            }[c.get("status", "pending")]
+            render_prequal_card(f"#{rank} — {tag}", c.get("name") or "(unnamed)", comp, c["result"])
 
 # ── Tab 1: Bid Intake ────────────────────────────────────────────────────────
 with tab1:
@@ -87,7 +586,8 @@ with tab1:
             src = bid["source"]
 
             with cols[i]:
-                badge = f":{('blue' if src=='PDF' else 'green' if src=='Excel' else 'orange')}[{SOURCE_ICONS[src]} {src}]"
+                src_color = {"PDF": "blue", "Excel": "green", "Email": "orange", "Upload": "violet"}.get(src, "gray")
+                badge = f":{src_color}[{SOURCE_ICONS.get(src, '📄')} {src}]"
                 update_badge = "  🔄 **Updated**" if has_update else ""
                 st.markdown(f"**{bid['company']}**  {badge}{update_badge}")
                 st.markdown(f"*{bid['contact']}*  ·  Submitted {bid['submitted_date']}")
@@ -165,7 +665,7 @@ with tab2:
             return "background-color: #d1fae5; font-weight: bold"
         return ""
 
-    st.dataframe(df.style.applymap(highlight_gaps, subset=df.columns[1:]), use_container_width=True, height=420)
+    st.dataframe(df.style.map(highlight_gaps, subset=df.columns[1:]), use_container_width=True, height=420)
 
     st.markdown("### 📬 Request Clarification from Sub")
     st.caption("Select an excluded item and generate a professional follow-up email instantly.")
@@ -352,7 +852,7 @@ with tab5:
 
     display_df = df_proposal.copy()
     display_df["Bid Total"] = display_df["Bid Total"].apply(lambda x: f"${x:,.0f}")
-    st.dataframe(display_df.style.applymap(color_status, subset=["Status"]), use_container_width=True, hide_index=True, height=680)
+    st.dataframe(display_df.style.map(color_status, subset=["Status"]), use_container_width=True, hide_index=True, height=680)
 
     st.markdown("---")
     st.markdown("### General Conditions & Requirements  `01 00 00`")
