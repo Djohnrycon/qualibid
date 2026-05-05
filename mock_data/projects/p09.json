@@ -13,97 +13,103 @@
         "csi_code": "02 40 00",
         "bids": [
           {
-            "sub_id": "02-S1",
-            "company": "Buckhead Interiors",
-            "contact": "Pete Adams",
-            "email": "buckheadinteriors@contractor.com",
+            "sub_id": "S1",
+            "company": "Peachtree Systems",
+            "contact": "Rob Flores",
+            "email": "info@contractor.com",
             "source": "PDF",
             "submitted_date": "2024-04-18",
+            "base_bid": 315000,
+            "line_items": [
+              {
+                "description": "Demolition & Site Clearing - component 1",
+                "amount": 105000
+              },
+              {
+                "description": "Demolition & Site Clearing - component 2",
+                "amount": 80000
+              },
+              {
+                "description": "Demolition & Site Clearing - component 3",
+                "amount": 130000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Hartsfield Distribution Hub drawings.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "S2",
+            "company": "Georgia Contractors",
+            "contact": "Lisa Chang",
+            "email": "info@contractor.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
             "base_bid": 175000,
             "line_items": [
               {
                 "description": "Demolition & Site Clearing - component 1",
-                "amount": 40000
+                "amount": 60000
               },
               {
                 "description": "Demolition & Site Clearing - component 2",
-                "amount": 35000
+                "amount": 45000
               },
               {
                 "description": "Demolition & Site Clearing - component 3",
-                "amount": 50000
-              },
-              {
-                "description": "Demolition & Site Clearing - component 4",
-                "amount": 50000
-              }
-            ],
-            "exclusions": [],
-            "inclusions": [
-              "All labor, material, and permits per contract documents"
-            ],
-            "notes": "Bid per Hartsfield Distribution Hub drawings issued 03/15/2024.",
-            "post_bid_updates": []
-          },
-          {
-            "sub_id": "02-S2",
-            "company": "Peachtree Plumbing",
-            "contact": "Sam Rivera",
-            "email": "peachtreeplumbing@contractor.com",
-            "source": "Excel",
-            "submitted_date": "2024-04-19",
-            "base_bid": 95000,
-            "line_items": [
-              {
-                "description": "Demolition & Site Clearing - component 1",
-                "amount": 30000
-              },
-              {
-                "description": "Demolition & Site Clearing - component 2",
-                "amount": 35000
-              },
-              {
-                "description": "Demolition & Site Clearing - component 3",
-                "amount": 30000
+                "amount": 70000
               }
             ],
             "exclusions": [
-              "Hazardous material abatement - NOT IN CONTRACT",
-              "Extended warranty (by owner)"
+              "Hazardous material abatement - NOT IN CONTRACT"
             ],
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
-            "notes": "Bid per Hartsfield Distribution Hub drawings issued 03/15/2024.",
-            "post_bid_updates": []
+            "notes": "Bid per Hartsfield Distribution Hub drawings.",
+            "post_bid_updates": [
+              {
+                "update_id": "U1",
+                "date": "2024-04-28",
+                "from": "Lisa Chang <email@contractor.com>",
+                "subject": "RE: Hartsfield Distribution Hub - Hazardous material abatement Add",
+                "body": "We can include Hazardous material abatement for an additional $10,000. Revised total $185,000.",
+                "revised_total": 185000,
+                "delta": 10000,
+                "scope_added": "Hazardous material abatement"
+              }
+            ]
           },
           {
-            "sub_id": "02-S3",
-            "company": "Georgia Framing",
-            "contact": "Walt Burns",
-            "email": "georgiaframing@contractor.com",
+            "sub_id": "S3",
+            "company": "Southern Electric",
+            "contact": "Mike Torres",
+            "email": "info@contractor.com",
             "source": "Email",
             "submitted_date": "2024-04-20",
-            "base_bid": 255000,
+            "base_bid": 455000,
             "line_items": [
               {
                 "description": "Demolition & Site Clearing - component 1",
-                "amount": 80000
+                "amount": 150000
               },
               {
                 "description": "Demolition & Site Clearing - component 2",
-                "amount": 100000
+                "amount": 115000
               },
               {
                 "description": "Demolition & Site Clearing - component 3",
-                "amount": 75000
+                "amount": 190000
               }
             ],
             "exclusions": [],
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
-            "notes": "Bid per Hartsfield Distribution Hub drawings issued 03/15/2024.",
+            "notes": "Bid per Hartsfield Distribution Hub drawings.",
             "post_bid_updates": []
           }
         ]
@@ -113,74 +119,54 @@
         "csi_code": "03 00 00",
         "bids": [
           {
-            "sub_id": "03-S1",
-            "company": "Buckhead Interiors",
+            "sub_id": "S1",
+            "company": "Peachtree Contractors",
             "contact": "Lisa Chang",
-            "email": "buckheadinteriors@contractor.com",
+            "email": "info@contractor.com",
             "source": "PDF",
             "submitted_date": "2024-04-18",
-            "base_bid": 685000,
+            "base_bid": 1730000,
             "line_items": [
               {
                 "description": "Concrete - component 1",
-                "amount": 140000
+                "amount": 575000
               },
               {
                 "description": "Concrete - component 2",
-                "amount": 145000
+                "amount": 430000
               },
               {
                 "description": "Concrete - component 3",
-                "amount": 135000
-              },
-              {
-                "description": "Concrete - component 4",
-                "amount": 110000
-              },
-              {
-                "description": "Concrete - component 5",
-                "amount": 155000
+                "amount": 725000
               }
             ],
             "exclusions": [],
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
-            "notes": "Bid per Hartsfield Distribution Hub drawings issued 03/15/2024.",
+            "notes": "Bid per Hartsfield Distribution Hub drawings.",
             "post_bid_updates": []
           },
           {
-            "sub_id": "03-S2",
-            "company": "Peachtree Plumbing",
-            "contact": "James Brown",
-            "email": "peachtreeplumbing@contractor.com",
+            "sub_id": "S2",
+            "company": "Georgia Electric",
+            "contact": "Mike Torres",
+            "email": "info@contractor.com",
             "source": "Excel",
             "submitted_date": "2024-04-19",
-            "base_bid": 465000,
+            "base_bid": 1185000,
             "line_items": [
               {
                 "description": "Concrete - component 1",
-                "amount": 65000
+                "amount": 395000
               },
               {
                 "description": "Concrete - component 2",
-                "amount": 65000
+                "amount": 295000
               },
               {
                 "description": "Concrete - component 3",
-                "amount": 70000
-              },
-              {
-                "description": "Concrete - component 4",
-                "amount": 70000
-              },
-              {
-                "description": "Concrete - component 5",
-                "amount": 85000
-              },
-              {
-                "description": "Concrete - component 6",
-                "amount": 110000
+                "amount": 495000
               }
             ],
             "exclusions": [
@@ -189,44 +175,47 @@
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
-            "notes": "Bid per Hartsfield Distribution Hub drawings issued 03/15/2024.",
-            "post_bid_updates": []
+            "notes": "Bid per Hartsfield Distribution Hub drawings.",
+            "post_bid_updates": [
+              {
+                "update_id": "U1",
+                "date": "2024-04-28",
+                "from": "Mike Torres <email@contractor.com>",
+                "subject": "RE: Hartsfield Distribution Hub - Vapor barrier and underslab insulation Add",
+                "body": "We can include Vapor barrier and underslab insulation for an additional $85,000. Revised total $1,270,000.",
+                "revised_total": 1270000,
+                "delta": 85000,
+                "scope_added": "Vapor barrier and underslab insulation"
+              }
+            ]
           },
           {
-            "sub_id": "03-S3",
-            "company": "Georgia Framing",
-            "contact": "Maria Valdez",
-            "email": "georgiaframing@contractor.com",
+            "sub_id": "S3",
+            "company": "Southern Concrete",
+            "contact": "Sandra Reeves",
+            "email": "info@contractor.com",
             "source": "Email",
             "submitted_date": "2024-04-20",
-            "base_bid": 935000,
+            "base_bid": 2265000,
             "line_items": [
               {
                 "description": "Concrete - component 1",
-                "amount": 200000
+                "amount": 755000
               },
               {
                 "description": "Concrete - component 2",
-                "amount": 170000
+                "amount": 565000
               },
               {
                 "description": "Concrete - component 3",
-                "amount": 155000
-              },
-              {
-                "description": "Concrete - component 4",
-                "amount": 180000
-              },
-              {
-                "description": "Concrete - component 5",
-                "amount": 230000
+                "amount": 945000
               }
             ],
             "exclusions": [],
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
-            "notes": "Bid per Hartsfield Distribution Hub drawings issued 03/15/2024.",
+            "notes": "Bid per Hartsfield Distribution Hub drawings.",
             "post_bid_updates": []
           }
         ]
@@ -236,13 +225,13 @@
         "csi_code": "04 00 00",
         "bids": [
           {
-            "sub_id": "04-S1",
-            "company": "Atlanta Roofing",
-            "contact": "Angela Cruz",
-            "email": "atlantaroofing@contractor.com",
+            "sub_id": "S1",
+            "company": "Peachtree Electric",
+            "contact": "Mike Torres",
+            "email": "info@contractor.com",
             "source": "PDF",
             "submitted_date": "2024-04-18",
-            "base_bid": 260000,
+            "base_bid": 235000,
             "line_items": [
               {
                 "description": "Masonry - component 1",
@@ -250,28 +239,28 @@
               },
               {
                 "description": "Masonry - component 2",
-                "amount": 90000
+                "amount": 60000
               },
               {
                 "description": "Masonry - component 3",
-                "amount": 90000
+                "amount": 95000
               }
             ],
             "exclusions": [],
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
-            "notes": "Bid per Hartsfield Distribution Hub drawings issued 03/15/2024.",
+            "notes": "Bid per Hartsfield Distribution Hub drawings.",
             "post_bid_updates": []
           },
           {
-            "sub_id": "04-S2",
-            "company": "Piedmont Steel",
-            "contact": "Tom Brady",
-            "email": "piedmontsteel@contractor.com",
+            "sub_id": "S2",
+            "company": "Georgia Concrete",
+            "contact": "Sandra Reeves",
+            "email": "info@contractor.com",
             "source": "Excel",
             "submitted_date": "2024-04-19",
-            "base_bid": 160000,
+            "base_bid": 140000,
             "line_items": [
               {
                 "description": "Masonry - component 1",
@@ -279,69 +268,49 @@
               },
               {
                 "description": "Masonry - component 2",
-                "amount": 45000
+                "amount": 35000
               },
               {
                 "description": "Masonry - component 3",
-                "amount": 70000
+                "amount": 60000
               }
             ],
             "exclusions": [
-              "CMU backup wall - NOT IN CONTRACT",
-              "Extended warranty (by owner)"
+              "CMU backup wall - NOT IN CONTRACT"
             ],
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
-            "notes": "Bid per Hartsfield Distribution Hub drawings issued 03/15/2024.",
-            "post_bid_updates": [
-              {
-                "update_id": "04-U1",
-                "date": "2024-04-28",
-                "from": "Tom Brady <piedmontsteel@contractor.com>",
-                "subject": "RE: Hartsfield Distribution Hub - CMU backup wall Add",
-                "body": "We can include CMU backup wall for an additional $10,000. Revised total would be $170,000.",
-                "revised_total": 170000,
-                "delta": 10000,
-                "scope_added": "CMU backup wall"
-              }
-            ]
+            "notes": "Bid per Hartsfield Distribution Hub drawings.",
+            "post_bid_updates": []
           },
           {
-            "sub_id": "04-S3",
-            "company": "Buckhead Interiors",
-            "contact": "Linda Garza",
-            "email": "buckheadinteriors@contractor.com",
+            "sub_id": "S3",
+            "company": "Southern Mechanical",
+            "contact": "Dave Kim",
+            "email": "info@contractor.com",
             "source": "Email",
             "submitted_date": "2024-04-20",
-            "base_bid": 325000,
+            "base_bid": 300000,
             "line_items": [
               {
                 "description": "Masonry - component 1",
-                "amount": 75000
+                "amount": 100000
               },
               {
                 "description": "Masonry - component 2",
-                "amount": 65000
+                "amount": 75000
               },
               {
                 "description": "Masonry - component 3",
-                "amount": 55000
-              },
-              {
-                "description": "Masonry - component 4",
-                "amount": 70000
-              },
-              {
-                "description": "Masonry - component 5",
-                "amount": 60000
+                "amount": 125000
               }
             ],
             "exclusions": [],
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
-            "notes": "Bid per Hartsfield Distribution Hub drawings issued 03/15/2024.",
+            "notes": "Bid per Hartsfield Distribution Hub drawings.",
             "post_bid_updates": []
           }
         ]
@@ -351,113 +320,92 @@
         "csi_code": "05 00 00",
         "bids": [
           {
-            "sub_id": "05-S1",
-            "company": "Piedmont Steel",
-            "contact": "Rick Simmons",
-            "email": "piedmontsteel@contractor.com",
+            "sub_id": "S1",
+            "company": "Peachtree Steel",
+            "contact": "Tom Brady",
+            "email": "info@contractor.com",
             "source": "PDF",
             "submitted_date": "2024-04-18",
-            "base_bid": 1490000,
+            "base_bid": 4115000,
             "line_items": [
               {
                 "description": "Structural Steel & Misc Metals - component 1",
-                "amount": 215000
+                "amount": 1370000
               },
               {
                 "description": "Structural Steel & Misc Metals - component 2",
-                "amount": 285000
+                "amount": 1030000
               },
               {
                 "description": "Structural Steel & Misc Metals - component 3",
-                "amount": 235000
-              },
-              {
-                "description": "Structural Steel & Misc Metals - component 4",
-                "amount": 245000
-              },
-              {
-                "description": "Structural Steel & Misc Metals - component 5",
-                "amount": 225000
-              },
-              {
-                "description": "Structural Steel & Misc Metals - component 6",
-                "amount": 285000
+                "amount": 1715000
               }
             ],
             "exclusions": [],
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
-            "notes": "Bid per Hartsfield Distribution Hub drawings issued 03/15/2024.",
+            "notes": "Bid per Hartsfield Distribution Hub drawings.",
             "post_bid_updates": []
           },
           {
-            "sub_id": "05-S2",
-            "company": "Buckhead Interiors",
-            "contact": "Ed Turner",
-            "email": "buckheadinteriors@contractor.com",
+            "sub_id": "S2",
+            "company": "Georgia Interiors",
+            "contact": "Linda Garza",
+            "email": "info@contractor.com",
             "source": "Excel",
             "submitted_date": "2024-04-19",
-            "base_bid": 1030000,
+            "base_bid": 2775000,
             "line_items": [
               {
                 "description": "Structural Steel & Misc Metals - component 1",
-                "amount": 185000
+                "amount": 925000
               },
               {
                 "description": "Structural Steel & Misc Metals - component 2",
-                "amount": 185000
+                "amount": 695000
               },
               {
                 "description": "Structural Steel & Misc Metals - component 3",
-                "amount": 170000
-              },
-              {
-                "description": "Structural Steel & Misc Metals - component 4",
-                "amount": 225000
-              },
-              {
-                "description": "Structural Steel & Misc Metals - component 5",
-                "amount": 265000
+                "amount": 1155000
               }
             ],
             "exclusions": [
-              "Miscellaneous metals and embeds - NOT IN CONTRACT",
-              "Extended warranty (by owner)"
+              "Miscellaneous metals and embeds - NOT IN CONTRACT"
             ],
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
-            "notes": "Bid per Hartsfield Distribution Hub drawings issued 03/15/2024.",
+            "notes": "Bid per Hartsfield Distribution Hub drawings.",
             "post_bid_updates": []
           },
           {
-            "sub_id": "05-S3",
-            "company": "Peachtree Plumbing",
-            "contact": "Carl Johnson",
-            "email": "peachtreeplumbing@contractor.com",
+            "sub_id": "S3",
+            "company": "Southern Plumbing",
+            "contact": "Bill Torres",
+            "email": "info@contractor.com",
             "source": "Email",
             "submitted_date": "2024-04-20",
-            "base_bid": 1800000,
+            "base_bid": 5295000,
             "line_items": [
               {
                 "description": "Structural Steel & Misc Metals - component 1",
-                "amount": 500000
+                "amount": 1765000
               },
               {
                 "description": "Structural Steel & Misc Metals - component 2",
-                "amount": 565000
+                "amount": 1325000
               },
               {
                 "description": "Structural Steel & Misc Metals - component 3",
-                "amount": 735000
+                "amount": 2205000
               }
             ],
             "exclusions": [],
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
-            "notes": "Bid per Hartsfield Distribution Hub drawings issued 03/15/2024.",
+            "notes": "Bid per Hartsfield Distribution Hub drawings.",
             "post_bid_updates": []
           }
         ]
@@ -467,78 +415,54 @@
         "csi_code": "07 00 00",
         "bids": [
           {
-            "sub_id": "07-S1",
-            "company": "Georgia Concrete",
-            "contact": "Maria Valdez",
-            "email": "georgiaconcrete@contractor.com",
+            "sub_id": "S1",
+            "company": "Peachtree Plumbing",
+            "contact": "Bill Torres",
+            "email": "info@contractor.com",
             "source": "PDF",
             "submitted_date": "2024-04-18",
-            "base_bid": 620000,
+            "base_bid": 1205000,
             "line_items": [
               {
                 "description": "Roofing, Waterproofing & Insulation - component 1",
-                "amount": 115000
+                "amount": 400000
               },
               {
                 "description": "Roofing, Waterproofing & Insulation - component 2",
-                "amount": 100000
+                "amount": 300000
               },
               {
                 "description": "Roofing, Waterproofing & Insulation - component 3",
-                "amount": 105000
-              },
-              {
-                "description": "Roofing, Waterproofing & Insulation - component 4",
-                "amount": 120000
-              },
-              {
-                "description": "Roofing, Waterproofing & Insulation - component 5",
-                "amount": 100000
-              },
-              {
-                "description": "Roofing, Waterproofing & Insulation - component 6",
-                "amount": 80000
+                "amount": 505000
               }
             ],
             "exclusions": [],
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
-            "notes": "Bid per Hartsfield Distribution Hub drawings issued 03/15/2024.",
+            "notes": "Bid per Hartsfield Distribution Hub drawings.",
             "post_bid_updates": []
           },
           {
-            "sub_id": "07-S2",
-            "company": "Southern Mechanical",
-            "contact": "Kevin Walsh",
-            "email": "southernmechanical@contractor.com",
+            "sub_id": "S2",
+            "company": "Georgia Framing",
+            "contact": "Priya Nair",
+            "email": "info@contractor.com",
             "source": "Excel",
             "submitted_date": "2024-04-19",
-            "base_bid": 410000,
+            "base_bid": 790000,
             "line_items": [
               {
                 "description": "Roofing, Waterproofing & Insulation - component 1",
-                "amount": 65000
+                "amount": 265000
               },
               {
                 "description": "Roofing, Waterproofing & Insulation - component 2",
-                "amount": 65000
+                "amount": 200000
               },
               {
                 "description": "Roofing, Waterproofing & Insulation - component 3",
-                "amount": 80000
-              },
-              {
-                "description": "Roofing, Waterproofing & Insulation - component 4",
-                "amount": 55000
-              },
-              {
-                "description": "Roofing, Waterproofing & Insulation - component 5",
-                "amount": 70000
-              },
-              {
-                "description": "Roofing, Waterproofing & Insulation - component 6",
-                "amount": 75000
+                "amount": 325000
               }
             ],
             "exclusions": [
@@ -547,40 +471,47 @@
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
-            "notes": "Bid per Hartsfield Distribution Hub drawings issued 03/15/2024.",
-            "post_bid_updates": []
+            "notes": "Bid per Hartsfield Distribution Hub drawings.",
+            "post_bid_updates": [
+              {
+                "update_id": "U1",
+                "date": "2024-04-28",
+                "from": "Priya Nair <email@contractor.com>",
+                "subject": "RE: Hartsfield Distribution Hub - Below-slab waterproofing Add",
+                "body": "We can include Below-slab waterproofing for an additional $55,000. Revised total $845,000.",
+                "revised_total": 845000,
+                "delta": 55000,
+                "scope_added": "Below-slab waterproofing"
+              }
+            ]
           },
           {
-            "sub_id": "07-S3",
-            "company": "Atlanta Roofing",
-            "contact": "Beth Adams",
-            "email": "atlantaroofing@contractor.com",
+            "sub_id": "S3",
+            "company": "Southern Systems",
+            "contact": "Rob Flores",
+            "email": "info@contractor.com",
             "source": "Email",
             "submitted_date": "2024-04-20",
-            "base_bid": 810000,
+            "base_bid": 1650000,
             "line_items": [
               {
                 "description": "Roofing, Waterproofing & Insulation - component 1",
-                "amount": 170000
+                "amount": 550000
               },
               {
                 "description": "Roofing, Waterproofing & Insulation - component 2",
-                "amount": 225000
+                "amount": 410000
               },
               {
                 "description": "Roofing, Waterproofing & Insulation - component 3",
-                "amount": 175000
-              },
-              {
-                "description": "Roofing, Waterproofing & Insulation - component 4",
-                "amount": 240000
+                "amount": 690000
               }
             ],
             "exclusions": [],
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
-            "notes": "Bid per Hartsfield Distribution Hub drawings issued 03/15/2024.",
+            "notes": "Bid per Hartsfield Distribution Hub drawings.",
             "post_bid_updates": []
           }
         ]
@@ -590,124 +521,103 @@
         "csi_code": "08 00 00",
         "bids": [
           {
-            "sub_id": "08-S1",
-            "company": "Buckhead Interiors",
-            "contact": "Angela Cruz",
-            "email": "buckheadinteriors@contractor.com",
+            "sub_id": "S1",
+            "company": "Peachtree Mechanical",
+            "contact": "Dave Kim",
+            "email": "info@contractor.com",
             "source": "PDF",
             "submitted_date": "2024-04-18",
-            "base_bid": 385000,
+            "base_bid": 410000,
             "line_items": [
               {
                 "description": "Doors, Frames, Hardware & Glazing - component 1",
-                "amount": 55000
+                "amount": 135000
               },
               {
                 "description": "Doors, Frames, Hardware & Glazing - component 2",
-                "amount": 70000
+                "amount": 100000
               },
               {
                 "description": "Doors, Frames, Hardware & Glazing - component 3",
-                "amount": 55000
-              },
-              {
-                "description": "Doors, Frames, Hardware & Glazing - component 4",
-                "amount": 70000
-              },
-              {
-                "description": "Doors, Frames, Hardware & Glazing - component 5",
-                "amount": 55000
-              },
-              {
-                "description": "Doors, Frames, Hardware & Glazing - component 6",
-                "amount": 80000
+                "amount": 175000
               }
             ],
             "exclusions": [],
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
-            "notes": "Bid per Hartsfield Distribution Hub drawings issued 03/15/2024.",
+            "notes": "Bid per Hartsfield Distribution Hub drawings.",
             "post_bid_updates": []
           },
           {
-            "sub_id": "08-S2",
-            "company": "Peachtree Plumbing",
-            "contact": "Tom Brady",
-            "email": "peachtreeplumbing@contractor.com",
+            "sub_id": "S2",
+            "company": "Georgia Roofing",
+            "contact": "Angela Cruz",
+            "email": "info@contractor.com",
             "source": "Excel",
             "submitted_date": "2024-04-19",
-            "base_bid": 260000,
+            "base_bid": 275000,
             "line_items": [
               {
                 "description": "Doors, Frames, Hardware & Glazing - component 1",
-                "amount": 70000
-              },
-              {
-                "description": "Doors, Frames, Hardware & Glazing - component 2",
                 "amount": 90000
               },
               {
+                "description": "Doors, Frames, Hardware & Glazing - component 2",
+                "amount": 70000
+              },
+              {
                 "description": "Doors, Frames, Hardware & Glazing - component 3",
-                "amount": 100000
+                "amount": 115000
               }
             ],
             "exclusions": [
-              "Storefront glazing system - NOT IN CONTRACT",
-              "Extended warranty (by owner)"
+              "Storefront glazing system - NOT IN CONTRACT"
             ],
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
-            "notes": "Bid per Hartsfield Distribution Hub drawings issued 03/15/2024.",
+            "notes": "Bid per Hartsfield Distribution Hub drawings.",
             "post_bid_updates": [
               {
-                "update_id": "08-U1",
+                "update_id": "U1",
                 "date": "2024-04-28",
-                "from": "Tom Brady <peachtreeplumbing@contractor.com>",
-                "subject": "RE: Hartsfield Distribution Hub - Storefront glazing system Clarification",
-                "body": "Following up on our call \u2014 we can pick up Storefront glazing system for $20,000 additional. Revised total $280,000.",
-                "revised_total": 280000,
+                "from": "Angela Cruz <email@contractor.com>",
+                "subject": "RE: Hartsfield Distribution Hub - Storefront glazing system Add",
+                "body": "We can include Storefront glazing system for an additional $20,000. Revised total $295,000.",
+                "revised_total": 295000,
                 "delta": 20000,
                 "scope_added": "Storefront glazing system"
               }
             ]
           },
           {
-            "sub_id": "08-S3",
-            "company": "Georgia Framing",
-            "contact": "Linda Garza",
-            "email": "georgiaframing@contractor.com",
+            "sub_id": "S3",
+            "company": "Southern Steel",
+            "contact": "Tom Brady",
+            "email": "info@contractor.com",
             "source": "Email",
             "submitted_date": "2024-04-20",
-            "base_bid": 495000,
+            "base_bid": 520000,
             "line_items": [
               {
                 "description": "Doors, Frames, Hardware & Glazing - component 1",
-                "amount": 115000
+                "amount": 175000
               },
               {
                 "description": "Doors, Frames, Hardware & Glazing - component 2",
-                "amount": 100000
+                "amount": 130000
               },
               {
                 "description": "Doors, Frames, Hardware & Glazing - component 3",
-                "amount": 115000
-              },
-              {
-                "description": "Doors, Frames, Hardware & Glazing - component 4",
-                "amount": 80000
-              },
-              {
-                "description": "Doors, Frames, Hardware & Glazing - component 5",
-                "amount": 85000
+                "amount": 215000
               }
             ],
             "exclusions": [],
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
-            "notes": "Bid per Hartsfield Distribution Hub drawings issued 03/15/2024.",
+            "notes": "Bid per Hartsfield Distribution Hub drawings.",
             "post_bid_updates": []
           }
         ]
@@ -717,58 +627,54 @@
         "csi_code": "09 20 00",
         "bids": [
           {
-            "sub_id": "09-S1",
-            "company": "Atlanta Roofing",
-            "contact": "Pete Adams",
-            "email": "atlantaroofing@contractor.com",
+            "sub_id": "S1",
+            "company": "Peachtree Interiors",
+            "contact": "Linda Garza",
+            "email": "info@contractor.com",
             "source": "PDF",
             "submitted_date": "2024-04-18",
-            "base_bid": 150000,
+            "base_bid": 185000,
             "line_items": [
               {
                 "description": "Drywall & Framing - component 1",
-                "amount": 30000
+                "amount": 60000
               },
               {
                 "description": "Drywall & Framing - component 2",
-                "amount": 40000
+                "amount": 45000
               },
               {
                 "description": "Drywall & Framing - component 3",
-                "amount": 40000
-              },
-              {
-                "description": "Drywall & Framing - component 4",
-                "amount": 40000
+                "amount": 80000
               }
             ],
             "exclusions": [],
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
-            "notes": "Bid per Hartsfield Distribution Hub drawings issued 03/15/2024.",
+            "notes": "Bid per Hartsfield Distribution Hub drawings.",
             "post_bid_updates": []
           },
           {
-            "sub_id": "09-S2",
-            "company": "Piedmont Steel",
-            "contact": "Sam Rivera",
-            "email": "piedmontsteel@contractor.com",
+            "sub_id": "S2",
+            "company": "Georgia Plumbing",
+            "contact": "Bill Torres",
+            "email": "info@contractor.com",
             "source": "Excel",
             "submitted_date": "2024-04-19",
-            "base_bid": 95000,
+            "base_bid": 115000,
             "line_items": [
               {
                 "description": "Drywall & Framing - component 1",
-                "amount": 35000
+                "amount": 40000
               },
               {
                 "description": "Drywall & Framing - component 2",
-                "amount": 35000
+                "amount": 30000
               },
               {
                 "description": "Drywall & Framing - component 3",
-                "amount": 25000
+                "amount": 45000
               }
             ],
             "exclusions": [
@@ -777,55 +683,47 @@
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
-            "notes": "Bid per Hartsfield Distribution Hub drawings issued 03/15/2024.",
+            "notes": "Bid per Hartsfield Distribution Hub drawings.",
             "post_bid_updates": [
               {
-                "update_id": "09-U1",
+                "update_id": "U1",
                 "date": "2024-04-28",
-                "from": "Sam Rivera <piedmontsteel@contractor.com>",
+                "from": "Bill Torres <email@contractor.com>",
                 "subject": "RE: Hartsfield Distribution Hub - Shaft wall assemblies Add",
-                "body": "We can include Shaft wall assemblies for an additional $5,000. Revised total would be $100,000.",
-                "revised_total": 100000,
-                "delta": 5000,
+                "body": "We can include Shaft wall assemblies for an additional $10,000. Revised total $125,000.",
+                "revised_total": 125000,
+                "delta": 10000,
                 "scope_added": "Shaft wall assemblies"
               }
             ]
           },
           {
-            "sub_id": "09-S3",
-            "company": "Buckhead Interiors",
-            "contact": "Walt Burns",
-            "email": "buckheadinteriors@contractor.com",
+            "sub_id": "S3",
+            "company": "Southern Framing",
+            "contact": "Priya Nair",
+            "email": "info@contractor.com",
             "source": "Email",
             "submitted_date": "2024-04-20",
-            "base_bid": 195000,
+            "base_bid": 225000,
             "line_items": [
               {
                 "description": "Drywall & Framing - component 1",
-                "amount": 45000
+                "amount": 75000
               },
               {
                 "description": "Drywall & Framing - component 2",
-                "amount": 35000
+                "amount": 55000
               },
               {
                 "description": "Drywall & Framing - component 3",
-                "amount": 40000
-              },
-              {
-                "description": "Drywall & Framing - component 4",
-                "amount": 40000
-              },
-              {
-                "description": "Drywall & Framing - component 5",
-                "amount": 35000
+                "amount": 95000
               }
             ],
             "exclusions": [],
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
-            "notes": "Bid per Hartsfield Distribution Hub drawings issued 03/15/2024.",
+            "notes": "Bid per Hartsfield Distribution Hub drawings.",
             "post_bid_updates": []
           }
         ]
@@ -835,98 +733,46 @@
         "csi_code": "09 60 00",
         "bids": [
           {
-            "sub_id": "09-S1",
-            "company": "Georgia Concrete",
-            "contact": "Angela Cruz",
-            "email": "georgiaconcrete@contractor.com",
+            "sub_id": "S1",
+            "company": "Peachtree Framing",
+            "contact": "Priya Nair",
+            "email": "info@contractor.com",
             "source": "PDF",
             "submitted_date": "2024-04-18",
-            "base_bid": 260000,
+            "base_bid": 370000,
             "line_items": [
               {
                 "description": "Flooring - component 1",
-                "amount": 35000
+                "amount": 125000
               },
               {
                 "description": "Flooring - component 2",
-                "amount": 50000
+                "amount": 90000
               },
               {
                 "description": "Flooring - component 3",
-                "amount": 40000
-              },
-              {
-                "description": "Flooring - component 4",
-                "amount": 40000
-              },
-              {
-                "description": "Flooring - component 5",
-                "amount": 50000
-              },
-              {
-                "description": "Flooring - component 6",
-                "amount": 45000
+                "amount": 155000
               }
             ],
             "exclusions": [],
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
-            "notes": "Bid per Hartsfield Distribution Hub drawings issued 03/15/2024.",
+            "notes": "Bid per Hartsfield Distribution Hub drawings.",
             "post_bid_updates": []
           },
           {
-            "sub_id": "09-S2",
-            "company": "Southern Mechanical",
-            "contact": "Tom Brady",
-            "email": "southernmechanical@contractor.com",
+            "sub_id": "S2",
+            "company": "Georgia Systems",
+            "contact": "Rob Flores",
+            "email": "info@contractor.com",
             "source": "Excel",
             "submitted_date": "2024-04-19",
-            "base_bid": 175000,
+            "base_bid": 245000,
             "line_items": [
               {
                 "description": "Flooring - component 1",
-                "amount": 30000
-              },
-              {
-                "description": "Flooring - component 2",
-                "amount": 40000
-              },
-              {
-                "description": "Flooring - component 3",
-                "amount": 30000
-              },
-              {
-                "description": "Flooring - component 4",
-                "amount": 30000
-              },
-              {
-                "description": "Flooring - component 5",
-                "amount": 45000
-              }
-            ],
-            "exclusions": [
-              "Specialty sheet vinyl in procedure rooms - NOT IN CONTRACT",
-              "Extended warranty (by owner)"
-            ],
-            "inclusions": [
-              "All labor, material, and permits per contract documents"
-            ],
-            "notes": "Bid per Hartsfield Distribution Hub drawings issued 03/15/2024.",
-            "post_bid_updates": []
-          },
-          {
-            "sub_id": "09-S3",
-            "company": "Atlanta Roofing",
-            "contact": "Linda Garza",
-            "email": "atlantaroofing@contractor.com",
-            "source": "Email",
-            "submitted_date": "2024-04-20",
-            "base_bid": 335000,
-            "line_items": [
-              {
-                "description": "Flooring - component 1",
-                "amount": 65000
+                "amount": 80000
               },
               {
                 "description": "Flooring - component 2",
@@ -934,26 +780,45 @@
               },
               {
                 "description": "Flooring - component 3",
-                "amount": 65000
+                "amount": 105000
+              }
+            ],
+            "exclusions": [
+              "Specialty sheet vinyl in procedure rooms - NOT IN CONTRACT"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Hartsfield Distribution Hub drawings.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "S3",
+            "company": "Southern Contractors",
+            "contact": "Lisa Chang",
+            "email": "info@contractor.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 470000,
+            "line_items": [
+              {
+                "description": "Flooring - component 1",
+                "amount": 155000
               },
               {
-                "description": "Flooring - component 4",
-                "amount": 50000
+                "description": "Flooring - component 2",
+                "amount": 120000
               },
               {
-                "description": "Flooring - component 5",
-                "amount": 50000
-              },
-              {
-                "description": "Flooring - component 6",
-                "amount": 45000
+                "description": "Flooring - component 3",
+                "amount": 195000
               }
             ],
             "exclusions": [],
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
-            "notes": "Bid per Hartsfield Distribution Hub drawings issued 03/15/2024.",
+            "notes": "Bid per Hartsfield Distribution Hub drawings.",
             "post_bid_updates": []
           }
         ]
@@ -963,113 +828,92 @@
         "csi_code": "09 90 00",
         "bids": [
           {
-            "sub_id": "09-S1",
-            "company": "Piedmont Steel",
-            "contact": "Sam Rivera",
-            "email": "piedmontsteel@contractor.com",
+            "sub_id": "S1",
+            "company": "Peachtree Concrete",
+            "contact": "Sandra Reeves",
+            "email": "info@contractor.com",
             "source": "PDF",
             "submitted_date": "2024-04-18",
-            "base_bid": 90000,
-            "line_items": [
-              {
-                "description": "Painting & Wall Coverings - component 1",
-                "amount": 25000
-              },
-              {
-                "description": "Painting & Wall Coverings - component 2",
-                "amount": 25000
-              },
-              {
-                "description": "Painting & Wall Coverings - component 3",
-                "amount": 40000
-              }
-            ],
-            "exclusions": [],
-            "inclusions": [
-              "All labor, material, and permits per contract documents"
-            ],
-            "notes": "Bid per Hartsfield Distribution Hub drawings issued 03/15/2024.",
-            "post_bid_updates": []
-          },
-          {
-            "sub_id": "09-S2",
-            "company": "Buckhead Interiors",
-            "contact": "Walt Burns",
-            "email": "buckheadinteriors@contractor.com",
-            "source": "Excel",
-            "submitted_date": "2024-04-19",
-            "base_bid": 55000,
-            "line_items": [
-              {
-                "description": "Painting & Wall Coverings - component 1",
-                "amount": 10000
-              },
-              {
-                "description": "Painting & Wall Coverings - component 2",
-                "amount": 10000
-              },
-              {
-                "description": "Painting & Wall Coverings - component 3",
-                "amount": 10000
-              },
-              {
-                "description": "Painting & Wall Coverings - component 4",
-                "amount": 10000
-              },
-              {
-                "description": "Painting & Wall Coverings - component 5",
-                "amount": 10000
-              },
-              {
-                "description": "Painting & Wall Coverings - component 6",
-                "amount": 5000
-              }
-            ],
-            "exclusions": [
-              "Exterior painting - NOT IN CONTRACT",
-              "Extended warranty (by owner)"
-            ],
-            "inclusions": [
-              "All labor, material, and permits per contract documents"
-            ],
-            "notes": "Bid per Hartsfield Distribution Hub drawings issued 03/15/2024.",
-            "post_bid_updates": []
-          },
-          {
-            "sub_id": "09-S3",
-            "company": "Peachtree Plumbing",
-            "contact": "Mike Torres",
-            "email": "peachtreeplumbing@contractor.com",
-            "source": "Email",
-            "submitted_date": "2024-04-20",
             "base_bid": 105000,
             "line_items": [
               {
                 "description": "Painting & Wall Coverings - component 1",
-                "amount": 25000
+                "amount": 35000
               },
               {
                 "description": "Painting & Wall Coverings - component 2",
-                "amount": 20000
-              },
-              {
-                "description": "Painting & Wall Coverings - component 3",
                 "amount": 25000
               },
               {
-                "description": "Painting & Wall Coverings - component 4",
-                "amount": 20000
-              },
-              {
-                "description": "Painting & Wall Coverings - component 5",
-                "amount": 15000
+                "description": "Painting & Wall Coverings - component 3",
+                "amount": 45000
               }
             ],
             "exclusions": [],
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
-            "notes": "Bid per Hartsfield Distribution Hub drawings issued 03/15/2024.",
+            "notes": "Bid per Hartsfield Distribution Hub drawings.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "S2",
+            "company": "Georgia Mechanical",
+            "contact": "Dave Kim",
+            "email": "info@contractor.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 65000,
+            "line_items": [
+              {
+                "description": "Painting & Wall Coverings - component 1",
+                "amount": 20000
+              },
+              {
+                "description": "Painting & Wall Coverings - component 2",
+                "amount": 15000
+              },
+              {
+                "description": "Painting & Wall Coverings - component 3",
+                "amount": 30000
+              }
+            ],
+            "exclusions": [
+              "Exterior painting - NOT IN CONTRACT"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Hartsfield Distribution Hub drawings.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "S3",
+            "company": "Southern Roofing",
+            "contact": "Angela Cruz",
+            "email": "info@contractor.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 130000,
+            "line_items": [
+              {
+                "description": "Painting & Wall Coverings - component 1",
+                "amount": 45000
+              },
+              {
+                "description": "Painting & Wall Coverings - component 2",
+                "amount": 30000
+              },
+              {
+                "description": "Painting & Wall Coverings - component 3",
+                "amount": 55000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Hartsfield Distribution Hub drawings.",
             "post_bid_updates": []
           }
         ]
@@ -1079,108 +923,92 @@
         "csi_code": "09 51 00",
         "bids": [
           {
-            "sub_id": "09-S1",
-            "company": "Southern Mechanical",
-            "contact": "Tom Brady",
-            "email": "southernmechanical@contractor.com",
+            "sub_id": "S1",
+            "company": "Peachtree Mechanical",
+            "contact": "Dave Kim",
+            "email": "info@contractor.com",
             "source": "PDF",
             "submitted_date": "2024-04-18",
-            "base_bid": 75000,
+            "base_bid": 70000,
             "line_items": [
               {
                 "description": "Acoustical Ceilings (ACT) - component 1",
-                "amount": 20000
-              },
-              {
-                "description": "Acoustical Ceilings (ACT) - component 2",
                 "amount": 25000
               },
               {
+                "description": "Acoustical Ceilings (ACT) - component 2",
+                "amount": 20000
+              },
+              {
                 "description": "Acoustical Ceilings (ACT) - component 3",
-                "amount": 30000
+                "amount": 25000
               }
             ],
             "exclusions": [],
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
-            "notes": "Bid per Hartsfield Distribution Hub drawings issued 03/15/2024.",
+            "notes": "Bid per Hartsfield Distribution Hub drawings.",
             "post_bid_updates": []
           },
           {
-            "sub_id": "09-S2",
-            "company": "Atlanta Roofing",
-            "contact": "Linda Garza",
-            "email": "atlantaroofing@contractor.com",
+            "sub_id": "S2",
+            "company": "Georgia Roofing",
+            "contact": "Angela Cruz",
+            "email": "info@contractor.com",
             "source": "Excel",
             "submitted_date": "2024-04-19",
-            "base_bid": 50000,
+            "base_bid": 45000,
             "line_items": [
               {
                 "description": "Acoustical Ceilings (ACT) - component 1",
-                "amount": 10000
+                "amount": 15000
               },
               {
                 "description": "Acoustical Ceilings (ACT) - component 2",
-                "amount": 15000
+                "amount": 10000
               },
               {
                 "description": "Acoustical Ceilings (ACT) - component 3",
-                "amount": 15000
-              },
-              {
-                "description": "Acoustical Ceilings (ACT) - component 4",
-                "amount": 10000
+                "amount": 20000
               }
             ],
             "exclusions": [
-              "Gypsum board soffits and clouds - NOT IN CONTRACT",
-              "Extended warranty (by owner)"
+              "Gypsum board soffits and clouds - NOT IN CONTRACT"
             ],
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
-            "notes": "Bid per Hartsfield Distribution Hub drawings issued 03/15/2024.",
-            "post_bid_updates": [
-              {
-                "update_id": "09-U1",
-                "date": "2024-04-28",
-                "from": "Linda Garza <atlantaroofing@contractor.com>",
-                "subject": "RE: Hartsfield Distribution Hub - Gypsum board soffits and clouds Scope Add",
-                "body": "Per our conversation this morning: Gypsum board soffits and clouds can be added for $5,000. New total is $55,000.",
-                "revised_total": 55000,
-                "delta": 5000,
-                "scope_added": "Gypsum board soffits and clouds"
-              }
-            ]
+            "notes": "Bid per Hartsfield Distribution Hub drawings.",
+            "post_bid_updates": []
           },
           {
-            "sub_id": "09-S3",
-            "company": "Piedmont Steel",
-            "contact": "Bill Torres",
-            "email": "piedmontsteel@contractor.com",
+            "sub_id": "S3",
+            "company": "Southern Steel",
+            "contact": "Tom Brady",
+            "email": "info@contractor.com",
             "source": "Email",
             "submitted_date": "2024-04-20",
-            "base_bid": 100000,
+            "base_bid": 90000,
             "line_items": [
               {
                 "description": "Acoustical Ceilings (ACT) - component 1",
-                "amount": 35000
-              },
-              {
-                "description": "Acoustical Ceilings (ACT) - component 2",
                 "amount": 30000
               },
               {
+                "description": "Acoustical Ceilings (ACT) - component 2",
+                "amount": 20000
+              },
+              {
                 "description": "Acoustical Ceilings (ACT) - component 3",
-                "amount": 35000
+                "amount": 40000
               }
             ],
             "exclusions": [],
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
-            "notes": "Bid per Hartsfield Distribution Hub drawings issued 03/15/2024.",
+            "notes": "Bid per Hartsfield Distribution Hub drawings.",
             "post_bid_updates": []
           }
         ]
@@ -1190,17 +1018,17 @@
         "csi_code": "10 00 00",
         "bids": [
           {
-            "sub_id": "10-S1",
-            "company": "Georgia Concrete",
-            "contact": "Angela Cruz",
-            "email": "georgiaconcrete@contractor.com",
+            "sub_id": "S1",
+            "company": "Peachtree Mechanical",
+            "contact": "Dave Kim",
+            "email": "info@contractor.com",
             "source": "PDF",
             "submitted_date": "2024-04-18",
-            "base_bid": 80000,
+            "base_bid": 75000,
             "line_items": [
               {
                 "description": "Specialties - component 1",
-                "amount": 15000
+                "amount": 25000
               },
               {
                 "description": "Specialties - component 2",
@@ -1208,36 +1036,28 @@
               },
               {
                 "description": "Specialties - component 3",
-                "amount": 15000
-              },
-              {
-                "description": "Specialties - component 4",
-                "amount": 20000
-              },
-              {
-                "description": "Specialties - component 5",
-                "amount": 10000
+                "amount": 30000
               }
             ],
             "exclusions": [],
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
-            "notes": "Bid per Hartsfield Distribution Hub drawings issued 03/15/2024.",
+            "notes": "Bid per Hartsfield Distribution Hub drawings.",
             "post_bid_updates": []
           },
           {
-            "sub_id": "10-S2",
-            "company": "Southern Mechanical",
-            "contact": "Tom Brady",
-            "email": "southernmechanical@contractor.com",
+            "sub_id": "S2",
+            "company": "Georgia Roofing",
+            "contact": "Angela Cruz",
+            "email": "info@contractor.com",
             "source": "Excel",
             "submitted_date": "2024-04-19",
-            "base_bid": 50000,
+            "base_bid": 45000,
             "line_items": [
               {
                 "description": "Specialties - component 1",
-                "amount": 10000
+                "amount": 15000
               },
               {
                 "description": "Specialties - component 2",
@@ -1245,15 +1065,7 @@
               },
               {
                 "description": "Specialties - component 3",
-                "amount": 10000
-              },
-              {
-                "description": "Specialties - component 4",
-                "amount": 10000
-              },
-              {
-                "description": "Specialties - component 5",
-                "amount": 10000
+                "amount": 20000
               }
             ],
             "exclusions": [
@@ -1262,17 +1074,28 @@
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
-            "notes": "Bid per Hartsfield Distribution Hub drawings issued 03/15/2024.",
-            "post_bid_updates": []
+            "notes": "Bid per Hartsfield Distribution Hub drawings.",
+            "post_bid_updates": [
+              {
+                "update_id": "U1",
+                "date": "2024-04-28",
+                "from": "Angela Cruz <email@contractor.com>",
+                "subject": "RE: Hartsfield Distribution Hub - ADA signage package Add",
+                "body": "We can include ADA signage package for an additional $5,000. Revised total $50,000.",
+                "revised_total": 50000,
+                "delta": 5000,
+                "scope_added": "ADA signage package"
+              }
+            ]
           },
           {
-            "sub_id": "10-S3",
-            "company": "Atlanta Roofing",
-            "contact": "Linda Garza",
-            "email": "atlantaroofing@contractor.com",
+            "sub_id": "S3",
+            "company": "Southern Steel",
+            "contact": "Tom Brady",
+            "email": "info@contractor.com",
             "source": "Email",
             "submitted_date": "2024-04-20",
-            "base_bid": 115000,
+            "base_bid": 100000,
             "line_items": [
               {
                 "description": "Specialties - component 1",
@@ -1280,22 +1103,18 @@
               },
               {
                 "description": "Specialties - component 2",
-                "amount": 30000
+                "amount": 25000
               },
               {
                 "description": "Specialties - component 3",
-                "amount": 30000
-              },
-              {
-                "description": "Specialties - component 4",
-                "amount": 20000
+                "amount": 40000
               }
             ],
             "exclusions": [],
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
-            "notes": "Bid per Hartsfield Distribution Hub drawings issued 03/15/2024.",
+            "notes": "Bid per Hartsfield Distribution Hub drawings.",
             "post_bid_updates": []
           }
         ]
@@ -1305,54 +1124,54 @@
         "csi_code": "21 00 00",
         "bids": [
           {
-            "sub_id": "21-S1",
-            "company": "Peachtree Electric",
-            "contact": "Kevin Walsh",
-            "email": "peachtreeelectric@contractor.com",
+            "sub_id": "S1",
+            "company": "Peachtree Mechanical",
+            "contact": "Dave Kim",
+            "email": "info@contractor.com",
             "source": "PDF",
             "submitted_date": "2024-04-18",
-            "base_bid": 385000,
+            "base_bid": 865000,
             "line_items": [
               {
                 "description": "Fire Suppression (Sprinklers) - component 1",
-                "amount": 125000
+                "amount": 290000
               },
               {
                 "description": "Fire Suppression (Sprinklers) - component 2",
-                "amount": 110000
+                "amount": 215000
               },
               {
                 "description": "Fire Suppression (Sprinklers) - component 3",
-                "amount": 150000
+                "amount": 360000
               }
             ],
             "exclusions": [],
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
-            "notes": "Bid per Hartsfield Distribution Hub drawings issued 03/15/2024.",
+            "notes": "Bid per Hartsfield Distribution Hub drawings.",
             "post_bid_updates": []
           },
           {
-            "sub_id": "21-S2",
-            "company": "Georgia Concrete",
-            "contact": "Beth Adams",
-            "email": "georgiaconcrete@contractor.com",
+            "sub_id": "S2",
+            "company": "Georgia Roofing",
+            "contact": "Angela Cruz",
+            "email": "info@contractor.com",
             "source": "Excel",
             "submitted_date": "2024-04-19",
-            "base_bid": 255000,
+            "base_bid": 570000,
             "line_items": [
               {
                 "description": "Fire Suppression (Sprinklers) - component 1",
-                "amount": 75000
+                "amount": 190000
               },
               {
                 "description": "Fire Suppression (Sprinklers) - component 2",
-                "amount": 90000
+                "amount": 140000
               },
               {
                 "description": "Fire Suppression (Sprinklers) - component 3",
-                "amount": 90000
+                "amount": 240000
               }
             ],
             "exclusions": [
@@ -1361,44 +1180,47 @@
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
-            "notes": "Bid per Hartsfield Distribution Hub drawings issued 03/15/2024.",
-            "post_bid_updates": []
+            "notes": "Bid per Hartsfield Distribution Hub drawings.",
+            "post_bid_updates": [
+              {
+                "update_id": "U1",
+                "date": "2024-04-28",
+                "from": "Angela Cruz <email@contractor.com>",
+                "subject": "RE: Hartsfield Distribution Hub - Kitchen hood fire suppression Add",
+                "body": "We can include Kitchen hood fire suppression for an additional $40,000. Revised total $610,000.",
+                "revised_total": 610000,
+                "delta": 40000,
+                "scope_added": "Kitchen hood fire suppression"
+              }
+            ]
           },
           {
-            "sub_id": "21-S3",
-            "company": "Southern Mechanical",
-            "contact": "Rick Simmons",
-            "email": "southernmechanical@contractor.com",
+            "sub_id": "S3",
+            "company": "Southern Steel",
+            "contact": "Tom Brady",
+            "email": "info@contractor.com",
             "source": "Email",
             "submitted_date": "2024-04-20",
-            "base_bid": 465000,
+            "base_bid": 1065000,
             "line_items": [
               {
                 "description": "Fire Suppression (Sprinklers) - component 1",
-                "amount": 100000
+                "amount": 355000
               },
               {
                 "description": "Fire Suppression (Sprinklers) - component 2",
-                "amount": 100000
+                "amount": 265000
               },
               {
                 "description": "Fire Suppression (Sprinklers) - component 3",
-                "amount": 85000
-              },
-              {
-                "description": "Fire Suppression (Sprinklers) - component 4",
-                "amount": 110000
-              },
-              {
-                "description": "Fire Suppression (Sprinklers) - component 5",
-                "amount": 70000
+                "amount": 445000
               }
             ],
             "exclusions": [],
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
-            "notes": "Bid per Hartsfield Distribution Hub drawings issued 03/15/2024.",
+            "notes": "Bid per Hartsfield Distribution Hub drawings.",
             "post_bid_updates": []
           }
         ]
@@ -1408,124 +1230,103 @@
         "csi_code": "22 00 00",
         "bids": [
           {
-            "sub_id": "22-S1",
-            "company": "Southern Mechanical",
-            "contact": "Carl Johnson",
-            "email": "southernmechanical@contractor.com",
+            "sub_id": "S1",
+            "company": "Peachtree Plumbing",
+            "contact": "Bill Torres",
+            "email": "info@contractor.com",
             "source": "PDF",
             "submitted_date": "2024-04-18",
-            "base_bid": 405000,
+            "base_bid": 545000,
             "line_items": [
               {
                 "description": "Plumbing - component 1",
-                "amount": 70000
+                "amount": 180000
               },
               {
                 "description": "Plumbing - component 2",
-                "amount": 55000
+                "amount": 135000
               },
               {
                 "description": "Plumbing - component 3",
-                "amount": 80000
-              },
-              {
-                "description": "Plumbing - component 4",
-                "amount": 80000
-              },
-              {
-                "description": "Plumbing - component 5",
-                "amount": 75000
-              },
-              {
-                "description": "Plumbing - component 6",
-                "amount": 45000
+                "amount": 230000
               }
             ],
             "exclusions": [],
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
-            "notes": "Bid per Hartsfield Distribution Hub drawings issued 03/15/2024.",
+            "notes": "Bid per Hartsfield Distribution Hub drawings.",
             "post_bid_updates": []
           },
           {
-            "sub_id": "22-S2",
-            "company": "Atlanta Roofing",
-            "contact": "Pete Adams",
-            "email": "atlantaroofing@contractor.com",
+            "sub_id": "S2",
+            "company": "Georgia Framing",
+            "contact": "Priya Nair",
+            "email": "info@contractor.com",
             "source": "Excel",
             "submitted_date": "2024-04-19",
-            "base_bid": 270000,
+            "base_bid": 365000,
             "line_items": [
               {
                 "description": "Plumbing - component 1",
-                "amount": 90000
+                "amount": 120000
               },
               {
                 "description": "Plumbing - component 2",
-                "amount": 85000
+                "amount": 90000
               },
               {
                 "description": "Plumbing - component 3",
-                "amount": 95000
+                "amount": 155000
               }
             ],
             "exclusions": [
-              "Medical gas outlets and zone valves - NOT IN CONTRACT",
-              "Extended warranty (by owner)"
+              "Medical gas outlets and zone valves - NOT IN CONTRACT"
             ],
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
-            "notes": "Bid per Hartsfield Distribution Hub drawings issued 03/15/2024.",
+            "notes": "Bid per Hartsfield Distribution Hub drawings.",
             "post_bid_updates": [
               {
-                "update_id": "22-U1",
+                "update_id": "U1",
                 "date": "2024-04-28",
-                "from": "Pete Adams <atlantaroofing@contractor.com>",
-                "subject": "RE: Hartsfield Distribution Hub - Medical gas outlets and zone valves Clarification",
-                "body": "Following up on our call \u2014 we can pick up Medical gas outlets and zone valves for $20,000 additional. Revised total $290,000.",
-                "revised_total": 290000,
-                "delta": 20000,
+                "from": "Priya Nair <email@contractor.com>",
+                "subject": "RE: Hartsfield Distribution Hub - Medical gas outlets and zone valves Add",
+                "body": "We can include Medical gas outlets and zone valves for an additional $25,000. Revised total $390,000.",
+                "revised_total": 390000,
+                "delta": 25000,
                 "scope_added": "Medical gas outlets and zone valves"
               }
             ]
           },
           {
-            "sub_id": "22-S3",
-            "company": "Piedmont Steel",
-            "contact": "Sam Rivera",
-            "email": "piedmontsteel@contractor.com",
+            "sub_id": "S3",
+            "company": "Southern Systems",
+            "contact": "Rob Flores",
+            "email": "info@contractor.com",
             "source": "Email",
             "submitted_date": "2024-04-20",
-            "base_bid": 475000,
+            "base_bid": 650000,
             "line_items": [
               {
                 "description": "Plumbing - component 1",
-                "amount": 100000
+                "amount": 215000
               },
               {
                 "description": "Plumbing - component 2",
-                "amount": 110000
+                "amount": 160000
               },
               {
                 "description": "Plumbing - component 3",
-                "amount": 85000
-              },
-              {
-                "description": "Plumbing - component 4",
-                "amount": 105000
-              },
-              {
-                "description": "Plumbing - component 5",
-                "amount": 75000
+                "amount": 275000
               }
             ],
             "exclusions": [],
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
-            "notes": "Bid per Hartsfield Distribution Hub drawings issued 03/15/2024.",
+            "notes": "Bid per Hartsfield Distribution Hub drawings.",
             "post_bid_updates": []
           }
         ]
@@ -1535,109 +1336,92 @@
         "csi_code": "23 00 00",
         "bids": [
           {
-            "sub_id": "23-S1",
-            "company": "Southern Mechanical",
-            "contact": "Bill Torres",
-            "email": "southernmechanical@contractor.com",
+            "sub_id": "S1",
+            "company": "Peachtree Framing",
+            "contact": "Priya Nair",
+            "email": "info@contractor.com",
             "source": "PDF",
             "submitted_date": "2024-04-18",
-            "base_bid": 490000,
+            "base_bid": 1065000,
             "line_items": [
               {
                 "description": "Mechanical (HVAC) - component 1",
-                "amount": 185000
+                "amount": 355000
               },
               {
                 "description": "Mechanical (HVAC) - component 2",
-                "amount": 185000
+                "amount": 265000
               },
               {
                 "description": "Mechanical (HVAC) - component 3",
-                "amount": 120000
+                "amount": 445000
               }
             ],
             "exclusions": [],
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
-            "notes": "Bid per Hartsfield Distribution Hub drawings issued 03/15/2024.",
+            "notes": "Bid per Hartsfield Distribution Hub drawings.",
             "post_bid_updates": []
           },
           {
-            "sub_id": "23-S2",
-            "company": "Atlanta Roofing",
-            "contact": "Priya Nair",
-            "email": "atlantaroofing@contractor.com",
+            "sub_id": "S2",
+            "company": "Georgia Systems",
+            "contact": "Rob Flores",
+            "email": "info@contractor.com",
             "source": "Excel",
             "submitted_date": "2024-04-19",
-            "base_bid": 315000,
+            "base_bid": 755000,
             "line_items": [
               {
                 "description": "Mechanical (HVAC) - component 1",
-                "amount": 70000
+                "amount": 250000
               },
               {
                 "description": "Mechanical (HVAC) - component 2",
-                "amount": 70000
+                "amount": 190000
               },
               {
                 "description": "Mechanical (HVAC) - component 3",
-                "amount": 65000
-              },
-              {
-                "description": "Mechanical (HVAC) - component 4",
-                "amount": 75000
-              },
-              {
-                "description": "Mechanical (HVAC) - component 5",
-                "amount": 35000
+                "amount": 315000
               }
             ],
             "exclusions": [
-              "Medical gas rough-in and kitchen hood exhaust - NOT IN CONTRACT",
-              "Extended warranty (by owner)"
+              "Dock unit heaters and exhaust - NOT IN CONTRACT"
             ],
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
-            "notes": "Bid per Hartsfield Distribution Hub drawings issued 03/15/2024.",
+            "notes": "Bid per Hartsfield Distribution Hub drawings.",
             "post_bid_updates": []
           },
           {
-            "sub_id": "23-S3",
-            "company": "Piedmont Steel",
-            "contact": "Rob Flores",
-            "email": "piedmontsteel@contractor.com",
+            "sub_id": "S3",
+            "company": "Southern Contractors",
+            "contact": "Lisa Chang",
+            "email": "info@contractor.com",
             "source": "Email",
             "submitted_date": "2024-04-20",
-            "base_bid": 565000,
+            "base_bid": 1335000,
             "line_items": [
               {
                 "description": "Mechanical (HVAC) - component 1",
-                "amount": 130000
+                "amount": 445000
               },
               {
                 "description": "Mechanical (HVAC) - component 2",
-                "amount": 110000
+                "amount": 335000
               },
               {
                 "description": "Mechanical (HVAC) - component 3",
-                "amount": 125000
-              },
-              {
-                "description": "Mechanical (HVAC) - component 4",
-                "amount": 115000
-              },
-              {
-                "description": "Mechanical (HVAC) - component 5",
-                "amount": 85000
+                "amount": 555000
               }
             ],
             "exclusions": [],
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
-            "notes": "Bid per Hartsfield Distribution Hub drawings issued 03/15/2024.",
+            "notes": "Bid per Hartsfield Distribution Hub drawings.",
             "post_bid_updates": []
           }
         ]
@@ -1647,116 +1431,92 @@
         "csi_code": "26 00 00",
         "bids": [
           {
-            "sub_id": "26-S1",
-            "company": "Buckhead Interiors",
+            "sub_id": "S1",
+            "company": "Peachtree Contractors",
             "contact": "Lisa Chang",
-            "email": "buckheadinteriors@contractor.com",
+            "email": "info@contractor.com",
             "source": "PDF",
             "submitted_date": "2024-04-18",
-            "base_bid": 560000,
+            "base_bid": 1280000,
             "line_items": [
               {
                 "description": "Electrical - component 1",
-                "amount": 110000
+                "amount": 425000
               },
               {
                 "description": "Electrical - component 2",
-                "amount": 100000
+                "amount": 320000
               },
               {
                 "description": "Electrical - component 3",
-                "amount": 95000
-              },
-              {
-                "description": "Electrical - component 4",
-                "amount": 105000
-              },
-              {
-                "description": "Electrical - component 5",
-                "amount": 105000
-              },
-              {
-                "description": "Electrical - component 6",
-                "amount": 45000
+                "amount": 535000
               }
             ],
             "exclusions": [],
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
-            "notes": "Bid per Hartsfield Distribution Hub drawings issued 03/15/2024.",
+            "notes": "Bid per Hartsfield Distribution Hub drawings.",
             "post_bid_updates": []
           },
           {
-            "sub_id": "26-S2",
-            "company": "Peachtree Plumbing",
-            "contact": "James Brown",
-            "email": "peachtreeplumbing@contractor.com",
+            "sub_id": "S2",
+            "company": "Georgia Electric",
+            "contact": "Mike Torres",
+            "email": "info@contractor.com",
             "source": "Excel",
             "submitted_date": "2024-04-19",
-            "base_bid": 385000,
+            "base_bid": 925000,
             "line_items": [
               {
                 "description": "Electrical - component 1",
-                "amount": 65000
+                "amount": 310000
               },
               {
                 "description": "Electrical - component 2",
-                "amount": 65000
+                "amount": 230000
               },
               {
                 "description": "Electrical - component 3",
-                "amount": 70000
-              },
-              {
-                "description": "Electrical - component 4",
-                "amount": 85000
-              },
-              {
-                "description": "Electrical - component 5",
-                "amount": 100000
+                "amount": 385000
               }
             ],
             "exclusions": [
-              "Fire alarm system - NOT IN CONTRACT"
+              "Dock leveler power and controls - NOT IN CONTRACT"
             ],
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
-            "notes": "Bid per Hartsfield Distribution Hub drawings issued 03/15/2024.",
+            "notes": "Bid per Hartsfield Distribution Hub drawings.",
             "post_bid_updates": []
           },
           {
-            "sub_id": "26-S3",
-            "company": "Georgia Framing",
-            "contact": "Maria Valdez",
-            "email": "georgiaframing@contractor.com",
+            "sub_id": "S3",
+            "company": "Southern Concrete",
+            "contact": "Sandra Reeves",
+            "email": "info@contractor.com",
             "source": "Email",
             "submitted_date": "2024-04-20",
-            "base_bid": 655000,
+            "base_bid": 1570000,
             "line_items": [
               {
                 "description": "Electrical - component 1",
-                "amount": 195000
+                "amount": 525000
               },
               {
                 "description": "Electrical - component 2",
-                "amount": 190000
+                "amount": 390000
               },
               {
                 "description": "Electrical - component 3",
-                "amount": 175000
-              },
-              {
-                "description": "Electrical - component 4",
-                "amount": 95000
+                "amount": 655000
               }
             ],
             "exclusions": [],
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
-            "notes": "Bid per Hartsfield Distribution Hub drawings issued 03/15/2024.",
+            "notes": "Bid per Hartsfield Distribution Hub drawings.",
             "post_bid_updates": []
           }
         ]
@@ -1766,62 +1526,54 @@
         "csi_code": "27 00 00",
         "bids": [
           {
-            "sub_id": "27-S1",
-            "company": "Georgia Concrete",
-            "contact": "Lisa Chang",
-            "email": "georgiaconcrete@contractor.com",
+            "sub_id": "S1",
+            "company": "Peachtree Mechanical",
+            "contact": "Dave Kim",
+            "email": "info@contractor.com",
             "source": "PDF",
             "submitted_date": "2024-04-18",
-            "base_bid": 180000,
+            "base_bid": 280000,
             "line_items": [
               {
                 "description": "Communications (Data, AV, Tel) - component 1",
-                "amount": 35000
+                "amount": 95000
               },
               {
                 "description": "Communications (Data, AV, Tel) - component 2",
-                "amount": 35000
+                "amount": 70000
               },
               {
                 "description": "Communications (Data, AV, Tel) - component 3",
-                "amount": 35000
-              },
-              {
-                "description": "Communications (Data, AV, Tel) - component 4",
-                "amount": 30000
-              },
-              {
-                "description": "Communications (Data, AV, Tel) - component 5",
-                "amount": 45000
+                "amount": 115000
               }
             ],
             "exclusions": [],
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
-            "notes": "Bid per Hartsfield Distribution Hub drawings issued 03/15/2024.",
+            "notes": "Bid per Hartsfield Distribution Hub drawings.",
             "post_bid_updates": []
           },
           {
-            "sub_id": "27-S2",
-            "company": "Southern Mechanical",
-            "contact": "James Brown",
-            "email": "southernmechanical@contractor.com",
+            "sub_id": "S2",
+            "company": "Georgia Roofing",
+            "contact": "Angela Cruz",
+            "email": "info@contractor.com",
             "source": "Excel",
             "submitted_date": "2024-04-19",
-            "base_bid": 105000,
+            "base_bid": 155000,
             "line_items": [
               {
                 "description": "Communications (Data, AV, Tel) - component 1",
-                "amount": 35000
+                "amount": 50000
               },
               {
                 "description": "Communications (Data, AV, Tel) - component 2",
-                "amount": 30000
+                "amount": 40000
               },
               {
                 "description": "Communications (Data, AV, Tel) - component 3",
-                "amount": 40000
+                "amount": 65000
               }
             ],
             "exclusions": [
@@ -1830,36 +1582,36 @@
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
-            "notes": "Bid per Hartsfield Distribution Hub drawings issued 03/15/2024.",
+            "notes": "Bid per Hartsfield Distribution Hub drawings.",
             "post_bid_updates": []
           },
           {
-            "sub_id": "27-S3",
-            "company": "Atlanta Roofing",
-            "contact": "Maria Valdez",
-            "email": "atlantaroofing@contractor.com",
+            "sub_id": "S3",
+            "company": "Southern Steel",
+            "contact": "Tom Brady",
+            "email": "info@contractor.com",
             "source": "Email",
             "submitted_date": "2024-04-20",
-            "base_bid": 250000,
+            "base_bid": 355000,
             "line_items": [
               {
                 "description": "Communications (Data, AV, Tel) - component 1",
-                "amount": 95000
+                "amount": 120000
               },
               {
                 "description": "Communications (Data, AV, Tel) - component 2",
-                "amount": 80000
+                "amount": 90000
               },
               {
                 "description": "Communications (Data, AV, Tel) - component 3",
-                "amount": 75000
+                "amount": 145000
               }
             ],
             "exclusions": [],
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
-            "notes": "Bid per Hartsfield Distribution Hub drawings issued 03/15/2024.",
+            "notes": "Bid per Hartsfield Distribution Hub drawings.",
             "post_bid_updates": []
           }
         ]
@@ -1869,97 +1621,42 @@
         "csi_code": "28 00 00",
         "bids": [
           {
-            "sub_id": "28-S1",
-            "company": "Southern Mechanical",
-            "contact": "Sam Rivera",
-            "email": "southernmechanical@contractor.com",
+            "sub_id": "S1",
+            "company": "Peachtree Framing",
+            "contact": "Priya Nair",
+            "email": "info@contractor.com",
             "source": "PDF",
             "submitted_date": "2024-04-18",
-            "base_bid": 170000,
+            "base_bid": 270000,
             "line_items": [
               {
                 "description": "Electronic Safety & Security - component 1",
-                "amount": 40000
+                "amount": 90000
               },
               {
                 "description": "Electronic Safety & Security - component 2",
-                "amount": 50000
+                "amount": 70000
               },
               {
                 "description": "Electronic Safety & Security - component 3",
-                "amount": 50000
-              },
-              {
-                "description": "Electronic Safety & Security - component 4",
-                "amount": 30000
+                "amount": 110000
               }
             ],
             "exclusions": [],
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
-            "notes": "Bid per Hartsfield Distribution Hub drawings issued 03/15/2024.",
+            "notes": "Bid per Hartsfield Distribution Hub drawings.",
             "post_bid_updates": []
           },
           {
-            "sub_id": "28-S2",
-            "company": "Atlanta Roofing",
-            "contact": "Walt Burns",
-            "email": "atlantaroofing@contractor.com",
+            "sub_id": "S2",
+            "company": "Georgia Systems",
+            "contact": "Rob Flores",
+            "email": "info@contractor.com",
             "source": "Excel",
             "submitted_date": "2024-04-19",
-            "base_bid": 105000,
-            "line_items": [
-              {
-                "description": "Electronic Safety & Security - component 1",
-                "amount": 25000
-              },
-              {
-                "description": "Electronic Safety & Security - component 2",
-                "amount": 20000
-              },
-              {
-                "description": "Electronic Safety & Security - component 3",
-                "amount": 15000
-              },
-              {
-                "description": "Electronic Safety & Security - component 4",
-                "amount": 20000
-              },
-              {
-                "description": "Electronic Safety & Security - component 5",
-                "amount": 25000
-              }
-            ],
-            "exclusions": [
-              "Exterior access control and parking - NOT IN CONTRACT",
-              "Extended warranty (by owner)"
-            ],
-            "inclusions": [
-              "All labor, material, and permits per contract documents"
-            ],
-            "notes": "Bid per Hartsfield Distribution Hub drawings issued 03/15/2024.",
-            "post_bid_updates": [
-              {
-                "update_id": "28-U1",
-                "date": "2024-04-28",
-                "from": "Walt Burns <atlantaroofing@contractor.com>",
-                "subject": "RE: Hartsfield Distribution Hub - Exterior access control and parking Add",
-                "body": "We can include Exterior access control and parking for an additional $5,000. Revised total would be $110,000.",
-                "revised_total": 110000,
-                "delta": 5000,
-                "scope_added": "Exterior access control and parking"
-              }
-            ]
-          },
-          {
-            "sub_id": "28-S3",
-            "company": "Piedmont Steel",
-            "contact": "Mike Torres",
-            "email": "piedmontsteel@contractor.com",
-            "source": "Email",
-            "submitted_date": "2024-04-20",
-            "base_bid": 235000,
+            "base_bid": 165000,
             "line_items": [
               {
                 "description": "Electronic Safety & Security - component 1",
@@ -1967,22 +1664,60 @@
               },
               {
                 "description": "Electronic Safety & Security - component 2",
-                "amount": 50000
+                "amount": 40000
               },
               {
                 "description": "Electronic Safety & Security - component 3",
-                "amount": 60000
+                "amount": 70000
+              }
+            ],
+            "exclusions": [
+              "Exterior access control and parking - NOT IN CONTRACT"
+            ],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Hartsfield Distribution Hub drawings.",
+            "post_bid_updates": [
+              {
+                "update_id": "U1",
+                "date": "2024-04-28",
+                "from": "Rob Flores <email@contractor.com>",
+                "subject": "RE: Hartsfield Distribution Hub - Exterior access control and parking Add",
+                "body": "We can include Exterior access control and parking for an additional $10,000. Revised total $175,000.",
+                "revised_total": 175000,
+                "delta": 10000,
+                "scope_added": "Exterior access control and parking"
+              }
+            ]
+          },
+          {
+            "sub_id": "S3",
+            "company": "Southern Contractors",
+            "contact": "Lisa Chang",
+            "email": "info@contractor.com",
+            "source": "Email",
+            "submitted_date": "2024-04-20",
+            "base_bid": 340000,
+            "line_items": [
+              {
+                "description": "Electronic Safety & Security - component 1",
+                "amount": 115000
               },
               {
-                "description": "Electronic Safety & Security - component 4",
-                "amount": 70000
+                "description": "Electronic Safety & Security - component 2",
+                "amount": 85000
+              },
+              {
+                "description": "Electronic Safety & Security - component 3",
+                "amount": 140000
               }
             ],
             "exclusions": [],
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
-            "notes": "Bid per Hartsfield Distribution Hub drawings issued 03/15/2024.",
+            "notes": "Bid per Hartsfield Distribution Hub drawings.",
             "post_bid_updates": []
           }
         ]
@@ -1992,17 +1727,46 @@
         "csi_code": "31 00 00",
         "bids": [
           {
-            "sub_id": "31-S1",
-            "company": "Atlanta Roofing",
-            "contact": "Lisa Chang",
-            "email": "atlantaroofing@contractor.com",
+            "sub_id": "S1",
+            "company": "Peachtree Electric",
+            "contact": "Mike Torres",
+            "email": "info@contractor.com",
             "source": "PDF",
             "submitted_date": "2024-04-18",
-            "base_bid": 675000,
+            "base_bid": 1440000,
             "line_items": [
               {
                 "description": "Earthwork, Grading & Site Preparation - component 1",
-                "amount": 190000
+                "amount": 480000
+              },
+              {
+                "description": "Earthwork, Grading & Site Preparation - component 2",
+                "amount": 360000
+              },
+              {
+                "description": "Earthwork, Grading & Site Preparation - component 3",
+                "amount": 600000
+              }
+            ],
+            "exclusions": [],
+            "inclusions": [
+              "All labor, material, and permits per contract documents"
+            ],
+            "notes": "Bid per Hartsfield Distribution Hub drawings.",
+            "post_bid_updates": []
+          },
+          {
+            "sub_id": "S2",
+            "company": "Georgia Concrete",
+            "contact": "Sandra Reeves",
+            "email": "info@contractor.com",
+            "source": "Excel",
+            "submitted_date": "2024-04-19",
+            "base_bid": 890000,
+            "line_items": [
+              {
+                "description": "Earthwork, Grading & Site Preparation - component 1",
+                "amount": 295000
               },
               {
                 "description": "Earthwork, Grading & Site Preparation - component 2",
@@ -2010,98 +1774,45 @@
               },
               {
                 "description": "Earthwork, Grading & Site Preparation - component 3",
-                "amount": 265000
-              }
-            ],
-            "exclusions": [],
-            "inclusions": [
-              "All labor, material, and permits per contract documents"
-            ],
-            "notes": "Bid per Hartsfield Distribution Hub drawings issued 03/15/2024.",
-            "post_bid_updates": []
-          },
-          {
-            "sub_id": "31-S2",
-            "company": "Piedmont Steel",
-            "contact": "James Brown",
-            "email": "piedmontsteel@contractor.com",
-            "source": "Excel",
-            "submitted_date": "2024-04-19",
-            "base_bid": 440000,
-            "line_items": [
-              {
-                "description": "Earthwork, Grading & Site Preparation - component 1",
-                "amount": 85000
-              },
-              {
-                "description": "Earthwork, Grading & Site Preparation - component 2",
-                "amount": 70000
-              },
-              {
-                "description": "Earthwork, Grading & Site Preparation - component 3",
-                "amount": 60000
-              },
-              {
-                "description": "Earthwork, Grading & Site Preparation - component 4",
-                "amount": 65000
-              },
-              {
-                "description": "Earthwork, Grading & Site Preparation - component 5",
-                "amount": 70000
-              },
-              {
-                "description": "Earthwork, Grading & Site Preparation - component 6",
-                "amount": 90000
+                "amount": 375000
               }
             ],
             "exclusions": [
-              "Rock excavation allowance - NOT IN CONTRACT",
-              "Extended warranty (by owner)"
+              "Rock excavation allowance - NOT IN CONTRACT"
             ],
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
-            "notes": "Bid per Hartsfield Distribution Hub drawings issued 03/15/2024.",
-            "post_bid_updates": [
-              {
-                "update_id": "31-U1",
-                "date": "2024-04-28",
-                "from": "James Brown <piedmontsteel@contractor.com>",
-                "subject": "RE: Hartsfield Distribution Hub - Rock excavation allowance Clarification",
-                "body": "Following up on our call \u2014 we can pick up Rock excavation allowance for $30,000 additional. Revised total $470,000.",
-                "revised_total": 470000,
-                "delta": 30000,
-                "scope_added": "Rock excavation allowance"
-              }
-            ]
+            "notes": "Bid per Hartsfield Distribution Hub drawings.",
+            "post_bid_updates": []
           },
           {
-            "sub_id": "31-S3",
-            "company": "Buckhead Interiors",
-            "contact": "Maria Valdez",
-            "email": "buckheadinteriors@contractor.com",
+            "sub_id": "S3",
+            "company": "Southern Mechanical",
+            "contact": "Dave Kim",
+            "email": "info@contractor.com",
             "source": "Email",
             "submitted_date": "2024-04-20",
-            "base_bid": 925000,
+            "base_bid": 1905000,
             "line_items": [
               {
                 "description": "Earthwork, Grading & Site Preparation - component 1",
-                "amount": 355000
+                "amount": 635000
               },
               {
                 "description": "Earthwork, Grading & Site Preparation - component 2",
-                "amount": 340000
+                "amount": 475000
               },
               {
                 "description": "Earthwork, Grading & Site Preparation - component 3",
-                "amount": 230000
+                "amount": 795000
               }
             ],
             "exclusions": [],
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
-            "notes": "Bid per Hartsfield Distribution Hub drawings issued 03/15/2024.",
+            "notes": "Bid per Hartsfield Distribution Hub drawings.",
             "post_bid_updates": []
           }
         ]
@@ -2111,113 +1822,92 @@
         "csi_code": "32 00 00",
         "bids": [
           {
-            "sub_id": "32-S1",
-            "company": "Georgia Concrete",
-            "contact": "Ed Turner",
-            "email": "georgiaconcrete@contractor.com",
+            "sub_id": "S1",
+            "company": "Peachtree Contractors",
+            "contact": "Lisa Chang",
+            "email": "info@contractor.com",
             "source": "PDF",
             "submitted_date": "2024-04-18",
-            "base_bid": 1035000,
+            "base_bid": 2210000,
             "line_items": [
               {
                 "description": "Site Paving, Curbs & Landscaping - component 1",
-                "amount": 280000
+                "amount": 735000
               },
               {
                 "description": "Site Paving, Curbs & Landscaping - component 2",
-                "amount": 245000
+                "amount": 550000
               },
               {
                 "description": "Site Paving, Curbs & Landscaping - component 3",
-                "amount": 220000
-              },
-              {
-                "description": "Site Paving, Curbs & Landscaping - component 4",
-                "amount": 290000
+                "amount": 925000
               }
             ],
             "exclusions": [],
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
-            "notes": "Bid per Hartsfield Distribution Hub drawings issued 03/15/2024.",
+            "notes": "Bid per Hartsfield Distribution Hub drawings.",
             "post_bid_updates": []
           },
           {
-            "sub_id": "32-S2",
-            "company": "Southern Mechanical",
-            "contact": "Carl Johnson",
-            "email": "southernmechanical@contractor.com",
+            "sub_id": "S2",
+            "company": "Georgia Electric",
+            "contact": "Mike Torres",
+            "email": "info@contractor.com",
             "source": "Excel",
             "submitted_date": "2024-04-19",
-            "base_bid": 670000,
+            "base_bid": 1425000,
             "line_items": [
               {
                 "description": "Site Paving, Curbs & Landscaping - component 1",
-                "amount": 115000
+                "amount": 475000
               },
               {
                 "description": "Site Paving, Curbs & Landscaping - component 2",
-                "amount": 150000
+                "amount": 355000
               },
               {
                 "description": "Site Paving, Curbs & Landscaping - component 3",
-                "amount": 125000
-              },
-              {
-                "description": "Site Paving, Curbs & Landscaping - component 4",
-                "amount": 125000
-              },
-              {
-                "description": "Site Paving, Curbs & Landscaping - component 5",
-                "amount": 155000
+                "amount": 595000
               }
             ],
             "exclusions": [
-              "Landscaping and irrigation - NOT IN CONTRACT",
-              "Extended warranty (by owner)"
+              "Landscaping and irrigation - NOT IN CONTRACT"
             ],
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
-            "notes": "Bid per Hartsfield Distribution Hub drawings issued 03/15/2024.",
+            "notes": "Bid per Hartsfield Distribution Hub drawings.",
             "post_bid_updates": []
           },
           {
-            "sub_id": "32-S3",
-            "company": "Atlanta Roofing",
-            "contact": "Pete Adams",
-            "email": "atlantaroofing@contractor.com",
+            "sub_id": "S3",
+            "company": "Southern Concrete",
+            "contact": "Sandra Reeves",
+            "email": "info@contractor.com",
             "source": "Email",
             "submitted_date": "2024-04-20",
-            "base_bid": 1300000,
+            "base_bid": 2845000,
             "line_items": [
               {
                 "description": "Site Paving, Curbs & Landscaping - component 1",
-                "amount": 255000
+                "amount": 950000
               },
               {
                 "description": "Site Paving, Curbs & Landscaping - component 2",
-                "amount": 280000
+                "amount": 710000
               },
               {
                 "description": "Site Paving, Curbs & Landscaping - component 3",
-                "amount": 220000
-              },
-              {
-                "description": "Site Paving, Curbs & Landscaping - component 4",
-                "amount": 310000
-              },
-              {
-                "description": "Site Paving, Curbs & Landscaping - component 5",
-                "amount": 235000
+                "amount": 1185000
               }
             ],
             "exclusions": [],
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
-            "notes": "Bid per Hartsfield Distribution Hub drawings issued 03/15/2024.",
+            "notes": "Bid per Hartsfield Distribution Hub drawings.",
             "post_bid_updates": []
           }
         ]
@@ -2227,66 +1917,54 @@
         "csi_code": "33 00 00",
         "bids": [
           {
-            "sub_id": "33-S1",
-            "company": "Peachtree Electric",
-            "contact": "Rob Flores",
-            "email": "peachtreeelectric@contractor.com",
+            "sub_id": "S1",
+            "company": "Peachtree Contractors",
+            "contact": "Lisa Chang",
+            "email": "info@contractor.com",
             "source": "PDF",
             "submitted_date": "2024-04-18",
-            "base_bid": 575000,
+            "base_bid": 1185000,
             "line_items": [
               {
                 "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 1",
-                "amount": 75000
+                "amount": 395000
               },
               {
                 "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 2",
-                "amount": 85000
+                "amount": 295000
               },
               {
                 "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 3",
-                "amount": 115000
-              },
-              {
-                "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 4",
-                "amount": 85000
-              },
-              {
-                "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 5",
-                "amount": 80000
-              },
-              {
-                "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 6",
-                "amount": 135000
+                "amount": 495000
               }
             ],
             "exclusions": [],
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
-            "notes": "Bid per Hartsfield Distribution Hub drawings issued 03/15/2024.",
+            "notes": "Bid per Hartsfield Distribution Hub drawings.",
             "post_bid_updates": []
           },
           {
-            "sub_id": "33-S2",
-            "company": "Georgia Concrete",
-            "contact": "Lisa Chang",
-            "email": "georgiaconcrete@contractor.com",
+            "sub_id": "S2",
+            "company": "Georgia Electric",
+            "contact": "Mike Torres",
+            "email": "info@contractor.com",
             "source": "Excel",
             "submitted_date": "2024-04-19",
-            "base_bid": 365000,
+            "base_bid": 710000,
             "line_items": [
               {
                 "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 1",
-                "amount": 115000
+                "amount": 235000
               },
               {
                 "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 2",
-                "amount": 130000
+                "amount": 180000
               },
               {
                 "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 3",
-                "amount": 120000
+                "amount": 295000
               }
             ],
             "exclusions": [
@@ -2295,36 +1973,47 @@
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
-            "notes": "Bid per Hartsfield Distribution Hub drawings issued 03/15/2024.",
-            "post_bid_updates": []
+            "notes": "Bid per Hartsfield Distribution Hub drawings.",
+            "post_bid_updates": [
+              {
+                "update_id": "U1",
+                "date": "2024-04-28",
+                "from": "Mike Torres <email@contractor.com>",
+                "subject": "RE: Hartsfield Distribution Hub - Underground fire line Add",
+                "body": "We can include Underground fire line for an additional $50,000. Revised total $760,000.",
+                "revised_total": 760000,
+                "delta": 50000,
+                "scope_added": "Underground fire line"
+              }
+            ]
           },
           {
-            "sub_id": "33-S3",
-            "company": "Southern Mechanical",
-            "contact": "James Brown",
-            "email": "southernmechanical@contractor.com",
+            "sub_id": "S3",
+            "company": "Southern Concrete",
+            "contact": "Sandra Reeves",
+            "email": "info@contractor.com",
             "source": "Email",
             "submitted_date": "2024-04-20",
-            "base_bid": 705000,
+            "base_bid": 1425000,
             "line_items": [
               {
                 "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 1",
-                "amount": 225000
+                "amount": 475000
               },
               {
                 "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 2",
-                "amount": 250000
+                "amount": 355000
               },
               {
                 "description": "Site Utilities (Water, Sewer, Storm, Gas) - component 3",
-                "amount": 230000
+                "amount": 595000
               }
             ],
             "exclusions": [],
             "inclusions": [
               "All labor, material, and permits per contract documents"
             ],
-            "notes": "Bid per Hartsfield Distribution Hub drawings issued 03/15/2024.",
+            "notes": "Bid per Hartsfield Distribution Hub drawings.",
             "post_bid_updates": []
           }
         ]
@@ -2341,181 +2030,181 @@
         "trade": "Demolition & Site Clearing",
         "csi_code": "02 40 00",
         "unit": "$/SF",
-        "low": 0.27,
-        "mid": 0.41,
-        "high": 0.61,
-        "notes": "Warehouse / Distribution benchmark \u2014 Atlanta, GA"
+        "low": 0.49,
+        "mid": 0.74,
+        "high": 1.11,
+        "notes": "Warehouse/Distribution benchmark \u2014 Atlanta, GA"
       },
       {
         "trade": "Concrete",
         "csi_code": "03 00 00",
         "unit": "$/SF",
-        "low": 1.31,
-        "mid": 1.66,
-        "high": 2.18,
-        "notes": "Warehouse / Distribution benchmark \u2014 Atlanta, GA"
+        "low": 3.17,
+        "mid": 4.01,
+        "high": 5.28,
+        "notes": "Warehouse/Distribution benchmark \u2014 Atlanta, GA"
       },
       {
         "trade": "Masonry",
         "csi_code": "04 00 00",
         "unit": "$/SF",
-        "low": 0.44,
-        "mid": 0.61,
-        "high": 0.81,
-        "notes": "Warehouse / Distribution benchmark \u2014 Atlanta, GA"
+        "low": 0.4,
+        "mid": 0.55,
+        "high": 0.74,
+        "notes": "Warehouse/Distribution benchmark \u2014 Atlanta, GA"
       },
       {
         "trade": "Structural Steel & Misc Metals",
         "csi_code": "05 00 00",
         "unit": "$/SF",
-        "low": 2.71,
-        "mid": 3.52,
-        "high": 4.4,
-        "notes": "Warehouse / Distribution benchmark \u2014 Atlanta, GA"
+        "low": 7.74,
+        "mid": 10.07,
+        "high": 12.58,
+        "notes": "Warehouse/Distribution benchmark \u2014 Atlanta, GA"
       },
       {
         "trade": "Roofing, Waterproofing & Insulation",
         "csi_code": "07 00 00",
         "unit": "$/SF",
-        "low": 1.06,
-        "mid": 1.45,
-        "high": 1.94,
-        "notes": "Warehouse / Distribution benchmark \u2014 Atlanta, GA"
+        "low": 2.13,
+        "mid": 2.9,
+        "high": 3.87,
+        "notes": "Warehouse/Distribution benchmark \u2014 Atlanta, GA"
       },
       {
         "trade": "Doors, Frames, Hardware & Glazing",
         "csi_code": "08 00 00",
         "unit": "$/SF",
-        "low": 0.68,
-        "mid": 0.87,
-        "high": 1.16,
-        "notes": "Warehouse / Distribution benchmark \u2014 Atlanta, GA"
+        "low": 0.74,
+        "mid": 0.95,
+        "high": 1.27,
+        "notes": "Warehouse/Distribution benchmark \u2014 Atlanta, GA"
       },
       {
         "trade": "Drywall & Framing",
         "csi_code": "09 20 00",
         "unit": "$/SF",
-        "low": 0.26,
-        "mid": 0.35,
-        "high": 0.46,
-        "notes": "Warehouse / Distribution benchmark \u2014 Atlanta, GA"
+        "low": 0.32,
+        "mid": 0.42,
+        "high": 0.56,
+        "notes": "Warehouse/Distribution benchmark \u2014 Atlanta, GA"
       },
       {
         "trade": "Flooring",
         "csi_code": "09 60 00",
         "unit": "$/SF",
-        "low": 0.48,
-        "mid": 0.62,
-        "high": 0.81,
-        "notes": "Warehouse / Distribution benchmark \u2014 Atlanta, GA"
+        "low": 0.66,
+        "mid": 0.84,
+        "high": 1.11,
+        "notes": "Warehouse/Distribution benchmark \u2014 Atlanta, GA"
       },
       {
         "trade": "Painting & Wall Coverings",
         "csi_code": "09 90 00",
         "unit": "$/SF",
-        "low": 0.15,
-        "mid": 0.2,
-        "high": 0.26,
-        "notes": "Warehouse / Distribution benchmark \u2014 Atlanta, GA"
+        "low": 0.18,
+        "mid": 0.25,
+        "high": 0.32,
+        "notes": "Warehouse/Distribution benchmark \u2014 Atlanta, GA"
       },
       {
         "trade": "Acoustical Ceilings (ACT)",
         "csi_code": "09 51 00",
         "unit": "$/SF",
-        "low": 0.14,
-        "mid": 0.17,
-        "high": 0.23,
-        "notes": "Warehouse / Distribution benchmark \u2014 Atlanta, GA"
+        "low": 0.12,
+        "mid": 0.16,
+        "high": 0.21,
+        "notes": "Warehouse/Distribution benchmark \u2014 Atlanta, GA"
       },
       {
         "trade": "Specialties",
         "csi_code": "10 00 00",
         "unit": "$/SF",
-        "low": 0.14,
-        "mid": 0.19,
-        "high": 0.27,
-        "notes": "Warehouse / Distribution benchmark \u2014 Atlanta, GA"
+        "low": 0.12,
+        "mid": 0.18,
+        "high": 0.25,
+        "notes": "Warehouse/Distribution benchmark \u2014 Atlanta, GA"
       },
       {
         "trade": "Fire Suppression (Sprinklers)",
         "csi_code": "21 00 00",
         "unit": "$/SF",
-        "low": 0.7,
-        "mid": 0.93,
-        "high": 1.16,
-        "notes": "Warehouse / Distribution benchmark \u2014 Atlanta, GA"
+        "low": 1.58,
+        "mid": 2.11,
+        "high": 2.64,
+        "notes": "Warehouse/Distribution benchmark \u2014 Atlanta, GA"
       },
       {
         "trade": "Plumbing",
         "csi_code": "22 00 00",
         "unit": "$/SF",
-        "low": 0.74,
-        "mid": 0.93,
-        "high": 1.16,
-        "notes": "Warehouse / Distribution benchmark \u2014 Atlanta, GA"
+        "low": 1.0,
+        "mid": 1.27,
+        "high": 1.58,
+        "notes": "Warehouse/Distribution benchmark \u2014 Atlanta, GA"
       },
       {
         "trade": "Mechanical (HVAC)",
         "csi_code": "23 00 00",
         "unit": "$/SF",
-        "low": 0.87,
-        "mid": 1.12,
-        "high": 1.39,
-        "notes": "Warehouse / Distribution benchmark \u2014 Atlanta, GA"
+        "low": 1.98,
+        "mid": 2.55,
+        "high": 3.17,
+        "notes": "Warehouse/Distribution benchmark \u2014 Atlanta, GA"
       },
       {
         "trade": "Electrical",
         "csi_code": "26 00 00",
         "unit": "$/SF",
-        "low": 1.02,
-        "mid": 1.28,
-        "high": 1.6,
-        "notes": "Warehouse / Distribution benchmark \u2014 Atlanta, GA"
+        "low": 2.46,
+        "mid": 3.1,
+        "high": 3.87,
+        "notes": "Warehouse/Distribution benchmark \u2014 Atlanta, GA"
       },
       {
         "trade": "Communications (Data, AV, Tel)",
         "csi_code": "27 00 00",
         "unit": "$/SF",
-        "low": 0.29,
-        "mid": 0.44,
-        "high": 0.58,
-        "notes": "Warehouse / Distribution benchmark \u2014 Atlanta, GA"
+        "low": 0.42,
+        "mid": 0.63,
+        "high": 0.84,
+        "notes": "Warehouse/Distribution benchmark \u2014 Atlanta, GA"
       },
       {
         "trade": "Electronic Safety & Security",
         "csi_code": "28 00 00",
         "unit": "$/SF",
-        "low": 0.29,
-        "mid": 0.41,
-        "high": 0.55,
-        "notes": "Warehouse / Distribution benchmark \u2014 Atlanta, GA"
+        "low": 0.44,
+        "mid": 0.62,
+        "high": 0.84,
+        "notes": "Warehouse/Distribution benchmark \u2014 Atlanta, GA"
       },
       {
         "trade": "Earthwork, Grading & Site Preparation",
         "csi_code": "31 00 00",
         "unit": "$/SF",
-        "low": 1.16,
-        "mid": 1.63,
-        "high": 2.21,
-        "notes": "Warehouse / Distribution benchmark \u2014 Atlanta, GA"
+        "low": 2.46,
+        "mid": 3.45,
+        "high": 4.68,
+        "notes": "Warehouse/Distribution benchmark \u2014 Atlanta, GA"
       },
       {
         "trade": "Site Paving, Curbs & Landscaping",
         "csi_code": "32 00 00",
         "unit": "$/SF",
-        "low": 1.9,
-        "mid": 2.44,
-        "high": 3.25,
-        "notes": "Warehouse / Distribution benchmark \u2014 Atlanta, GA"
+        "low": 3.94,
+        "mid": 5.07,
+        "high": 6.76,
+        "notes": "Warehouse/Distribution benchmark \u2014 Atlanta, GA"
       },
       {
         "trade": "Site Utilities (Water, Sewer, Storm, Gas)",
         "csi_code": "33 00 00",
         "unit": "$/SF",
-        "low": 0.97,
-        "mid": 1.36,
-        "high": 1.74,
-        "notes": "Warehouse / Distribution benchmark \u2014 Atlanta, GA"
+        "low": 1.94,
+        "mid": 2.71,
+        "high": 3.48,
+        "notes": "Warehouse/Distribution benchmark \u2014 Atlanta, GA"
       }
     ]
   },
@@ -2531,16 +2220,16 @@
           {
             "description": "Project Manager (14 months)",
             "unit": "LS",
-            "monthly_rate": 11440,
+            "monthly_rate": 10560,
             "months": 14,
-            "total": 160160
+            "total": 147840
           },
           {
             "description": "Project Engineer (14 months)",
             "unit": "LS",
-            "monthly_rate": 6600,
+            "monthly_rate": 5720,
             "months": 14,
-            "total": 92400
+            "total": 80080
           }
         ]
       },
@@ -2550,40 +2239,35 @@
           {
             "description": "General Superintendent (14 months)",
             "unit": "LS",
-            "monthly_rate": 9240,
+            "monthly_rate": 8360,
             "months": 14,
-            "total": 129360
+            "total": 117040
           },
           {
-            "description": "Assistant Superintendent (10 months)",
+            "description": "Assistant Superintendent (12 months)",
             "unit": "LS",
-            "monthly_rate": 7040,
-            "months": 10,
-            "total": 70400
+            "monthly_rate": 6600,
+            "months": 12,
+            "total": 79200
           }
         ]
       },
       {
-        "category": "Temporary Facilities",
+        "category": "Temporary Facilities & Operations",
         "items": [
           {
             "description": "Field office, toilets, fencing, temp power",
             "unit": "LS",
-            "monthly_rate": 3520,
+            "monthly_rate": 2816,
             "months": 14,
-            "total": 49280
-          }
-        ]
-      },
-      {
-        "category": "Site Operations",
-        "items": [
+            "total": 39424
+          },
           {
             "description": "Cleanup, dumpsters, safety, vehicles",
             "unit": "LS",
-            "monthly_rate": 4840,
+            "monthly_rate": 4400,
             "months": 14,
-            "total": 67760
+            "total": 61600
           }
         ]
       },
@@ -2595,7 +2279,7 @@
             "unit": "LS",
             "monthly_rate": null,
             "months": null,
-            "total": 1760000
+            "total": 1126400
           }
         ]
       },
@@ -2607,24 +2291,12 @@
             "unit": "LS",
             "monthly_rate": null,
             "months": null,
-            "total": 633600
-          }
-        ]
-      },
-      {
-        "category": "Technology",
-        "items": [
-          {
-            "description": "BIM, Procore, closeout documentation",
-            "unit": "LS",
-            "monthly_rate": 1584,
-            "months": 14,
-            "total": 22176
+            "total": 281600
           }
         ]
       }
     ],
-    "subtotal_gc": 2985136,
+    "subtotal_gc": 1933184,
     "gc_fee_percent": 5.0,
     "contingency_percent": 2.5
   }

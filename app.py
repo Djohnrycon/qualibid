@@ -88,7 +88,7 @@ with tab1:
 
             with cols[i]:
                 badge = f":{('blue' if src=='PDF' else 'green' if src=='Excel' else 'orange')}[{SOURCE_ICONS[src]} {src}]"
-                update_badge = "  🔄 **Updated**" if has_update else ""
+                update_badge = " · 🔄 **Updated**" if has_update else ""
                 st.markdown(f"**{bid['company']}**  {badge}{update_badge}")
                 st.markdown(f"*{bid['contact']}*  ·  Submitted {bid['submitted_date']}")
                 st.metric(
@@ -108,7 +108,7 @@ with tab1:
                             st.markdown(f"**{upd['date']}** — {upd['from']}")
                             st.markdown(f"**Subject:** {upd['subject']}")
                             st.info(upd["body"])
-                            st.success(f"Revised Total: **${upd['revised_total']:,.0f}**  (+${upd['delta']:,.0f} for: {upd['scope_added']})")
+                            st.success(f"Revised Total: **${upd['revised_total']:,.0f}** (+${upd['delta']:,.0f} for: {upd['scope_added']})")
         st.divider()
 
 # ── Tab 2: Bid Leveling ──────────────────────────────────────────────────────
@@ -195,7 +195,7 @@ Write a 3-4 sentence email. Be direct and professional. Ask for a revised number
                     messages=[{"role": "user", "content": prompt}]
                 )
                 st.markdown("**Generated Email:**")
-                st.text_area("Copy and send this:", msg.content[0].text, height=200)
+                st.text_area("Review and copy before sending:", msg.content[0].text, height=200)
 
 # ── Tab 3: Cost Benchmarking ─────────────────────────────────────────────────
 with tab3:
@@ -300,9 +300,15 @@ Be specific with company names and dollar amounts. This is a real pre-constructi
                 for t in trades for b in t["bids"]
             )
             m1, m2, m3 = st.columns(3)
-            m1.metric("Total Bids Analyzed", f"{sum(len(t['bids']) for t in trades)}")
-            m2.metric("Post-Bid Updates Captured", f"{sum(len(b['post_bid_updates']) for t in trades for b in t['bids'])}")
-            m3.metric("Total Bid Value in Scope", f"${total_bids:,.0f}")
+            leveled_direct = sum(
+                min((b["post_bid_updates"][-1]["revised_total"] if b["post_bid_updates"] else b["base_bid"]) for b in t["bids"])
+                for t in trades
+            )
+            m1, m2, m3, m4 = st.columns(4)
+            m1.metric("Total Bids Analyzed", f"{sum(len(t['bids']) for t in trades)}", help="Number of individual sub bids received across all trade packages.")
+            m2.metric("Post-Bid Updates Captured", f"{sum(len(b['post_bid_updates']) for t in trades for b in t['bids'])}", help="Email updates that revised a bid after initial submission — each one would have been easy to miss without QualiBid.")
+            m3.metric("Leveled Direct Cost", f"${leveled_direct:,.0f}", help="Sum of the lowest complete bid per trade. This is the recommended direct construction cost going into the proposal.")
+            m4.metric("Total Submitted Bid Volume", f"${total_bids:,.0f}", help="Sum of all bids received from all subcontractors across all trades. This is larger than the project cost because multiple subs competed on each trade.")
 
 # ── Tab 5: Proposal Summary ──────────────────────────────────────────────────
 with tab5:
@@ -355,7 +361,7 @@ with tab5:
     st.dataframe(display_df.style.applymap(color_status, subset=["Status"]), use_container_width=True, hide_index=True, height=680)
 
     st.markdown("---")
-    st.markdown("### General Conditions & Requirements  `01 00 00`")
+    st.markdown("### General Conditions & Requirements `01 00 00`")
     gc_rows = []
     for cat in gc_data["line_items"]:
         for item in cat["items"]:
